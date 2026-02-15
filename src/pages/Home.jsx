@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, ScrollText } from 'lucide-react';
 import { motion } from 'framer-motion';
 import DocumentCard from '../components/DocumentCard';
@@ -7,9 +7,14 @@ import Timeline from '../components/Timeline';
 import documentsData from '../data/documents.json';
 
 const Home = () => {
+    const navigate = useNavigate();
     // Get latest 3 documents
     const recentDocuments = documentsData.slice(0, 3);
     const events = documentsData.map(({ id, title, year, category }) => ({ id, title, year, category }));
+
+    const handleEventClick = (event) => {
+        navigate(`/document/${event.id}`);
+    };
 
     return (
         <>
@@ -89,7 +94,7 @@ const Home = () => {
                 <div className="container mx-auto px-4 mb-8 text-center">
                     <h2 className="text-3xl font-serif font-bold text-ink">Geschichte im Zeitverlauf</h2>
                 </div>
-                <Timeline events={events} />
+                <Timeline events={events} onSelectEvent={handleEventClick} />
             </section>
         </>
     );

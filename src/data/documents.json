@@ -40,7 +40,7 @@
             "Die Gemeinde hat im Jahr 1924/1925 den Bau begonnen von Elektrizitäth. Im Juni 1925 wurde Licht und Kraft eingeschaltet und die alten Erdöl Lichter sind verschwunden. Am 26. Oktober 1931 hat es ein Schnee, daß man am 27. Oktober 1931 auf den Straßen Schnee schaufeln mußte. Zum Teil mußten Bahnschlitten geführt werden."
         ],
         "images": [
-            "/images/placeholder-doc-2.jpg"
+            "/images/brand-riedetsweiler-1964.png"
         ],
         "metadata": {
             "author": "Johann Hipp",
@@ -158,6 +158,46 @@
             "author": "Landwirtschaftsamt",
             "source": "Kreisarchiv",
             "condition": "Maschinengeschrieben"
+        }
+    },
+    {
+        "id": "doc-006",
+        "title": "Zeitungsartikel Brand Riedetsweiler",
+        "year": 1964,
+        "category": "Zeitungsartikel",
+        "subcategory": "Brandereignis",
+        "location": "Riedetsweiler",
+        "description": "Bericht über einen Großbrand auf dem Anwesen von Sales Hipp in Riedetsweiler.",
+        "transcription": [
+            "## Zeitungsartikel – Brand in Riedetsweiler",
+            "Zeitungsbericht vom 03.08.1964",
+            "",
+            "Kurz vor 22:30 Uhr, als sich viele Einwohner schon im ersten Schlaf befanden, wurden sie durch Feueralarm aufgeschreckt. Der stattliche Bauernhof von **Sales Hipp** stand in hellen Flammen.",
+            "",
+            "In den großen Futtervorräten fand das Feuer reichlich Nahrung. Es breitete sich mit rasender Geschwindigkeit über das ganze Anwesen aus.",
+            "",
+            "Der jüngste Sohn hörte das Knistern zuerst und weckte die Eltern, die nur notdürftig bekleidet das nackte Leben retten konnten.",
+            "",
+            "Dank des raschen Eingreifens der Nachbarn konnte das Vieh gerettet werden. Ein Großteil der Fahrnisse wurde ein Raub der Flammen.",
+            "",
+            "Bis zum Eintreffen des Motorlöschzuges Wald leisteten die Ortsfeuerwehr Riedetsweiler und ein Teil der Wehrmänner aus dem benachbarten Aach-Linz gute Dienste.",
+            "",
+            "So konnte verhindert werden, daß das Feuer auf das gegenüberliegende ältere Ökonomiegebäude übergriff.",
+            "",
+            "Das Wohnhaus konnte teilweise gerettet werden, doch hat es unter dem Wasserschaden sehr gelitten.",
+            "",
+            "Der Brandschaden wird auf **150.000 DM** geschätzt.",
+            "",
+            "Das Feuer ist vermutlich im Heustock über dem Viehstall entstanden."
+        ],
+        "images": [
+            "/images/brand-riedetsweiler-1964.png"
+        ],
+        "metadata": {
+            "author": "Unbekannt",
+            "source": "Südkurier, 03.08.1964",
+            "archive_reference": "Zeitungsartikel",
+            "condition": "Textüberlieferung"
         }
     }
 ]

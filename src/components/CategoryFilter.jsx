@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const CategoryFilter = ({ categories, selectedCategories, onToggleCategory }) => {
     // derived state: find which main categories are selected to show their subcategories
