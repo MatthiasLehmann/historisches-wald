@@ -1,0 +1,73 @@
+[
+    {
+        "id": "Kirche",
+        "label": "Kirche",
+        "subcategories": [
+            {
+                "id": "Pfarrei",
+                "label": "Pfarrei"
+            },
+            {
+                "id": "Gebaude",
+                "label": "Gebäude"
+            },
+            {
+                "id": "Liturgie",
+                "label": "Liturgie"
+            }
+        ]
+    },
+    {
+        "id": "Verwaltung",
+        "label": "Verwaltung",
+        "subcategories": [
+            {
+                "id": "Gemeinde",
+                "label": "Gemeinde"
+            },
+            {
+                "id": "Bauamt",
+                "label": "Bauamt"
+            }
+        ]
+    },
+    {
+        "id": "Handwerk",
+        "label": "Handwerk",
+        "subcategories": []
+    },
+    {
+        "id": "Schule",
+        "label": "Schule",
+        "subcategories": [
+            {
+                "id": "Volksschule",
+                "label": "Volksschule"
+            }
+        ]
+    },
+    {
+        "id": "Landwirtschaft",
+        "label": "Landwirtschaft",
+        "subcategories": []
+    },
+    {
+        "id": "Vereine",
+        "label": "Vereine",
+        "subcategories": [
+            {
+                "id": "Feuerwehr",
+                "label": "Feuerwehr"
+            },
+            {
+                "id": "Musik",
+                "label": "Musik"
+            }
+        ]
+    },
+    {
+        "id": "Ortschronik",
+        "label": "Ortschronik",
+        "subcategories": []
+    }
+]
