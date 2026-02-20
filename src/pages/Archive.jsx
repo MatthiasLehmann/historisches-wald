@@ -1,41 +1,77 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import { Search } from 'lucide-react';
 import DocumentCard from '../components/DocumentCard';
 import CategoryFilter from '../components/CategoryFilter';
 import documentsData from '../data/documents.json';
 import categoriesData from '../data/categories.json';
 
-const Archive = () => {
-    const [selectedCategories, setSelectedCategories] = useState([]);
-    const [searchTerm, setSearchTerm] = useState('');
+const flattenCategories = (categories) => {
+    const map = {};
 
-    const toggleCategory = (category) => {
-        if (category === 'RESET') {
-            setSelectedCategories([]);
-            return;
-        }
-        setSelectedCategories(prev => {
-            if (prev.includes(category)) {
-                return prev.filter(c => c !== category);
-            } else {
-                return [...prev, category];
+    const traverse = (nodes = [], parentId = null) => {
+        nodes.forEach((node) => {
+            if (!node?.id) return;
+            map[node.id] = { label: node.label, parentId };
+            if (Array.isArray(node.subcategories) && node.subcategories.length > 0) {
+                traverse(node.subcategories, node.id);
             }
         });
     };
 
-    const filteredDocuments = useMemo(() => {
-        return documentsData.filter(doc => {
-            // Category Match: True if no categories selected, OR if doc matches ANY selected category (Main or Sub)
-            const matchesCategory = selectedCategories.length === 0 ||
-                selectedCategories.includes(doc.category) ||
-                (doc.subcategory && selectedCategories.includes(doc.subcategory));
+    traverse(categories);
+    return map;
+};
 
-            const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                doc.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                doc.year.toString().includes(searchTerm);
-            return matchesCategory && matchesSearch;
+const CATEGORY_INDEX = flattenCategories(categoriesData);
+
+const Archive = () => {
+    const [selectedCategories, setSelectedCategories] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const toggleCategory = (categoryId) => {
+        if (categoryId === 'RESET') {
+            setSelectedCategories([]);
+            return;
+        }
+        setSelectedCategories(prev => (
+            prev.includes(categoryId)
+                ? prev.filter(c => c !== categoryId)
+                : [...prev, categoryId]
+        ));
+    };
+
+    const matchesCategorySelection = (doc) => {
+        if (selectedCategories.length === 0) return true;
+
+        const docTokens = [
+            doc.category,
+            ...(Array.isArray(doc.subcategories) ? doc.subcategories : (doc.subcategory ? [doc.subcategory] : [])),
+            ...(doc.tags || []),
+        ].filter(Boolean).map(token => token.toString().toLowerCase());
+
+        const docCategoryIds = (doc.categoryIds || []).map(String);
+
+        return selectedCategories.some((categoryId) => {
+            const node = CATEGORY_INDEX[categoryId];
+            if (!node) return false;
+
+            if (docCategoryIds.includes(categoryId)) {
+                return true;
+            }
+
+            const label = node.label?.toLowerCase();
+            return label ? docTokens.includes(label) : false;
         });
-    }, [selectedCategories, searchTerm]);
+    };
+
+    const filteredDocuments = documentsData.filter(doc => {
+        const matchesCategory = matchesCategorySelection(doc);
+
+        const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            doc.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            doc.year.toString().includes(searchTerm);
+        return matchesCategory && matchesSearch;
+    });
 
     return (
         <div className="container mx-auto px-4 py-8">
@@ -46,41 +82,50 @@ const Archive = () => {
                 </p>
             </header>
 
-            <div className="max-w-xl mx-auto mb-8 relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-ink/40">
-                    <Search size={20} />
-                </div>
-                <input
-                    type="text"
-                    placeholder="Suchen nach Titel, Jahr oder Stichwort..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 bg-parchment-light border border-parchment-dark rounded-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all shadow-inner"
-                />
-            </div>
-
-            <CategoryFilter
-                categories={categoriesData}
-                selectedCategories={selectedCategories}
-                onToggleCategory={toggleCategory}
-            />
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {filteredDocuments.length > 0 ? (
-                    filteredDocuments.map(doc => (
-                        <DocumentCard key={doc.id} document={doc} />
-                    ))
-                ) : (
-                    <div className="col-span-full text-center py-12 text-ink/40">
-                        <p className="text-xl font-serif">Keine Dokumente gefunden.</p>
-                        <button
-                            onClick={() => { setSelectedCategories([]); setSearchTerm(''); }}
-                            className="mt-4 text-accent hover:underline"
-                        >
-                            Filter zurücksetzen
-                        </button>
+            <div className="flex flex-col lg:flex-row gap-8">
+                <aside className="lg:w-1/3">
+                    <div className="bg-parchment-dark/30 border border-parchment-dark rounded-sm p-4 lg:sticky lg:top-28">
+                        <h2 className="text-sm font-semibold uppercase tracking-[0.3em] text-ink/50 mb-3">Kategorien</h2>
+                        <CategoryFilter
+                            categories={categoriesData}
+                            selectedCategories={selectedCategories}
+                            onToggleCategory={toggleCategory}
+                        />
                     </div>
-                )}
+                </aside>
+
+                <section className="flex-1 space-y-8">
+                    <div className="relative">
+                        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-ink/40">
+                            <Search size={20} />
+                        </div>
+                        <input
+                            type="text"
+                            placeholder="Suchen nach Titel, Jahr oder Stichwort..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                            className="w-full pl-10 pr-4 py-3 bg-parchment-light border border-parchment-dark rounded-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all shadow-inner"
+                        />
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                        {filteredDocuments.length > 0 ? (
+                            filteredDocuments.map(doc => (
+                                <DocumentCard key={doc.id} document={doc} />
+                            ))
+                        ) : (
+                            <div className="col-span-full text-center py-12 text-ink/40 bg-parchment/60 border border-dashed border-parchment-dark rounded-sm">
+                                <p className="text-xl font-serif">Keine Dokumente gefunden.</p>
+                                <button
+                                    onClick={() => { setSelectedCategories([]); setSearchTerm(''); }}
+                                    className="mt-4 text-accent hover:underline"
+                                >
+                                    Filter zurücksetzen
+                                </button>
+                            </div>
+                        )}
+                    </div>
+                </section>
             </div>
         </div>
     );

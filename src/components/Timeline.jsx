@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useScroll } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 
 const Timeline = ({ events, onSelectEvent }) => {
@@ -43,7 +43,7 @@ const Timeline = ({ events, onSelectEvent }) => {
                     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
                 >
                     {sortedEvents.map((event, index) => (
-                        <motion.div
+                        <Motion.div
                             key={event.id}
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
@@ -61,7 +61,7 @@ const Timeline = ({ events, onSelectEvent }) => {
                                     <p className="text-xs text-ink/60 mt-1">{event.category}</p>
                                 </div>
                             </div>
-                        </motion.div>
+                        </Motion.div>
                     ))}
                 </div>
             </div>

@@ -1,82 +1,107 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion as Motion, AnimatePresence } from 'framer-motion';
+import { ChevronRight } from 'lucide-react';
 
 const CategoryFilter = ({ categories, selectedCategories, onToggleCategory }) => {
-    // derived state: find which main categories are selected to show their subcategories
-    const selectedMainCategories = categories.filter(cat =>
-        selectedCategories.includes(cat.label) ||
-        cat.subcategories.some(sub => selectedCategories.includes(sub.label))
+    const isSelected = (id) => selectedCategories.includes(id);
+    const hasChildren = (category) => Array.isArray(category?.subcategories) && category.subcategories.length > 0;
+
+    const [expandedNodes, setExpandedNodes] = React.useState(() => new Set(categories.map(cat => cat.id)));
+
+    React.useEffect(() => {
+        setExpandedNodes(new Set(categories.map(cat => cat.id)));
+    }, [categories]);
+
+    const toggleExpand = (id) => {
+        setExpandedNodes((prev) => {
+            const next = new Set(prev);
+            if (next.has(id)) {
+                next.delete(id);
+            } else {
+                next.add(id);
+            }
+            return next;
+        });
+    };
+
+    const renderNodes = (nodes, depth = 0) => (
+        nodes.map((node) => {
+            const active = isSelected(node.id);
+            const expandable = hasChildren(node);
+            const expanded = expandedNodes.has(node.id);
+
+            return (
+                <div key={`${node.id}-${depth}`} className="space-y-1">
+                    <div
+                        className="flex items-center gap-2 py-1 rounded-sm"
+                        style={{ paddingLeft: `${depth * 1.25}rem` }}
+                    >
+                        {expandable ? (
+                            <button
+                                type="button"
+                                onClick={() => toggleExpand(node.id)}
+                                className="text-ink/50 hover:text-accent transition-colors"
+                                aria-label={expanded ? 'Ordner einklappen' : 'Ordner ausklappen'}
+                            >
+                                <ChevronRight size={16} className={`${expanded ? 'rotate-90' : ''} transition-transform`} />
+                            </button>
+                        ) : (
+                            <span className="w-4" />
+                        )}
+                        <button
+                            type="button"
+                            onClick={() => onToggleCategory(node.id)}
+                            className={`flex-1 text-left text-sm font-medium rounded-sm px-2 py-1 transition-colors border
+                                ${active
+                                    ? 'bg-accent text-white border-accent shadow-sm'
+                                    : 'bg-white/70 text-ink/80 border-transparent hover:border-accent/30 hover:text-accent'}`}
+                        >
+                            {node.label}
+                        </button>
+                    </div>
+
+                    {expandable && (
+                        <AnimatePresence initial={false}>
+                            {expanded && (
+                                <Motion.div
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: 'auto', opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    transition={{ duration: 0.2 }}
+                                    className="overflow-hidden"
+                                >
+                                    {renderNodes(node.subcategories, depth + 1)}
+                                </Motion.div>
+                            )}
+                        </AnimatePresence>
+                    )}
+                </div>
+            );
+        })
     );
 
     return (
-        <div className="mb-12 space-y-4">
-            <div className="flex flex-wrap gap-2 justify-center">
-                <button
-                    onClick={() => onToggleCategory('RESET')}
-                    className={`
-              px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-300 border
-              ${selectedCategories.length === 0
-                            ? 'bg-ink text-parchment border-ink shadow-md scale-105'
-                            : 'bg-parchment text-ink/70 border-parchment-dark hover:border-accent hover:text-accent'}
-            `}
-                >
-                    Alle
-                </button>
+        <div className="space-y-4">
+            <button
+                type="button"
+                onClick={() => onToggleCategory('RESET')}
+                className={`w-full px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] rounded-sm border transition-all
+                    ${selectedCategories.length === 0
+                        ? 'bg-ink text-parchment border-ink shadow'
+                        : 'bg-parchment text-ink/70 border-parchment-dark hover:border-accent hover:text-accent'}`}
+            >
+                Alle Kategorien
+            </button>
 
-                {categories.map((category) => {
-                    const isSelected = selectedCategories.includes(category.label);
-                    return (
-                        <button
-                            key={category.id}
-                            onClick={() => onToggleCategory(category.label)}
-                            className={`
-                px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-300 border
-                ${isSelected
-                                    ? 'bg-accent text-white border-accent shadow-md'
-                                    : 'bg-parchment text-ink/70 border-parchment-dark hover:border-accent hover:text-accent'}
-              `}
-                        >
+            <div className="divide-y divide-parchment-dark/60 border border-parchment-dark/70 rounded-sm bg-white/70">
+                {categories.map((category) => (
+                    <div key={category.id} className="py-2">
+                        <p className="text-xs uppercase tracking-[0.3em] text-ink/40 px-4">
                             {category.label}
-                        </button>
-                    );
-                })}
-            </div>
-
-            {/* Subcategories Row - conditionally rendered based on selected main categories */}
-            <div className="flex flex-wrap gap-2 justify-center min-h-[2rem]">
-                <AnimatePresence>
-                    {categories.map(cat => {
-                        // Show subcategories if the main category is selected OR any of its subcategories are selected
-                        const showSubs = selectedCategories.includes(cat.label) || cat.subcategories.some(s => selectedCategories.includes(s.label));
-
-                        if (!showSubs || cat.subcategories.length === 0) return null;
-
-                        return (
-                            <motion.div
-                                key={cat.id + '-subs'}
-                                initial={{ opacity: 0, y: -10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                exit={{ opacity: 0, y: -10 }}
-                                className="flex gap-2 p-2 bg-parchment-dark/10 rounded-lg"
-                            >
-                                {cat.subcategories.map(sub => (
-                                    <button
-                                        key={sub.id}
-                                        onClick={() => onToggleCategory(sub.label)}
-                                        className={`
-                                            px-3 py-1 rounded-md text-xs font-medium transition-all border
-                                            ${selectedCategories.includes(sub.label)
-                                                ? 'bg-accent/80 text-white border-accent'
-                                                : 'bg-white/50 text-ink/70 border-transparent hover:border-accent/30'}
-                                        `}
-                                    >
-                                        {sub.label}
-                                    </button>
-                                ))}
-                            </motion.div>
-                        );
-                    })}
-                </AnimatePresence>
+                        </p>
+                        <div className="mt-2">{renderNodes(category.subcategories || [], 1)}</div>
+                    </div>
+                ))}
             </div>
         </div>
     );

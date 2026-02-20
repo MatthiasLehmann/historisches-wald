@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ScrollText } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
+import { motion as Motion, AnimatePresence } from 'framer-motion';
+import logo from '../assets/logo-historisches-wald.png';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +21,13 @@ const Header = () => {
     return (
         <header className="bg-parchment/90 backdrop-blur-sm sticky top-0 z-50 border-b border-parchment-dark shadow-sm">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                <Link to="/" className="flex items-center gap-2 group">
-                    <div className="p-2 bg-ink text-parchment rounded-sm group-hover:bg-accent transition-colors duration-300">
-                        <ScrollText size={24} />
+                <Link to="/" className="flex items-center gap-3 group">
+                    <div className="relative w-12 h-12 rounded-sm overflow-hidden border border-parchment-dark shadow-sm bg-parchment">
+                        <img
+                            src={logo}
+                            alt="Historisches Wald Logo"
+                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
                     </div>
                     <div>
                         <h1 className="text-xl font-serif font-bold leading-none tracking-tight">Historisches Wald</h1>
@@ -40,7 +45,7 @@ const Header = () => {
                         >
                             {item.name}
                             {location.pathname === item.path && (
-                                <motion.div
+                                <Motion.div
                                     layoutId="underline"
                                     className="absolute -bottom-1 left-0 right-0 h-0.5 bg-accent"
                                 />
@@ -61,7 +66,7 @@ const Header = () => {
             {/* Mobile Navigation */}
             <AnimatePresence>
                 {isOpen && (
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
@@ -79,7 +84,7 @@ const Header = () => {
                                 </Link>
                             ))}
                         </nav>
-                    </motion.div>
+                    </Motion.div>
                 )}
             </AnimatePresence>
         </header>

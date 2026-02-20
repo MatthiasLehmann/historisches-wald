@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowRight, ScrollText } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
+import { motion as Motion } from 'framer-motion';
 import DocumentCard from '../components/DocumentCard';
 import Timeline from '../components/Timeline';
 import documentsData from '../data/documents.json';
+import logo from '../assets/logo-historisches-wald.png';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -23,20 +24,24 @@ const Home = () => {
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <img
-                        src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?q=80&w=2000&auto=format&fit=crop"
+                        src="public/images/53508876773_f7abb23908_o-1-scaled.jpg"
                         alt="Historisches Wald Hintergrund"
                         className="w-full h-full object-cover opacity-60 sepia-[.3]"
                     />
                 </div>
 
                 <div className="relative z-20 text-center px-4 max-w-4xl mx-auto">
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <div className="inline-block p-4 border-2 border-parchment/30 rounded-full mb-6 bg-white/5 backdrop-blur-sm">
-                            <ScrollText size={48} className="text-accent" />
+                        <div className="inline-flex items-center justify-center w-32 h-32 border-2 border-parchment/40 rounded-full mb-6 bg-white/10 backdrop-blur-sm overflow-hidden shadow-lg">
+                            <img
+                                src={logo}
+                                alt="Historisches Wald Logo"
+                                className="w-[100%] h-[100%] object-contain drop-shadow"
+                            />
                         </div>
                         <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 tracking-tight leading-tight">
                             Tauchen Sie ein in die <br />
@@ -59,7 +64,7 @@ const Home = () => {
                                 Zeitleiste ansehen
                             </Link>
                         </div>
-                    </motion.div>
+                    </Motion.div>
                 </div>
             </section>
 

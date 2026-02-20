@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, MapPin, Tag } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { MapPin, Tag } from 'lucide-react';
+import { motion as Motion } from 'framer-motion';
 
 const DocumentCard = ({ document }) => {
+    const subcategories = document.subcategories ?? (
+        document.subcategory ? [document.subcategory] : []
+    );
+
     return (
-        <motion.div
+        <Motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
@@ -34,11 +38,14 @@ const DocumentCard = ({ document }) => {
                     <span className="inline-flex items-center gap-1 text-xs font-medium text-accent uppercase tracking-wider">
                         <Tag size={12} />
                         {document.category}
-                        {document.subcategory && (
-                            <>
-                                <span className="text-ink/30">•</span>
-                                {document.subcategory}
-                            </>
+                        {subcategories.length > 0 && (
+                            <span className="text-ink/50 flex flex-wrap gap-1 items-center">
+                                <span className="text-ink/30 mx-1">•</span>
+                                {subcategories.slice(0, 2).join(' • ')}
+                                {subcategories.length > 2 && (
+                                    <span className="text-ink/40">+{subcategories.length - 2}</span>
+                                )}
+                            </span>
                         )}
                     </span>
                 </div>
@@ -66,7 +73,7 @@ const DocumentCard = ({ document }) => {
                     </Link>
                 </div>
             </div>
-        </motion.div>
+        </Motion.div>
     );
 };
 

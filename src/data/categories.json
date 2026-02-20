@@ -1,73 +1,136 @@
 [
     {
-        "id": "Kirche",
-        "label": "Kirche",
+        "id": "Ortsteile",
+        "label": "Ortsteile",
         "subcategories": [
             {
-                "id": "Pfarrei",
-                "label": "Pfarrei"
+                "id": "Glashuette",
+                "label": "Glashuette",
+                "subcategories": [
+                    { "id": "Glashuette-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Glashuette-Postkarten", "label": "Postkarten" },
+                    { "id": "Glashuette-Vorstellung", "label": "Vorstellung" }
+                ]
             },
             {
-                "id": "Gebaude",
-                "label": "Gebäude"
+                "id": "Hippetsweiler",
+                "label": "Hippetsweiler",
+                "subcategories": [
+                    { "id": "Hippetsweiler-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Hippetsweiler-Kirche", "label": "Kirche" },
+                    { "id": "Hippetsweiler-Postkarten", "label": "Postkarten" },
+                    { "id": "Hippetsweiler-Vorstellung", "label": "Vorstellung" }
+                ]
             },
             {
-                "id": "Liturgie",
-                "label": "Liturgie"
-            }
-        ]
-    },
-    {
-        "id": "Verwaltung",
-        "label": "Verwaltung",
-        "subcategories": [
-            {
-                "id": "Gemeinde",
-                "label": "Gemeinde"
+                "id": "Kappel",
+                "label": "Kappel",
+                "subcategories": [
+                    { "id": "Kappel-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Kappel-Postkarten", "label": "Postkarten" },
+                    { "id": "Kappel-Vorstellung", "label": "Vorstellung" }
+                ]
             },
             {
-                "id": "Bauamt",
-                "label": "Bauamt"
-            }
-        ]
-    },
-    {
-        "id": "Handwerk",
-        "label": "Handwerk",
-        "subcategories": []
-    },
-    {
-        "id": "Schule",
-        "label": "Schule",
-        "subcategories": [
-            {
-                "id": "Volksschule",
-                "label": "Volksschule"
-            }
-        ]
-    },
-    {
-        "id": "Landwirtschaft",
-        "label": "Landwirtschaft",
-        "subcategories": []
-    },
-    {
-        "id": "Vereine",
-        "label": "Vereine",
-        "subcategories": [
-            {
-                "id": "Feuerwehr",
-                "label": "Feuerwehr"
+                "id": "Reischach",
+                "label": "Reischach",
+                "subcategories": [
+                    { "id": "Reischach-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Reischach-Chroniken", "label": "Chroniken" },
+                    { "id": "Reischach-Kirche", "label": "Kirche" },
+                    { "id": "Reischach-Vorstellung", "label": "Vorstellung" }
+                ]
             },
             {
-                "id": "Musik",
-                "label": "Musik"
+                "id": "Riedetsweiler",
+                "label": "Riedetsweiler",
+                "subcategories": [
+                    { "id": "Riedetsweiler-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Riedetsweiler-Kirche", "label": "Kirche" },
+                    { "id": "Riedetsweiler-Luftaufnahmen", "label": "Luftaufnahmen" },
+                    { "id": "Riedetsweiler-Personen", "label": "Personen" },
+                    { "id": "Riedetsweiler-Geistliche", "label": "Geistliche" },
+                    { "id": "Riedetsweiler-Vereine", "label": "Vereine" },
+                    { "id": "Riedetsweiler-Vorstellung", "label": "Vorstellung" }
+                ]
+            },
+            {
+                "id": "Rothenlachen",
+                "label": "Rothenlachen",
+                "subcategories": [
+                    { "id": "Rothenlachen-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Rothenlachen-Kirche", "label": "Kirche" },
+                    { "id": "Rothenlachen-Vorstellung", "label": "Vorstellung" }
+                ]
+            },
+            {
+                "id": "Ruhestetten",
+                "label": "Ruhestetten",
+                "subcategories": [
+                    { "id": "Ruhestetten-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Ruhestetten-Kirche", "label": "Kirche" },
+                    { "id": "Ruhestetten-Luftaufnahmen", "label": "Luftaufnahmen" },
+                    { "id": "Ruhestetten-Vorstellung", "label": "Vorstellung" }
+                ]
+            },
+            {
+                "id": "Sentenhart",
+                "label": "Sentenhart",
+                "subcategories": [
+                    { "id": "Sentenhart-Postkarten", "label": "Postkarten" },
+                    { "id": "Sentenhart-Vorstellung", "label": "Vorstellung" }
+                ]
+            },
+            {
+                "id": "Walbertsweiler",
+                "label": "Walbertsweiler",
+                "subcategories": [
+                    { "id": "Walbertsweiler-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Walbertsweiler-Chroniken", "label": "Chroniken" },
+                    { "id": "Walbertsweiler-Postkarten", "label": "Postkarten" },
+                    { "id": "Walbertsweiler-Vorstellung", "label": "Vorstellung" }
+                ]
+            },
+            {
+                "id": "Wald",
+                "label": "Wald",
+                "subcategories": [
+                    { "id": "Wald-Adressbuch", "label": "Adressbuch" },
+                    { "id": "Wald-Gewerbe", "label": "Gewerbe" },
+                    { "id": "Wald-Handwerk", "label": "Handwerk" },
+                    { "id": "Wald-SonstGewerbe", "label": "sonst. Gewerbe" },
+                    {
+                        "id": "Wald-Kirchen",
+                        "label": "Kirchen",
+                        "subcategories": [
+                            { "id": "Wald-Kirchen-Katholisch", "label": "kath. Kirchengemeinde" },
+                            { "id": "Wald-Kirchen-Kloster", "label": "Kloster" }
+                        ]
+                    },
+                    { "id": "Wald-Heimschule", "label": "Heimschule" },
+                    { "id": "Wald-Lageplaene", "label": "Lageplaene" },
+                    {
+                        "id": "Wald-Personen",
+                        "label": "Personen",
+                        "subcategories": [
+                            { "id": "Wald-Personen-Geistliche", "label": "Geistliche" },
+                            { "id": "Wald-Personen-Ordensleute", "label": "Ordensleute" }
+                        ]
+                    },
+                    { "id": "Wald-Postkarten", "label": "Postkarten" },
+                    {
+                        "id": "Wald-Veranstaltungen",
+                        "label": "Veranstaltungen",
+                        "subcategories": [
+                            { "id": "Wald-Veranstaltungen-Fasnet", "label": "Fasnet" },
+                            { "id": "Wald-Veranstaltungen-Theater", "label": "Theater" }
+                        ]
+                    },
+                    { "id": "Wald-Vereine", "label": "Vereine" },
+                    { "id": "Wald-Vorstellung", "label": "Vorstellung" },
+                    { "id": "Wald-Zeitzeugen", "label": "Zeitzeugen" }
+                ]
             }
         ]
-    },
-    {
-        "id": "Ortschronik",
-        "label": "Ortschronik",
-        "subcategories": []
     }
 ]

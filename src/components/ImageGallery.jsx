@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion as Motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 
 const ImageGallery = ({ images, title }) => {
@@ -11,7 +11,7 @@ const ImageGallery = ({ images, title }) => {
         <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {images.map((img, index) => (
-                    <motion.div
+                    <Motion.div
                         key={index}
                         whileHover={{ scale: 1.02 }}
                         className="relative group cursor-pointer overflow-hidden rounded-sm shadow-sm border border-parchment-dark"
@@ -27,13 +27,13 @@ const ImageGallery = ({ images, title }) => {
                                 <ZoomIn size={20} />
                             </div>
                         </div>
-                    </motion.div>
+                    </Motion.div>
                 ))}
             </div>
 
             <AnimatePresence>
                 {selectedImage && (
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
@@ -46,7 +46,7 @@ const ImageGallery = ({ images, title }) => {
                         >
                             <X size={32} />
                         </button>
-                        <motion.img
+                        <Motion.img
                             initial={{ scale: 0.9, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.9, opacity: 0 }}
@@ -55,7 +55,7 @@ const ImageGallery = ({ images, title }) => {
                             className="max-w-full max-h-[90vh] rounded-sm shadow-2xl border-4 border-parchment"
                             onClick={(e) => e.stopPropagation()}
                         />
-                    </motion.div>
+                    </Motion.div>
                 )}
             </AnimatePresence>
         </>

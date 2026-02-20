@@ -9,6 +9,12 @@ const DocumentPage = () => {
     const { id } = useParams();
     const navigate = useNavigate();
     const document = documentsData.find(d => d.id === id);
+    const subcategories = React.useMemo(() => {
+        if (!document) return [];
+        if (Array.isArray(document.subcategories)) return document.subcategories;
+        if (document.subcategory) return [document.subcategory];
+        return [];
+    }, [document]);
 
     if (!document) {
         return (
@@ -32,12 +38,19 @@ const DocumentPage = () => {
             <header className="mb-8 border-b border-parchment-dark pb-8">
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-4">
                     <div>
-                        <span className="inline-block bg-accent/10 text-accent px-3 py-1 text-sm font-semibold rounded-full mb-2">
-                            {document.category}
-                            {document.subcategory && (
-                                <span className="opacity-70"> • {document.subcategory}</span>
-                            )}
-                        </span>
+                        <div className="flex flex-wrap gap-2 items-center mb-3">
+                            <span className="inline-flex bg-accent/10 text-accent px-3 py-1 text-sm font-semibold rounded-full">
+                                {document.category}
+                            </span>
+                            {subcategories.map((sub) => (
+                                <span
+                                    key={sub}
+                                    className="inline-flex px-3 py-1 text-xs font-semibold uppercase tracking-wide bg-parchment-dark text-ink rounded-full border border-parchment-dark/60"
+                                >
+                                    {sub}
+                                </span>
+                            ))}
+                        </div>
                         <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink leading-tight">
                             {document.title}
                         </h1>

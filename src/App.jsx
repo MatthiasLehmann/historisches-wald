@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Archive from './pages/Archive';
 import DocumentPage from './pages/DocumentPage';
+import TimelinePage from './pages/TimelinePage';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -33,8 +34,7 @@ const App = () => {
           <Route path="/archive" element={<Archive />} />
           <Route path="/document/:id" element={<DocumentPage />} />
 
-          {/* Fallback for timeline for now pointing to archive */}
-          <Route path="/timeline" element={<Archive />} />
+          <Route path="/timeline" element={<TimelinePage />} />
         </Routes>
       </main>
       <Footer />
