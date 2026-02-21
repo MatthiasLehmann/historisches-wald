@@ -23,8 +23,8 @@ const Footer = () => {
                         </div>
                         <p className="text-parchment/60 text-sm">
                             Gemeindearchiv Wald<br />
-                            Hauptstraße 1<br />
-                            12345 Wald
+                            Brauereistr. 5<br />
+                            88639 Wald
                         </p>
                     </div>
 

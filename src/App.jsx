@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import Archive from './pages/Archive';
 import DocumentPage from './pages/DocumentPage';
 import TimelinePage from './pages/TimelinePage';
+import Team from './pages/Team';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -33,8 +34,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/archive" element={<Archive />} />
           <Route path="/document/:id" element={<DocumentPage />} />
-
           <Route path="/timeline" element={<TimelinePage />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </main>
       <Footer />

@@ -12,6 +12,7 @@ const Header = () => {
         { name: 'Startseite', path: '/' },
         { name: 'Archiv', path: '/archive' },
         { name: 'Zeitleiste', path: '/timeline' },
+        { name: 'Team', path: '/team' },
     ];
 
     const isActive = (path) => {
