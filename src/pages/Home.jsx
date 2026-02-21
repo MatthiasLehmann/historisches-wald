@@ -24,7 +24,7 @@ const Home = () => {
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <img
-                        src="public/images/53508876773_f7abb23908_o-1-scaled.jpg"
+                        src="public/images/logo-historisches-wald.png"
                         alt="Historisches Wald Hintergrund"
                         className="w-full h-full object-cover opacity-60 sepia-[.3]"
                     />
@@ -36,13 +36,7 @@ const Home = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <div className="inline-flex items-center justify-center w-32 h-32 border-2 border-parchment/40 rounded-full mb-6 bg-white/10 backdrop-blur-sm overflow-hidden shadow-lg">
-                            <img
-                                src={logo}
-                                alt="Historisches Wald Logo"
-                                className="w-[100%] h-[100%] object-contain drop-shadow"
-                            />
-                        </div>
+
                         <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 tracking-tight leading-tight">
                             Tauchen Sie ein in die <br />
                             <span className="text-accent italic">Geschichte von Wald</span>
