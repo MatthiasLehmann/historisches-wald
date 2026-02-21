@@ -4,7 +4,7 @@ import { MapPin, Tag } from 'lucide-react';
 import { motion as Motion } from 'framer-motion';
 
 const DocumentCard = ({ document }) => {
-    const subcategories = document.subcategories ?? (
+    const subcategories = document.categoryIds ?? (
         document.subcategory ? [document.subcategory] : []
     );
 

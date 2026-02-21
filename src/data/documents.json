@@ -5,7 +5,7 @@
         "year": 1785,
         "category": "Wald",
         "subcategories": ["Wald-Kirchen", "Wald-Kirchen-Katholisch"],
-        "categoryIds": ["Wald", "Wald-Kirchen", "Wald-Kirchen-Katholisch"],
+        "categoryIds": ["Kirchen", "Katholisch"],
         "location": "Wald",
         "description": "Offizielle Urkunde zur Gründung der Pfarrei Wald, unterzeichnet von Bischof Clemens Wenzeslaus.",
         "transcription": "Im Namen der Heiligen Dreifaltigkeit. \n\nWir, Clemens Wenzeslaus, von Gottes Gnaden Bischof von Augsburg, geben kund und zu wissen jedermänniglich:\n\nNachdem die getreuen Einwohner der Gemeinde Wald in demütiger Bittschrift uns vorgetragen haben, dass der Weg zur bisherigen Mutterkirche beschwerlich und im Winter oft ungangbar sei, haben wir uns gnädigst bewogen gefunden, dem geistlichen Wohle besagter Gemeinde durch Errichtung einer eigenen Pfarrei Sorge zu tragen.\n\nSo verordnen wir hiermit kraft unseres bischöflichen Amtes, dass die Kapelle St. Martin zu Wald zur Pfarrkirche erhoben werde, mit allen Rechten und Pflichten, die einer solchen gebühren.\n\nGegeben zu Augsburg, am 12. Tage des Monats Mai im Jahre des Herrn 1785.\n\n(gez.) Clemens Wenzeslaus",
@@ -24,7 +24,7 @@
         "year": 1931,
         "category": "Riedetsweiler",
         "subcategories": ["RiedetsweilerPersonen-Geistliche", "Riedetsweiler-Personen"],
-        "categoryIds": ["Riedetsweiler", "Riedetsweiler-Personen", "Riedetsweiler-Geistliche", "Riedetsweiler-Vorstellung"],
+        "categoryIds": ["Personen", "Geistliche", "Vorstellung"],
         "location": "Riedetsweiler",
         "description": "Auszug aus der Ortschronik Riedetsweiler von Leo Endres",
         "transcription": [
@@ -56,7 +56,7 @@
         "year": 1914,
         "category": "Riedetsweiler",
         "subcategories": ["Riedetsweiler", "Riedetsweiler-Personen", "Riedetsweiler-Vorstellung"],
-        "categoryIds": ["Riedetsweiler", "Riedetsweiler-Personen", "Riedetsweiler-Vorstellung"],
+        "categoryIds": ["Personen", "Vorstellung"],
         "location": "Riedetsweiler",
         "description": "Auszug aus der Ortschronik Riedetsweiler von Leo Endres",
         "transcription": [
@@ -77,7 +77,7 @@
             "Im offenen Dachstuhl hängt eine kleine Glocke mit der Inschrift „Laudetur Jesus Christus anno 1733 goß mich Christian Schmid und Johann Baptist Aporta in Bregenz“.",
             "",
             "Römisches",
-            "",
+            "", 
             "Eine Römerstraße führt am Ort vorbei.",
             "",
             "Schule",
@@ -119,7 +119,7 @@
         "year": 1912,
         "category": "Wald",
         "subcategories": ["Wald-Lageplaene"],
-        "categoryIds": ["Wald", "Wald-Lageplaene"],
+        "categoryIds": ["Lagepläene"],
         "location": "Wald",
         "description": "Architektonische Zeichnung für den Neubau des Rathauses.",
         "images": [
@@ -137,7 +137,7 @@
         "year": 1875,
         "category": "Wald",
         "subcategories": ["Vereine"],
-        "categoryIds": ["Wald", "Wald-Vereine"],
+        "categoryIds": ["Vereine"],
         "location": "Wald",
         "description": "Protokollbuch der ersten Versammlung der Freiwilligen Feuerwehr.",
         "images": [
@@ -155,7 +155,7 @@
         "year": 1945,
         "category": "Wald",
         "subcategories": ["Wald-Gewerbe", "Wald-SonstGewerbe"],
-        "categoryIds": ["Wald", "Wald-Gewerbe", "Wald-SonstGewerbe"],
+        "categoryIds": ["Gewerbe", "SonstGewerbe"],
         "location": "Umland Wald",
         "description": "Bericht über die erste Ernte nach Kriegsende.",
         "images": [
@@ -173,7 +173,7 @@
         "year": 1964,
         "category": "Riedetsweiler",
         "subcategories": ["Riedetsweiler-Vereine", "Riedetsweiler-Personen"],
-        "categoryIds": ["Riedetsweiler", "Riedetsweiler-Vereine", "Riedetsweiler-Personen"],
+        "categoryIds": ["Vereine", "Personen"],
         "location": "Riedetsweiler",
         "description": "Bericht über einen Großbrand auf dem Anwesen von Sales Hipp in Riedetsweiler.",
         "transcription": [
