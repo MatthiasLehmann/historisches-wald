@@ -6,6 +6,7 @@ const initialForm = {
   year: '',
   location: '',
   description: '',
+  transcription: '',
   author: '',
   source: '',
   condition: '',
@@ -75,6 +76,9 @@ const SubmitDocument = () => {
       year: doc.year ? String(doc.year) : '',
       location: doc.location ?? '',
       description: doc.description ?? '',
+      transcription: Array.isArray(doc.transcription)
+        ? doc.transcription.join('\n\n')
+        : doc.transcription ?? '',
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
       condition: doc.metadata?.condition ?? '',
@@ -99,6 +103,7 @@ const SubmitDocument = () => {
         year: form.year ? Number(form.year) : '',
         category: selectedArea,
         subcategories: selectedSubcategories,
+        transcription: form.transcription,
       };
 
       const endpoint = editingId ? `/api/documents/${editingId}` : '/api/documents';
@@ -232,6 +237,18 @@ const SubmitDocument = () => {
             rows={5}
             className="w-full border border-parchment-dark rounded-sm px-3 py-2"
             required
+          />
+        </label>
+
+        <label className="space-y-1 text-sm font-medium text-ink/80 block">
+          Transkription / Notizen
+          <textarea
+            name="transcription"
+            value={form.transcription}
+            onChange={handleChange}
+            rows={6}
+            className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+            placeholder="Optionaler Volltext oder Markdown"
           />
         </label>
 

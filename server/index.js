@@ -42,6 +42,7 @@ app.post('/api/documents', async (req, res) => {
       subcategories,
       location,
       description,
+      transcription: req.body.transcription || '',
       images: [],
       metadata: {
         author: req.body.author || 'Unbekannt',
@@ -83,6 +84,7 @@ app.put('/api/documents/:id', async (req, res) => {
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : existing.subcategories,
       location: req.body.location ?? existing.location,
       description: req.body.description ?? existing.description,
+      transcription: req.body.transcription ?? existing.transcription ?? '',
       metadata: {
         ...existing.metadata,
         author: req.body.author ?? existing.metadata?.author ?? 'Unbekannt',

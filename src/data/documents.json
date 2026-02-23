@@ -1,11 +1,35 @@
 [
     {
+        "id": "doc-1771869680553",
+        "title": "Test",
+        "year": 1967,
+        "category": "Wald",
+        "subcategories": [
+            "Handwerk",
+            "Gewerbe"
+        ],
+        "location": "Wald",
+        "description": "qdfwfqwfssfqfafqf",
+        "images": [],
+        "metadata": {
+            "author": "M .Lehmann",
+            "source": "Eingereicht",
+            "condition": "Gut"
+        }
+    },
+    {
         "id": "doc-001",
         "title": "Urkunde zur Pfarreigründung",
         "year": 1785,
         "category": "Wald",
-        "subcategories": ["Wald-Kirchen", "Wald-Kirchen-Katholisch"],
-        "categoryIds": ["Kirchen", "Katholisch"],
+        "subcategories": [
+            "Wald-Kirchen",
+            "Wald-Kirchen-Katholisch"
+        ],
+        "categoryIds": [
+            "Kirchen",
+            "Katholisch"
+        ],
         "location": "Wald",
         "description": "Offizielle Urkunde zur Gründung der Pfarrei Wald, unterzeichnet von Bischof Clemens Wenzeslaus.",
         "transcription": "Im Namen der Heiligen Dreifaltigkeit. \n\nWir, Clemens Wenzeslaus, von Gottes Gnaden Bischof von Augsburg, geben kund und zu wissen jedermänniglich:\n\nNachdem die getreuen Einwohner der Gemeinde Wald in demütiger Bittschrift uns vorgetragen haben, dass der Weg zur bisherigen Mutterkirche beschwerlich und im Winter oft ungangbar sei, haben wir uns gnädigst bewogen gefunden, dem geistlichen Wohle besagter Gemeinde durch Errichtung einer eigenen Pfarrei Sorge zu tragen.\n\nSo verordnen wir hiermit kraft unseres bischöflichen Amtes, dass die Kapelle St. Martin zu Wald zur Pfarrkirche erhoben werde, mit allen Rechten und Pflichten, die einer solchen gebühren.\n\nGegeben zu Augsburg, am 12. Tage des Monats Mai im Jahre des Herrn 1785.\n\n(gez.) Clemens Wenzeslaus",
@@ -23,8 +47,15 @@
         "title": "Auszug Ortschronik Riedetsweiler von Johann Hipp 1931",
         "year": 1931,
         "category": "Riedetsweiler",
-        "subcategories": ["RiedetsweilerPersonen-Geistliche", "Riedetsweiler-Personen"],
-        "categoryIds": ["Personen", "Geistliche", "Vorstellung"],
+        "subcategories": [
+            "RiedetsweilerPersonen-Geistliche",
+            "Riedetsweiler-Personen"
+        ],
+        "categoryIds": [
+            "Personen",
+            "Geistliche",
+            "Vorstellung"
+        ],
         "location": "Riedetsweiler",
         "description": "Auszug aus der Ortschronik Riedetsweiler von Leo Endres",
         "transcription": [
@@ -55,8 +86,15 @@
         "title": "Auszug Ortschronik Riedetsweiler von Leo Endres 1914",
         "year": 1914,
         "category": "Riedetsweiler",
-        "subcategories": ["Riedetsweiler", "Riedetsweiler-Personen", "Riedetsweiler-Vorstellung"],
-        "categoryIds": ["Personen", "Vorstellung"],
+        "subcategories": [
+            "Riedetsweiler",
+            "Riedetsweiler-Personen",
+            "Riedetsweiler-Vorstellung"
+        ],
+        "categoryIds": [
+            "Personen",
+            "Vorstellung"
+        ],
         "location": "Riedetsweiler",
         "description": "Auszug aus der Ortschronik Riedetsweiler von Leo Endres",
         "transcription": [
@@ -77,7 +115,7 @@
             "Im offenen Dachstuhl hängt eine kleine Glocke mit der Inschrift „Laudetur Jesus Christus anno 1733 goß mich Christian Schmid und Johann Baptist Aporta in Bregenz“.",
             "",
             "Römisches",
-            "", 
+            "",
             "Eine Römerstraße führt am Ort vorbei.",
             "",
             "Schule",
@@ -118,8 +156,12 @@
         "title": "Bauplan Rathaus",
         "year": 1912,
         "category": "Wald",
-        "subcategories": ["Wald-Lageplaene"],
-        "categoryIds": ["Lagepläene"],
+        "subcategories": [
+            "Wald-Lageplaene"
+        ],
+        "categoryIds": [
+            "Lagepläene"
+        ],
         "location": "Wald",
         "description": "Architektonische Zeichnung für den Neubau des Rathauses.",
         "images": [
@@ -136,8 +178,12 @@
         "title": "Gründungsprotokoll Feuerwehr",
         "year": 1875,
         "category": "Wald",
-        "subcategories": ["Vereine"],
-        "categoryIds": ["Vereine"],
+        "subcategories": [
+            "Vereine"
+        ],
+        "categoryIds": [
+            "Vereine"
+        ],
         "location": "Wald",
         "description": "Protokollbuch der ersten Versammlung der Freiwilligen Feuerwehr.",
         "images": [
@@ -154,8 +200,14 @@
         "title": "Erntebericht 1945",
         "year": 1945,
         "category": "Wald",
-        "subcategories": ["Wald-Gewerbe", "Wald-SonstGewerbe"],
-        "categoryIds": ["Gewerbe", "SonstGewerbe"],
+        "subcategories": [
+            "Wald-Gewerbe",
+            "Wald-SonstGewerbe"
+        ],
+        "categoryIds": [
+            "Gewerbe",
+            "SonstGewerbe"
+        ],
         "location": "Umland Wald",
         "description": "Bericht über die erste Ernte nach Kriegsende.",
         "images": [
@@ -172,8 +224,14 @@
         "title": "Zeitungsartikel Brand Riedetsweiler",
         "year": 1964,
         "category": "Riedetsweiler",
-        "subcategories": ["Riedetsweiler-Vereine", "Riedetsweiler-Personen"],
-        "categoryIds": ["Vereine", "Personen"],
+        "subcategories": [
+            "Riedetsweiler-Vereine",
+            "Riedetsweiler-Personen"
+        ],
+        "categoryIds": [
+            "Vereine",
+            "Personen"
+        ],
         "location": "Riedetsweiler",
         "description": "Bericht über einen Großbrand auf dem Anwesen von Sales Hipp in Riedetsweiler.",
         "transcription": [
