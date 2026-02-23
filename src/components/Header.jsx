@@ -13,6 +13,7 @@ const Header = () => {
         { name: 'Archiv', path: '/archive' },
         { name: 'Zeitleiste', path: '/timeline' },
         { name: 'Team', path: '/team' },
+        { name: 'Dokument hinzufügen', path: '/submit' },
     ];
 
     const isActive = (path) => {

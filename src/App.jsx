@@ -12,6 +12,7 @@ import Archive from './pages/Archive';
 import DocumentPage from './pages/DocumentPage';
 import TimelinePage from './pages/TimelinePage';
 import Team from './pages/Team';
+import SubmitDocument from './pages/SubmitDocument';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/document/:id" element={<DocumentPage />} />
           <Route path="/timeline" element={<TimelinePage />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/submit" element={<SubmitDocument />} />
         </Routes>
       </main>
       <Footer />

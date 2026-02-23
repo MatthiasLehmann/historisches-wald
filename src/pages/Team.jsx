@@ -11,13 +11,22 @@ const people = [
 const Team = () => {
     return (
         <div className="container mx-auto px-4 py-12 space-y-12">
-            <section className="text-center space-y-4 max-w-3xl mx-auto">
+            <section className="grid lg:grid-cols-2 gap-8 items-center">
+               <div className="rounded-sm overflow-hidden shadow-md border border-parchment-dark bg-parchment-dark/40">
+                    <img
+                        src="public/images/logo-historisches-wald.png"
+                        alt="Team Historisches Wald"
+                        className="w-full h-full object-cover"
+                    />
+                </div>
+                <div className="space-y-4">
                 <p className="text-xs uppercase tracking-[0.5em] text-accent">Unser Team</p>
                 <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink">Gesichter hinter dem Archiv</h1>
                 <p className="text-ink/70">
                 Die Gruppe „Historisches Wald“ besteht aus Walder Bürgerinnen und Bürgern, die an der Geschichte ihrer Heimat interessiert sind. Wir haben uns zum Ziel gesetzt, in Zusammenarbeit mit der Gemeinde Wald, historische Fotos, Bilder und Gegenstände zu sammeln, zu digitalisieren und für die Nachwelt aufzubewahren. Außerdem möchten wir die Erforschung der Geschichte unserer Zehn-Dörfer-Gemeinde fördern, unser gewonnenes Wissen verbreiten und so die Erinnerung bewahren.
 Wir sind kein Verein und stehen allen, an der Geschichte unsere Gemeinde Interessierten, offen. Ihr habt Interesse bei uns mitzumachen? Oder ihr habt historische Fotos, Bilder, Beiträge oder Gegenstände, die ihr uns zur Verfügung stellen könnt? Gerne auch „nur“ zur Digitalisierung. Dann meldet Euch über unser Kontakt oder unter 07578 / 9217267.
                 </p>
+                 </div>
             </section>
 
             <section className="grid lg:grid-cols-2 gap-8 items-center">
