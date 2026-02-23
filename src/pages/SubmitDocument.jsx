@@ -143,7 +143,36 @@ const SubmitDocument = () => {
         <p className="text-ink/70">Bitte füllen Sie alle Pflichtfelder aus. Die Daten werden über die lokale API direkt in der JSON-Datei gespeichert.</p>
       </header>
 
-      <div className="grid lg:grid-cols-[2fr,1fr] gap-8">
+      <div className="grid gap-8 lg:grid-cols-[20%,minmax(0,80%)]">
+        <aside className="bg-white border border-parchment-dark rounded-sm shadow-sm p-4 space-y-4 max-h-[80vh] overflow-y-auto">
+          <div>
+            <h2 className="text-lg font-serif font-bold text-ink">Gespeicherte Dokumente</h2>
+            <p className="text-xs text-ink/60">Klicken zum Bearbeiten</p>
+          </div>
+          {documents.length === 0 ? (
+            <p className="text-sm text-ink/50">Noch keine Dokumente geladen.</p>
+          ) : (
+            <ul className="space-y-2">
+              {documents.map((doc) => (
+                <li key={doc.id}>
+                  <button
+                    type="button"
+                    onClick={() => handleSelectDocument(doc)}
+                    className={`w-full text-left border rounded-sm px-3 py-2 transition-colors ${
+                      editingId === doc.id
+                        ? 'border-accent bg-accent/10 text-accent'
+                        : 'border-parchment-dark/60 hover:border-accent'
+                    }`}
+                  >
+                    <p className="font-semibold text-sm">{doc.title}</p>
+                    <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </aside>
+
         <form onSubmit={handleSubmit} className="space-y-6 bg-white border border-parchment-dark rounded-sm shadow-sm p-6">
           {editingId && (
             <div className="flex items-center justify-between bg-parchment/60 border border-parchment-dark/50 rounded-sm px-4 py-2 text-sm text-ink/80">
@@ -297,35 +326,6 @@ const SubmitDocument = () => {
           </button>
         </div>
         </form>
-
-        <aside className="bg-white border border-parchment-dark rounded-sm shadow-sm p-4 space-y-4 max-h-[80vh] overflow-y-auto">
-          <div>
-            <h2 className="text-lg font-serif font-bold text-ink">Gespeicherte Dokumente</h2>
-            <p className="text-xs text-ink/60">Klicken zum Bearbeiten</p>
-          </div>
-          {documents.length === 0 ? (
-            <p className="text-sm text-ink/50">Noch keine Dokumente geladen.</p>
-          ) : (
-            <ul className="space-y-2">
-              {documents.map((doc) => (
-                <li key={doc.id}>
-                  <button
-                    type="button"
-                    onClick={() => handleSelectDocument(doc)}
-                    className={`w-full text-left border rounded-sm px-3 py-2 transition-colors ${
-                      editingId === doc.id
-                        ? 'border-accent bg-accent/10 text-accent'
-                        : 'border-parchment-dark/60 hover:border-accent'
-                    }`}
-                  >
-                    <p className="font-semibold text-sm">{doc.title}</p>
-                    <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </aside>
       </div>
     </div>
   );
