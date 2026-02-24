@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
+import logo from '../assets/logo-historisches-wald.png';
 
 const people = [
     'Matthias Lehmann',
@@ -14,7 +15,7 @@ const Team = () => {
             <section className="grid lg:grid-cols-2 gap-8 items-center">
                <div className="rounded-sm overflow-hidden shadow-md border border-parchment-dark bg-parchment-dark/40">
                     <img
-                        src="public/images/logo-historisches-wald.png"
+                        src={logo}
                         alt="Team Historisches Wald"
                         className="w-full h-full object-cover"
                     />

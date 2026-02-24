@@ -24,7 +24,7 @@ const Home = () => {
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <img
-                        src="public/images/logo-historisches-wald.png"
+                        src={logo}
                         alt="Historisches Wald Hintergrund"
                         className="w-full h-full object-cover opacity-60 sepia-[.3]"
                     />
