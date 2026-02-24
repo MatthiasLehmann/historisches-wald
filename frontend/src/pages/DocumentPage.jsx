@@ -3,12 +3,45 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, MapPin, User, FileText, Bookmark, ScrollText } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import ImageGallery from '../components/ImageGallery';
-import documentsData from '../data/documents.json';
+import { fetchDocuments } from '../services/api';
 
 const DocumentPage = () => {
     const { id } = useParams();
     const navigate = useNavigate();
-    const document = documentsData.find(d => d.id === id);
+    const [document, setDocument] = React.useState(null);
+    const [isLoading, setIsLoading] = React.useState(true);
+    const [error, setError] = React.useState(null);
+
+    React.useEffect(() => {
+        let ignore = false;
+        const loadDocument = async () => {
+            try {
+                const docs = await fetchDocuments();
+                if (!ignore) {
+                    const found = docs.find((d) => d.id === id) ?? null;
+                    setDocument(found);
+                    if (!found) {
+                        setError('Dokument nicht gefunden.');
+                    }
+                }
+            } catch (err) {
+                console.error('Failed to load document:', err);
+                if (!ignore) {
+                    setError('Dokument konnte nicht geladen werden.');
+                }
+            } finally {
+                if (!ignore) {
+                    setIsLoading(false);
+                }
+            }
+        };
+
+        loadDocument();
+        return () => {
+            ignore = true;
+        };
+    }, [id]);
+
     const subcategories = React.useMemo(() => {
         if (!document) return [];
         if (Array.isArray(document.subcategories)) return document.subcategories;
@@ -16,10 +49,18 @@ const DocumentPage = () => {
         return [];
     }, [document]);
 
+    if (isLoading) {
+        return (
+            <div className="container mx-auto px-4 py-20 text-center">
+                <p className="text-ink/60">Dokument wird geladen...</p>
+            </div>
+        );
+    }
+
     if (!document) {
         return (
             <div className="container mx-auto px-4 py-20 text-center">
-                <h2 className="text-2xl font-serif text-ink mb-4">Dokument nicht gefunden</h2>
+                <h2 className="text-2xl font-serif text-ink mb-4">{error || 'Dokument nicht gefunden'}</h2>
                 <Link to="/archive" className="text-accent hover:underline">Zurück zum Archiv</Link>
             </div>
         );

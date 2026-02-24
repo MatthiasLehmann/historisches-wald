@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import DocumentCard from '../components/DocumentCard';
 import CategoryFilter from '../components/CategoryFilter';
-import documentsData from '../data/documents.json';
 import categoriesData from '../data/categories.json';
+import { fetchDocuments } from '../services/api';
 
 const flattenCategories = (categories) => {
     const map = {};
@@ -27,6 +27,35 @@ const CATEGORY_INDEX = flattenCategories(categoriesData);
 const Archive = () => {
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
+    const [documents, setDocuments] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        let ignore = false;
+        const loadDocuments = async () => {
+            try {
+                const data = await fetchDocuments();
+                if (!ignore) {
+                    setDocuments(data);
+                }
+            } catch (err) {
+                console.error('Failed to load documents:', err);
+                if (!ignore) {
+                    setError('Dokumente konnten nicht geladen werden.');
+                }
+            } finally {
+                if (!ignore) {
+                    setIsLoading(false);
+                }
+            }
+        };
+
+        loadDocuments();
+        return () => {
+            ignore = true;
+        };
+    }, []);
 
     const toggleCategory = (categoryId) => {
         if (categoryId === 'RESET') {
@@ -64,14 +93,14 @@ const Archive = () => {
         });
     };
 
-    const filteredDocuments = documentsData.filter(doc => {
+    const filteredDocuments = useMemo(() => documents.filter(doc => {
         const matchesCategory = matchesCategorySelection(doc);
 
         const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
             doc.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
             doc.year.toString().includes(searchTerm);
         return matchesCategory && matchesSearch;
-    });
+    }), [documents, searchTerm, selectedCategories]);
 
     return (
         <div className="container mx-auto px-4 py-8">
@@ -109,7 +138,11 @@ const Archive = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-                        {filteredDocuments.length > 0 ? (
+                        {isLoading ? (
+                            <p className="col-span-full text-center text-ink/60">Dokumente werden geladen...</p>
+                        ) : error ? (
+                            <p className="col-span-full text-center text-red-600">{error}</p>
+                        ) : filteredDocuments.length > 0 ? (
                             filteredDocuments.map(doc => (
                                 <DocumentCard key={doc.id} document={doc} />
                             ))

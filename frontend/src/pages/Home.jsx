@@ -4,14 +4,46 @@ import { ArrowRight } from 'lucide-react';
 import { motion as Motion } from 'framer-motion';
 import DocumentCard from '../components/DocumentCard';
 import Timeline from '../components/Timeline';
-import documentsData from '../data/documents.json';
+import { fetchDocuments } from '../services/api';
 import logo from '../assets/logo-historisches-wald.png';
 
 const Home = () => {
     const navigate = useNavigate();
-    // Get latest 3 documents
-    const recentDocuments = documentsData.slice(0, 3);
-    const events = documentsData.map(({ id, title, year, category }) => ({ id, title, year, category }));
+    const [documents, setDocuments] = React.useState([]);
+    const [isLoading, setIsLoading] = React.useState(true);
+    const [error, setError] = React.useState(null);
+
+    React.useEffect(() => {
+        let ignore = false;
+        const loadDocuments = async () => {
+            try {
+                const data = await fetchDocuments();
+                if (!ignore) {
+                    setDocuments(data);
+                }
+            } catch (err) {
+                console.error('Failed to load documents:', err);
+                if (!ignore) {
+                    setError('Dokumente konnten nicht geladen werden.');
+                }
+            } finally {
+                if (!ignore) {
+                    setIsLoading(false);
+                }
+            }
+        };
+
+        loadDocuments();
+        return () => {
+            ignore = true;
+        };
+    }, []);
+
+    const recentDocuments = React.useMemo(() => documents.slice(0, 3), [documents]);
+    const events = React.useMemo(
+        () => documents.map(({ id, title, year, category }) => ({ id, title, year, category })),
+        [documents]
+    );
 
     const handleEventClick = (event) => {
         navigate(`/document/${event.id}`);
@@ -72,9 +104,17 @@ const Home = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                        {recentDocuments.map((doc) => (
-                            <DocumentCard key={doc.id} document={doc} />
-                        ))}
+                        {error ? (
+                            <p className="col-span-full text-center text-red-600">{error}</p>
+                        ) : isLoading ? (
+                            <p className="col-span-full text-center text-ink/60">Dokumente werden geladen...</p>
+                        ) : recentDocuments.length > 0 ? (
+                            recentDocuments.map((doc) => (
+                                <DocumentCard key={doc.id} document={doc} />
+                            ))
+                        ) : (
+                            <p className="col-span-full text-center text-ink/50">Noch keine Dokumente vorhanden.</p>
+                        )}
                     </div>
 
                     <div className="text-center">

@@ -2,20 +2,68 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Calendar, MapPin, ArrowRight } from 'lucide-react';
 import Timeline from '../components/Timeline';
-import documentsData from '../data/documents.json';
+import { fetchDocuments } from '../services/api';
 
 const TimelinePage = () => {
     const navigate = useNavigate();
-    const events = React.useMemo(() => (
-        documentsData.map(({ id, title, year, category }) => ({ id, title, year, category }))
-            .sort((a, b) => a.year - b.year)
-    ), []);
+    const [documents, setDocuments] = React.useState([]);
+    const [selectedEventId, setSelectedEventId] = React.useState(null);
+    const [isLoading, setIsLoading] = React.useState(true);
+    const [error, setError] = React.useState(null);
 
-    const [selectedEventId, setSelectedEventId] = React.useState(() => events[0]?.id ?? null);
+    React.useEffect(() => {
+        let ignore = false;
+        const loadDocuments = async () => {
+            try {
+                const data = await fetchDocuments();
+                if (!ignore) {
+                    setDocuments(data);
+                    setSelectedEventId(data[0]?.id ?? null);
+                }
+            } catch (err) {
+                console.error('Failed to load documents:', err);
+                if (!ignore) {
+                    setError('Dokumente konnten nicht geladen werden.');
+                }
+            } finally {
+                if (!ignore) {
+                    setIsLoading(false);
+                }
+            }
+        };
+
+        loadDocuments();
+        return () => {
+            ignore = true;
+        };
+    }, []);
+
+    const events = React.useMemo(() => (
+        documents
+            .map(({ id, title, year, category }) => ({ id, title, year, category }))
+            .sort((a, b) => a.year - b.year)
+    ), [documents]);
 
     const selectedDocument = React.useMemo(() => (
-        documentsData.find((doc) => doc.id === selectedEventId) ?? null
-    ), [selectedEventId]);
+        documents.find((doc) => doc.id === selectedEventId) ?? null
+    ), [documents, selectedEventId]);
+
+    if (isLoading) {
+        return (
+            <div className="container mx-auto px-4 py-16 text-center">
+                <p className="text-ink/60">Zeitleiste wird geladen...</p>
+            </div>
+        );
+    }
+
+    if (error) {
+        return (
+            <div className="container mx-auto px-4 py-16 text-center">
+                <h1 className="text-4xl font-serif font-bold mb-4">Zeitleiste</h1>
+                <p className="text-red-600">{error}</p>
+            </div>
+        );
+    }
 
     if (events.length === 0) {
         return (

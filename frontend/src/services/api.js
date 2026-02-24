@@ -13,7 +13,8 @@ const API_BASE = '/api';
 export const fetchDocuments = async (params = {}) => {
     try {
         const query = new URLSearchParams(params).toString();
-        const response = await fetch(`${API_BASE}/documents?${query}`);
+        const url = query ? `${API_BASE}/documents?${query}` : `${API_BASE}/documents`;
+        const response = await fetch(url);
 
         if (!response.ok) {
             throw new Error(`API Error: ${response.status}`);
@@ -33,13 +34,8 @@ export const fetchDocuments = async (params = {}) => {
  */
 export const fetchDocumentById = async (id) => {
     try {
-        const response = await fetch(`${API_BASE}/documents/${id}`);
-
-        if (!response.ok) {
-            throw new Error(`API Error: ${response.status}`);
-        }
-
-        return await response.json();
+        const documents = await fetchDocuments();
+        return documents.find((doc) => doc.id === id) ?? null;
     } catch (error) {
         console.error(`Failed to fetch document ${id}:`, error);
         throw error;
