@@ -6,14 +6,22 @@ import logo from '../assets/logo-historisches-wald.png';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isAuthenticated, setIsAuthenticated] = useState(() => typeof window !== 'undefined' && !!localStorage.getItem('authToken'));
     const location = useLocation();
+
+    React.useEffect(() => {
+        setIsAuthenticated(typeof window !== 'undefined' && !!localStorage.getItem('authToken'));
+    }, [location.pathname]);
 
     const navItems = [
         { name: 'Startseite', path: '/' },
         { name: 'Archiv', path: '/archive' },
         { name: 'Zeitleiste', path: '/timeline' },
         { name: 'Team', path: '/team' },
-        { name: 'Dokument hinzufügen', path: '/submit' },
+        ...(isAuthenticated ? [{ name: 'Dokument hinzufügen', path: '/submit' }] : []),
+        isAuthenticated
+            ? { name: 'Logout', path: '/logout' }
+            : { name: 'Login', path: '/login' },
     ];
 
     const isActive = (path) => {
