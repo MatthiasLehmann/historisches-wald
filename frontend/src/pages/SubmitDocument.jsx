@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import categoriesData from '../data/categories.json';
+import FlickrImageSelector from '../components/FlickrImageSelector.jsx';
 
 const initialForm = {
   title: '',
@@ -10,6 +11,7 @@ const initialForm = {
   author: '',
   source: '',
   condition: '',
+  images: [],
 };
 
 const SubmitDocument = () => {
@@ -82,6 +84,7 @@ const SubmitDocument = () => {
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
       condition: doc.metadata?.condition ?? '',
+      images: Array.isArray(doc.images) ? doc.images : [],
     });
     setSelectedArea(doc.category ?? '');
     setSelectedSubcategories(
@@ -104,6 +107,7 @@ const SubmitDocument = () => {
         category: selectedArea,
         subcategories: selectedSubcategories,
         transcription: form.transcription,
+        images: Array.isArray(form.images) ? form.images : [],
       };
 
       const endpoint = editingId ? `/api/documents/${editingId}` : '/api/documents';
@@ -133,6 +137,10 @@ const SubmitDocument = () => {
     } finally {
       setIsSubmitting(false);
     }
+  };
+
+  const handleImageSelection = (images) => {
+    setForm((prev) => ({ ...prev, images }));
   };
 
   return (
@@ -280,6 +288,14 @@ const SubmitDocument = () => {
             placeholder="Optionaler Volltext oder Markdown"
           />
         </label>
+
+        <section className="border border-parchment-dark rounded-sm bg-parchment/30 p-4 space-y-4">
+          <h2 className="text-lg font-serif font-bold text-ink">Flickr Image Search</h2>
+          <p className="text-sm text-ink/70">
+            Durchsuchen Sie Flickr nach passenden Motiven, wählen Sie Bilder aus und speichern Sie deren URLs direkt im Dokument.
+          </p>
+          <FlickrImageSelector selectedImages={form.images ?? []} onSelect={handleImageSelection} />
+        </section>
 
         <div className="grid md:grid-cols-3 gap-4">
           <label className="space-y-1 text-sm font-medium text-ink/80">
