@@ -18,7 +18,10 @@ const Header = () => {
         { name: 'Archiv', path: '/archive' },
         { name: 'Zeitleiste', path: '/timeline' },
         { name: 'Team', path: '/team' },
-        ...(isAuthenticated ? [{ name: 'Dokument hinzufügen', path: '/submit' }] : []),
+        ...(isAuthenticated ? [
+            { name: 'Dokument hinzufügen', path: '/submit' },
+            { name: 'Review Center', path: '/review' }
+        ] : []),
         isAuthenticated
             ? { name: 'Logout', path: '/logout' }
             : { name: 'Login', path: '/login' },

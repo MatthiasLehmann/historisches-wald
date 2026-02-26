@@ -15,6 +15,7 @@ import TimelinePage from './pages/TimelinePage';
 import Team from './pages/Team';
 import SubmitDocument from './pages/SubmitDocument';
 import LoginPage from './pages/LoginPage';
+import ReviewDashboard from './pages/ReviewDashboard';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -56,6 +57,14 @@ const App = () => (
           element={
             <ProtectedRoute>
               <SubmitDocument />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/review"
+          element={
+            <ProtectedRoute>
+              <ReviewDashboard />
             </ProtectedRoute>
           }
         />

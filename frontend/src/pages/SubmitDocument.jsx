@@ -191,68 +191,68 @@ const SubmitDocument = () => {
             </div>
           )}
 
-        <div className="grid md:grid-cols-2 gap-4">
-          <label className="space-y-1 text-sm font-medium text-ink/80">
-            Titel*
-            <input
-              name="title"
-              value={form.title}
-              onChange={handleChange}
-              className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-              required
-            />
-          </label>
-          <label className="space-y-1 text-sm font-medium text-ink/80">
-            Jahr*
-            <input
-              name="year"
-              type="number"
-              value={form.year}
-              onChange={handleChange}
-              className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-              required
-            />
-          </label>
-        </div>
+          <div className="grid md:grid-cols-2 gap-4">
+            <label className="space-y-1 text-sm font-medium text-ink/80">
+              Titel*
+              <input
+                name="title"
+                value={form.title}
+                onChange={handleChange}
+                className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                required
+              />
+            </label>
+            <label className="space-y-1 text-sm font-medium text-ink/80">
+              Jahr*
+              <input
+                name="year"
+                type="number"
+                value={form.year}
+                onChange={handleChange}
+                className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                required
+              />
+            </label>
+          </div>
 
-        <div className="grid md:grid-cols-2 gap-4">
-          <label className="space-y-1 text-sm font-medium text-ink/80">
-            Kategorie*
-            <select
-              name="category"
-              value={selectedArea}
-              onChange={handleAreaChange}
-              className="w-full border border-parchment-dark rounded-sm px-3 py-2 bg-white"
-              required
-            >
-              <option value="">Bitte wählen</option>
-              {areaOptions.map((area) => (
-                <option key={area.id} value={area.label}>
-                  {area.label}
-                </option>
-              ))}
-            </select>
-          </label>
-          <div className="space-y-1 text-sm font-medium text-ink/80">
-            Unterkategorien
-            <div className="border border-parchment-dark rounded-sm px-3 py-2 bg-parchment/30 max-h-40 overflow-y-auto">
-              {availableSubs.length === 0 && (
-                <p className="text-xs text-ink/50">Keine Unterkategorien verfügbar.</p>
-              )}
-              {availableSubs.map((sub) => (
-                <label key={sub.id} className="flex items-center gap-2 text-sm font-normal text-ink/70 py-1">
-                  <input
-                    type="checkbox"
-                    value={sub.label}
-                    checked={selectedSubcategories.includes(sub.label)}
-                    onChange={() => toggleSubcategory(sub.label)}
-                  />
-                  {sub.label}
-                </label>
-              ))}
+          <div className="grid md:grid-cols-2 gap-4">
+            <label className="space-y-1 text-sm font-medium text-ink/80">
+              Kategorie*
+              <select
+                name="category"
+                value={selectedArea}
+                onChange={handleAreaChange}
+                className="w-full border border-parchment-dark rounded-sm px-3 py-2 bg-white"
+                required
+              >
+                <option value="">Bitte wählen</option>
+                {areaOptions.map((area) => (
+                  <option key={area.id} value={area.label}>
+                    {area.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <div className="space-y-1 text-sm font-medium text-ink/80">
+              Unterkategorien
+              <div className="border border-parchment-dark rounded-sm px-3 py-2 bg-parchment/30 max-h-40 overflow-y-auto">
+                {availableSubs.length === 0 && (
+                  <p className="text-xs text-ink/50">Keine Unterkategorien verfügbar.</p>
+                )}
+                {availableSubs.map((sub) => (
+                  <label key={sub.id} className="flex items-center gap-2 text-sm font-normal text-ink/70 py-1">
+                    <input
+                      type="checkbox"
+                      value={sub.label}
+                      checked={selectedSubcategories.includes(sub.label)}
+                      onChange={() => toggleSubcategory(sub.label)}
+                    />
+                    {sub.label}
+                  </label>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
 
         <label className="space-y-1 text-sm font-medium text-ink/80 block">
           Ort*
