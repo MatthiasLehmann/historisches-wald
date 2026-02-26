@@ -1,16 +1,43 @@
-# React + Vite
+# Historisches Wald
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Historisches Wald is a full-stack document archive for historical records from Wald. The frontend runs on React + Vite, the backend on Node/Express, and documents are stored as JSON.
 
-Currently, two official plugins are available:
+## Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React + Vite application in `frontend/`
+- Tailwind-based styling with utility classes
+- Protected admin routes for document submission and review
 
-## React Compiler
+### React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is disabled for faster builds. To enable it, follow the [official guide](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Express server in `backend/`
+- Persists documents in `backend/data/documents.json`
+- Provides CRUD endpoints plus review workflow APIs
+
+## PDF Export Script
+
+Use `export_documents_pdf.py` in the repo root to generate a DIN A4 portrait PDF report from any `documents.json`.
+
+### Dependencies
+
+Install required Python packages (preferably in a virtual environment):
+
+```bash
+pip install reportlab pillow requests
+```
+
+### Usage
+
+```bash
+python export_documents_pdf.py --input ./backend/data/documents.json --output ./output/documents.pdf
+```
+
+- Downloads remote images with caching in `output/cache/`
+- Embeds metadata, description, transcription, review info, and images per document
+- Adds a table of contents, automatic page numbers, and page breaks
+
+Output files/directories are created automatically if missing.
