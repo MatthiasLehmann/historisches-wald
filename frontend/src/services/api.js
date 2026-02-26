@@ -5,6 +5,43 @@
 
 const API_BASE = '/api';
 
+const handleResponse = async (response) => {
+    if (!response.ok) {
+        let message = `API Error: ${response.status}`;
+        try {
+            const errorBody = await response.json();
+            if (errorBody?.message) {
+                message = errorBody.message;
+            }
+        } catch (parseError) {
+            // ignore json parsing issues for error responses
+        }
+        throw new Error(message);
+    }
+    if (response.status === 204) {
+        return null;
+    }
+    return await response.json();
+};
+
+const serializeParams = (params = {}) => {
+    const query = new URLSearchParams();
+    Object.entries(params).forEach(([key, value]) => {
+        if (value === undefined || value === null || value === '') {
+            return;
+        }
+        if (Array.isArray(value)) {
+            if (value.length > 0) {
+                query.set(key, value.join(','));
+            }
+            return;
+        }
+        query.set(key, value);
+    });
+    const queryString = query.toString();
+    return queryString ? `?${queryString}` : '';
+};
+
 /**
  * Fetch all documents with optional filters
  * @param {Object} params - Query parameters (search, category, page, etc)
@@ -16,11 +53,7 @@ export const fetchDocuments = async (params = {}) => {
         const url = query ? `${API_BASE}/documents?${query}` : `${API_BASE}/documents`;
         const response = await fetch(url);
 
-        if (!response.ok) {
-            throw new Error(`API Error: ${response.status}`);
-        }
-
-        return await response.json();
+        return await handleResponse(response);
     } catch (error) {
         console.error('Failed to fetch documents:', error);
         throw error;
@@ -50,13 +83,49 @@ export const fetchCategories = async () => {
     try {
         const response = await fetch(`${API_BASE}/categories`);
 
-        if (!response.ok) {
-            throw new Error(`API Error: ${response.status}`);
-        }
-
-        return await response.json();
+        return await handleResponse(response);
     } catch (error) {
         console.error('Failed to fetch categories:', error);
         throw error;
     }
 };
+
+export const fetchImages = async (params = {}) => {
+    try {
+        const query = serializeParams(params);
+        const response = await fetch(`${API_BASE}/images${query}`);
+        return await handleResponse(response);
+    } catch (error) {
+        console.error('Failed to fetch images:', error);
+        throw error;
+    }
+};
+
+const mutateImage = async (endpoint, method, body) => {
+    const response = await fetch(`${API_BASE}${endpoint}`, {
+        method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+    });
+    return handleResponse(response);
+};
+
+export const createImageAsset = async (payload) => mutateImage('/images', 'POST', payload);
+
+export const updateImageAsset = async (id, payload) => mutateImage(`/images/${id}`, 'PUT', payload);
+
+export const deleteImageAsset = async (id) => {
+    const response = await fetch(`${API_BASE}/images/${id}`, { method: 'DELETE' });
+    return handleResponse(response);
+};
+
+export const importRemoteImage = async (payload) => mutateImage('/images/import-url', 'POST', payload);
+
+export const addImageReviewComment = async (id, payload) =>
+    mutateImage(`/images/${id}/review/comment`, 'POST', payload);
+
+export const updateImageReviewStatus = async (id, payload) =>
+    mutateImage(`/images/${id}/review/status`, 'PUT', payload);
+
+export const completeImageReview = async (id, payload) =>
+    mutateImage(`/images/${id}/review/complete`, 'PUT', payload);

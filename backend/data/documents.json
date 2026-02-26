@@ -44,7 +44,10 @@
         "description": "Offizielle Urkunde zur Gründung der Pfarrei Wald, unterzeichnet von Bischof Clemens Wenzeslaus.",
         "transcription": "Im Namen der Heiligen Dreifaltigkeit. \n\nWir, Clemens Wenzeslaus, von Gottes Gnaden Bischof von Augsburg, geben kund und zu wissen jedermänniglich:\n\nNachdem die getreuen Einwohner der Gemeinde Wald in demütiger Bittschrift uns vorgetragen haben, dass der Weg zur bisherigen Mutterkirche beschwerlich und im Winter oft ungangbar sei, haben wir uns gnädigst bewogen gefunden, dem geistlichen Wohle besagter Gemeinde durch Errichtung einer eigenen Pfarrei Sorge zu tragen.\n\nSo verordnen wir hiermit kraft unseres bischöflichen Amtes, dass die Kapelle St. Martin zu Wald zur Pfarrkirche erhoben werde, mit allen Rechten und Pflichten, die einer solchen gebühren.\n\nGegeben zu Augsburg, am 12. Tage des Monats Mai im Jahre des Herrn 1785.\n\n(gez.) Clemens Wenzeslaus",
         "images": [
-            "/images/placeholder-doc-1.jpg"
+            "/images/img-00001.jpg"
+        ],
+        "imageIds": [
+            "img-00001"
         ],
         "metadata": {
             "author": "Bischöfliche Kanzlei Augsburg",

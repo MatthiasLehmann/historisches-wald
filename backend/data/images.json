@@ -1,0 +1,66 @@
+[
+  {
+    "id": "img-00001",
+    "title": "Brand Riedetsweiler – Hof Sales Hipp",
+    "year": 1964,
+    "description": "Zeitungsfoto / Hof nach dem Brand",
+    "location": "Riedetsweiler",
+    "source": "Südkurier, 03.08.1964",
+    "author": "Unbekannt",
+    "license": "rights-reserved",
+    "tags": [
+      "Brand",
+      "Feuerwehr"
+    ],
+    "file": {
+      "type": "local",
+      "path": "/images/img-00001.jpg",
+      "originalUrl": null
+    },
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-001"
+    ],
+    "createdAt": "2026-02-20T10:00:00.000Z",
+    "updatedAt": "2026-02-25T12:00:00.000Z"
+  },
+  {
+    "id": "img-00002",
+    "title": "Ortsansicht Wald mit Kirche",
+    "year": 1955,
+    "description": "Panoramaaufnahme vom Ortskern mit Pfarrkirche",
+    "location": "Wald",
+    "source": "Gemeindearchiv",
+    "author": "Fotostudio Maier",
+    "license": "public-domain",
+    "tags": [
+      "Wald",
+      "Kirche"
+    ],
+    "file": {
+      "type": "remote",
+      "path": "",
+      "originalUrl": "https://example.com/images/img-00002.jpg"
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Matthias Lehmann",
+      "reviewedAt": "2026-02-24T09:30:00.000Z",
+      "comments": [
+        {
+          "reviewer": "Matthias Lehmann",
+          "date": "2026-02-23T16:00:00.000Z",
+          "comment": "Quelle geprüft."
+        }
+      ]
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-02-19T08:00:00.000Z",
+    "updatedAt": "2026-02-24T09:30:00.000Z"
+  }
+]

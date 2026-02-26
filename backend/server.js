@@ -3,6 +3,7 @@ import cors from 'cors';
 import loadEnv from './utils/loadEnv.js';
 import documentsRouter from './routes/documents.js';
 import flickrRouter from './routes/flickr.js';
+import imagesRouter from './routes/images.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -14,6 +15,7 @@ app.use(express.json({ limit: '1mb' }));
 
 app.use('/api/documents', documentsRouter);
 app.use('/api/flickr', flickrRouter);
+app.use('/api/images', imagesRouter);
 
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok' });

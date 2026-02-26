@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import categoriesData from '../data/categories.json';
-import FlickrImageSelector from '../components/FlickrImageSelector.jsx';
+import ImageSelectorModal from '../components/ImageSelectorModal.jsx';
+import { fetchImages } from '../services/api.js';
 
 const initialForm = {
   title: '',
@@ -11,7 +12,7 @@ const initialForm = {
   author: '',
   source: '',
   condition: '',
-  images: [],
+  imageIds: [],
 };
 
 const SubmitDocument = () => {
@@ -22,6 +23,8 @@ const SubmitDocument = () => {
   const [selectedSubcategories, setSelectedSubcategories] = useState([]);
   const [documents, setDocuments] = useState([]);
   const [editingId, setEditingId] = useState(null);
+  const [selectedImages, setSelectedImages] = useState([]);
+  const [isSelectorOpen, setIsSelectorOpen] = useState(false);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -69,6 +72,7 @@ const SubmitDocument = () => {
     setSelectedArea('');
     setSelectedSubcategories([]);
     setEditingId(null);
+    setSelectedImages([]);
   };
 
   const handleSelectDocument = (doc) => {
@@ -84,7 +88,7 @@ const SubmitDocument = () => {
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
       condition: doc.metadata?.condition ?? '',
-      images: Array.isArray(doc.images) ? doc.images : [],
+      imageIds: Array.isArray(doc.imageIds) ? doc.imageIds : [],
     });
     setSelectedArea(doc.category ?? '');
     setSelectedSubcategories(
@@ -94,6 +98,7 @@ const SubmitDocument = () => {
           ? [doc.subcategory]
           : [],
     );
+    loadSelectedImages(Array.isArray(doc.imageIds) ? doc.imageIds : []);
   };
 
   const handleSubmit = async (event) => {
@@ -107,7 +112,7 @@ const SubmitDocument = () => {
         category: selectedArea,
         subcategories: selectedSubcategories,
         transcription: form.transcription,
-        images: Array.isArray(form.images) ? form.images : [],
+        imageIds: Array.isArray(form.imageIds) ? form.imageIds : [],
       };
 
       const endpoint = editingId ? `/api/documents/${editingId}` : '/api/documents';
@@ -139,8 +144,38 @@ const SubmitDocument = () => {
     }
   };
 
-  const handleImageSelection = (images) => {
-    setForm((prev) => ({ ...prev, images }));
+  const loadSelectedImages = async (imageIds) => {
+    if (!Array.isArray(imageIds) || imageIds.length === 0) {
+      setSelectedImages([]);
+      return;
+    }
+    try {
+      const data = await fetchImages({ ids: imageIds });
+      const ordered = imageIds
+        .map((id) => data.find((img) => img.id === id))
+        .filter(Boolean);
+      setSelectedImages(ordered);
+    } catch (error) {
+      console.error('Bilder konnten nicht geladen werden:', error);
+    }
+  };
+
+  const handleImageSelectionSave = (images) => {
+    const ids = images.map((img) => img.id);
+    setForm((prev) => ({ ...prev, imageIds: ids }));
+    setSelectedImages(images);
+  };
+
+  const removeImageFromSelection = (id) => {
+    setSelectedImages((prev) => prev.filter((img) => img.id !== id));
+    setForm((prev) => ({ ...prev, imageIds: prev.imageIds.filter((imgId) => imgId !== id) }));
+  };
+
+  const previewUrl = (image) => {
+    if (image.file?.type === 'remote') {
+      return image.file?.originalUrl || image.file?.path || '';
+    }
+    return image.file?.path || image.file?.originalUrl || '';
   };
 
   return (
@@ -290,11 +325,48 @@ const SubmitDocument = () => {
         </label>
 
         <section className="border border-parchment-dark rounded-sm bg-parchment/30 p-4 space-y-4">
-          <h2 className="text-lg font-serif font-bold text-ink">Flickr Image Search</h2>
-          <p className="text-sm text-ink/70">
-            Durchsuchen Sie Flickr nach passenden Motiven, wählen Sie Bilder aus und speichern Sie deren URLs direkt im Dokument.
-          </p>
-          <FlickrImageSelector selectedImages={form.images ?? []} onSelect={handleImageSelection} />
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-lg font-serif font-bold text-ink">Verknüpfte Bilder</h2>
+              <p className="text-sm text-ink/70">Nutzen Sie die zentrale Mediathek, um Bilder mehrfach zu verwenden.</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsSelectorOpen(true)}
+              className="px-4 py-2 bg-accent text-white text-sm font-semibold rounded-sm"
+            >
+              Bilder aus Mediathek hinzufügen
+            </button>
+          </div>
+          {selectedImages.length === 0 ? (
+            <p className="text-sm text-ink/60">Noch keine Bilder verknüpft.</p>
+          ) : (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {selectedImages.map((image) => (
+                <div key={image.id} className="border border-parchment-dark rounded-sm overflow-hidden bg-white">
+                  <div className="aspect-video bg-parchment-dark">
+                    {previewUrl(image) ? (
+                      <img src={previewUrl(image)} alt={image.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="flex items-center justify-center h-full text-xs text-ink/50">Keine Vorschau</div>
+                    )}
+                  </div>
+                  <div className="p-3 text-sm space-y-1">
+                    <p className="font-semibold text-ink">{image.title}</p>
+                    <p className="text-ink/60">{image.year || 'Unbekannt'} · {image.location || 'Ohne Ort'}</p>
+                    <p className="text-ink/60 text-xs">ID: {image.id}</p>
+                    <button
+                      type="button"
+                      onClick={() => removeImageFromSelection(image.id)}
+                      className="text-xs text-red-600 hover:underline"
+                    >
+                      Entfernen
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </section>
 
         <div className="grid md:grid-cols-3 gap-4">
@@ -343,6 +415,14 @@ const SubmitDocument = () => {
         </div>
         </form>
       </div>
+
+      <ImageSelectorModal
+        isOpen={isSelectorOpen}
+        onClose={() => setIsSelectorOpen(false)}
+        onConfirm={handleImageSelectionSave}
+        selectedIds={form.imageIds}
+        selectedImages={selectedImages}
+      />
     </div>
   );
 };

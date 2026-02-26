@@ -3,6 +3,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec as execCallback } from 'child_process';
 import { promisify } from 'util';
+import {
+  readImages,
+  resolveImagePreviewUrl,
+  syncLinkedDocuments,
+  writeImages
+} from '../models/imagesModel.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -26,6 +32,59 @@ const normalizeReview = (doc) => {
   };
 };
 
+const normalizeDocument = (doc) => {
+  const normalized = normalizeReview(doc);
+  const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
+  return {
+    ...normalized,
+    imageIds,
+    images: Array.isArray(normalized.images) ? normalized.images : []
+  };
+};
+
+const buildImageLookup = (images) => {
+  const lookup = new Map();
+  images.forEach((image) => {
+    lookup.set(image.id, {
+      ...image,
+      previewUrl: resolveImagePreviewUrl(image)
+    });
+  });
+  return lookup;
+};
+
+const applyImagePreviews = (document, lookup) => {
+  const imageIds = Array.isArray(document.imageIds) ? document.imageIds : [];
+  const existingImages = Array.isArray(document.images) ? document.images : [];
+  const previews = imageIds
+    .map((imageId) => lookup.get(imageId))
+    .filter((item) => Boolean(item?.previewUrl))
+    .map((item) => item.previewUrl);
+
+  return {
+    ...document,
+    imageIds,
+    images: imageIds.length > 0 ? previews : existingImages
+  };
+};
+
+const ensureImageLookup = async () => {
+  const images = await readImages();
+  return {
+    images,
+    lookup: buildImageLookup(images)
+  };
+};
+
+const updateLinkedDocumentsForImages = async (images, documentId, desiredImageIds) => {
+  const { images: updatedImages, changed } = syncLinkedDocuments(images, documentId, desiredImageIds);
+  if (changed) {
+    await writeImages(updatedImages);
+    return updatedImages;
+  }
+  return images;
+};
+
 const ensureDataFile = async () => {
   try {
     await fs.access(DATA_FILE);
@@ -43,11 +102,11 @@ const readDocuments = async () => {
   await ensureDataFile();
   const data = await fs.readFile(DATA_FILE, 'utf8');
   const parsed = data ? JSON.parse(data) : [];
-  return parsed.map((doc) => normalizeReview(doc));
+  return parsed.map((doc) => normalizeDocument(doc));
 };
 
 const writeDocuments = async (documents) => {
-  const normalized = documents.map((doc) => normalizeReview(doc));
+  const normalized = documents.map((doc) => normalizeDocument(doc));
   await fs.writeFile(DATA_FILE, JSON.stringify(normalized, null, 2), 'utf8');
   return normalized;
 };
@@ -121,8 +180,10 @@ const commitDocumentSave = async (docId, mode) => {
 
 export const getDocuments = async (_req, res) => {
   try {
-    const documents = await readDocuments();
-    res.json(documents);
+    const [documents, images] = await Promise.all([readDocuments(), readImages()]);
+    const lookup = buildImageLookup(images);
+    const hydrated = documents.map((doc) => applyImagePreviews(doc, lookup));
+    res.json(hydrated);
   } catch (error) {
     console.error('Error reading documents:', error);
     res.status(500).json({ message: 'Failed to read documents.' });
@@ -138,7 +199,9 @@ export const createDocument = async (req, res) => {
     }
 
     const documents = await readDocuments();
-    const newDocument = normalizeReview({
+    const imageIds = Array.isArray(req.body.imageIds) ? req.body.imageIds : [];
+    const { images: imageStore, lookup } = await ensureImageLookup();
+    const newDocument = normalizeDocument({
       id: `doc-${Date.now()}`,
       title,
       year: Number(year),
@@ -147,12 +210,13 @@ export const createDocument = async (req, res) => {
       location,
       description,
       transcription: req.body.transcription || '',
-      images: Array.isArray(req.body.images) ? req.body.images : [],
+      images: [],
       metadata: {
         author: req.body.author || 'Unbekannt',
         source: req.body.source || 'Unbekannt',
         condition: req.body.condition || 'Unbekannt'
       },
+      imageIds,
       review: {
         status: 'pending',
         reviewer: '',
@@ -161,11 +225,13 @@ export const createDocument = async (req, res) => {
       }
     });
 
-    documents.unshift(newDocument);
+    const hydrated = applyImagePreviews(newDocument, lookup);
+    documents.unshift(hydrated);
     await writeDocuments(documents);
-    await commitDocumentSave(newDocument.id, 'create');
+    await updateLinkedDocumentsForImages(imageStore, hydrated.id, hydrated.imageIds);
+    await commitDocumentSave(hydrated.id, 'create');
 
-    res.status(201).json(newDocument);
+    res.status(201).json(hydrated);
   } catch (error) {
     console.error('Error creating document:', error);
     res.status(500).json({ message: 'Failed to create document.' });
@@ -184,12 +250,14 @@ export const updateDocument = async (req, res) => {
 
     const existing = documents[index];
     const existingReview = normalizeReview(existing).review;
+    const { images: imageStore, lookup } = await ensureImageLookup();
     const updated = {
       ...existing,
       ...req.body,
       year: req.body.year ? Number(req.body.year) : existing.year,
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : existing.subcategories,
       images: Array.isArray(req.body.images) ? req.body.images : existing.images,
+      imageIds: Array.isArray(req.body.imageIds) ? req.body.imageIds : existing.imageIds || [],
       metadata: {
         ...existing.metadata,
         author: req.body.author ?? existing.metadata?.author ?? 'Unbekannt',
@@ -199,12 +267,14 @@ export const updateDocument = async (req, res) => {
       review: existingReview
     };
 
-    const normalized = normalizeReview(updated);
-    documents[index] = normalized;
+    const normalized = normalizeDocument(updated);
+    const hydrated = applyImagePreviews(normalized, lookup);
+    documents[index] = hydrated;
     await writeDocuments(documents);
-    await commitDocumentSave(normalized.id, 'update');
+    await updateLinkedDocumentsForImages(imageStore, hydrated.id, hydrated.imageIds);
+    await commitDocumentSave(hydrated.id, 'update');
 
-    res.json(normalized);
+    res.json(hydrated);
   } catch (error) {
     console.error('Error updating document:', error);
     res.status(500).json({ message: 'Failed to update document.' });
@@ -215,13 +285,15 @@ export const deleteDocument = async (req, res) => {
   try {
     const { id } = req.params;
     const documents = await readDocuments();
-    const filtered = documents.filter((doc) => doc.id !== id);
-
-    if (filtered.length === documents.length) {
+    const target = documents.find((doc) => doc.id === id);
+    if (!target) {
       return res.status(404).json({ message: 'Document not found.' });
     }
+    const filtered = documents.filter((doc) => doc.id !== id);
 
     await writeDocuments(filtered);
+    const { images: imageStore } = await ensureImageLookup();
+    await updateLinkedDocumentsForImages(imageStore, id, []);
     res.status(204).send();
   } catch (error) {
     console.error('Error deleting document:', error);

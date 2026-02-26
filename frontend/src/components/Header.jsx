@@ -20,7 +20,8 @@ const Header = () => {
         { name: 'Team', path: '/team' },
         ...(isAuthenticated ? [
             { name: 'Dokument hinzufügen', path: '/submit' },
-            { name: 'Review Center', path: '/review' }
+            { name: 'Review Center', path: '/review' },
+            { name: 'Mediathek', path: '/media/images' }
         ] : []),
         isAuthenticated
             ? { name: 'Logout', path: '/logout' }

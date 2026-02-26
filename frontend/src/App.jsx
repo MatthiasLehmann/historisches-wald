@@ -16,6 +16,7 @@ import Team from './pages/Team';
 import SubmitDocument from './pages/SubmitDocument';
 import LoginPage from './pages/LoginPage';
 import ReviewDashboard from './pages/ReviewDashboard';
+import MediaImages from './pages/MediaImages';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -65,6 +66,14 @@ const App = () => (
           element={
             <ProtectedRoute>
               <ReviewDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/media/images"
+          element={
+            <ProtectedRoute>
+              <MediaImages />
             </ProtectedRoute>
           }
         />
