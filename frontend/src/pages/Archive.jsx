@@ -94,6 +94,10 @@ const Archive = () => {
     };
 
     const filteredDocuments = useMemo(() => documents.filter(doc => {
+        const isApproved = doc?.review?.status === 'approved';
+        if (!isApproved) {
+            return false;
+        }
         const matchesCategory = matchesCategorySelection(doc);
 
         const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
