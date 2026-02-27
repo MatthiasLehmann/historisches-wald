@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import categoriesData from '../data/categories.json';
 import ImageSelectorModal from '../components/ImageSelectorModal.jsx';
-import { fetchImages } from '../services/api.js';
+import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
+import { fetchImages, fetchPdfs } from '../services/api.js';
 
 const initialForm = {
   title: '',
@@ -13,6 +14,7 @@ const initialForm = {
   source: '',
   condition: '',
   imageIds: [],
+  pdfIds: [],
 };
 
 const SubmitDocument = () => {
@@ -24,7 +26,9 @@ const SubmitDocument = () => {
   const [documents, setDocuments] = useState([]);
   const [editingId, setEditingId] = useState(null);
   const [selectedImages, setSelectedImages] = useState([]);
-  const [isSelectorOpen, setIsSelectorOpen] = useState(false);
+  const [isImageSelectorOpen, setIsImageSelectorOpen] = useState(false);
+  const [selectedPdfs, setSelectedPdfs] = useState([]);
+  const [isPdfSelectorOpen, setIsPdfSelectorOpen] = useState(false);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -73,6 +77,7 @@ const SubmitDocument = () => {
     setSelectedSubcategories([]);
     setEditingId(null);
     setSelectedImages([]);
+    setSelectedPdfs([]);
   };
 
   const handleSelectDocument = (doc) => {
@@ -89,6 +94,7 @@ const SubmitDocument = () => {
       source: doc.metadata?.source ?? '',
       condition: doc.metadata?.condition ?? '',
       imageIds: Array.isArray(doc.imageIds) ? doc.imageIds : [],
+      pdfIds: Array.isArray(doc.pdfIds) ? doc.pdfIds : [],
     });
     setSelectedArea(doc.category ?? '');
     setSelectedSubcategories(
@@ -98,7 +104,10 @@ const SubmitDocument = () => {
           ? [doc.subcategory]
           : [],
     );
-    loadSelectedImages(Array.isArray(doc.imageIds) ? doc.imageIds : []);
+    const nextImageIds = Array.isArray(doc.imageIds) ? doc.imageIds : [];
+    loadSelectedImages(nextImageIds);
+    const nextPdfIds = Array.isArray(doc.pdfIds) ? doc.pdfIds : [];
+    loadSelectedPdfs(nextPdfIds);
   };
 
   const handleSubmit = async (event) => {
@@ -113,6 +122,7 @@ const SubmitDocument = () => {
         subcategories: selectedSubcategories,
         transcription: form.transcription,
         imageIds: Array.isArray(form.imageIds) ? form.imageIds : [],
+        pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
       };
 
       const endpoint = editingId ? `/api/documents/${editingId}` : '/api/documents';
@@ -171,7 +181,44 @@ const SubmitDocument = () => {
     setForm((prev) => ({ ...prev, imageIds: prev.imageIds.filter((imgId) => imgId !== id) }));
   };
 
-  const previewUrl = (image) => {
+  const loadSelectedPdfs = async (pdfIds) => {
+    if (!Array.isArray(pdfIds) || pdfIds.length === 0) {
+      setSelectedPdfs([]);
+      return;
+    }
+    try {
+      const data = await fetchPdfs({ ids: pdfIds });
+      const ordered = pdfIds
+        .map((id) => data.find((pdf) => pdf.id === id))
+        .filter(Boolean);
+      setSelectedPdfs(ordered);
+    } catch (error) {
+      console.error('PDFs konnten nicht geladen werden:', error);
+    }
+  };
+
+  const handlePdfSelectionSave = (pdfs) => {
+    const ids = pdfs.map((pdf) => pdf.id);
+    setForm((prev) => ({ ...prev, pdfIds: ids }));
+    setSelectedPdfs(pdfs);
+  };
+
+  const removePdfFromSelection = (id) => {
+    setSelectedPdfs((prev) => prev.filter((pdf) => pdf.id !== id));
+    setForm((prev) => ({
+      ...prev,
+      pdfIds: Array.isArray(prev.pdfIds) ? prev.pdfIds.filter((pdfId) => pdfId !== id) : []
+    }));
+  };
+
+  const pdfPreviewUrl = (pdf) => {
+    if (pdf.file?.type === 'remote') {
+      return pdf.file?.originalUrl || pdf.file?.path || '';
+    }
+    return pdf.file?.path || pdf.file?.originalUrl || '';
+  };
+
+  const imagePreviewUrl = (image) => {
     if (image.file?.type === 'remote') {
       return image.file?.originalUrl || image.file?.path || '';
     }
@@ -332,7 +379,7 @@ const SubmitDocument = () => {
             </div>
             <button
               type="button"
-              onClick={() => setIsSelectorOpen(true)}
+              onClick={() => setIsImageSelectorOpen(true)}
               className="px-4 py-2 bg-accent text-white text-sm font-semibold rounded-sm"
             >
               Bilder aus Mediathek hinzufügen
@@ -345,8 +392,8 @@ const SubmitDocument = () => {
               {selectedImages.map((image) => (
                 <div key={image.id} className="border border-parchment-dark rounded-sm overflow-hidden bg-white">
                   <div className="aspect-video bg-parchment-dark">
-                    {previewUrl(image) ? (
-                      <img src={previewUrl(image)} alt={image.title} className="w-full h-full object-cover" />
+                    {imagePreviewUrl(image) ? (
+                      <img src={imagePreviewUrl(image)} alt={image.title} className="w-full h-full object-cover" />
                     ) : (
                       <div className="flex items-center justify-center h-full text-xs text-ink/50">Keine Vorschau</div>
                     )}
@@ -362,6 +409,71 @@ const SubmitDocument = () => {
                     >
                       Entfernen
                     </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+
+        <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-lg font-serif font-bold text-ink">Verknüpfte PDFs</h2>
+              <p className="text-sm text-ink/70">Binden Sie digitale Quellen über die PDF-Bibliothek ein.</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsPdfSelectorOpen(true)}
+              className="px-4 py-2 bg-ink text-white text-sm font-semibold rounded-sm"
+            >
+              PDFs aus Mediathek hinzufügen
+            </button>
+          </div>
+          {selectedPdfs.length === 0 ? (
+            <p className="text-sm text-ink/60">Noch keine PDFs verknüpft.</p>
+          ) : (
+            <div className="space-y-4">
+              {selectedPdfs.map((pdf) => (
+                <div key={pdf.id} className="border border-parchment-dark rounded-sm bg-white p-3 space-y-3">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                    <div>
+                      <p className="font-semibold text-ink">{pdf.title}</p>
+                      <p className="text-xs text-ink/60">{pdf.year || 'Unbekannt'} · {pdf.location || 'Ohne Ort'}</p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => removePdfFromSelection(pdf.id)}
+                      className="text-xs text-red-600 hover:underline"
+                    >
+                      Entfernen
+                    </button>
+                  </div>
+                  <div className="grid md:grid-cols-2 gap-3">
+                    <div className="border border-parchment-dark rounded-sm overflow-hidden bg-parchment/40">
+                      {pdfPreviewUrl(pdf) ? (
+                        <iframe src={pdfPreviewUrl(pdf)} title={pdf.title} className="w-full h-48" />
+                      ) : (
+                        <div className="h-48 flex items-center justify-center text-xs text-ink/60">
+                          Keine Vorschau
+                        </div>
+                      )}
+                    </div>
+                    <div className="text-sm text-ink/70 space-y-1">
+                      <p>Quelle: {pdf.source || 'Unbekannt'}</p>
+                      <p>Lizenz: {pdf.license || 'rights-reserved'}</p>
+                      <p>ID: {pdf.id}</p>
+                      {pdfPreviewUrl(pdf) && (
+                        <div className="flex items-center gap-4 text-xs pt-2">
+                          <a href={pdfPreviewUrl(pdf)} target="_blank" rel="noreferrer" className="text-accent hover:underline">
+                            Im neuen Tab öffnen
+                          </a>
+                          <a href={pdfPreviewUrl(pdf)} download className="text-ink hover:underline">
+                            Download
+                          </a>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               ))}
@@ -417,11 +529,18 @@ const SubmitDocument = () => {
       </div>
 
       <ImageSelectorModal
-        isOpen={isSelectorOpen}
-        onClose={() => setIsSelectorOpen(false)}
+        isOpen={isImageSelectorOpen}
+        onClose={() => setIsImageSelectorOpen(false)}
         onConfirm={handleImageSelectionSave}
         selectedIds={form.imageIds}
         selectedImages={selectedImages}
+      />
+      <PdfSelectorModal
+        isOpen={isPdfSelectorOpen}
+        onClose={() => setIsPdfSelectorOpen(false)}
+        onConfirm={handlePdfSelectionSave}
+        selectedIds={form.pdfIds}
+        selectedPdfs={selectedPdfs}
       />
     </div>
   );

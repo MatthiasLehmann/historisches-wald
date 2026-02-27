@@ -21,7 +21,8 @@ const Header = () => {
         ...(isAuthenticated ? [
             { name: 'Dokument hinzufügen', path: '/submit' },
             { name: 'Review Center', path: '/review' },
-            { name: 'Mediathek', path: '/media/images' }
+            { name: 'Mediathek Bilder', path: '/media/images' },
+            { name: 'Mediathek PDFs', path: '/media/pdfs' }
         ] : []),
         isAuthenticated
             ? { name: 'Logout', path: '/logout' }

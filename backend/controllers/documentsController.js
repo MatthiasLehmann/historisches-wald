@@ -6,9 +6,14 @@ import { promisify } from 'util';
 import {
   readImages,
   resolveImagePreviewUrl,
-  syncLinkedDocuments,
+  syncLinkedDocuments as syncImageDocuments,
   writeImages
 } from '../models/imagesModel.js';
+import {
+  readPdfs,
+  syncLinkedDocuments as syncPdfDocuments,
+  writePdfs
+} from '../models/pdfsModel.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -35,10 +40,13 @@ const normalizeReview = (doc) => {
 const normalizeDocument = (doc) => {
   const normalized = normalizeReview(doc);
   const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
+  const pdfIds = Array.isArray(normalized.pdfIds) ? normalized.pdfIds : [];
   return {
     ...normalized,
     imageIds,
-    images: Array.isArray(normalized.images) ? normalized.images : []
+    pdfIds,
+    images: Array.isArray(normalized.images) ? normalized.images : [],
+    pdfs: []
   };
 };
 
@@ -48,6 +56,26 @@ const buildImageLookup = (images) => {
     lookup.set(image.id, {
       ...image,
       previewUrl: resolveImagePreviewUrl(image)
+    });
+  });
+  return lookup;
+};
+
+const buildPdfLookup = (pdfs) => {
+  const lookup = new Map();
+  pdfs.forEach((pdf) => {
+    lookup.set(pdf.id, {
+      id: pdf.id,
+      title: pdf.title,
+      year: pdf.year,
+      description: pdf.description,
+      location: pdf.location,
+      source: pdf.source,
+      author: pdf.author,
+      license: pdf.license,
+      tags: pdf.tags,
+      file: pdf.file,
+      pages: pdf.pages ?? null
     });
   });
   return lookup;
@@ -68,21 +96,50 @@ const applyImagePreviews = (document, lookup) => {
   };
 };
 
-const ensureImageLookup = async () => {
-  const images = await readImages();
+const applyPdfReferences = (document, lookup) => {
+  const pdfIds = Array.isArray(document.pdfIds) ? document.pdfIds : [];
+  const pdfs = pdfIds
+    .map((pdfId) => lookup.get(pdfId))
+    .filter(Boolean);
+
+  return {
+    ...document,
+    pdfIds,
+    pdfs
+  };
+};
+
+const applyMediaReferences = (document, lookups) => {
+  const withImages = applyImagePreviews(document, lookups.imageLookup);
+  return applyPdfReferences(withImages, lookups.pdfLookup);
+};
+
+const ensureMediaLookups = async () => {
+  const [images, pdfs] = await Promise.all([readImages(), readPdfs()]);
   return {
     images,
-    lookup: buildImageLookup(images)
+    pdfs,
+    imageLookup: buildImageLookup(images),
+    pdfLookup: buildPdfLookup(pdfs)
   };
 };
 
 const updateLinkedDocumentsForImages = async (images, documentId, desiredImageIds) => {
-  const { images: updatedImages, changed } = syncLinkedDocuments(images, documentId, desiredImageIds);
+  const { images: updatedImages, changed } = syncImageDocuments(images, documentId, desiredImageIds);
   if (changed) {
     await writeImages(updatedImages);
     return updatedImages;
   }
   return images;
+};
+
+const updateLinkedDocumentsForPdfs = async (pdfs, documentId, desiredPdfIds) => {
+  const { pdfs: updatedPdfs, changed } = syncPdfDocuments(pdfs, documentId, desiredPdfIds);
+  if (changed) {
+    await writePdfs(updatedPdfs);
+    return updatedPdfs;
+  }
+  return pdfs;
 };
 
 const ensureDataFile = async () => {
@@ -180,9 +237,8 @@ const commitDocumentSave = async (docId, mode) => {
 
 export const getDocuments = async (_req, res) => {
   try {
-    const [documents, images] = await Promise.all([readDocuments(), readImages()]);
-    const lookup = buildImageLookup(images);
-    const hydrated = documents.map((doc) => applyImagePreviews(doc, lookup));
+    const [documents, lookups] = await Promise.all([readDocuments(), ensureMediaLookups()]);
+    const hydrated = documents.map((doc) => applyMediaReferences(doc, lookups));
     res.json(hydrated);
   } catch (error) {
     console.error('Error reading documents:', error);
@@ -200,7 +256,8 @@ export const createDocument = async (req, res) => {
 
     const documents = await readDocuments();
     const imageIds = Array.isArray(req.body.imageIds) ? req.body.imageIds : [];
-    const { images: imageStore, lookup } = await ensureImageLookup();
+    const pdfIds = Array.isArray(req.body.pdfIds) ? req.body.pdfIds : [];
+    const lookups = await ensureMediaLookups();
     const newDocument = normalizeDocument({
       id: `doc-${Date.now()}`,
       title,
@@ -211,12 +268,14 @@ export const createDocument = async (req, res) => {
       description,
       transcription: req.body.transcription || '',
       images: [],
+      pdfs: [],
       metadata: {
         author: req.body.author || 'Unbekannt',
         source: req.body.source || 'Unbekannt',
         condition: req.body.condition || 'Unbekannt'
       },
       imageIds,
+      pdfIds,
       review: {
         status: 'pending',
         reviewer: '',
@@ -225,10 +284,11 @@ export const createDocument = async (req, res) => {
       }
     });
 
-    const hydrated = applyImagePreviews(newDocument, lookup);
+    const hydrated = applyMediaReferences(newDocument, lookups);
     documents.unshift(hydrated);
     await writeDocuments(documents);
-    await updateLinkedDocumentsForImages(imageStore, hydrated.id, hydrated.imageIds);
+    await updateLinkedDocumentsForImages(lookups.images, hydrated.id, hydrated.imageIds);
+    await updateLinkedDocumentsForPdfs(lookups.pdfs, hydrated.id, hydrated.pdfIds);
     await commitDocumentSave(hydrated.id, 'create');
 
     res.status(201).json(hydrated);
@@ -250,7 +310,7 @@ export const updateDocument = async (req, res) => {
 
     const existing = documents[index];
     const existingReview = normalizeReview(existing).review;
-    const { images: imageStore, lookup } = await ensureImageLookup();
+    const lookups = await ensureMediaLookups();
     const updated = {
       ...existing,
       ...req.body,
@@ -258,6 +318,7 @@ export const updateDocument = async (req, res) => {
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : existing.subcategories,
       images: Array.isArray(req.body.images) ? req.body.images : existing.images,
       imageIds: Array.isArray(req.body.imageIds) ? req.body.imageIds : existing.imageIds || [],
+      pdfIds: Array.isArray(req.body.pdfIds) ? req.body.pdfIds : existing.pdfIds || [],
       metadata: {
         ...existing.metadata,
         author: req.body.author ?? existing.metadata?.author ?? 'Unbekannt',
@@ -268,10 +329,11 @@ export const updateDocument = async (req, res) => {
     };
 
     const normalized = normalizeDocument(updated);
-    const hydrated = applyImagePreviews(normalized, lookup);
+    const hydrated = applyMediaReferences(normalized, lookups);
     documents[index] = hydrated;
     await writeDocuments(documents);
-    await updateLinkedDocumentsForImages(imageStore, hydrated.id, hydrated.imageIds);
+    await updateLinkedDocumentsForImages(lookups.images, hydrated.id, hydrated.imageIds);
+    await updateLinkedDocumentsForPdfs(lookups.pdfs, hydrated.id, hydrated.pdfIds);
     await commitDocumentSave(hydrated.id, 'update');
 
     res.json(hydrated);
@@ -292,8 +354,9 @@ export const deleteDocument = async (req, res) => {
     const filtered = documents.filter((doc) => doc.id !== id);
 
     await writeDocuments(filtered);
-    const { images: imageStore } = await ensureImageLookup();
-    await updateLinkedDocumentsForImages(imageStore, id, []);
+    const lookups = await ensureMediaLookups();
+    await updateLinkedDocumentsForImages(lookups.images, id, []);
+    await updateLinkedDocumentsForPdfs(lookups.pdfs, id, []);
     res.status(204).send();
   } catch (error) {
     console.error('Error deleting document:', error);

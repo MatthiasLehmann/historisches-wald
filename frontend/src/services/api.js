@@ -129,3 +129,43 @@ export const updateImageReviewStatus = async (id, payload) =>
 
 export const completeImageReview = async (id, payload) =>
     mutateImage(`/images/${id}/review/complete`, 'PUT', payload);
+
+export const fetchPdfs = async (params = {}) => {
+    try {
+        const query = serializeParams(params);
+        const response = await fetch(`${API_BASE}/pdfs${query}`);
+        return await handleResponse(response);
+    } catch (error) {
+        console.error('Failed to fetch PDFs:', error);
+        throw error;
+    }
+};
+
+const mutatePdf = async (endpoint, method, body) => {
+    const response = await fetch(`${API_BASE}${endpoint}`, {
+        method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+    });
+    return handleResponse(response);
+};
+
+export const createPdfAsset = async (payload) => mutatePdf('/pdfs', 'POST', payload);
+
+export const updatePdfAsset = async (id, payload) => mutatePdf(`/pdfs/${id}`, 'PUT', payload);
+
+export const deletePdfAsset = async (id) => {
+    const response = await fetch(`${API_BASE}/pdfs/${id}`, { method: 'DELETE' });
+    return handleResponse(response);
+};
+
+export const importRemotePdf = async (payload) => mutatePdf('/pdfs/import-url', 'POST', payload);
+
+export const addPdfReviewComment = async (id, payload) =>
+    mutatePdf(`/pdfs/${id}/review/comment`, 'POST', payload);
+
+export const updatePdfReviewStatus = async (id, payload) =>
+    mutatePdf(`/pdfs/${id}/review/status`, 'PUT', payload);
+
+export const completePdfReview = async (id, payload) =>
+    mutatePdf(`/pdfs/${id}/review/complete`, 'PUT', payload);

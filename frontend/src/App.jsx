@@ -17,6 +17,7 @@ import SubmitDocument from './pages/SubmitDocument';
 import LoginPage from './pages/LoginPage';
 import ReviewDashboard from './pages/ReviewDashboard';
 import MediaImages from './pages/MediaImages';
+import MediaPDFs from './pages/MediaPDFs';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -74,6 +75,14 @@ const App = () => (
           element={
             <ProtectedRoute>
               <MediaImages />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/media/pdfs"
+          element={
+            <ProtectedRoute>
+              <MediaPDFs />
             </ProtectedRoute>
           }
         />

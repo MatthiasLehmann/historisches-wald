@@ -49,6 +49,9 @@
         "imageIds": [
             "img-00001"
         ],
+        "pdfIds": [
+            "pdf-00001"
+        ],
         "metadata": {
             "author": "Bischöfliche Kanzlei Augsburg",
             "source": "Pfarrarchiv Wald",
