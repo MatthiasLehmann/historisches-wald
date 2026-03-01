@@ -6,33 +6,39 @@ import logo from '../assets/logo-historisches-wald.png';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isInternalMenuOpen, setIsInternalMenuOpen] = useState(false);
     const [isAuthenticated, setIsAuthenticated] = useState(() => typeof window !== 'undefined' && !!localStorage.getItem('authToken'));
     const location = useLocation();
 
     React.useEffect(() => {
         setIsAuthenticated(typeof window !== 'undefined' && !!localStorage.getItem('authToken'));
+        setIsInternalMenuOpen(false);
     }, [location.pathname]);
 
-    const navItems = [
+    const primaryNavItems = [
         { name: 'Startseite', path: '/' },
         { name: 'Archiv', path: '/archive' },
         { name: 'Zeitleiste', path: '/timeline' },
         { name: 'Team', path: '/team' },
-        ...(isAuthenticated ? [
-            { name: 'Dokument hinzufügen', path: '/submit' },
-            { name: 'Review Center', path: '/review' },
-            { name: 'Mediathek Bilder', path: '/media/images' },
-            { name: 'Mediathek PDFs', path: '/media/pdfs' },
-            { name: 'Alben', path: '/albums' }
-        ] : []),
-        isAuthenticated
-            ? { name: 'Logout', path: '/logout' }
-            : { name: 'Login', path: '/login' },
     ];
+
+    const internalNavItems = [
+        { name: 'Dokumente hinzufügen', path: '/submit' },
+        { name: 'Review Center', path: '/review' },
+        { name: 'Mediathek Bilder', path: '/media/images' },
+        { name: 'Mediathek PDFs', path: '/media/pdfs' },
+        { name: 'Alben', path: '/albums' },
+    ];
+
+    const loginNavItem = isAuthenticated
+        ? { name: 'Logout', path: '/logout' }
+        : { name: 'Einloggen', path: '/login' };
 
     const isActive = (path) => {
         return location.pathname === path ? 'text-accent font-semibold' : 'text-ink/80 hover:text-accent';
     };
+
+    const isInternalActive = internalNavItems.some((item) => location.pathname === item.path);
 
     return (
         <header className="bg-parchment/90 backdrop-blur-sm sticky top-0 z-50 border-b border-parchment-dark shadow-sm">
@@ -52,8 +58,8 @@ const Header = () => {
                 </Link>
 
                 {/* Desktop Navigation */}
-                <nav className="hidden md:flex gap-8 font-sans">
-                    {navItems.map((item) => (
+                <nav className="hidden md:flex gap-8 font-sans items-center">
+                    {primaryNavItems.map((item) => (
                         <Link
                             key={item.path}
                             to={item.path}
@@ -68,6 +74,57 @@ const Header = () => {
                             )}
                         </Link>
                     ))}
+
+                    {isAuthenticated && (
+                        <div
+                            className="relative"
+                            onMouseEnter={() => setIsInternalMenuOpen(true)}
+                            onMouseLeave={() => setIsInternalMenuOpen(false)}
+                            onFocusCapture={() => setIsInternalMenuOpen(true)}
+                            onBlurCapture={(event) => {
+                                if (!event.currentTarget.contains(event.relatedTarget)) {
+                                    setIsInternalMenuOpen(false);
+                                }
+                            }}
+                        >
+                            <button
+                                type="button"
+                                className={`transition-colors duration-200 flex items-center gap-1 ${isInternalActive || isInternalMenuOpen ? 'text-accent font-semibold' : 'text-ink/80 hover:text-accent'}`}
+                                aria-haspopup="menu"
+                                aria-expanded={isInternalMenuOpen}
+                            >
+                                Intern
+                            </button>
+                            {isInternalMenuOpen && (
+                                <div className="absolute left-0 top-full flex flex-col pt-3 min-w-[240px]">
+                                    <div className="rounded-md border border-parchment-dark bg-parchment p-3 shadow-lg flex flex-col gap-1.5">
+                                        {internalNavItems.map((item) => (
+                                            <Link
+                                                key={item.path}
+                                                to={item.path}
+                                                className={`py-1.5 px-3 rounded transition-colors ${location.pathname === item.path ? 'bg-parchment-dark text-black' : 'text-ink/80 hover:bg-parchment-dark/70 hover:text-black'}`}
+                                            >
+                                                {item.name}
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    )}
+
+                    <Link
+                        to={loginNavItem.path}
+                        className={`transition-colors duration-200 relative ${isActive(loginNavItem.path)}`}
+                    >
+                        {loginNavItem.name}
+                        {location.pathname === loginNavItem.path && (
+                            <Motion.div
+                                layoutId="underline"
+                                className="absolute -bottom-1 left-0 right-0 h-0.5 bg-accent"
+                            />
+                        )}
+                    </Link>
                 </nav>
 
                 {/* Mobile Menu Button */}
@@ -89,7 +146,7 @@ const Header = () => {
                         className="md:hidden bg-parchment border-t border-parchment-dark overflow-hidden"
                     >
                         <nav className="flex flex-col p-4 gap-4">
-                            {navItems.map((item) => (
+                            {primaryNavItems.map((item) => (
                                 <Link
                                     key={item.path}
                                     to={item.path}
@@ -99,6 +156,32 @@ const Header = () => {
                                     {item.name}
                                 </Link>
                             ))}
+
+                            {isAuthenticated && (
+                                <div className="border-t border-parchment-dark pt-4">
+                                    <p className="text-xs uppercase tracking-widest text-ink/60 mb-2">Intern</p>
+                                    <div className="flex flex-col gap-2">
+                                        {internalNavItems.map((item) => (
+                                            <Link
+                                                key={item.path}
+                                                to={item.path}
+                                                className={`py-2 px-4 rounded-md ${location.pathname === item.path ? 'bg-parchment-dark text-black' : 'text-ink/80'}`}
+                                                onClick={() => setIsOpen(false)}
+                                            >
+                                                {item.name}
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+
+                            <Link
+                                to={loginNavItem.path}
+                                className={`py-2 px-4 rounded-md ${location.pathname === loginNavItem.path ? 'bg-parchment-dark text-black' : 'text-ink/80'}`}
+                                onClick={() => setIsOpen(false)}
+                            >
+                                {loginNavItem.name}
+                            </Link>
                         </nav>
                     </Motion.div>
                 )}
