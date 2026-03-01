@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const IMAGES_DIR = path.join(__dirname, '..', 'public', 'files', 'images');
+const IMAGES_DIR = path.join(__dirname, '..', 'public', 'images');
 const MAX_IMAGE_BYTES = 25 * 1024 * 1024;
 
 const MIME_EXTENSION_MAP = {
@@ -82,7 +82,7 @@ export const saveBase64Image = async ({ data, mimeType, originalName }) => {
   await fs.writeFile(targetPath, buffer);
 
   return {
-    publicPath: `/files/images/${fileName}`,
+    publicPath: `/images/${fileName}`,
     absolutePath: targetPath
   };
 };
