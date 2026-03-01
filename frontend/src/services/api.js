@@ -200,6 +200,11 @@ export const fetchAlbumPhotos = async (id) => {
     return handleResponse(response);
 };
 
+export const fetchPhotos = async () => {
+    const response = await fetch(`${API_BASE}/photos`);
+    return handleResponse(response);
+};
+
 const readFileAsBase64 = (file) =>
     new Promise((resolve, reject) => {
         const reader = new FileReader();

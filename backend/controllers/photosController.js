@@ -1,5 +1,14 @@
 import { findAlbumsByPhotoId } from '../services/albumsService.js';
-import { getPhotoById, updatePhotoById } from '../services/photosService.js';
+import { getPhotoById, listPhotos, updatePhotoById } from '../services/photosService.js';
+
+export const getPhotos = async (_req, res, next) => {
+  try {
+    const photos = await listPhotos();
+    res.json(photos);
+  } catch (error) {
+    next(error);
+  }
+};
 
 export const getPhoto = async (req, res, next) => {
   try {

@@ -1,4 +1,6 @@
-import { getPhotoFilePath } from '../config/mediaConfig.js';
+import { promises as fs } from 'fs';
+import path from 'path';
+import { getPhotoFilePath, getPhotosDir } from '../config/mediaConfig.js';
 import { readJsonFile, writeJsonFile } from '../utils/jsonStorage.js';
 
 const REVIEW_STATUSES = ['pending', 'in-progress', 'approved', 'needs-info', 'rejected'];
@@ -64,6 +66,8 @@ const normalizePhoto = (photo, fallbackId, overrides = {}) => {
     comments: Array.isArray(photo?.comments) ? photo.comments : [],
     review: ensureReview(photo?.review),
     missing: Boolean(photo?.missing),
+    createdAt: typeof photo?.createdAt === 'string' ? photo.createdAt : null,
+    updatedAt: typeof photo?.updatedAt === 'string' ? photo.updatedAt : null,
     ...overrides
   };
   return normalized;
@@ -192,6 +196,7 @@ const buildPhotoCreatePayload = (input = {}, photoId) => {
   const privacy = typeof input.privacy === 'string' ? input.privacy.trim() : 'public';
   const albumIds = Array.isArray(input.albums) ? input.albums.map((id) => String(id)) : [];
 
+  const nowIso = new Date().toISOString();
   return {
     id: photoId,
     name,
@@ -206,7 +211,8 @@ const buildPhotoCreatePayload = (input = {}, photoId) => {
     comments: [],
     review: ensureReview(input.review),
     missing: false,
-    createdAt: new Date().toISOString()
+    createdAt: typeof input.createdAt === 'string' ? input.createdAt : nowIso,
+    updatedAt: typeof input.updatedAt === 'string' ? input.updatedAt : nowIso
   };
 };
 
@@ -223,6 +229,45 @@ export const createPhoto = async (input = {}) => {
   const payload = buildPhotoCreatePayload(input, photoId);
   await writePhotoRaw(photoId, payload);
   return normalizePhoto(payload, photoId);
+};
+
+const extractPhotoIdFromFile = (fileName) => {
+  if (!fileName.startsWith('photo_') || path.extname(fileName) !== '.json') {
+    return null;
+  }
+  return fileName.slice('photo_'.length, -'.json'.length);
+};
+
+export const listPhotos = async () => {
+  const photosDir = getPhotosDir();
+  let files = [];
+  try {
+    files = await fs.readdir(photosDir);
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return [];
+    }
+    throw error;
+  }
+  const photoIds = files
+    .map(extractPhotoIdFromFile)
+    .filter(Boolean);
+
+  const photos = await Promise.all(
+    photoIds.map(async (photoId) => {
+      try {
+        const raw = await readPhotoRaw(photoId);
+        if (!raw) {
+          return buildMissingPhoto(photoId);
+        }
+        return normalizePhoto(raw, photoId);
+      } catch (error) {
+        console.warn(`Failed to read photo ${photoId}:`, error);
+        return null;
+      }
+    })
+  );
+  return photos.filter(Boolean);
 };
 
 export const updatePhotoById = async (photoId, input) => {

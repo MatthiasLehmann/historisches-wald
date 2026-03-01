@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { motion as Motion } from 'framer-motion';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 
-const Timeline = ({ events, onSelectEvent }) => {
+const Timeline = ({ events, onSelectEvent, selectedEventId = null }) => {
     const scrollRef = useRef(null);
 
     const scroll = (direction) => {
@@ -42,27 +42,32 @@ const Timeline = ({ events, onSelectEvent }) => {
                     className="flex gap-8 overflow-x-auto scrollbar-hide px-12 py-4 snap-x snap-mandatory"
                     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
                 >
-                    {sortedEvents.map((event, index) => (
+                    {sortedEvents.map((event, index) => {
+                        const isSelected = selectedEventId === event.id;
+                        return (
                         <Motion.div
                             key={event.id}
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ delay: index * 0.1 }}
-                            className="flex-shrink-0 w-64 snap-center cursor-pointer group"
+                            className={`flex-shrink-0 w-64 snap-center cursor-pointer group ${isSelected ? 'scale-105' : ''}`}
                             onClick={() => onSelectEvent && onSelectEvent(event)}
+                            aria-pressed={isSelected}
+                            role="button"
                         >
                             <div className="relative flex flex-col items-center">
-                                <div className="w-4 h-4 rounded-full bg-accent border-4 border-parchment z-10 mb-2 group-hover:scale-125 transition-transform duration-300"></div>
+                                <div className={`w-4 h-4 rounded-full border-4 border-parchment z-10 mb-2 transition-transform duration-300 ${isSelected ? 'bg-black scale-125' : 'bg-accent group-hover:scale-125'}`}></div>
                                 <div className="absolute top-2 w-full h-0.5 bg-ink/20 -z-0"></div>
 
-                                <div className="text-center p-4 bg-parchment rounded-sm shadow-sm border border-parchment-dark hover:shadow-md transition-shadow duration-300 w-full">
-                                    <span className="block text-2xl font-serif font-bold text-accent mb-1">{event.year}</span>
-                                    <h4 className="font-medium text-sm text-ink line-clamp-1 group-hover:text-accent transition-colors">{event.title}</h4>
-                                    <p className="text-xs text-ink/60 mt-1">{event.category}</p>
+                                <div className={`text-center p-4 bg-parchment rounded-sm shadow-sm border transition-all duration-300 w-full ${isSelected ? 'border-accent shadow-md' : 'border-parchment-dark hover:shadow-md'}`}>
+                                    <span className={`block text-2xl font-serif font-bold mb-1 ${isSelected ? 'text-accent' : 'text-accent'}`}>{event.year ?? '—'}</span>
+                                    <h4 className={`font-medium text-sm line-clamp-1 transition-colors ${isSelected ? 'text-ink' : 'text-ink group-hover:text-accent'}`}>{event.title}</h4>
+                                    {event.category && <p className="text-xs text-ink/60 mt-1">{event.category}</p>}
                                 </div>
                             </div>
                         </Motion.div>
-                    ))}
+                        );
+                    })}
                 </div>
             </div>
         </div>

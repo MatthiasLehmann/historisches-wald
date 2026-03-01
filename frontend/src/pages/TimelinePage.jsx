@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Calendar, MapPin, ArrowRight } from 'lucide-react';
 import Timeline from '../components/Timeline';
+import MediaTimelineSection from '../components/MediaTimelineSection.jsx';
 import { fetchDocuments } from '../services/api';
 
 const TimelinePage = () => {
@@ -106,7 +107,7 @@ const TimelinePage = () => {
             </header>
 
             <section className="bg-white border border-parchment-dark rounded-sm shadow-sm">
-                <Timeline events={events} onSelectEvent={handleSelectEvent} />
+                <Timeline events={events} onSelectEvent={handleSelectEvent} selectedEventId={selectedEventId} />
             </section>
 
             {selectedDocument && (
@@ -171,6 +172,9 @@ const TimelinePage = () => {
                     </article>
                 </section>
             )}
+            <div className="py-10 border-t border-parchment-dark/70">
+                <MediaTimelineSection />
+            </div>
         </div>
     );
 };
