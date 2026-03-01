@@ -13,7 +13,7 @@ const handleResponse = async (response) => {
             if (errorBody?.message) {
                 message = errorBody.message;
             }
-        } catch (parseError) {
+        } catch {
             // ignore json parsing issues for error responses
         }
         throw new Error(message);
@@ -169,3 +169,43 @@ export const updatePdfReviewStatus = async (id, payload) =>
 
 export const completePdfReview = async (id, payload) =>
     mutatePdf(`/pdfs/${id}/review/complete`, 'PUT', payload);
+
+const mutateJson = async (url, method, body) => {
+    const response = await fetch(url, {
+        method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+    });
+    return handleResponse(response);
+};
+
+export const fetchAlbums = async () => {
+    const response = await fetch(`${API_BASE}/albums`);
+    return handleResponse(response);
+};
+
+export const fetchAlbumById = async (id) => {
+    const response = await fetch(`${API_BASE}/albums/${id}`);
+    return handleResponse(response);
+};
+
+export const updateAlbum = async (id, payload) =>
+    mutateJson(`${API_BASE}/albums/${id}`, 'PUT', payload);
+
+export const fetchAlbumPhotos = async (id) => {
+    const response = await fetch(`${API_BASE}/albums/${id}/photos`);
+    return handleResponse(response);
+};
+
+export const fetchPhotoById = async (id) => {
+    const response = await fetch(`${API_BASE}/photos/${id}`);
+    return handleResponse(response);
+};
+
+export const updatePhoto = async (id, payload) =>
+    mutateJson(`${API_BASE}/photos/${id}`, 'PUT', payload);
+
+export const fetchPhotoAlbums = async (id) => {
+    const response = await fetch(`${API_BASE}/photos/${id}/albums`);
+    return handleResponse(response);
+};

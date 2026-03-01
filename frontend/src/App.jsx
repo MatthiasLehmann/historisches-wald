@@ -18,6 +18,9 @@ import LoginPage from './pages/LoginPage';
 import ReviewDashboard from './pages/ReviewDashboard';
 import MediaImages from './pages/MediaImages';
 import MediaPDFs from './pages/MediaPDFs';
+import AlbumsPage from './pages/AlbumsPage';
+import AlbumDetailPage from './pages/AlbumDetailPage';
+import PhotoDetailPage from './pages/PhotoDetailPage';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -83,6 +86,30 @@ const App = () => (
           element={
             <ProtectedRoute>
               <MediaPDFs />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/albums"
+          element={
+            <ProtectedRoute>
+              <AlbumsPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/albums/:albumId"
+          element={
+            <ProtectedRoute>
+              <AlbumDetailPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/photos/:photoId"
+          element={
+            <ProtectedRoute>
+              <PhotoDetailPage />
             </ProtectedRoute>
           }
         />

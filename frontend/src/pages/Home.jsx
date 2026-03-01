@@ -39,10 +39,15 @@ const Home = () => {
         };
     }, []);
 
-    const recentDocuments = React.useMemo(() => documents.slice(0, 3), [documents]);
-    const events = React.useMemo(
-        () => documents.map(({ id, title, year, category }) => ({ id, title, year, category })),
+    const approvedDocuments = React.useMemo(
+        () => documents.filter((doc) => doc?.review?.status === 'approved'),
         [documents]
+    );
+
+    const recentDocuments = React.useMemo(() => approvedDocuments.slice(0, 3), [approvedDocuments]);
+    const events = React.useMemo(
+        () => approvedDocuments.map(({ id, title, year, category }) => ({ id, title, year, category })),
+        [approvedDocuments]
     );
 
     const handleEventClick = (event) => {

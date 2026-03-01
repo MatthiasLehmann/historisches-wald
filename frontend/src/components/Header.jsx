@@ -22,7 +22,8 @@ const Header = () => {
             { name: 'Dokument hinzufügen', path: '/submit' },
             { name: 'Review Center', path: '/review' },
             { name: 'Mediathek Bilder', path: '/media/images' },
-            { name: 'Mediathek PDFs', path: '/media/pdfs' }
+            { name: 'Mediathek PDFs', path: '/media/pdfs' },
+            { name: 'Alben', path: '/albums' }
         ] : []),
         isAuthenticated
             ? { name: 'Logout', path: '/logout' }

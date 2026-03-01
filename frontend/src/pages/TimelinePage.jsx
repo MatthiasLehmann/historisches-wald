@@ -18,7 +18,6 @@ const TimelinePage = () => {
                 const data = await fetchDocuments();
                 if (!ignore) {
                     setDocuments(data);
-                    setSelectedEventId(data[0]?.id ?? null);
                 }
             } catch (err) {
                 console.error('Failed to load documents:', err);
@@ -38,15 +37,33 @@ const TimelinePage = () => {
         };
     }, []);
 
+    const approvedDocuments = React.useMemo(
+        () => documents.filter((doc) => doc?.review?.status === 'approved'),
+        [documents]
+    );
+
+    React.useEffect(() => {
+        if (approvedDocuments.length === 0) {
+            if (selectedEventId !== null) {
+                setSelectedEventId(null);
+            }
+            return;
+        }
+        const hasSelected = approvedDocuments.some((doc) => doc.id === selectedEventId);
+        if (!hasSelected) {
+            setSelectedEventId(approvedDocuments[0].id);
+        }
+    }, [approvedDocuments, selectedEventId]);
+
     const events = React.useMemo(() => (
-        documents
+        approvedDocuments
             .map(({ id, title, year, category }) => ({ id, title, year, category }))
             .sort((a, b) => a.year - b.year)
-    ), [documents]);
+    ), [approvedDocuments]);
 
     const selectedDocument = React.useMemo(() => (
-        documents.find((doc) => doc.id === selectedEventId) ?? null
-    ), [documents, selectedEventId]);
+        approvedDocuments.find((doc) => doc.id === selectedEventId) ?? null
+    ), [approvedDocuments, selectedEventId]);
 
     if (isLoading) {
         return (
