@@ -1,9 +1,19 @@
 import { findAlbumsByPhotoId } from '../services/albumsService.js';
 import { getPhotoById, listPhotos, updatePhotoById } from '../services/photosService.js';
 
-export const getPhotos = async (_req, res, next) => {
+export const getPhotos = async (req, res, next) => {
   try {
-    const photos = await listPhotos();
+    let photos = await listPhotos();
+    const idsParam = req.query?.ids;
+    if (idsParam) {
+      const idSet = new Set(
+        idsParam
+          .split(',')
+          .map((value) => value.trim())
+          .filter(Boolean)
+      );
+      photos = photos.filter((photo) => idSet.has(String(photo.id)));
+    }
     res.json(photos);
   } catch (error) {
     next(error);

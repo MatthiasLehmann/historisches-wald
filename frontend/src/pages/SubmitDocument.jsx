@@ -2,7 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import categoriesData from '../data/categories.json';
 import ImageSelectorModal from '../components/ImageSelectorModal.jsx';
 import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
-import { fetchImages, fetchPdfs } from '../services/api.js';
+import AlbumPhotoSelectorModal from '../components/AlbumPhotoSelectorModal.jsx';
+import { fetchImages, fetchPdfs, fetchPhotos } from '../services/api.js';
 
 const initialForm = {
   title: '',
@@ -14,6 +15,7 @@ const initialForm = {
   source: '',
   condition: '',
   imageIds: [],
+  albumPhotoIds: [],
   pdfIds: [],
 };
 
@@ -27,6 +29,8 @@ const SubmitDocument = () => {
   const [editingId, setEditingId] = useState(null);
   const [selectedImages, setSelectedImages] = useState([]);
   const [isImageSelectorOpen, setIsImageSelectorOpen] = useState(false);
+  const [selectedAlbumPhotos, setSelectedAlbumPhotos] = useState([]);
+  const [isAlbumPhotoSelectorOpen, setIsAlbumPhotoSelectorOpen] = useState(false);
   const [selectedPdfs, setSelectedPdfs] = useState([]);
   const [isPdfSelectorOpen, setIsPdfSelectorOpen] = useState(false);
 
@@ -77,6 +81,7 @@ const SubmitDocument = () => {
     setSelectedSubcategories([]);
     setEditingId(null);
     setSelectedImages([]);
+    setSelectedAlbumPhotos([]);
     setSelectedPdfs([]);
   };
 
@@ -94,6 +99,7 @@ const SubmitDocument = () => {
       source: doc.metadata?.source ?? '',
       condition: doc.metadata?.condition ?? '',
       imageIds: Array.isArray(doc.imageIds) ? doc.imageIds : [],
+      albumPhotoIds: Array.isArray(doc.albumPhotoIds) ? doc.albumPhotoIds : [],
       pdfIds: Array.isArray(doc.pdfIds) ? doc.pdfIds : [],
     });
     setSelectedArea(doc.category ?? '');
@@ -106,6 +112,8 @@ const SubmitDocument = () => {
     );
     const nextImageIds = Array.isArray(doc.imageIds) ? doc.imageIds : [];
     loadSelectedImages(nextImageIds);
+    const nextAlbumPhotoIds = Array.isArray(doc.albumPhotoIds) ? doc.albumPhotoIds : [];
+    loadSelectedAlbumPhotos(nextAlbumPhotoIds);
     const nextPdfIds = Array.isArray(doc.pdfIds) ? doc.pdfIds : [];
     loadSelectedPdfs(nextPdfIds);
   };
@@ -122,6 +130,7 @@ const SubmitDocument = () => {
         subcategories: selectedSubcategories,
         transcription: form.transcription,
         imageIds: Array.isArray(form.imageIds) ? form.imageIds : [],
+        albumPhotoIds: Array.isArray(form.albumPhotoIds) ? form.albumPhotoIds : [],
         pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
       };
 
@@ -179,6 +188,36 @@ const SubmitDocument = () => {
   const removeImageFromSelection = (id) => {
     setSelectedImages((prev) => prev.filter((img) => img.id !== id));
     setForm((prev) => ({ ...prev, imageIds: prev.imageIds.filter((imgId) => imgId !== id) }));
+  };
+
+  const loadSelectedAlbumPhotos = async (photoIds) => {
+    if (!Array.isArray(photoIds) || photoIds.length === 0) {
+      setSelectedAlbumPhotos([]);
+      return;
+    }
+    try {
+      const data = await fetchPhotos({ ids: photoIds });
+      const ordered = photoIds
+        .map((id) => data.find((photo) => String(photo.id) === String(id)))
+        .filter(Boolean);
+      setSelectedAlbumPhotos(ordered);
+    } catch (error) {
+      console.error('Album-Fotos konnten nicht geladen werden:', error);
+    }
+  };
+
+  const handleAlbumPhotoSelectionSave = (photos) => {
+    const ids = photos.map((photo) => photo.id);
+    setForm((prev) => ({ ...prev, albumPhotoIds: ids }));
+    setSelectedAlbumPhotos(photos);
+  };
+
+  const removeAlbumPhotoFromSelection = (id) => {
+    setSelectedAlbumPhotos((prev) => prev.filter((photo) => photo.id !== id));
+    setForm((prev) => ({
+      ...prev,
+      albumPhotoIds: prev.albumPhotoIds.filter((photoId) => photoId !== id),
+    }));
   };
 
   const loadSelectedPdfs = async (pdfIds) => {
@@ -419,6 +458,51 @@ const SubmitDocument = () => {
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
           <div className="flex items-center justify-between">
             <div>
+              <h2 className="text-lg font-serif font-bold text-ink">Fotos aus Alben</h2>
+              <p className="text-sm text-ink/70">Wählen Sie vorhandene Album-Fotos als Referenz aus.</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsAlbumPhotoSelectorOpen(true)}
+              className="px-4 py-2 bg-parchment-dark text-ink text-sm font-semibold rounded-sm"
+            >
+              Album-Fotos hinzufügen
+            </button>
+          </div>
+          {selectedAlbumPhotos.length === 0 ? (
+            <p className="text-sm text-ink/60">Noch keine Album-Fotos verknüpft.</p>
+          ) : (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {selectedAlbumPhotos.map((photo) => (
+                <div key={photo.id} className="border border-parchment-dark rounded-sm overflow-hidden bg-white">
+                  <div className="aspect-video bg-parchment-dark">
+                    {photo.original ? (
+                      <img src={photo.original} alt={photo.name || `Foto ${photo.id}`} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="flex items-center justify-center h-full text-xs text-ink/50">Keine Vorschau</div>
+                    )}
+                  </div>
+                  <div className="p-3 text-sm space-y-1">
+                    <p className="font-semibold text-ink">{photo.name || `Foto ${photo.id}`}</p>
+                    <p className="text-ink/60">{photo.date_taken || 'Aufnahmedatum unbekannt'}</p>
+                    <p className="text-ink/60 text-xs">ID: {photo.id}</p>
+                    <button
+                      type="button"
+                      onClick={() => removeAlbumPhotoFromSelection(photo.id)}
+                      className="text-xs text-red-600 hover:underline"
+                    >
+                      Entfernen
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+
+        <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
               <h2 className="text-lg font-serif font-bold text-ink">Verknüpfte PDFs</h2>
               <p className="text-sm text-ink/70">Binden Sie digitale Quellen über die PDF-Bibliothek ein.</p>
             </div>
@@ -534,6 +618,12 @@ const SubmitDocument = () => {
         onConfirm={handleImageSelectionSave}
         selectedIds={form.imageIds}
         selectedImages={selectedImages}
+      />
+      <AlbumPhotoSelectorModal
+        isOpen={isAlbumPhotoSelectorOpen}
+        onClose={() => setIsAlbumPhotoSelectorOpen(false)}
+        onConfirm={handleAlbumPhotoSelectionSave}
+        selectedPhotos={selectedAlbumPhotos}
       />
       <PdfSelectorModal
         isOpen={isPdfSelectorOpen}

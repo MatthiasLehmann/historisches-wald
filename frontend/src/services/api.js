@@ -200,8 +200,9 @@ export const fetchAlbumPhotos = async (id) => {
     return handleResponse(response);
 };
 
-export const fetchPhotos = async () => {
-    const response = await fetch(`${API_BASE}/photos`);
+export const fetchPhotos = async (params = {}) => {
+    const query = serializeParams(params);
+    const response = await fetch(`${API_BASE}/photos${query}`);
     return handleResponse(response);
 };
 

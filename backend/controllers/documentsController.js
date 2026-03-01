@@ -14,6 +14,7 @@ import {
   syncLinkedDocuments as syncPdfDocuments,
   writePdfs
 } from '../models/pdfsModel.js';
+import { getPhotosByIds } from '../services/photosService.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -41,10 +42,12 @@ const normalizeDocument = (doc) => {
   const normalized = normalizeReview(doc);
   const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
   const pdfIds = Array.isArray(normalized.pdfIds) ? normalized.pdfIds : [];
+  const albumPhotoIds = Array.isArray(normalized.albumPhotoIds) ? normalized.albumPhotoIds : [];
   return {
     ...normalized,
     imageIds,
     pdfIds,
+    albumPhotoIds,
     images: Array.isArray(normalized.images) ? normalized.images : [],
     pdfs: []
   };
@@ -81,18 +84,49 @@ const buildPdfLookup = (pdfs) => {
   return lookup;
 };
 
-const applyImagePreviews = (document, lookup) => {
+const buildAlbumPhotoLookup = async (documents) => {
+  const ids = new Set();
+  documents.forEach((doc) => {
+    const albumPhotoIds = Array.isArray(doc.albumPhotoIds) ? doc.albumPhotoIds : [];
+    albumPhotoIds.forEach((id) => {
+      if (id) {
+        ids.add(String(id));
+      }
+    });
+  });
+  if (ids.size === 0) {
+    return new Map();
+  }
+  const photos = await getPhotosByIds(Array.from(ids));
+  const lookup = new Map();
+  photos.forEach((photo) => {
+    lookup.set(String(photo.id), photo);
+  });
+  return lookup;
+};
+
+const applyImagePreviews = (document, lookup, albumPhotoLookup = new Map()) => {
   const imageIds = Array.isArray(document.imageIds) ? document.imageIds : [];
   const existingImages = Array.isArray(document.images) ? document.images : [];
+  const albumPhotoIds = Array.isArray(document.albumPhotoIds) ? document.albumPhotoIds : [];
   const previews = imageIds
     .map((imageId) => lookup.get(imageId))
     .filter((item) => Boolean(item?.previewUrl))
     .map((item) => item.previewUrl);
+  const albumPreviews = albumPhotoIds
+    .map((photoId) => albumPhotoLookup.get(photoId))
+    .filter((photo) => Boolean(photo?.original))
+    .map((photo) => photo.original);
+  const combined =
+    previews.length > 0 || albumPreviews.length > 0
+      ? [...previews, ...albumPreviews]
+      : existingImages;
 
   return {
     ...document,
     imageIds,
-    images: imageIds.length > 0 ? previews : existingImages
+    albumPhotoIds,
+    images: combined
   };
 };
 
@@ -109,8 +143,8 @@ const applyPdfReferences = (document, lookup) => {
   };
 };
 
-const applyMediaReferences = (document, lookups) => {
-  const withImages = applyImagePreviews(document, lookups.imageLookup);
+const applyMediaReferences = (document, lookups, albumPhotoLookup = new Map()) => {
+  const withImages = applyImagePreviews(document, lookups.imageLookup, albumPhotoLookup);
   return applyPdfReferences(withImages, lookups.pdfLookup);
 };
 
@@ -238,7 +272,8 @@ const commitDocumentSave = async (docId, mode) => {
 export const getDocuments = async (_req, res) => {
   try {
     const [documents, lookups] = await Promise.all([readDocuments(), ensureMediaLookups()]);
-    const hydrated = documents.map((doc) => applyMediaReferences(doc, lookups));
+    const albumPhotoLookup = await buildAlbumPhotoLookup(documents);
+    const hydrated = documents.map((doc) => applyMediaReferences(doc, lookups, albumPhotoLookup));
     res.json(hydrated);
   } catch (error) {
     console.error('Error reading documents:', error);
@@ -257,6 +292,7 @@ export const createDocument = async (req, res) => {
     const documents = await readDocuments();
     const imageIds = Array.isArray(req.body.imageIds) ? req.body.imageIds : [];
     const pdfIds = Array.isArray(req.body.pdfIds) ? req.body.pdfIds : [];
+    const albumPhotoIds = Array.isArray(req.body.albumPhotoIds) ? req.body.albumPhotoIds : [];
     const lookups = await ensureMediaLookups();
     const newDocument = normalizeDocument({
       id: `doc-${Date.now()}`,
@@ -275,6 +311,7 @@ export const createDocument = async (req, res) => {
         condition: req.body.condition || 'Unbekannt'
       },
       imageIds,
+      albumPhotoIds,
       pdfIds,
       review: {
         status: 'pending',
@@ -284,7 +321,8 @@ export const createDocument = async (req, res) => {
       }
     });
 
-    const hydrated = applyMediaReferences(newDocument, lookups);
+    const albumPhotoLookup = await buildAlbumPhotoLookup([newDocument]);
+    const hydrated = applyMediaReferences(newDocument, lookups, albumPhotoLookup);
     documents.unshift(hydrated);
     await writeDocuments(documents);
     await updateLinkedDocumentsForImages(lookups.images, hydrated.id, hydrated.imageIds);
@@ -319,6 +357,7 @@ export const updateDocument = async (req, res) => {
       images: Array.isArray(req.body.images) ? req.body.images : existing.images,
       imageIds: Array.isArray(req.body.imageIds) ? req.body.imageIds : existing.imageIds || [],
       pdfIds: Array.isArray(req.body.pdfIds) ? req.body.pdfIds : existing.pdfIds || [],
+      albumPhotoIds: Array.isArray(req.body.albumPhotoIds) ? req.body.albumPhotoIds : existing.albumPhotoIds || [],
       metadata: {
         ...existing.metadata,
         author: req.body.author ?? existing.metadata?.author ?? 'Unbekannt',
@@ -329,7 +368,8 @@ export const updateDocument = async (req, res) => {
     };
 
     const normalized = normalizeDocument(updated);
-    const hydrated = applyMediaReferences(normalized, lookups);
+    const albumPhotoLookup = await buildAlbumPhotoLookup([normalized]);
+    const hydrated = applyMediaReferences(normalized, lookups, albumPhotoLookup);
     documents[index] = hydrated;
     await writeDocuments(documents);
     await updateLinkedDocumentsForImages(lookups.images, hydrated.id, hydrated.imageIds);
