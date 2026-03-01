@@ -18,7 +18,8 @@ const sortAlbums = (albums, sortKey, order) => {
 const defaultAlbumForm = {
   title: '',
   description: '',
-  cover_photo: ''
+  cover_photo: '',
+  parent_id: ''
 };
 
 const defaultPhotoForm = {
@@ -28,6 +29,83 @@ const defaultPhotoForm = {
   date_taken: '',
   file: null,
   setAsCover: true
+};
+
+const buildAlbumTree = (albums) => {
+  const nodes = new Map();
+  albums.forEach((album) => {
+    nodes.set(album.id, { ...album, children: [] });
+  });
+  const roots = [];
+  nodes.forEach((node) => {
+    if (node.parent_id && nodes.has(node.parent_id)) {
+      nodes.get(node.parent_id).children.push(node);
+    } else {
+      roots.push(node);
+    }
+  });
+  const sortRecursive = (list) => {
+    list.sort((a, b) => a.title.localeCompare(b.title));
+    list.forEach((child) => sortRecursive(child.children));
+  };
+  sortRecursive(roots);
+  return roots;
+};
+
+const AlbumTreeNode = ({ node, level = 0, expandedIds = [], onToggle }) => {
+  const hasChildren = node.children.length > 0;
+  const isExpanded = expandedIds.includes(node.id);
+  return (
+    <li className="space-y-2" style={{ marginLeft: level * 8 }}>
+      <div className="flex items-center gap-1">
+        {hasChildren ? (
+          <button
+            type="button"
+            onClick={() => onToggle?.(node.id)}
+            className="w-5 h-5 border border-parchment-dark rounded text-xs leading-none flex items-center justify-center bg-parchment hover:bg-parchment-dark/40"
+            aria-label={isExpanded ? 'Einklappen' : 'Ausklappen'}
+          >
+            {isExpanded ? '−' : '+'}
+          </button>
+        ) : (
+          <span className="w-5 h-5" />
+        )}
+        <Link
+          to={`/albums/${node.id}`}
+          className="text-sm text-ink hover:text-accent font-medium inline-flex items-center gap-2"
+        >
+          {node.title}
+          <span className="text-ink/50 text-xs">({node.photo_count})</span>
+        </Link>
+      </div>
+      {hasChildren && isExpanded && (
+        <ul className="pl-4 border-l border-parchment-dark/60 space-y-1">
+          {node.children.map((child) => (
+            <AlbumTreeNode
+              key={child.id}
+              node={child}
+              level={level + 1}
+              expandedIds={expandedIds}
+              onToggle={onToggle}
+            />
+          ))}
+        </ul>
+      )}
+    </li>
+  );
+};
+
+const AlbumTree = ({ albums, expandedIds, onToggle }) => {
+  if (!albums.length) {
+    return <p className="text-sm text-ink/60">Noch keine Alben vorhanden.</p>;
+  }
+  return (
+    <ul className="space-y-2">
+      {albums.map((node) => (
+        <AlbumTreeNode key={node.id} node={node} expandedIds={expandedIds} onToggle={onToggle} />
+      ))}
+    </ul>
+  );
 };
 
 const AlbumsPage = () => {
@@ -42,6 +120,7 @@ const AlbumsPage = () => {
   const [photoForm, setPhotoForm] = useState(defaultPhotoForm);
   const [creatingAlbum, setCreatingAlbum] = useState(false);
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
+  const [expandedIds, setExpandedIds] = useState([]);
   const fileInputRef = useRef(null);
 
   useEffect(() => {
@@ -68,6 +147,10 @@ const AlbumsPage = () => {
     }
   }, [albums, photoForm.albumId]);
 
+  useEffect(() => {
+    setExpandedIds(albums.map((album) => album.id));
+  }, [albums]);
+
   const handleAlbumFieldChange = (event) => {
     const { name, value } = event.target;
     setAlbumForm((prev) => ({ ...prev, [name]: value }));
@@ -86,7 +169,8 @@ const AlbumsPage = () => {
       const newAlbum = await createAlbum({
         title: albumForm.title.trim(),
         description: albumForm.description.trim(),
-        cover_photo: albumForm.cover_photo.trim()
+        cover_photo: albumForm.cover_photo.trim(),
+        parent_id: albumForm.parent_id || ''
       });
       setAlbums((prev) => [newAlbum, ...prev]);
       setAlbumForm(defaultAlbumForm);
@@ -152,6 +236,12 @@ const AlbumsPage = () => {
       : albums;
     return sortAlbums(base, sortKey, order);
   }, [albums, search, sortKey, order]);
+  const albumTree = useMemo(() => buildAlbumTree(albums), [albums]);
+  const handleToggleNode = (albumId) => {
+    setExpandedIds((prev) =>
+      prev.includes(albumId) ? prev.filter((id) => id !== albumId) : [...prev, albumId]
+    );
+  };
 
   return (
     <div className="container mx-auto px-4 py-10 flex flex-col gap-6">
@@ -162,8 +252,21 @@ const AlbumsPage = () => {
         </p>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
-        <form onSubmit={handleCreateAlbum} className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-4">
+      <div className="grid gap-6 lg:grid-cols-[320px_1fr] items-start">
+        <aside className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <p className="text-xs uppercase tracking-[0.3em] text-ink/50">Struktur</p>
+              <h2 className="text-xl font-serif">Album-Baum</h2>
+            </div>
+            <span className="text-xs text-ink/60">{albums.length} Alben</span>
+          </div>
+          <div className="max-h-[480px] overflow-y-auto pr-2">
+            <AlbumTree albums={albumTree} expandedIds={expandedIds} onToggle={handleToggleNode} />
+          </div>
+        </aside>
+        <div className="grid gap-6 lg:grid-cols-2">
+          <form onSubmit={handleCreateAlbum} className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-4">
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-ink/50 mb-2">Neues Album</p>
             <h2 className="text-xl font-serif">Album erstellen</h2>
@@ -202,6 +305,23 @@ const AlbumsPage = () => {
               disabled={creatingAlbum}
             />
           </label>
+          <label className="text-sm text-ink/80 space-y-1">
+            Übergeordnetes Album
+            <select
+              name="parent_id"
+              value={albumForm.parent_id}
+              onChange={handleAlbumFieldChange}
+              className="w-full border border-parchment-dark rounded-md px-3 py-2 bg-white"
+              disabled={creatingAlbum}
+            >
+              <option value="">(Keines)</option>
+              {albums.map((entry) => (
+                <option key={entry.id} value={entry.id}>
+                  {entry.title}
+                </option>
+              ))}
+            </select>
+          </label>
           <div className="flex justify-end">
             <button
               type="submit"
@@ -211,9 +331,9 @@ const AlbumsPage = () => {
               {creatingAlbum ? 'Speichern...' : 'Album erstellen'}
             </button>
           </div>
-        </form>
+          </form>
 
-        <form onSubmit={handlePhotoUpload} className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-4">
+          <form onSubmit={handlePhotoUpload} className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-4">
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-ink/50 mb-2">Neues Bild</p>
             <h2 className="text-xl font-serif">Foto zu Album hinzufügen</h2>
@@ -301,7 +421,8 @@ const AlbumsPage = () => {
               {uploadingPhoto ? 'Ladet hoch...' : 'Foto hinzufügen'}
             </button>
           </div>
-        </form>
+          </form>
+        </div>
       </div>
 
       <div className="bg-white border border-parchment-dark rounded-lg shadow-sm p-4 flex flex-wrap gap-4 items-end">

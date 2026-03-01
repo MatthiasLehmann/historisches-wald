@@ -17,6 +17,7 @@ const normalizeAlbum = (album) => ({
   photo_count: toNumber(album.photo_count, Array.isArray(album.photos) ? album.photos.length : 0),
   created: toNumber(album.created),
   last_updated: toNumber(album.last_updated),
+  parent_id: album.parent_id ? String(album.parent_id) : '',
   photos: Array.isArray(album.photos) ? album.photos.map((photoId) => String(photoId)) : []
 });
 
@@ -35,7 +36,29 @@ const generateAlbumId = (albums = []) => {
   throw error;
 };
 
-const sanitizeAlbumInput = (input = {}, existing = {}) => {
+const sanitizeParentId = (parentId, albumId, albums) => {
+  if (!parentId && parentId !== '') {
+    return albumId ? (albums.find((album) => album.id === albumId)?.parent_id ?? '') : '';
+  }
+  const trimmed = typeof parentId === 'string' ? parentId.trim() : String(parentId);
+  if (!trimmed) {
+    return '';
+  }
+  if (albumId && trimmed === albumId) {
+    const error = new Error('Ein Album kann nicht sich selbst untergeordnet werden.');
+    error.statusCode = 400;
+    throw error;
+  }
+  const exists = albums.some((album) => album.id === trimmed);
+  if (!exists) {
+    const error = new Error(`Übergeordnetes Album ${trimmed} existiert nicht.`);
+    error.statusCode = 400;
+    throw error;
+  }
+  return trimmed;
+};
+
+const sanitizeAlbumInput = (input = {}, existing = {}, albums = []) => {
   const payload = {};
 
   if (Object.prototype.hasOwnProperty.call(input, 'title')) {
@@ -54,6 +77,10 @@ const sanitizeAlbumInput = (input = {}, existing = {}) => {
 
   if (Object.prototype.hasOwnProperty.call(input, 'cover_photo')) {
     payload.cover_photo = typeof input.cover_photo === 'string' ? input.cover_photo.trim() : '';
+  }
+
+  if (Object.prototype.hasOwnProperty.call(input, 'parent_id')) {
+    payload.parent_id = sanitizeParentId(input.parent_id, existing.id, albums);
   }
 
   if (Object.keys(payload).length === 0) {
@@ -104,7 +131,7 @@ export const updateAlbumById = async (albumId, input) => {
     throw error;
   }
 
-  const updatedRaw = sanitizeAlbumInput(input, payload.albums[index]);
+  const updatedRaw = sanitizeAlbumInput(input, payload.albums[index], payload.albums);
   payload.albums[index] = updatedRaw;
   await saveAlbumsRaw(payload);
 
@@ -137,6 +164,7 @@ export const createAlbum = async (input = {}) => {
     photo_count: 0,
     created: now,
     last_updated: now,
+    parent_id: sanitizeParentId(input.parent_id ?? '', null, payload.albums),
     photos: []
   };
 

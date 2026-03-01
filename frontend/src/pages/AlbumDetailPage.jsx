@@ -2,7 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import AlbumEditor from '../components/AlbumEditor';
 import PhotoCard from '../components/PhotoCard';
-import { fetchAlbumById, fetchAlbumPhotos, updateAlbum, uploadAlbumPhoto } from '../services/api.js';
+import PhotoPreviewModal from '../components/PhotoPreviewModal';
+import { fetchAlbumById, fetchAlbumPhotos, fetchAlbums, updateAlbum, uploadAlbumPhoto } from '../services/api.js';
 
 const PAGE_SIZE = 24;
 const defaultUploadForm = {
@@ -18,6 +19,7 @@ const AlbumDetailPage = () => {
   const navigate = useNavigate();
   const [album, setAlbum] = useState(null);
   const [photos, setPhotos] = useState([]);
+  const [allAlbums, setAllAlbums] = useState([]);
   const [photoSearch, setPhotoSearch] = useState('');
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
@@ -63,6 +65,17 @@ const AlbumDetailPage = () => {
   useEffect(() => {
     loadAlbum();
   }, [loadAlbum]);
+  useEffect(() => {
+    const loadAllAlbums = async () => {
+      try {
+        const data = await fetchAlbums();
+        setAllAlbums(data);
+      } catch (albumErr) {
+        console.error('Albenliste konnte nicht geladen werden.', albumErr);
+      }
+    };
+    loadAllAlbums();
+  }, []);
 
   const handleAlbumSave = async (payload) => {
     if (!albumId) {
@@ -73,6 +86,13 @@ const AlbumDetailPage = () => {
     try {
       const updated = await updateAlbum(albumId, payload);
       setAlbum(updated);
+      setAllAlbums((prev) => {
+        const exists = prev.some((entry) => entry.id === updated.id);
+        if (exists) {
+          return prev.map((entry) => (entry.id === updated.id ? updated : entry));
+        }
+        return [updated, ...prev];
+      });
     } catch (err) {
       setError(err.message || 'Speichern fehlgeschlagen.');
     } finally {
@@ -95,8 +115,14 @@ const AlbumDetailPage = () => {
     return filteredPhotos.slice(start, start + PAGE_SIZE);
   }, [filteredPhotos, currentPage]);
 
+  const [previewPhoto, setPreviewPhoto] = useState(null);
+
   const handleSelectPhoto = (photo) => {
-    navigate(`/photos/${photo.id}`);
+    setPreviewPhoto(photo);
+  };
+
+  const handleClosePreview = () => {
+    setPreviewPhoto(null);
   };
 
   const handleUploadFieldChange = (event) => {
@@ -166,7 +192,7 @@ const AlbumDetailPage = () => {
       {uploadError && <p className="text-red-600">{uploadError}</p>}
       {uploadSuccess && <p className="text-emerald-600">{uploadSuccess}</p>}
 
-      <AlbumEditor album={album} onSubmit={handleAlbumSave} saving={saving} />
+      <AlbumEditor album={album} onSubmit={handleAlbumSave} saving={saving} allAlbums={allAlbums} />
 
       <form onSubmit={handleUploadPhoto} className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-4">
         <div>
@@ -294,6 +320,14 @@ const AlbumDetailPage = () => {
             <p className="text-ink/70">Keine Fotos entsprechen dem Filter.</p>
           )}
         </div>
+      )}
+
+      {previewPhoto && (
+        <PhotoPreviewModal
+          photo={previewPhoto}
+          onClose={handleClosePreview}
+          onNavigate={() => navigate(`/photos/${previewPhoto.id}`)}
+        />
       )}
     </div>
   );
