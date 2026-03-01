@@ -37,7 +37,11 @@ export const readJsonArray = async (filePath) => {
   return Array.isArray(data) ? data : [];
 };
 
-export const writeJsonArray = async (filePath, payload) => {
+export const writeJsonFile = async (filePath, payload) => {
   const serialized = JSON.stringify(payload, null, 2);
   await writeFileAtomic(filePath, serialized);
+};
+
+export const writeJsonArray = async (filePath, payload) => {
+  await writeJsonFile(filePath, payload);
 };

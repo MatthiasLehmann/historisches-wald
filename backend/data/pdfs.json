@@ -1,5 +1,31 @@
 [
   {
+    "id": "pdf-00003",
+    "title": "Test",
+    "year": 2026,
+    "description": "sdgvdwgdsgsdg",
+    "location": "Wald",
+    "source": "Lehmann",
+    "author": "M.Lehmann",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/2026-02 Festgemeinschaft TSV und NV Wald Umzug Wald.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-02-27T14:48:19.126Z",
+    "updatedAt": "2026-02-27T14:48:19.126Z"
+  },
+  {
     "id": "pdf-00001",
     "title": "Südkurier Artikel – Brand Riedetsweiler",
     "year": 1964,
@@ -8,7 +34,10 @@
     "source": "Südkurier, 03.08.1964",
     "author": "Unbekannt",
     "license": "rights-reserved",
-    "tags": ["Zeitung", "Brand"],
+    "tags": [
+      "Zeitung",
+      "Brand"
+    ],
     "file": {
       "type": "local",
       "path": "/files/pdf/pdf-00001.pdf",
@@ -21,7 +50,9 @@
       "reviewedAt": null,
       "comments": []
     },
-    "linkedDocuments": ["doc-001"],
+    "linkedDocuments": [
+      "doc-001"
+    ],
     "createdAt": "2026-02-20T08:00:00.000Z",
     "updatedAt": "2026-02-25T10:00:00.000Z"
   },
@@ -34,7 +65,10 @@
     "source": "Gemeindearchiv",
     "author": "Gemeinderat Wald",
     "license": "public-domain",
-    "tags": ["Protokoll", "Gemeinderat"],
+    "tags": [
+      "Protokoll",
+      "Gemeinderat"
+    ],
     "file": {
       "type": "remote",
       "path": "",

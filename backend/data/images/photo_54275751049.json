@@ -1,0 +1,51 @@
+{
+	"id": "54275751049",
+	"name": "21_Wald I",
+	"description": "",
+	"count_views": "0",
+	"count_faves": "0",
+	"count_comments": "1",
+	"date_taken": "2025-01-19 10:50:22",
+	"count_tags": "0",
+	"count_notes": "0",
+	"rotation": 180,
+	"date_imported": "2025-01-19 10:50:22",
+	"photopage": "https://www.flickr.com/photos/199943033@N03/54275751049/",
+	"original": "https://live.staticflickr.com/65535/54275751049_a5dc69b0e6_o.jpg",
+	"license": "All Rights Reserved",
+	"geo": [
+
+	],
+	"groups": [
+
+	],
+	"albums": [
+		{
+			"id": "72177720314562250",
+			"title": "01_Postkarten Wald",
+			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+		}
+	],
+	"tags": [
+
+	],
+	"people": [
+
+	],
+	"notes": [
+
+	],
+	"privacy": "private",
+	"comment_permissions": "only you",
+	"tagging_permissions": "only you",
+	"safety": "safe",
+	"comments": [
+		{
+			"id": "72157720410052241",
+			"date": "2025-01-19 10:51:03",
+			"user": "199943033@N03",
+			"comment": "Postkarte von Clemens Veeser \nKommentar von Stefanie Gr\u00fcner",
+			"url": "https://www.flickr.com/photos/199943033@N03/54275751049//#comment72157720410052241"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"id": "53508708651",
+	"name": "Jahr 1899",
+	"description": "",
+	"count_views": "0",
+	"count_faves": "0",
+	"count_comments": "2",
+	"date_taken": "2024-02-04 10:49:43",
+	"count_tags": "1",
+	"count_notes": "0",
+	"rotation": 0,
+	"date_imported": "2024-02-04 10:49:43",
+	"photopage": "https://www.flickr.com/photos/199943033@N03/53508708651/",
+	"original": "https://live.staticflickr.com/65535/53508708651_3bca5f6411_o.jpg",
+	"license": "All Rights Reserved",
+	"geo": [
+
+	],
+	"groups": [
+
+	],
+	"albums": [
+		{
+			"id": "72177720314562250",
+			"title": "01_Postkarten Wald",
+			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+		}
+	],
+	"tags": [
+		{
+			"tag": "Postkarte",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2024-02-04 10:50:58"
+		}
+	],
+	"people": [
+
+	],
+	"notes": [
+
+	],
+	"privacy": "private",
+	"comment_permissions": "only you",
+	"tagging_permissions": "only you",
+	"safety": "safe",
+	"comments": [
+		{
+			"id": "72157720344088832",
+			"date": "2024-03-21 07:25:47",
+			"user": "199943033@N03",
+			"comment": "Links oben: Fr\u00fcher 'Hauptstra\u00dfe', jetzt 'Von-Weckenstein-Stra\u00dfe'.\nRechts oben: Ansicht Kloster vom Weiher her.\nLinks unten: Fr\u00fcher 'Gasthof zur Post', jetzt: Maurus\nText: Sende dir einen herzlichen Gru\u00df,\n         deine Freundin Frieda.",
+			"url": "https://www.flickr.com/photos/199943033@N03/53508708651//#comment72157720344088832"
+		},
+		{
+			"id": "72157720409787937",
+			"date": "2025-01-18 13:08:58",
+			"user": "199943033@N03",
+			"comment": "Postkarte von Gudrun Schmidt \nKommentar von Stefanie Gr\u00fcner",
+			"url": "https://www.flickr.com/photos/199943033@N03/53508708651//#comment72157720409787937"
+		}
+	]
+}

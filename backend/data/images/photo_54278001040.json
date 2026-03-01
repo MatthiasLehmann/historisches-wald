@@ -1,0 +1,89 @@
+{
+	"id": "54278001040",
+	"name": "Villa Haug",
+	"description": "43_Wald I\nca. 1930?",
+	"count_views": "0",
+	"count_faves": "0",
+	"count_comments": "3",
+	"date_taken": "2025-01-20 09:57:46",
+	"count_tags": "5",
+	"count_notes": "0",
+	"rotation": 0,
+	"date_imported": "2025-01-20 09:57:46",
+	"photopage": "https://www.flickr.com/photos/199943033@N03/54278001040/",
+	"original": "https://live.staticflickr.com/65535/54278001040_55823d45da_o.jpg",
+	"license": "All Rights Reserved",
+	"geo": [
+
+	],
+	"groups": [
+
+	],
+	"albums": [
+		{
+			"id": "72177720314562250",
+			"title": "01_Postkarten Wald",
+			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+		}
+	],
+	"tags": [
+		{
+			"tag": "Postkarte",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-01-20 09:58:12"
+		},
+		{
+			"tag": "Wald",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-01-20 09:58:12"
+		},
+		{
+			"tag": "ClemensVeeser",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-01-20 09:58:12"
+		},
+		{
+			"tag": "Auswahl1",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-01-20 09:58:12"
+		},
+		{
+			"tag": "Postk.Website",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-01-20 09:58:12"
+		}
+	],
+	"people": [
+
+	],
+	"notes": [
+
+	],
+	"privacy": "private",
+	"comment_permissions": "only you",
+	"tagging_permissions": "only you",
+	"safety": "safe",
+	"comments": [
+		{
+			"id": "72157720412415953",
+			"date": "2025-01-30 11:14:05",
+			"user": "199943033@N03",
+			"comment": "Postkarte von Clemens Veeser\nStefanie Gr\u00fcner",
+			"url": "https://www.flickr.com/photos/199943033@N03/54278001040//#comment72157720412415953"
+		},
+		{
+			"id": "72157720445724985",
+			"date": "2025-07-07 23:57:44",
+			"user": "199943033@N03",
+			"comment": "Hohenzollernstra\u00dfe 43 \nVilla Haug/Lernhart\n1906 erbaut als Geschenk zur Hochzeit der Tochter des Betreibers vom Gasthaus 'Zum Gr\u00fcnen Baum', Bernhard Schneider, nach dem Vorbild einiger Hechinger Villen. Schneider kam von Hechingen.\nElfriede Kempter",
+			"url": "https://www.flickr.com/photos/199943033@N03/54278001040//#comment72157720445724985"
+		},
+		{
+			"id": "72157720445684789",
+			"date": "2025-07-08 04:38:10",
+			"user": "199943033@N03",
+			"comment": "Ein Baugesch\u00e4ft aus Pfullendorf hat die Fassade mit Beton so gestaltet, dass der Eindruck entsteht, sie w\u00e4re aus Sandstein.\nDie B\u00f6den der Gew\u00f6lbekeller sind alle mit Gef\u00e4lle und seitlichen Rinnen ausgestattet. Eindringendes Wasser kann wieder abflie\u00dfen.\nMartin Kuhn",
+			"url": "https://www.flickr.com/photos/199943033@N03/54278001040//#comment72157720445684789"
+		}
+	]
+}

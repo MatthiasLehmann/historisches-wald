@@ -1,0 +1,66 @@
+{
+	"id": "54631155500",
+	"name": "08_Walbertsweiler I",
+	"description": "",
+	"count_views": "0",
+	"count_faves": "0",
+	"count_comments": "1",
+	"date_taken": "2025-07-03 10:09:14",
+	"count_tags": "4",
+	"count_notes": "0",
+	"rotation": 0,
+	"date_imported": "2025-07-03 10:09:14",
+	"photopage": "https://www.flickr.com/photos/199943033@N03/54631155500/",
+	"original": "https://live.staticflickr.com/65535/54631155500_36cb61aa86_o.jpg",
+	"license": "All Rights Reserved",
+	"geo": [
+
+	],
+	"groups": [
+
+	],
+	"albums": [
+
+	],
+	"tags": [
+		{
+			"tag": "Postkarte",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-07-03 10:09:25"
+		},
+		{
+			"tag": "ClemensVeeser",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-07-03 10:09:25"
+		},
+		{
+			"tag": "Walbertsweiler",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-07-03 10:09:25"
+		},
+		{
+			"tag": "1906",
+			"user": "https://www.flickr.com/photos/199943033@N03/",
+			"date_create": "2025-07-03 10:09:25"
+		}
+	],
+	"people": [
+
+	],
+	"notes": [
+
+	],
+	"privacy": "private",
+	"comment_permissions": "only you",
+	"tagging_permissions": "only you",
+	"safety": "safe",
+	"comments": [
+		{
+			"id": "72157720444855255",
+			"date": "2025-07-03 11:23:05",
+			"user": "199943033@N03",
+			"comment": "Postkarte von 1906 von Clemens Veeser \nKommentar von Stefanie Gr\u00fcner",
+			"url": "https://www.flickr.com/photos/199943033@N03/54631155500//#comment72157720444855255"
+		}
+	]
+}

@@ -1,5 +1,30 @@
 [
   {
+    "id": "img-00003",
+    "title": "logo-historisches-wald.png",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "remote",
+      "path": "",
+      "originalUrl": "/images/logo-historisches-wald.png"
+    },
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-02-27T14:38:52.291Z",
+    "updatedAt": "2026-02-27T14:39:42.517Z"
+  },
+  {
     "id": "img-00001",
     "title": "Brand Riedetsweiler – Hof Sales Hipp",
     "year": 1964,

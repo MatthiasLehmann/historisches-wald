@@ -7,6 +7,8 @@ import documentsRouter from './routes/documents.js';
 import flickrRouter from './routes/flickr.js';
 import imagesRouter from './routes/images.js';
 import pdfsRouter from './routes/pdfs.js';
+import albumsRouter from './routes/albums.js';
+import photosRouter from './routes/photos.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -24,6 +26,8 @@ app.use('/api/documents', documentsRouter);
 app.use('/api/flickr', flickrRouter);
 app.use('/api/images', imagesRouter);
 app.use('/api/pdfs', pdfsRouter);
+app.use('/api/albums', albumsRouter);
+app.use('/api/photos', photosRouter);
 
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok' });
