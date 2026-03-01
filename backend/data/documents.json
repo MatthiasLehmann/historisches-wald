@@ -162,7 +162,8 @@
     "location": "Wald",
     "description": "Architektonische Zeichnung für den Neubau des Rathauses.",
     "images": [
-      "/images/placeholder-doc-3.jpg"
+      "/images/schulhaus-1896_54859330840_o.jpg",
+      "/images/doc07735520250223105922_001_54858169352_o.jpg"
     ],
     "metadata": {
       "author": "Architekt Müller",
@@ -177,8 +178,15 @@
     },
     "imageIds": [],
     "pdfIds": [],
-    "albumPhotoIds": [],
-    "pdfs": []
+    "albumPhotoIds": [
+      "54859330840",
+      "54858169352"
+    ],
+    "pdfs": [],
+    "transcription": "",
+    "author": "Architekt Müller",
+    "source": "Bauamt Wald",
+    "condition": "Rrisse an den Rändern"
   },
   {
     "id": "doc-004",
