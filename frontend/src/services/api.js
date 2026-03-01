@@ -189,11 +189,53 @@ export const fetchAlbumById = async (id) => {
     return handleResponse(response);
 };
 
+export const createAlbum = async (payload) =>
+    mutateJson(`${API_BASE}/albums`, 'POST', payload);
+
 export const updateAlbum = async (id, payload) =>
     mutateJson(`${API_BASE}/albums/${id}`, 'PUT', payload);
 
 export const fetchAlbumPhotos = async (id) => {
     const response = await fetch(`${API_BASE}/albums/${id}/photos`);
+    return handleResponse(response);
+};
+
+const readFileAsBase64 = (file) =>
+    new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+            const result = reader.result || '';
+            const parts = typeof result === 'string' ? result.split(',') : [];
+            resolve(parts.length > 1 ? parts[1] : result);
+        };
+        reader.onerror = () => reject(new Error('Datei konnte nicht gelesen werden.'));
+        reader.readAsDataURL(file);
+    });
+
+export const uploadAlbumPhoto = async (albumId, payload) => {
+    if (!albumId) {
+        throw new Error('Album-ID fehlt.');
+    }
+    if (!(payload?.file instanceof File)) {
+        throw new Error('Bitte wählen Sie eine Bilddatei aus.');
+    }
+    const file = payload.file;
+    const base64 = await readFileAsBase64(file);
+    const response = await fetch(`${API_BASE}/albums/${albumId}/photos`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            name: payload?.name?.trim() || file.name,
+            description: payload?.description?.trim() || '',
+            date_taken: payload?.date_taken?.trim() || '',
+            set_as_cover: Boolean(payload?.setAsCover),
+            file: {
+                name: file.name,
+                type: file.type,
+                data: base64
+            }
+        })
+    });
     return handleResponse(response);
 };
 

@@ -20,6 +20,21 @@ const normalizeAlbum = (album) => ({
   photos: Array.isArray(album.photos) ? album.photos.map((photoId) => String(photoId)) : []
 });
 
+const getUnixTimestamp = () => Math.floor(Date.now() / 1000);
+
+const generateAlbumId = (albums = []) => {
+  const existingIds = new Set(albums.map((album) => String(album.id)));
+  for (let i = 0; i < 10; i += 1) {
+    const candidate = `local_${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`;
+    if (!existingIds.has(candidate)) {
+      return candidate;
+    }
+  }
+  const error = new Error('Konnte keine eindeutige Album-ID erzeugen.');
+  error.statusCode = 500;
+  throw error;
+};
+
 const sanitizeAlbumInput = (input = {}, existing = {}) => {
   const payload = {};
 
@@ -46,6 +61,8 @@ const sanitizeAlbumInput = (input = {}, existing = {}) => {
     error.statusCode = 400;
     throw error;
   }
+
+  payload.last_updated = getUnixTimestamp();
 
   return { ...existing, ...payload };
 };
@@ -99,4 +116,62 @@ export const findAlbumsByPhotoId = async (photoId) => {
   return albums
     .filter((album) => Array.isArray(album.photos) && album.photos.map(String).includes(String(photoId)))
     .map(normalizeAlbum);
+};
+
+export const createAlbum = async (input = {}) => {
+  const payload = await loadAlbumsRaw();
+  const title = typeof input.title === 'string' ? input.title.trim() : '';
+  if (!title) {
+    const error = new Error('Titel ist erforderlich.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const now = getUnixTimestamp();
+  const newAlbum = {
+    id: generateAlbumId(payload.albums),
+    title,
+    description: typeof input.description === 'string' ? input.description.trim() : '',
+    url: typeof input.url === 'string' ? input.url.trim() : '',
+    cover_photo: typeof input.cover_photo === 'string' ? input.cover_photo.trim() : '',
+    photo_count: 0,
+    created: now,
+    last_updated: now,
+    photos: []
+  };
+
+  payload.albums.unshift(newAlbum);
+  await saveAlbumsRaw(payload);
+  return normalizeAlbum(newAlbum);
+};
+
+export const addPhotoToAlbum = async (albumId, photoId, options = {}) => {
+  const payload = await loadAlbumsRaw();
+  const index = payload.albums.findIndex((entry) => entry.id === albumId);
+  if (index === -1) {
+    const error = new Error(`Album ${albumId} not found.`);
+    error.statusCode = 404;
+    throw error;
+  }
+  const album = payload.albums[index];
+  const normalizedPhotoId = String(photoId);
+  const existingPhotos = Array.isArray(album.photos) ? album.photos.map((value) => String(value)) : [];
+
+  if (!existingPhotos.includes(normalizedPhotoId)) {
+    album.photos = [normalizedPhotoId, ...existingPhotos];
+  } else {
+    album.photos = existingPhotos;
+  }
+
+  album.photo_count = album.photos.length;
+  album.last_updated = getUnixTimestamp();
+
+  if (options.setCover && typeof options.coverPhoto === 'string' && options.coverPhoto.trim()) {
+    album.cover_photo = options.coverPhoto.trim();
+  }
+
+  payload.albums[index] = album;
+  await saveAlbumsRaw(payload);
+
+  return normalizeAlbum(album);
 };

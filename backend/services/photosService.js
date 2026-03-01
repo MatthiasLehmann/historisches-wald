@@ -163,12 +163,66 @@ const readPhotoRaw = async (photoId) => {
 
 const writePhotoRaw = async (photoId, payload) => writeJsonFile(getPhotoFilePath(photoId), payload);
 
+const generatePhotoId = async () => {
+  const attemptId = () => `local_${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`;
+  for (let i = 0; i < 10; i += 1) {
+    const candidate = attemptId();
+    const existing = await readPhotoRaw(candidate);
+    if (!existing) {
+      return candidate;
+    }
+  }
+  const error = new Error('Konnte keine eindeutige Foto-ID erzeugen.');
+  error.statusCode = 500;
+  throw error;
+};
+
+const buildPhotoCreatePayload = (input = {}, photoId) => {
+  const name = typeof input.name === 'string' ? input.name.trim() : '';
+  if (!name) {
+    const error = new Error('Foto-Name ist erforderlich.');
+    error.statusCode = 400;
+    throw error;
+  }
+  const description = typeof input.description === 'string' ? input.description.trim() : '';
+  const dateTaken = typeof input.date_taken === 'string' ? input.date_taken.trim() : '';
+  const photopage = typeof input.photopage === 'string' ? input.photopage.trim() : '';
+  const original = typeof input.original === 'string' ? input.original.trim() : '';
+  const license = typeof input.license === 'string' ? input.license.trim() : 'All Rights Reserved';
+  const privacy = typeof input.privacy === 'string' ? input.privacy.trim() : 'public';
+  const albumIds = Array.isArray(input.albums) ? input.albums.map((id) => String(id)) : [];
+
+  return {
+    id: photoId,
+    name,
+    description,
+    date_taken: dateTaken,
+    photopage,
+    original,
+    license,
+    privacy,
+    tags: sanitizeTagsInput(input.tags),
+    albums: albumIds,
+    comments: [],
+    review: ensureReview(input.review),
+    missing: false,
+    createdAt: new Date().toISOString()
+  };
+};
+
 export const getPhotoById = async (photoId) => {
   const raw = await readPhotoRaw(photoId);
   if (!raw) {
     return buildMissingPhoto(photoId);
   }
   return normalizePhoto(raw, photoId);
+};
+
+export const createPhoto = async (input = {}) => {
+  const photoId = input.id ?? (await generatePhotoId());
+  const payload = buildPhotoCreatePayload(input, photoId);
+  await writePhotoRaw(photoId, payload);
+  return normalizePhoto(payload, photoId);
 };
 
 export const updatePhotoById = async (photoId, input) => {
