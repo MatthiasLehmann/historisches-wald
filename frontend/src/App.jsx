@@ -16,7 +16,6 @@ import Team from './pages/Team';
 import SubmitDocument from './pages/SubmitDocument';
 import LoginPage from './pages/LoginPage';
 import ReviewDashboard from './pages/ReviewDashboard';
-import MediaImages from './pages/MediaImages';
 import MediaPDFs from './pages/MediaPDFs';
 import AlbumsPage from './pages/AlbumsPage';
 import AlbumDetailPage from './pages/AlbumDetailPage';
@@ -70,14 +69,6 @@ const App = () => (
           element={
             <ProtectedRoute>
               <ReviewDashboard />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/media/images"
-          element={
-            <ProtectedRoute>
-              <MediaImages />
             </ProtectedRoute>
           }
         />

@@ -1,9 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import categoriesData from '../data/categories.json';
-import ImageSelectorModal from '../components/ImageSelectorModal.jsx';
 import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
 import AlbumPhotoSelectorModal from '../components/AlbumPhotoSelectorModal.jsx';
-import { fetchImages, fetchPdfs, fetchPhotos } from '../services/api.js';
+import { fetchPdfs, fetchPhotos } from '../services/api.js';
 
 const initialForm = {
   title: '',
@@ -14,7 +13,6 @@ const initialForm = {
   author: '',
   source: '',
   condition: '',
-  imageIds: [],
   albumPhotoIds: [],
   pdfIds: [],
 };
@@ -27,8 +25,6 @@ const SubmitDocument = () => {
   const [selectedSubcategories, setSelectedSubcategories] = useState([]);
   const [documents, setDocuments] = useState([]);
   const [editingId, setEditingId] = useState(null);
-  const [selectedImages, setSelectedImages] = useState([]);
-  const [isImageSelectorOpen, setIsImageSelectorOpen] = useState(false);
   const [selectedAlbumPhotos, setSelectedAlbumPhotos] = useState([]);
   const [isAlbumPhotoSelectorOpen, setIsAlbumPhotoSelectorOpen] = useState(false);
   const [selectedPdfs, setSelectedPdfs] = useState([]);
@@ -80,7 +76,6 @@ const SubmitDocument = () => {
     setSelectedArea('');
     setSelectedSubcategories([]);
     setEditingId(null);
-    setSelectedImages([]);
     setSelectedAlbumPhotos([]);
     setSelectedPdfs([]);
   };
@@ -98,7 +93,6 @@ const SubmitDocument = () => {
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
       condition: doc.metadata?.condition ?? '',
-      imageIds: Array.isArray(doc.imageIds) ? doc.imageIds : [],
       albumPhotoIds: Array.isArray(doc.albumPhotoIds) ? doc.albumPhotoIds : [],
       pdfIds: Array.isArray(doc.pdfIds) ? doc.pdfIds : [],
     });
@@ -110,8 +104,6 @@ const SubmitDocument = () => {
           ? [doc.subcategory]
           : [],
     );
-    const nextImageIds = Array.isArray(doc.imageIds) ? doc.imageIds : [];
-    loadSelectedImages(nextImageIds);
     const nextAlbumPhotoIds = Array.isArray(doc.albumPhotoIds) ? doc.albumPhotoIds : [];
     loadSelectedAlbumPhotos(nextAlbumPhotoIds);
     const nextPdfIds = Array.isArray(doc.pdfIds) ? doc.pdfIds : [];
@@ -129,7 +121,6 @@ const SubmitDocument = () => {
         category: selectedArea,
         subcategories: selectedSubcategories,
         transcription: form.transcription,
-        imageIds: Array.isArray(form.imageIds) ? form.imageIds : [],
         albumPhotoIds: Array.isArray(form.albumPhotoIds) ? form.albumPhotoIds : [],
         pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
       };
@@ -161,33 +152,6 @@ const SubmitDocument = () => {
     } finally {
       setIsSubmitting(false);
     }
-  };
-
-  const loadSelectedImages = async (imageIds) => {
-    if (!Array.isArray(imageIds) || imageIds.length === 0) {
-      setSelectedImages([]);
-      return;
-    }
-    try {
-      const data = await fetchImages({ ids: imageIds });
-      const ordered = imageIds
-        .map((id) => data.find((img) => img.id === id))
-        .filter(Boolean);
-      setSelectedImages(ordered);
-    } catch (error) {
-      console.error('Bilder konnten nicht geladen werden:', error);
-    }
-  };
-
-  const handleImageSelectionSave = (images) => {
-    const ids = images.map((img) => img.id);
-    setForm((prev) => ({ ...prev, imageIds: ids }));
-    setSelectedImages(images);
-  };
-
-  const removeImageFromSelection = (id) => {
-    setSelectedImages((prev) => prev.filter((img) => img.id !== id));
-    setForm((prev) => ({ ...prev, imageIds: prev.imageIds.filter((imgId) => imgId !== id) }));
   };
 
   const loadSelectedAlbumPhotos = async (photoIds) => {
@@ -255,13 +219,6 @@ const SubmitDocument = () => {
       return pdf.file?.originalUrl || pdf.file?.path || '';
     }
     return pdf.file?.path || pdf.file?.originalUrl || '';
-  };
-
-  const imagePreviewUrl = (image) => {
-    if (image.file?.type === 'remote') {
-      return image.file?.originalUrl || image.file?.path || '';
-    }
-    return image.file?.path || image.file?.originalUrl || '';
   };
 
   return (
@@ -409,51 +366,6 @@ const SubmitDocument = () => {
             placeholder="Optionaler Volltext oder Markdown"
           />
         </label>
-
-        <section className="border border-parchment-dark rounded-sm bg-parchment/30 p-4 space-y-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <h2 className="text-lg font-serif font-bold text-ink">Verknüpfte Bilder</h2>
-              <p className="text-sm text-ink/70">Nutzen Sie die zentrale Mediathek, um Bilder mehrfach zu verwenden.</p>
-            </div>
-            <button
-              type="button"
-              onClick={() => setIsImageSelectorOpen(true)}
-              className="px-4 py-2 bg-accent text-white text-sm font-semibold rounded-sm"
-            >
-              Bilder aus Mediathek hinzufügen
-            </button>
-          </div>
-          {selectedImages.length === 0 ? (
-            <p className="text-sm text-ink/60">Noch keine Bilder verknüpft.</p>
-          ) : (
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {selectedImages.map((image) => (
-                <div key={image.id} className="border border-parchment-dark rounded-sm overflow-hidden bg-white">
-                  <div className="aspect-video bg-parchment-dark">
-                    {imagePreviewUrl(image) ? (
-                      <img src={imagePreviewUrl(image)} alt={image.title} className="w-full h-full object-cover" />
-                    ) : (
-                      <div className="flex items-center justify-center h-full text-xs text-ink/50">Keine Vorschau</div>
-                    )}
-                  </div>
-                  <div className="p-3 text-sm space-y-1">
-                    <p className="font-semibold text-ink">{image.title}</p>
-                    <p className="text-ink/60">{image.year || 'Unbekannt'} · {image.location || 'Ohne Ort'}</p>
-                    <p className="text-ink/60 text-xs">ID: {image.id}</p>
-                    <button
-                      type="button"
-                      onClick={() => removeImageFromSelection(image.id)}
-                      className="text-xs text-red-600 hover:underline"
-                    >
-                      Entfernen
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
-        </section>
 
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
           <div className="flex items-center justify-between">
@@ -612,13 +524,6 @@ const SubmitDocument = () => {
         </form>
       </div>
 
-      <ImageSelectorModal
-        isOpen={isImageSelectorOpen}
-        onClose={() => setIsImageSelectorOpen(false)}
-        onConfirm={handleImageSelectionSave}
-        selectedIds={form.imageIds}
-        selectedImages={selectedImages}
-      />
       <AlbumPhotoSelectorModal
         isOpen={isAlbumPhotoSelectorOpen}
         onClose={() => setIsAlbumPhotoSelectorOpen(false)}
