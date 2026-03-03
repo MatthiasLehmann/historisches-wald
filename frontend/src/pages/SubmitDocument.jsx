@@ -25,6 +25,7 @@ const SubmitDocument = () => {
   const [selectedArea, setSelectedArea] = useState('');
   const [selectedSubcategories, setSelectedSubcategories] = useState([]);
   const [documents, setDocuments] = useState([]);
+  const [documentSearchQuery, setDocumentSearchQuery] = useState('');
   const [editingId, setEditingId] = useState(null);
   const [selectedAlbumPhotos, setSelectedAlbumPhotos] = useState([]);
   const [isAlbumPhotoSelectorOpen, setIsAlbumPhotoSelectorOpen] = useState(false);
@@ -41,6 +42,29 @@ const SubmitDocument = () => {
 
   const currentArea = areaOptions.find((area) => area.label === selectedArea);
   const availableSubs = currentArea?.subcategories ?? [];
+
+  const filteredDocuments = useMemo(() => {
+    if (!documentSearchQuery.trim()) {
+      return documents;
+    }
+    const query = documentSearchQuery.toLowerCase();
+    return documents.filter((doc) => {
+      const searchable = [
+        doc.title,
+        doc.year ? String(doc.year) : '',
+        doc.category,
+        Array.isArray(doc.subcategories)
+          ? doc.subcategories.join(' ')
+          : doc.subcategory ?? '',
+        doc.metadata?.author ?? '',
+        doc.location ?? '',
+      ]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
+      return searchable.includes(query);
+    });
+  }, [documents, documentSearchQuery]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -266,24 +290,40 @@ const SubmitDocument = () => {
           {documents.length === 0 ? (
             <p className="text-sm text-ink/50">Noch keine Dokumente geladen.</p>
           ) : (
-            <ul className="space-y-2">
-              {documents.map((doc) => (
-                <li key={doc.id}>
-                  <button
-                    type="button"
-                    onClick={() => handleSelectDocument(doc)}
-                    className={`w-full text-left border rounded-sm px-3 py-2 transition-colors ${
-                      editingId === doc.id
-                        ? 'border-accent bg-accent/10 text-accent'
-                        : 'border-parchment-dark/60 hover:border-accent'
-                    }`}
-                  >
-                    <p className="font-semibold text-sm">{doc.title}</p>
-                    <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
-                  </button>
-                </li>
-              ))}
-            </ul>
+            <>
+              <label className="block text-xs font-semibold text-ink/70 uppercase tracking-wide">
+                Suche
+                <input
+                  type="search"
+                  placeholder="Titel, Jahr, Kategorie ..."
+                  value={documentSearchQuery}
+                  onChange={(event) => setDocumentSearchQuery(event.target.value)}
+                  className="mt-1 w-full rounded-sm border border-parchment-dark/70 px-3 py-2 text-sm"
+                />
+              </label>
+              {filteredDocuments.length === 0 ? (
+                <p className="text-sm text-ink/50">Keine Dokumente passend zur Suche.</p>
+              ) : (
+                <ul className="space-y-2">
+                  {filteredDocuments.map((doc) => (
+                    <li key={doc.id}>
+                      <button
+                        type="button"
+                        onClick={() => handleSelectDocument(doc)}
+                        className={`w-full text-left border rounded-sm px-3 py-2 transition-colors ${
+                          editingId === doc.id
+                            ? 'border-accent bg-accent/10 text-accent'
+                            : 'border-parchment-dark/60 hover:border-accent'
+                        }`}
+                      >
+                        <p className="font-semibold text-sm">{doc.title}</p>
+                        <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </>
           )}
         </aside>
 
