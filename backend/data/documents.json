@@ -8,7 +8,9 @@
     "location": "Ortschaften um Wald",
     "description": "Aus den Adressbüchern extrahierte Namen und Branchen.",
     "transcription": "",
-    "images": [],
+    "images": [
+      "/files/images/album-1772554728723-820826433.png"
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -16,7 +18,9 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mmatbi6xiwqmdz"
+    ],
     "pdfIds": [
       "pdf-00004"
     ],
@@ -31,7 +35,10 @@
           "comment": "Sieht gut aus"
         }
       ]
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Unbekannt",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1771869680553",
