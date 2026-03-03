@@ -1,5 +1,33 @@
 [
   {
+    "id": "doc-1772554386220",
+    "title": "Adressbuch von 1935",
+    "year": 1935,
+    "category": "Wald",
+    "subcategories": [],
+    "location": "Ortschaften um Wald",
+    "description": "Aus den Adressbüchern extrahierte Namen und Branchen.",
+    "transcription": "",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00004"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1771869680553",
     "title": "Test",
     "year": 1967,
