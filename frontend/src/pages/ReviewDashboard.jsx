@@ -78,22 +78,30 @@ const ReviewDashboard = () => {
       return [];
     }
     return selectedDocument.images
-      .map((image) => {
+      .map((image, index) => {
+        if (!image) {
+          return null;
+        }
         if (typeof image === 'string') {
-          return image;
+          return {
+            id: `${selectedDocument.id}-img-${index}`,
+            src: image,
+            title: `${selectedDocument.title} – Bild ${index + 1}`,
+            description: ''
+          };
         }
-        if (image?.previewUrl) {
-          return image.previewUrl;
+        const src = image.src || image.previewUrl || image.url || image.file?.path || image.file?.originalUrl || '';
+        if (!src) {
+          return null;
         }
-        if (typeof image?.url === 'string') {
-          return image.url;
-        }
-        if (image?.file) {
-          return image.file.path || image.file.originalUrl || null;
-        }
-        return null;
+        return {
+          id: image.id || `${selectedDocument.id}-img-${index}`,
+          src,
+          title: image.title || image.name || `${selectedDocument.title} – Bild ${index + 1}`,
+          description: image.description || image.caption || ''
+        };
       })
-      .filter(Boolean);
+      .filter((image) => Boolean(image?.src));
   }, [selectedDocument]);
 
   const documentPdfs = useMemo(() => {
@@ -194,20 +202,32 @@ const ReviewDashboard = () => {
                   <section className="space-y-3">
                     <h3 className="text-sm font-semibold text-ink">Verknüpfte Bilder</h3>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                      {documentImages.map((src, index) => (
-                        <a
-                          key={`${src}-${index}`}
-                          href={src}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="block border border-parchment-dark rounded-sm overflow-hidden bg-parchment"
+                      {documentImages.map((image, index) => (
+                        <article
+                          key={image.id || `${image.src}-${index}`}
+                          className="border border-parchment-dark rounded-sm overflow-hidden bg-white flex flex-col"
                         >
-                          <img
-                            src={src}
-                            alt={`${selectedDocument.title} – Bild ${index + 1}`}
-                            className="w-full h-40 object-cover"
-                          />
-                        </a>
+                          <a
+                            href={image.src}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="block bg-parchment"
+                          >
+                            <img
+                              src={image.src}
+                              alt={image.title || `${selectedDocument.title} – Bild ${index + 1}`}
+                              className="w-full h-40 object-cover"
+                            />
+                          </a>
+                          <div className="px-3 py-2 border-t border-parchment-dark/60 space-y-1">
+                            <p className="text-sm font-semibold text-ink">
+                              {image.title || `${selectedDocument.title} – Bild ${index + 1}`}
+                            </p>
+                            {image.description && (
+                              <p className="text-xs text-ink/60 leading-snug">{image.description}</p>
+                            )}
+                          </div>
+                        </article>
                       ))}
                     </div>
                   </section>

@@ -105,21 +105,60 @@ const buildAlbumPhotoLookup = async (documents) => {
   return lookup;
 };
 
+const mapImageRecordToReference = (image) => {
+  if (!image || !image.previewUrl) {
+    return null;
+  }
+  return {
+    id: image.id,
+    src: image.previewUrl,
+    title: image.title || `Bild ${image.id}`,
+    description: image.description || '',
+    type: 'library',
+    year: image.year ?? null,
+    location: image.location || '',
+    author: image.author || '',
+    source: image.source || '',
+    license: image.license || 'rights-reserved'
+  };
+};
+
+const mapAlbumPhotoToReference = (photo) => {
+  if (!photo) {
+    return null;
+  }
+  const src = photo.preview || photo.original || '';
+  if (!src) {
+    return null;
+  }
+  return {
+    id: String(photo.id),
+    src,
+    title: photo.name || `Albumfoto ${photo.id}`,
+    description: photo.description || '',
+    type: 'album',
+    date: photo.date_taken || '',
+    author: photo.ownername || '',
+    source: photo.photopage || '',
+    license: photo.license || ''
+  };
+};
+
 const applyImagePreviews = (document, lookup, albumPhotoLookup = new Map()) => {
   const imageIds = Array.isArray(document.imageIds) ? document.imageIds : [];
   const existingImages = Array.isArray(document.images) ? document.images : [];
   const albumPhotoIds = Array.isArray(document.albumPhotoIds) ? document.albumPhotoIds : [];
-  const previews = imageIds
+  const libraryRefs = imageIds
     .map((imageId) => lookup.get(imageId))
-    .filter((item) => Boolean(item?.previewUrl))
-    .map((item) => item.previewUrl);
-  const albumPreviews = albumPhotoIds
+    .map((image) => mapImageRecordToReference(image))
+    .filter((ref) => Boolean(ref?.src));
+  const albumRefs = albumPhotoIds
     .map((photoId) => albumPhotoLookup.get(photoId))
-    .filter((photo) => Boolean(photo?.original))
-    .map((photo) => photo.original);
+    .map((photo) => mapAlbumPhotoToReference(photo))
+    .filter((ref) => Boolean(ref?.src));
   const combined =
-    previews.length > 0 || albumPreviews.length > 0
-      ? [...previews, ...albumPreviews]
+    libraryRefs.length > 0 || albumRefs.length > 0
+      ? [...libraryRefs, ...albumRefs]
       : existingImages;
 
   return {

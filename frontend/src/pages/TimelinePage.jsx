@@ -159,16 +159,23 @@ const TimelinePage = () => {
                                 ? 'Enthält Transkription und Bildmaterial.'
                                 : 'Zusätzliche Materialien folgen.'}
                         </p>
-                        {selectedDocument.images?.length > 0 && (
-                            <div className="space-y-2">
-                                <p className="text-xs uppercase tracking-[0.3em] text-ink/40">Vorschau</p>
-                                <img
-                                    src={selectedDocument.images[0]}
-                                    alt={`${selectedDocument.title} Vorschau`}
-                                    className="w-full h-48 object-cover rounded-sm border border-parchment-dark"
-                                />
-                            </div>
-                        )}
+                        {(() => {
+                            const preview = selectedDocument.images?.[0];
+                            const previewSrc = typeof preview === 'string' ? preview : preview?.src || '';
+                            if (!previewSrc) {
+                                return null;
+                            }
+                            return (
+                                <div className="space-y-2">
+                                    <p className="text-xs uppercase tracking-[0.3em] text-ink/40">Vorschau</p>
+                                    <img
+                                        src={previewSrc}
+                                        alt={`${selectedDocument.title} Vorschau`}
+                                        className="w-full h-48 object-cover rounded-sm border border-parchment-dark"
+                                    />
+                                </div>
+                            );
+                        })()}
                     </article>
                 </section>
             )}

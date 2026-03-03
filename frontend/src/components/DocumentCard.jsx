@@ -8,6 +8,9 @@ const DocumentCard = ({ document }) => {
         document.subcategory ? [document.subcategory] : []
     );
 
+    const coverImage = document.images?.[0];
+    const coverSrc = typeof coverImage === 'string' ? coverImage : coverImage?.src || '';
+
     return (
         <Motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -16,9 +19,9 @@ const DocumentCard = ({ document }) => {
             className="group bg-white rounded-sm shadow-md overflow-hidden border border-parchment-dark hover:shadow-lg transition-all duration-300 flex flex-col h-full"
         >
             <div className="relative aspect-[4/3] overflow-hidden bg-parchment-dark">
-                {document.images && document.images.length > 0 ? (
+                {coverSrc ? (
                     <img
-                        src={document.images[0]}
+                        src={coverSrc}
                         alt={document.title}
                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-500 sepia-[.2]"
                         loading="lazy"
