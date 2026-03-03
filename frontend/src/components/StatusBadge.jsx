@@ -1,6 +1,7 @@
 const STATUS_STYLES = {
   pending: 'bg-amber-100 text-amber-800 border-amber-300',
   'in-progress': 'bg-sky-100 text-sky-800 border-sky-300',
+  in_review: 'bg-yellow-100 text-yellow-800 border-yellow-300',
   approved: 'bg-emerald-100 text-emerald-800 border-emerald-300',
   'needs-info': 'bg-rose-100 text-rose-800 border-rose-300',
   rejected: 'bg-red-100 text-red-800 border-red-300'
@@ -11,7 +12,9 @@ const formatStatusLabel = (status) => {
     return 'unbekannt';
   }
   return status
-    .split('-')
+    .replace(/[_-]+/g, ' ')
+    .split(' ')
+    .filter(Boolean)
     .map((segment) => segment.charAt(0).toUpperCase() + segment.slice(1))
     .join(' ');
 };

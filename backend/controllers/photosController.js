@@ -14,6 +14,10 @@ export const getPhotos = async (req, res, next) => {
       );
       photos = photos.filter((photo) => idSet.has(String(photo.id)));
     }
+    const searchQuery = (req.query?.search ?? req.query?.q ?? '').trim().toLowerCase();
+    if (searchQuery) {
+      photos = photos.filter((photo) => (photo.name || '').toLowerCase().includes(searchQuery));
+    }
     res.json(photos);
   } catch (error) {
     next(error);

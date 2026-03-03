@@ -4,6 +4,7 @@ import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
 import AlbumPhotoSelectorModal from '../components/AlbumPhotoSelectorModal.jsx';
 import { fetchPdfs, fetchPhotos } from '../services/api.js';
 import MarkdownEditor from '../components/MarkdownEditor.jsx';
+import StatusBadge from '../components/StatusBadge.jsx';
 
 const initialForm = {
   title: '',
@@ -316,7 +317,10 @@ const SubmitDocument = () => {
                             : 'border-parchment-dark/60 hover:border-accent'
                         }`}
                       >
-                        <p className="font-semibold text-sm">{doc.title}</p>
+                        <div className="flex items-center justify-between gap-3">
+                          <p className="font-semibold text-sm">{doc.title}</p>
+                          <StatusBadge status={doc.review?.status} />
+                        </div>
                         <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
                       </button>
                     </li>

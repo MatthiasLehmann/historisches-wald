@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
-import { fetchAlbumPhotos, fetchAlbums } from '../services/api.js';
+import { useEffect, useState } from 'react';
+import { fetchAlbumPhotos, fetchAlbums, fetchPhotos } from '../services/api.js';
 
 const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = [] }) => {
   const [albums, setAlbums] = useState([]);
@@ -9,6 +9,10 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
   const [error, setError] = useState('');
   const [selectionMap, setSelectionMap] = useState(new Map());
   const [search, setSearch] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [searchLoading, setSearchLoading] = useState(false);
+  const [searchError, setSearchError] = useState('');
+  const normalizedSearch = search.trim();
 
   useEffect(() => {
     if (!isOpen) {
@@ -23,7 +27,7 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
     setSelectionMap(initSelection);
   }, [isOpen, selectedPhotos]);
 
-useEffect(() => {
+  useEffect(() => {
     if (!isOpen) {
       return;
     }
@@ -82,13 +86,40 @@ useEffect(() => {
     onClose();
   };
 
-  const filteredPhotos = useMemo(() => {
-    const needle = search.trim().toLowerCase();
-    if (!needle) {
-      return photos;
+  useEffect(() => {
+    if (!isOpen || !normalizedSearch) {
+      setSearchResults([]);
+      setSearchError('');
+      setSearchLoading(false);
+      return;
     }
-    return photos.filter((photo) => (photo.name || '').toLowerCase().includes(needle));
-  }, [photos, search]);
+    let cancelled = false;
+    const runSearch = async () => {
+      setSearchLoading(true);
+      setSearchError('');
+      try {
+        const data = await fetchPhotos({ search: normalizedSearch });
+        if (!cancelled) {
+          setSearchResults(Array.isArray(data) ? data : []);
+        }
+      } catch (err) {
+        if (!cancelled) {
+          setSearchError(err.message || 'Fotosuche fehlgeschlagen.');
+          setSearchResults([]);
+        }
+      } finally {
+        if (!cancelled) {
+          setSearchLoading(false);
+        }
+      }
+    };
+    runSearch();
+    return () => {
+      cancelled = true;
+    };
+  }, [isOpen, normalizedSearch]);
+
+  const visiblePhotos = normalizedSearch ? searchResults : photos;
 
   if (!isOpen) {
     return null;
@@ -129,18 +160,39 @@ useEffect(() => {
               className="border border-parchment-dark rounded-sm px-3 py-2 md:col-span-2"
             />
           </div>
+          {searchError && normalizedSearch && (
+            <div className="bg-red-50 border border-red-200 text-red-800 px-3 py-2 text-xs rounded-sm">
+              {searchError}
+            </div>
+          )}
+          {normalizedSearch && !searchError && (
+            <p className="text-xs text-ink/60">
+              {searchLoading
+                ? 'Durchsuche alle photo*.json-Dateien …'
+                : `Treffer in allen photo*.json-Dateien: ${visiblePhotos.length}`}
+            </p>
+          )}
 
           <div className="text-sm text-ink/60 flex items-center justify-between">
             <span>{selectionMap.size} Foto(s) ausgewählt</span>
-            <span>Album enthält {photos.length} Fotos</span>
+            {normalizedSearch ? (
+              <span>Globale Treffer: {visiblePhotos.length}</span>
+            ) : (
+              <span>Album enthält {photos.length} Fotos</span>
+            )}
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {loading && <p className="text-sm text-ink/60">Lade Fotos…</p>}
-            {!loading && filteredPhotos.length === 0 && (
-              <p className="text-sm text-ink/60">Keine Fotos gefunden.</p>
+            {loading && !normalizedSearch && (
+              <p className="text-sm text-ink/60 sm:col-span-2 lg:col-span-3">Lade Album-Fotos…</p>
             )}
-            {filteredPhotos.map((photo) => {
+            {normalizedSearch && searchLoading && (
+              <p className="text-sm text-ink/60 sm:col-span-2 lg:col-span-3">Durchsuche alle Foto-Dateien…</p>
+            )}
+            {!loading && !(normalizedSearch && searchLoading) && visiblePhotos.length === 0 && (
+              <p className="text-sm text-ink/60 sm:col-span-2 lg:col-span-3">Keine Fotos gefunden.</p>
+            )}
+            {visiblePhotos.map((photo) => {
               const isSelected = selectionMap.has(String(photo.id));
               return (
                 <button
