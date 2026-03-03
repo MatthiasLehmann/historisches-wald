@@ -23,8 +23,8 @@
       "pdf-00005"
     ],
     "review": {
-      "status": "pending",
-      "reviewer": "",
+      "status": "approved",
+      "reviewer": "Matthias",
       "reviewedAt": null,
       "comments": []
     }

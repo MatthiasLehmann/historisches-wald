@@ -10,6 +10,7 @@ import {
 import { readJsonArray, writeJsonArray } from '../utils/jsonStorage.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { saveBase64Pdf } from '../utils/pdfStorage.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -391,6 +392,45 @@ export const completeReview = async (req, res) => {
     res.json(updated.review);
   } catch (error) {
     handleError(res, error, 'Review konnte nicht abgeschlossen werden.');
+  }
+};
+
+export const importPdfFromFile = async (req, res) => {
+  try {
+    const filePayload = req.body?.file;
+    if (!filePayload?.data) {
+      return res.status(400).json({ message: 'Eine PDF-Datei ist erforderlich.' });
+    }
+    const storedFile = await saveBase64Pdf({
+      data: filePayload.data,
+      mimeType: filePayload.type,
+      originalName: filePayload.name || req.body?.title || 'upload.pdf'
+    });
+    const pdfs = await readPdfs();
+    const payload = buildPdfPayload({
+      title: req.body?.title || filePayload.name || 'Neues PDF',
+      year: req.body?.year,
+      description: req.body?.description,
+      location: req.body?.location,
+      source: req.body?.source,
+      author: req.body?.author,
+      license: req.body?.license,
+      tags: req.body?.tags,
+      file: {
+        type: 'local',
+        path: storedFile.publicPath,
+        originalUrl: null
+      }
+    });
+    const newPdf = normalizePdf({
+      ...payload,
+      id: generatePdfId(pdfs)
+    });
+    pdfs.unshift(newPdf);
+    await writePdfs(pdfs);
+    res.status(201).json(newPdf);
+  } catch (error) {
+    handleError(res, error, 'PDF konnte nicht hochgeladen werden.');
   }
 };
 

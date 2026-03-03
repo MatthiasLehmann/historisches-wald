@@ -152,6 +152,21 @@ const PhotoEditor = ({ value, onChange, statusOptions = [], disabled = false }) 
       </div>
 
       <div>
+        <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="photo-source">
+          Quelle / Archiv
+        </label>
+        <input
+          id="photo-source"
+          type="text"
+          value={value.source || ''}
+          onChange={handleFieldChange('source')}
+          className="w-full border border-parchment-dark rounded-md px-3 py-2"
+          placeholder="z. B. Pfarrarchiv Wald oder https://..."
+          disabled={disabled}
+        />
+      </div>
+
+      <div>
         <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="photo-description">
           Beschreibung
         </label>

@@ -8,6 +8,7 @@ const mapPhotoToForm = (photo) => ({
   name: photo?.name ?? '',
   description: photo?.description ?? '',
   date_taken: photo?.date_taken ?? '',
+  source: photo?.source ?? '',
   tags: photo?.tags ?? [],
   tagsInput: (photo?.tags ?? []).join(', '),
   review: {
@@ -74,6 +75,7 @@ const PhotoDetailPage = () => {
         name: formState.name,
         description: formState.description,
         date_taken: formState.date_taken,
+        source: formState.source,
         tags: formState.tags,
         review: {
           ...formState.review,

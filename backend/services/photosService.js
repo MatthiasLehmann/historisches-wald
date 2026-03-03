@@ -44,6 +44,16 @@ const sanitizeReviewComments = (value) => {
   return [];
 };
 
+const sanitizeSource = (value) => (typeof value === 'string' ? value.trim() : '');
+
+const resolveSource = (value, fallback = '') => {
+  const sanitized = sanitizeSource(value);
+  if (sanitized) {
+    return sanitized;
+  }
+  return sanitizeSource(fallback);
+};
+
 const ensureReview = (value = {}) => ({
   status: REVIEW_STATUSES.includes(value.status) ? value.status : 'pending',
   reviewer: typeof value.reviewer === 'string' ? value.reviewer.trim() : '',
@@ -52,12 +62,14 @@ const ensureReview = (value = {}) => ({
 });
 
 const normalizePhoto = (photo, fallbackId, overrides = {}) => {
+  const photopage = sanitizeSource(photo?.photopage);
   const normalized = {
     id: photo?.id ?? fallbackId,
     name: typeof photo?.name === 'string' ? photo.name : '',
     description: typeof photo?.description === 'string' ? photo.description : '',
     date_taken: typeof photo?.date_taken === 'string' ? photo.date_taken : '',
-    photopage: photo?.photopage ?? '',
+    photopage,
+    source: resolveSource(photo?.source, photopage),
     original: photo?.original ?? '',
     preview: typeof photo?.preview === 'string' && photo.preview ? photo.preview : (photo?.original ?? ''),
     license: photo?.license ?? 'All Rights Reserved',
@@ -154,6 +166,15 @@ const buildPhotoUpdate = (base = {}, input = {}) => {
     }
   }
 
+  if (Object.prototype.hasOwnProperty.call(input, 'source')) {
+    const source = sanitizeSource(input.source);
+    if (source) {
+      next.source = source;
+    } else {
+      delete next.source;
+    }
+  }
+
   if (Object.prototype.hasOwnProperty.call(input, 'review')) {
     next.review = buildReviewPayload(input.review, ensureReview(base.review));
   }
@@ -207,15 +228,16 @@ const buildPhotoCreatePayload = (input = {}, photoId) => {
   }
   const description = typeof input.description === 'string' ? input.description.trim() : '';
   const dateTaken = typeof input.date_taken === 'string' ? input.date_taken.trim() : '';
-  const photopage = typeof input.photopage === 'string' ? input.photopage.trim() : '';
+  const photopage = sanitizeSource(input.photopage);
   const original = typeof input.original === 'string' ? input.original.trim() : '';
   const preview = typeof input.preview === 'string' ? input.preview.trim() : '';
   const license = typeof input.license === 'string' ? input.license.trim() : 'All Rights Reserved';
   const privacy = typeof input.privacy === 'string' ? input.privacy.trim() : 'public';
   const albumIds = Array.isArray(input.albums) ? input.albums.map((id) => String(id)) : [];
+  const source = sanitizeSource(input.source);
 
   const nowIso = new Date().toISOString();
-  return {
+  const payload = {
     id: photoId,
     name,
     description,
@@ -233,6 +255,12 @@ const buildPhotoCreatePayload = (input = {}, photoId) => {
     createdAt: typeof input.createdAt === 'string' ? input.createdAt : nowIso,
     updatedAt: typeof input.updatedAt === 'string' ? input.updatedAt : nowIso
   };
+  if (source) {
+    payload.source = source;
+  } else if (photopage) {
+    payload.source = photopage;
+  }
+  return payload;
 };
 
 export const getPhotoById = async (photoId) => {

@@ -5,6 +5,7 @@ import {
   createPdf,
   deletePdf,
   getPdf,
+  importPdfFromFile,
   importPdfFromUrl,
   listLocalPdfFiles,
   listPdfs,
@@ -18,6 +19,7 @@ router.get('/', listPdfs);
 router.get('/files/local', listLocalPdfFiles);
 router.post('/', createPdf);
 router.post('/import-url', importPdfFromUrl);
+router.post('/import-file', importPdfFromFile);
 router.get('/:id', getPdf);
 router.put('/:id', updatePdf);
 router.delete('/:id', deletePdf);

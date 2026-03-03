@@ -106,6 +106,38 @@ export const deletePdfAsset = async (id) => {
 
 export const importRemotePdf = async (payload) => mutatePdf('/pdfs/import-url', 'POST', payload);
 
+export const importLocalPdfFile = async (payload) => {
+    const file = payload?.file;
+    if (!(file instanceof File)) {
+        throw new Error('Bitte wählen Sie eine PDF-Datei aus.');
+    }
+    if (file.type && file.type !== 'application/pdf' && file.type !== 'application/x-pdf') {
+        throw new Error('Nur PDF-Dateien können importiert werden.');
+    }
+    const base64 = await readFileAsBase64(file);
+    const body = {
+        title: payload?.title?.trim() || undefined,
+        year: payload?.year ? Number(payload.year) : undefined,
+        description: payload?.description?.trim() || undefined,
+        source: payload?.source?.trim() || undefined,
+        location: payload?.location?.trim() || undefined,
+        author: payload?.author?.trim() || undefined,
+        license: payload?.license?.trim() || undefined,
+        tags: payload?.tags,
+        file: {
+            name: file.name,
+            type: file.type || 'application/pdf',
+            data: base64
+        }
+    };
+    const response = await fetch(`${API_BASE}/pdfs/import-file`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+    });
+    return handleResponse(response);
+};
+
 export const addPdfReviewComment = async (id, payload) =>
     mutatePdf(`/pdfs/${id}/review/comment`, 'POST', payload);
 

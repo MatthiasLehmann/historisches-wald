@@ -1,9 +1,10 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { FileText, Plus, RefreshCcw, Trash2 } from 'lucide-react';
 import PdfEditorModal from '../components/PdfEditorModal.jsx';
 import {
   deletePdfAsset,
   fetchPdfs,
+  importLocalPdfFile,
   importRemotePdf
 } from '../services/api.js';
 
@@ -35,6 +36,7 @@ const MediaPDFs = () => {
     source: ''
   });
   const [importing, setImporting] = useState(false);
+  const fileInputRef = useRef(null);
 
   const previewUrl = useMemo(() => {
     return (pdf) => {
@@ -91,9 +93,38 @@ const MediaPDFs = () => {
         source: importData.source.trim() || undefined
       });
       setImportData({ url: '', title: '', year: '', description: '', source: '' });
-      loadPdfs();
+      await loadPdfs();
     } catch (importError) {
       setError(importError.message);
+    } finally {
+      setImporting(false);
+    }
+  };
+
+  const handleLocalFileButton = () => {
+    fileInputRef.current?.click();
+  };
+
+  const handleLocalFileChange = async (event) => {
+    const file = event.target.files?.[0];
+    event.target.value = '';
+    if (!file) {
+      return;
+    }
+    setImporting(true);
+    setError(null);
+    try {
+      await importLocalPdfFile({
+        file,
+        title: importData.title,
+        year: importData.year,
+        description: importData.description,
+        source: importData.source
+      });
+      setImportData({ url: '', title: '', year: '', description: '', source: '' });
+      await loadPdfs();
+    } catch (uploadError) {
+      setError(uploadError.message);
     } finally {
       setImporting(false);
     }
@@ -201,13 +232,30 @@ const MediaPDFs = () => {
               className="flex-1 min-w-[200px] border border-parchment-dark rounded-sm px-3 py-2"
               placeholder="Kurzbeschreibung"
             />
-            <button
-              type="submit"
-              className="px-4 py-2 bg-parchment-dark text-sm font-semibold rounded-sm disabled:opacity-60"
-              disabled={importing}
-            >
-              Importieren
-            </button>
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="submit"
+                className="px-4 py-2 bg-parchment-dark text-sm font-semibold rounded-sm disabled:opacity-60"
+                disabled={importing}
+              >
+                URL importieren
+              </button>
+              <button
+                type="button"
+                onClick={handleLocalFileButton}
+                className="px-4 py-2 border border-parchment-dark text-sm font-semibold rounded-sm disabled:opacity-60"
+                disabled={importing}
+              >
+                Datei auswählen
+              </button>
+            </div>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="application/pdf"
+              className="hidden"
+              onChange={handleLocalFileChange}
+            />
           </form>
           <button
             type="button"

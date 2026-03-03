@@ -139,7 +139,7 @@ const mapAlbumPhotoToReference = (photo) => {
     type: 'album',
     date: photo.date_taken || '',
     author: photo.ownername || '',
-    source: photo.photopage || '',
+    source: photo.source || photo.photopage || '',
     license: photo.license || ''
   };
 };

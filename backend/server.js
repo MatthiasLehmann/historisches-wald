@@ -18,7 +18,7 @@ const PUBLIC_FILES_DIR = path.join(__dirname, 'public', 'files');
 loadEnv();
 
 app.use(cors());
-app.use(express.json({ limit: '25mb' }));
+app.use(express.json({ limit: '75mb' }));
 app.use('/files', express.static(PUBLIC_FILES_DIR));
 
 app.use('/api/documents', documentsRouter);
