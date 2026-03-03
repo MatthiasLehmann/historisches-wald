@@ -84,6 +84,7 @@ export const createAlbumPhoto = async (req, res, next) => {
       description: trimString(req.body?.description),
       date_taken: trimString(req.body?.date_taken),
       original: storedFile.publicPath,
+      preview: storedFile.thumbnailPublicPath,
       albums: [albumId],
       tags: req.body?.tags,
       review: {}
@@ -91,7 +92,7 @@ export const createAlbumPhoto = async (req, res, next) => {
 
     const updatedAlbum = await addPhotoToAlbum(albumId, photo.id, {
       setCover: parseBoolean(req.body?.set_as_cover),
-      coverPhoto: storedFile.publicPath
+      coverPhoto: storedFile.thumbnailPublicPath || storedFile.publicPath
     });
 
     res.status(201).json({ album: updatedAlbum, photo });

@@ -152,8 +152,13 @@ useEffect(() => {
                   }`}
                 >
                   <div className="aspect-video overflow-hidden rounded-sm bg-parchment-dark">
-                    {photo.original ? (
-                      <img src={photo.original} alt={photo.name} className="w-full h-full object-cover" />
+                    {photo.preview || photo.original ? (
+                      <img
+                        src={photo.preview || photo.original}
+                        alt={photo.name}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
                     ) : (
                       <div className="flex items-center justify-center h-full text-xs text-ink/60">
                         Keine Vorschau

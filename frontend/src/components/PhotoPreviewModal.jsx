@@ -19,7 +19,8 @@ const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
     return null;
   }
 
-  const imageUrl = photo.original || '';
+  const previewUrl = photo.preview || photo.original || '';
+  const imageUrl = previewUrl;
   const dateTaken = photo.date_taken || 'unbekannt';
   const [zoom, setZoom] = useState(1);
 
@@ -138,6 +139,16 @@ const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
                   className="px-3 py-2 border border-parchment-dark rounded-md text-sm text-accent"
                 >
                   Auf Flickr öffnen
+                </a>
+              )}
+              {photo.original && (photo.preview ? photo.preview !== photo.original : true) && (
+                <a
+                  href={photo.original}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-3 py-2 border border-parchment-dark rounded-md text-sm text-ink/80"
+                >
+                  Original anzeigen
                 </a>
               )}
               <Link

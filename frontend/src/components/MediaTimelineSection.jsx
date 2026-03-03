@@ -364,11 +364,12 @@ const PhotoDetails = ({ photo, onNavigate, albumMap }) => {
         </div>
       </div>
       <div className="bg-parchment/40 border border-parchment-dark rounded-md p-4 flex items-center justify-center">
-        {photo.original ? (
+        {photo.preview || photo.original ? (
           <img
-            src={photo.original}
+            src={photo.preview || photo.original}
             alt={photo.name || `Foto ${photo.id}`}
             className="w-full h-64 object-contain rounded-sm border border-parchment-dark bg-parchment"
+            loading="lazy"
           />
         ) : (
           <p className="text-sm text-ink/60 text-center">Keine Vorschau verfügbar.</p>

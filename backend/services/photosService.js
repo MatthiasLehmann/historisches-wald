@@ -59,6 +59,7 @@ const normalizePhoto = (photo, fallbackId, overrides = {}) => {
     date_taken: typeof photo?.date_taken === 'string' ? photo.date_taken : '',
     photopage: photo?.photopage ?? '',
     original: photo?.original ?? '',
+    preview: typeof photo?.preview === 'string' && photo.preview ? photo.preview : (photo?.original ?? ''),
     license: photo?.license ?? 'All Rights Reserved',
     privacy: photo?.privacy ?? 'public',
     tags: normalizeTags(photo?.tags),
@@ -79,6 +80,7 @@ const buildMissingPhoto = (photoId) =>
       id: photoId,
       name: 'Unbekanntes Foto',
       description: '',
+      preview: '',
       comments: [],
       review: ensureReview({ status: 'needs-info' })
     },
@@ -137,6 +139,21 @@ const buildPhotoUpdate = (base = {}, input = {}) => {
     next.tags = sanitizeTagsInput(input.tags);
   }
 
+  if (Object.prototype.hasOwnProperty.call(input, 'preview')) {
+    const preview = typeof input.preview === 'string' ? input.preview.trim() : '';
+    next.preview = preview || next.preview || next.original || '';
+  }
+
+  if (Object.prototype.hasOwnProperty.call(input, 'original')) {
+    const original = typeof input.original === 'string' ? input.original.trim() : '';
+    if (original) {
+      next.original = original;
+      if (!next.preview) {
+        next.preview = original;
+      }
+    }
+  }
+
   if (Object.prototype.hasOwnProperty.call(input, 'review')) {
     next.review = buildReviewPayload(input.review, ensureReview(base.review));
   }
@@ -192,6 +209,7 @@ const buildPhotoCreatePayload = (input = {}, photoId) => {
   const dateTaken = typeof input.date_taken === 'string' ? input.date_taken.trim() : '';
   const photopage = typeof input.photopage === 'string' ? input.photopage.trim() : '';
   const original = typeof input.original === 'string' ? input.original.trim() : '';
+  const preview = typeof input.preview === 'string' ? input.preview.trim() : '';
   const license = typeof input.license === 'string' ? input.license.trim() : 'All Rights Reserved';
   const privacy = typeof input.privacy === 'string' ? input.privacy.trim() : 'public';
   const albumIds = Array.isArray(input.albums) ? input.albums.map((id) => String(id)) : [];
@@ -204,6 +222,7 @@ const buildPhotoCreatePayload = (input = {}, photoId) => {
     date_taken: dateTaken,
     photopage,
     original,
+    preview: preview || original,
     license,
     privacy,
     tags: sanitizeTagsInput(input.tags),

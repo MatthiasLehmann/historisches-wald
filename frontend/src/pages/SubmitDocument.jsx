@@ -388,8 +388,13 @@ const SubmitDocument = () => {
               {selectedAlbumPhotos.map((photo) => (
                 <div key={photo.id} className="border border-parchment-dark rounded-sm overflow-hidden bg-white">
                   <div className="aspect-video bg-parchment-dark">
-                    {photo.original ? (
-                      <img src={photo.original} alt={photo.name || `Foto ${photo.id}`} className="w-full h-full object-cover" />
+                    {photo.preview || photo.original ? (
+                      <img
+                        src={photo.preview || photo.original}
+                        alt={photo.name || `Foto ${photo.id}`}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
                     ) : (
                       <div className="flex items-center justify-center h-full text-xs text-ink/50">Keine Vorschau</div>
                     )}

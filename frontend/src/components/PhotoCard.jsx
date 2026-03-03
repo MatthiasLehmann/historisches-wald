@@ -9,7 +9,7 @@ const PhotoCard = memo(({ photo, onSelect }) => {
     }
   };
 
-  const thumbnailUrl = photo?.original || '';
+  const thumbnailUrl = photo?.preview || photo?.original || '';
 
   return (
     <button
