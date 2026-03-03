@@ -1,61 +1,52 @@
 {
-	"id": "54632087786",
-	"name": "Gemeindehaus Ruhestten 1973 I",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-04 01:32:28",
-	"count_tags": "3",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-04 01:32:28",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54632087786/",
-	"original": "/images/gemeindehaus-ruhestten-1973-i_54632087786_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Ruhestetten",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 01:32:36"
-		},
-		{
-			"tag": "gemeindehaus",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 01:32:36"
-		},
-		{
-			"tag": "1973",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 01:32:36"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444921183",
-			"date": "2025-07-04 01:33:08",
-			"user": "199943033@N03",
-			"comment": "Foto von 1973 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54632087786//#comment72157720444921183"
-		}
-	]
+  "id": "54632087786",
+  "name": "Gemeindehaus Ruhestten 1973 I",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-04 01:32:28",
+  "count_tags": "3",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-04 01:32:28",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54632087786/",
+  "original": "/files/images/gemeindehaus-ruhestten-1973-i_54632087786_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Ruhestetten",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 01:32:36"
+    },
+    {
+      "tag": "gemeindehaus",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 01:32:36"
+    },
+    {
+      "tag": "1973",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 01:32:36"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444921183",
+      "date": "2025-07-04 01:33:08",
+      "user": "199943033@N03",
+      "comment": "Foto von 1973 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54632087786//#comment72157720444921183"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54632087786-thumb.jpg"
 }

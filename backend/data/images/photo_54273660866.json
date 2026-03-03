@@ -1,69 +1,62 @@
 {
-	"id": "54273660866",
-	"name": "Gr\u00fcner Baum",
-	"description": "Wald VIII Vorderseite\nca. 1910?",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "3",
-	"date_taken": "2025-01-18 12:47:41",
-	"count_tags": "1",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-01-18 12:47:41",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54273660866/",
-	"original": "/images/grner-baum_54273660866_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-		{
-			"id": "72177720314562250",
-			"title": "01_Postkarten Wald",
-			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
-		}
-	],
-	"tags": [
-		{
-			"tag": "Postk.Website",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-01-18 12:47:51"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720409716229",
-			"date": "2025-01-18 12:49:38",
-			"user": "199943033@N03",
-			"comment": "Postkarte von Clemens Veeser\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54273660866//#comment72157720409716229"
-		},
-		{
-			"id": "72157720443591735",
-			"date": "2025-06-27 03:41:02",
-			"user": "199943033@N03",
-			"comment": "Sankertsweiler Str. 1 (fr\u00fcher Hauptstra\u00dfe 32a)\nWirtschaft zum gr\u00fcnen Baum. \nFr\u00fcher: Familie Bernhard Schneider, aus Hechingen kommend. \nSp\u00e4tere Besitzer:\nJosefine K\u00f6hler, Karl Staiger und jetzt Restaurant/Pizzeria ISAK El Roj.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54273660866//#comment72157720443591735"
-		},
-		{
-			"id": "72157720443508009",
-			"date": "2025-06-27 03:46:16",
-			"user": "199943033@N03",
-			"comment": "Handschriftlicher Text auf der Postkarte:\n'Wir sind Gott sei Dank alle gesund'.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54273660866//#comment72157720443508009"
-		}
-	]
+  "id": "54273660866",
+  "name": "Grüner Baum",
+  "description": "Wald VIII Vorderseite\nca. 1910?",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "3",
+  "date_taken": "2025-01-18 12:47:41",
+  "count_tags": "1",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-01-18 12:47:41",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54273660866/",
+  "original": "/files/images/grner-baum_54273660866_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [
+    {
+      "id": "72177720314562250",
+      "title": "01_Postkarten Wald",
+      "url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+    }
+  ],
+  "tags": [
+    {
+      "tag": "Postk.Website",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-01-18 12:47:51"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720409716229",
+      "date": "2025-01-18 12:49:38",
+      "user": "199943033@N03",
+      "comment": "Postkarte von Clemens Veeser\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54273660866//#comment72157720409716229"
+    },
+    {
+      "id": "72157720443591735",
+      "date": "2025-06-27 03:41:02",
+      "user": "199943033@N03",
+      "comment": "Sankertsweiler Str. 1 (früher Hauptstraße 32a)\nWirtschaft zum grünen Baum. \nFrüher: Familie Bernhard Schneider, aus Hechingen kommend. \nSpätere Besitzer:\nJosefine Köhler, Karl Staiger und jetzt Restaurant/Pizzeria ISAK El Roj.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54273660866//#comment72157720443591735"
+    },
+    {
+      "id": "72157720443508009",
+      "date": "2025-06-27 03:46:16",
+      "user": "199943033@N03",
+      "comment": "Handschriftlicher Text auf der Postkarte:\n'Wir sind Gott sei Dank alle gesund'.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54273660866//#comment72157720443508009"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54273660866-thumb.jpg"
 }

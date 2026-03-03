@@ -1,47 +1,36 @@
 {
-	"id": "53507774762",
-	"name": "Haus Baiker",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1953-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-02-04 10:29:11",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/53507774762/",
-	"original": "/images/haus-baiker_53507774762_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "friend & family",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720409894834",
-			"date": "2025-01-19 09:10:37",
-			"user": "199943033@N03",
-			"comment": "Ganz oben: Ehem. Herrenweiher. Vor dem Auff\u00fcllen ca. 1970? als Wiesen genutzt. Seit ca. 1980? Sportgel\u00e4nde und Festplatz.\nMitte links Fam. Veeser ehem. K\u00fcferei? Der rechte Geb\u00e4udeteil war sp\u00e4ter Mosterei mit hydraulischer Presse, ca. 1980-2000 f\u00fcr Hauptsitz der Raiffeisenbank Wald-Hohenfels vermietet.\nHinten Mitte: Gemeindehaus mit Feuerwehrgaragen, Schlauchturm, B\u00fcrgermeisteramt, Polizeistelle, Ortsarrest, Sozialwohnungen und \u00f6ffentlichem Baderaum. Es wurde direkt nach Kriegsende gebaut und ca. 2000? f\u00fcr den Neubau der Raiffeisenbank abgebrochen.\nMitte rechts: B\u00e4ckerei B\u00f6ll sp\u00e4ter Deeg mit EDEKA-Filiale und Kaffee im hinteren wei\u00dfen Anbau.\nZwischen Deeg und kl. Kapelle: Fam Stau\u00df Friseurgesch\u00e4ft.\nUnten Mitte: Scheune mit St\u00e4llen ca. 1960? abgebrochen.\nUnten rechts: Gasthof Gr\u00fcner Baum.\n(Martin Kuhn)",
-			"url": "https://www.flickr.com/photos/199943033@N03/53507774762//#comment72157720409894834"
-		}
-	]
+  "id": "53507774762",
+  "name": "Haus Baiker",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1953-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-02-04 10:29:11",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/53507774762/",
+  "original": "/files/images/haus-baiker_53507774762_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "friend & family",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720409894834",
+      "date": "2025-01-19 09:10:37",
+      "user": "199943033@N03",
+      "comment": "Ganz oben: Ehem. Herrenweiher. Vor dem Auffüllen ca. 1970? als Wiesen genutzt. Seit ca. 1980? Sportgelände und Festplatz.\nMitte links Fam. Veeser ehem. Küferei? Der rechte Gebäudeteil war später Mosterei mit hydraulischer Presse, ca. 1980-2000 für Hauptsitz der Raiffeisenbank Wald-Hohenfels vermietet.\nHinten Mitte: Gemeindehaus mit Feuerwehrgaragen, Schlauchturm, Bürgermeisteramt, Polizeistelle, Ortsarrest, Sozialwohnungen und öffentlichem Baderaum. Es wurde direkt nach Kriegsende gebaut und ca. 2000? für den Neubau der Raiffeisenbank abgebrochen.\nMitte rechts: Bäckerei Böll später Deeg mit EDEKA-Filiale und Kaffee im hinteren weißen Anbau.\nZwischen Deeg und kl. Kapelle: Fam Stauß Friseurgeschäft.\nUnten Mitte: Scheune mit Ställen ca. 1960? abgebrochen.\nUnten rechts: Gasthof Grüner Baum.\n(Martin Kuhn)",
+      "url": "https://www.flickr.com/photos/199943033@N03/53507774762//#comment72157720409894834"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-53507774762-thumb.jpg"
 }

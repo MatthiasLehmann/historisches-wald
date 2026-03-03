@@ -1,47 +1,36 @@
 {
-	"id": "54753673271",
-	"name": "Beschreibung Lageplan Wald von 1908",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-08-30 00:42:59",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 270,
-	"date_imported": "2025-08-30 00:42:59",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54753673271/",
-	"original": "/images/beschreibung-lageplan-wald-von-1908_54753673271_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720456190463",
-			"date": "2025-08-30 00:45:44",
-			"user": "199943033@N03",
-			"comment": "Dokument von 1908 von Franz Sales Fr\u00f6hlich \nArchiv Gemeinde  Wald \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54753673271//#comment72157720456190463"
-		}
-	]
+  "id": "54753673271",
+  "name": "Beschreibung Lageplan Wald von 1908",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-08-30 00:42:59",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 270,
+  "date_imported": "2025-08-30 00:42:59",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54753673271/",
+  "original": "/files/images/beschreibung-lageplan-wald-von-1908_54753673271_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720456190463",
+      "date": "2025-08-30 00:45:44",
+      "user": "199943033@N03",
+      "comment": "Dokument von 1908 von Franz Sales Fröhlich \nArchiv Gemeinde  Wald \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54753673271//#comment72157720456190463"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54753673271-thumb.jpg"
 }

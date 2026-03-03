@@ -4,7 +4,7 @@
   "description": "Logo für historisches Wald",
   "date_taken": "2026-03-01",
   "photopage": "",
-  "original": "/images/logo-historisches-wald.png",
+  "original": "/files/images/logo-historisches-wald.png",
   "license": "All Rights Reserved",
   "privacy": "public",
   "tags": [],
@@ -20,5 +20,6 @@
   },
   "missing": false,
   "createdAt": "2026-03-01T21:10:41.555Z",
-  "updatedAt": "2026-03-01T21:13:40.287Z"
+  "updatedAt": "2026-03-01T21:13:40.287Z",
+  "preview": "/files/images/thumbnails/photo-local-mm88v5ozefplqi-thumb.jpg"
 }

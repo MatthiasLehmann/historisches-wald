@@ -1,66 +1,57 @@
 {
-	"id": "54630851026",
-	"name": "09_Walbertsweiler II",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 10:09:10",
-	"count_tags": "4",
-	"count_notes": "0",
-	"rotation": 90,
-	"date_imported": "2025-07-03 10:09:10",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54630851026/",
-	"original": "/images/09_walbertsweiler-ii_54630851026_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Postkarte",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:27"
-		},
-		{
-			"tag": "ClemensVeeser",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:27"
-		},
-		{
-			"tag": "Walbertsweiler",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:27"
-		},
-		{
-			"tag": "1927",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:27"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444829008",
-			"date": "2025-07-03 11:26:13",
-			"user": "199943033@N03",
-			"comment": "Postkarte von 1927 von Clemens Veeser \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54630851026//#comment72157720444829008"
-		}
-	]
+  "id": "54630851026",
+  "name": "09_Walbertsweiler II",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 10:09:10",
+  "count_tags": "4",
+  "count_notes": "0",
+  "rotation": 90,
+  "date_imported": "2025-07-03 10:09:10",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54630851026/",
+  "original": "/files/images/09_walbertsweiler-ii_54630851026_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Postkarte",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:27"
+    },
+    {
+      "tag": "ClemensVeeser",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:27"
+    },
+    {
+      "tag": "Walbertsweiler",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:27"
+    },
+    {
+      "tag": "1927",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:27"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444829008",
+      "date": "2025-07-03 11:26:13",
+      "user": "199943033@N03",
+      "comment": "Postkarte von 1927 von Clemens Veeser \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54630851026//#comment72157720444829008"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54630851026-thumb.jpg"
 }

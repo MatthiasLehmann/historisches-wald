@@ -189,7 +189,7 @@ const ensureDataFile = async () => {
   }
 };
 
-const readDocuments = async () => {
+export const readDocuments = async () => {
   await ensureDataFile();
   const data = await fs.readFile(DATA_FILE, 'utf8');
   const parsed = data ? JSON.parse(data) : [];

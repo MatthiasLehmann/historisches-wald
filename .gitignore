@@ -24,7 +24,8 @@ dist-ssr
 *.sw?
 */public/images/*
 */public/files/*
-!/backend/public/files/
+*/backend/public/files/
 !/backend/public/files/.gitkeep
-!/backend/public/files/images/
+*/backend/public/files/images/
+*/backend/public/files/pdf/
 !/backend/public/files/images/.gitkeep

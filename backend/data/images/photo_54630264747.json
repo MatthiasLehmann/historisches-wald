@@ -1,61 +1,52 @@
 {
-	"id": "54630264747",
-	"name": "H\u00f6henstra\u00dfe 8",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 12:39:31",
-	"count_tags": "3",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-03 12:39:31",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54630264747/",
-	"original": "/images/hhenstrae-8_54630264747_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Luftbild",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:39:59"
-		},
-		{
-			"tag": "rothenlachen",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:39:59"
-		},
-		{
-			"tag": "1953",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:39:59"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444924456",
-			"date": "2025-07-03 13:12:05",
-			"user": "199943033@N03",
-			"comment": "Foto von 1953 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54630264747//#comment72157720444924456"
-		}
-	]
+  "id": "54630264747",
+  "name": "Höhenstraße 8",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 12:39:31",
+  "count_tags": "3",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-03 12:39:31",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54630264747/",
+  "original": "/files/images/hhenstrae-8_54630264747_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Luftbild",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:39:59"
+    },
+    {
+      "tag": "rothenlachen",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:39:59"
+    },
+    {
+      "tag": "1953",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:39:59"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444924456",
+      "date": "2025-07-03 13:12:05",
+      "user": "199943033@N03",
+      "comment": "Foto von 1953 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54630264747//#comment72157720444924456"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54630264747-thumb.jpg"
 }

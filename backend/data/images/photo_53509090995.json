@@ -1,47 +1,36 @@
 {
-	"id": "53509090995",
-	"name": "Gasthaus L\u00f6wen",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1953-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-02-04 10:29:16",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/53509090995/",
-	"original": "/images/gasthaus-lwen_53509090995_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "friend & family",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720411077300",
-			"date": "2025-01-24 10:26:47",
-			"user": "199943033@N03",
-			"comment": "Links das Schulhaus, sp\u00e4ter Rathaus.\nDahinter das ehemalige Gasthaus 'Zum L\u00f6wen', Betreiber Anton und Josephine Restle, mit Metzgerei. Sp\u00e4ter \u00fcbernahm Paula Restle, verheiratet mit dem Lehrer Reuter das Gesch\u00e4ft. Das ganze Geb\u00e4ude wurde Opfer der Stra\u00dfenf\u00fchrung. Jetzt stehen dort das Pfarrhaus und das Pfarrheim.\nRechts hinten ein St\u00fcck von der Kirche, davor das Elektrogesch\u00e4ft und Wohnhaus von Adolf Vogel.\nEK",
-			"url": "https://www.flickr.com/photos/199943033@N03/53509090995//#comment72157720411077300"
-		}
-	]
+  "id": "53509090995",
+  "name": "Gasthaus Löwen",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1953-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-02-04 10:29:16",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/53509090995/",
+  "original": "/files/images/gasthaus-lwen_53509090995_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "friend & family",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720411077300",
+      "date": "2025-01-24 10:26:47",
+      "user": "199943033@N03",
+      "comment": "Links das Schulhaus, später Rathaus.\nDahinter das ehemalige Gasthaus 'Zum Löwen', Betreiber Anton und Josephine Restle, mit Metzgerei. Später übernahm Paula Restle, verheiratet mit dem Lehrer Reuter das Geschäft. Das ganze Gebäude wurde Opfer der Straßenführung. Jetzt stehen dort das Pfarrhaus und das Pfarrheim.\nRechts hinten ein Stück von der Kirche, davor das Elektrogeschäft und Wohnhaus von Adolf Vogel.\nEK",
+      "url": "https://www.flickr.com/photos/199943033@N03/53509090995//#comment72157720411077300"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-53509090995-thumb.jpg"
 }

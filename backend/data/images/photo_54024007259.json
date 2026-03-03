@@ -1,41 +1,28 @@
 {
-	"id": "54024007259",
-	"name": "Seite 9_Beschriftung",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 180,
-	"date_imported": "2024-09-26 12:20:18",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54024007259/",
-	"original": "/images/seite-9_beschriftung_54024007259_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54024007259",
+  "name": "Seite 9_Beschriftung",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 180,
+  "date_imported": "2024-09-26 12:20:18",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54024007259/",
+  "original": "/files/images/seite-9_beschriftung_54024007259_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54024007259-thumb.jpg"
 }

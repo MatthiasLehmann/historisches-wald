@@ -1,45 +1,34 @@
 {
-	"id": "53656347173",
-	"name": "Bild 20",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2024-04-15 10:37:35",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-04-15 10:37:35",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/53656347173/",
-	"original": "/images/bild-20_53656347173_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-		{
-			"id": "72177720314562250",
-			"title": "01_Postkarten Wald",
-			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
-		}
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "53656347173",
+  "name": "Bild 20",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2024-04-15 10:37:35",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-04-15 10:37:35",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/53656347173/",
+  "original": "/files/images/bild-20_53656347173_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [
+    {
+      "id": "72177720314562250",
+      "title": "01_Postkarten Wald",
+      "url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+    }
+  ],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-53656347173-thumb.jpg"
 }

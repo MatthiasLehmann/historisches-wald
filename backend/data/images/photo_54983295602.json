@@ -1,41 +1,28 @@
 {
-	"id": "54983295602",
-	"name": "Bild 1 Einnehmerei",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-12-14 13:04:25",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-12-14 13:04:25",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54983295602/",
-	"original": "/images/bild-1-einnehmerei_54983295602_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54983295602",
+  "name": "Bild 1 Einnehmerei",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-12-14 13:04:25",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-12-14 13:04:25",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54983295602/",
+  "original": "/files/images/bild-1-einnehmerei_54983295602_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54983295602-thumb.jpg"
 }

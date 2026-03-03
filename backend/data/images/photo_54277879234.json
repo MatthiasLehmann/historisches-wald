@@ -1,45 +1,34 @@
 {
-	"id": "54277879234",
-	"name": "50_Wald II",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-01-20 10:33:59",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-01-20 10:33:59",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54277879234/",
-	"original": "/images/50_wald-ii_54277879234_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-		{
-			"id": "72177720314562250",
-			"title": "01_Postkarten Wald",
-			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
-		}
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54277879234",
+  "name": "50_Wald II",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-01-20 10:33:59",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-01-20 10:33:59",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54277879234/",
+  "original": "/files/images/50_wald-ii_54277879234_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [
+    {
+      "id": "72177720314562250",
+      "title": "01_Postkarten Wald",
+      "url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+    }
+  ],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54277879234-thumb.jpg"
 }

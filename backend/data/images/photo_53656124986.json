@@ -1,55 +1,48 @@
 {
-	"id": "53656124986",
-	"name": "4 Ansichten von Wald",
-	"description": "Bild 33\nca. 1960?",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2024-04-15 10:37:36",
-	"count_tags": "1",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-04-15 10:37:36",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/53656124986/",
-	"original": "/images/4-ansichten-von-wald_53656124986_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-		{
-			"id": "72177720314562250",
-			"title": "01_Postkarten Wald",
-			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
-		}
-	],
-	"tags": [
-		{
-			"tag": "Postk.Website",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2024-04-15 10:38:50"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720443596217",
-			"date": "2025-06-27 03:31:24",
-			"user": "199943033@N03",
-			"comment": "Links oben:\nNord-Ostansicht vom Kloster,\nrechts davon Gasthaus \u201eL\u00f6wen\u201c,\ndavor der Klosterweiher.\n\nRechts oben: Gasthaus \u201eSchwanen\u201c\nFl\u00fcgel des Klosters mit seitlicher Au\u00dfentreppe,\nLinden-Allee entlang der Stra\u00dfe,\ndahinter Haus Kuhn.\n\nLinks unten:\nHohenzollernstra\u00dfe,\nlinks die \u201eKapelle\u201c, dahinter\nFriseurgesch\u00e4ft Stau\u00df,\nrechts Gemischtwarenhandlung Koch, fr\u00fcher Pfeffer.\n\nUnten rechts:\nPfarrkirche Wald mit Kriegerdenkmal,\ndaran angebaut das Klostergeb\u00e4ude,\ndavor der Brunnen mit Lindenb\u00e4umen,\nrechts die Klosterpforte.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/53656124986//#comment72157720443596217"
-		}
-	]
+  "id": "53656124986",
+  "name": "4 Ansichten von Wald",
+  "description": "Bild 33\nca. 1960?",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2024-04-15 10:37:36",
+  "count_tags": "1",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-04-15 10:37:36",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/53656124986/",
+  "original": "/files/images/4-ansichten-von-wald_53656124986_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [
+    {
+      "id": "72177720314562250",
+      "title": "01_Postkarten Wald",
+      "url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+    }
+  ],
+  "tags": [
+    {
+      "tag": "Postk.Website",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2024-04-15 10:38:50"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720443596217",
+      "date": "2025-06-27 03:31:24",
+      "user": "199943033@N03",
+      "comment": "Links oben:\nNord-Ostansicht vom Kloster,\nrechts davon Gasthaus „Löwen“,\ndavor der Klosterweiher.\n\nRechts oben: Gasthaus „Schwanen“\nFlügel des Klosters mit seitlicher Außentreppe,\nLinden-Allee entlang der Straße,\ndahinter Haus Kuhn.\n\nLinks unten:\nHohenzollernstraße,\nlinks die „Kapelle“, dahinter\nFriseurgeschäft Stauß,\nrechts Gemischtwarenhandlung Koch, früher Pfeffer.\n\nUnten rechts:\nPfarrkirche Wald mit Kriegerdenkmal,\ndaran angebaut das Klostergebäude,\ndavor der Brunnen mit Lindenbäumen,\nrechts die Klosterpforte.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/53656124986//#comment72157720443596217"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-53656124986-thumb.jpg"
 }

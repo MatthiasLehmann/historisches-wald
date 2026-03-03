@@ -1,47 +1,36 @@
 {
-	"id": "54191870928",
-	"name": "Hohenzollernstra\u00dfe 27   Wald 1979   (fr\u00fcher Hauptstra\u00dfe 105)",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 13:42:36",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191870928/",
-	"original": "/images/hohenzollernstrae-27---wald-1979---frher-hauptstrae-105_54191870928_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410496834",
-			"date": "2025-01-22 02:13:13",
-			"user": "199943033@N03",
-			"comment": "Metzgerei Gabele, fr\u00fcher Josef Karle.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191870928//#comment72157720410496834"
-		}
-	]
+  "id": "54191870928",
+  "name": "Hohenzollernstraße 27   Wald 1979   (früher Hauptstraße 105)",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 13:42:36",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191870928/",
+  "original": "/files/images/hohenzollernstrae-27---wald-1979---frher-hauptstrae-105_54191870928_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410496834",
+      "date": "2025-01-22 02:13:13",
+      "user": "199943033@N03",
+      "comment": "Metzgerei Gabele, früher Josef Karle.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191870928//#comment72157720410496834"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191870928-thumb.jpg"
 }

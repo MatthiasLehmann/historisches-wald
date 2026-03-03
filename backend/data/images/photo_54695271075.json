@@ -1,47 +1,36 @@
 {
-	"id": "54695271075",
-	"name": "Schlie\u00dfung Lebensmittelladen Diener 2025",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-08-02 08:02:14",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-08-02 08:02:14",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54695271075/",
-	"original": "/images/schlieung-lebensmittelladen-diener-2025_54695271075_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720450791702",
-			"date": "2025-08-02 08:06:42",
-			"user": "199943033@N03",
-			"comment": "Passt zum Foto zur Er\u00f6ffnung 1986?\nMartin Kuhn",
-			"url": "https://www.flickr.com/photos/199943033@N03/54695271075//#comment72157720450791702"
-		}
-	]
+  "id": "54695271075",
+  "name": "Schließung Lebensmittelladen Diener 2025",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-08-02 08:02:14",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-08-02 08:02:14",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54695271075/",
+  "original": "/files/images/schlieung-lebensmittelladen-diener-2025_54695271075_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720450791702",
+      "date": "2025-08-02 08:06:42",
+      "user": "199943033@N03",
+      "comment": "Passt zum Foto zur Eröffnung 1986?\nMartin Kuhn",
+      "url": "https://www.flickr.com/photos/199943033@N03/54695271075//#comment72157720450791702"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54695271075-thumb.jpg"
 }

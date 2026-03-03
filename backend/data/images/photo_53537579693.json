@@ -11,7 +11,7 @@
   "rotation": 0,
   "date_imported": "2024-02-18 12:14:37",
   "photopage": "https://www.flickr.com/photos/199943033@N03/53537579693/",
-  "original": "/images/img103_53537579693_o.jpg",
+  "original": "/files/images/img103_53537579693_o.jpg",
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
@@ -30,5 +30,6 @@
     "reviewedAt": null,
     "comments": []
   },
-  "updatedAt": "2026-03-01T09:59:52.408Z"
+  "updatedAt": "2026-03-01T09:59:52.408Z",
+  "preview": "/files/images/thumbnails/photo-53537579693-thumb.jpg"
 }

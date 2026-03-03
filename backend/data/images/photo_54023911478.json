@@ -1,49 +1,40 @@
 {
-	"id": "54023911478",
-	"name": "Luftbild 1921",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1921-01-01 00:00:00",
-	"count_tags": "1",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-09-26 12:22:04",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54023911478/",
-	"original": "/images/luftbild-1921_54023911478_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-		{
-			"id": "14902113@N21",
-			"name": "Historisches Wald",
-			"url": "https://www.flickr.com/groups/14902113@N21/"
-		}
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Wald",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2024-09-26 12:22:21"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54023911478",
+  "name": "Luftbild 1921",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1921-01-01 00:00:00",
+  "count_tags": "1",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-09-26 12:22:04",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54023911478/",
+  "original": "/files/images/luftbild-1921_54023911478_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [
+    {
+      "id": "14902113@N21",
+      "name": "Historisches Wald",
+      "url": "https://www.flickr.com/groups/14902113@N21/"
+    }
+  ],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Wald",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2024-09-26 12:22:21"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54023911478-thumb.jpg"
 }

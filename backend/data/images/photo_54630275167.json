@@ -1,61 +1,52 @@
 {
-	"id": "54630275167",
-	"name": "Bahnhofstra\u00dfe",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 12:44:29",
-	"count_tags": "3",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-03 12:44:29",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54630275167/",
-	"original": "/images/bahnhofstrae_54630275167_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Luftbild",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:45:00"
-		},
-		{
-			"tag": "Sentenhart",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:45:00"
-		},
-		{
-			"tag": "1953",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:45:00"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444846323",
-			"date": "2025-07-03 13:27:49",
-			"user": "199943033@N03",
-			"comment": "Foto von 1953 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54630275167//#comment72157720444846323"
-		}
-	]
+  "id": "54630275167",
+  "name": "Bahnhofstraße",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 12:44:29",
+  "count_tags": "3",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-03 12:44:29",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54630275167/",
+  "original": "/files/images/bahnhofstrae_54630275167_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Luftbild",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:45:00"
+    },
+    {
+      "tag": "Sentenhart",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:45:00"
+    },
+    {
+      "tag": "1953",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:45:00"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444846323",
+      "date": "2025-07-03 13:27:49",
+      "user": "199943033@N03",
+      "comment": "Foto von 1953 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54630275167//#comment72157720444846323"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54630275167-thumb.jpg"
 }

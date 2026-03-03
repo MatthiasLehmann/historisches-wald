@@ -1,41 +1,28 @@
 {
-	"id": "54878829866",
-	"name": "Einwohner Seite 5",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-10-25 08:54:36",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-10-25 08:54:36",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54878829866/",
-	"original": "/images/einwohner-seite-5_54878829866_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54878829866",
+  "name": "Einwohner Seite 5",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-10-25 08:54:36",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-10-25 08:54:36",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54878829866/",
+  "original": "/files/images/einwohner-seite-5_54878829866_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54878829866-thumb.jpg"
 }

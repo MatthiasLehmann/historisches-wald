@@ -1,71 +1,62 @@
 {
-	"id": "54632452800",
-	"name": "Einsturz Kirche Walbertsweiler 1959/60 VXII",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2022-01-08 20:08:39",
-	"count_tags": "5",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-04 02:13:58",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54632452800/",
-	"original": "/images/einsturz-kirche-walbertsweiler-195960-vxii_54632452800_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Walbertsweiler",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:13:56"
-		},
-		{
-			"tag": "kirche",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:13:56"
-		},
-		{
-			"tag": "einsturz",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:13:56"
-		},
-		{
-			"tag": "1959",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:13:56"
-		},
-		{
-			"tag": "1960",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:13:56"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444865719",
-			"date": "2025-07-04 02:30:41",
-			"user": "199943033@N03",
-			"comment": "Foto von 1959/60 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54632452800//#comment72157720444865719"
-		}
-	]
+  "id": "54632452800",
+  "name": "Einsturz Kirche Walbertsweiler 1959/60 VXII",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2022-01-08 20:08:39",
+  "count_tags": "5",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-04 02:13:58",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54632452800/",
+  "original": "/files/images/einsturz-kirche-walbertsweiler-195960-vxii_54632452800_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Walbertsweiler",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:13:56"
+    },
+    {
+      "tag": "kirche",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:13:56"
+    },
+    {
+      "tag": "einsturz",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:13:56"
+    },
+    {
+      "tag": "1959",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:13:56"
+    },
+    {
+      "tag": "1960",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:13:56"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444865719",
+      "date": "2025-07-04 02:30:41",
+      "user": "199943033@N03",
+      "comment": "Foto von 1959/60 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54632452800//#comment72157720444865719"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54632452800-thumb.jpg"
 }

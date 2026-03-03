@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import loadEnv from './utils/loadEnv.js';
 import documentsRouter from './routes/documents.js';
+import dashboardRouter from './routes/dashboard.js';
 import flickrRouter from './routes/flickr.js';
 import imagesRouter from './routes/images.js';
 import pdfsRouter from './routes/pdfs.js';
@@ -23,6 +24,7 @@ app.use(express.json({ limit: '25mb' }));
 app.use('/files', express.static(PUBLIC_FILES_DIR));
 
 app.use('/api/documents', documentsRouter);
+app.use('/api/dashboard', dashboardRouter);
 app.use('/api/flickr', flickrRouter);
 app.use('/api/images', imagesRouter);
 app.use('/api/pdfs', pdfsRouter);

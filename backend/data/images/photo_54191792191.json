@@ -1,41 +1,28 @@
 {
-	"id": "54191792191",
-	"name": "Friedhof",
-	"description": "Blick zum Friedhof.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:20:12",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191792191/",
-	"original": "/images/friedhof_54191792191_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54191792191",
+  "name": "Friedhof",
+  "description": "Blick zum Friedhof.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:20:12",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191792191/",
+  "original": "/files/images/friedhof_54191792191_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54191792191-thumb.jpg"
 }

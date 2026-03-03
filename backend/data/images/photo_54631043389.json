@@ -1,66 +1,57 @@
 {
-	"id": "54631043389",
-	"name": "02_Glash\u00fctte I 1903",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 10:02:45",
-	"count_tags": "4",
-	"count_notes": "0",
-	"rotation": 180,
-	"date_imported": "2025-07-03 10:02:45",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54631043389/",
-	"original": "/images/02_glashtte-i-1903_54631043389_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Postkarte",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:02:55"
-		},
-		{
-			"tag": "ClemensVeeser",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:02:55"
-		},
-		{
-			"tag": "Glash\u00fctte",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:02:55"
-		},
-		{
-			"tag": "1903",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:02:55"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444845215",
-			"date": "2025-07-03 10:24:57",
-			"user": "199943033@N03",
-			"comment": "Postkarte von 1903 von Clemens Veeser \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54631043389//#comment72157720444845215"
-		}
-	]
+  "id": "54631043389",
+  "name": "02_Glashütte I 1903",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 10:02:45",
+  "count_tags": "4",
+  "count_notes": "0",
+  "rotation": 180,
+  "date_imported": "2025-07-03 10:02:45",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54631043389/",
+  "original": "/files/images/02_glashtte-i-1903_54631043389_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Postkarte",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:02:55"
+    },
+    {
+      "tag": "ClemensVeeser",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:02:55"
+    },
+    {
+      "tag": "Glashütte",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:02:55"
+    },
+    {
+      "tag": "1903",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:02:55"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444845215",
+      "date": "2025-07-03 10:24:57",
+      "user": "199943033@N03",
+      "comment": "Postkarte von 1903 von Clemens Veeser \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54631043389//#comment72157720444845215"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54631043389-thumb.jpg"
 }

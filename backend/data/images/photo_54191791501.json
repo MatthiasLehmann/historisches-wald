@@ -1,47 +1,36 @@
 {
-	"id": "54191791501",
-	"name": "Karl Gabele",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:45",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191791501/",
-	"original": "/images/karl-gabele_54191791501_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410642620",
-			"date": "2025-01-22 10:16:19",
-			"user": "199943033@N03",
-			"comment": "Fr\u00fcher Metzgerei Josef Karle.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191791501//#comment72157720410642620"
-		}
-	]
+  "id": "54191791501",
+  "name": "Karl Gabele",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:45",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191791501/",
+  "original": "/files/images/karl-gabele_54191791501_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410642620",
+      "date": "2025-01-22 10:16:19",
+      "user": "199943033@N03",
+      "comment": "Früher Metzgerei Josef Karle.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191791501//#comment72157720410642620"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191791501-thumb.jpg"
 }

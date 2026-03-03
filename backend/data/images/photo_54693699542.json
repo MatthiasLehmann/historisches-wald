@@ -1,41 +1,28 @@
 {
-	"id": "54693699542",
-	"name": "04 Pfarrf\u00fchrer Seite 4",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-08-02 02:59:11",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-08-02 02:59:11",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54693699542/",
-	"original": "/images/04-pfarrfhrer-seite-4_54693699542_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54693699542",
+  "name": "04 Pfarrführer Seite 4",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-08-02 02:59:11",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-08-02 02:59:11",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54693699542/",
+  "original": "/files/images/04-pfarrfhrer-seite-4_54693699542_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54693699542-thumb.jpg"
 }

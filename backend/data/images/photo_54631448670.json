@@ -1,61 +1,52 @@
 {
-	"id": "54631448670",
-	"name": "Bachstra\u00dfe 21",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 12:46:18",
-	"count_tags": "3",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-03 12:46:18",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54631448670/",
-	"original": "/images/bachstrae-21_54631448670_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Luftbild",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:46:40"
-		},
-		{
-			"tag": "Walbertsweiler",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:46:40"
-		},
-		{
-			"tag": "1953",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 12:46:40"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444871670",
-			"date": "2025-07-03 13:19:21",
-			"user": "199943033@N03",
-			"comment": "Foto von 1953 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54631448670//#comment72157720444871670"
-		}
-	]
+  "id": "54631448670",
+  "name": "Bachstraße 21",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 12:46:18",
+  "count_tags": "3",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-03 12:46:18",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54631448670/",
+  "original": "/files/images/bachstrae-21_54631448670_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Luftbild",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:46:40"
+    },
+    {
+      "tag": "Walbertsweiler",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:46:40"
+    },
+    {
+      "tag": "1953",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 12:46:40"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444871670",
+      "date": "2025-07-03 13:19:21",
+      "user": "199943033@N03",
+      "comment": "Foto von 1953 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54631448670//#comment72157720444871670"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54631448670-thumb.jpg"
 }

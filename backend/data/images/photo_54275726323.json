@@ -1,62 +1,55 @@
 {
-	"id": "54275726323",
-	"name": "Alt Wald von S\u00fcden gesehen",
-	"description": "19_Wald I\nca. 1900?",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "2",
-	"date_taken": "2025-01-19 10:35:16",
-	"count_tags": "1",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-01-19 10:35:16",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54275726323/",
-	"original": "/images/alt-wald-von-sden-gesehen_54275726323_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-		{
-			"id": "72177720314562250",
-			"title": "01_Postkarten Wald",
-			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
-		}
-	],
-	"tags": [
-		{
-			"tag": "Postk.Website",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-01-19 10:35:24"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444415747",
-			"date": "2025-07-01 05:29:07",
-			"user": "199943033@N03",
-			"comment": "Diese Postkarte zeigt den Blick auf 'Alt-Wald' vom s\u00fcdlichen Ortseingang aus Richtung Riedetsweiler gesehen. \nMartin Kuhn",
-			"url": "https://www.flickr.com/photos/199943033@N03/54275726323//#comment72157720444415747"
-		},
-		{
-			"id": "72157720444412700",
-			"date": "2025-07-01 05:47:48",
-			"user": "199943033@N03",
-			"comment": "Der S\u00e4geweiher wurde n\u00f6rdlich durch den Weiherdamm, auf dem heute die Wohnh\u00e4user Hohenzollernstr. 55  und S\u00e4geweiher 4 und 4/1 stehen, begrenzt.\nRechts neben dem Kloster sind noch die gro\u00dfen Geb\u00e4ude der Wirtschaft zum L\u00f6wen zu sehen. Nette Details sind der Fischer auf seinem Kahn, das Gespann mit dem Pflug und die Bauern mit ihren Ger\u00e4tschaften.\nDie selbe Ansicht gibt es auch als gr\u00f6\u00dferes Bild. Es existieren au\u00dferdem schwarzwei\u00dfe Kopien in DIN A4.\nMartin Kuhn",
-			"url": "https://www.flickr.com/photos/199943033@N03/54275726323//#comment72157720444412700"
-		}
-	]
+  "id": "54275726323",
+  "name": "Alt Wald von Süden gesehen",
+  "description": "19_Wald I\nca. 1900?",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "2",
+  "date_taken": "2025-01-19 10:35:16",
+  "count_tags": "1",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-01-19 10:35:16",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54275726323/",
+  "original": "/files/images/alt-wald-von-sden-gesehen_54275726323_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [
+    {
+      "id": "72177720314562250",
+      "title": "01_Postkarten Wald",
+      "url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+    }
+  ],
+  "tags": [
+    {
+      "tag": "Postk.Website",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-01-19 10:35:24"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444415747",
+      "date": "2025-07-01 05:29:07",
+      "user": "199943033@N03",
+      "comment": "Diese Postkarte zeigt den Blick auf 'Alt-Wald' vom südlichen Ortseingang aus Richtung Riedetsweiler gesehen. \nMartin Kuhn",
+      "url": "https://www.flickr.com/photos/199943033@N03/54275726323//#comment72157720444415747"
+    },
+    {
+      "id": "72157720444412700",
+      "date": "2025-07-01 05:47:48",
+      "user": "199943033@N03",
+      "comment": "Der Sägeweiher wurde nördlich durch den Weiherdamm, auf dem heute die Wohnhäuser Hohenzollernstr. 55  und Sägeweiher 4 und 4/1 stehen, begrenzt.\nRechts neben dem Kloster sind noch die großen Gebäude der Wirtschaft zum Löwen zu sehen. Nette Details sind der Fischer auf seinem Kahn, das Gespann mit dem Pflug und die Bauern mit ihren Gerätschaften.\nDie selbe Ansicht gibt es auch als größeres Bild. Es existieren außerdem schwarzweiße Kopien in DIN A4.\nMartin Kuhn",
+      "url": "https://www.flickr.com/photos/199943033@N03/54275726323//#comment72157720444412700"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54275726323-thumb.jpg"
 }

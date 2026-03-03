@@ -1,47 +1,36 @@
 {
-	"id": "54023974629",
-	"name": "F\u00fcrst Friedrich Wilhelm v. Hohenzollern",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2021-05-21 15:16:44",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 90,
-	"date_imported": "2024-09-26 12:05:15",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54023974629/",
-	"original": "/images/frst-friedrich-wilhelm-v-hohenzollern_54023974629_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720385255272",
-			"date": "2024-09-26 12:08:25",
-			"user": "199943033@N03",
-			"comment": "F\u00fcrst Friedrich Wilhelm von Hohenzollern\nStefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54023974629//#comment72157720385255272"
-		}
-	]
+  "id": "54023974629",
+  "name": "Fürst Friedrich Wilhelm v. Hohenzollern",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2021-05-21 15:16:44",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 90,
+  "date_imported": "2024-09-26 12:05:15",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54023974629/",
+  "original": "/files/images/frst-friedrich-wilhelm-v-hohenzollern_54023974629_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720385255272",
+      "date": "2024-09-26 12:08:25",
+      "user": "199943033@N03",
+      "comment": "Fürst Friedrich Wilhelm von Hohenzollern\nStefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54023974629//#comment72157720385255272"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54023974629-thumb.jpg"
 }

@@ -1,41 +1,28 @@
 {
-	"id": "53509166085",
-	"name": "Torfstich Ried",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2024-02-04 11:02:16",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 270,
-	"date_imported": "2024-02-04 11:02:16",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/53509166085/",
-	"original": "/images/torfstich-ried_53509166085_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "53509166085",
+  "name": "Torfstich Ried",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2024-02-04 11:02:16",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 270,
+  "date_imported": "2024-02-04 11:02:16",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/53509166085/",
+  "original": "/files/images/torfstich-ried_53509166085_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-53509166085-thumb.jpg"
 }

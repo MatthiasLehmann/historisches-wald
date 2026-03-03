@@ -1,47 +1,36 @@
 {
-	"id": "54855340950",
-	"name": "Alter Xeres Apotheker Albert Sautermeister",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-10-14 12:20:21",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-10-14 12:20:21",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54855340950/",
-	"original": "/images/alter-xeres-apotheker-albert-sautermeister_54855340950_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720465377641",
-			"date": "2025-10-14 12:23:11",
-			"user": "199943033@N03",
-			"comment": "Aus Ordner von Sandra H\u00e4usler \nApotheker Albert Sautermeister \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54855340950//#comment72157720465377641"
-		}
-	]
+  "id": "54855340950",
+  "name": "Alter Xeres Apotheker Albert Sautermeister",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-10-14 12:20:21",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-10-14 12:20:21",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54855340950/",
+  "original": "/files/images/alter-xeres-apotheker-albert-sautermeister_54855340950_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720465377641",
+      "date": "2025-10-14 12:23:11",
+      "user": "199943033@N03",
+      "comment": "Aus Ordner von Sandra Häusler \nApotheker Albert Sautermeister \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54855340950//#comment72157720465377641"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54855340950-thumb.jpg"
 }

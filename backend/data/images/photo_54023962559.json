@@ -1,47 +1,36 @@
 {
-	"id": "54023962559",
-	"name": "img20220206_10412187",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2024-09-26 11:59:48",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-09-26 11:59:48",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54023962559/",
-	"original": "/images/img20220206_10412187_54023962559_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720385186919",
-			"date": "2024-09-26 12:01:16",
-			"user": "199943033@N03",
-			"comment": "B\u00fcrgermeister Josef Kaiser",
-			"url": "https://www.flickr.com/photos/199943033@N03/54023962559//#comment72157720385186919"
-		}
-	]
+  "id": "54023962559",
+  "name": "img20220206_10412187",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2024-09-26 11:59:48",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-09-26 11:59:48",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54023962559/",
+  "original": "/files/images/img20220206_10412187_54023962559_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720385186919",
+      "date": "2024-09-26 12:01:16",
+      "user": "199943033@N03",
+      "comment": "Bürgermeister Josef Kaiser",
+      "url": "https://www.flickr.com/photos/199943033@N03/54023962559//#comment72157720385186919"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54023962559-thumb.jpg"
 }

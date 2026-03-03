@@ -1,41 +1,28 @@
 {
-	"id": "54886799155",
-	"name": "Ortschronik Riedetsweiler 42",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-10-28 12:08:26",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-10-28 12:08:26",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54886799155/",
-	"original": "/images/ortschronik-riedetsweiler-42_54886799155_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54886799155",
+  "name": "Ortschronik Riedetsweiler 42",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-10-28 12:08:26",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-10-28 12:08:26",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54886799155/",
+  "original": "/files/images/ortschronik-riedetsweiler-42_54886799155_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54886799155-thumb.jpg"
 }

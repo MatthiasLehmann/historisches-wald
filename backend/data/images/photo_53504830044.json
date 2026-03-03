@@ -11,7 +11,7 @@
   "rotation": 0,
   "date_imported": "2024-02-02 08:48:53",
   "photopage": "https://www.flickr.com/photos/199943033@N03/53504830044/",
-  "original": "/images/faschingsnummer-mit-bernhard-lernhart_53504830044_o.jpg",
+  "original": "/files/images/faschingsnummer-mit-bernhard-lernhart_53504830044_o.jpg",
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
@@ -38,5 +38,6 @@
     "reviewedAt": null,
     "comments": []
   },
-  "updatedAt": "2026-03-01T15:23:52.794Z"
+  "updatedAt": "2026-03-01T15:23:52.794Z",
+  "preview": "/files/images/thumbnails/photo-53504830044-thumb.jpg"
 }

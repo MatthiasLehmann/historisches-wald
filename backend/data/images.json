@@ -12,7 +12,7 @@
     "file": {
       "type": "remote",
       "path": "",
-      "originalUrl": "/images/logo-historisches-wald.png"
+      "originalUrl": "/files/images/logo-historisches-wald.png"
     },
     "review": {
       "status": "pending",
@@ -39,7 +39,7 @@
     ],
     "file": {
       "type": "local",
-      "path": "/images/img-00001.jpg",
+      "path": "/files/images/img-00001.jpg",
       "originalUrl": null
     },
     "review": {

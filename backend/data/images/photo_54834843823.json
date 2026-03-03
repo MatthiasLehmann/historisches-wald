@@ -1,41 +1,28 @@
 {
-	"id": "54834843823",
-	"name": "K1024_malteser (4)",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-10-05 14:22:55",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-10-05 14:22:55",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54834843823/",
-	"original": "/images/k1024_malteser-4_54834843823_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54834843823",
+  "name": "K1024_malteser (4)",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-10-05 14:22:55",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-10-05 14:22:55",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54834843823/",
+  "original": "/files/images/k1024_malteser-4_54834843823_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54834843823-thumb.jpg"
 }

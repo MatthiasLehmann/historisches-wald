@@ -1,41 +1,28 @@
 {
-	"id": "54192037288",
-	"name": "Zehntscheuer Kloster Wald",
-	"description": "Fr\u00fcher Scheune zum Kochhof.\nJetzt Turnhalle der Heimschule.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:17",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192037288/",
-	"original": "/images/zehntscheuer-kloster-wald_54192037288_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54192037288",
+  "name": "Zehntscheuer Kloster Wald",
+  "description": "Früher Scheune zum Kochhof.\nJetzt Turnhalle der Heimschule.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:17",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192037288/",
+  "original": "/files/images/zehntscheuer-kloster-wald_54192037288_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54192037288-thumb.jpg"
 }

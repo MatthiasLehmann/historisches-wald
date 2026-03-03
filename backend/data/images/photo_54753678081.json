@@ -1,41 +1,28 @@
 {
-	"id": "54753678081",
-	"name": "Dokument Amtsausschuss 1886",
-	"description": "Dokument von 1886 von Franz Sales Fr\u00f6hlich \nArchiv Gemeinde Wald \nKommentar von Stefanie Gr\u00fcner ",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-08-30 00:47:36",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 270,
-	"date_imported": "2025-08-30 00:47:36",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54753678081/",
-	"original": "/images/dokument-amtsausschuss-1886_54753678081_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54753678081",
+  "name": "Dokument Amtsausschuss 1886",
+  "description": "Dokument von 1886 von Franz Sales Fröhlich \nArchiv Gemeinde Wald \nKommentar von Stefanie Grüner ",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-08-30 00:47:36",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 270,
+  "date_imported": "2025-08-30 00:47:36",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54753678081/",
+  "original": "/files/images/dokument-amtsausschuss-1886_54753678081_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54753678081-thumb.jpg"
 }

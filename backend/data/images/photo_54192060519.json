@@ -1,47 +1,36 @@
 {
-	"id": "54192060519",
-	"name": "Veeser - Raifeisenbank",
-	"description": "Fr\u00fcher Veeser (hatten mit der alten Ziegelei zu tun).\nJetzt Baiker.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:17",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192060519/",
-	"original": "/images/veeser---raifeisenbank_54192060519_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720408906502",
-			"date": "2025-01-14 11:35:42",
-			"user": "199943033@N03",
-			"comment": "Fr\u00fcher Veeser, jetzt Baiker.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192060519//#comment72157720408906502"
-		}
-	]
+  "id": "54192060519",
+  "name": "Veeser - Raifeisenbank",
+  "description": "Früher Veeser (hatten mit der alten Ziegelei zu tun).\nJetzt Baiker.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:17",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192060519/",
+  "original": "/files/images/veeser---raifeisenbank_54192060519_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720408906502",
+      "date": "2025-01-14 11:35:42",
+      "user": "199943033@N03",
+      "comment": "Früher Veeser, jetzt Baiker.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192060519//#comment72157720408906502"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192060519-thumb.jpg"
 }

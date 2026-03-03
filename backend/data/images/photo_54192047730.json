@@ -1,61 +1,50 @@
 {
-	"id": "54192047730",
-	"name": "Geb\u00e4ude Seitz abgerissen 1992",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "3",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 13:34:07",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192047730/",
-	"original": "/images/gebude-seitz-abgerissen-1992_54192047730_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410449931",
-			"date": "2025-01-21 06:11:17",
-			"user": "199943033@N03",
-			"comment": "Angele",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192047730//#comment72157720410449931"
-		},
-		{
-			"id": "72157720410561552",
-			"date": "2025-01-22 02:09:17",
-			"user": "199943033@N03",
-			"comment": "Zur Brauereidynastie Angele:\nGeorg Angele, geboren 1803. Ist Br\u00e4umeister in Kloster Wald.\nEr heiratet 1828 die Witwe Walburga G\u00f6tz und hat mit ihr 5 Kinder.\nSohn Christian Angele, 1833 in Wald geboren, war sp\u00e4ter\nSprachlehrer in Kairo und Istanbul.\nSp\u00e4ter Brauerei Georg Seitz.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192047730//#comment72157720410561552"
-		},
-		{
-			"id": "72157720411320883",
-			"date": "2025-01-25 12:26:53",
-			"user": "199943033@N03",
-			"comment": "Bereits 1899 war vermutlich Joh. Georg Bechinger im Besitz der Brauerei. 1901 wurde die Belastung durch ein \u00dcberfahrtsrecht auf Georg Seitz und Theresia Zwiebel \u00fcbertragen.\nMK",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192047730//#comment72157720411320883"
-		}
-	]
+  "id": "54192047730",
+  "name": "Gebäude Seitz abgerissen 1992",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "3",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 13:34:07",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192047730/",
+  "original": "/files/images/gebude-seitz-abgerissen-1992_54192047730_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410449931",
+      "date": "2025-01-21 06:11:17",
+      "user": "199943033@N03",
+      "comment": "Angele",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192047730//#comment72157720410449931"
+    },
+    {
+      "id": "72157720410561552",
+      "date": "2025-01-22 02:09:17",
+      "user": "199943033@N03",
+      "comment": "Zur Brauereidynastie Angele:\nGeorg Angele, geboren 1803. Ist Bräumeister in Kloster Wald.\nEr heiratet 1828 die Witwe Walburga Götz und hat mit ihr 5 Kinder.\nSohn Christian Angele, 1833 in Wald geboren, war später\nSprachlehrer in Kairo und Istanbul.\nSpäter Brauerei Georg Seitz.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192047730//#comment72157720410561552"
+    },
+    {
+      "id": "72157720411320883",
+      "date": "2025-01-25 12:26:53",
+      "user": "199943033@N03",
+      "comment": "Bereits 1899 war vermutlich Joh. Georg Bechinger im Besitz der Brauerei. 1901 wurde die Belastung durch ein Überfahrtsrecht auf Georg Seitz und Theresia Zwiebel übertragen.\nMK",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192047730//#comment72157720411320883"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192047730-thumb.jpg"
 }

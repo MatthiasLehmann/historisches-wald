@@ -1,47 +1,36 @@
 {
-	"id": "54192060804",
-	"name": "",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:30",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192060804/",
-	"original": "/images/54192060804_f074070d4c_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410658157",
-			"date": "2025-01-22 10:26:45",
-			"user": "199943033@N03",
-			"comment": "Haus Kokay, gegen\u00fcber Haus Fox.\nSieht jetzt ganz anders aus.\nJetzt Specker.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192060804//#comment72157720410658157"
-		}
-	]
+  "id": "54192060804",
+  "name": "",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:30",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192060804/",
+  "original": "/files/images/54192060804_f074070d4c_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410658157",
+      "date": "2025-01-22 10:26:45",
+      "user": "199943033@N03",
+      "comment": "Haus Kokay, gegenüber Haus Fox.\nSieht jetzt ganz anders aus.\nJetzt Specker.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192060804//#comment72157720410658157"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192060804-thumb.jpg"
 }

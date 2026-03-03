@@ -1,47 +1,36 @@
 {
-	"id": "54191973264",
-	"name": "Landesbank",
-	"description": "Haus mit drei Partien. Fr\u00fcher Handlung Eduard Kaiser und Familie Abt.\nSp\u00e4ter Landesbank.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 14:26:49",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191973264/",
-	"original": "/images/landesbank_54191973264_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410498704",
-			"date": "2025-01-22 02:21:26",
-			"user": "199943033@N03",
-			"comment": "Haus mit drei Partien. Fr\u00fcher Handlung Eduard Kaiser und Familie Abt.\nSp\u00e4ter Landesbank.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191973264//#comment72157720410498704"
-		}
-	]
+  "id": "54191973264",
+  "name": "Landesbank",
+  "description": "Haus mit drei Partien. Früher Handlung Eduard Kaiser und Familie Abt.\nSpäter Landesbank.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 14:26:49",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191973264/",
+  "original": "/files/images/landesbank_54191973264_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410498704",
+      "date": "2025-01-22 02:21:26",
+      "user": "199943033@N03",
+      "comment": "Haus mit drei Partien. Früher Handlung Eduard Kaiser und Familie Abt.\nSpäter Landesbank.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191973264//#comment72157720410498704"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191973264-thumb.jpg"
 }

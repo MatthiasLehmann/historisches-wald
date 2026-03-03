@@ -1,41 +1,28 @@
 {
-	"id": "54631332212",
-	"name": "img20220109_18183316",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-07-04 02:50:17",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 90,
-	"date_imported": "2025-07-04 02:50:17",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54631332212/",
-	"original": "/images/img20220109_18183316_54631332212_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54631332212",
+  "name": "img20220109_18183316",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-07-04 02:50:17",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 90,
+  "date_imported": "2025-07-04 02:50:17",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54631332212/",
+  "original": "/files/images/img20220109_18183316_54631332212_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54631332212-thumb.jpg"
 }

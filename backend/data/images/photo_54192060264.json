@@ -1,41 +1,28 @@
 {
-	"id": "54192060264",
-	"name": "August Straub - Fr\u00fcher Sattler-Werkstatt",
-	"description": "Jetzt Willi Straub.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:07",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192060264/",
-	"original": "/images/august-straub---frher-sattler-werkstatt_54192060264_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54192060264",
+  "name": "August Straub - Früher Sattler-Werkstatt",
+  "description": "Jetzt Willi Straub.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:07",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192060264/",
+  "original": "/files/images/august-straub---frher-sattler-werkstatt_54192060264_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54192060264-thumb.jpg"
 }

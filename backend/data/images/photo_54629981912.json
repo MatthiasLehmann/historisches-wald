@@ -1,66 +1,57 @@
 {
-	"id": "54629981912",
-	"name": "12_Walbertsweiler 1933",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 10:09:07",
-	"count_tags": "4",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-03 10:09:07",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54629981912/",
-	"original": "/images/12_walbertsweiler-1933_54629981912_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Postkarte",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:30"
-		},
-		{
-			"tag": "ClemensVeeser",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:30"
-		},
-		{
-			"tag": "Walbertsweiler",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:30"
-		},
-		{
-			"tag": "1932",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:09:30"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444909926",
-			"date": "2025-07-03 11:28:33",
-			"user": "199943033@N03",
-			"comment": "Postkarte von 1932 von Clemens Veeser \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54629981912//#comment72157720444909926"
-		}
-	]
+  "id": "54629981912",
+  "name": "12_Walbertsweiler 1933",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 10:09:07",
+  "count_tags": "4",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-03 10:09:07",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54629981912/",
+  "original": "/files/images/12_walbertsweiler-1933_54629981912_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Postkarte",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:30"
+    },
+    {
+      "tag": "ClemensVeeser",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:30"
+    },
+    {
+      "tag": "Walbertsweiler",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:30"
+    },
+    {
+      "tag": "1932",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:09:30"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444909926",
+      "date": "2025-07-03 11:28:33",
+      "user": "199943033@N03",
+      "comment": "Postkarte von 1932 von Clemens Veeser \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54629981912//#comment72157720444909926"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54629981912-thumb.jpg"
 }

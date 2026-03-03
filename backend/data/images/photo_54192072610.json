@@ -1,47 +1,36 @@
 {
-	"id": "54192072610",
-	"name": "Bodenm\u00fcller",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 13:47:40",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192072610/",
-	"original": "/images/bodenmller_54192072610_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410335739",
-			"date": "2025-01-21 07:48:47",
-			"user": "199943033@N03",
-			"comment": "Fr\u00fcher Neusch, verwandt mit Sch\u00e4fer's.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192072610//#comment72157720410335739"
-		}
-	]
+  "id": "54192072610",
+  "name": "Bodenmüller",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 13:47:40",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192072610/",
+  "original": "/files/images/bodenmller_54192072610_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410335739",
+      "date": "2025-01-21 07:48:47",
+      "user": "199943033@N03",
+      "comment": "Früher Neusch, verwandt mit Schäfer's.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192072610//#comment72157720410335739"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192072610-thumb.jpg"
 }

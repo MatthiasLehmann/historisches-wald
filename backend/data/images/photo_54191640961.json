@@ -1,47 +1,36 @@
 {
-	"id": "54191640961",
-	"name": "Von-Weckenstein-Str. 15  Wald 1979 (fr\u00fcher Hauptstra\u00dfe 57)",
-	"description": "Test",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 13:52:17",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191640961/",
-	"original": "/images/von-weckenstein-str-15--wald-1979-frher-hauptstrae-57_54191640961_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410402578",
-			"date": "2025-01-21 08:43:36",
-			"user": "199943033@N03",
-			"comment": "Erbaut 1832 von Theodor Gl\u00f6ckler, Sohn von Xaver Gl\u00f6ckler.\nTochter Xaveria heiratet Josef Fr\u00f6hlich aus Walbertsweiler, sp\u00e4ter Josef Fr\u00f6hlich II.\nHeute Kempter.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191640961//#comment72157720410402578"
-		}
-	]
+  "id": "54191640961",
+  "name": "Von-Weckenstein-Str. 15  Wald 1979 (früher Hauptstraße 57)",
+  "description": "Test",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 13:52:17",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191640961/",
+  "original": "/files/images/von-weckenstein-str-15--wald-1979-frher-hauptstrae-57_54191640961_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410402578",
+      "date": "2025-01-21 08:43:36",
+      "user": "199943033@N03",
+      "comment": "Erbaut 1832 von Theodor Glöckler, Sohn von Xaver Glöckler.\nTochter Xaveria heiratet Josef Fröhlich aus Walbertsweiler, später Josef Fröhlich II.\nHeute Kempter.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191640961//#comment72157720410402578"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191640961-thumb.jpg"
 }

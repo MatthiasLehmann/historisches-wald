@@ -1,66 +1,57 @@
 {
-	"id": "54631051354",
-	"name": "15_Sentenhart I",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 10:07:35",
-	"count_tags": "4",
-	"count_notes": "0",
-	"rotation": 180,
-	"date_imported": "2025-07-03 10:07:35",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54631051354/",
-	"original": "/images/15_sentenhart-i_54631051354_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Postkarte",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:08:08"
-		},
-		{
-			"tag": "ClemensVeeser",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:08:08"
-		},
-		{
-			"tag": "Sentenhart",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:08:08"
-		},
-		{
-			"tag": "1942",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 10:08:08"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444856437",
-			"date": "2025-07-03 10:56:31",
-			"user": "199943033@N03",
-			"comment": "Postkarte von 1942 von Clemens Veeser \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54631051354//#comment72157720444856437"
-		}
-	]
+  "id": "54631051354",
+  "name": "15_Sentenhart I",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 10:07:35",
+  "count_tags": "4",
+  "count_notes": "0",
+  "rotation": 180,
+  "date_imported": "2025-07-03 10:07:35",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54631051354/",
+  "original": "/files/images/15_sentenhart-i_54631051354_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Postkarte",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:08:08"
+    },
+    {
+      "tag": "ClemensVeeser",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:08:08"
+    },
+    {
+      "tag": "Sentenhart",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:08:08"
+    },
+    {
+      "tag": "1942",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 10:08:08"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444856437",
+      "date": "2025-07-03 10:56:31",
+      "user": "199943033@N03",
+      "comment": "Postkarte von 1942 von Clemens Veeser \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54631051354//#comment72157720444856437"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54631051354-thumb.jpg"
 }

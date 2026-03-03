@@ -1,47 +1,36 @@
 {
-	"id": "54753683096",
-	"name": "Benachrichtigung Eintragung Grundbuch 1896 Seite 11 und 12",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-08-30 00:53:19",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-08-30 00:53:19",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54753683096/",
-	"original": "/images/benachrichtigung-eintragung-grundbuch-1896-seite-11-und-12_54753683096_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720456292481",
-			"date": "2025-08-30 00:58:46",
-			"user": "199943033@N03",
-			"comment": "Dokument von 1896 von Franz Sales Fr\u00f6hlich \nArchiv Gemeinde Wald \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54753683096//#comment72157720456292481"
-		}
-	]
+  "id": "54753683096",
+  "name": "Benachrichtigung Eintragung Grundbuch 1896 Seite 11 und 12",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-08-30 00:53:19",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-08-30 00:53:19",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54753683096/",
+  "original": "/files/images/benachrichtigung-eintragung-grundbuch-1896-seite-11-und-12_54753683096_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720456292481",
+      "date": "2025-08-30 00:58:46",
+      "user": "199943033@N03",
+      "comment": "Dokument von 1896 von Franz Sales Fröhlich \nArchiv Gemeinde Wald \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54753683096//#comment72157720456292481"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54753683096-thumb.jpg"
 }

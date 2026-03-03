@@ -1,41 +1,28 @@
 {
-	"id": "54694824674",
-	"name": "Turnfest TSV Wald Anfang 1950er Jahre II",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-08-02 03:42:43",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-08-02 03:42:43",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54694824674/",
-	"original": "/images/turnfest-tsv-wald-anfang-1950er-jahre-ii_54694824674_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54694824674",
+  "name": "Turnfest TSV Wald Anfang 1950er Jahre II",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-08-02 03:42:43",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-08-02 03:42:43",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54694824674/",
+  "original": "/files/images/turnfest-tsv-wald-anfang-1950er-jahre-ii_54694824674_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54694824674-thumb.jpg"
 }

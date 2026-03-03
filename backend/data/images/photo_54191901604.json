@@ -1,47 +1,36 @@
 {
-	"id": "54191901604",
-	"name": "Von-Weckenstein-Stra\u00dfe 13    Wald 1979    (fr\u00fcher Hauptstra\u00dfe 54)",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 13:47:40",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191901604/",
-	"original": "/images/von-weckenstein-strae-13----wald-1979----frher-hauptstrae-54_54191901604_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720412861390",
-			"date": "2025-02-01 11:33:08",
-			"user": "199943033@N03",
-			"comment": "Fr\u00fcher Elektro Adolf Vogel.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191901604//#comment72157720412861390"
-		}
-	]
+  "id": "54191901604",
+  "name": "Von-Weckenstein-Straße 13    Wald 1979    (früher Hauptstraße 54)",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 13:47:40",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191901604/",
+  "original": "/files/images/von-weckenstein-strae-13----wald-1979----frher-hauptstrae-54_54191901604_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720412861390",
+      "date": "2025-02-01 11:33:08",
+      "user": "199943033@N03",
+      "comment": "Früher Elektro Adolf Vogel.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191901604//#comment72157720412861390"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191901604-thumb.jpg"
 }

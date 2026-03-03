@@ -1,41 +1,28 @@
 {
-	"id": "54833736562",
-	"name": "K640_Jubila\u0308um 2011 (34)",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-10-05 14:22:59",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-10-05 14:22:59",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54833736562/",
-	"original": "/images/k640_jubilaum-2011-34_54833736562_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54833736562",
+  "name": "K640_Jubiläum 2011 (34)",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-10-05 14:22:59",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-10-05 14:22:59",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54833736562/",
+  "original": "/files/images/k640_jubilaum-2011-34_54833736562_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54833736562-thumb.jpg"
 }

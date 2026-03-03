@@ -1,47 +1,36 @@
 {
-	"id": "54646154544",
-	"name": "Festkalender Museumsgesellschaft",
-	"description": "Der Festkalender der Museumsgesellschaft Wald hing in der Wirtstube im Gasthaus Brauerei, wo sich die Museumsgesellschaft regelm\u00e4\u00dfig traf. So wussten alle \u00fcber die Geburtstage der Mitglieder bescheid.\nMartin Kuhn 2025\n",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2024-01-14 18:25:46",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 90,
-	"date_imported": "2025-07-10 09:27:03",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54646154544/",
-	"original": "/images/festkalender-museumsgesellschaft_54646154544_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720446265986",
-			"date": "2025-07-10 09:36:23",
-			"user": "199943033@N03",
-			"comment": "Die letzte Bewohnerin des Gasthauses Brauerei, Sophie Seitz, schenkte diesen Festkalender Martin Kuhn am 09.11.1985 zur Hochzeit.\nMartin Kuhn 2025",
-			"url": "https://www.flickr.com/photos/199943033@N03/54646154544//#comment72157720446265986"
-		}
-	]
+  "id": "54646154544",
+  "name": "Festkalender Museumsgesellschaft",
+  "description": "Der Festkalender der Museumsgesellschaft Wald hing in der Wirtstube im Gasthaus Brauerei, wo sich die Museumsgesellschaft regelmäßig traf. So wussten alle über die Geburtstage der Mitglieder bescheid.\nMartin Kuhn 2025\n",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2024-01-14 18:25:46",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 90,
+  "date_imported": "2025-07-10 09:27:03",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54646154544/",
+  "original": "/files/images/festkalender-museumsgesellschaft_54646154544_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720446265986",
+      "date": "2025-07-10 09:36:23",
+      "user": "199943033@N03",
+      "comment": "Die letzte Bewohnerin des Gasthauses Brauerei, Sophie Seitz, schenkte diesen Festkalender Martin Kuhn am 09.11.1985 zur Hochzeit.\nMartin Kuhn 2025",
+      "url": "https://www.flickr.com/photos/199943033@N03/54646154544//#comment72157720446265986"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54646154544-thumb.jpg"
 }

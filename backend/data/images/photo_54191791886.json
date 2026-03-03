@@ -1,47 +1,36 @@
 {
-	"id": "54191791886",
-	"name": "Villa Haug",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:58",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191791886/",
-	"original": "/images/villa-haug_54191791886_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410641125",
-			"date": "2025-01-22 10:08:16",
-			"user": "199943033@N03",
-			"comment": "Erbaut als Geschenk zur Hochzeit der Tochter des Betreibers vom Gasthaus 'Zum Gr\u00fcnen Baum', Bernhard Schneider, nach dem Vorbild einiger Hechinger Villen. Schneider kam von Hechingen.   \nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191791886//#comment72157720410641125"
-		}
-	]
+  "id": "54191791886",
+  "name": "Villa Haug",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:58",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191791886/",
+  "original": "/files/images/villa-haug_54191791886_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410641125",
+      "date": "2025-01-22 10:08:16",
+      "user": "199943033@N03",
+      "comment": "Erbaut als Geschenk zur Hochzeit der Tochter des Betreibers vom Gasthaus 'Zum Grünen Baum', Bernhard Schneider, nach dem Vorbild einiger Hechinger Villen. Schneider kam von Hechingen.   \nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191791886//#comment72157720410641125"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191791886-thumb.jpg"
 }

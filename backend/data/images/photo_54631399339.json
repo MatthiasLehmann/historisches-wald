@@ -1,56 +1,47 @@
 {
-	"id": "54631399339",
-	"name": "1973 Goldene Hochzeit Fam. H\u00fcbschle",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-03 13:09:23",
-	"count_tags": "2",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-03 13:09:23",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54631399339/",
-	"original": "/images/1973-goldene-hochzeit-fam-hbschle_54631399339_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "reischach",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 13:09:32"
-		},
-		{
-			"tag": "goldenehochzeit",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-03 13:09:32"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444870360",
-			"date": "2025-07-03 13:09:54",
-			"user": "199943033@N03",
-			"comment": "Foto aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54631399339//#comment72157720444870360"
-		}
-	]
+  "id": "54631399339",
+  "name": "1973 Goldene Hochzeit Fam. Hübschle",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-03 13:09:23",
+  "count_tags": "2",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-03 13:09:23",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54631399339/",
+  "original": "/files/images/1973-goldene-hochzeit-fam-hbschle_54631399339_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "reischach",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 13:09:32"
+    },
+    {
+      "tag": "goldenehochzeit",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-03 13:09:32"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444870360",
+      "date": "2025-07-03 13:09:54",
+      "user": "199943033@N03",
+      "comment": "Foto aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54631399339//#comment72157720444870360"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54631399339-thumb.jpg"
 }

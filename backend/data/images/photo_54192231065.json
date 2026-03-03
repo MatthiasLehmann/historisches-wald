@@ -1,41 +1,28 @@
 {
-	"id": "54192231065",
-	"name": "Erath Bernhard",
-	"description": "Fr\u00fcher N\u00e4herei, die sehr vielen Walder Frauen Arbeit bot.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:02",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192231065/",
-	"original": "/images/erath-bernhard_54192231065_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54192231065",
+  "name": "Erath Bernhard",
+  "description": "Früher Näherei, die sehr vielen Walder Frauen Arbeit bot.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:02",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192231065/",
+  "original": "/files/images/erath-bernhard_54192231065_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54192231065-thumb.jpg"
 }

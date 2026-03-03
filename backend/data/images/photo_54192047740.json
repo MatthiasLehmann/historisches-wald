@@ -1,47 +1,36 @@
 {
-	"id": "54192047740",
-	"name": "K\u00fcbler Weiherweg",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 13:34:07",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192047740/",
-	"original": "/images/kbler-weiherweg_54192047740_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410393462",
-			"date": "2025-01-21 07:00:02",
-			"user": "199943033@N03",
-			"comment": "Molkeh\u00e4usle",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192047740//#comment72157720410393462"
-		}
-	]
+  "id": "54192047740",
+  "name": "Kübler Weiherweg",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 13:34:07",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192047740/",
+  "original": "/files/images/kbler-weiherweg_54192047740_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410393462",
+      "date": "2025-01-21 07:00:02",
+      "user": "199943033@N03",
+      "comment": "Molkehäusle",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192047740//#comment72157720410393462"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192047740-thumb.jpg"
 }

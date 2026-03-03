@@ -1,41 +1,28 @@
 {
-	"id": "54859250278",
-	"name": "Kindergarten Ruhestetten II",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-10-16 09:52:29",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-10-16 09:52:29",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54859250278/",
-	"original": "/images/kindergarten-ruhestetten-ii_54859250278_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54859250278",
+  "name": "Kindergarten Ruhestetten II",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-10-16 09:52:29",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-10-16 09:52:29",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54859250278/",
+  "original": "/files/images/kindergarten-ruhestetten-ii_54859250278_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54859250278-thumb.jpg"
 }

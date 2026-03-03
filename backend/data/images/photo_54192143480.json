@@ -1,47 +1,36 @@
 {
-	"id": "54192143480",
-	"name": "Stanzel",
-	"description": "Alte M\u00fchle.\nFr\u00fcher Biselli, dann H\u00f6ge, jetzt ?\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 14:26:51",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192143480/",
-	"original": "/images/stanzel_54192143480_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410484081",
-			"date": "2025-01-21 08:48:06",
-			"user": "199943033@N03",
-			"comment": "Alte M\u00fchle,\nfr\u00fcher Biselli. Dann H\u00f6ge.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192143480//#comment72157720410484081"
-		}
-	]
+  "id": "54192143480",
+  "name": "Stanzel",
+  "description": "Alte Mühle.\nFrüher Biselli, dann Höge, jetzt ?\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 14:26:51",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192143480/",
+  "original": "/files/images/stanzel_54192143480_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410484081",
+      "date": "2025-01-21 08:48:06",
+      "user": "199943033@N03",
+      "comment": "Alte Mühle,\nfrüher Biselli. Dann Höge.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192143480//#comment72157720410484081"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192143480-thumb.jpg"
 }

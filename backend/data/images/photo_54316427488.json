@@ -1,47 +1,36 @@
 {
-	"id": "54316427488",
-	"name": "02_Musikgesellschaft Wald Namen",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-02-09 03:51:02",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 90,
-	"date_imported": "2025-02-09 03:51:02",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54316427488/",
-	"original": "/images/02_musikgesellschaft-wald-namen_54316427488_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720414644401",
-			"date": "2025-02-09 03:58:36",
-			"user": "199943033@N03",
-			"comment": "Foto Archive Gemeinde Wald",
-			"url": "https://www.flickr.com/photos/199943033@N03/54316427488//#comment72157720414644401"
-		}
-	]
+  "id": "54316427488",
+  "name": "02_Musikgesellschaft Wald Namen",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-02-09 03:51:02",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 90,
+  "date_imported": "2025-02-09 03:51:02",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54316427488/",
+  "original": "/files/images/02_musikgesellschaft-wald-namen_54316427488_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720414644401",
+      "date": "2025-02-09 03:58:36",
+      "user": "199943033@N03",
+      "comment": "Foto Archive Gemeinde Wald",
+      "url": "https://www.flickr.com/photos/199943033@N03/54316427488//#comment72157720414644401"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54316427488-thumb.jpg"
 }

@@ -1,47 +1,36 @@
 {
-	"id": "54192231075",
-	"name": "Von-Weckenstein-Stra\u00dfe 15   Wald 1979",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:03",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192231075/",
-	"original": "/images/von-weckenstein-strae-15---wald-1979_54192231075_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410650655",
-			"date": "2025-01-22 10:56:09",
-			"user": "199943033@N03",
-			"comment": "Garage Fr\u00f6hlich, jetzt Kempter.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192231075//#comment72157720410650655"
-		}
-	]
+  "id": "54192231075",
+  "name": "Von-Weckenstein-Straße 15   Wald 1979",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:03",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192231075/",
+  "original": "/files/images/von-weckenstein-strae-15---wald-1979_54192231075_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410650655",
+      "date": "2025-01-22 10:56:09",
+      "user": "199943033@N03",
+      "comment": "Garage Fröhlich, jetzt Kempter.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192231075//#comment72157720410650655"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192231075-thumb.jpg"
 }

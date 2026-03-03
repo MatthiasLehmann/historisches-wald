@@ -1,66 +1,57 @@
 {
-	"id": "54632024351",
-	"name": "Ausgrabung 1938 II",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-04 00:47:27",
-	"count_tags": "4",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-04 00:47:27",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54632024351/",
-	"original": "/images/ausgrabung-1938-ii_54632024351_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Ruhestetten",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 00:47:35"
-		},
-		{
-			"tag": "ruhestetterried",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 00:47:35"
-		},
-		{
-			"tag": "ausgrabung",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 00:47:35"
-		},
-		{
-			"tag": "1938",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 00:47:35"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444913928",
-			"date": "2025-07-04 00:49:01",
-			"user": "199943033@N03",
-			"comment": "Foto von 1938 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54632024351//#comment72157720444913928"
-		}
-	]
+  "id": "54632024351",
+  "name": "Ausgrabung 1938 II",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-04 00:47:27",
+  "count_tags": "4",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-04 00:47:27",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54632024351/",
+  "original": "/files/images/ausgrabung-1938-ii_54632024351_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Ruhestetten",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 00:47:35"
+    },
+    {
+      "tag": "ruhestetterried",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 00:47:35"
+    },
+    {
+      "tag": "ausgrabung",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 00:47:35"
+    },
+    {
+      "tag": "1938",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 00:47:35"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444913928",
+      "date": "2025-07-04 00:49:01",
+      "user": "199943033@N03",
+      "comment": "Foto von 1938 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54632024351//#comment72157720444913928"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54632024351-thumb.jpg"
 }

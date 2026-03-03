@@ -1,41 +1,28 @@
 {
-	"id": "54192231610",
-	"name": "M\u00fchlweg",
-	"description": "Fr\u00fcher Lernhart (Heimat von Frau Bodenm\u00fcller und Jule Lernhart).\nDann die alte M\u00fchle, rechts Haus Ostermaier/jetzt Fox (Enkel).\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:22",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192231610/",
-	"original": "/images/mhlweg_54192231610_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54192231610",
+  "name": "Mühlweg",
+  "description": "Früher Lernhart (Heimat von Frau Bodenmüller und Jule Lernhart).\nDann die alte Mühle, rechts Haus Ostermaier/jetzt Fox (Enkel).\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:22",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192231610/",
+  "original": "/files/images/mhlweg_54192231610_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54192231610-thumb.jpg"
 }

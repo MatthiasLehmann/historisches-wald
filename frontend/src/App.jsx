@@ -20,6 +20,7 @@ import MediaPDFs from './pages/MediaPDFs';
 import AlbumsPage from './pages/AlbumsPage';
 import AlbumDetailPage from './pages/AlbumDetailPage';
 import PhotoDetailPage from './pages/PhotoDetailPage';
+import InternalDashboard from './pages/InternalDashboard';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -61,6 +62,14 @@ const App = () => (
           element={
             <ProtectedRoute>
               <SubmitDocument />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/internal/dashboard"
+          element={
+            <ProtectedRoute>
+              <InternalDashboard />
             </ProtectedRoute>
           }
         />

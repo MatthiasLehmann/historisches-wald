@@ -1,47 +1,36 @@
 {
-	"id": "54190890497",
-	"name": "Von-Weckenstein-Stra\u00dfe 11",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:18:04",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54190890497/",
-	"original": "/images/von-weckenstein-strae-11_54190890497_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720409059862",
-			"date": "2025-01-15 06:24:42",
-			"user": "199943033@N03",
-			"comment": "Die R\u00fcckansicht der 'alten Apotheke' ca. 1970.\nFr\u00fcher Amtshaus und noch fr\u00fcher Bruderhaus.\nApotheker: Ende 1825 Amtsphysikus Hafner / ab 1836 Alois Rosenstiel / Heinrich Sautermeister, gestorben in Wald im Juli 1893 / 1896 Emil Knorr / ab Mai 1898 Dr. H\u00f6lzle / ab Okt. 1901 Steinweg / ab 1906 Curt Wesener - bis 1955. \nDann Frau M\u00fcller, die die 'neue Apotheke' 'im Ort' gebaut hat.\nSp\u00e4ter hat das Kloster das Geb\u00e4ude an Josef Fr\u00f6hlich III verkauft,\nes wurde in zwei Wohnungen umgebaut f\u00fcr Josef Fr\u00f6hlich jun. und\nElfriede Kempter, geb. Fr\u00f6hlich.\nJetzt Haus Kempter.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54190890497//#comment72157720409059862"
-		}
-	]
+  "id": "54190890497",
+  "name": "Von-Weckenstein-Straße 11",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:18:04",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54190890497/",
+  "original": "/files/images/von-weckenstein-strae-11_54190890497_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720409059862",
+      "date": "2025-01-15 06:24:42",
+      "user": "199943033@N03",
+      "comment": "Die Rückansicht der 'alten Apotheke' ca. 1970.\nFrüher Amtshaus und noch früher Bruderhaus.\nApotheker: Ende 1825 Amtsphysikus Hafner / ab 1836 Alois Rosenstiel / Heinrich Sautermeister, gestorben in Wald im Juli 1893 / 1896 Emil Knorr / ab Mai 1898 Dr. Hölzle / ab Okt. 1901 Steinweg / ab 1906 Curt Wesener - bis 1955. \nDann Frau Müller, die die 'neue Apotheke' 'im Ort' gebaut hat.\nSpäter hat das Kloster das Gebäude an Josef Fröhlich III verkauft,\nes wurde in zwei Wohnungen umgebaut für Josef Fröhlich jun. und\nElfriede Kempter, geb. Fröhlich.\nJetzt Haus Kempter.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54190890497//#comment72157720409059862"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54190890497-thumb.jpg"
 }

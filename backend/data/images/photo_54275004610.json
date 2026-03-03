@@ -1,51 +1,42 @@
 {
-	"id": "54275004610",
-	"name": "Wald XV Vorderseite",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-01-19 00:56:34",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-01-19 00:56:34",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54275004610/",
-	"original": "/images/wald-xv-vorderseite_54275004610_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-		{
-			"id": "72177720314562250",
-			"title": "01_Postkarten Wald",
-			"url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
-		}
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720409842280",
-			"date": "2025-01-19 00:57:22",
-			"user": "199943033@N03",
-			"comment": "Postkarte von Clemens Veeser \nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54275004610//#comment72157720409842280"
-		}
-	]
+  "id": "54275004610",
+  "name": "Wald XV Vorderseite",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-01-19 00:56:34",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-01-19 00:56:34",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54275004610/",
+  "original": "/files/images/wald-xv-vorderseite_54275004610_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [
+    {
+      "id": "72177720314562250",
+      "title": "01_Postkarten Wald",
+      "url": "https://www.flickr.com/photos/199943033@N03/sets/72177720314562250/"
+    }
+  ],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720409842280",
+      "date": "2025-01-19 00:57:22",
+      "user": "199943033@N03",
+      "comment": "Postkarte von Clemens Veeser \nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54275004610//#comment72157720409842280"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54275004610-thumb.jpg"
 }

@@ -1,61 +1,52 @@
 {
-	"id": "54632409433",
-	"name": "Einweihung Lebensmittel Diener 1986 VI",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-04 02:40:39",
-	"count_tags": "3",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-04 02:40:39",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54632409433/",
-	"original": "/images/einweihung-lebensmittel-diener-1986-vi_54632409433_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Walbertsweiler",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:40:42"
-		},
-		{
-			"tag": "lebensmitteldiener",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:40:42"
-		},
-		{
-			"tag": "1986",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 02:40:42"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720445015566",
-			"date": "2025-07-04 02:46:18",
-			"user": "199943033@N03",
-			"comment": "Foto von 1986 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54632409433//#comment72157720445015566"
-		}
-	]
+  "id": "54632409433",
+  "name": "Einweihung Lebensmittel Diener 1986 VI",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-04 02:40:39",
+  "count_tags": "3",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-04 02:40:39",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54632409433/",
+  "original": "/files/images/einweihung-lebensmittel-diener-1986-vi_54632409433_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Walbertsweiler",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:40:42"
+    },
+    {
+      "tag": "lebensmitteldiener",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:40:42"
+    },
+    {
+      "tag": "1986",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 02:40:42"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720445015566",
+      "date": "2025-07-04 02:46:18",
+      "user": "199943033@N03",
+      "comment": "Foto von 1986 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54632409433//#comment72157720445015566"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54632409433-thumb.jpg"
 }

@@ -1,61 +1,52 @@
 {
-	"id": "54858862856",
-	"name": "Abbruch Geb\u00e4ude G\u00f6de Hippetsweiler 1991",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-10-16 08:43:53",
-	"count_tags": "3",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-10-16 08:43:53",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54858862856/",
-	"original": "/images/abbruch-gebude-gde-hippetsweiler-1991_54858862856_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Hippetsweiler",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-10-16 08:44:14"
-		},
-		{
-			"tag": "1991",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-10-16 08:44:14"
-		},
-		{
-			"tag": "abbruch",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-10-16 08:44:14"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720465707530",
-			"date": "2025-10-16 08:49:30",
-			"user": "199943033@N03",
-			"comment": "Foto aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54858862856//#comment72157720465707530"
-		}
-	]
+  "id": "54858862856",
+  "name": "Abbruch Gebäude Göde Hippetsweiler 1991",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-10-16 08:43:53",
+  "count_tags": "3",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-10-16 08:43:53",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54858862856/",
+  "original": "/files/images/abbruch-gebude-gde-hippetsweiler-1991_54858862856_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Hippetsweiler",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-10-16 08:44:14"
+    },
+    {
+      "tag": "1991",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-10-16 08:44:14"
+    },
+    {
+      "tag": "abbruch",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-10-16 08:44:14"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720465707530",
+      "date": "2025-10-16 08:49:30",
+      "user": "199943033@N03",
+      "comment": "Foto aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54858862856//#comment72157720465707530"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54858862856-thumb.jpg"
 }

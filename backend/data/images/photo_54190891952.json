@@ -1,54 +1,43 @@
 {
-	"id": "54190891952",
-	"name": "Von-Weckenstein-Stra\u00dfe 9   Wald 1979   (fr\u00fcher Hauptstra\u00dfe 121)",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "2",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:18:59",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54190891952/",
-	"original": "/images/von-weckenstein-strae-9---wald-1979---frher-hauptstrae-121_54190891952_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410728491",
-			"date": "2025-01-22 10:59:47",
-			"user": "199943033@N03",
-			"comment": "Links, fr\u00fcher Koch-Villa, jetzt Au\u00dfenhaus der Heimschule, fr\u00fcher vom Kloster vermietet an Ehepaar Peteln und Legewie.\nDas Haus in der Mitte geh\u00f6rte fr\u00fcher zum Kloster als Pfr\u00fcndnerhaus, \nsp\u00e4ter f\u00fcr Mitarbeiter, zuerst vom Kloster, dann vom F\u00fcrst von Sigmaringen, wie z.B. Xaver Gl\u00f6ckler. Dann Schreinerei und Messnerhaus von Carl Baur sen., Vater von Carl Baur. Sp\u00e4ter Schreinerei von Josef Burth (auch Messner). Jetzt Kempter.\nHaus vorne, fr\u00fcher Br\u00fcder Sch\u00e4fer (nach Amerika ausgewandert), dann Hahn,\nGemischtwarenladen und Bank. Jetzt Kempter.\nRechts Blick auf's Lamm.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54190891952//#comment72157720410728491"
-		},
-		{
-			"id": "72157720412124989",
-			"date": "2025-01-29 09:28:40",
-			"user": "199943033@N03",
-			"comment": "Josef Sch\u00e4fer, Kaufmann\nGeorg Sch\u00e4fer, Kaufmann\nJohann Kaiser\nClemens Hahn\nWilly Hahn \n\nHandlungs-Commis:\n- Julius Joseph Sch\u00e4fer und Bruder Johann Alois Eugen Sch\u00e4fer.\nAm 10. September 1859 rechtlos nach Amerika entlassen.\nWahres Ger\u00fccht?  Sollen Eigent\u00fcmer eines Hochhauses in New York gewesen sein.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54190891952//#comment72157720412124989"
-		}
-	]
+  "id": "54190891952",
+  "name": "Von-Weckenstein-Straße 9   Wald 1979   (früher Hauptstraße 121)",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "2",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:18:59",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54190891952/",
+  "original": "/files/images/von-weckenstein-strae-9---wald-1979---frher-hauptstrae-121_54190891952_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410728491",
+      "date": "2025-01-22 10:59:47",
+      "user": "199943033@N03",
+      "comment": "Links, früher Koch-Villa, jetzt Außenhaus der Heimschule, früher vom Kloster vermietet an Ehepaar Peteln und Legewie.\nDas Haus in der Mitte gehörte früher zum Kloster als Pfründnerhaus, \nspäter für Mitarbeiter, zuerst vom Kloster, dann vom Fürst von Sigmaringen, wie z.B. Xaver Glöckler. Dann Schreinerei und Messnerhaus von Carl Baur sen., Vater von Carl Baur. Später Schreinerei von Josef Burth (auch Messner). Jetzt Kempter.\nHaus vorne, früher Brüder Schäfer (nach Amerika ausgewandert), dann Hahn,\nGemischtwarenladen und Bank. Jetzt Kempter.\nRechts Blick auf's Lamm.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54190891952//#comment72157720410728491"
+    },
+    {
+      "id": "72157720412124989",
+      "date": "2025-01-29 09:28:40",
+      "user": "199943033@N03",
+      "comment": "Josef Schäfer, Kaufmann\nGeorg Schäfer, Kaufmann\nJohann Kaiser\nClemens Hahn\nWilly Hahn \n\nHandlungs-Commis:\n- Julius Joseph Schäfer und Bruder Johann Alois Eugen Schäfer.\nAm 10. September 1859 rechtlos nach Amerika entlassen.\nWahres Gerücht?  Sollen Eigentümer eines Hochhauses in New York gewesen sein.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54190891952//#comment72157720412124989"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54190891952-thumb.jpg"
 }

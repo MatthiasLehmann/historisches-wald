@@ -1,41 +1,28 @@
 {
-	"id": "54295472969",
-	"name": "2-narren-des-tsv-wald-1925_46161181615_o",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-01-29 10:34:48",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-01-29 10:34:48",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54295472969/",
-	"original": "/images/2-narren-des-tsv-wald-1925_46161181615_o_54295472969_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54295472969",
+  "name": "2-narren-des-tsv-wald-1925_46161181615_o",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-01-29 10:34:48",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-01-29 10:34:48",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54295472969/",
+  "original": "/files/images/2-narren-des-tsv-wald-1925_46161181615_o_54295472969_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54295472969-thumb.jpg"
 }

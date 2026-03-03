@@ -1,41 +1,28 @@
 {
-	"id": "53509167890",
-	"name": "Rickenweiher",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2024-02-04 11:03:09",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 270,
-	"date_imported": "2024-02-04 11:03:09",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/53509167890/",
-	"original": "/images/rickenweiher_53509167890_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "53509167890",
+  "name": "Rickenweiher",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2024-02-04 11:03:09",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 270,
+  "date_imported": "2024-02-04 11:03:09",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/53509167890/",
+  "original": "/files/images/rickenweiher_53509167890_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-53509167890-thumb.jpg"
 }

@@ -1,54 +1,43 @@
 {
-	"id": "54192038383",
-	"name": "Hohenzollernstr. 43, Wald 1979, alte Hausnr. 87",
-	"description": "Haus Gn\u00e4dig (Brieftr\u00e4ger).\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "2",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:20:05",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192038383/",
-	"original": "/images/hohenzollernstr-43-wald-1979-alte-hausnr-87_54192038383_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410387755",
-			"date": "2025-01-21 07:40:48",
-			"user": "199943033@N03",
-			"comment": "Bosche Reese",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192038383//#comment72157720410387755"
-		},
-		{
-			"id": "72157720410588079",
-			"date": "2025-01-22 10:00:18",
-			"user": "199943033@N03",
-			"comment": "Rosa, geborene Bosch, verheiratet mit Herrn Gn\u00e4dig, der geb\u00fcrtig aus Dietershofen war und der Brieftr\u00e4ger von Wald.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192038383//#comment72157720410588079"
-		}
-	]
+  "id": "54192038383",
+  "name": "Hohenzollernstr. 43, Wald 1979, alte Hausnr. 87",
+  "description": "Haus Gnädig (Briefträger).\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "2",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:20:05",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192038383/",
+  "original": "/files/images/hohenzollernstr-43-wald-1979-alte-hausnr-87_54192038383_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410387755",
+      "date": "2025-01-21 07:40:48",
+      "user": "199943033@N03",
+      "comment": "Bosche Reese",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192038383//#comment72157720410387755"
+    },
+    {
+      "id": "72157720410588079",
+      "date": "2025-01-22 10:00:18",
+      "user": "199943033@N03",
+      "comment": "Rosa, geborene Bosch, verheiratet mit Herrn Gnädig, der gebürtig aus Dietershofen war und der Briefträger von Wald.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192038383//#comment72157720410588079"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192038383-thumb.jpg"
 }

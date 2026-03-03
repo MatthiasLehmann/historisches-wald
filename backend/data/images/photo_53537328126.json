@@ -1,47 +1,36 @@
 {
-	"id": "53537328126",
-	"name": "Eingemeindungsfeier 1973",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2024-02-18 11:44:17",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-02-18 11:44:17",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/53537328126/",
-	"original": "/images/eingemeindungsfeier-1973_53537328126_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720412142449",
-			"date": "2025-01-29 10:57:27",
-			"user": "199943033@N03",
-			"comment": "Foto von Gemeinde Wald \nStefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/53537328126//#comment72157720412142449"
-		}
-	]
+  "id": "53537328126",
+  "name": "Eingemeindungsfeier 1973",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2024-02-18 11:44:17",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-02-18 11:44:17",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/53537328126/",
+  "original": "/files/images/eingemeindungsfeier-1973_53537328126_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720412142449",
+      "date": "2025-01-29 10:57:27",
+      "user": "199943033@N03",
+      "comment": "Foto von Gemeinde Wald \nStefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/53537328126//#comment72157720412142449"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-53537328126-thumb.jpg"
 }

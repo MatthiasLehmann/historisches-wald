@@ -1,47 +1,36 @@
 {
-	"id": "54191791421",
-	"name": "Hans Stau\u00df",
-	"description": "Fr\u00fcher Friseurgesch\u00e4ft. Das Haus wurde abgebrochen, heute Voba.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:40",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191791421/",
-	"original": "/images/hans-stau_54191791421_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410592189",
-			"date": "2025-01-22 10:22:16",
-			"user": "199943033@N03",
-			"comment": "Friseurgesch\u00e4ft.\nWurde abgebrochen vor dem Bau der Raiffeisenbank.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191791421//#comment72157720410592189"
-		}
-	]
+  "id": "54191791421",
+  "name": "Hans Stauß",
+  "description": "Früher Friseurgeschäft. Das Haus wurde abgebrochen, heute Voba.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:40",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191791421/",
+  "original": "/files/images/hans-stau_54191791421_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410592189",
+      "date": "2025-01-22 10:22:16",
+      "user": "199943033@N03",
+      "comment": "Friseurgeschäft.\nWurde abgebrochen vor dem Bau der Raiffeisenbank.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191791421//#comment72157720410592189"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191791421-thumb.jpg"
 }

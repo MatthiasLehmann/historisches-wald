@@ -1,60 +1,53 @@
 {
-	"id": "54022778387",
-	"name": "Luftbild 1921",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1921-01-01 00:00:00",
-	"count_tags": "2",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-09-26 12:22:03",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54022778387/",
-	"original": "/images/luftbild-1921_54022778387_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-		{
-			"id": "14902113@N21",
-			"name": "Historisches Wald",
-			"url": "https://www.flickr.com/groups/14902113@N21/"
-		}
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Sentenhart",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2024-09-26 12:22:21"
-		},
-		{
-			"tag": "Luftbild",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2024-09-26 12:22:21"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720390767670",
-			"date": "2024-10-22 09:48:51",
-			"user": "199943033@N03",
-			"comment": "K\u00f6nnte Sentenhart sein\nMatthias Lehmann",
-			"url": "https://www.flickr.com/photos/199943033@N03/54022778387//#comment72157720390767670"
-		}
-	]
+  "id": "54022778387",
+  "name": "Luftbild 1921",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1921-01-01 00:00:00",
+  "count_tags": "2",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-09-26 12:22:03",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54022778387/",
+  "original": "/files/images/luftbild-1921_54022778387_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [
+    {
+      "id": "14902113@N21",
+      "name": "Historisches Wald",
+      "url": "https://www.flickr.com/groups/14902113@N21/"
+    }
+  ],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Sentenhart",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2024-09-26 12:22:21"
+    },
+    {
+      "tag": "Luftbild",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2024-09-26 12:22:21"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720390767670",
+      "date": "2024-10-22 09:48:51",
+      "user": "199943033@N03",
+      "comment": "Könnte Sentenhart sein\nMatthias Lehmann",
+      "url": "https://www.flickr.com/photos/199943033@N03/54022778387//#comment72157720390767670"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54022778387-thumb.jpg"
 }

@@ -1,47 +1,36 @@
 {
-	"id": "54191792226",
-	"name": "Klosterweiher",
-	"description": "Weiherbr\u00fcckle.\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:20:13",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54191792226/",
-	"original": "/images/klosterweiher_54191792226_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410651497",
-			"date": "2025-01-22 09:53:41",
-			"user": "199943033@N03",
-			"comment": "Weiherbr\u00fcckle\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54191792226//#comment72157720410651497"
-		}
-	]
+  "id": "54191792226",
+  "name": "Klosterweiher",
+  "description": "Weiherbrückle.\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:20:13",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54191792226/",
+  "original": "/files/images/klosterweiher_54191792226_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410651497",
+      "date": "2025-01-22 09:53:41",
+      "user": "199943033@N03",
+      "comment": "Weiherbrückle\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54191792226//#comment72157720410651497"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54191792226-thumb.jpg"
 }

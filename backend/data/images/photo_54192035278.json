@@ -1,47 +1,36 @@
 {
-	"id": "54192035278",
-	"name": "Unterd\u00f6rfer von-Weckensteinstrasse",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:18:06",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192035278/",
-	"original": "/images/unterdrfer-von-weckensteinstrasse_54192035278_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720410730891",
-			"date": "2025-01-22 11:13:31",
-			"user": "199943033@N03",
-			"comment": "Fr\u00fcher Forsthaus und sp\u00e4ter Waschhaus vom Kloster mit Schwester Anna.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192035278//#comment72157720410730891"
-		}
-	]
+  "id": "54192035278",
+  "name": "Unterdörfer von-Weckensteinstrasse",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:18:06",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192035278/",
+  "original": "/files/images/unterdrfer-von-weckensteinstrasse_54192035278_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720410730891",
+      "date": "2025-01-22 11:13:31",
+      "user": "199943033@N03",
+      "comment": "Früher Forsthaus und später Waschhaus vom Kloster mit Schwester Anna.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192035278//#comment72157720410730891"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192035278-thumb.jpg"
 }

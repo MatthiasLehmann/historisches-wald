@@ -1,61 +1,52 @@
 {
-	"id": "54632343135",
-	"name": "Soldatengrab Ruhestetten 1958",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-07-04 00:59:14",
-	"count_tags": "3",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-04 00:59:14",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54632343135/",
-	"original": "/images/soldatengrab-ruhestetten-1958_54632343135_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Ruhestetten",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 00:59:20"
-		},
-		{
-			"tag": "soldatengrab",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 00:59:20"
-		},
-		{
-			"tag": "1958",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 00:59:20"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444942010",
-			"date": "2025-07-04 01:00:06",
-			"user": "199943033@N03",
-			"comment": "Foto von 1958 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54632343135//#comment72157720444942010"
-		}
-	]
+  "id": "54632343135",
+  "name": "Soldatengrab Ruhestetten 1958",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-07-04 00:59:14",
+  "count_tags": "3",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-04 00:59:14",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54632343135/",
+  "original": "/files/images/soldatengrab-ruhestetten-1958_54632343135_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Ruhestetten",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 00:59:20"
+    },
+    {
+      "tag": "soldatengrab",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 00:59:20"
+    },
+    {
+      "tag": "1958",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 00:59:20"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444942010",
+      "date": "2025-07-04 01:00:06",
+      "user": "199943033@N03",
+      "comment": "Foto von 1958 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54632343135//#comment72157720444942010"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54632343135-thumb.jpg"
 }

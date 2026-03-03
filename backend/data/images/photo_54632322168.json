@@ -1,66 +1,57 @@
 {
-	"id": "54632322168",
-	"name": "Eingemeindungsfeier Sentenhart 1973 XIII",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "2025-07-04 01:37:05",
-	"count_tags": "4",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-07-04 01:37:05",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54632322168/",
-	"original": "/images/eingemeindungsfeier-sentenhart-1973-xiii_54632322168_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-		{
-			"tag": "Sentenhart",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 01:37:18"
-		},
-		{
-			"tag": "eingemeindung",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 01:37:18"
-		},
-		{
-			"tag": "eingemeindungsfeier",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 01:37:18"
-		},
-		{
-			"tag": "1973",
-			"user": "https://www.flickr.com/photos/199943033@N03/",
-			"date_create": "2025-07-04 01:37:18"
-		}
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720444949785",
-			"date": "2025-07-04 01:49:37",
-			"user": "199943033@N03",
-			"comment": "Foto von 1973 aus Archiv Gemeinde Wald\nKommentar von Stefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54632322168//#comment72157720444949785"
-		}
-	]
+  "id": "54632322168",
+  "name": "Eingemeindungsfeier Sentenhart 1973 XIII",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "2025-07-04 01:37:05",
+  "count_tags": "4",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-07-04 01:37:05",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54632322168/",
+  "original": "/files/images/eingemeindungsfeier-sentenhart-1973-xiii_54632322168_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [
+    {
+      "tag": "Sentenhart",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 01:37:18"
+    },
+    {
+      "tag": "eingemeindung",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 01:37:18"
+    },
+    {
+      "tag": "eingemeindungsfeier",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 01:37:18"
+    },
+    {
+      "tag": "1973",
+      "user": "https://www.flickr.com/photos/199943033@N03/",
+      "date_create": "2025-07-04 01:37:18"
+    }
+  ],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720444949785",
+      "date": "2025-07-04 01:49:37",
+      "user": "199943033@N03",
+      "comment": "Foto von 1973 aus Archiv Gemeinde Wald\nKommentar von Stefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54632322168//#comment72157720444949785"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54632322168-thumb.jpg"
 }

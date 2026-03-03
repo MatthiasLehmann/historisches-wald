@@ -1,47 +1,36 @@
 {
-	"id": "54382714954",
-	"name": "Abbruch 1992",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "2025-03-12 11:10:04",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2025-03-12 11:10:04",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54382714954/",
-	"original": "/images/abbruch-1992_54382714954_o.jpg",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720421458300",
-			"date": "2025-03-12 11:16:56",
-			"user": "199943033@N03",
-			"comment": "Foto Archiv Gemeinde Wald\nStefanie Gr\u00fcner",
-			"url": "https://www.flickr.com/photos/199943033@N03/54382714954//#comment72157720421458300"
-		}
-	]
+  "id": "54382714954",
+  "name": "Abbruch 1992",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "2025-03-12 11:10:04",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2025-03-12 11:10:04",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54382714954/",
+  "original": "/files/images/abbruch-1992_54382714954_o.jpg",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720421458300",
+      "date": "2025-03-12 11:16:56",
+      "user": "199943033@N03",
+      "comment": "Foto Archiv Gemeinde Wald\nStefanie Grüner",
+      "url": "https://www.flickr.com/photos/199943033@N03/54382714954//#comment72157720421458300"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54382714954-thumb.jpg"
 }

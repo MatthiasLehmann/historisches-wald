@@ -1,47 +1,36 @@
 {
-	"id": "54192061334",
-	"name": "Von-Weckenstein-Stra\u00dfe 30   Wald 1979",
-	"description": "",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "1",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:19:55",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192061334/",
-	"original": "/images/von-weckenstein-strae-30---wald-1979_54192061334_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-		{
-			"id": "72157720412250541",
-			"date": "2025-01-29 09:09:48",
-			"user": "199943033@N03",
-			"comment": "Fr\u00fcher neuer Kindergarten, dann T\u00f6pferei vom Kloster.\nElfriede Kempter",
-			"url": "https://www.flickr.com/photos/199943033@N03/54192061334//#comment72157720412250541"
-		}
-	]
+  "id": "54192061334",
+  "name": "Von-Weckenstein-Straße 30   Wald 1979",
+  "description": "",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "1",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:19:55",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192061334/",
+  "original": "/files/images/von-weckenstein-strae-30---wald-1979_54192061334_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [
+    {
+      "id": "72157720412250541",
+      "date": "2025-01-29 09:09:48",
+      "user": "199943033@N03",
+      "comment": "Früher neuer Kindergarten, dann Töpferei vom Kloster.\nElfriede Kempter",
+      "url": "https://www.flickr.com/photos/199943033@N03/54192061334//#comment72157720412250541"
+    }
+  ],
+  "preview": "/files/images/thumbnails/photo-54192061334-thumb.jpg"
 }

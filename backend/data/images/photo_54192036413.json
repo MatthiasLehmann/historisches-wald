@@ -1,41 +1,28 @@
 {
-	"id": "54192036413",
-	"name": "Erath Bernhard",
-	"description": "Fr\u00fcher Fabrik (N\u00e4herei).\nEK",
-	"count_views": "0",
-	"count_faves": "0",
-	"count_comments": "0",
-	"date_taken": "1979-01-01 00:00:00",
-	"count_tags": "0",
-	"count_notes": "0",
-	"rotation": 0,
-	"date_imported": "2024-12-08 15:18:43",
-	"photopage": "https://www.flickr.com/photos/199943033@N03/54192036413/",
-	"original": "/images/erath-bernhard_54192036413_o.png",
-	"license": "All Rights Reserved",
-	"geo": [
-
-	],
-	"groups": [
-
-	],
-	"albums": [
-
-	],
-	"tags": [
-
-	],
-	"people": [
-
-	],
-	"notes": [
-
-	],
-	"privacy": "private",
-	"comment_permissions": "only you",
-	"tagging_permissions": "only you",
-	"safety": "safe",
-	"comments": [
-
-	]
+  "id": "54192036413",
+  "name": "Erath Bernhard",
+  "description": "Früher Fabrik (Näherei).\nEK",
+  "count_views": "0",
+  "count_faves": "0",
+  "count_comments": "0",
+  "date_taken": "1979-01-01 00:00:00",
+  "count_tags": "0",
+  "count_notes": "0",
+  "rotation": 0,
+  "date_imported": "2024-12-08 15:18:43",
+  "photopage": "https://www.flickr.com/photos/199943033@N03/54192036413/",
+  "original": "/files/images/erath-bernhard_54192036413_o.png",
+  "license": "All Rights Reserved",
+  "geo": [],
+  "groups": [],
+  "albums": [],
+  "tags": [],
+  "people": [],
+  "notes": [],
+  "privacy": "private",
+  "comment_permissions": "only you",
+  "tagging_permissions": "only you",
+  "safety": "safe",
+  "comments": [],
+  "preview": "/files/images/thumbnails/photo-54192036413-thumb.jpg"
 }
