@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import categoriesData from '../data/categories.json';
 import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
 import AlbumPhotoSelectorModal from '../components/AlbumPhotoSelectorModal.jsx';
@@ -30,6 +30,9 @@ const SubmitDocument = () => {
   const [isAlbumPhotoSelectorOpen, setIsAlbumPhotoSelectorOpen] = useState(false);
   const [selectedPdfs, setSelectedPdfs] = useState([]);
   const [isPdfSelectorOpen, setIsPdfSelectorOpen] = useState(false);
+  const [pdfLibrary, setPdfLibrary] = useState([]);
+  const [pdfLibraryLoading, setPdfLibraryLoading] = useState(false);
+  const [pdfLibraryError, setPdfLibraryError] = useState(null);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -72,6 +75,25 @@ const SubmitDocument = () => {
     loadDocuments();
   }, []);
 
+  const loadPdfLibrary = useCallback(async () => {
+    setPdfLibraryLoading(true);
+    setPdfLibraryError(null);
+    try {
+      const data = await fetchPdfs({ sort: 'updatedAt', order: 'desc' });
+      setPdfLibrary(Array.isArray(data) ? data : []);
+    } catch (error) {
+      console.error('PDF-Bibliothek konnte nicht geladen werden:', error);
+      setPdfLibraryError(error.message || 'PDFs konnten nicht geladen werden.');
+      setPdfLibrary([]);
+    } finally {
+      setPdfLibraryLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    loadPdfLibrary();
+  }, [loadPdfLibrary]);
+
   const resetForm = () => {
     setForm(initialForm);
     setSelectedArea('');
@@ -111,6 +133,9 @@ const SubmitDocument = () => {
     loadSelectedAlbumPhotos(nextAlbumPhotoIds);
     const nextPdfIds = Array.isArray(doc.pdfIds) ? doc.pdfIds : [];
     loadSelectedPdfs(nextPdfIds);
+    if (nextPdfIds.length > 0) {
+      loadPdfLibrary();
+    }
   };
 
   const handleSubmit = async (event) => {
@@ -537,6 +562,10 @@ const SubmitDocument = () => {
         onConfirm={handlePdfSelectionSave}
         selectedIds={form.pdfIds}
         selectedPdfs={selectedPdfs}
+        pdfLibrary={pdfLibrary}
+        pdfLibraryLoading={pdfLibraryLoading}
+        pdfLibraryError={pdfLibraryError}
+        onRefreshLibrary={loadPdfLibrary}
       />
     </div>
   );

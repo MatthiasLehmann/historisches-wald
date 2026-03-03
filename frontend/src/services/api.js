@@ -89,6 +89,16 @@ export const createPdfAsset = async (payload) => mutatePdf('/pdfs', 'POST', payl
 
 export const updatePdfAsset = async (id, payload) => mutatePdf(`/pdfs/${id}`, 'PUT', payload);
 
+export const fetchLocalPdfFiles = async () => {
+    try {
+        const response = await fetch(`${API_BASE}/pdfs/files/local`);
+        return await handleResponse(response);
+    } catch (error) {
+        console.error('Failed to fetch local PDF files:', error);
+        throw error;
+    }
+};
+
 export const deletePdfAsset = async (id) => {
     const response = await fetch(`${API_BASE}/pdfs/${id}`, { method: 'DELETE' });
     return handleResponse(response);

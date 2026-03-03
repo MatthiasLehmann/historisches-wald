@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Calendar, MapPin, User, FileText, Bookmark, ScrollText } from 'lucide-react';
+import { ArrowLeft, Calendar, MapPin, User, FileText, Bookmark, ScrollText, X } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import ImageGallery from '../components/ImageGallery';
 import { fetchDocuments } from '../services/api';
@@ -11,6 +11,7 @@ const DocumentPage = () => {
     const [document, setDocument] = React.useState(null);
     const [isLoading, setIsLoading] = React.useState(true);
     const [error, setError] = React.useState(null);
+    const [activePdf, setActivePdf] = React.useState(null);
 
     React.useEffect(() => {
         let ignore = false;
@@ -42,12 +43,34 @@ const DocumentPage = () => {
         };
     }, [id]);
 
+    const resolvePdfUrl = React.useCallback((pdf) => {
+        if (!pdf) {
+            return '';
+        }
+        if (pdf.file?.type === 'remote') {
+            return pdf.file?.originalUrl || pdf.file?.path || '';
+        }
+        return pdf.file?.path || pdf.file?.originalUrl || '';
+    }, []);
+
     const subcategories = React.useMemo(() => {
         if (!document) return [];
         if (Array.isArray(document.subcategories)) return document.subcategories;
         if (document.subcategory) return [document.subcategory];
         return [];
     }, [document]);
+
+    const linkedPdfs = React.useMemo(() => {
+        if (!document || !Array.isArray(document.pdfs)) {
+            return [];
+        }
+        return document.pdfs
+            .map((pdf) => ({
+                ...pdf,
+                url: resolvePdfUrl(pdf)
+            }))
+            .filter((pdf) => Boolean(pdf.url));
+    }, [document, resolvePdfUrl]);
 
     if (isLoading) {
         return (
@@ -134,6 +157,49 @@ const DocumentPage = () => {
                         <h3 className="font-serif text-xl font-bold mb-4">Galerie</h3>
                         <ImageGallery images={document.images} title={document.title} />
                     </section>
+
+                    {linkedPdfs.length > 0 && (
+                        <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
+                            <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
+                                <FileText size={20} className="text-accent" />
+                                Verknüpfte PDFs
+                            </h3>
+                            <div className="space-y-4">
+                                {linkedPdfs.map((pdf) => (
+                                    <article
+                                        key={pdf.id || pdf.url}
+                                        className="border border-parchment-dark rounded-sm p-4 space-y-3 bg-parchment/20"
+                                    >
+                                        <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+                                            <div>
+                                                <p className="text-lg font-serif font-semibold text-ink">{pdf.title}</p>
+                                                <p className="text-sm text-ink/70">
+                                                    {pdf.year || 'Ohne Jahr'} · {pdf.location || 'Ohne Ort'}
+                                                </p>
+                                                <p className="text-xs text-ink/60 mt-1">
+                                                    Quelle: {pdf.source || 'Unbekannt'} · Lizenz: {pdf.license || 'rights-reserved'}
+                                                </p>
+                                            </div>
+                                            <button
+                                                type="button"
+                                                onClick={() => setActivePdf(pdf)}
+                                                className="px-4 py-2 text-sm font-semibold border border-accent text-accent rounded-sm hover:bg-accent hover:text-white transition"
+                                            >
+                                                PDF anzeigen
+                                            </button>
+                                        </div>
+                                        <div className="border border-dashed border-parchment-dark/70 rounded-sm overflow-hidden bg-white">
+                                            <iframe
+                                                src={pdf.url}
+                                                title={pdf.title}
+                                                className="w-full h-64"
+                                            />
+                                        </div>
+                                    </article>
+                                ))}
+                            </div>
+                        </section>
+                    )}
                 </div>
 
                 <aside className="space-y-6">
@@ -183,6 +249,40 @@ const DocumentPage = () => {
                     </div>
                 </aside>
             </div>
+            {activePdf && (
+                <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 px-4">
+                    <div className="bg-white w-full max-w-4xl rounded-sm shadow-2xl border border-parchment-dark relative">
+                        <button
+                            type="button"
+                            className="absolute top-3 right-3 text-ink/70 hover:text-accent"
+                            onClick={() => setActivePdf(null)}
+                            aria-label="PDF schließen"
+                        >
+                            <X size={20} />
+                        </button>
+                        <header className="px-6 py-4 border-b border-parchment-dark">
+                            <p className="text-xs uppercase tracking-[0.4em] text-ink/60">PDF Vorschau</p>
+                            <h4 className="text-xl font-serif font-bold text-ink">{activePdf.title}</h4>
+                        </header>
+                        <div className="h-[70vh]">
+                            <iframe
+                                src={activePdf.url}
+                                title={activePdf.title}
+                                className="w-full h-full"
+                            />
+                        </div>
+                        <div className="flex justify-end gap-3 px-6 py-4 border-t border-parchment-dark">
+                            <button
+                                type="button"
+                                className="px-4 py-2 text-sm border border-parchment-dark rounded-sm hover:bg-parchment/40"
+                                onClick={() => setActivePdf(null)}
+                            >
+                                Schließen
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </article>
     );
 };

@@ -1,3 +1,4 @@
+import { promises as fs } from 'fs';
 import {
   generatePdfId,
   normalizePdf,
@@ -13,6 +14,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DOCUMENTS_FILE = path.join(__dirname, '..', 'data', 'documents.json');
+const PDF_FILES_DIR = path.join(__dirname, '..', 'public', 'files', 'pdf');
 
 const ensurePdfExtension = (value) => {
   if (!value) {
@@ -184,6 +186,24 @@ const persistDocumentPdfRemoval = async (pdfId) => {
   }
 };
 
+const readLocalPdfFiles = async () => {
+  try {
+    const entries = await fs.readdir(PDF_FILES_DIR, { withFileTypes: true });
+    return entries
+      .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith('.pdf'))
+      .map((entry) => ({
+        name: entry.name,
+        path: `/files/pdf/${entry.name}`
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name, 'de', { sensitivity: 'base' }));
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return [];
+    }
+    throw error;
+  }
+};
+
 const handleError = (res, error, fallback) => {
   const status = error.statusCode || 500;
   const message = error.message || fallback;
@@ -200,6 +220,15 @@ export const listPdfs = async (req, res) => {
     res.json(filtered);
   } catch (error) {
     handleError(res, error, 'PDFs konnten nicht geladen werden.');
+  }
+};
+
+export const listLocalPdfFiles = async (_req, res) => {
+  try {
+    const files = await readLocalPdfFiles();
+    res.json(files);
+  } catch (error) {
+    handleError(res, error, 'PDF-Dateien konnten nicht geladen werden.');
   }
 };
 

@@ -14,7 +14,11 @@ const PdfSelectorModal = ({
   onClose,
   onConfirm,
   selectedIds = [],
-  selectedPdfs = []
+  selectedPdfs = [],
+  pdfLibrary,
+  pdfLibraryLoading = false,
+  pdfLibraryError = null,
+  onRefreshLibrary
 }) => {
   const [pdfs, setPdfs] = useState([]);
   const [filters, setFilters] = useState({ q: '', year: '', status: '', tag: '' });
@@ -24,6 +28,10 @@ const PdfSelectorModal = ({
 
   const selectedCount = selectionMap.size;
   const selectedIdsKey = useMemo(() => (Array.isArray(selectedIds) ? selectedIds.join(',') : ''), [selectedIds]);
+  const hasExternalLibrary = Array.isArray(pdfLibrary);
+  const dataSource = hasExternalLibrary ? pdfLibrary : pdfs;
+  const combinedLoading = hasExternalLibrary ? pdfLibraryLoading : loading;
+  const combinedError = hasExternalLibrary ? pdfLibraryError : error;
 
   useEffect(() => {
     if (!isOpen) {
@@ -48,14 +56,13 @@ const PdfSelectorModal = ({
   }, []);
 
   const loadPdfs = async () => {
-    if (!isOpen) {
+    if (!isOpen || hasExternalLibrary) {
       return;
     }
     setLoading(true);
     setError(null);
     try {
       const data = await fetchPdfs({
-        ...filters,
         sort: 'updatedAt',
         order: 'desc'
       });
@@ -80,9 +87,67 @@ const PdfSelectorModal = ({
   };
 
   useEffect(() => {
+    if (!isOpen || hasExternalLibrary) {
+      return;
+    }
     loadPdfs();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filters.q, filters.year, filters.status, filters.tag, isOpen, selectedIdsKey]);
+  }, [isOpen, hasExternalLibrary, selectedIdsKey]);
+
+  const filteredPdfs = useMemo(() => {
+    const base = Array.isArray(dataSource) ? dataSource : [];
+    const query = filters.q.trim().toLowerCase();
+    const yearFilter = filters.year.trim();
+    const statusFilter = filters.status.trim();
+    const tagFilter = filters.tag.trim().toLowerCase();
+
+    const matches = base.filter((pdf) => {
+      if (query) {
+        const haystack = [
+          pdf.title,
+          pdf.description,
+          pdf.source,
+          pdf.location,
+          pdf.author,
+          ...(Array.isArray(pdf.tags) ? pdf.tags : [])
+        ]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase();
+        if (!haystack.includes(query)) {
+          return false;
+        }
+      }
+      if (yearFilter) {
+        const parsedYear = Number(yearFilter);
+        if (!Number.isNaN(parsedYear)) {
+          if (Number(pdf.year) !== parsedYear) {
+            return false;
+          }
+        }
+      }
+      if (statusFilter) {
+        if ((pdf.review?.status || 'pending') !== statusFilter) {
+          return false;
+        }
+      }
+      if (tagFilter) {
+        const tags = Array.isArray(pdf.tags) ? pdf.tags.map((tag) => String(tag).toLowerCase()) : [];
+        if (!tags.includes(tagFilter)) {
+          return false;
+        }
+      }
+      return true;
+    });
+
+    return matches
+      .slice()
+      .sort((a, b) => {
+        const left = new Date(a.updatedAt || a.createdAt || 0).getTime();
+        const right = new Date(b.updatedAt || b.createdAt || 0).getTime();
+        return right - left;
+      });
+  }, [dataSource, filters.q, filters.year, filters.status, filters.tag]);
 
   if (!isOpen) {
     return null;
@@ -105,6 +170,14 @@ const PdfSelectorModal = ({
     onClose();
   };
 
+  const handleRefresh = () => {
+    if (hasExternalLibrary) {
+      onRefreshLibrary?.();
+    } else {
+      loadPdfs();
+    }
+  };
+
   return (
     <div className="fixed inset-0 bg-black/50 z-50 flex items-start justify-center overflow-y-auto p-6">
       <div className="bg-white rounded-md shadow-xl w-full max-w-5xl">
@@ -119,7 +192,7 @@ const PdfSelectorModal = ({
         </header>
 
         <div className="p-6 space-y-4">
-          {error && <div className="bg-red-50 text-red-700 px-4 py-2 text-sm">{error}</div>}
+          {combinedError && <div className="bg-red-50 text-red-700 px-4 py-2 text-sm">{combinedError}</div>}
 
           <div className="grid md:grid-cols-4 gap-4">
             <input
@@ -155,17 +228,22 @@ const PdfSelectorModal = ({
             <div className="text-sm text-ink/60 flex items-center">
               {selectedCount} PDF(s) ausgewählt
             </div>
-            <button type="button" className="text-sm text-accent hover:underline justify-self-end" onClick={loadPdfs}>
+            <button
+              type="button"
+              className="text-sm text-accent hover:underline justify-self-end disabled:opacity-50"
+              onClick={handleRefresh}
+              disabled={combinedLoading}
+            >
               Aktualisieren
             </button>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-4">
-            {loading && <p className="text-sm text-ink/60">Lade PDFs…</p>}
-            {!loading && pdfs.length === 0 && (
+            {combinedLoading && <p className="text-sm text-ink/60">Lade PDFs…</p>}
+            {!combinedLoading && filteredPdfs.length === 0 && (
               <p className="text-sm text-ink/60">Keine PDFs gefunden.</p>
             )}
-            {pdfs.map((pdf) => {
+            {filteredPdfs.map((pdf) => {
               const isSelected = selectionMap.has(pdf.id);
               const url = previewUrl(pdf);
               return (

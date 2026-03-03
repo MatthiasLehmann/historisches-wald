@@ -1,5 +1,33 @@
 [
   {
+    "id": "pdf-00004",
+    "title": "Adressbuch von 1935",
+    "year": 1935,
+    "description": "Aus der Liste extrahierte Namen und Branchen",
+    "location": "Wald",
+    "source": "Geneinde Wald",
+    "author": "Matthias Lehmann",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Addressbuch 1935.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1772554386220"
+    ],
+    "createdAt": "2026-03-03T16:11:36.459Z",
+    "updatedAt": "2026-03-03T16:13:06.221Z"
+  },
+  {
     "id": "pdf-00003",
     "title": "Test",
     "year": 2026,
@@ -11,7 +39,7 @@
     "tags": [],
     "file": {
       "type": "local",
-      "path": "/files/pdf/2026-02 Festgemeinschaft TSV und NV Wald Umzug Wald.pdf",
+      "path": "/files/pdf/Addressbuch 1928.pdf",
       "originalUrl": null
     },
     "pages": null,
@@ -23,64 +51,6 @@
     },
     "linkedDocuments": [],
     "createdAt": "2026-02-27T14:48:19.126Z",
-    "updatedAt": "2026-02-27T14:48:19.126Z"
-  },
-  {
-    "id": "pdf-00001",
-    "title": "Südkurier Artikel – Brand Riedetsweiler",
-    "year": 1964,
-    "description": "Scan des Artikels vom 03.08.1964",
-    "location": "Riedetsweiler",
-    "source": "Südkurier, 03.08.1964",
-    "author": "Unbekannt",
-    "license": "rights-reserved",
-    "tags": [
-      "Zeitung",
-      "Brand"
-    ],
-    "file": {
-      "type": "local",
-      "path": "/files/pdf/pdf-00001.pdf",
-      "originalUrl": null
-    },
-    "pages": null,
-    "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
-      "comments": []
-    },
-    "linkedDocuments": [],
-    "createdAt": "2026-02-20T08:00:00.000Z",
-    "updatedAt": "2026-03-03T13:57:04.215Z"
-  },
-  {
-    "id": "pdf-00002",
-    "title": "Gemeinderatsprotokoll Wald",
-    "year": 1958,
-    "description": "Beschlüsse zum Wiederaufbau",
-    "location": "Wald",
-    "source": "Gemeindearchiv",
-    "author": "Gemeinderat Wald",
-    "license": "public-domain",
-    "tags": [
-      "Protokoll",
-      "Gemeinderat"
-    ],
-    "file": {
-      "type": "remote",
-      "path": "",
-      "originalUrl": "https://example.com/pdf/pdf-00002.pdf"
-    },
-    "pages": null,
-    "review": {
-      "status": "approved",
-      "reviewer": "Matthias Lehmann",
-      "reviewedAt": "2026-02-24T09:00:00.000Z",
-      "comments": []
-    },
-    "linkedDocuments": [],
-    "createdAt": "2026-02-19T09:00:00.000Z",
-    "updatedAt": "2026-02-24T09:00:00.000Z"
+    "updatedAt": "2026-03-03T16:00:42.139Z"
   }
 ]

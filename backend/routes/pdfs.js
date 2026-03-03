@@ -6,6 +6,7 @@ import {
   deletePdf,
   getPdf,
   importPdfFromUrl,
+  listLocalPdfFiles,
   listPdfs,
   updatePdf,
   updateReviewStatus
@@ -14,6 +15,7 @@ import {
 const router = Router();
 
 router.get('/', listPdfs);
+router.get('/files/local', listLocalPdfFiles);
 router.post('/', createPdf);
 router.post('/import-url', importPdfFromUrl);
 router.get('/:id', getPdf);

@@ -3,6 +3,7 @@ import {
   addPdfReviewComment,
   completePdfReview,
   createPdfAsset,
+  fetchLocalPdfFiles,
   updatePdfAsset,
   updatePdfReviewStatus
 } from '../services/api.js';
@@ -35,6 +36,9 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
   const [reviewerName, setReviewerName] = useState('');
   const [statusValue, setStatusValue] = useState('pending');
   const [commentText, setCommentText] = useState('');
+  const [localFiles, setLocalFiles] = useState([]);
+  const [localFilesLoading, setLocalFilesLoading] = useState(false);
+  const [localFilesError, setLocalFilesError] = useState(null);
 
   const previewUrl = useMemo(() => {
     if (form.fileType === 'remote') {
@@ -42,6 +46,10 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
     }
     return form.filePath || form.fileOriginalUrl || '';
   }, [form.fileOriginalUrl, form.filePath, form.fileType]);
+  const hasCurrentLocalFile = useMemo(
+    () => (form.filePath ? localFiles.some((file) => file.path === form.filePath) : false),
+    [form.filePath, localFiles]
+  );
 
   useEffect(() => {
     if (!isOpen) {
@@ -69,6 +77,37 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
     setReviewerName(pdf?.review?.reviewer ?? '');
     setStatusValue(pdf?.review?.status ?? 'pending');
   }, [isOpen, pdf]);
+
+  useEffect(() => {
+    if (!isOpen) {
+      return undefined;
+    }
+    let cancelled = false;
+    const loadLocalFiles = async () => {
+      setLocalFilesLoading(true);
+      setLocalFilesError(null);
+      try {
+        const files = await fetchLocalPdfFiles();
+        if (!cancelled) {
+          setLocalFiles(Array.isArray(files) ? files : []);
+        }
+      } catch (loadError) {
+        console.error('Lokale PDF-Dateien konnten nicht geladen werden:', loadError);
+        if (!cancelled) {
+          setLocalFiles([]);
+          setLocalFilesError('Lokale PDF-Dateien konnten nicht geladen werden.');
+        }
+      } finally {
+        if (!cancelled) {
+          setLocalFilesLoading(false);
+        }
+      }
+    };
+    loadLocalFiles();
+    return () => {
+      cancelled = true;
+    };
+  }, [isOpen]);
 
   const handleFieldChange = (event) => {
     const { name, value } = event.target;
@@ -295,13 +334,43 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
             </label>
             <label className="space-y-1 text-sm font-medium text-ink/80">
               Pfad
-              <input
-                name="filePath"
-                value={form.filePath}
-                onChange={handleFieldChange}
-                className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-                placeholder="/files/pdf/abc.pdf"
-              />
+              {form.fileType === 'local' ? (
+                <div className="space-y-1">
+                  <select
+                    name="filePath"
+                    value={form.filePath}
+                    onChange={handleFieldChange}
+                    className="w-full border border-parchment-dark rounded-sm px-3 py-2 bg-white"
+                    required
+                    disabled={localFilesLoading}
+                  >
+                    <option value="">PDF auswählen…</option>
+                    {form.filePath && !hasCurrentLocalFile && (
+                      <option value={form.filePath}>{`Aktueller Pfad (${form.filePath})`}</option>
+                    )}
+                    {localFiles.map((file) => (
+                      <option key={file.path} value={file.path}>
+                        {file.name}
+                      </option>
+                    ))}
+                  </select>
+                  {localFilesLoading && <p className="text-xs text-ink/60">Lade lokale PDFs…</p>}
+                  {!localFilesLoading && localFilesError && (
+                    <p className="text-xs text-red-600">{localFilesError}</p>
+                  )}
+                  {!localFilesLoading && !localFilesError && localFiles.length === 0 && !hasCurrentLocalFile && (
+                    <p className="text-xs text-ink/60">Keine lokalen PDFs gefunden.</p>
+                  )}
+                </div>
+              ) : (
+                <input
+                  name="filePath"
+                  value={form.filePath}
+                  onChange={handleFieldChange}
+                  className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                  placeholder="/files/pdf/abc.pdf"
+                />
+              )}
             </label>
             <label className="space-y-1 text-sm font-medium text-ink/80">
               Original-URL
