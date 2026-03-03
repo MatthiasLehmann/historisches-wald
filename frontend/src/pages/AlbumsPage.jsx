@@ -214,10 +214,10 @@ const AlbumsPage = () => {
       if (response?.album) {
         setAlbums((prev) => prev.map((album) => (album.id === response.album.id ? response.album : album)));
       }
-      setPhotoForm((prev) => ({
+      setPhotoForm({
         ...defaultPhotoForm,
         albumId: targetAlbumId
-      }));
+      });
       if (fileInputRef.current) {
         fileInputRef.current.value = '';
       }

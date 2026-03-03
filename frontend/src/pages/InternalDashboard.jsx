@@ -25,6 +25,9 @@ const formatDateTime = (iso) => {
 };
 
 const StatusGrid = ({ statuses }) => {
+  if (!statuses) {
+    return null;
+  }
   const total = STATUS_ORDER.reduce((sum, key) => sum + (statuses?.[key] ?? 0), 0);
   return (
     <div className="grid grid-cols-2 gap-3 mt-6">
@@ -165,7 +168,7 @@ const InternalDashboard = () => {
           <p className="text-xs uppercase tracking-[0.5em] text-accent">Intern</p>
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink">Operations Dashboard</h1>
           <p className="text-sm text-ink/70 mt-2">
-            Überblick über Dokumente, Bilder und PDFs inklusive Review-Status und Engpässen.
+            Überblick über Dokumente, Bilder, PDFs und Alben inklusive Review-Status und Engpässen.
           </p>
           {summary?.lastUpdated && (
             <p className="text-xs text-ink/50 mt-1">Aktualisiert: {formatDateTime(summary.lastUpdated)}</p>
@@ -196,7 +199,7 @@ const InternalDashboard = () => {
 
       {summary && (
         <div className="space-y-10">
-          <section className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <section className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             <SummaryCard
               title="Dokumente"
               description="Gesamt im System"
@@ -215,9 +218,14 @@ const InternalDashboard = () => {
               total={summary.images.total}
               statuses={summary.images.reviewStatuses}
               extra={
-                <p className="text-sm text-ink/70">
-                  {summary.images.linkedDocuments} verknüpft · {summary.images.unlinked} offen
-                </p>
+                <div className="text-sm text-ink/70 space-y-1">
+                  <p>
+                    {summary.images.breakdown.documentImages.total} Dokumentbilder · {summary.images.breakdown.albumPhotos.total} Albumfotos
+                  </p>
+                  <p>
+                    {summary.images.breakdown.documentImages.linkedDocuments} mit Dokumenten · {summary.images.breakdown.albumPhotos.linkedAlbums} in Alben
+                  </p>
+                </div>
               }
             />
             <SummaryCard
@@ -229,6 +237,18 @@ const InternalDashboard = () => {
                 <p className="text-sm text-ink/70">
                   {summary.pdfs.linkedDocuments} verknüpft · {summary.pdfs.unlinked} offen
                 </p>
+              }
+            />
+            <SummaryCard
+              title="Alben"
+              description="Sammlungen & Serien"
+              total={summary.albums.total}
+              statuses={null}
+              extra={
+                <div className="text-sm text-ink/70 space-y-1">
+                  <p>{summary.albums.totalPhotos} Fotos insgesamt · Schnitt {summary.albums.averagePhotos} je Album</p>
+                  <p>{summary.albums.empty.count} leere Alben · {summary.albums.missingCover} ohne Cover</p>
+                </div>
               }
             />
           </section>

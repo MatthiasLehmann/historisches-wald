@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const buildTags = (photo) => {
@@ -15,26 +15,28 @@ const ZOOM_STEP = 0.25;
 const clampZoom = (value) => Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, value));
 
 const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
+  const [zoomState, setZoomState] = useState({ photoId: null, value: 1 });
+
   if (!photo) {
     return null;
   }
 
+  const zoom = photo.id === zoomState.photoId ? zoomState.value : 1;
+
+  const updateZoom = (nextValue) => {
+    setZoomState({
+      photoId: photo.id,
+      value: clampZoom(nextValue)
+    });
+  };
+
   const previewUrl = photo.preview || photo.original || '';
   const imageUrl = previewUrl;
   const dateTaken = photo.date_taken || 'unbekannt';
-  const [zoom, setZoom] = useState(1);
-
-  useEffect(() => {
-    setZoom(1);
-  }, [photo?.id]);
-
-  const handleZoom = (nextValue) => {
-    setZoom(clampZoom(nextValue));
-  };
 
   const handleImageClick = () => {
     const nextZoom = zoom >= MAX_ZOOM ? MIN_ZOOM : clampZoom(zoom + 0.75);
-    setZoom(nextZoom);
+    updateZoom(nextZoom);
   };
 
   const handleBackdropClick = (event) => {
@@ -80,7 +82,7 @@ const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
                   <button
                     type="button"
                     className="px-2 py-1 border border-parchment-dark rounded"
-                    onClick={() => handleZoom(zoom - ZOOM_STEP)}
+                    onClick={() => updateZoom(zoom - ZOOM_STEP)}
                     disabled={zoom <= MIN_ZOOM}
                   >
                     -
@@ -91,13 +93,13 @@ const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
                     max={MAX_ZOOM}
                     step={0.1}
                     value={zoom}
-                    onChange={(event) => handleZoom(Number(event.target.value))}
+                    onChange={(event) => updateZoom(Number(event.target.value))}
                     className="w-40"
                   />
                   <button
                     type="button"
                     className="px-2 py-1 border border-parchment-dark rounded"
-                    onClick={() => handleZoom(zoom + ZOOM_STEP)}
+                    onClick={() => updateZoom(zoom + ZOOM_STEP)}
                     disabled={zoom >= MAX_ZOOM}
                   >
                     +
@@ -105,7 +107,7 @@ const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
                   <button
                     type="button"
                     className="px-2 py-1 border border-parchment-dark rounded text-xs"
-                    onClick={() => handleZoom(1)}
+                    onClick={() => updateZoom(1)}
                     disabled={zoom === 1}
                   >
                     Reset

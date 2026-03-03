@@ -194,6 +194,8 @@ export const fetchPhotoAlbums = async (id) => {
 };
 
 export const fetchDashboardSummary = async () => {
-    const response = await fetch(`${API_BASE}/dashboard/summary`);
+    const response = await fetch(`${API_BASE}/dashboard/summary`, {
+        cache: 'no-store'
+    });
     return handleResponse(response);
 };

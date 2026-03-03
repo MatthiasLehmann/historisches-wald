@@ -1,11 +1,21 @@
 import { readDocuments } from './documentsController.js';
 import { readImages } from '../models/imagesModel.js';
 import { readPdfs } from '../models/pdfsModel.js';
+import { listPhotos } from '../services/photosService.js';
+import { listAlbums } from '../services/albumsService.js';
 
 const REVIEW_STATUSES = ['pending', 'in_review', 'approved', 'rejected'];
 
-const initStatusBucket = () =>
-  REVIEW_STATUSES.reduce(
+const PHOTO_STATUS_MAP = {
+  pending: 'pending',
+  'in-progress': 'in_review',
+  approved: 'approved',
+  'needs-info': 'pending',
+  rejected: 'rejected'
+};
+
+const initStatusBucket = (statuses = REVIEW_STATUSES) =>
+  statuses.reduce(
     (bucket, status) => ({
       ...bucket,
       [status]: 0
@@ -13,11 +23,11 @@ const initStatusBucket = () =>
     { other: 0 }
   );
 
-const countStatuses = (items, getStatus) => {
-  const bucket = initStatusBucket();
+const countStatuses = (items, getStatus, statuses = REVIEW_STATUSES) => {
+  const bucket = initStatusBucket(statuses);
   items.forEach((item) => {
     const status = getStatus(item);
-    if (REVIEW_STATUSES.includes(status)) {
+    if (statuses.includes(status)) {
       bucket[status] += 1;
     } else {
       bucket.other += 1;
@@ -66,14 +76,82 @@ const summarizeDocuments = (documents) => {
   };
 };
 
-const summarizeMedia = (items) => {
-  const reviewStatuses = countStatuses(items, (item) => item.review?.status);
-  const linkedCount = items.filter((item) => (item.linkedDocuments ?? []).length > 0).length;
+const summarizePdfs = (pdfs) => {
+  const reviewStatuses = countStatuses(pdfs, (pdf) => pdf.review?.status);
+  const linkedCount = pdfs.filter((pdf) => (pdf.linkedDocuments ?? []).length > 0).length;
   return {
-    total: items.length,
+    total: pdfs.length,
     reviewStatuses,
     linkedDocuments: linkedCount,
-    unlinked: items.length - linkedCount
+    unlinked: pdfs.length - linkedCount
+  };
+};
+
+const mapPhotoStatus = (status) => PHOTO_STATUS_MAP[status] ?? 'pending';
+
+const summarizeImages = (images, photos) => {
+  const combined = [
+    ...images.map((image) => ({
+      type: 'document',
+      status: REVIEW_STATUSES.includes(image.review?.status) ? image.review?.status : 'pending',
+      linked: (image.linkedDocuments ?? []).length
+    })),
+    ...photos.map((photo) => ({
+      type: 'album',
+      status: mapPhotoStatus(photo.review?.status),
+      linked: (photo.albums ?? []).length
+    }))
+  ];
+
+  const reviewStatuses = countStatuses(combined, (entry) => entry.status);
+  const documentLinks = images.filter((image) => (image.linkedDocuments ?? []).length > 0).length;
+  const albumLinks = photos.filter((photo) => (photo.albums ?? []).length > 0).length;
+
+  return {
+    total: combined.length,
+    reviewStatuses,
+    breakdown: {
+      documentImages: {
+        total: images.length,
+        linkedDocuments: documentLinks,
+        unlinked: images.length - documentLinks
+      },
+      albumPhotos: {
+        total: photos.length,
+        linkedAlbums: albumLinks,
+        unlinked: photos.length - albumLinks
+      }
+    }
+  };
+};
+
+const summarizeAlbums = (albums) => {
+  const totalPhotos = albums.reduce(
+    (sum, album) => sum + ((album.photo_count ?? album.photos?.length) || 0),
+    0
+  );
+  const emptyAlbums = albums.filter(
+    (album) => ((album.photo_count ?? album.photos?.length) || 0) === 0
+  );
+  const missingCover = albums.filter((album) => !(album.cover_photo && album.cover_photo.trim()));
+  const childAlbums = albums.filter((album) => Boolean(album.parent_id));
+
+  const formatAlbum = (album) => ({
+    id: album.id,
+    title: album.title || 'Ohne Titel',
+    photoCount: album.photo_count ?? album.photos?.length ?? 0
+  });
+
+  return {
+    total: albums.length,
+    totalPhotos,
+    averagePhotos: albums.length > 0 ? Math.round(totalPhotos / albums.length) : 0,
+    empty: {
+      count: emptyAlbums.length,
+      samples: emptyAlbums.slice(0, 5).map(formatAlbum)
+    },
+    missingCover: missingCover.length,
+    nested: childAlbums.length
   };
 };
 
@@ -105,11 +183,18 @@ const buildSuggestions = (summary) => {
       text: `${summary.documents.unassignedReviews.count} Reviews sind keinem Prüfer zugewiesen.`
     });
   }
-  if (summary.images.unlinked > 0) {
+  if (summary.images.breakdown.documentImages.unlinked > 0) {
     suggestions.push({
       id: 'orphan-images',
       type: 'tip',
-      text: `${summary.images.unlinked} Bilder sind keinem Dokument zugeordnet.`
+      text: `${summary.images.breakdown.documentImages.unlinked} Bilder sind keinem Dokument zugeordnet.`
+    });
+  }
+  if (summary.images.breakdown.albumPhotos.unlinked > 0) {
+    suggestions.push({
+      id: 'orphan-photos',
+      type: 'tip',
+      text: `${summary.images.breakdown.albumPhotos.unlinked} Albumfotos sind keiner Sammlung zugeordnet.`
     });
   }
   if (summary.pdfs.unlinked > 0) {
@@ -119,32 +204,53 @@ const buildSuggestions = (summary) => {
       text: `${summary.pdfs.unlinked} PDFs warten auf eine Zuordnung.`
     });
   }
+  if (summary.albums.empty.count > 0) {
+    suggestions.push({
+      id: 'empty-albums',
+      type: 'warning',
+      text: `${summary.albums.empty.count} Alben enthalten noch keine Fotos.`
+    });
+  }
+  if (summary.albums.missingCover > 0) {
+    suggestions.push({
+      id: 'missing-cover',
+      type: 'info',
+      text: `${summary.albums.missingCover} Alben besitzen noch kein Coverbild.`
+    });
+  }
   return suggestions;
 };
 
 export const getDashboardSummary = async (_req, res, next) => {
   try {
-    const [documentsData, imagesData, pdfsData] = await Promise.all([
+    const [documentsData, imagesData, pdfsData, photosData, albumsData] = await Promise.all([
       readDocuments(),
       readImages(),
-      readPdfs()
+      readPdfs(),
+      listPhotos(),
+      listAlbums()
     ]);
 
     const documents = summarizeDocuments(documentsData);
-    const images = summarizeMedia(imagesData);
-    const pdfs = summarizeMedia(pdfsData);
+    const images = summarizeImages(imagesData, photosData);
+    const pdfs = summarizePdfs(pdfsData);
+    const albums = summarizeAlbums(albumsData);
 
     const summary = {
       lastUpdated: new Date().toISOString(),
       documents,
       images,
       pdfs,
+      albums,
       queue: {
         totalsByStatus: buildQueueSummary(documents, images, pdfs)
       },
-      suggestions: buildSuggestions({ documents, images, pdfs })
+      suggestions: buildSuggestions({ documents, images, pdfs, albums })
     };
 
+    res.set('Cache-Control', 'no-store, no-cache, must-revalidate');
+    res.set('Pragma', 'no-cache');
+    res.set('Expires', '0');
     res.json(summary);
   } catch (error) {
     next(error);

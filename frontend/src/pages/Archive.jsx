@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Search } from 'lucide-react';
 import DocumentCard from '../components/DocumentCard';
 import CategoryFilter from '../components/CategoryFilter';
@@ -69,7 +69,7 @@ const Archive = () => {
         ));
     };
 
-    const matchesCategorySelection = (doc) => {
+    const matchesCategorySelection = useCallback((doc) => {
         if (selectedCategories.length === 0) return true;
 
         const docTokens = [
@@ -91,7 +91,7 @@ const Archive = () => {
             const label = node.label?.toLowerCase();
             return label ? docTokens.includes(label) : false;
         });
-    };
+    }, [selectedCategories]);
 
     const filteredDocuments = useMemo(() => documents.filter(doc => {
         const isApproved = doc?.review?.status === 'approved';
@@ -104,7 +104,7 @@ const Archive = () => {
             doc.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
             doc.year.toString().includes(searchTerm);
         return matchesCategory && matchesSearch;
-    }), [documents, searchTerm, selectedCategories]);
+    }), [documents, searchTerm, matchesCategorySelection]);
 
     return (
         <div className="container mx-auto px-4 py-8">
