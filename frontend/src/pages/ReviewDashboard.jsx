@@ -73,6 +73,44 @@ const ReviewDashboard = () => {
     setSelectedDocument((prev) => (prev && prev.id === docId ? { ...prev, review } : prev));
   }, []);
 
+  const documentImages = useMemo(() => {
+    if (!selectedDocument || !Array.isArray(selectedDocument.images)) {
+      return [];
+    }
+    return selectedDocument.images
+      .map((image) => {
+        if (typeof image === 'string') {
+          return image;
+        }
+        if (image?.previewUrl) {
+          return image.previewUrl;
+        }
+        if (typeof image?.url === 'string') {
+          return image.url;
+        }
+        if (image?.file) {
+          return image.file.path || image.file.originalUrl || null;
+        }
+        return null;
+      })
+      .filter(Boolean);
+  }, [selectedDocument]);
+
+  const documentPdfs = useMemo(() => {
+    if (!selectedDocument || !Array.isArray(selectedDocument.pdfs)) {
+      return [];
+    }
+    return selectedDocument.pdfs
+      .map((pdf) => {
+        const pdfUrl = pdf?.file?.path || pdf?.file?.originalUrl || pdf?.url || pdf?.link || '';
+        return {
+          ...pdf,
+          url: pdfUrl
+        };
+      })
+      .filter((pdf) => Boolean(pdf.url));
+  }, [selectedDocument]);
+
   return (
     <div className="container mx-auto px-4 py-12">
       <header className="mb-10 text-center space-y-3">
@@ -151,6 +189,51 @@ const ReviewDashboard = () => {
                   <p className="text-sm text-ink/70">{selectedDocument.year} · {selectedDocument.location}</p>
                 </header>
                 <p className="text-sm text-ink/80 whitespace-pre-line">{selectedDocument.description}</p>
+
+                {documentImages.length > 0 && (
+                  <section className="space-y-3">
+                    <h3 className="text-sm font-semibold text-ink">Verknüpfte Bilder</h3>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      {documentImages.map((src, index) => (
+                        <a
+                          key={`${src}-${index}`}
+                          href={src}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="block border border-parchment-dark rounded-sm overflow-hidden bg-parchment"
+                        >
+                          <img
+                            src={src}
+                            alt={`${selectedDocument.title} – Bild ${index + 1}`}
+                            className="w-full h-40 object-cover"
+                          />
+                        </a>
+                      ))}
+                    </div>
+                  </section>
+                )}
+
+                {documentPdfs.length > 0 && (
+                  <section className="space-y-3">
+                    <h3 className="text-sm font-semibold text-ink">Verknüpfte PDFs</h3>
+                    <div className="space-y-3">
+                      {documentPdfs.map((pdf) => (
+                        <article key={pdf.id} className="border border-parchment-dark rounded-sm p-3 bg-white text-sm">
+                          <p className="font-semibold text-ink">{pdf.title}</p>
+                          <p className="text-ink/60 text-xs">{pdf.year || 'Unbekannt'} · {pdf.location || 'Ohne Ort'}</p>
+                          <div className="flex items-center gap-4 text-xs mt-2">
+                            <a href={pdf.url} target="_blank" rel="noreferrer" className="text-accent hover:underline">
+                              Anzeigen
+                            </a>
+                            <a href={pdf.url} download className="text-ink/70 hover:underline">
+                              Download
+                            </a>
+                          </div>
+                        </article>
+                      ))}
+                    </div>
+                  </section>
+                )}
                 {selectedDocument.transcription && (
                   <details className="text-sm text-ink/70">
                     <summary className="cursor-pointer text-ink font-semibold">Transkription anzeigen</summary>
