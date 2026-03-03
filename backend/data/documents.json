@@ -53,9 +53,7 @@
     "imageIds": [
       "img-00001"
     ],
-    "pdfIds": [
-      "pdf-00001"
-    ],
+    "pdfIds": [],
     "metadata": {
       "author": "Bischöfliche Kanzlei Augsburg",
       "source": "Pfarrarchiv Wald",
@@ -74,7 +72,10 @@
       ]
     },
     "albumPhotoIds": [],
-    "pdfs": []
+    "pdfs": [],
+    "author": "Bischöfliche Kanzlei Augsburg",
+    "source": "Pfarrarchiv Wald",
+    "condition": "Gut erhalten, Siegel intakt"
   },
   {
     "id": "doc-005",
