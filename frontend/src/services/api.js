@@ -61,75 +61,10 @@ export const fetchDocuments = async (params = {}) => {
 };
 
 /**
- * Fetch a single document by ID
- * @param {string} id - Document ID
- * @returns {Promise<Object>} - Document details
+ * Fetch PDFs with optional filters
+ * @param {Object} params - Filtering/sorting parameters
+ * @returns {Promise<Array>}
  */
-export const fetchDocumentById = async (id) => {
-    try {
-        const documents = await fetchDocuments();
-        return documents.find((doc) => doc.id === id) ?? null;
-    } catch (error) {
-        console.error(`Failed to fetch document ${id}:`, error);
-        throw error;
-    }
-};
-
-/**
- * Fetch all categories
- * @returns {Promise<Array>} - List of categories
- */
-export const fetchCategories = async () => {
-    try {
-        const response = await fetch(`${API_BASE}/categories`);
-
-        return await handleResponse(response);
-    } catch (error) {
-        console.error('Failed to fetch categories:', error);
-        throw error;
-    }
-};
-
-export const fetchImages = async (params = {}) => {
-    try {
-        const query = serializeParams(params);
-        const response = await fetch(`${API_BASE}/images${query}`);
-        return await handleResponse(response);
-    } catch (error) {
-        console.error('Failed to fetch images:', error);
-        throw error;
-    }
-};
-
-const mutateImage = async (endpoint, method, body) => {
-    const response = await fetch(`${API_BASE}${endpoint}`, {
-        method,
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body)
-    });
-    return handleResponse(response);
-};
-
-export const createImageAsset = async (payload) => mutateImage('/images', 'POST', payload);
-
-export const updateImageAsset = async (id, payload) => mutateImage(`/images/${id}`, 'PUT', payload);
-
-export const deleteImageAsset = async (id) => {
-    const response = await fetch(`${API_BASE}/images/${id}`, { method: 'DELETE' });
-    return handleResponse(response);
-};
-
-export const importRemoteImage = async (payload) => mutateImage('/images/import-url', 'POST', payload);
-
-export const addImageReviewComment = async (id, payload) =>
-    mutateImage(`/images/${id}/review/comment`, 'POST', payload);
-
-export const updateImageReviewStatus = async (id, payload) =>
-    mutateImage(`/images/${id}/review/status`, 'PUT', payload);
-
-export const completeImageReview = async (id, payload) =>
-    mutateImage(`/images/${id}/review/complete`, 'PUT', payload);
-
 export const fetchPdfs = async (params = {}) => {
     try {
         const query = serializeParams(params);
