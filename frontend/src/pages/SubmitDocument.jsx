@@ -3,6 +3,7 @@ import categoriesData from '../data/categories.json';
 import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
 import AlbumPhotoSelectorModal from '../components/AlbumPhotoSelectorModal.jsx';
 import { fetchPdfs, fetchPhotos } from '../services/api.js';
+import MarkdownEditor from '../components/MarkdownEditor.jsx';
 
 const initialForm = {
   title: '',
@@ -86,7 +87,9 @@ const SubmitDocument = () => {
       title: doc.title ?? '',
       year: doc.year ? String(doc.year) : '',
       location: doc.location ?? '',
-      description: doc.description ?? '',
+      description: Array.isArray(doc.description)
+        ? doc.description.join('\n\n')
+        : doc.description ?? '',
       transcription: Array.isArray(doc.transcription)
         ? doc.transcription.join('\n\n')
         : doc.transcription ?? '',
@@ -343,29 +346,22 @@ const SubmitDocument = () => {
           />
         </label>
 
-        <label className="space-y-1 text-sm font-medium text-ink/80 block">
-          Beschreibung*
-          <textarea
-            name="description"
-            value={form.description}
-            onChange={handleChange}
-            rows={5}
-            className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-            required
-          />
-        </label>
+        <MarkdownEditor
+          label="Beschreibung*"
+          value={form.description}
+          onChange={(nextValue) => setForm((prev) => ({ ...prev, description: nextValue }))}
+          placeholder="Beschreiben Sie das Dokument samt Kontext in Markdown."
+          required
+          helperText="Nutzen Sie Markdown für strukturierte Absätze, Listen und Links."
+        />
 
-        <label className="space-y-1 text-sm font-medium text-ink/80 block">
-          Transkription / Notizen
-          <textarea
-            name="transcription"
-            value={form.transcription}
-            onChange={handleChange}
-            rows={6}
-            className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-            placeholder="Optionaler Volltext oder Markdown"
-          />
-        </label>
+        <MarkdownEditor
+          label="Transkription / Notizen"
+          value={form.transcription}
+          onChange={(nextValue) => setForm((prev) => ({ ...prev, transcription: nextValue }))}
+          placeholder="Optionaler Volltext, Notizen oder Beobachtungen als Markdown."
+          helperText="Optional: Nutzen Sie die Vorschau, um die Transkription zu kontrollieren."
+        />
 
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
           <div className="flex items-center justify-between">
