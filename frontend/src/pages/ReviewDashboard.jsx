@@ -17,20 +17,43 @@ const STATUS_STYLES = {
 
 const ReviewDashboard = () => {
   const [documents, setDocuments] = useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
   const [selectedDocument, setSelectedDocument] = useState(null);
   const selectedDocumentIdRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState(null);
 
+  const filteredDocuments = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+    if (!query) {
+      return documents;
+    }
+    return documents.filter((doc) => {
+      const searchable = [
+        doc.title,
+        doc.year ? String(doc.year) : '',
+        doc.category,
+        Array.isArray(doc.subcategories) ? doc.subcategories.join(' ') : doc.subcategory ?? '',
+        doc.metadata?.author ?? '',
+        doc.location ?? '',
+        doc.review?.status ?? ''
+      ]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
+      return searchable.includes(query);
+    });
+  }, [documents, searchQuery]);
+
   const sortedDocuments = useMemo(() => {
     const priority = { pending: 0, in_review: 1, rejected: 2, approved: 3 };
-    return [...documents].sort((a, b) => {
+    return [...filteredDocuments].sort((a, b) => {
       const aStatus = priority[a.review?.status] ?? 4;
       const bStatus = priority[b.review?.status] ?? 4;
       if (aStatus !== bStatus) return aStatus - bStatus;
       return (b.title || '').localeCompare(b.title || '');
     });
-  }, [documents]);
+  }, [filteredDocuments]);
 
   const loadDocuments = useCallback(async () => {
     setLoading(true);
@@ -149,6 +172,13 @@ const ReviewDashboard = () => {
               Aktualisieren
             </button>
           </div>
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(event) => setSearchQuery(event.target.value)}
+            placeholder="Suche nach Titel, Jahr, Ort…"
+            className="w-full border border-parchment-dark rounded-sm px-3 py-2 text-sm"
+          />
           {loading ? (
             <p className="text-sm text-ink/60">Lade…</p>
           ) : sortedDocuments.length === 0 ? (
