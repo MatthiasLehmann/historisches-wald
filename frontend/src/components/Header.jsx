@@ -24,7 +24,7 @@ const Header = () => {
 
     const internalNavItems = [
         { name: 'Dashboard', path: '/internal/dashboard' },
-        { name: 'Dokumente hinzufügen', path: '/submit' },
+        { name: 'Dokumente', path: '/submit' },
         { name: 'Review Center', path: '/review' },
         { name: 'Mediathek PDFs', path: '/media/pdfs' },
         { name: 'Alben', path: '/albums' },
