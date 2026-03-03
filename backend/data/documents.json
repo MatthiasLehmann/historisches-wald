@@ -21,10 +21,16 @@
       "pdf-00004"
     ],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
-      "comments": []
+      "status": "approved",
+      "reviewer": "Matthias Lehmann",
+      "reviewedAt": "2026-03-03T16:14:05.930Z",
+      "comments": [
+        {
+          "reviewer": "Mattias Lehmann",
+          "date": "2026-03-03T16:13:50.283Z",
+          "comment": "Sieht gut aus"
+        }
+      ]
     }
   },
   {
