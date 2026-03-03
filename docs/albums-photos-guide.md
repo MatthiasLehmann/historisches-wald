@@ -25,7 +25,7 @@ frontend/src/
 ├─ components/
 │  ├─ AlbumEditor.jsx         # Metadata form for albums
 │  ├─ PhotoCard.jsx           # Grid card for album photos
-│  ├─ PhotoEditor.jsx         # Detailed photo editor (name, tags, review)
+│  ├─ PhotoEditor.jsx         # Detailed photo editor (name, source, tags, review)
 │  └─ StatusBadge.jsx         # Shared status pill for review state
 ├─ pages/
 │  ├─ AlbumsPage.jsx          # /albums listing with search/sort
@@ -90,6 +90,7 @@ Resolves every `photo_<id>.json`. Missing files yield placeholder objects.
     "id": "53537183176",
     "name": "Feuerwehr 1989",
     "description": "",
+    "source": "https://www.flickr.com/photos/199943033@N03/53537183176/",
     "date_taken": "1989-01-01 00:00:00",
     "original": "https://live.staticflickr.com/..._o.jpg",
     "license": "All Rights Reserved",
@@ -114,11 +115,12 @@ Resolves every `photo_<id>.json`. Missing files yield placeholder objects.
 Single normalized photo object (same shape as above). If `photo_<id>.json` is missing, payload contains `missing: true` and `error` describing the issue.
 
 ### PUT /api/photos/:id
-Body supports `name`, `description`, `date_taken`, `tags` (array of strings), and `review` (`status`, `reviewer`, `reviewedAt`, `comments`). Example:
+Body supports `name`, `description`, `date_taken`, `source`, `tags` (array of strings), and `review` (`status`, `reviewer`, `reviewedAt`, `comments`). Example:
 ```json
 {
   "name": "Feuerwehr 1989",
   "description": "Digitale Nachbearbeitung",
+  "source": "Gemeindearchiv Wald",
   "tags": ["wald", "feuerwehr"],
   "review": {
     "status": "approved",
@@ -151,4 +153,5 @@ Lists every album referencing the given photo ID. Useful for the photo detail vi
 ## Notes
 - Configure alternative data roots via `MEDIA_DATA_ROOT`, `MEDIA_ALBUMS_FILE`, and `MEDIA_PHOTOS_DIR` env vars before starting the backend (`npm run dev`).
 - `frontend/src/services/api.js` now exposes `fetchAlbums`, `fetchAlbumById`, `fetchAlbumPhotos`, `fetchPhotoById`, `fetchPhotoAlbums`, `updateAlbum`, and `updatePhoto` for React hooks.
+- Photo JSON objects contain a `source` attribute (defaulting to the Flickr photopage); the photo detail view surface lets reviewers edit this field alongside the other metadata.
 - The frontend lint run (`npm run lint`) currently reports one pre-existing warning in `Archive.jsx` (missing dependency). No new warnings/errors were introduced by these changes.
