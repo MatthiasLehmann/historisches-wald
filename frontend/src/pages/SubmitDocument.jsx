@@ -35,6 +35,7 @@ const SubmitDocument = () => {
   const [pdfLibrary, setPdfLibrary] = useState([]);
   const [pdfLibraryLoading, setPdfLibraryLoading] = useState(false);
   const [pdfLibraryError, setPdfLibraryError] = useState(null);
+  const [isReloading, setIsReloading] = useState(false);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -83,7 +84,7 @@ const SubmitDocument = () => {
     );
   };
 
-  const loadDocuments = async () => {
+  const loadDocuments = useCallback(async () => {
     try {
       const response = await fetch('/api/documents');
       if (!response.ok) {
@@ -93,12 +94,13 @@ const SubmitDocument = () => {
       setDocuments(data);
     } catch (error) {
       setStatus({ type: 'error', message: error.message });
+      throw error;
     }
-  };
+  }, []);
 
   useEffect(() => {
-    loadDocuments();
-  }, []);
+    loadDocuments().catch(() => {});
+  }, [loadDocuments]);
 
   const loadPdfLibrary = useCallback(async () => {
     setPdfLibraryLoading(true);
@@ -274,12 +276,36 @@ const SubmitDocument = () => {
     return pdf.file?.path || pdf.file?.originalUrl || '';
   };
 
+  const handleManualReload = async () => {
+    setIsReloading(true);
+    setStatus(null);
+    resetForm();
+    setDocumentSearchQuery('');
+    try {
+      await loadDocuments();
+    } catch {
+      // Fehler wurde bereits in loadDocuments behandelt
+    } finally {
+      setIsReloading(false);
+    }
+  };
+
   return (
     <div className="container mx-auto px-4 py-12">
-      <header className="mb-10 text-center space-y-3">
-        <p className="text-xs uppercase tracking-[0.5em] text-accent">Neuer Eintrag</p>
-        <h1 className="text-4xl font-serif font-bold text-ink">Dokument hinzufügen</h1>
-        <p className="text-ink/70">Bitte füllen Sie alle Pflichtfelder aus. Die Daten werden über die lokale API direkt in der JSON-Datei gespeichert.</p>
+      <header className="mb-10 flex flex-col gap-4 text-center md:flex-row md:items-center md:justify-between md:text-left">
+        <div className="space-y-3">
+          <p className="text-xs uppercase tracking-[0.5em] text-accent">Neuer Eintrag</p>
+          <h1 className="text-4xl font-serif font-bold text-ink">Dokument hinzufügen</h1>
+          <p className="text-ink/70">Bitte füllen Sie alle Pflichtfelder aus. Die Daten werden über die lokale API direkt in der JSON-Datei gespeichert.</p>
+        </div>
+        <button
+          type="button"
+          onClick={handleManualReload}
+          disabled={isReloading}
+          className="inline-flex items-center justify-center rounded-sm border border-parchment-dark px-4 py-2 text-sm font-semibold text-ink hover:bg-parchment-dark/10 disabled:cursor-not-allowed disabled:opacity-60"
+        >
+          {isReloading ? 'Lädt …' : 'Neu Laden'}
+        </button>
       </header>
 
       <div className="flex flex-col lg:flex-row gap-8">
