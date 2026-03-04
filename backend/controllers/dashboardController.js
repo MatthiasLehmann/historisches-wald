@@ -36,13 +36,18 @@ const countStatuses = (items, getStatus, statuses = REVIEW_STATUSES) => {
   return bucket;
 };
 
+const hasImages = (doc) =>
+  (doc.imageIds ?? []).length > 0 ||
+  (doc.images ?? []).length > 0 ||
+  (doc.albumPhotoIds ?? []).length > 0;
+
+const hasPdfs = (doc) => (doc.pdfIds ?? []).length > 0 || (doc.pdfs ?? []).length > 0;
+
 const summarizeDocuments = (documents) => {
   const reviewStatuses = countStatuses(documents, (doc) => doc.review?.status);
-  const withImages = documents.filter((doc) => (doc.imageIds ?? []).length > 0).length;
-  const withPdfs = documents.filter((doc) => (doc.pdfIds ?? []).length > 0).length;
-  const missingMedia = documents.filter(
-    (doc) => (doc.imageIds ?? []).length === 0 && (doc.pdfIds ?? []).length === 0
-  );
+  const withImages = documents.filter((doc) => hasImages(doc)).length;
+  const withPdfs = documents.filter((doc) => hasPdfs(doc)).length;
+  const missingMedia = documents.filter((doc) => !hasImages(doc) && !hasPdfs(doc));
   const unassigned = documents.filter(
     (doc) =>
       ['pending', 'in_review'].includes(doc.review?.status) &&
@@ -62,9 +67,7 @@ const summarizeDocuments = (documents) => {
     reviewStatuses,
     withImages,
     withPdfs,
-    withMedia: documents.filter(
-      (doc) => (doc.imageIds ?? []).length > 0 || (doc.pdfIds ?? []).length > 0
-    ).length,
+    withMedia: documents.length - missingMedia.length,
     missingMedia: {
       count: missingMedia.length,
       samples: missingMedia.slice(0, 5).map(formatDoc)
