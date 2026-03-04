@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329671902",
+      "title": "40_Vereine",
+      "url": "https://www.flickr.com/photos//albums/72177720329671902"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

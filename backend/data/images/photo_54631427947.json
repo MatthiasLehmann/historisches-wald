@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327311306",
+      "title": "190_Löcherberg",
+      "url": "https://www.flickr.com/photos//albums/72177720327311306"
+    }
+  ],
   "tags": [
     {
       "tag": "löcherberg",

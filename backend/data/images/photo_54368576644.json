@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720324245126",
+      "title": "301_Bau Kläranlage Gemeinde Wald 1987 - 1989",
+      "url": "https://www.flickr.com/photos//albums/72177720324245126"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

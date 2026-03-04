@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329671887",
+      "title": "00_Postkarten, Infrastruktur und Gebäude",
+      "url": "https://www.flickr.com/photos//albums/72177720329671887"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

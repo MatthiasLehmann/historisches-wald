@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329723563",
+      "title": "10_Rathaus",
+      "url": "https://www.flickr.com/photos//albums/72177720329723563"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

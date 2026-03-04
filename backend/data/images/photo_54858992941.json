@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329702205",
+      "title": "08_Kindergärten",
+      "url": "https://www.flickr.com/photos//albums/72177720329702205"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

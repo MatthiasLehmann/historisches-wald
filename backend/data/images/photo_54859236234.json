@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329702120",
+      "title": "300_Bautätigkeiten",
+      "url": "https://www.flickr.com/photos//albums/72177720329702120"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

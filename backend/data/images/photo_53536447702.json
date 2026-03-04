@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720323505354",
+      "title": "60_Veranstaltungen",
+      "url": "https://www.flickr.com/photos//albums/72177720323505354"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

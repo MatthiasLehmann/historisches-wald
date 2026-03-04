@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720328690376",
+      "title": "404_Benachrichtigung Eintragung Grundbuch 1896",
+      "url": "https://www.flickr.com/photos//albums/72177720328690376"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

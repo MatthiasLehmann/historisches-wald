@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329953480",
+      "title": "162_Riedetsweiler Ortschronik",
+      "url": "https://www.flickr.com/photos//albums/72177720329953480"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

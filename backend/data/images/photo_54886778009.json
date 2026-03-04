@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329974593",
+      "title": "406_Klosterneubau in Wald im 18. Jhd",
+      "url": "https://www.flickr.com/photos//albums/72177720329974593"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

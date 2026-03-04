@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720314562376",
+      "title": "03_Luftaufnahmen Wald",
+      "url": "https://www.flickr.com/photos//albums/72177720314562376"
+    }
+  ],
   "tags": [
     {
       "tag": "Luftbild",

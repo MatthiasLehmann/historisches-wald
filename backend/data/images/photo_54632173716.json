@@ -15,7 +15,18 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327302992",
+      "title": "150_Walbertsweiler",
+      "url": "https://www.flickr.com/photos//albums/72177720327302992"
+    },
+    {
+      "id": "72177720331625490",
+      "title": "153_Walbertsweiler_Kirche",
+      "url": "https://www.flickr.com/photos//albums/72177720331625490"
+    }
+  ],
   "tags": [
     {
       "tag": "Walbertsweiler",

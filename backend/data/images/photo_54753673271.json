@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327465688",
+      "title": "19_Lagepläne",
+      "url": "https://www.flickr.com/photos//albums/72177720327465688"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

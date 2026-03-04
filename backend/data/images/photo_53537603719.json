@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720314872117",
+      "title": "614_Besuch Ministerpräsident Filbinger 1970",
+      "url": "https://www.flickr.com/photos//albums/72177720314872117"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

@@ -20,11 +20,12 @@
       "description": "Test ABC",
       "url": "",
       "cover_photo": "",
-      "photo_count": 1,
+      "photo_count": 2,
       "created": 1772399292,
-      "last_updated": 1772399441,
+      "last_updated": 1772623222,
       "parent_id": "",
       "photos": [
+        "local_mmby3jtj2zdms2",
         "local_mm88v5ozefplqi"
       ]
     },

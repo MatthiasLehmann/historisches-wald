@@ -15,7 +15,18 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720324399929",
+      "title": "06_Brauerei",
+      "url": "https://www.flickr.com/photos//albums/72177720324399929"
+    },
+    {
+      "id": "72177720330935669",
+      "title": "207_Brauerei",
+      "url": "https://www.flickr.com/photos//albums/72177720330935669"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

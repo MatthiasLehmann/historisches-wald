@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329684418",
+      "title": "204_Apotheker Steinweg",
+      "url": "https://www.flickr.com/photos//albums/72177720329684418"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

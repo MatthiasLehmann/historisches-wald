@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720330909246",
+      "title": "210_Landesbank",
+      "url": "https://www.flickr.com/photos//albums/72177720330909246"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

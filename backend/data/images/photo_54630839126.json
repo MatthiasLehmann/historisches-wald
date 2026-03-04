@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327295885",
+      "title": "101_Glashütte",
+      "url": "https://www.flickr.com/photos//albums/72177720327295885"
+    }
+  ],
   "tags": [
     {
       "tag": "Postkarte",

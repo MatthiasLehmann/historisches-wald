@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720323700585",
+      "title": "41_Musikverein",
+      "url": "https://www.flickr.com/photos//albums/72177720323700585"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

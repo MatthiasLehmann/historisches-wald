@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720330146045",
+      "title": "601_Hugo Höfler",
+      "url": "https://www.flickr.com/photos//albums/72177720330146045"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

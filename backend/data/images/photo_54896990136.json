@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720330051515",
+      "title": "410_Gutsübergabevertrag 1885 Koch",
+      "url": "https://www.flickr.com/photos//albums/72177720330051515"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720331007173",
+      "title": "211_Zünfte",
+      "url": "https://www.flickr.com/photos//albums/72177720331007173"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

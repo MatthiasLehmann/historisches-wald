@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720314875015",
+      "title": "612_Vereidigung BM Zeh 1969",
+      "url": "https://www.flickr.com/photos//albums/72177720314875015"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

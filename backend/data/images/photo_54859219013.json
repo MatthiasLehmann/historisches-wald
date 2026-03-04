@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329711042",
+      "title": "405_Schulchronik 2002",
+      "url": "https://www.flickr.com/photos//albums/72177720329711042"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720323705631",
+      "title": "91_Kriege",
+      "url": "https://www.flickr.com/photos//albums/72177720323705631"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

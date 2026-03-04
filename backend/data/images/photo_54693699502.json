@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720328096326",
+      "title": "401_Pfarrführer 1950",
+      "url": "https://www.flickr.com/photos//albums/72177720328096326"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

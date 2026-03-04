@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720323413656",
+      "title": "61_Fasnet",
+      "url": "https://www.flickr.com/photos//albums/72177720323413656"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

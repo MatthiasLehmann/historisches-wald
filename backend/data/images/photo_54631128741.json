@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327299866",
+      "title": "160_Riedetsweiler",
+      "url": "https://www.flickr.com/photos//albums/72177720327299866"
+    }
+  ],
   "tags": [
     {
       "tag": "Luftbild",

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329904423",
+      "title": "402_Kirchenführer 1950",
+      "url": "https://www.flickr.com/photos//albums/72177720329904423"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720330911192",
+      "title": "900_Berichte, Erzählungen, Beschreibungen",
+      "url": "https://www.flickr.com/photos//albums/72177720330911192"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

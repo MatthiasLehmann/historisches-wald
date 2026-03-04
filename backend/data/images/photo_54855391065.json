@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329684208",
+      "title": "202_Apotheker Sautermeister",
+      "url": "https://www.flickr.com/photos//albums/72177720329684208"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720320630039",
+      "title": "02_Gebäudebestand 1979",
+      "url": "https://www.flickr.com/photos//albums/72177720320630039"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

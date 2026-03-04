@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720331650768",
+      "title": "154_Walbertsweiler_sonstige_Bilder",
+      "url": "https://www.flickr.com/photos//albums/72177720331650768"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720326833507",
+      "title": "611_Hochzeit Lehrer Flöss",
+      "url": "https://www.flickr.com/photos//albums/72177720326833507"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

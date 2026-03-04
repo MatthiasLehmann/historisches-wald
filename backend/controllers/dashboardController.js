@@ -106,6 +106,17 @@ const summarizeImages = (images, photos) => {
   const reviewStatuses = countStatuses(combined, (entry) => entry.status);
   const documentLinks = images.filter((image) => (image.linkedDocuments ?? []).length > 0).length;
   const albumLinks = photos.filter((photo) => (photo.albums ?? []).length > 0).length;
+  const orphanAlbumPhotos = photos.filter((photo) => (photo.albums ?? []).length === 0);
+
+  const formatPhoto = (photo) => ({
+    id: photo.id,
+    title: photo.name?.trim() ? photo.name : 'Ohne Titel',
+    dateTaken: typeof photo.date_taken === 'string' ? photo.date_taken : '',
+    preview: photo.preview || photo.original || '',
+    source: typeof photo.source === 'string' ? photo.source : '',
+    status: mapPhotoStatus(photo.review?.status),
+    missing: Boolean(photo.missing)
+  });
 
   return {
     total: combined.length,
@@ -121,6 +132,10 @@ const summarizeImages = (images, photos) => {
         linkedAlbums: albumLinks,
         unlinked: photos.length - albumLinks
       }
+    },
+    orphanedAlbumPhotos: {
+      count: orphanAlbumPhotos.length,
+      samples: orphanAlbumPhotos.slice(0, 6).map(formatPhoto)
     }
   };
 };

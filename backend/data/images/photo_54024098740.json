@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720320615327",
+      "title": "63_Prämierung Zuchttiere 1959",
+      "url": "https://www.flickr.com/photos//albums/72177720320615327"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

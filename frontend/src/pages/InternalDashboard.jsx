@@ -126,6 +126,70 @@ const SuggestionCard = ({ suggestion }) => {
   );
 };
 
+const PhotoAvatar = ({ preview, title }) =>
+  preview ? (
+    <img
+      src={preview}
+      alt={title}
+      className="w-12 h-12 rounded-sm object-cover border border-parchment-dark/50 shadow-sm"
+    />
+  ) : (
+    <div className="w-12 h-12 rounded-sm border border-dashed border-parchment-dark/60 flex items-center justify-center text-[10px] uppercase tracking-wide text-ink/50">
+      Kein Bild
+    </div>
+  );
+
+const OrphanAlbumPhotosCard = ({ data }) => {
+  const count = data?.count ?? 0;
+  const items = data?.samples ?? [];
+  return (
+    <section className="border border-parchment-dark rounded-sm bg-white shadow-sm p-6 space-y-4">
+      <div className="flex items-center justify-between">
+        <div>
+          <p className="text-xs uppercase tracking-[0.4em] text-accent">Alben</p>
+          <h2 className="text-2xl font-serif font-semibold text-ink">Unzugeordnete Fotos</h2>
+          <p className="text-sm text-ink/70 mt-1">
+            Liste der Albumfotos, die aktuell in keiner Sammlung liegen.
+          </p>
+        </div>
+        <span className="text-4xl font-serif font-bold text-ink">{count}</span>
+      </div>
+      {count === 0 ? (
+        <p className="text-sm text-ink/60">Alle Albumfotos sind mindestens einem Album zugeordnet.</p>
+      ) : (
+        <ul className="space-y-3">
+          {items.map((item) => (
+            <li
+              key={item.id}
+              className="flex items-center justify-between gap-4 border border-parchment-dark/60 rounded-sm px-3 py-2"
+            >
+              <div className="flex items-center gap-3 min-w-0">
+                <PhotoAvatar preview={item.preview} title={item.title} />
+                <div className="min-w-0">
+                  <p className="font-semibold text-sm text-ink truncate">{item.title}</p>
+                  <p className="text-xs text-ink/60 truncate">
+                    {item.dateTaken ? `Aufgenommen ${item.dateTaken}` : 'Datum unbekannt'}
+                    {item.source ? ` · ${item.source}` : ''}
+                    {item.missing ? ' · Datei fehlt' : ''}
+                  </p>
+                </div>
+              </div>
+              <span
+                className={clsx(
+                  'text-xs font-semibold px-2 py-1 rounded-full whitespace-nowrap',
+                  STATUS_META[item.status]?.pill ?? 'bg-parchment text-ink'
+                )}
+              >
+                {STATUS_META[item.status]?.label ?? item.status}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+};
+
 const InternalDashboard = () => {
   const [summary, setSummary] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -304,6 +368,8 @@ const InternalDashboard = () => {
               emptyLabel="Alle Reviews sind zugewiesen."
             />
           </section>
+
+          <OrphanAlbumPhotosCard data={summary.images.orphanedAlbumPhotos} />
 
           {summary.suggestions?.length > 0 && (
             <section className="border border-parchment-dark rounded-sm bg-white shadow-sm p-6 space-y-4">

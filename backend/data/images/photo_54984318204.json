@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720330935749",
+      "title": "604_Schwester Lioba",
+      "url": "https://www.flickr.com/photos//albums/72177720330935749"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

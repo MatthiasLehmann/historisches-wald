@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720328090615",
+      "title": "403_Fotos Franz-Sales Fröhlich",
+      "url": "https://www.flickr.com/photos//albums/72177720328090615"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

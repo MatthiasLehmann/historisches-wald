@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329671897",
+      "title": "100_Ortsteile",
+      "url": "https://www.flickr.com/photos//albums/72177720329671897"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

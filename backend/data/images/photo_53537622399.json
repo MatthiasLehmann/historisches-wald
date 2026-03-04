@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720314883458",
+      "title": "613_Besuch Landrat Schlee 1972",
+      "url": "https://www.flickr.com/photos//albums/72177720314883458"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

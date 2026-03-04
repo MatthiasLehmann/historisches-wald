@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329663235",
+      "title": "205_Apotheker Wesener",
+      "url": "https://www.flickr.com/photos//albums/72177720329663235"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

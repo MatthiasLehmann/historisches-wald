@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720331255408",
+      "title": "64_Goldene Profess und Verleihung Ehrenbürgerwürde Theodor Zeller 28. Juni 1998",
+      "url": "https://www.flickr.com/photos//albums/72177720331255408"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

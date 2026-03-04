@@ -21,7 +21,13 @@
     }
   ],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720323505294",
+      "title": "600_Personen",
+      "url": "https://www.flickr.com/photos//albums/72177720323505294"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

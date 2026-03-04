@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329432026",
+      "title": "43_Malteser Wald",
+      "url": "https://www.flickr.com/photos//albums/72177720329432026"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

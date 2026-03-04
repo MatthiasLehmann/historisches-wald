@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329985024",
+      "title": "408_Actum Klosterwald 1802",
+      "url": "https://www.flickr.com/photos//albums/72177720329985024"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

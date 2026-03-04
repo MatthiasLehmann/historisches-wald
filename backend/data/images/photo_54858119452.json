@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720324248914",
+      "title": "400_Dokumente ",
+      "url": "https://www.flickr.com/photos//albums/72177720324248914"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

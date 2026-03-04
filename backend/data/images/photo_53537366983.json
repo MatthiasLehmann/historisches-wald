@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720323411825",
+      "title": "48_Feuerwehr",
+      "url": "https://www.flickr.com/photos//albums/72177720323411825"
+    }
+  ],
   "tags": [
     {
       "tag": "Feuerwehr",

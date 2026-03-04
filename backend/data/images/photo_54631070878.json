@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327302992",
+      "title": "150_Walbertsweiler",
+      "url": "https://www.flickr.com/photos//albums/72177720327302992"
+    }
+  ],
   "tags": [
     {
       "tag": "post",

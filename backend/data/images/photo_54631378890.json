@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327316998",
+      "title": "110_Hippetsweiler",
+      "url": "https://www.flickr.com/photos//albums/72177720327316998"
+    }
+  ],
   "tags": [
     {
       "tag": "Luftbild",

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329976003",
+      "title": "409_Auszug aus hochfürstlichem Protokoll 1809",
+      "url": "https://www.flickr.com/photos//albums/72177720329976003"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

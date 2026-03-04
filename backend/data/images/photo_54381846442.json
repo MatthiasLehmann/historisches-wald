@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720324379877",
+      "title": "05_Kloster",
+      "url": "https://www.flickr.com/photos//albums/72177720324379877"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

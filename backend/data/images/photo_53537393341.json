@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720314884343",
+      "title": "07_Schule",
+      "url": "https://www.flickr.com/photos//albums/72177720314884343"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

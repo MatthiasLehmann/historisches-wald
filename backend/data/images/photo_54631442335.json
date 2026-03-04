@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720327295965",
+      "title": "130_Ruhestetten",
+      "url": "https://www.flickr.com/photos//albums/72177720327295965"
+    }
+  ],
   "tags": [
     {
       "tag": "Luftbild",

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329954765",
+      "title": "407_Note Kloster Wald 1803",
+      "url": "https://www.flickr.com/photos//albums/72177720329954765"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

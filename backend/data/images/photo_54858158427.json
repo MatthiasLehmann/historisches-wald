@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329723398",
+      "title": "302_Ortsmitte Glashütte 1991",
+      "url": "https://www.flickr.com/photos//albums/72177720329723398"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720323502293",
+      "title": "04_Gebäude in Wald",
+      "url": "https://www.flickr.com/photos//albums/72177720323502293"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

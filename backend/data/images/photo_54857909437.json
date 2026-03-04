@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329694914",
+      "title": "200_Handwerk, Gewerbe und Unternehmen",
+      "url": "https://www.flickr.com/photos//albums/72177720329694914"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

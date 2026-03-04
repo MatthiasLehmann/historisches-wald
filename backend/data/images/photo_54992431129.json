@@ -15,7 +15,13 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720330908637",
+      "title": "92_Gefallene",
+      "url": "https://www.flickr.com/photos//albums/72177720330908637"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],

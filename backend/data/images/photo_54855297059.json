@@ -15,7 +15,33 @@
   "license": "All Rights Reserved",
   "geo": [],
   "groups": [],
-  "albums": [],
+  "albums": [
+    {
+      "id": "72177720329665811",
+      "title": "42_TSV Wald",
+      "url": "https://www.flickr.com/photos//albums/72177720329665811"
+    },
+    {
+      "id": "72177720330908637",
+      "title": "92_Gefallene",
+      "url": "https://www.flickr.com/photos//albums/72177720330908637"
+    },
+    {
+      "id": "72177720329700490",
+      "title": "201_Apotheker Alois Rosenstiel",
+      "url": "https://www.flickr.com/photos//albums/72177720329700490"
+    },
+    {
+      "id": "72177720329702926",
+      "title": "203_Apotheker Sautermeister2",
+      "url": "https://www.flickr.com/photos//albums/72177720329702926"
+    },
+    {
+      "id": "72177720330923278",
+      "title": "800_alte Gegenstände",
+      "url": "https://www.flickr.com/photos//albums/72177720330923278"
+    }
+  ],
   "tags": [],
   "people": [],
   "notes": [],
