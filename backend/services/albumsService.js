@@ -2,11 +2,15 @@ import { getAlbumsFilePath } from '../config/mediaConfig.js';
 import { readJsonFile, writeJsonFile } from '../utils/jsonStorage.js';
 
 const emptyAlbumsPayload = { albums: [] };
+const UNASSIGNED_ALBUM_TITLE = 'nicht zugewiesen';
+const UNASSIGNED_ALBUM_DESCRIPTION = 'Fotos ohne Albumzuordnung';
 
 const toNumber = (value, fallback = 0) => {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : fallback;
 };
+
+const normalizeTitle = (value) => (typeof value === 'string' ? value.trim().toLowerCase() : '');
 
 const normalizeAlbum = (album) => ({
   id: album.id,
@@ -173,6 +177,34 @@ export const createAlbum = async (input = {}) => {
   return normalizeAlbum(newAlbum);
 };
 
+const ensureAlbumRecordByTitle = async (title, description = '') => {
+  const payload = await loadAlbumsRaw();
+  const normalizedTitle = normalizeTitle(title);
+  const existing = payload.albums.find((album) => normalizeTitle(album.title) === normalizedTitle);
+  if (existing) {
+    return normalizeAlbum(existing);
+  }
+  const now = getUnixTimestamp();
+  const newAlbum = {
+    id: generateAlbumId(payload.albums),
+    title,
+    description,
+    url: '',
+    cover_photo: '',
+    photo_count: 0,
+    created: now,
+    last_updated: now,
+    parent_id: '',
+    photos: []
+  };
+  payload.albums.unshift(newAlbum);
+  await saveAlbumsRaw(payload);
+  return normalizeAlbum(newAlbum);
+};
+
+export const ensureUnassignedAlbum = async () =>
+  ensureAlbumRecordByTitle(UNASSIGNED_ALBUM_TITLE, UNASSIGNED_ALBUM_DESCRIPTION);
+
 export const addPhotoToAlbum = async (albumId, photoId, options = {}) => {
   const payload = await loadAlbumsRaw();
   const index = payload.albums.findIndex((entry) => entry.id === albumId);
@@ -200,6 +232,30 @@ export const addPhotoToAlbum = async (albumId, photoId, options = {}) => {
 
   payload.albums[index] = album;
   await saveAlbumsRaw(payload);
+
+  return normalizeAlbum(album);
+};
+
+export const removePhotoFromAlbum = async (albumId, photoId) => {
+  const payload = await loadAlbumsRaw();
+  const index = payload.albums.findIndex((entry) => entry.id === albumId);
+  if (index === -1) {
+    const error = new Error(`Album ${albumId} not found.`);
+    error.statusCode = 404;
+    throw error;
+  }
+  const album = payload.albums[index];
+  const normalizedPhotoId = String(photoId);
+  const existingPhotos = Array.isArray(album.photos) ? album.photos.map((value) => String(value)) : [];
+  const nextPhotos = existingPhotos.filter((id) => id !== normalizedPhotoId);
+
+  if (nextPhotos.length !== existingPhotos.length) {
+    album.photos = nextPhotos;
+    album.photo_count = nextPhotos.length;
+    album.last_updated = getUnixTimestamp();
+    payload.albums[index] = album;
+    await saveAlbumsRaw(payload);
+  }
 
   return normalizeAlbum(album);
 };

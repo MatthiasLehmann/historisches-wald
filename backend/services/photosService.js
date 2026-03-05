@@ -151,6 +151,18 @@ const buildPhotoUpdate = (base = {}, input = {}) => {
     next.tags = sanitizeTagsInput(input.tags);
   }
 
+  if (Object.prototype.hasOwnProperty.call(input, 'albums')) {
+    const albumsInput = Array.isArray(input.albums) ? input.albums : [];
+    const sanitizedAlbums = Array.from(
+      new Set(
+        albumsInput
+          .map((albumId) => String(albumId).trim())
+          .filter((albumId) => albumId.length > 0)
+      )
+    );
+    next.albums = sanitizedAlbums;
+  }
+
   if (Object.prototype.hasOwnProperty.call(input, 'preview')) {
     const preview = typeof input.preview === 'string' ? input.preview.trim() : '';
     next.preview = preview || next.preview || next.original || '';

@@ -1,6 +1,14 @@
 import { promises as fs } from 'fs';
-import { addPhotoToAlbum, createAlbum as createAlbumEntry, getAlbumById, listAlbums, updateAlbumById } from '../services/albumsService.js';
-import { createPhoto, getPhotosByIds } from '../services/photosService.js';
+import {
+  addPhotoToAlbum,
+  createAlbum as createAlbumEntry,
+  ensureUnassignedAlbum,
+  getAlbumById,
+  listAlbums,
+  removePhotoFromAlbum,
+  updateAlbumById
+} from '../services/albumsService.js';
+import { createPhoto, getPhotoById, getPhotosByIds, updatePhotoById } from '../services/photosService.js';
 import { saveBase64Image } from '../utils/imageStorage.js';
 
 export const getAlbums = async (_req, res, next) => {
@@ -100,6 +108,34 @@ export const createAlbumPhoto = async (req, res, next) => {
     if (storedFile?.absolutePath) {
       await fs.unlink(storedFile.absolutePath).catch(() => {});
     }
+    next(error);
+  }
+};
+
+export const removeAlbumPhoto = async (req, res, next) => {
+  try {
+    const albumId = req.params.id;
+    const photoId = req.params.photoId;
+    const photo = await getPhotoById(photoId);
+
+    const updatedAlbum = await removePhotoFromAlbum(albumId, photoId);
+    const unassignedAlbum = await ensureUnassignedAlbum();
+
+    const existingAlbums = Array.isArray(photo.albums) ? photo.albums.map((id) => String(id)) : [];
+    const remainingAlbums = existingAlbums.filter((id) => id !== albumId);
+    if (!remainingAlbums.includes(unassignedAlbum.id)) {
+      remainingAlbums.unshift(unassignedAlbum.id);
+    }
+
+    const updatedPhoto = await updatePhotoById(photoId, { albums: remainingAlbums });
+    await addPhotoToAlbum(unassignedAlbum.id, photoId);
+
+    res.json({
+      album: updatedAlbum,
+      unassignedAlbum,
+      photo: updatedPhoto
+    });
+  } catch (error) {
     next(error);
   }
 };

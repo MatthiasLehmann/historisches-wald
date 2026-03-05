@@ -16,11 +16,8 @@
   "geo": [],
   "groups": [],
   "albums": [
-    {
-      "id": "72177720329671887",
-      "title": "00_Postkarten, Infrastruktur und Gebäude",
-      "url": "https://www.flickr.com/photos//albums/72177720329671887"
-    }
+    "local_mmbzcjshe9kkuk",
+    "[object Object]"
   ],
   "tags": [],
   "people": [],
@@ -44,6 +41,6 @@
     "reviewedAt": null,
     "comments": []
   },
-  "updatedAt": "2026-03-04T11:30:09.222Z",
+  "updatedAt": "2026-03-05T21:14:48.113Z",
   "preview": "/files/images/thumbnails/photo-53504830044-thumb.jpg"
 }

@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import AlbumEditor from '../components/AlbumEditor';
 import PhotoCard from '../components/PhotoCard';
 import PhotoPreviewModal from '../components/PhotoPreviewModal';
-import { fetchAlbumById, fetchAlbumPhotos, fetchAlbums, updateAlbum, uploadAlbumPhoto } from '../services/api.js';
+import { fetchAlbumById, fetchAlbumPhotos, fetchAlbums, removePhotoFromAlbum, updateAlbum, uploadAlbumPhoto } from '../services/api.js';
 
 const PAGE_SIZE = 24;
 const defaultUploadForm = {
@@ -29,7 +29,11 @@ const AlbumDetailPage = () => {
   const [uploadSuccess, setUploadSuccess] = useState('');
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
   const [uploadForm, setUploadForm] = useState(defaultUploadForm);
+  const [photoActionError, setPhotoActionError] = useState('');
+  const [photoActionSuccess, setPhotoActionSuccess] = useState('');
+  const [removingPhotoId, setRemovingPhotoId] = useState(null);
   const uploadInputRef = useRef(null);
+  const isUnassignedAlbum = ((album?.title ?? '').trim().toLowerCase() === 'nicht zugewiesen');
 
   const loadAlbum = useCallback(async () => {
     if (!albumId) {
@@ -47,6 +51,8 @@ const AlbumDetailPage = () => {
       setUploadForm(defaultUploadForm);
       setUploadError('');
       setUploadSuccess('');
+      setPhotoActionError('');
+      setPhotoActionSuccess('');
       if (uploadInputRef.current) {
         uploadInputRef.current.value = '';
       }
@@ -173,6 +179,30 @@ const AlbumDetailPage = () => {
     }
   };
 
+  const handleRemovePhotoFromAlbum = async (photo) => {
+    if (!albumId || !photo?.id) {
+      return;
+    }
+    setRemovingPhotoId(photo.id);
+    setPhotoActionError('');
+    setPhotoActionSuccess('');
+    try {
+      const response = await removePhotoFromAlbum(albumId, photo.id);
+      setPhotos((prev) => prev.filter((entry) => entry.id !== photo.id));
+      if (response?.album) {
+        setAlbum(response.album);
+      }
+      setPhotoActionSuccess(
+        `Foto wurde dem Album "${response?.unassignedAlbum?.title ?? 'nicht zugewiesen'}" zugeordnet.`
+      );
+      setPreviewPhoto(null);
+    } catch (actionError) {
+      setPhotoActionError(actionError.message || 'Foto konnte nicht entfernt werden.');
+    } finally {
+      setRemovingPhotoId(null);
+    }
+  };
+
   return (
     <div className="container mx-auto px-4 py-10 flex flex-col gap-6">
       <div className="flex items-center justify-between flex-wrap gap-4">
@@ -191,6 +221,8 @@ const AlbumDetailPage = () => {
       {error && <p className="text-red-600">{error}</p>}
       {uploadError && <p className="text-red-600">{uploadError}</p>}
       {uploadSuccess && <p className="text-emerald-600">{uploadSuccess}</p>}
+      {photoActionError && <p className="text-red-600">{photoActionError}</p>}
+      {photoActionSuccess && <p className="text-emerald-600">{photoActionSuccess}</p>}
 
       <AlbumEditor album={album} onSubmit={handleAlbumSave} saving={saving} allAlbums={allAlbums} />
 
@@ -327,6 +359,12 @@ const AlbumDetailPage = () => {
           photo={previewPhoto}
           onClose={handleClosePreview}
           onNavigate={() => navigate(`/photos/${previewPhoto.id}`)}
+          onRemoveFromAlbum={
+            isUnassignedAlbum
+              ? undefined
+              : () => handleRemovePhotoFromAlbum(previewPhoto)
+          }
+          isRemoving={removingPhotoId === previewPhoto.id}
         />
       )}
     </div>

@@ -1590,38 +1590,6 @@
     "condition": "Gut"
   },
   {
-    "id": "doc-1771869680553",
-    "title": "Test",
-    "year": 1967,
-    "category": "Wald",
-    "subcategories": [
-      "Handwerk",
-      "Gewerbe"
-    ],
-    "location": "Wald",
-    "description": "qdfwfqwfssfqfafqf",
-    "transcription": "",
-    "images": [],
-    "metadata": {
-      "author": "M .Lehmann",
-      "source": "Eingereicht",
-      "condition": "Gut"
-    },
-    "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
-      "comments": []
-    },
-    "author": "M .Lehmann",
-    "source": "Eingereicht",
-    "condition": "Gut",
-    "imageIds": [],
-    "pdfIds": [],
-    "albumPhotoIds": [],
-    "pdfs": []
-  },
-  {
     "id": "doc-001",
     "title": "Urkunde zur Pfarreigründung",
     "year": 1785,

@@ -36,6 +36,7 @@ const SubmitDocument = () => {
   const [pdfLibraryLoading, setPdfLibraryLoading] = useState(false);
   const [pdfLibraryError, setPdfLibraryError] = useState(null);
   const [isReloading, setIsReloading] = useState(false);
+  const [isDeleting, setIsDeleting] = useState(false);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -290,6 +291,40 @@ const SubmitDocument = () => {
     }
   };
 
+  const handleDeleteDocument = async () => {
+    if (!editingId || typeof window === 'undefined') {
+      return;
+    }
+    const confirmed = window.confirm('Möchten Sie dieses Dokument endgültig löschen?');
+    if (!confirmed) {
+      return;
+    }
+    setIsDeleting(true);
+    setStatus(null);
+    try {
+      const response = await fetch(`/api/documents/${editingId}`, { method: 'DELETE' });
+      if (!response.ok) {
+        let message = 'Löschen fehlgeschlagen.';
+        try {
+          const errorBody = await response.json();
+          if (errorBody?.message) {
+            message = errorBody.message;
+          }
+        } catch {
+          // Server liefert bei Erfolg keinen Body
+        }
+        throw new Error(message);
+      }
+      setStatus({ type: 'success', message: 'Dokument gelöscht.' });
+      resetForm();
+      await loadDocuments();
+    } catch (error) {
+      setStatus({ type: 'error', message: error.message });
+    } finally {
+      setIsDeleting(false);
+    }
+  };
+
   return (
     <div className="container mx-auto px-4 py-12">
       <header className="mb-10 flex flex-col gap-4 text-center md:flex-row md:items-center md:justify-between md:text-left">
@@ -359,11 +394,26 @@ const SubmitDocument = () => {
 
         <form onSubmit={handleSubmit} className="w-full lg:w-4/5 space-y-6 bg-white border border-parchment-dark rounded-sm shadow-sm p-6">
           {editingId && (
-            <div className="flex items-center justify-between bg-parchment/60 border border-parchment-dark/50 rounded-sm px-4 py-2 text-sm text-ink/80">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between bg-parchment/60 border border-parchment-dark/50 rounded-sm px-4 py-2 text-sm text-ink/80">
               <span>Bearbeite: {form.title || editingId}</span>
-              <button type="button" onClick={resetForm} className="text-accent hover:underline text-xs">
-                Neuen Eintrag anlegen
-              </button>
+              <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={resetForm}
+                  className="text-accent hover:underline text-xs disabled:opacity-60"
+                  disabled={isSubmitting || isDeleting}
+                >
+                  Neuen Eintrag anlegen
+                </button>
+                <button
+                  type="button"
+                  onClick={handleDeleteDocument}
+                  className="text-xs text-red-600 hover:underline disabled:opacity-60"
+                  disabled={isDeleting || isSubmitting}
+                >
+                  {isDeleting ? 'Lösche…' : 'Dokument löschen'}
+                </button>
+              </div>
             </div>
           )}
 
@@ -611,7 +661,7 @@ const SubmitDocument = () => {
           )}
           <button
             type="submit"
-            disabled={isSubmitting}
+            disabled={isSubmitting || isDeleting}
             className="ml-auto px-6 py-3 bg-accent text-white font-semibold rounded-sm shadow hover:bg-accent-dark disabled:opacity-50"
           >
             {isSubmitting ? 'Speichern…' : editingId ? 'Dokument aktualisieren' : 'Dokument speichern'}

@@ -14,7 +14,14 @@ const ZOOM_STEP = 0.25;
 
 const clampZoom = (value) => Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, value));
 
-const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
+const PhotoPreviewModal = ({
+  photo,
+  onClose,
+  onNavigate,
+  onRemoveFromAlbum,
+  removeLabel = 'Aus Album entfernen',
+  isRemoving = false
+}) => {
   const [zoomState, setZoomState] = useState({ photoId: null, value: 1 });
 
   if (!photo) {
@@ -160,6 +167,16 @@ const PhotoPreviewModal = ({ photo, onClose, onNavigate }) => {
               >
                 Zum Foto-Detail
               </Link>
+              {onRemoveFromAlbum && (
+                <button
+                  type="button"
+                  className="px-3 py-2 border border-red-600 text-red-700 rounded-md text-sm disabled:opacity-60 disabled:cursor-not-allowed"
+                  onClick={() => onRemoveFromAlbum(photo)}
+                  disabled={isRemoving}
+                >
+                  {isRemoving ? 'Entfernen…' : removeLabel}
+                </button>
+              )}
             </div>
           </div>
         </div>
