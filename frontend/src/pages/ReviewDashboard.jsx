@@ -1,19 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import ReviewPanel from '../components/ReviewPanel.jsx';
-
-const STATUS_LABELS = {
-  pending: 'Pending',
-  in_review: 'In Review',
-  approved: 'Approved',
-  rejected: 'Rejected'
-};
-
-const STATUS_STYLES = {
-  pending: 'bg-gray-200 text-gray-800',
-  in_review: 'bg-yellow-200 text-yellow-900',
-  approved: 'bg-green-200 text-green-900',
-  rejected: 'bg-red-200 text-red-900'
-};
+import StatusBadge from '../components/StatusBadge.jsx';
 
 const ReviewDashboard = () => {
   const [documents, setDocuments] = useState([]);
@@ -200,9 +187,7 @@ const ReviewDashboard = () => {
                     >
                       <div className="flex items-center justify-between">
                         <p className="font-semibold text-sm">{doc.title}</p>
-                        <span className={`ml-2 inline-flex items-center px-2 py-0.5 text-[10px] font-semibold rounded-full ${STATUS_STYLES[status] ?? STATUS_STYLES.pending}`}>
-                          {STATUS_LABELS[status] ?? status}
-                        </span>
+                        <StatusBadge status={status} className="ml-2" />
                       </div>
                       <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
                     </button>

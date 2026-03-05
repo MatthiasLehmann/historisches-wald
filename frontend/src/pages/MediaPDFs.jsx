@@ -1,19 +1,13 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { FileText, Plus, RefreshCcw, Trash2 } from 'lucide-react';
 import PdfEditorModal from '../components/PdfEditorModal.jsx';
+import StatusBadge from '../components/StatusBadge.jsx';
 import {
   deletePdfAsset,
   fetchPdfs,
   importLocalPdfFile,
   importRemotePdf
 } from '../services/api.js';
-
-const statusColors = {
-  approved: 'bg-green-100 text-green-800',
-  rejected: 'bg-red-100 text-red-700',
-  in_review: 'bg-yellow-100 text-yellow-800',
-  pending: 'bg-parchment/80 text-ink/80'
-};
 
 const MediaPDFs = () => {
   const [pdfs, setPdfs] = useState([]);
@@ -287,9 +281,7 @@ const MediaPDFs = () => {
                     </p>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className={`px-3 py-1 rounded-full text-xs font-semibold ${statusColors[pdf.review?.status] || statusColors.pending}`}>
-                      {pdf.review?.status || 'pending'}
-                    </span>
+                    <StatusBadge status={pdf.review?.status} />
                     <button
                       type="button"
                       onClick={() => handleOpenEditor(pdf)}

@@ -19,11 +19,18 @@ const formatStatusLabel = (status) => {
     .join(' ');
 };
 
-const StatusBadge = ({ status }) => {
+const StatusBadge = ({ status, className = '' }) => {
   const key = status ?? 'pending';
   const style = STATUS_STYLES[key] || STATUS_STYLES.pending;
+  const classes = [
+    'inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold border',
+    style,
+    className
+  ]
+    .filter(Boolean)
+    .join(' ');
   return (
-    <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold border ${style}`}>
+    <span className={classes}>
       {formatStatusLabel(key)}
     </span>
   );
