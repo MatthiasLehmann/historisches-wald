@@ -28,6 +28,7 @@ const Header = () => {
         { name: 'Review Center', path: '/review' },
         { name: 'Mediathek PDFs', path: '/media/pdfs' },
         { name: 'Alben', path: '/albums' },
+        { name: 'Hilfe', path: '/help' }
     ];
 
     const loginNavItem = isAuthenticated

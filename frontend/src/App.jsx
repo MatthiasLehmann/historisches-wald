@@ -21,6 +21,7 @@ import AlbumsPage from './pages/AlbumsPage';
 import AlbumDetailPage from './pages/AlbumDetailPage';
 import PhotoDetailPage from './pages/PhotoDetailPage';
 import InternalDashboard from './pages/InternalDashboard';
+import HelpCenter from './pages/HelpCenter';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -110,6 +111,14 @@ const App = () => (
           element={
             <ProtectedRoute>
               <PhotoDetailPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/help"
+          element={
+            <ProtectedRoute>
+              <HelpCenter />
             </ProtectedRoute>
           }
         />
