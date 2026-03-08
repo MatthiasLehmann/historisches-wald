@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import ReviewPanel from '../components/ReviewPanel.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
+import RichTextContent from '../components/RichTextContent';
 
 const ReviewDashboard = () => {
   const [documents, setDocuments] = useState([]);
@@ -211,7 +212,11 @@ const ReviewDashboard = () => {
                   <h2 className="text-2xl font-serif font-bold text-ink">{selectedDocument.title}</h2>
                   <p className="text-sm text-ink/70">{selectedDocument.year} · {selectedDocument.location}</p>
                 </header>
-                <p className="text-sm text-ink/80 whitespace-pre-line">{selectedDocument.description}</p>
+                <RichTextContent
+                  content={selectedDocument.description}
+                  className="text-sm text-ink/80"
+                  emptyFallback="Keine Beschreibung vorhanden."
+                />
 
                 {documentImages.length > 0 && (
                   <section className="space-y-3">
@@ -272,10 +277,11 @@ const ReviewDashboard = () => {
                 {selectedDocument.transcription && (
                   <details className="text-sm text-ink/70">
                     <summary className="cursor-pointer text-ink font-semibold">Transkription anzeigen</summary>
-                    <div className="mt-2 whitespace-pre-line border border-parchment-dark/40 rounded-sm p-3 bg-parchment/30">
-                      {Array.isArray(selectedDocument.transcription)
-                        ? selectedDocument.transcription.join('\n')
-                        : selectedDocument.transcription}
+                    <div className="mt-2 border border-parchment-dark/40 rounded-sm p-3 bg-parchment/30">
+                      <RichTextContent
+                        content={selectedDocument.transcription}
+                        emptyFallback="Keine Transkription vorhanden."
+                      />
                     </div>
                   </details>
                 )}

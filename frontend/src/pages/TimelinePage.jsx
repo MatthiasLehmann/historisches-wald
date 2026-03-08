@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Calendar, MapPin, ArrowRight } from 'lucide-react';
 import Timeline from '../components/Timeline';
 import MediaTimelineSection from '../components/MediaTimelineSection.jsx';
+import RichTextContent from '../components/RichTextContent';
 import { fetchDocuments } from '../services/api';
 
 const TimelinePage = () => {
@@ -117,9 +118,11 @@ const TimelinePage = () => {
                             <p className="text-xs uppercase tracking-[0.4em] text-accent">Ausgewähltes Ereignis</p>
                             <h2 className="text-3xl font-serif font-bold text-ink">{selectedDocument.title}</h2>
                         </div>
-                        <p className="text-ink/70 leading-relaxed">
-                            {selectedDocument.description}
-                        </p>
+                        <RichTextContent
+                            content={selectedDocument.description}
+                            className="text-ink/70 leading-relaxed"
+                            emptyFallback="Keine Beschreibung vorhanden."
+                        />
                         <div className="flex flex-wrap gap-3 text-sm text-ink/60">
                             <span className="inline-flex items-center gap-2">
                                 <Calendar size={16} className="text-accent" />

@@ -495,17 +495,17 @@ const SubmitDocument = () => {
           label="Beschreibung*"
           value={form.description}
           onChange={(nextValue) => setForm((prev) => ({ ...prev, description: nextValue }))}
-          placeholder="Beschreiben Sie das Dokument samt Kontext in Markdown."
+          placeholder="Beschreiben Sie das Dokument samt Kontext."
           required
-          helperText="Nutzen Sie Markdown für strukturierte Absätze, Listen und Links."
+          helperText="Nutzen Sie den Editor für strukturierte Absätze, Listen, Links oder Tabellen."
         />
 
         <MarkdownEditor
           label="Transkription / Notizen"
           value={form.transcription}
           onChange={(nextValue) => setForm((prev) => ({ ...prev, transcription: nextValue }))}
-          placeholder="Optionaler Volltext, Notizen oder Beobachtungen als Markdown."
-          helperText="Optional: Nutzen Sie die Vorschau, um die Transkription zu kontrollieren."
+          placeholder="Optionaler Volltext, Notizen oder Beobachtungen."
+          helperText="Optional: Formatieren Sie Transkriptionen direkt mit dem Editor."
         />
 
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">

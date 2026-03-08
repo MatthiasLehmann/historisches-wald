@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, MapPin, User, FileText, Bookmark, ScrollText, X } from 'lucide-react';
-import ReactMarkdown from 'react-markdown';
 import ImageGallery from '../components/ImageGallery';
+import RichTextContent from '../components/RichTextContent';
 import { fetchDocuments } from '../services/api';
 
 const DocumentPage = () => {
@@ -132,9 +132,11 @@ const DocumentPage = () => {
                             <FileText size={20} className="text-accent" />
                             Beschreibung
                         </h3>
-                        <p className="text-ink/80 leading-relaxed text-lg font-serif">
-                            {document.description}
-                        </p>
+                        <RichTextContent
+                            content={document.description}
+                            className="prose-lg text-ink/80 prose-headings:font-serif"
+                            emptyFallback="Keine Beschreibung vorhanden."
+                        />
                     </section>
 
                     {document.transcription && (
@@ -143,12 +145,12 @@ const DocumentPage = () => {
                                 <ScrollText size={20} className="text-accent" />
                                 Transkription
                             </h3>
-                            <div className="prose prose-p:text-ink/80 prose-p:font-serif prose-headings:font-serif prose-headings:text-ink prose-strong:text-accent prose-strong:font-bold border-l-4 border-accent/20 pl-4 py-2 bg-parchment/20">
-                                <ReactMarkdown>
-                                    {Array.isArray(document.transcription)
-                                        ? document.transcription.join('\n')
-                                        : document.transcription}
-                                </ReactMarkdown>
+                            <div className="border-l-4 border-accent/20 pl-4 py-2 bg-parchment/20 rounded-sm">
+                                <RichTextContent
+                                    content={document.transcription}
+                                    className="prose prose-sm text-ink/80"
+                                    emptyFallback="Keine Transkription vorhanden."
+                                />
                             </div>
                         </section>
                     )}

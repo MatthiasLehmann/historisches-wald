@@ -3,6 +3,23 @@ import { Link } from 'react-router-dom';
 import { MapPin, Tag } from 'lucide-react';
 import { motion as Motion } from 'framer-motion';
 
+const HTML_PATTERN = /<\/?[a-z][\s\S]*>/i;
+
+const toPlainText = (value) => {
+    if (value == null) {
+        return '';
+    }
+    const normalized = typeof value === 'string'
+        ? value
+        : Array.isArray(value)
+            ? value.join('\n')
+            : String(value);
+    if (!HTML_PATTERN.test(normalized)) {
+        return normalized;
+    }
+    return normalized.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+};
+
 const DocumentCard = ({ document }) => {
     const subcategories = document.categoryIds ?? (
         document.subcategory ? [document.subcategory] : []
@@ -10,6 +27,11 @@ const DocumentCard = ({ document }) => {
 
     const coverImage = document.images?.[0];
     const coverSrc = typeof coverImage === 'string' ? coverImage : coverImage?.src || '';
+
+    const previewText = React.useMemo(() => {
+        const plain = toPlainText(document.description);
+        return plain || 'Keine Beschreibung vorhanden.';
+    }, [document.description]);
 
     return (
         <Motion.div
@@ -60,7 +82,7 @@ const DocumentCard = ({ document }) => {
                 </h3>
 
                 <p className="text-ink/70 text-sm mb-4 line-clamp-2 font-serif flex-grow">
-                    {document.description}
+                    {previewText}
                 </p>
 
                 <div className="pt-4 mt-auto border-t border-parchment-dark/30 flex items-center justify-between text-xs text-ink/50">
