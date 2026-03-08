@@ -11,7 +11,19 @@
     "location": "Wald",
     "description": "<p>Schwester Sophia von Kotschoubey-Beauharnais</p>",
     "transcription": "<p>Schwester Sophia wurde am 04. Oktober 1899 als Prinzessin Natalia Lvovna Kotschoubey geboren. Ihre Eltern waren <a rel=\"noopener nofollow\" class=\"text-accent underline font-semibold a_506A\" href=\"https://www.geni.com/people/Lev-Mikhailovitch-Kotchoubey/6000000004534823719\">Lev Mikhailovitch Kotchoubey</a> und <a rel=\"noopener nofollow\" class=\"text-accent underline font-semibold a_506A\" href=\"https://www.geni.com/people/Daria-Evgenievna-de-Beauharnais/6000000004534977131\">Daria Evgenievna de Beauharnais</a>. Ihre Kindheit und Jugendzeit verbrachte sie in Karlsruhe und Sankt Petersburg.</p><p>Ihre Studien begann die junge Prinzessin am kaiserlichen deutsch-russischen Alexandergymnasium in Sankt Petersburg, wo sie auch das Pädagogische Seminar besuchte. Während der russischen Revolution floh Natalia Lvovna Kotschoubey nach Deutschland. Dort setzte sie ihr Studium an der Universität Berlin fort. Sie konvertierte 1930 vom orthodoxen zum katholischen Glauben und trat 1933 in den Konvent der Benediktinerinnen der Heiligen Lioba in Freiburg/Günterstal ein.</p><p>Zunächst war sie als Kurs- und Schulungsleiterin mit volkskatechetischen Vorträgen in ganz Baden-Württemberg und der Schweiz unterwegs. Ab 1936 war sie Leiterin der katechetischen Schulungsarbeit der Erzdiözese Freiburg.</p><p>1939 baute sie zusammen mit einigen Mitschwestern (darunter Schwester Lioba Korte und Schwester Adalberta Buchholz) das Rückwandererheim für evakuierte Mütter und Kinder in Krauchenwies auf, das von Fürstin Margarete von Hohenzollern-Sigmaringen ins Leben gerufen wurde. Schon dort fing sie an, die Kinder zu unterweisen. 1944 veranlasste der Gauleiter der dort untergekommenen Vichy-Regierung die sofortige Räumung des Schlösschens. Die Schwestern, Mütter und Kinder fanden, durch die Hilfe des Markgrafen von Baden, eine neue Bleibe im Schloss Hohenfels.</p><p>Nach Beendigung des Krieges ergab sich die Notwendigkeit, für die Kinder und Schwestern ein neues Heim zu finden. So gründete Schwester Sophia 1946 zusammen mit Schwester Lioba Korte und einigen Mitschwestern die Heimschule Kloster Wald, die sie bis 1973 als Rektorin leitete. Sie unterrichtete in der Heimschule Religion, Geschichte und Erdkunde.</p><p>Sie schuf die Grundlagen für ein erfolgreiches Erziehungs- und Bildungskonzept sowie zur Werkstattausbildung an der Heimschule. Die handwerkliche Ausbildung, die ab 1951 zusammen mit Meisterinnen aus dem Handwerk angeboten wurde, sah sie als Verwirklichung des Erziehungszieles von Pestalozzi, der Bildung von Kopf, Herz und Hand.</p><p>Sie war eine engagierte Vertreterin der Mädchenschule und eine überzeugte Pädagogin, der die christliche Erziehung der jungen Menschen im benediktinischen Geist am Herzen lag. Ihr beherztes Auftreten und die weitblickenden Entscheidungen im pädagogischen Bereich, machten sie zu einer geschätzten Persönlichkeit, deren Rat gerne gehört wurde.</p><p>1966 erhielt Schwester Sophia das Landesverdienstkreuz erster Klasse und 1978 die Verdienstmedaille des Landes Baden-Württemberg. <br>Schwester Sophia starb am 11. Juli 1979 in Wald und wurde auf dem Walder Friedhof beerdigt.</p><p><strong><br>Quellen:</strong></p><ul><li><p>Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald</p></li><li><p>800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte, <br>2008 Gemeinde Wald</p></li><li><p>60 Jahre Heimschule Kloster - Wald Festschrift zum 60jährigen Bestehen der Heimschule Kloster Wald, 2006 Heimschule Kloster Wald</p></li></ul><p></p><p><strong>Quelle Foto:</strong></p><ul><li><p>800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte, 2008 Gemeinde Wald, Seite 26 Abb. 25</p></li></ul>",
-    "images": [],
+    "images": [
+      {
+        "id": "local_mmic7jitf9zevx",
+        "src": "/files/images/thumbnails/album-1773009718866-650704823-thumb.jpg",
+        "title": "Schwester-Sophia.jpg",
+        "description": "Schwester Sophia",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -19,14 +31,19 @@
       "condition": "gut"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mmic7jitf9zevx"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald    800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald    60 Jahre Heimschule Kloster - Wald Festschrift zum 60jährigen Bestehen der Heimschule Kloster Wald, 2006 Heimschule Kloster Wald",
+    "condition": "gut"
   },
   {
     "id": "doc-1772540073667",
