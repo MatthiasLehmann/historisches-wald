@@ -89,8 +89,10 @@ const DocumentPage = () => {
         );
     }
 
+    const metadataSource = document.metadata?.source?.trim() || 'Unbekannt';
+    const metadataYear = document.year || 'Ohne Jahr';
     return (
-        <article className="container mx-auto px-4 py-8 max-w-5xl">
+        <article className="container mx-auto px-4 py-8">
             <button
                 onClick={() => navigate(-1)}
                 className="flex items-center gap-2 text-ink/60 hover:text-accent mb-6 transition-colors"
@@ -100,7 +102,7 @@ const DocumentPage = () => {
             </button>
 
             <header className="mb-8 border-b border-parchment-dark pb-8">
-                <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-4">
+                <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-4">
                     <div>
                         <div className="flex flex-wrap gap-2 items-center mb-3">
                             <span className="inline-flex bg-accent/10 text-accent px-3 py-1 text-sm font-semibold rounded-full">
@@ -119,137 +121,92 @@ const DocumentPage = () => {
                             {document.title}
                         </h1>
                     </div>
-                    <div className="text-2xl font-serif font-bold text-ink/40">
-                        {document.year}
+                    <div className="text-right">
+                        <p className="text-4xl font-serif font-bold text-ink/50">
+                            {metadataYear}
+                        </p>
+                        <p className="text-sm text-ink/60 mt-2">
+                            Quelle: <span className="font-semibold text-ink">{metadataSource}</span>
+                        </p>
                     </div>
                 </div>
             </header>
+            <div className="space-y-10">
+                <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
+                    <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
+                        <FileText size={20} className="text-accent" />
+                        Beschreibung
+                    </h3>
+                    <RichTextContent
+                        content={document.description}
+                        className="prose-lg text-ink/80 prose-headings:font-serif"
+                        emptyFallback="Keine Beschreibung vorhanden."
+                    />
+                </section>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-                <div className="lg:col-span-2 space-y-8">
+                {document.transcription && (
+                    <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
+                        <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
+                            <ScrollText size={20} className="text-accent" />
+                            Transkription
+                        </h3>
+                        <div className="border-l-4 border-accent/20 pl-4 py-2 bg-parchment/20 rounded-sm">
+                            <RichTextContent
+                                content={document.transcription}
+                                className="prose prose-sm text-ink/80"
+                                emptyFallback="Keine Transkription vorhanden."
+                            />
+                        </div>
+                    </section>
+                )}
+
+                <section>
+                    <h3 className="font-serif text-xl font-bold mb-4">Galerie</h3>
+                    <ImageGallery images={document.images} title={document.title} />
+                </section>
+
+                {linkedPdfs.length > 0 && (
                     <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
                         <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
                             <FileText size={20} className="text-accent" />
-                            Beschreibung
+                            Verknüpfte PDFs
                         </h3>
-                        <RichTextContent
-                            content={document.description}
-                            className="prose-lg text-ink/80 prose-headings:font-serif"
-                            emptyFallback="Keine Beschreibung vorhanden."
-                        />
-                    </section>
-
-                    {document.transcription && (
-                        <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
-                            <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
-                                <ScrollText size={20} className="text-accent" />
-                                Transkription
-                            </h3>
-                            <div className="border-l-4 border-accent/20 pl-4 py-2 bg-parchment/20 rounded-sm">
-                                <RichTextContent
-                                    content={document.transcription}
-                                    className="prose prose-sm text-ink/80"
-                                    emptyFallback="Keine Transkription vorhanden."
-                                />
-                            </div>
-                        </section>
-                    )}
-
-                    <section>
-                        <h3 className="font-serif text-xl font-bold mb-4">Galerie</h3>
-                        <ImageGallery images={document.images} title={document.title} />
-                    </section>
-
-                    {linkedPdfs.length > 0 && (
-                        <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
-                            <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
-                                <FileText size={20} className="text-accent" />
-                                Verknüpfte PDFs
-                            </h3>
-                            <div className="space-y-4">
-                                {linkedPdfs.map((pdf) => (
-                                    <article
-                                        key={pdf.id || pdf.url}
-                                        className="border border-parchment-dark rounded-sm p-4 space-y-3 bg-parchment/20"
-                                    >
-                                        <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-                                            <div>
-                                                <p className="text-lg font-serif font-semibold text-ink">{pdf.title}</p>
-                                                <p className="text-sm text-ink/70">
-                                                    {pdf.year || 'Ohne Jahr'} · {pdf.location || 'Ohne Ort'}
-                                                </p>
-                                                <p className="text-xs text-ink/60 mt-1">
-                                                    Quelle: {pdf.source || 'Unbekannt'} · Lizenz: {pdf.license || 'rights-reserved'}
-                                                </p>
-                                            </div>
-                                            <button
-                                                type="button"
-                                                onClick={() => setActivePdf(pdf)}
-                                                className="px-4 py-2 text-sm font-semibold border border-accent text-accent rounded-sm hover:bg-accent hover:text-white transition"
-                                            >
-                                                PDF anzeigen
-                                            </button>
+                        <div className="space-y-4">
+                            {linkedPdfs.map((pdf) => (
+                                <article
+                                    key={pdf.id || pdf.url}
+                                    className="border border-parchment-dark rounded-sm p-4 space-y-3 bg-parchment/20"
+                                >
+                                    <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+                                        <div>
+                                            <p className="text-lg font-serif font-semibold text-ink">{pdf.title}</p>
+                                            <p className="text-sm text-ink/70">
+                                                {pdf.year || 'Ohne Jahr'} · {pdf.location || 'Ohne Ort'}
+                                            </p>
+                                            <p className="text-xs text-ink/60 mt-1">
+                                                Quelle: {pdf.source || 'Unbekannt'} · Lizenz: {pdf.license || 'rights-reserved'}
+                                            </p>
                                         </div>
-                                        <div className="border border-dashed border-parchment-dark/70 rounded-sm overflow-hidden bg-white">
-                                            <iframe
-                                                src={pdf.url}
-                                                title={pdf.title}
-                                                className="w-full h-64"
-                                            />
-                                        </div>
-                                    </article>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-                </div>
-
-                <aside className="space-y-6">
-                    <div className="bg-parchment-dark/20 p-6 rounded-sm border border-parchment-dark">
-                        <h3 className="font-serif text-lg font-bold mb-4 border-b border-parchment-dark pb-2">Metadaten</h3>
-
-                        <div className="space-y-4 text-sm">
-                            <div>
-                                <span className="block text-ink/50 text-xs uppercase tracking-wider mb-1">Datum</span>
-                                <div className="flex items-center gap-2 text-ink font-medium">
-                                    <Calendar size={16} className="text-accent" />
-                                    {document.year}
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="block text-ink/50 text-xs uppercase tracking-wider mb-1">Ort</span>
-                                <div className="flex items-center gap-2 text-ink font-medium">
-                                    <MapPin size={16} className="text-accent" />
-                                    {document.location}
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="block text-ink/50 text-xs uppercase tracking-wider mb-1">Autor / Ersteller</span>
-                                <div className="flex items-center gap-2 text-ink font-medium">
-                                    <User size={16} className="text-accent" />
-                                    {document.metadata.author}
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="block text-ink/50 text-xs uppercase tracking-wider mb-1">Quelle / Archiv</span>
-                                <div className="flex items-center gap-2 text-ink font-medium">
-                                    <Bookmark size={16} className="text-accent" />
-                                    {document.metadata.source}
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="block text-ink/50 text-xs uppercase tracking-wider mb-1">Zustand</span>
-                                <div className="text-ink/80 italic">
-                                    {document.metadata.condition}
-                                </div>
-                            </div>
+                                        <button
+                                            type="button"
+                                            onClick={() => setActivePdf(pdf)}
+                                            className="px-4 py-2 text-sm font-semibold border border-accent text-accent rounded-sm hover:bg-accent hover:text-white transition"
+                                        >
+                                            PDF anzeigen
+                                        </button>
+                                    </div>
+                                    <div className="border border-dashed border-parchment-dark/70 rounded-sm overflow-hidden bg-white">
+                                        <iframe
+                                            src={pdf.url}
+                                            title={pdf.title}
+                                            className="w-full h-64"
+                                        />
+                                    </div>
+                                </article>
+                            ))}
                         </div>
-                    </div>
-                </aside>
+                    </section>
+                )}
             </div>
             {activePdf && (
                 <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 px-4">
