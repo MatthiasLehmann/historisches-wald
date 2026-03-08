@@ -36,10 +36,16 @@
     ],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
+      "status": "approved",
+      "reviewer": "Matthias",
       "reviewedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "reviewer": "Matthias",
+          "date": "2026-03-08T22:43:26.736Z",
+          "comment": "Ok"
+        }
+      ]
     },
     "author": "Unbekannt",
     "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald    800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald    60 Jahre Heimschule Kloster - Wald Festschrift zum 60jährigen Bestehen der Heimschule Kloster Wald, 2006 Heimschule Kloster Wald",
