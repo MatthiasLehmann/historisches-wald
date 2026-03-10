@@ -57,7 +57,19 @@
     "location": "Wald",
     "description": "<p>Schwester Michaele Csordás (1931 - 2021) </p>",
     "transcription": "<p>Schwester Michaele Csordás wurde als Brigitte Csordas am 10. Mai 1931 in Wien geboren. Sie war die ältere von zwei Töchtern des Bankdirektors Josef Csordás und seiner Ehefrau Gertrud, geb. Ullrich. Die Familie ging nach dem Einmarsch der Nationalsozialisten nach Budapest, wo Brigitte Csordás die deutsche Oberschule besuchte. 1944 erfolgte die Flucht zurück nach Wien und schließlich nach Garmisch-Partenkirchen, wo sie die Mädchen-Oberrealschule der Armen Schulschwestern in Garmisch-Partenkirchen besuchte. Nach dem Abitur begann sie ein Sprachenstudium in Eichstätt und wechselte dann 1950 auf das Auslands- und Dolmetscherinstitut der Gutenberg-Universität in Germersheim.</p><p>Inzwischen war in ihr die Berufung zum Ordensleben gewachsen. Am 8. September 1951 trat sie als Kandidatin in den Konvent Kloster Wald ein. Im Sommer 1952 wurde Brigitte Csordás zur Fortsetzung ihrer Ausbildung zunächst nach Paris geschickt, von sie ein Semester an der Sorbonne studieren konnte. 1953 begann sie in Tübingen das Studium der Neuphilologie (Französisch, Englisch, Deutsch und Philosophie). Nach dem Staatsexamen für das Lehramt an Gymnasien 1958 ging sie zur klösterlichen Ausbildung ins Mutterhaus der Schwestern der Heiligen Lioba nach Freiburg-Günterstal. Am 27. September 1958 wurde Brigitte Csordás als Sr. Maria Michaele eingekleidet. Nach dem Noviziat kam sie wieder nach Kloster Wald zurück. Bis 2014 wirkte sie dort als Lehrerin, als Schulleiterin (1973-1997), dann als Leiterin der Lehrwerkstätten (bis 2009) und ab 2007 als Oberin des Konvents. Mit großer Energie gestaltete sie die Heimschule Kloster Wald und führte sie durch herausfordernde Zeiten.</p><p>Für ihr Engagement erhielt Schwester Michaele zahlreiche Auszeichnungen, unter anderem wurde ihr 2009 die Verdienstmedaille des Landes Baden-Württemberg verliehen. Das Goldene Ehrenzeichen der Handwerkskammer Reutlingen erhielt sie für herausragende Verdienste um das Handwerk.</p><p>2014 ging Schwester Michaele alters- und krankheitsbedingt nach Freiburg ins Mutterhaus zurück. Im Juli 2020 feierte sie dort ihr diamantenes Profess-Jubiläum. Am 3. Januar 2021 starb Schwester Michaele in Freiburg und wurde auf dem Friedhof in Wald bestattet.</p>",
-    "images": [],
+    "images": [
+      {
+        "id": "54381846442",
+        "src": "/files/images/thumbnails/photo-54381846442-thumb.jpg",
+        "title": "8",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54381846442/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -65,14 +77,19 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "54381846442"
+    ],
     "pdfIds": [],
     "review": {
       "status": "approved",
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-10T10:48:25.575Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "https://www.heimschule-kloster-wald.de/de/kloster_wald/pdfs/2020-21/Todesanzeige-fuer-Sr.-Michaele.pdf?m=1610011163; Archiv der Gemeinde Wald ",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773009563858",
