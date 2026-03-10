@@ -3254,13 +3254,33 @@
     "location": "Wald",
     "description": "Architektonische Zeichnung für den Neubau des Rathauses.",
     "images": [
-      "/files/images/schulhaus-1896_54859330840_o.jpg",
-      "/files/images/doc07735520250223105922_001_54858169352_o.jpg"
+      {
+        "id": "54859330840",
+        "src": "/files/images/thumbnails/photo-54859330840-thumb.jpg",
+        "title": "Schulhaus 1896",
+        "description": "",
+        "type": "album",
+        "date": "2025-10-16 10:07:46",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54859330840/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54858169352",
+        "src": "/files/images/thumbnails/photo-54858169352-thumb.jpg",
+        "title": "doc07735520250223105922_001",
+        "description": "",
+        "type": "album",
+        "date": "2025-10-16 10:07:46",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54858169352/",
+        "license": "All Rights Reserved"
+      }
     ],
     "metadata": {
       "author": "Architekt Müller",
       "source": "Bauamt Wald",
-      "condition": "Rrisse an den Rändern"
+      "condition": "Risse an den Rändern"
     },
     "review": {
       "status": "pending",
@@ -3278,7 +3298,7 @@
     "transcription": "",
     "author": "Architekt Müller",
     "source": "Bauamt Wald",
-    "condition": "Rrisse an den Rändern"
+    "condition": "Risse an den Rändern"
   },
   {
     "id": "doc-004",
