@@ -12,7 +12,30 @@
     "location": "Riedetsweiler ",
     "description": "<p>Pfarrer und Ehrenbürger Theodor Zeller (1917 - 2014)</p>",
     "transcription": "<p>Theodor Zeller&nbsp;wurde am 12. Juli 1917 in Riedetsweiler im Haus Nr. 1 (heute Linzgaustraße 5) geboren. Das Anwesen gehörte seinen Großeltern Hermann Schroff (*11.04.1862 – 05.06.1927) und Rosina Schroff geb. Schmid. Seine Mutter, Theresia Zeller geb. Schroff (*24.02.1891), heiratete 1917 Erhard Zeller aus Rothenlachen. Dieser starb bereits am 06.10.1918 infolge einer Kriegsverwundung.</p><p>Theodor Zeller legte sein Abitur in Sigmaringen ab. 1937 begann er ein Theologiestudium in Freiburg. Von 1939 bis 1945 war er Soldat im Zweiten Weltkrieg und geriet in Gefangenschaft. Erst danach konnte er sein Studium fortführen. Am 27. Juni 1948 wurde Theodor Zeller in St. Peter im Schwarzwald zum Priester geweiht. Die Primizfeier fand am 4. Juli 1948 in Wald statt. Am Primiztag wurde der Neupriester vom Elternhaus in einem festlichen Zug zur Kirche geleitet, wo der Primizprediger Kaplan Biser, ein Studienfreund von Theodor Zeller, die Festpredigt hielt.</p><p>Als Vikar war Theodor Zeller an unterschiedlichen Orten tätig. Ab 1954 unterrichtete er zunächst als nebenamtlicher Religionslehrer, im Februar 1956 wechselte er in den Landesdienst. 1957 wurde er zusätzlich Landeskurat der deutschen Pfadfinderschaft St. Georg in der Erzdiözese Freiburg.</p><p>1959 war Theodor Zeller Festprediger bei der Primizfeier von Karl Riegger.</p><p>1961 wechselte Theodor Zeller ans Grimmelshausen-Gymnasium und an die Klosterschule Unserer Lieben Frau nach Offenburg. Außerdem war er Klosterpfarrer im Kloster Unserer Lieben Frau.</p><p>Über viele Jahre setzte er sich auch als Fachberater für Religion und Hebräisch in der Ausbildung und Betreuung von Lehrern ein.</p><p>Eine Pfadfinderhütte in Neuhausen-Schellbronn, die vom Verein der Helfer und Freunde der St. Georgspfadfinder Pforzheim e.V. betrieben wird, ist nach Theodor Zeller benannt.</p><p>Im Jahr 1980 kehrte Theodor Zeller wieder in seine Heimatgemeinde Wald zurück und half in der pastoralen Versorgung der Pfarrei mit. Im Juni 1998 wurde ihm beim Goldenen Priesterjubiläum die Ehrenbürgerwürde durch Bürgermeister Werner Müller verliehen. Die letzten Jahre seines Lebens verbrachte er im Seniorenzentrum in Wald. Dort verstarb er am 2. Mai 2014.</p>",
-    "images": [],
+    "images": [
+      {
+        "id": "54906776040",
+        "src": "/files/images/thumbnails/photo-54906776040-thumb.jpg",
+        "title": "Theodor Zeller mit seiner Mutter",
+        "description": "",
+        "type": "album",
+        "date": "2025-11-06 13:00:48",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54906776040/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54906776035",
+        "src": "/files/images/thumbnails/photo-54906776035-thumb.jpg",
+        "title": "Theodor Zeller",
+        "description": "",
+        "type": "album",
+        "date": "2007-07-12 18:28:51",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54906776035/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -20,14 +43,20 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "54906776040",
+      "54906776035"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Ortschronik Riedetsweiler",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773141398447",
