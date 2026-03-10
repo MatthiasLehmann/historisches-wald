@@ -114,7 +114,7 @@
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
-      "source": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
       "condition": "Unbekannt"
     },
     "imageIds": [],
@@ -135,7 +135,10 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Archiv Gemeinde Wald",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773142218885",
