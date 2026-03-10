@@ -3016,9 +3016,9 @@
       "condition": "Text"
     },
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-03-10T17:15:26.969Z",
       "comments": []
     },
     "imageIds": [],
