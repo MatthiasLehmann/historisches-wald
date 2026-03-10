@@ -1,5 +1,33 @@
 [
   {
+    "id": "doc-1773163864893",
+    "title": "Altes Feuerwehrhaus und Wegekapelle ",
+    "year": 1958,
+    "category": "Wald",
+    "subcategories": [
+      "Kirchen"
+    ],
+    "location": "Wald ",
+    "description": "<p>Altes Feuerwehrhaus und Wegekapelle </p>",
+    "transcription": "<p>Das alte Feuerwehrhaus von Wald wurde im Jahr 1958 abgebrochen. Im Gebäude wurde auch der gemeindliche Leichenwagen untergebracht. Neben dem Feuerwehrhaus befand sich die alte Wegekapelle, die nach Abbruch des Feuerwerhauses durch eine neue Wegekapelle ersetzt wurde.</p>",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773162567744",
     "title": "Dorfabend 1958",
     "year": 1958,
