@@ -1,5 +1,85 @@
 [
   {
+    "id": "doc-1773141264662",
+    "title": "Hugo Höfler ",
+    "year": 1898,
+    "category": "Riedetsweiler",
+    "subcategories": [
+      "Personen",
+      "Geistliche",
+      "Kirche"
+    ],
+    "location": "Riedetsweiler ",
+    "description": "<p>Dekan und Pfarrer Hugo Höfler (1898 - 1968)</p>",
+    "transcription": "<p>Hugo Höfler wurde am 15. März 1898 in Klosterwald geboren. Sein Geburtshaus ist das heutige Gasthaus „Süßlöchle“. Die Besitzer des Gasthauses waren Albert und Frieda Amann, die Großeltern von Hugo Höfler. Sie kauften wohl aus Anlass ihrer Hochzeit das Haus. Seine Mutter Berta Amann war die jüngste Tochter von Albert und Frieda und heiratete den Zollbeamten Höfler aus Geisingen. &nbsp;</p><p>Nach dem Besuch der Volksschule und des Gymnasiums wurde Hugo Höfler im Jahre 1917 Soldat im&nbsp; 1. Weltkrieg. Nach dem Krieg studierte er Theologie und wurde am 1. Juli 1923 in St. Peter zum Priester geweiht. Er wirkte als Vikar und Präfekt in verschiedenen Städten und als Religionslehrer in Offenburg.</p><p>Kurz vor Ausbruch des Zweiten Weltkrieges, im Mai 1939, übernahm Hugo Höfler das Amt des Breisacher Stadtpfarrers. Er setzte sich während des Krieges mit großem Engagement für die Stadt und die Menschen ein. 1945 wurde die Stadt massiv beschossen. Er betreute die zurück gebliebenen Bewohner und die verwundeten Soldaten und verließ mit ihnen erst nach wiederholter Drohung durch die Gestapo das brennende Breisach. Hugo Höfler kehrte schon kurz nach Ende des Zweiten Weltkriegs nach Breisach zurück. Er kämpfte unermüdlich um den Wiederaufbau der zu 85 Prozent zerstörten Stadt.&nbsp; Außerdem setzte er sich für die Rettung des Münsters ein. In das schwerbeschädigte Pfarrhaus nahm er obdachlose Breisacher auf. Er erreichte, dass der Unterricht in der Volks- und Realschule wieder aufgenommen werden konnte. Über die Rheingrenze nach Frankreich schlug Hugo Höfler wieder die ersten Brücken der Verständigung und Versöhnung.</p><p>1954 erhielt Hugo Höfler das Bundesverdienstkreuz 1. Klasse für herausragende Leistungen außerhalb seines Amtes. Ebenfalls im Jahr 1954 verlieh die Stadt Breisach&nbsp;ihm den Ehrenbürgerbrief.</p><p>Hugo Höfler war von 1947 bis 1961 Pfarrer in Überlingen und von 1961 bis 1965 in Hagnau. Während der ‚Seegfrörne‘ 1963 hat er die Prozession über den zugefrorenen Obersee mit der Statue des Hl. Johannes von Hagnau nach Münsterlingen organisiert. Er starb am 26. März 1968 in Radolfzell.</p><p>Am 21. November 1978 beschloss der Stadtrat der Stadt Breisach die Realschule nach Hugo Höfler zu benennen. Außerdem ist an einer Außenwand des Breisacher Münster eine Gedenktafel für ihn angebracht.</p>",
+    "images": [
+      {
+        "id": "54905585822",
+        "src": "/files/images/thumbnails/photo-54905585822-thumb.jpg",
+        "title": "2025-11-04-20-42-0002",
+        "description": "",
+        "type": "album",
+        "date": "2025-11-06 12:57:38",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54905585822/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54905585832",
+        "src": "/files/images/thumbnails/photo-54905585832-thumb.jpg",
+        "title": "2025-11-04-20-42-0004",
+        "description": "",
+        "type": "album",
+        "date": "2025-11-06 12:57:38",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54905585832/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54906685703",
+        "src": "/files/images/thumbnails/photo-54906685703-thumb.jpg",
+        "title": "2025-11-04-21-11-0001",
+        "description": "",
+        "type": "album",
+        "date": "2025-11-06 12:57:39",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54906685703/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54906685708",
+        "src": "/files/images/thumbnails/photo-54906685708-thumb.jpg",
+        "title": "2025-11-04-20-42-0006",
+        "description": "",
+        "type": "album",
+        "date": "2025-11-06 12:57:39",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54906685708/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; https://www.realschule-breisach.de; https://journals.ub.uni-heidelberg.de/index.php/breisach/article/viewFile/19448/13245 Vor Jahren starb Pfarrer und Dekan Hugo Höfler – Ein Leben in Dienste der Mitmenschen, Wilfried Wagner ",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54905585822",
+      "54905585832",
+      "54906685703",
+      "54906685708"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773141004117",
     "title": "Äbtissin Maria Jakobe ",
     "year": 1650,
