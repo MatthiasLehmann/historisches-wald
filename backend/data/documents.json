@@ -11,7 +11,19 @@
     "location": "Wald",
     "description": "<p>Pfarrer und Ehrenbürger Willibald Branner (1907 - 1989)</p>",
     "transcription": "<p>&nbsp;Willibald Branner wurde am 26.10.1907 in Konstanz geboren. Schon als Kind stand für ihn fest, dass er Priester werden wollte.</p><p>Am 30. April 1933 wurde Willibald Branner durch Erzbischof Konrad Gröber in St. Peter im Schwarzwald zum Priester geweiht. In verschiedenen Pfarreien der Erzdiözese Freiburg wirkte er in der schweren Zeit der 30er Jahre und während des Zweiten Weltkrieges als Vikar bzw. Pfarrverweser. Sein geistliches Leben war geprägt von der Zugehörigkeit zum Bund von Schönstatt und einer tiefen Muttergottesverehrung.</p><p>1946 kam Willibald Branner aus Bad Imnau als Pfarrer nach Wald. Am 08.06.1947 fand die Investiturfeier von Pfarrer Branner in Wald statt. 1975 wurde er außerdem Pfarrer von Sentenhart und 1980 Pfarrer von Walbertsweiler. 1949 war Pfarrer Willibald Branner maßgeblich an der Gründung des Christlichen Bildungswerks Wald mitbeteiligt. Er organisierte außerdem Jahresausflüge für unterschiedliche Gruppen, wie Ministranten, Frauen und Senioren.</p><p>Am 08.05.1983 feierte Pfarrer Branner sein 50-jähriges Priesterjubiläum mit einem großen Festgottesdienst. Die Festpredigt hielt Regionaldekan Franz Gluitz. Nachmittags fand eine weltliche Feier in der Turnhalle in Wald statt, wo ihm die Ehrenbürgerwürde durch Bürgermeister Arthur Zeh verliehen wurde in Anerkennung seiner 37-jährigen seelsorglicher Tätigkeit in der Gemeinde Wald.</p><p>Im selben Jahr ging Pfarrer Branner nach Bodmann in den Ruhestand. Dort verbrachte er seinen Lebensabend im Pfarrhaus und half in der Seelsorge mit. Willibald Branner starb am 19.12.1989 in Radolfzell. Unter großer Anteilnahme der Bevölkerung wurde der Pfarrer und Ehrenbürger Willibald Branner auf dem Walder Friedhof beigesetzt.</p>",
-    "images": [],
+    "images": [
+      {
+        "id": "54274582366",
+        "src": "/files/images/thumbnails/photo-54274582366-thumb.jpg",
+        "title": "Kirche VI Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 01:03:14",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274582366/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -19,14 +31,19 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "54274582366"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Archiv der Gemeinde Wald",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773141264662",
