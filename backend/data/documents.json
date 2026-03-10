@@ -2946,7 +2946,7 @@
   },
   {
     "id": "doc-005",
-    "title": "Auszug Ortschronik Riedetsweiler von Johann Hipp 1931",
+    "title": "Auszug Ortschronik Riedetsweiler von Johann Hipp",
     "year": 1931,
     "category": "Riedetsweiler",
     "subcategories": [
@@ -2959,14 +2959,24 @@
       "Vorstellung"
     ],
     "location": "Riedetsweiler",
-    "description": "Auszug aus der Ortschronik Riedetsweiler von Leo Endres",
-    "transcription": "## Auszug aus der Ortschronik Riedetsweiler von Johann Hipp\n\n**Aufzeichnungen von Fridolin Ritter**\n\nDie Gefallenen des Ersten Weltkriegs hießen:\n1. **Bernhard Straub**, Sohn des Johann Straub\n2. **Franz Sick**, Sohn des Maurermeisters Sick\n3. **Erhard Kleiner**, Sohn des Josef Kleiner Zimmermeister\n\n### Elektrizitäth\n\nDie Gemeinde hat im Jahr 1924/1925 den Bau begonnen von Elektrizitäth. Im Juni 1925 wurde Licht und Kraft eingeschaltet und die alten Erdöl Lichter sind verschwunden. Am 26. Oktober 1931 hat es ein Schnee, daß man am 27. Oktober 1931 auf den Straßen Schnee schaufeln mußte. Zum Teil mußten Bahnschlitten geführt werden.",
+    "description": "<p>Auszug aus der Ortschronik Riedetsweiler von Johann Hipp 1931</p>",
+    "transcription": "<h2>Auszug aus der Ortschronik Riedetsweiler von Johann Hipp</h2><p>Aufzeichnungen von Fridolin Ritter</p><p>Die Gefallenen des Ersten Weltkriegs hießen:</p><ol><li><p>Bernhard Straub, Sohn des Johann Straub</p></li><li><p>Franz Sick, Sohn des Maurermeisters Sick</p></li><li><p>Erhard Kleiner, Sohn des Josef Kleiner Zimmermeister</p></li></ol><h3>Elektrizitäth</h3><p>Die Gemeinde hat im Jahr 1924/1925 den Bau begonnen von Elektrizitäth. Im Juni 1925 wurde Licht und Kraft eingeschaltet und die alten Erdöl Lichter sind verschwunden. Am 26. Oktober 1931 hat es ein Schnee, daß man am 27. Oktober 1931 auf den Straßen Schnee schaufeln mußte. Zum Teil mußten Bahnschlitten geführt werden.</p>",
     "images": [
-      "/files/images/brand-riedetsweiler-1964.png"
+      {
+        "id": "54631349988",
+        "src": "/files/images/thumbnails/photo-54631349988-thumb.jpg",
+        "title": "Linzgaustraße 10",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:07",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631349988/",
+        "license": "All Rights Reserved"
+      }
     ],
     "metadata": {
       "author": "Johann Hipp",
-      "source": "Gemeindearchiv",
+      "source": "Archiv Gemeinde Wald",
       "condition": "Text"
     },
     "review": {
@@ -2977,8 +2987,13 @@
     },
     "imageIds": [],
     "pdfIds": [],
-    "albumPhotoIds": [],
-    "pdfs": []
+    "albumPhotoIds": [
+      "54631349988"
+    ],
+    "pdfs": [],
+    "author": "Johann Hipp",
+    "source": "Archiv Gemeinde Wald",
+    "condition": "Text"
   },
   {
     "id": "doc-002",
