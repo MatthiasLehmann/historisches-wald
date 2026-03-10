@@ -89,17 +89,6 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "53537396428",
-        "src": "/files/images/thumbnails/photo-53537396428-thumb.jpg",
-        "title": "img241",
-        "description": "",
-        "type": "album",
-        "date": "1958-01-01 00:00:00",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53537396428/",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "53537396438",
         "src": "/files/images/thumbnails/photo-53537396438-thumb.jpg",
         "title": "img240",
@@ -401,7 +390,6 @@
       "53536331722",
       "53537532839",
       "53537633985",
-      "53537396428",
       "53537396438",
       "53537634030",
       "53537532899",
@@ -435,7 +423,10 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Archiv Gemeinde Wald",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773162092550",
