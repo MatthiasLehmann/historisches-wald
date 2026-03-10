@@ -1,5 +1,49 @@
 [
   {
+    "id": "doc-1773141004117",
+    "title": "Äbtissin Maria Jakobe ",
+    "year": 1650,
+    "category": "Wald",
+    "subcategories": [
+      "Kirchen",
+      "Heimschule",
+      "Personen"
+    ],
+    "location": "Wald ",
+    "description": "<p>Maria Jakobe von Bodman (1650–1709)</p>",
+    "transcription": "<p>Maria Franziska Johanna wird am 8. Mai 1650 als Tochter des kaiserlichen Hauptmanns Johann Sigismund von Bodman zu Wiechs und Steißlingen geboren. Schon 1652 gibt der Vater der Äbtissin von Wald bekannt, dass er seine Tochter später nach Wald geben will. 1666 legt sie ihre Profess ab. Am 6. April 1681 wird sie zur Äbtissin gewählt. Die Benedizierung durch den Salemer Abt Stephan I. erfolgt aber erst 1701. Die Salemer Äbte beschneiden die Regierungsgewalt der Äbtissinnen immer mehr und gehen davon aus, dass die adeligen, meist nicht gebildeten Frauen nicht in der Lage sind die Regierungsgewalt auszuüben.</p><p>Maria Jokobe von Bodmann erreicht in zehnjährigen Verhandlungen und einem langjährigen Prozess in Innsbruck 1692 die Territorialfreiheit Wald gegen die Ansprüche von Hohenzollern-Sigmaringen. Der Vergleich wird 1701 bestätigt.</p><p><br>Im Juli 1680, noch vor ihrer Wahl zur Äbtissin, hat ein Brand Teile des Ost- und Südflügels der mittelalterlichen Klosteranlage zerstört. Äbtissin Maria Jakobe beauftragt den Vorarlberger Jodok (Jos) Beer mit dem Wiederaufbau, der sich dann zu einem Neubau ausweitet und 1685 abgeschlossen ist. Anschließend beauftragt sie den gleichen Baumeister mit dem Kirchenneubau. Dieser Neubau entspringt dem Willen, die ungenügende mittelalterliche Kirche durch ein helles und größeres Gotteshaus zu ersetzen, das auch eine den Klausurbestimmungen entsprechende große Nonnenempore besitzt. Die Arbeiten führt nach dem Tod von Jodok Beer dessen Bruder Franz Beer I aus. Die Arbeiten sind 1701 abgeschlossen. Erst im November 1709 wird die Kirche geweiht. Das Wappen der Äbtissin findet sich mit der Jahreszahl 1685 über dem Eingang zum Refektorium («Kapitelsaal») und mit der Jahreszahl 1698 über dem Kircheneingang.</p><p><br>Maria Jakobe stirbt am 28. Februar 1709 mit 59 Jahren. Sie erlebt die Kircheneinweihung nicht mehr. Ihr Grabstein ist in der südlichen Chorwand der Klosterkirche eingelassen.</p>",
+    "images": [
+      {
+        "id": "local_mmki9sx7zx3ams",
+        "src": "/files/images/thumbnails/album-1773140834802-33285126-thumb.jpg",
+        "title": "Maria_Jakobe_von_Bodman.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmki9sx7zx3ams"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773140735222",
     "title": "Äbtissin Maria Dioskora",
     "year": 1702,
