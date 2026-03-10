@@ -10,7 +10,52 @@
     "location": "Wald ",
     "description": "<p>Altes Feuerwehrhaus und Wegekapelle </p>",
     "transcription": "<p>Das alte Feuerwehrhaus von Wald wurde im Jahr 1958 abgebrochen. Im Gebäude wurde auch der gemeindliche Leichenwagen untergebracht. Neben dem Feuerwehrhaus befand sich die alte Wegekapelle, die nach Abbruch des Feuerwerhauses durch eine neue Wegekapelle ersetzt wurde.</p>",
-    "images": [],
+    "images": [
+      {
+        "id": "53509214940",
+        "src": "/files/images/thumbnails/photo-53509214940-thumb.jpg",
+        "title": "1953",
+        "description": "",
+        "type": "album",
+        "date": "1953-01-01 00:00:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509214940/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509214890",
+        "src": "/files/images/thumbnails/photo-53509214890-thumb.jpg",
+        "title": "1953",
+        "description": "",
+        "type": "album",
+        "date": "1953-01-01 00:00:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509214890/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508953473",
+        "src": "/files/images/thumbnails/photo-53508953473-thumb.jpg",
+        "title": "1953",
+        "description": "",
+        "type": "album",
+        "date": "1953-01-01 00:00:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508953473/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508953548",
+        "src": "/files/images/thumbnails/photo-53508953548-thumb.jpg",
+        "title": "1953",
+        "description": "",
+        "type": "album",
+        "date": "1953-01-01 00:00:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508953548/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -18,14 +63,22 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "53509214940",
+      "53509214890",
+      "53508953473",
+      "53508953548"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Archiv Gemeinde Wald",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773162567744",
