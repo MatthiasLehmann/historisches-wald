@@ -700,7 +700,107 @@
     "location": "Wald",
     "description": "<p>Goldene Profess und Verleihung der Ehrenbügerwürde Pfarrer Willibald Branner 1983</p>",
     "transcription": "<p>Am 08.05.1983 feierte Pfarrer Willibald Branner sein 50-jähriges Priesterjubiläum mit einem großen Festgottesdienst in der Kirche St. Bernhard in Wald. Der Jubilar wurde vom Musikverein Wald und vielen Geistlichen in einem Festumzug zur Kirche begleitet. Die Festpredigt hielt Regionaldekan Franz Gluitz. Nachmittags fand eine weltliche Feier in der Turnhalle in Wald statt, wo ihm die Ehrenbürgerwürde durch Bürgermeister Arthur Zeh verliehen wurde, in Würdigung seiner Verdienste um die Gemeinde Wald.</p>",
-    "images": [],
+    "images": [
+      {
+        "id": "local_mmkwffsygomno3",
+        "src": "/files/images/thumbnails/album-1773164612829-811187564-thumb.jpg",
+        "title": "EhrenBürgerPfarrerBrannerV.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwg1i5x4815p",
+        "src": "/files/images/thumbnails/album-1773164640739-384322650-thumb.jpg",
+        "title": "img20220121_20444636.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwfv67p7t3aj",
+        "src": "/files/images/thumbnails/album-1773164632632-674777447-thumb.jpg",
+        "title": "img20220121_20444633.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwfkllsqwwm8",
+        "src": "/files/images/thumbnails/album-1773164618865-549057368-thumb.jpg",
+        "title": "img20220121_20431496_0001.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwfq3lvu47a2",
+        "src": "/files/images/thumbnails/album-1773164625970-944873618-thumb.jpg",
+        "title": "img20220121_20431496.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwgbpih4up5h",
+        "src": "/files/images/thumbnails/album-1773164653970-751148082-thumb.jpg",
+        "title": "img20220121_20480153.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwggsx5hdx0j",
+        "src": "/files/images/thumbnails/album-1773164660662-602290842-thumb.jpg",
+        "title": "img20220121_20480154.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwgkofi4k7jy",
+        "src": "/files/images/thumbnails/album-1773164665575-686036345-thumb.jpg",
+        "title": "img20220121_20493412.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmkwg5cs5wfemx",
+        "src": "/files/images/thumbnails/album-1773164645816-921830987-thumb.jpg",
+        "title": "img20220121_20460619.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -708,14 +808,27 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mmkwffsygomno3",
+      "local_mmkwg1i5x4815p",
+      "local_mmkwfv67p7t3aj",
+      "local_mmkwfkllsqwwm8",
+      "local_mmkwfq3lvu47a2",
+      "local_mmkwgbpih4up5h",
+      "local_mmkwggsx5hdx0j",
+      "local_mmkwgkofi4k7jy",
+      "local_mmkwg5cs5wfemx"
+    ],
     "pdfIds": [],
     "review": {
       "status": "approved",
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-10T16:42:20.827Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Archiv Gemeinde Wald",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773146549544",
