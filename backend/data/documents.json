@@ -22,9 +22,9 @@
     "albumPhotoIds": [],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-03-10T16:42:20.827Z",
       "comments": []
     }
   },
