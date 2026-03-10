@@ -3164,9 +3164,9 @@
       "condition": "Textüberlieferung"
     },
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-03-10T17:19:40.546Z",
       "comments": []
     },
     "imageIds": [],
