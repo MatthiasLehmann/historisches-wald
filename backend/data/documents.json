@@ -11,7 +11,19 @@
     "location": "Wald",
     "description": "<p>Schwester Adalberta Buchholz (1908 - 1993)</p>",
     "transcription": "<p>Schwester Adalberta wurde 1908 in Braunsberg im Emsland geboren. Sie ist auf einem großen Hof in glücklichen Familienverhältnissen aufgewachsen. Ihre schulische und pädagogische Ausbildung hat sie in Breslau absolviert. 1935 trat Schwester Adalberta in den Konvent der Schwestern der Heiligen Lioba ein, der 1927 von Maria Föhrenbach in Freiburg-Günterstal gegründet wurde. Zunächst war sie im Kinderkrankenhaus St. Hedwig in Freiburg tätig.</p><p>Ab 1939 baute sie zusammen mit Schwester Sophia, Schwester Lioba und einigen Mitschwestern ein Rückwandererheim für evakuierte Mütter und Kinder in Krauchenwies auf, das von Fürstin Margarete von Hohenzollern-Sigmaringen ins Leben gerufen wurde. 1944 veranlasste der Gauleiter der dort untergekommenen Vichy-Regierung die sofortige Räumung des Schlösschens. Die Schwestern, Mütter und Kinder fanden, durch die Hilfe des Markgrafen von Baden, eine neue Bleibe im Schloss Hohenfels.</p><p>Nach Beendigung des Krieges ergab sich die Notwendigkeit, für die Kinder und Schwestern ein neues Heim zu finden. So gründeten Schwester Sophia und Schwester Lioba mit einigen Mitschwestern 1946 die Heimschule Kloster Wald. Schwester Adalberta unterrichtete dort viele Jahre lang Werkarbeit und war Erzieherin in der Mittel- und Oberstufe. Mit viel Engagement organisierte sie viele Feste und inszenierte Theaterstücke. &nbsp;</p><p>Schwester Adalberta war bis 1993 in Wald. Die letzten Jahre bis zu Ihrem Tod 2002 lebte sie in Freiburg im Mutterhaus, da sie auf Pflege angewiesen war. Begraben ist Schwester Adalberta auf dem Friedhof in Wald.</p>",
-    "images": [],
+    "images": [
+      {
+        "id": "54381846442",
+        "src": "/files/images/thumbnails/photo-54381846442-thumb.jpg",
+        "title": "8",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54381846442/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -19,14 +31,19 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "54381846442"
+    ],
     "pdfIds": [],
     "review": {
       "status": "approved",
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-10T11:02:08.459Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald ",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773140204219",
