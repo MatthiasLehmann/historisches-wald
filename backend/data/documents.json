@@ -35,9 +35,9 @@
     ],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-03-12T19:36:23.366Z",
       "comments": []
     },
     "author": "Unbekannt",
