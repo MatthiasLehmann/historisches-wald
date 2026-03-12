@@ -1,0 +1,58 @@
+name: CI & Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - documentation
+  pull_request:
+    branches:
+      - main
+
+env:
+  NODE_VERSION: 20
+
+jobs:
+  backend:
+    name: Backend checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+        working-directory: backend
+      - name: Static analysis
+        run: npm run lint --if-present
+        working-directory: backend
+      - name: Check server syntax
+        run: node --check server.js
+        working-directory: backend
+
+  frontend:
+    name: Frontend checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+        working-directory: frontend
+      - name: Run lint
+        run: npm run lint -- --max-warnings=0
+        working-directory: frontend
+      - name: Build production bundle
+        run: npm run build
+        working-directory: frontend
