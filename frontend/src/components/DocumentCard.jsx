@@ -40,12 +40,12 @@ const DocumentCard = ({ document }) => {
             transition={{ duration: 0.3 }}
             className="group bg-white rounded-sm shadow-md overflow-hidden border border-parchment-dark hover:shadow-lg transition-all duration-300 flex flex-col h-full"
         >
-            <div className="relative aspect-[4/3] overflow-hidden bg-parchment-dark">
+            <div className="relative aspect-[4/3] bg-parchment/40 flex items-center justify-center overflow-hidden">
                 {coverSrc ? (
                     <img
                         src={coverSrc}
                         alt={document.title}
-                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-500 sepia-[.2]"
+                        className="w-full h-full object-contain p-2 transform group-hover:scale-[1.03] transition-transform duration-500 sepia-[.2]"
                         loading="lazy"
                     />
                 ) : (

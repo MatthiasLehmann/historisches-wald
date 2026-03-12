@@ -50,7 +50,7 @@ const ImageGallery = ({ images, title }) => {
 
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {normalizedImages.map((img, index) => (
                     <Motion.figure
                         key={img.id || index}
@@ -58,11 +58,11 @@ const ImageGallery = ({ images, title }) => {
                         className="group cursor-pointer overflow-hidden rounded-sm shadow-sm border border-parchment-dark bg-white flex flex-col"
                         onClick={() => setSelectedImage(img)}
                     >
-                        <div className="relative">
+                        <div className="relative w-full aspect-[4/3] bg-parchment/40 flex items-center justify-center overflow-hidden">
                             <img
                                 src={img.src}
                                 alt={img.title}
-                                className="w-full h-64 object-cover sepia-[.15] group-hover:sepia-0 transition-all duration-500"
+                                className="w-full h-full object-contain sepia-[.15] group-hover:sepia-0 transition-all duration-500"
                             />
                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                                 <div className="bg-parchment/90 p-2 rounded-full text-ink">
