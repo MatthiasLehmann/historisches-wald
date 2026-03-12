@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Calendar, Image as ImageIcon, Layers, Camera, Filter, ArrowRight } from 'lucide-react';
-import Timeline from './Timeline';
 import { fetchAlbums, fetchPhotos } from '../services/api.js';
 
 const FILTERS = [
@@ -56,6 +55,7 @@ const MediaTimelineSection = () => {
   const [filter, setFilter] = useState('all');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [yearRange, setYearRange] = useState(null);
 
   useEffect(() => {
     let ignore = false;
@@ -158,21 +158,111 @@ const MediaTimelineSection = () => {
     [combinedEvents, filter]
   );
 
+  const yearBounds = useMemo(() => {
+    const years = visibleEvents
+      .map((event) => event.year)
+      .filter((year) => Number.isFinite(year));
+    if (years.length === 0) {
+      return null;
+    }
+    return {
+      min: Math.min(...years),
+      max: Math.max(...years)
+    };
+  }, [visibleEvents]);
+
   useEffect(() => {
-    if (visibleEvents.length === 0) {
+    if (!yearBounds) {
+      setYearRange(null);
+      return;
+    }
+    setYearRange((prev) => {
+      if (!prev) {
+        return [yearBounds.min, yearBounds.max];
+      }
+      const clampedStart = Math.min(Math.max(prev[0], yearBounds.min), yearBounds.max);
+      const clampedEnd = Math.min(Math.max(prev[1], yearBounds.min), yearBounds.max);
+      if (clampedStart === prev[0] && clampedEnd === prev[1]) {
+        return prev;
+      }
+      return [clampedStart, clampedEnd];
+    });
+  }, [yearBounds]);
+
+  const rangedEvents = useMemo(() => {
+    if (!yearRange || !yearBounds) {
+      return visibleEvents;
+    }
+    const [start, end] = yearRange;
+    return visibleEvents.filter((event) => {
+      if (!Number.isFinite(event.year)) {
+        return true;
+      }
+      return event.year >= start && event.year <= end;
+    });
+  }, [visibleEvents, yearRange, yearBounds]);
+
+  useEffect(() => {
+    if (rangedEvents.length === 0) {
       setSelectedEventId(null);
       return;
     }
-    const exists = visibleEvents.some((event) => event.id === selectedEventId);
+    const exists = rangedEvents.some((event) => event.id === selectedEventId);
     if (!exists) {
-      setSelectedEventId(visibleEvents[0].id);
+      setSelectedEventId(rangedEvents[0].id);
     }
-  }, [visibleEvents, selectedEventId]);
+  }, [rangedEvents, selectedEventId]);
 
   const selectedEvent = useMemo(
-    () => visibleEvents.find((event) => event.id === selectedEventId) ?? null,
-    [visibleEvents, selectedEventId]
+    () => rangedEvents.find((event) => event.id === selectedEventId) ?? null,
+    [rangedEvents, selectedEventId]
   );
+
+  const sliderRange = useMemo(() => {
+    if (!yearBounds) {
+      return null;
+    }
+    if (yearRange) {
+      return yearRange;
+    }
+    return [yearBounds.min, yearBounds.max];
+  }, [yearBounds, yearRange]);
+
+  const sliderHighlightStyle = useMemo(() => {
+    if (!yearBounds || !sliderRange) {
+      return {};
+    }
+    const total = yearBounds.max - yearBounds.min;
+    if (total <= 0) {
+      return {};
+    }
+    const startPercent = ((sliderRange[0] - yearBounds.min) / total) * 100;
+    const endPercent = ((sliderRange[1] - yearBounds.min) / total) * 100;
+    return {
+      left: `${startPercent}%`,
+      right: `${100 - endPercent}%`
+    };
+  }, [yearBounds, sliderRange]);
+
+  const handleRangeInputChange = (index, value) => {
+    if (!yearBounds) {
+      return;
+    }
+    const numericValue = Number(value);
+    if (!Number.isFinite(numericValue)) {
+      return;
+    }
+    const nextRange = sliderRange ? [...sliderRange] : [yearBounds.min, yearBounds.max];
+    nextRange[index] = Math.min(Math.max(numericValue, yearBounds.min), yearBounds.max);
+    if (nextRange[0] > nextRange[1]) {
+      if (index === 0) {
+        nextRange[1] = nextRange[0];
+      } else {
+        nextRange[0] = nextRange[1];
+      }
+    }
+    setYearRange(nextRange);
+  };
 
   const albumMap = useMemo(
     () => new Map(albums.map((album) => [album.id, album])),
@@ -222,7 +312,7 @@ const MediaTimelineSection = () => {
           </button>
         ))}
         <span className="text-sm text-ink/60 ml-auto">
-          {visibleEvents.length} Ereignis(se) · {albumEvents.length} Alben · {photoEvents.length} Fotos (nur approved, max. {MAX_PHOTO_EVENTS})
+          {rangedEvents.length} Ereignis(se) · {albumEvents.length} Alben · {photoEvents.length} Fotos (nur approved, max. {MAX_PHOTO_EVENTS})
         </span>
       </section>
 
@@ -230,16 +320,79 @@ const MediaTimelineSection = () => {
         <div className="text-center text-ink/60 py-16">Zeitleiste wird geladen...</div>
       ) : error ? (
         <div className="text-center text-red-600 py-16">{error}</div>
-      ) : visibleEvents.length === 0 ? (
+      ) : rangedEvents.length === 0 ? (
         <div className="text-center text-ink/60 py-16">Keine Ereignisse verfügbar.</div>
       ) : (
         <>
-          <section className="bg-white border border-parchment-dark rounded-sm shadow-sm">
-            <Timeline
-              events={visibleEvents}
-              onSelectEvent={handleSelectEvent}
-              selectedEventId={selectedEventId}
-            />
+          <section className="bg-white border border-parchment-dark rounded-sm shadow-sm p-6 space-y-6">
+            {yearBounds && sliderRange && (
+              <div className="space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.4em] text-accent">Zeitraum</p>
+                    <h3 className="text-lg font-serif font-bold text-ink">
+                      {sliderRange[0]} – {sliderRange[1]}
+                    </h3>
+                  </div>
+                  <p className="text-sm text-ink/60">{rangedEvents.length} Ereignisse im Bereich</p>
+                </div>
+                <div className="relative h-2 bg-parchment/60 rounded-full overflow-hidden">
+                  <div className="absolute h-full bg-accent/30" style={sliderHighlightStyle} />
+                </div>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div className="space-y-2">
+                    <label className="text-xs uppercase tracking-[0.3em] text-ink/60">Startjahr</label>
+                    <input
+                      type="range"
+                      min={yearBounds.min}
+                      max={yearBounds.max}
+                      value={sliderRange[0]}
+                      onChange={(event) => handleRangeInputChange(0, event.target.value)}
+                      className="w-full accent-accent"
+                    />
+                    <p className="text-sm text-ink/70">{sliderRange[0]}</p>
+                  </div>
+                  <div className="space-y-2">
+                    <label className="text-xs uppercase tracking-[0.3em] text-ink/60">Endjahr</label>
+                    <input
+                      type="range"
+                      min={yearBounds.min}
+                      max={yearBounds.max}
+                      value={sliderRange[1]}
+                      onChange={(event) => handleRangeInputChange(1, event.target.value)}
+                      className="w-full accent-accent"
+                    />
+                    <p className="text-sm text-ink/70">{sliderRange[1]}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+              {rangedEvents.map((event) => {
+                const isSelected = selectedEventId === event.id;
+                const Icon = event.category === 'Album' ? Layers : Camera;
+                return (
+                  <button
+                    key={event.id}
+                    type="button"
+                    onClick={() => handleSelectEvent(event)}
+                    className={`text-left p-4 border rounded-sm flex gap-4 items-center transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 ${
+                      isSelected ? 'border-accent bg-parchment/30' : 'border-parchment-dark/50 hover:border-accent'
+                    }`}
+                  >
+                    <div className="w-14 h-14 rounded-full bg-parchment flex items-center justify-center border border-parchment-dark text-accent">
+                      <Icon size={22} />
+                    </div>
+                    <div className="space-y-1 flex-1">
+                      <p className="text-xs uppercase tracking-[0.3em] text-ink/50">{event.category}</p>
+                      <h3 className="text-lg font-serif font-semibold text-ink line-clamp-2">{event.title}</h3>
+                      <p className="text-sm text-ink/60">{formatDate(event.date)}</p>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
           </section>
 
           {selectedEvent && (
