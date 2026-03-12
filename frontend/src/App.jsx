@@ -12,6 +12,8 @@ import Home from './pages/Home';
 import Archive from './pages/Archive';
 import DocumentPage from './pages/DocumentPage';
 import TimelinePage from './pages/TimelinePage';
+import WordCloudPage from './pages/WordCloudPage';
+import CoatOfArmsPage from './pages/CoatOfArmsPage';
 import Team from './pages/Team';
 import SubmitDocument from './pages/SubmitDocument';
 import LoginPage from './pages/LoginPage';
@@ -55,6 +57,8 @@ const App = () => (
         <Route path="/archive" element={<Archive />} />
         <Route path="/document/:id" element={<DocumentPage />} />
         <Route path="/timeline" element={<TimelinePage />} />
+        <Route path="/wortwolke" element={<WordCloudPage />} />
+        <Route path="/wappen" element={<CoatOfArmsPage />} />
         <Route path="/team" element={<Team />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/logout" element={<Logout />} />

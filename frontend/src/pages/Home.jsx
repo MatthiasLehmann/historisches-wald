@@ -1,14 +1,12 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { motion as Motion } from 'framer-motion';
 import DocumentCard from '../components/DocumentCard';
-import Timeline from '../components/Timeline';
 import { fetchDocuments } from '../services/api';
 import logo from '../assets/logo-historisches-wald.png';
 
 const Home = () => {
-    const navigate = useNavigate();
     const [documents, setDocuments] = React.useState([]);
     const [isLoading, setIsLoading] = React.useState(true);
     const [error, setError] = React.useState(null);
@@ -45,14 +43,6 @@ const Home = () => {
     );
 
     const recentDocuments = React.useMemo(() => approvedDocuments.slice(0, 3), [approvedDocuments]);
-    const events = React.useMemo(
-        () => approvedDocuments.map(({ id, title, year, category }) => ({ id, title, year, category })),
-        [approvedDocuments]
-    );
-
-    const handleEventClick = (event) => {
-        navigate(`/document/${event.id}`);
-    };
 
     return (
         <>
@@ -133,13 +123,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Timeline Teaser */}
-            <section className="py-20 bg-white border-y border-parchment-dark/50">
-                <div className="container mx-auto px-4 mb-8 text-center">
-                    <h2 className="text-3xl font-serif font-bold text-ink">Geschichte im Zeitverlauf</h2>
-                </div>
-                <Timeline events={events} onSelectEvent={handleEventClick} />
-            </section>
         </>
     );
 };
