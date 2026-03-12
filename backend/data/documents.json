@@ -1,5 +1,69 @@
 [
   {
+    "id": "doc-1773345924399",
+    "title": "Ausgrabungen Egelseemoor ",
+    "year": 1936,
+    "category": "Ruhestetten",
+    "subcategories": [],
+    "location": "Ruhestetten",
+    "description": "<p>Ausgrabung eines frühsteinzeitlichen Pfahlbaudorfs im Egelseemoor in Ruhestetten</p>",
+    "transcription": "<p>Im Jahr 1936 wurden im Egelseemoor in Ruhestetten ein frühsteinzeitliches Pfahlbaudorf mit fünf Häusern aus dem Moorboden ausgegraben. Die Ausgrabungen fanden unter der wissenschaftlichen Leitung von Oscar Paret vom Landesmuseum Stuttgart und dem Oberpostrat i. R. Eduard Peters statt. </p><p><br></p>",
+    "images": [
+      {
+        "id": "local_mmnw2c3e9t7gc7",
+        "src": "/files/images/thumbnails/album-1773345400093-250943839-thumb.jpg",
+        "title": "Zeitungsartikel 1936 Pfahlbauten in Hohenzollern.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmnw26r1w4savu",
+        "src": "/files/images/thumbnails/album-1773345393008-503354307-thumb.jpg",
+        "title": "Zeitungsartikel 1936 Oberschwäbische Moränenlandschaft.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmnw21ozs2fjlr",
+        "src": "/files/images/thumbnails/album-1773345386638-472451157-thumb.jpg",
+        "title": "Zeitungsartikel 1936 Hohenzollerische Vorgeschichtsforschung.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmnw2c3e9t7gc7",
+      "local_mmnw26r1w4savu",
+      "local_mmnw21ozs2fjlr"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773344143870",
     "title": "Der Klosterneubau in Wald zu Anfang des 18. Jahrhunderts ",
     "year": 1900,
