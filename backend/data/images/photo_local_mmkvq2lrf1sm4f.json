@@ -1,0 +1,25 @@
+{
+  "id": "local_mmkvq2lrf1sm4f",
+  "name": "0.png",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1773163429427-180902226.png",
+  "preview": "/files/images/thumbnails/album-1773163429427-180902226-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "72177720329974768"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-03-10T17:23:49.551Z",
+  "updatedAt": "2026-03-10T17:23:49.551Z"
+}
