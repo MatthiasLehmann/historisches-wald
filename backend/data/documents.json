@@ -41,6 +41,17 @@
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmnwnhkvwqwihb",
+        "src": "/files/images/thumbnails/album-1773346387004-665471696-thumb.jpg",
+        "title": "Zeitungsartikel 1935 Die Moorbauten bei Ruhestetten.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
       }
     ],
     "pdfs": [],
@@ -53,7 +64,8 @@
     "albumPhotoIds": [
       "local_mmnw2c3e9t7gc7",
       "local_mmnw26r1w4savu",
-      "local_mmnw21ozs2fjlr"
+      "local_mmnw21ozs2fjlr",
+      "local_mmnwnhkvwqwihb"
     ],
     "pdfIds": [],
     "review": {
@@ -61,7 +73,10 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-12T20:05:41.845Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Archiv Gemeinde Wald",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773344143870",
