@@ -19,7 +19,7 @@ const Header = () => {
         { name: 'Startseite', path: '/' },
         { name: 'Archiv', path: '/archive' },
         { name: 'Zeitleiste', path: '/timeline' },
-        { name: 'Wappen', path: '/wappen' },
+        { name: 'Ortsteile', path: '/ortsteile' },
         { name: 'Wortwolke', path: '/wortwolke' },
         { name: 'Team', path: '/team' },
     ];
