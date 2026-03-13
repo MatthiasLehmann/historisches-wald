@@ -1,6 +1,23 @@
 {
   "albums": [
     {
+      "id": "local_mmnw1pm7iiebob",
+      "title": "131_Ausgrabungen Egelseemoor 1936",
+      "description": "",
+      "url": "",
+      "cover_photo": "/files/images/thumbnails/album-1773346387004-665471696-thumb.jpg",
+      "photo_count": 4,
+      "created": 1773345371,
+      "last_updated": 1773346387,
+      "parent_id": "72177720327295965",
+      "photos": [
+        "local_mmnwnhkvwqwihb",
+        "local_mmnw2c3e9t7gc7",
+        "local_mmnw26r1w4savu",
+        "local_mmnw21ozs2fjlr"
+      ]
+    },
+    {
       "id": "local_mmkwbdqzwv5dka",
       "title": "66_Goldene Profess Pfarrer Willibald Branner",
       "description": "Goldene Profess und Verleihung der Ehrenbürgerwürde Pfarrer Willibald Branner",
