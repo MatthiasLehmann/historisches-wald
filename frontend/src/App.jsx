@@ -58,7 +58,7 @@ const App = () => (
         <Route path="/document/:id" element={<DocumentPage />} />
         <Route path="/timeline" element={<TimelinePage />} />
         <Route path="/wortwolke" element={<WordCloudPage />} />
-        <Route path="/wappen" element={<CoatOfArmsPage />} />
+        <Route path="/ortsteile" element={<CoatOfArmsPage />} />
         <Route path="/team" element={<Team />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/logout" element={<Logout />} />

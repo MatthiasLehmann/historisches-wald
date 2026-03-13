@@ -173,7 +173,7 @@ const CoatOfArmsPage = () => {
     if (isLoading) {
         return (
             <div className="container mx-auto px-4 py-16 text-center">
-                <p className="text-ink/60">Wappenübersicht wird geladen...</p>
+                <p className="text-ink/60">Ortsteilübersicht wird geladen...</p>
             </div>
         );
     }
@@ -181,7 +181,7 @@ const CoatOfArmsPage = () => {
     if (error) {
         return (
             <div className="container mx-auto px-4 py-16 text-center">
-                <h1 className="text-4xl font-serif font-bold mb-4">Wappen</h1>
+                <h1 className="text-4xl font-serif font-bold mb-4">Ortsteile</h1>
                 <p className="text-red-600">{error}</p>
             </div>
         );
@@ -190,10 +190,10 @@ const CoatOfArmsPage = () => {
     return (
         <div className="container mx-auto px-4 py-10 space-y-10">
             <header className="text-center space-y-4 max-w-3xl mx-auto">
-                <p className="text-xs uppercase tracking-[0.5em] text-accent">Teilorte</p>
-                <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink">Wappen von Wald</h1>
+                <p className="text-xs uppercase tracking-[0.5em] text-accent">Ortsteile</p>
+                <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink">Ortsteile von Wald</h1>
                 <p className="text-ink/70">
-                    Wählen Sie ein Wappen aus, um Dokumente des jeweiligen Teilorts anzuzeigen. Jedes Wappen führt zu freigegebenen Dokumenten mit passenden Ortsangaben.
+                    Wählen Sie einen Ortsteil aus, um Dokumente des jeweiligen Teilorts anzuzeigen. Jedes Wappen führt zu freigegebenen Dokumenten mit passenden Ortsangaben.
                 </p>
             </header>
 
@@ -279,7 +279,7 @@ const CoatOfArmsPage = () => {
                 </div>
 
                 {!selectedTown ? (
-                    <p className="text-center text-ink/60">Tippen oder klicken Sie auf ein Wappen, um passende Dokumente zu sehen.</p>
+                    <p className="text-center text-ink/60">Tippen oder klicken Sie auf einen Ortsteil, um passende Dokumente zu sehen.</p>
                 ) : matchingDocuments.length === 0 ? (
                     <p className="text-center text-ink/60">Keine Dokumente für diesen Teilort gefunden.</p>
                 ) : (
