@@ -1,5 +1,45 @@
 [
   {
+    "id": "doc-1773521051264",
+    "title": "Zeitungsartikel alte Kapelle in Wald ",
+    "year": 1953,
+    "category": "Wald",
+    "subcategories": [],
+    "location": "Wald ",
+    "description": "<p>Zeitungsartikel zum Abbruch der alten Kapelle in Wald 1953</p>",
+    "transcription": "<p>Urkundenfund beim Abbruch der alten Kapelle in Wald </p><p>Am Allerheiligen-Sonntag wird die neue Kapell eingeweiht</p>",
+    "images": [
+      {
+        "id": "local_mmqsgyenfh59cp",
+        "src": "/files/images/thumbnails/album-1773520760727-7315436-thumb.jpg",
+        "title": "Wegekapelle.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmqsgyenfh59cp"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773520196228",
     "title": "Zeitungsartikel Schwester Lioba Korte ",
     "year": 1954,
