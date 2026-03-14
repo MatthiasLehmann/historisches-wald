@@ -24,6 +24,64 @@ const flattenCategories = (categories) => {
 
 const CATEGORY_INDEX = flattenCategories(categoriesData);
 
+const normalizeValue = (value) => value?.toString().trim().toLowerCase() || '';
+
+const getCategoryPath = (categoryId) => {
+    const path = [];
+    let currentId = categoryId;
+
+    while (currentId) {
+        const node = CATEGORY_INDEX[currentId];
+        if (!node) {
+            break;
+        }
+        path.unshift({
+            id: currentId,
+            label: node.label,
+            parentId: node.parentId
+        });
+        currentId = node.parentId;
+    }
+
+    return path.filter((node) => node.parentId !== null);
+};
+
+const matchesCategoryNode = (doc, node) => {
+    const normalizedId = normalizeValue(node.id);
+    const normalizedLabel = normalizeValue(node.label);
+
+    const category = normalizeValue(doc.category);
+    const location = normalizeValue(doc.location);
+    const subcategories = (Array.isArray(doc.subcategories) ? doc.subcategories : (doc.subcategory ? [doc.subcategory] : []))
+        .map(normalizeValue)
+        .filter(Boolean);
+    const categoryIds = (doc.categoryIds || [])
+        .map(normalizeValue)
+        .filter(Boolean);
+
+    if (category === normalizedId || category === normalizedLabel) {
+        return true;
+    }
+
+    if (location === normalizedId || location === normalizedLabel) {
+        return true;
+    }
+
+    if (subcategories.some((value) => value === normalizedId || value === normalizedLabel)) {
+        return true;
+    }
+
+    if (subcategories.some((value) => value.startsWith(`${normalizedId}-`))) {
+        return true;
+    }
+
+    if (categoryIds.includes(normalizedId) || categoryIds.includes(normalizedLabel)) {
+        return true;
+    }
+
+    return false;
+};
+
 const Archive = () => {
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
@@ -62,35 +120,20 @@ const Archive = () => {
             setSelectedCategories([]);
             return;
         }
-        setSelectedCategories(prev => (
-            prev.includes(categoryId)
-                ? prev.filter(c => c !== categoryId)
-                : [...prev, categoryId]
+        setSelectedCategories((prev) => (
+            prev[0] === categoryId ? [] : [categoryId]
         ));
     };
 
     const matchesCategorySelection = useCallback((doc) => {
         if (selectedCategories.length === 0) return true;
 
-        const docTokens = [
-            doc.category,
-            ...(Array.isArray(doc.subcategories) ? doc.subcategories : (doc.subcategory ? [doc.subcategory] : [])),
-            ...(doc.tags || []),
-        ].filter(Boolean).map(token => token.toString().toLowerCase());
+        const requiredNodes = selectedCategories.flatMap(getCategoryPath);
+        const uniqueRequiredNodes = Array.from(
+            new Map(requiredNodes.map((node) => [node.id, node])).values()
+        );
 
-        const docCategoryIds = (doc.categoryIds || []).map(String);
-
-        return selectedCategories.some((categoryId) => {
-            const node = CATEGORY_INDEX[categoryId];
-            if (!node) return false;
-
-            if (docCategoryIds.includes(categoryId)) {
-                return true;
-            }
-
-            const label = node.label?.toLowerCase();
-            return label ? docTokens.includes(label) : false;
-        });
+        return uniqueRequiredNodes.every((node) => matchesCategoryNode(doc, node));
     }, [selectedCategories]);
 
     const filteredDocuments = useMemo(() => documents.filter(doc => {
