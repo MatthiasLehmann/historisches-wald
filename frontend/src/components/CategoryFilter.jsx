@@ -24,6 +24,14 @@ const CategoryFilter = ({ categories, selectedCategories, onToggleCategory }) =>
         });
     };
 
+    const handleNodeClick = (node) => {
+        if (hasChildren(node)) {
+            toggleExpand(node.id);
+            return;
+        }
+        onToggleCategory(node.id);
+    };
+
     const renderNodes = (nodes, depth = 0) => (
         nodes.map((node) => {
             const active = isSelected(node.id);
@@ -50,7 +58,7 @@ const CategoryFilter = ({ categories, selectedCategories, onToggleCategory }) =>
                         )}
                         <button
                             type="button"
-                            onClick={() => onToggleCategory(node.id)}
+                            onClick={() => handleNodeClick(node)}
                             className={`flex-1 text-left text-sm font-medium rounded-sm px-2 py-1 transition-colors border
                                 ${active
                                     ? 'bg-accent text-white border-accent shadow-sm'
