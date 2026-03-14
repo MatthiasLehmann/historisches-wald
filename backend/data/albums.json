@@ -5,12 +5,13 @@
       "title": "131_Ausgrabungen Egelseemoor 1936",
       "description": "",
       "url": "",
-      "cover_photo": "/files/images/thumbnails/album-1773346387004-665471696-thumb.jpg",
-      "photo_count": 4,
+      "cover_photo": "/files/images/thumbnails/album-1773522020583-243095533-thumb.jpg",
+      "photo_count": 5,
       "created": 1773345371,
-      "last_updated": 1773346387,
+      "last_updated": 1773522020,
       "parent_id": "72177720327295965",
       "photos": [
+        "local_mmqt7xdwpzrir4",
         "local_mmnwnhkvwqwihb",
         "local_mmnw2c3e9t7gc7",
         "local_mmnw26r1w4savu",
@@ -633,16 +634,17 @@
       "parent_id": "72177720329671887"
     },
     {
-      "photo_count": "18",
+      "photo_count": 19,
       "id": "72177720323502293",
       "url": "https://www.flickr.com/photos//albums/72177720323502293",
       "title": "04_Gebäude in Wald",
       "description": "",
       "view_count": "0",
       "created": "1738176036",
-      "last_updated": 1772384608,
-      "cover_photo": "https://www.flickr.com/photos//53509214940",
+      "last_updated": 1773520762,
+      "cover_photo": "/files/images/thumbnails/album-1773520760727-7315436-thumb.jpg",
       "photos": [
+        "local_mmqsgyenfh59cp",
         "53509214940",
         "53509214980",
         "53508953473",
@@ -2766,16 +2768,18 @@
       ]
     },
     {
-      "photo_count": 4,
+      "photo_count": 6,
       "id": "72177720329974768",
       "url": "https://www.flickr.com/photos//albums/72177720329974768",
       "title": "450_Zeitungsartikel",
       "description": "",
       "view_count": "0",
       "created": "1761679701",
-      "last_updated": 1773163429,
-      "cover_photo": "/files/images/thumbnails/album-1773163429427-180902226-thumb.jpg",
+      "last_updated": 1773522478,
+      "cover_photo": "/files/images/thumbnails/album-1773522478404-977338904-thumb.jpg",
       "photos": [
+        "local_mmqthqpx6l7le5",
+        "local_mmqshqnrnbwip9",
         "local_mmkvq2lrf1sm4f",
         "54886552491",
         "54886770513",
@@ -2869,16 +2873,18 @@
       "parent_id": "72177720323505294"
     },
     {
-      "photo_count": "1",
+      "photo_count": 3,
       "id": "72177720330935749",
       "url": "https://www.flickr.com/photos//albums/72177720330935749",
       "title": "604_Schwester Lioba",
       "description": "",
       "view_count": "0",
       "created": "1765742971",
-      "last_updated": 1773174798,
-      "cover_photo": "https://www.flickr.com/photos//0",
+      "last_updated": 1773520047,
+      "cover_photo": "/files/images/thumbnails/album-1773520047358-84827051-thumb.jpg",
       "photos": [
+        "local_mmqs1n2luryqa8",
+        "local_mmqs1j17xo5or0",
         "54984318204"
       ],
       "parent_id": "72177720323505294"

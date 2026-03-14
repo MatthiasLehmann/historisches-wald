@@ -3432,9 +3432,9 @@
       "condition": "Gut erhalten, Siegel intakt"
     },
     "review": {
-      "status": "approved",
+      "status": "pending",
       "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-03-14T21:13:09.583Z",
+      "reviewedAt": null,
       "comments": [
         {
           "reviewer": "Matthias Lehmann",
