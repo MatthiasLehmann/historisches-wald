@@ -1,5 +1,45 @@
 [
   {
+    "id": "doc-1773522608428",
+    "title": "Zeitungsartikel 20 Jahre Bildungswerk Wald ",
+    "year": 1970,
+    "category": "Wald",
+    "subcategories": [],
+    "location": "Wald",
+    "description": "<p>Zeitungsartikel Südkurier 20 Jahre Bildungswerk Wald vom 27.01.1970</p>",
+    "transcription": "<p>Bemühungen um Attraktivität des ländliche Raums </p><p>20 Jahre Bildungswerk - Landwirtschaftsschulrat Norber Wahl: Landbevölkerung als Schicksalsgemeinschaft </p>",
+    "images": [
+      {
+        "id": "local_mmqthqpx6l7le5",
+        "src": "/files/images/thumbnails/album-1773522478404-977338904-thumb.jpg",
+        "title": "Zeitungsartikel 1970.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmqthqpx6l7le5"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773521051264",
     "title": "Zeitungsartikel alte Kapelle in Wald ",
     "year": 1953,
