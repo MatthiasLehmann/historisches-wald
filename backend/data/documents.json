@@ -1,5 +1,60 @@
 [
   {
+    "id": "doc-1773520196228",
+    "title": "Zeitungsartikel Schwester Lioba Korte ",
+    "year": 1954,
+    "category": "Wald",
+    "subcategories": [
+      "Heimschule",
+      "Personen"
+    ],
+    "location": "Wald",
+    "description": "<p>Zeitungsartikel zur Beisetzung von Schwester Lioba Korte 1954</p>",
+    "transcription": "<p>Die gute Mutter des Konvents und der Heimschule Wald </p><p>Beisetzung der Oberin des Konvents der Benediktinerinnen von der hl. Lioba in Wald </p>",
+    "images": [
+      {
+        "id": "local_mmqs1j17xo5or0",
+        "src": "/files/images/thumbnails/album-1773520041577-163800847-thumb.jpg",
+        "title": "IMG-20260314-WA0011.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmqs1n2luryqa8",
+        "src": "/files/images/thumbnails/album-1773520047358-84827051-thumb.jpg",
+        "title": "IMG-20260314-WA0010.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmqs1j17xo5or0",
+      "local_mmqs1n2luryqa8"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773345924399",
     "title": "Ausgrabungen Egelseemoor ",
     "year": 1936,
