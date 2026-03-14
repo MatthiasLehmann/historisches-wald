@@ -147,6 +147,17 @@
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmqt7xdwpzrir4",
+        "src": "/files/images/thumbnails/album-1773522020583-243095533-thumb.jpg",
+        "title": "Untersuchung der steinzeitlichen Moorsiedlung im Wald Egelsee bei Ruhestetten.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
       }
     ],
     "pdfs": [],
@@ -160,7 +171,8 @@
       "local_mmnw2c3e9t7gc7",
       "local_mmnw26r1w4savu",
       "local_mmnw21ozs2fjlr",
-      "local_mmnwnhkvwqwihb"
+      "local_mmnwnhkvwqwihb",
+      "local_mmqt7xdwpzrir4"
     ],
     "pdfIds": [],
     "review": {
