@@ -1,5 +1,45 @@
 [
   {
+    "id": "doc-1773604907260",
+    "title": "Lourdesgrotte Wald ",
+    "year": 1930,
+    "category": "Wald",
+    "subcategories": [],
+    "location": "Wald ",
+    "description": "<p>Lourdesgrotte Wald ca. 1930</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "local_mms6h683dfgqtl",
+        "src": "/files/images/thumbnails/album-1773604752753-733514080-thumb.jpg",
+        "title": "Lourdes Grotte ca. 1930er Jahre.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald von Franz-Sales Fröhlich",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mms6h683dfgqtl"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773602741074",
     "title": "Torfstechen Ruhestetten ",
     "year": 1980,
