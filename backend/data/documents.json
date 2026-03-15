@@ -12,7 +12,7 @@
       {
         "id": "local_mms5bbnkhemk72",
         "src": "/files/images/thumbnails/album-1773602800519-822449388-thumb.jpg",
-        "title": "D70k.jpg",
+        "title": "Torfstechen Ruhestetter Ried I 1980",
         "description": "",
         "type": "album",
         "date": "",
@@ -23,7 +23,7 @@
       {
         "id": "local_mms5bh0qwrcbwz",
         "src": "/files/images/thumbnails/album-1773602807524-452972656-thumb.jpg",
-        "title": "D61k.jpg",
+        "title": "Torfstechen Ruhestetter Ried II 1980",
         "description": "",
         "type": "album",
         "date": "",
@@ -34,10 +34,10 @@
       {
         "id": "local_mms5bxx7gqk8z5",
         "src": "/files/images/thumbnails/album-1773602829386-618675224-thumb.jpg",
-        "title": "D58k.jpg",
+        "title": "Torfstechen Ruhestetter Ried III 1980",
         "description": "",
         "type": "album",
-        "date": "",
+        "date": "1980",
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
@@ -46,7 +46,7 @@
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
-      "source": "Fotos Georg Blocherer",
+      "source": "Fotos Georg Blocherer, Archiv Gemeinde Wald",
       "condition": "Unbekannt"
     },
     "imageIds": [],
@@ -57,13 +57,13 @@
     ],
     "pdfIds": [],
     "review": {
-      "status": "approved",
-      "reviewer": "Stefani Grüner",
-      "reviewedAt": "2026-03-15T19:38:35.861Z",
+      "status": "pending",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": null,
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Fotos Georg Blocherer",
+    "source": "Fotos Georg Blocherer, Archiv Gemeinde Wald",
     "condition": "Unbekannt"
   },
   {
