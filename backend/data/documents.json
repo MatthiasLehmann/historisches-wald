@@ -8,22 +8,63 @@
     "location": "Ruhestetten",
     "description": "<p>Torfstechen im Ruhestetter Ried</p>",
     "transcription": "<p>Das Torfstechen im Ruhestetter Ried, historisch oft als „Wäsenstechen“ bezeichnet, war eine traditionelle Methode zur Gewinnung von Brennmaterial. </p><p>Für den Torfstich mussten die Moorflächen entwässert werden. Bei der Anlage eines Torfstichs wurde die Moosnarbe zunächst mit dem Spaten entfernt. Dann wurde der darunter befindliche Weißtorf mit der Schaufel ausgehoben. Der tiefer liegende Brauntorf wurde mit Stecheisen in Torfstücke oder Wäsen gestochen. Diese wurden mit Karren zum Trocknen gebracht und so aufgestapelt, dass austretendes Wasser ablaufen konnte. Der Torf trocknete den Sommer über. Die gestochenen Torfstücke dienten als günstige Alternative zu Holz oder Kohle zum Heizen.</p><p>Seit 1964 ist das Ruhestetter Ried ausgewiesenes Landschaftsschutzgebiet.</p>",
-    "images": [],
+    "images": [
+      {
+        "id": "local_mms5bbnkhemk72",
+        "src": "/files/images/thumbnails/album-1773602800519-822449388-thumb.jpg",
+        "title": "D70k.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mms5bh0qwrcbwz",
+        "src": "/files/images/thumbnails/album-1773602807524-452972656-thumb.jpg",
+        "title": "D61k.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mms5bxx7gqk8z5",
+        "src": "/files/images/thumbnails/album-1773602829386-618675224-thumb.jpg",
+        "title": "D58k.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
-      "source": "Unbekannt",
+      "source": "Fotos Georg Blocherer",
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mms5bbnkhemk72",
+      "local_mms5bh0qwrcbwz",
+      "local_mms5bxx7gqk8z5"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Fotos Georg Blocherer",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773522608428",
