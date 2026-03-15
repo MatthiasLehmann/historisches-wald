@@ -10,9 +10,9 @@
     "transcription": "<p>Das Torfstechen im Ruhestetter Ried, historisch oft als „Wäsenstechen“ bezeichnet, war eine traditionelle Methode zur Gewinnung von Brennmaterial. </p><p>Für den Torfstich mussten die Moorflächen entwässert werden. Bei der Anlage eines Torfstichs wurde die Moosnarbe zunächst mit dem Spaten entfernt. Dann wurde der darunter befindliche Weißtorf mit der Schaufel ausgehoben. Der tiefer liegende Brauntorf wurde mit Stecheisen in Torfstücke oder Wäsen gestochen. Diese wurden mit Karren zum Trocknen gebracht und so aufgestapelt, dass austretendes Wasser ablaufen konnte. Der Torf trocknete den Sommer über. Die gestochenen Torfstücke dienten als günstige Alternative zu Holz oder Kohle zum Heizen.</p><p>Seit 1964 ist das Ruhestetter Ried ausgewiesenes Landschaftsschutzgebiet.</p>",
     "images": [
       {
-        "id": "local_mms5bbnkhemk72",
-        "src": "/files/images/thumbnails/album-1773602800519-822449388-thumb.jpg",
-        "title": "Torfstechen Ruhestetter Ried I 1980",
+        "id": "local_mms5thqetnnhf5",
+        "src": "/files/images/thumbnails/album-1773603647227-430106218-thumb.jpg",
+        "title": "Torfstechen Ruhestetten I 1998",
         "description": "",
         "type": "album",
         "date": "",
@@ -21,9 +21,31 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "local_mms5bh0qwrcbwz",
-        "src": "/files/images/thumbnails/album-1773602807524-452972656-thumb.jpg",
-        "title": "Torfstechen Ruhestetter Ried II 1980",
+        "id": "local_mms5trp45fpk70",
+        "src": "/files/images/thumbnails/album-1773603660129-72497394-thumb.jpg",
+        "title": "Torfstechen Ruhestetten II 1998",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mms5u17cqfwwqb",
+        "src": "/files/images/thumbnails/album-1773603672905-309105175-thumb.jpg",
+        "title": "Torfstechen Ruhestetten III 1998",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mms5ud38oo5jdm",
+        "src": "/files/images/thumbnails/album-1773603688281-140353716-thumb.jpg",
+        "title": "Torfstechen Ruhestetten IV 1998",
         "description": "",
         "type": "album",
         "date": "",
@@ -41,6 +63,28 @@
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mms5bh0qwrcbwz",
+        "src": "/files/images/thumbnails/album-1773602807524-452972656-thumb.jpg",
+        "title": "Torfstechen Ruhestetter Ried II 1980",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mms5bbnkhemk72",
+        "src": "/files/images/thumbnails/album-1773602800519-822449388-thumb.jpg",
+        "title": "Torfstechen Ruhestetter Ried I 1980",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
       }
     ],
     "pdfs": [],
@@ -51,9 +95,13 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mms5bbnkhemk72",
+      "local_mms5thqetnnhf5",
+      "local_mms5trp45fpk70",
+      "local_mms5u17cqfwwqb",
+      "local_mms5ud38oo5jdm",
+      "local_mms5bxx7gqk8z5",
       "local_mms5bh0qwrcbwz",
-      "local_mms5bxx7gqk8z5"
+      "local_mms5bbnkhemk72"
     ],
     "pdfIds": [],
     "review": {
