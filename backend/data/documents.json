@@ -8,7 +8,63 @@
     "location": "Ruhestetten",
     "description": "<p>Dreifaltigkeitskapelle der Familie Blocherer erbaut 1962</p><p>Text von Georg Blocherer 08.03.2019</p>",
     "transcription": "<p>Dreifaltigkeitskapelle der Fam. Georg Blocherer, Ruhestetten<br>an der Landstraße, Richtung Aach-Linz</p><p>Die alte Kapelle wurde im Jahre 1753 von Blasius Blocherer aufgrund eines Gelübtes erbaut. Seine Felder blieben von einem schweren Hagelunwetter verschont. Inzwischen wurde diese alte Kapelle baufällig. Da haben sich die Bründer Hermann und Eugen Blocherer im Jahre 1962 entschlossen eine neue Kapelle zu bauen. Diese haben sie ein Stück weiter von der Straße weg gebaut. Das Altarbild und die hochgeschnitzten Figuren wurden von der alten Kapelle übernommen. In den folgenden Jahren wurde mehrmals in die neue Kapelle eingebrochen und alle Figuren samt Altarbild gestohlen. In Zusammenarbeit der Heimschule Kloster Wald und Herr Pfarrer Branner hat Frau Claire Pietsch mit ihren Bildhauerschülerinnen ein neues, modernes Altarbild aus Beton gegossen. Dieses Altarbild wurde im Jahre 1973 eingeweiht. Am Dreifaltigkeitssonntag wird jedes Jahr das Patrozinium gefeiert. Von der Kapelle im Dorf, die ebenfalls der Heiligen Dreifaltigkeit geweiht ist, zieht eine Prozession mit Pfarrer, Musikkapelle, Kreuz und Fahnen zur Kapelle an der Landesstraße. Dort wird heute eine heilige Messe gefeiert. Früher wurde eine Festpredigt gehalten. Anschließend findet die weltliche Feier im Schützenhaus statt. </p>",
-    "images": [],
+    "images": [
+      {
+        "id": "local_mmtmb1g6ebvsab",
+        "src": "/files/images/thumbnails/album-1773691806774-621155189-thumb.jpg",
+        "title": "Bild 3.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmtmat1fzjuuy9",
+        "src": "/files/images/thumbnails/album-1773691794947-543213592-thumb.jpg",
+        "title": "Bild 1.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmtmb52zn40xk2",
+        "src": "/files/images/thumbnails/album-1773691811479-220700490-thumb.jpg",
+        "title": "Bild 4.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmtmcm0bx6riwj",
+        "src": "/files/images/thumbnails/album-1773691880269-281867648-thumb.jpg",
+        "title": "IMG-20260315-WA0024.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmtmcszlb76jdv",
+        "src": "/files/images/thumbnails/album-1773691889182-414372209-thumb.jpg",
+        "title": "IMG-20260315-WA0025.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -16,7 +72,13 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mmtmb1g6ebvsab",
+      "local_mmtmat1fzjuuy9",
+      "local_mmtmb52zn40xk2",
+      "local_mmtmcm0bx6riwj",
+      "local_mmtmcszlb76jdv"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
