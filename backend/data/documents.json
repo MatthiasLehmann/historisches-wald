@@ -1,5 +1,45 @@
 [
   {
+    "id": "doc-1773779027026",
+    "title": "Soldatengrab Ruhestetten ",
+    "year": 1958,
+    "category": "Ruhestetten",
+    "subcategories": [],
+    "location": "Ruhestetten",
+    "description": "<p>Soldatengrab Ruhestetten 1958</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "54632343135",
+        "src": "/files/images/thumbnails/photo-54632343135-thumb.jpg",
+        "title": "Soldatengrab Ruhestetten 1958",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-04 00:59:14",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54632343135/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54632343135"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773778835578",
     "title": "Gemeindehaus Ruhestetten ",
     "year": 1973,
