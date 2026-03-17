@@ -1,5 +1,57 @@
 [
   {
+    "id": "doc-1773778317940",
+    "title": "Postkarten Ruhestetten ",
+    "year": 1927,
+    "category": "Ruhestetten",
+    "subcategories": [],
+    "location": "Ruhestetten",
+    "description": "<p>Postkarten Ruhestetten</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "local_mmv1piuqcrsrgb",
+        "src": "/files/images/thumbnails/album-1773778141990-684061409-thumb.jpg",
+        "title": "Postkarte Ruhestetten 1927 von Gudrun Schmidt",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv1qtfqq21rbq",
+        "src": "/files/images/thumbnails/album-1773778202823-808088794-thumb.jpg",
+        "title": "Postkarte Ruhestetten von Clemens Veeser",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmv1piuqcrsrgb",
+      "local_mmv1qtfqq21rbq"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773778043563",
     "title": "Luftaufnahmen Ruhestetten ",
     "year": 1953,
