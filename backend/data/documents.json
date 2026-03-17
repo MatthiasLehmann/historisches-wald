@@ -751,6 +751,28 @@
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv1wzp4exjwf8",
+        "src": "/files/images/thumbnails/album-1773778491044-923365234-thumb.jpg",
+        "title": "Ausgrabung 1938 I.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv1x69gfsu89h",
+        "src": "/files/images/thumbnails/album-1773778499445-624935567-thumb.jpg",
+        "title": "Ausgrabung 1938 II.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
       }
     ],
     "pdfs": [],
@@ -765,7 +787,9 @@
       "local_mmnw26r1w4savu",
       "local_mmnw21ozs2fjlr",
       "local_mmnwnhkvwqwihb",
-      "local_mmqt7xdwpzrir4"
+      "local_mmqt7xdwpzrir4",
+      "local_mmv1wzp4exjwf8",
+      "local_mmv1x69gfsu89h"
     ],
     "pdfIds": [],
     "review": {
