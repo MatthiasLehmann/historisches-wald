@@ -1,5 +1,119 @@
 [
   {
+    "id": "doc-1773779295611",
+    "title": "Luftaufnahmen Riedetsweiler ",
+    "year": 1953,
+    "category": "Riedetsweiler",
+    "subcategories": [
+      "Luftaufnahmen"
+    ],
+    "location": "Riedetsweiler",
+    "description": "<p>Luftausnahmen Riedetsweiler 1953</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "54631349988",
+        "src": "/files/images/thumbnails/photo-54631349988-thumb.jpg",
+        "title": "Linzgaustraße 10",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:07",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631349988/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631128596",
+        "src": "/files/images/thumbnails/photo-54631128596-thumb.jpg",
+        "title": "Löcherberg 2",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631128596/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631128561",
+        "src": "/files/images/thumbnails/photo-54631128561-thumb.jpg",
+        "title": "Riedetsweiler 7",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:02",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631128561/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631349833",
+        "src": "/files/images/thumbnails/photo-54631349833-thumb.jpg",
+        "title": "Riedetsweiler 6",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:02",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631349833/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631128601",
+        "src": "/files/images/thumbnails/photo-54631128601-thumb.jpg",
+        "title": "Löcherberg",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631128601/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631128741",
+        "src": "/files/images/thumbnails/photo-54631128741-thumb.jpg",
+        "title": "Buschoren",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:08",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631128741/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54630262052",
+        "src": "/files/images/thumbnails/photo-54630262052-thumb.jpg",
+        "title": "Gasthaus Süß Löchle",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:38:10",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54630262052/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54631349988",
+      "54631128596",
+      "54631128561",
+      "54631349833",
+      "54631128601",
+      "54631128741",
+      "54630262052"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773779027026",
     "title": "Soldatengrab Ruhestetten ",
     "year": 1958,
