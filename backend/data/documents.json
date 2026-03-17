@@ -1,5 +1,57 @@
 [
   {
+    "id": "doc-1773778835578",
+    "title": "Gemeindehaus Ruhestetten ",
+    "year": 1973,
+    "category": "Ruhestetten",
+    "subcategories": [],
+    "location": "Ruhestetten",
+    "description": "<p>Früheres Gemeindehaus Ruhestetten 1973</p>",
+    "transcription": "<p>Früheres Gemeindehaus (Kempter) Ruhestetten - Hirtenstraße. Verkauft 1976 an Emil Glöckler, Ruhestetten. Von Emil Glöckler wurde das Haus 1976 wegen Baufälligkeit abgerissen. </p>",
+    "images": [
+      {
+        "id": "local_mmv2044l9ddtft",
+        "src": "/files/images/thumbnails/album-1773778636900-890903568-thumb.jpg",
+        "title": "Gemeindehaus 1973.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv1zysh1gu06o",
+        "src": "/files/images/thumbnails/album-1773778630029-985083697-thumb.jpg",
+        "title": "1973.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmv2044l9ddtft",
+      "local_mmv1zysh1gu06o"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773778317940",
     "title": "Postkarten Ruhestetten ",
     "year": 1927,
