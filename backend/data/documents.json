@@ -1,5 +1,177 @@
 [
   {
+    "id": "doc-1773780067288",
+    "title": "Luftaufnahmen Reischach",
+    "year": 1953,
+    "category": "Reischach",
+    "subcategories": [],
+    "location": "Reischach",
+    "description": "<p>Luftaufnahmen Reischach 1953</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "local_mmv2qfo8ly72em",
+        "src": "/files/images/thumbnails/album-1773779862562-336441663-thumb.jpg",
+        "title": "Reischach.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2pvytv4qe9n",
+        "src": "/files/images/thumbnails/album-1773779839204-207500087-thumb.jpg",
+        "title": "img20220114_15191024.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2pn106bdu5j",
+        "src": "/files/images/thumbnails/album-1773779827554-447539391-thumb.jpg",
+        "title": "Hof Steidle.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2peoosz7npn",
+        "src": "/files/images/thumbnails/album-1773779816780-932332454-thumb.jpg",
+        "title": "Hof Hübschle.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2p7d9osgjuu",
+        "src": "/files/images/thumbnails/album-1773779807277-595125795-thumb.jpg",
+        "title": "Haus Häusler.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2ozlkmg8m4s",
+        "src": "/files/images/thumbnails/album-1773779797143-324935756-thumb.jpg",
+        "title": "Haus Haist.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2oqcym29vvb",
+        "src": "/files/images/thumbnails/album-1773779785277-888187195-thumb.jpg",
+        "title": "Burgstraße.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2oj2072zl0g",
+        "src": "/files/images/thumbnails/album-1773779775818-986898916-thumb.jpg",
+        "title": "Burgstraße 19.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2o8cx5cvfc5",
+        "src": "/files/images/thumbnails/album-1773779761871-589581462-thumb.jpg",
+        "title": "Burgstraße 15.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2nv5ynp8qg8",
+        "src": "/files/images/thumbnails/album-1773779744760-739888992-thumb.jpg",
+        "title": "Burgstraße 12.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2ng5yfrd3ic",
+        "src": "/files/images/thumbnails/album-1773779725390-356810664-thumb.jpg",
+        "title": "Burgstraße 1.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2nnos4qxm46",
+        "src": "/files/images/thumbnails/album-1773779735160-233574808-thumb.jpg",
+        "title": "Burgstraße 7.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmv2qfo8ly72em",
+      "local_mmv2pvytv4qe9n",
+      "local_mmv2pn106bdu5j",
+      "local_mmv2peoosz7npn",
+      "local_mmv2p7d9osgjuu",
+      "local_mmv2ozlkmg8m4s",
+      "local_mmv2oqcym29vvb",
+      "local_mmv2oj2072zl0g",
+      "local_mmv2o8cx5cvfc5",
+      "local_mmv2nv5ynp8qg8",
+      "local_mmv2ng5yfrd3ic",
+      "local_mmv2nnos4qxm46"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773779591911",
     "title": "Luftaufnahmen Rothenlachen ",
     "year": 1953,
