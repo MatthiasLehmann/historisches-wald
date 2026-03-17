@@ -1,5 +1,105 @@
 [
   {
+    "id": "doc-1773779591911",
+    "title": "Luftaufnahmen Rothenlachen ",
+    "year": 1953,
+    "category": "Rothenlachen",
+    "subcategories": [],
+    "location": "Rothenlachen",
+    "description": "<p>Luftaufnahmen Rothenlachen 1953</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "local_mmv2ixidor3kvp",
+        "src": "/files/images/thumbnails/album-1773779512598-484108320-thumb.jpg",
+        "title": "Rothenlachen.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2il218ekzxw",
+        "src": "/files/images/thumbnails/album-1773779498317-104534576-thumb.jpg",
+        "title": "Höhenstraße 16.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2ic7ei61mgq",
+        "src": "/files/images/thumbnails/album-1773779484825-724540594-thumb.jpg",
+        "title": "Höhenstraße 14.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2hviofebe7z",
+        "src": "/files/images/thumbnails/album-1773779465212-941847954-thumb.jpg",
+        "title": "Höhenstraße 8.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2hm6jjrz73j",
+        "src": "/files/images/thumbnails/album-1773779453101-486801553-thumb.jpg",
+        "title": "Höhenstraße 5.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2hc8azqu0ke",
+        "src": "/files/images/thumbnails/album-1773779440172-325032523-thumb.jpg",
+        "title": "Hof Blomeyer.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmv2ixidor3kvp",
+      "local_mmv2il218ekzxw",
+      "local_mmv2ic7ei61mgq",
+      "local_mmv2hviofebe7z",
+      "local_mmv2hm6jjrz73j",
+      "local_mmv2hc8azqu0ke"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773779295611",
     "title": "Luftaufnahmen Riedetsweiler ",
     "year": 1953,
