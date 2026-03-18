@@ -209,17 +209,6 @@
     "transcription": "<p></p>",
     "images": [
       {
-        "id": "local_mmv2qfo8ly72em",
-        "src": "/files/images/thumbnails/album-1773779862562-336441663-thumb.jpg",
-        "title": "Reischach.jpg",
-        "description": "",
-        "type": "album",
-        "date": "",
-        "author": "",
-        "source": "",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "local_mmv2pvytv4qe9n",
         "src": "/files/images/thumbnails/album-1773779839204-207500087-thumb.jpg",
         "title": "img20220114_15191024.jpg",
@@ -349,7 +338,6 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mmv2qfo8ly72em",
       "local_mmv2pvytv4qe9n",
       "local_mmv2pn106bdu5j",
       "local_mmv2peoosz7npn",
@@ -368,7 +356,10 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-17T20:41:34.697Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Archiv Gemeinde Wald",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773779591911",
