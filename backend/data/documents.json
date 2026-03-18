@@ -1,5 +1,165 @@
 [
   {
+    "id": "doc-1773863165945",
+    "title": "Luftaufnahmen Kappel ",
+    "year": 1953,
+    "category": "Kappel",
+    "subcategories": [],
+    "location": "Kappel",
+    "description": "<p>Luftaufnahmen Kappel 1953</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "54631326434",
+        "src": "/files/images/thumbnails/photo-54631326434-thumb.jpg",
+        "title": "Kappel",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:14",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631326434/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631326914",
+        "src": "/files/images/thumbnails/photo-54631326914-thumb.jpg",
+        "title": "Gasthaus Adler",
+        "description": "",
+        "type": "album",
+        "date": "2021-02-02 10:02:42",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631326914/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631326459",
+        "src": "/files/images/thumbnails/photo-54631326459-thumb.jpg",
+        "title": "Lindenstraße 5",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:14",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631326459/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631424910",
+        "src": "/files/images/thumbnails/photo-54631424910-thumb.jpg",
+        "title": "Lindenstraße 14",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:07",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631424910/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631341913",
+        "src": "/files/images/thumbnails/photo-54631341913-thumb.jpg",
+        "title": "Lindenstraße 19",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631341913/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54630253727",
+        "src": "/files/images/thumbnails/photo-54630253727-thumb.jpg",
+        "title": "Lindenstraße 23",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:02",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54630253727/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54630253742",
+        "src": "/files/images/thumbnails/photo-54630253742-thumb.jpg",
+        "title": "Stockweg 2",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:03",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54630253742/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631325864",
+        "src": "/files/images/thumbnails/photo-54631325864-thumb.jpg",
+        "title": "Stockweg 3",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:33:56",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631325864/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631120461",
+        "src": "/files/images/thumbnails/photo-54631120461-thumb.jpg",
+        "title": "Zum Holder (jetzt Baur)",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:33:56",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631120461/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631326719",
+        "src": "/files/images/thumbnails/photo-54631326719-thumb.jpg",
+        "title": "ehemals Fleisch (abgebrochen)",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:21",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631326719/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631121166",
+        "src": "/files/images/thumbnails/photo-54631121166-thumb.jpg",
+        "title": "Am Birkenrain",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:34:22",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631121166/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54631326434",
+      "54631326914",
+      "54631326459",
+      "54631424910",
+      "54631341913",
+      "54630253727",
+      "54630253742",
+      "54631325864",
+      "54631120461",
+      "54631326719",
+      "54631121166"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773862952670",
     "title": "Luftaufnahmen Hippetsweiler",
     "year": 1953,
