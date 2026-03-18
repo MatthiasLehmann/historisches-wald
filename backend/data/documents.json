@@ -1,5 +1,189 @@
 [
   {
+    "id": "doc-1773864336058",
+    "title": "Kloster Wald ",
+    "year": 1900,
+    "category": "Wald",
+    "subcategories": [],
+    "location": "Wald ",
+    "description": "<p>Historische Fotos Kloster Wald um 1900</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "54381846442",
+        "src": "/files/images/thumbnails/photo-54381846442-thumb.jpg",
+        "title": "8",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54381846442/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382955888",
+        "src": "/files/images/thumbnails/photo-54382955888-thumb.jpg",
+        "title": "10",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:38",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382955888/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382923359",
+        "src": "/files/images/thumbnails/photo-54382923359-thumb.jpg",
+        "title": "9",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:39",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382923359/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382923414",
+        "src": "/files/images/thumbnails/photo-54382923414-thumb.jpg",
+        "title": "7",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382923414/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382723871",
+        "src": "/files/images/thumbnails/photo-54382723871-thumb.jpg",
+        "title": "6",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:42",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382723871/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382923209",
+        "src": "/files/images/thumbnails/photo-54382923209-thumb.jpg",
+        "title": "11",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:34",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382923209/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382923154",
+        "src": "/files/images/thumbnails/photo-54382923154-thumb.jpg",
+        "title": "12",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382923154/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382723551",
+        "src": "/files/images/thumbnails/photo-54382723551-thumb.jpg",
+        "title": "13",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:32",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382723551/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382923144",
+        "src": "/files/images/thumbnails/photo-54382923144-thumb.jpg",
+        "title": "14",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382923144/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54381845982",
+        "src": "/files/images/thumbnails/photo-54381845982-thumb.jpg",
+        "title": "15",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:26",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54381845982/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54383107535",
+        "src": "/files/images/thumbnails/photo-54383107535-thumb.jpg",
+        "title": "17",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:26",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54383107535/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382922989",
+        "src": "/files/images/thumbnails/photo-54382922989-thumb.jpg",
+        "title": "16",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:26",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382922989/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54382955533",
+        "src": "/files/images/thumbnails/photo-54382955533-thumb.jpg",
+        "title": "18",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-12 13:04:26",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54382955533/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54381846442",
+      "54382955888",
+      "54382923359",
+      "54382923414",
+      "54382723871",
+      "54382923209",
+      "54382923154",
+      "54382723551",
+      "54382923144",
+      "54381845982",
+      "54383107535",
+      "54382922989",
+      "54382955533"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773863844309",
     "title": "Lufaufnahmen Wald ",
     "year": 1953,
