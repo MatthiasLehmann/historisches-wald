@@ -538,17 +538,6 @@
         "author": "",
         "source": "https://www.flickr.com/photos/199943033@N03/54631128741/",
         "license": "All Rights Reserved"
-      },
-      {
-        "id": "54630262052",
-        "src": "/files/images/thumbnails/photo-54630262052-thumb.jpg",
-        "title": "Gasthaus Süß Löchle",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 12:38:10",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54630262052/",
-        "license": "All Rights Reserved"
       }
     ],
     "pdfs": [],
@@ -564,8 +553,7 @@
       "54631128561",
       "54631349833",
       "54631128601",
-      "54631128741",
-      "54630262052"
+      "54631128741"
     ],
     "pdfIds": [],
     "review": {
