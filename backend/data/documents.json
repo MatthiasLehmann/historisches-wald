@@ -1,5 +1,141 @@
 [
   {
+    "id": "doc-1773862786554",
+    "title": "Luftaufnahmen Glashütte ",
+    "year": 1953,
+    "category": "Glashuette",
+    "subcategories": [],
+    "location": "Glashütte ",
+    "description": "<p>Luftaufnahmen Glashütte 1953</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "54631269274",
+        "src": "/files/images/thumbnails/photo-54631269274-thumb.jpg",
+        "title": "Gasthaus Adler Glashütte",
+        "description": "",
+        "type": "album",
+        "date": "2021-02-02 11:09:28",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631269274/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54630196432",
+        "src": "/files/images/thumbnails/photo-54630196432-thumb.jpg",
+        "title": "Ecke Gögginger Weg 2",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:47",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54630196432/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631269164",
+        "src": "/files/images/thumbnails/photo-54631269164-thumb.jpg",
+        "title": "Glashütte",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:44",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631269164/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631269184",
+        "src": "/files/images/thumbnails/photo-54631269184-thumb.jpg",
+        "title": "Gögginger Weg 2",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:44",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631269184/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631269084",
+        "src": "/files/images/thumbnails/photo-54631269084-thumb.jpg",
+        "title": "Krauchenwieser Straße 7",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:42",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631269084/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631063436",
+        "src": "/files/images/thumbnails/photo-54631063436-thumb.jpg",
+        "title": "Krauchenwieser Straße 8",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:37",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631063436/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631368395",
+        "src": "/files/images/thumbnails/photo-54631368395-thumb.jpg",
+        "title": "Krauchenwieser Straße 9",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:38",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631368395/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631284468",
+        "src": "/files/images/thumbnails/photo-54631284468-thumb.jpg",
+        "title": "Krauchenwieser Straße 18",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:37",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631284468/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54630196132",
+        "src": "/files/images/thumbnails/photo-54630196132-thumb.jpg",
+        "title": "Otterswanger Straße 1",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 12:03:37",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54630196132/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54631269274",
+      "54630196432",
+      "54631269164",
+      "54631269184",
+      "54631269084",
+      "54631063436",
+      "54631368395",
+      "54631284468",
+      "54630196132"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773780217150",
     "title": "Eingemeindungsfeier Reischach ",
     "year": 1972,
