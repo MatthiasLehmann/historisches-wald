@@ -16,11 +16,8 @@
   "geo": [],
   "groups": [],
   "albums": [
-    {
-      "id": "72177720327295965",
-      "title": "130_Ruhestetten",
-      "url": "https://www.flickr.com/photos//albums/72177720327295965"
-    }
+    "local_mmbzcjshe9kkuk",
+    "[object Object]"
   ],
   "tags": [
     {
@@ -59,5 +56,12 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54632328255//#comment72157720444913828"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54632328255-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54632328255-thumb.jpg",
+  "updatedAt": "2026-03-17T20:15:10.130Z",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  }
 }

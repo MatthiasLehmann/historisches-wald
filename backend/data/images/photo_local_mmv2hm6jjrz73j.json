@@ -1,0 +1,25 @@
+{
+  "id": "local_mmv2hm6jjrz73j",
+  "name": "Höhenstraße 5.jpg",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1773779453101-486801553.jpg",
+  "preview": "/files/images/thumbnails/album-1773779453101-486801553-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "local_mmv2glffu3rkil"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-03-17T20:30:54.091Z",
+  "updatedAt": "2026-03-17T20:30:54.091Z"
+}

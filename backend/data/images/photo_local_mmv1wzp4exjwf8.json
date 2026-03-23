@@ -1,0 +1,25 @@
+{
+  "id": "local_mmv1wzp4exjwf8",
+  "name": "Ausgrabung 1938 I.jpg",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1773778491044-923365234.jpg",
+  "preview": "/files/images/thumbnails/album-1773778491044-923365234-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "local_mmnw1pm7iiebob"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-03-17T20:14:51.832Z",
+  "updatedAt": "2026-03-17T20:14:51.832Z"
+}

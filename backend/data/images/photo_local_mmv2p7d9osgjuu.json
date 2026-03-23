@@ -1,0 +1,25 @@
+{
+  "id": "local_mmv2p7d9osgjuu",
+  "name": "Haus Häusler.jpg",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1773779807277-595125795.jpg",
+  "preview": "/files/images/thumbnails/album-1773779807277-595125795-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "local_mmv2mv38gke6hn"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-03-17T20:36:48.141Z",
+  "updatedAt": "2026-03-17T20:36:48.141Z"
+}

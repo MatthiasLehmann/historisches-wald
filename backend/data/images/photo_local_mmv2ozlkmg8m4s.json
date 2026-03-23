@@ -1,0 +1,25 @@
+{
+  "id": "local_mmv2ozlkmg8m4s",
+  "name": "Haus Haist.jpg",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1773779797143-324935756.jpg",
+  "preview": "/files/images/thumbnails/album-1773779797143-324935756-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "local_mmv2mv38gke6hn"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-03-17T20:36:38.073Z",
+  "updatedAt": "2026-03-17T20:36:38.073Z"
+}

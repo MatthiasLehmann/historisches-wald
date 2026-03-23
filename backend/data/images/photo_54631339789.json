@@ -16,11 +16,8 @@
   "geo": [],
   "groups": [],
   "albums": [
-    {
-      "id": "72177720327299445",
-      "title": "180_Reischach",
-      "url": "https://www.flickr.com/photos//albums/72177720327299445"
-    }
+    "local_mmbzcjshe9kkuk",
+    "[object Object]"
   ],
   "tags": [
     {
@@ -54,5 +51,12 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54631339789//#comment72157720444869750"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54631339789-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54631339789-thumb.jpg",
+  "updatedAt": "2026-03-17T20:38:34.464Z",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  }
 }

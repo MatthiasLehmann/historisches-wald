@@ -16,33 +16,14 @@
   "geo": [],
   "groups": [],
   "albums": [
-    {
-      "id": "72177720327295965",
-      "title": "130_Ruhestetten",
-      "url": "https://www.flickr.com/photos//albums/72177720327295965"
-    }
+    "local_mmbzcjshe9kkuk",
+    "[object Object]"
   ],
   "tags": [
-    {
-      "tag": "Postkarte",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-07-03 11:47:55"
-    },
-    {
-      "tag": "GudrunSchmidt",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-07-03 11:47:55"
-    },
-    {
-      "tag": "Ruhestetten",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-07-03 11:47:55"
-    },
-    {
-      "tag": "1927",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-07-03 11:47:55"
-    }
+    "Postkarte",
+    "GudrunSchmidt",
+    "Ruhestetten",
+    "1927"
   ],
   "people": [],
   "notes": [],
@@ -59,5 +40,13 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54630168042//#comment72157720444832283"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54630168042-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54630168042-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54630168042/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-03-17T20:13:14.020Z"
 }

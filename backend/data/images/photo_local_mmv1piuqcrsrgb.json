@@ -1,0 +1,25 @@
+{
+  "id": "local_mmv1piuqcrsrgb",
+  "name": "Postkarte Ruhestetten 1927 von Gudrun Schmidt",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1773778141990-684061409.jpg",
+  "preview": "/files/images/thumbnails/album-1773778141990-684061409-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "local_mmv1bar8ik10ad"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-03-17T20:09:03.412Z",
+  "updatedAt": "2026-03-17T20:11:18.671Z"
+}

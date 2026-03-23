@@ -16,11 +16,8 @@
   "geo": [],
   "groups": [],
   "albums": [
-    {
-      "id": "72177720327299881",
-      "title": "170_Rothenlachen",
-      "url": "https://www.flickr.com/photos//albums/72177720327299881"
-    }
+    "local_mmbzcjshe9kkuk",
+    "[object Object]"
   ],
   "tags": [
     {
@@ -54,5 +51,12 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54631337314//#comment72157720444780434"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54631337314-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54631337314-thumb.jpg",
+  "updatedAt": "2026-03-17T20:32:15.813Z",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  }
 }

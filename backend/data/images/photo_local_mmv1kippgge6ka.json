@@ -1,0 +1,25 @@
+{
+  "id": "local_mmv1kippgge6ka",
+  "name": "Ruschriedstraße.jpg",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1773777908894-530101452.jpg",
+  "preview": "/files/images/thumbnails/album-1773777908894-530101452-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "local_mmv1ayv7dyyqbp"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-03-17T20:05:09.950Z",
+  "updatedAt": "2026-03-17T20:05:09.950Z"
+}
