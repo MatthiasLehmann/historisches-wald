@@ -1,5 +1,35 @@
 [
   {
+    "id": "doc-1774382875072",
+    "title": "Reischach 1246 erstmals erwähnt.",
+    "year": 2026,
+    "category": "Reischach",
+    "subcategories": [
+      "Chroniken"
+    ],
+    "location": "Reischach",
+    "description": "<p>Reischach 1246 erstmals erwähnt.</p>",
+    "transcription": "<p></p>",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Gemeinde Wald",
+      "source": "800 Jahre Wald",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00008"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1774380250176",
     "title": "Der gräfische Hof von Reischach",
     "year": 1951,
