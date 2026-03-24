@@ -1,5 +1,35 @@
 [
   {
+    "id": "doc-1774380250176",
+    "title": "Der gräfische Hof von Reischach",
+    "year": 1951,
+    "category": "Reischach",
+    "subcategories": [
+      "Chroniken"
+    ],
+    "location": "Reischach",
+    "description": "<p>Der gräfische Hof von Reischach mit Bemerkungen von Pfarrer Branner.</p>",
+    "transcription": "<p>Der gräfische Hof von Reischach mit Bemerkungen von Pfarrer Branner.</p>",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Pfarrchronik (Pfarrer Branner)",
+      "condition": "ok"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00007"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773864336058",
     "title": "Kloster Wald ",
     "year": 1900,
