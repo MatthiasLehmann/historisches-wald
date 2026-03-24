@@ -1,5 +1,35 @@
 [
   {
+    "id": "doc-1774383138323",
+    "title": "Die Herren von Reischach in unserer Heimat.",
+    "year": 2026,
+    "category": "Reischach",
+    "subcategories": [
+      "Chroniken"
+    ],
+    "location": "Reischach",
+    "description": "<p>Die Herren von Reischach in unserer Heimat.</p>",
+    "transcription": "<p>Original und Abschrift.</p>",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Fürst. Hohenz. Archiv Sigmaringen",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00009"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1774382875072",
     "title": "Reischach 1246 erstmals erwähnt.",
     "year": 2026,
