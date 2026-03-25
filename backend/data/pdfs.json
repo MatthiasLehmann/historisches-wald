@@ -1,5 +1,203 @@
 [
   {
+    "id": "pdf-00012",
+    "title": "UnterschriftGräfinVonReischachUndBernhardWaldenspuhl.pdf",
+    "year": 2026,
+    "description": "Auszug aus einem Pachtvertrag mit Unterschrift der Gräfin von Reischach und Bernhard Waldenspuhl.",
+    "location": "Reischach",
+    "source": "Otto Lösch",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/4728_260319102425_001.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1774383823656"
+    ],
+    "createdAt": "2026-03-24T20:19:54.945Z",
+    "updatedAt": "2026-03-24T20:23:43.669Z"
+  },
+  {
+    "id": "pdf-00011",
+    "title": "DieFreiHerrenVonReischach.pdf",
+    "year": 2026,
+    "description": "Die Freiherren von Reischach.",
+    "location": "Reischach",
+    "source": "Sebastian Runkel",
+    "author": "Sebastian Runkel",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/4731_260319104851_001.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1774383559012"
+    ],
+    "createdAt": "2026-03-24T20:17:00.326Z",
+    "updatedAt": "2026-03-24T20:19:19.022Z"
+  },
+  {
+    "id": "pdf-00010",
+    "title": "KundeVonDerBurrenBurg.pdf",
+    "year": 2026,
+    "description": "Kunde von der Burren-Burg bei Wald (Hohenzollern)",
+    "location": "Reischach",
+    "source": "Albert Waldenspuhl",
+    "author": "Albert Waldenspuhl",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/4730_260319103519_001.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1774383394773"
+    ],
+    "createdAt": "2026-03-24T20:13:01.193Z",
+    "updatedAt": "2026-03-24T20:16:34.782Z"
+  },
+  {
+    "id": "pdf-00009",
+    "title": "DieHerrenVonReischach.pdf",
+    "year": 2026,
+    "description": "Die Herren von Reischach in unserer Heimat.",
+    "location": "Reischach",
+    "source": "Fürst. Hohenz. Archiv Sigmaringen",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/4726_260319101700_001.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1774383138323"
+    ],
+    "createdAt": "2026-03-24T20:08:45.142Z",
+    "updatedAt": "2026-03-24T20:12:18.333Z"
+  },
+  {
+    "id": "pdf-00008",
+    "title": "Reischach1246ErstmalsErwähnt.pdf",
+    "year": 2026,
+    "description": "Reischach 1246 erstmals erwähnt.",
+    "location": "Reischach",
+    "source": "800 Jahre Wald",
+    "author": "Gemeinde Wald",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/4729_260319103327_001.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1774382875072"
+    ],
+    "createdAt": "2026-03-24T20:01:48.585Z",
+    "updatedAt": "2026-03-24T20:07:55.083Z"
+  },
+  {
+    "id": "pdf-00007",
+    "title": "Der gräfische Hof von Reischach.pdf",
+    "year": 1951,
+    "description": "Der gräfische Hof von Reischach mit Bemerkungen von Pfarrer Branner.",
+    "location": "Reischach",
+    "source": "Pfarrchronik (Pfarrer Branner)",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [
+      "Reischach",
+      "Pfarrchronik",
+      "Gräfischer Hof."
+    ],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/4727_260319101901_001.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "approved",
+      "reviewer": "Elfriede Kempter",
+      "reviewedAt": "2026-03-24T13:42:15.799Z",
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1774380250176"
+    ],
+    "createdAt": "2026-03-24T13:34:52.043Z",
+    "updatedAt": "2026-03-24T19:24:10.188Z"
+  },
+  {
+    "id": "pdf-00006",
+    "title": "historisches Wald.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/historisches-Wald.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-03-24T13:10:32.798Z",
+    "updatedAt": "2026-03-24T13:10:32.798Z"
+  },
+  {
     "id": "pdf-00005",
     "title": "Postkarten aus Wald.pdf",
     "year": null,
