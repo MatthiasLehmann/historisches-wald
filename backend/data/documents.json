@@ -3231,7 +3231,7 @@
     "subcategories": [],
     "location": "Wald ",
     "description": "<p>Zeitungsartikel zum Abbruch der alten Kapelle in Wald 1953</p>",
-    "transcription": "<p>Urkundenfund beim Abbruch der alten Kapelle in Wald </p><p>Am Allerheiligen-Sonntag wird die neue Kapell eingeweiht</p>",
+    "transcription": "<p>Urkundenfund beim Abbruch der alten Kapelle in Wald</p><p>Am Allerheiligen-Sonntag wird die neue Kapell eingeweiht </p><p><a rel=\"noopener noreferrer nofollow\" class=\"text-accent underline font-semibold\" href=\"http://srv1103275.hstgr.cloud:8080/files/images/thumbnails/album-1773009718866-650704823-thumb.jpg\">http://srv1103275.hstgr.cloud:8080/files/images/thumbnails/album-1773009718866-650704823-thumb.jpg</a></p>",
     "images": [
       {
         "id": "local_mmqsgyenfh59cp",
@@ -3261,7 +3261,10 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-14T20:44:42.836Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Unbekannt",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1773520196228",
