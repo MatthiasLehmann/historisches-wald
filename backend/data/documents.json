@@ -1,5 +1,31 @@
 [
   {
+    "id": "doc-1774538326613",
+    "title": "Ortchronik Ruhestetten 1952",
+    "year": 1952,
+    "category": "Ruhestetten",
+    "subcategories": [],
+    "location": "Ruhestetten",
+    "description": "<p>Ortschronik Ruhestetten 1952 von Bürgermeister Blocherer</p>",
+    "transcription": "<p>Aus geschichtlicher Frühzeit </p>",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1774383823656",
     "title": "Auszug aus einem Pachtvertrag mit Unterschrift der Gräfin von Reischach und Bernhard Waldenspuhl.",
     "year": 2026,
