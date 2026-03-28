@@ -12,7 +12,7 @@
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
-      "source": "Unbekannt",
+      "source": "Dr. Werner Fischer",
       "condition": "Unbekannt"
     },
     "imageIds": [],
@@ -23,7 +23,10 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Dr. Werner Fischer",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1774726977851",
