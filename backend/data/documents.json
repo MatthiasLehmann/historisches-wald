@@ -19,9 +19,9 @@
     "albumPhotoIds": [],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-03-28T19:47:19.921Z",
       "comments": []
     },
     "author": "Unbekannt",
