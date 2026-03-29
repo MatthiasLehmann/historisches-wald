@@ -8,7 +8,19 @@
     "location": "Wald",
     "description": "<p>von Dr. Werner Fischer </p>",
     "transcription": "<p><u>Abkürzungen</u>:</p><p>FAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fürstliches Archiv Sigmaringen<br>StAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Staatsarchiv Sigmaringen<br>Verm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Landratsamt Sigmaringen, Vermessungsamt:<br>                  24540 = digitale Nummer für Straße, hier: <em>Annenesch</em>;<br>                  Y0001 = digitale Nummer für Grundstück, hier: <em>Geißacker</em></p><p>a&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Acker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FlN(N)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Flurname(n) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Garten, Baumgarten    ON(N)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ortsname(n)<br>h&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Haus, Hof, Gebäude&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PN(N)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personenname(n)&nbsp;<br>wa&nbsp;&nbsp; &nbsp; Wald, Gehölz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vgl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vergleiche, siehe ...<br>wi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wiese, Weide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; ... / ... &gt;&nbsp;&nbsp;&nbsp; kommt von ... / ... wird zu<br>Mda(a), mdal = Mundart(en), mundartlich&nbsp;&nbsp;&nbsp;</p><p>ahd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; althochdeutsch (9.-11. Jh.)<br>mhd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mittelhochdeutsch (12.-13. Jh.)<br>nhd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; neuhochdeutsch (ab 16. Jh.)</p><p>N, O, S, W, NO, SO etc. = Himmelsrichtungen</p><p><u>Schreibung</u>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p><strong>Annenesch </strong>(normal und fett): amtliche, heute gültige Flurnamen&nbsp;&nbsp;&nbsp;</p><p><strong><em>Birken </em></strong>(kursiv und fett): nur historisch oder mündlich überlieferte Flurnamen</p><p><em>Birrenaker </em>(kursiv und mager)<em> </em>: historische Belege mit Jahreszahl; die Jahreszahlen verweisen auf die bei jedem Ort angegebenen Quellen für die Belege.</p><p>&nbsp;<u>Maße</u>:</p><p>&nbsp;<em>Joch, Juch, Jauchart </em>(17. Jh.), <em>Juchert</em> /18.Jh.): Ackermaß - so viel, wie&nbsp; ein Mann mit einem Paar (Joch) Ochsen an einem Tag pflügen konnte.<br><em>Mannsmahd, Ma(h)den</em>: Wiesenmaß – so viel, wie ein Mann an einem Tag mähen konnte.</p><p></p><p></p>",
-    "images": [],
+    "images": [
+      {
+        "id": "54854142452",
+        "src": "/files/images/thumbnails/photo-54854142452-thumb.jpg",
+        "title": "wald",
+        "description": "",
+        "type": "album",
+        "date": "2025-10-14 12:07:18",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54854142452/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -16,14 +28,19 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "54854142452"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Dr. ",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1774792807738",
