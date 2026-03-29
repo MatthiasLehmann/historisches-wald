@@ -124,7 +124,19 @@
     "location": "Hippetsweiler ",
     "description": "<p>von Dr. Werner Fischer</p>",
     "transcription": "<p><u>Abkürzungen</u>:</p><p>FAS&nbsp;= Fürstliches Archiv Sigmaringen; StAS = Staatsarchiv Sigmaringen; Verm&nbsp;= Landratsamt Sigmaringen, Vermessungsamt: 24540 = digitale Nummer für Straße, hier: <em>Annenesch</em>; Y0001 = digitale Nummer für Grundstück, hier: <em>Geißacker</em><br>a = Acker FlN(N) Flurname(n); g = Garten, Baumgarten ON(N) Ortsname(n); h = Haus, Hof, Gebäude PN(N) Personenname(n); wa = Wald, Gehölz, wi = Wiese, Weide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>vgl = vergleiche, siehe ...; &lt; ... / ... &gt; kommt von ... / ... wird zu<br>Mda(a), mdal = Mundart(en), mundartlich; ahd = althochdeutsch (9.-11. Jh.); mhd = mittelhochdeutsch (12.-13. Jh.); nhd = neuhochdeutsch (ab 16. Jh.)<br>N, O, S, W, NO, SO etc. = Himmelsrichtungen</p><p><u>Schreibung</u>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p><strong>Annenesch </strong>(normal und fett): amtliche, heute gültige Flurnamen&nbsp;&nbsp;&nbsp;<br><strong><em>Birken </em></strong>(kursiv und fett): nur historisch oder mündlich überlieferte Flurnamen<br><em>Birrenaker </em>(kursiv und mager)<em> </em>: historische Belege mit Jahreszahl; die Jahreszahlen verweisen auf die bei jedem Ort angegebenen Quellen für die Belege.</p><p>&nbsp;<u>Maße</u>:</p><p>&nbsp;<em>Joch, Juch, Jauchart </em>(17. Jh.), <em>Juchert</em> /18.Jh.): Ackermaß - so viel, wie&nbsp; ein Mann mit einem Paar (Joch) Ochsen an einem Tag pflügen konnte.<br><em>Mannsmahd, Ma(h)den</em>: Wiesenmaß – so viel, wie ein Mann an einem Tag mähen konnte.</p><p>*****************************************************************************************************************************************************</p><p><strong><u>Hippetsweiler </u></strong>- 349 ha (62 ha Wald)</p><p>FAS Kl. Wald 137,2 Urbar von 1501; StAS K I W/4 Hippetsweiler 1782; Ho 203 T 1<br>415 Kontraktprotokolle von Hippetsweiler, Gaisweiler, Tautenbronn 1825-35; Hohenzollerische Urnummernkarten (1844) SO 5810</p><p></p>",
-    "images": [],
+    "images": [
+      {
+        "id": "54855252739",
+        "src": "/files/images/thumbnails/photo-54855252739-thumb.jpg",
+        "title": "hippetsweiler",
+        "description": "",
+        "type": "album",
+        "date": "2025-10-14 12:07:19",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54855252739/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -132,7 +144,9 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "54855252739"
+    ],
     "pdfIds": [],
     "review": {
       "status": "approved",
