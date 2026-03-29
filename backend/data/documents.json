@@ -130,20 +130,21 @@
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
-      "source": "Otto Lösch",
+      "source": "Pfarrchronik",
       "condition": "Unbekannt"
     },
     "imageIds": [],
     "albumPhotoIds": [],
-    "pdfIds": [
-      "pdf-00012"
-    ],
+    "pdfIds": [],
     "review": {
       "status": "pending",
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Pfarrchronik",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1774383559012",
