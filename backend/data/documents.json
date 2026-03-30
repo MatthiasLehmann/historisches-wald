@@ -1,5 +1,35 @@
 [
   {
+    "id": "doc-1774889252179",
+    "title": "Als die Bank noch ein Familienbetrieb war",
+    "year": 2025,
+    "category": "Wald",
+    "subcategories": [
+      "sonst. Gewerbe"
+    ],
+    "location": "Wald",
+    "description": "<p>Bernhard Glöckler erinnert sich an seine Jugendzeit</p>",
+    "transcription": "",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Bernhard Glöckler",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00013"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1774888686730",
     "title": "Flurnamen von Sentenhart",
     "year": 2023,
