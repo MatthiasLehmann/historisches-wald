@@ -50,7 +50,19 @@
     "location": "Wald",
     "description": "<p>Bernhard Glöckler erinnert sich an seine Jugendzeit</p>",
     "transcription": "",
-    "images": [],
+    "images": [
+      {
+        "id": "local_mndfgfi8ei2925",
+        "src": "/files/images/thumbnails/album-1774889624903-737613665-thumb.jpg",
+        "title": "Einnehmerei.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -58,7 +70,9 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mndfgfi8ei2925"
+    ],
     "pdfIds": [
       "pdf-00013"
     ],
@@ -67,7 +81,10 @@
       "reviewer": "Martin Kuhn",
       "reviewedAt": "2026-03-30T16:48:52.699Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Bernhard Glöckler",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1774888686730",
