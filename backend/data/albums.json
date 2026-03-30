@@ -223,11 +223,12 @@
       "description": "Fotos die keinen Album zugewiesen zugeiwesen",
       "url": "",
       "cover_photo": "",
-      "photo_count": 54,
+      "photo_count": 55,
       "created": 1772625321,
-      "last_updated": 1773779926,
+      "last_updated": 1774536487,
       "parent_id": "",
       "photos": [
+        "local_mn7l68yipor7eb",
         "54631438015",
         "54631354958",
         "54631354963",
@@ -328,15 +329,15 @@
       ]
     },
     {
-      "photo_count": "200",
+      "photo_count": 200,
       "id": "72177720314562250",
       "url": "https://www.flickr.com/photos//albums/72177720314562250",
       "title": "01_Postkarten Wald",
       "description": "",
       "view_count": "0",
       "created": "1707072841",
-      "last_updated": 1772384341,
-      "cover_photo": "https://www.flickr.com/photos//0",
+      "last_updated": 1774536487,
+      "cover_photo": "/files/images/thumbnails/album-1774536430345-520743501-thumb.jpg",
       "photos": [
         "53508710586",
         "54275930303",
