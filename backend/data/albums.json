@@ -6,11 +6,13 @@
       "description": "",
       "url": "",
       "cover_photo": "",
-      "photo_count": 0,
+      "photo_count": 1,
       "created": 1773779988,
-      "last_updated": 1773779988,
+      "last_updated": 1774889624,
       "parent_id": "",
-      "photos": []
+      "photos": [
+        "local_mndfgfi8ei2925"
+      ]
     },
     {
       "id": "local_mmv2mv38gke6hn",
@@ -3276,16 +3278,17 @@
       ]
     },
     {
-      "photo_count": "1",
+      "photo_count": 2,
       "id": "72177720330911192",
       "url": "https://www.flickr.com/photos//albums/72177720330911192",
       "title": "900_Berichte, Erzählungen, Beschreibungen",
       "description": "Personen berichten von Früher",
       "view_count": "0",
       "created": "1765749487",
-      "last_updated": "1769275900",
+      "last_updated": 1774886259,
       "cover_photo": "https://www.flickr.com/photos//0",
       "photos": [
+        "local_mnddgast11e3ny",
         "54983386257"
       ]
     },
