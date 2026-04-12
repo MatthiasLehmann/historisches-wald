@@ -1,5 +1,35 @@
 [
   {
+    "id": "doc-1776026934722",
+    "title": "Adressbuch Hippetsweiler 1935",
+    "year": 1935,
+    "category": "Hippetsweiler",
+    "subcategories": [
+      "Adressbuch"
+    ],
+    "location": "Hippetsweiler",
+    "description": "<p></p>",
+    "transcription": "<p></p>",
+    "images": [],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Hohenzollerische Heimatbücherei",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00017"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1776025448371",
     "title": "Adressbuch Glashütte 1935",
     "year": 1935,
