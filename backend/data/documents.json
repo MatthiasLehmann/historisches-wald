@@ -10,7 +10,19 @@
     "location": "Hippetsweiler",
     "description": "<p></p>",
     "transcription": "<p></p>",
-    "images": [],
+    "images": [
+      {
+        "id": "local_mmatbi6xiwqmdz",
+        "src": "/files/images/thumbnails/album-1772554728723-820826433-thumb.jpg",
+        "title": "Adressbuch 1935",
+        "description": "Adressbücher aus dem Jahre 1935",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
@@ -18,7 +30,9 @@
       "condition": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mmatbi6xiwqmdz"
+    ],
     "pdfIds": [
       "pdf-00017"
     ],
@@ -27,7 +41,10 @@
       "reviewer": "Martin Kuhn",
       "reviewedAt": "2026-04-12T20:49:42.772Z",
       "comments": []
-    }
+    },
+    "author": "Unbekannt",
+    "source": "Hohenzollerische Heimatbücherei",
+    "condition": "Unbekannt"
   },
   {
     "id": "doc-1776025448371",
