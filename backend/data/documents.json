@@ -1,5 +1,49 @@
 [
   {
+    "id": "doc-1776025448371",
+    "title": "Adressbuch Glashütte 1935",
+    "year": 1935,
+    "category": "Glashuette",
+    "subcategories": [
+      "Adressbuch"
+    ],
+    "location": "Glashütte",
+    "description": "<p>Hohenzollerische Heimatbücherei</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "local_mmatbi6xiwqmdz",
+        "src": "/files/images/thumbnails/album-1772554728723-820826433-thumb.jpg",
+        "title": "Adressbuch 1935",
+        "description": "Adressbücher aus dem Jahre 1935",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Hohenzollerische Heimatbücherei",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mmatbi6xiwqmdz"
+    ],
+    "pdfIds": [
+      "pdf-00015"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1774889357455",
     "title": "Flurnamen von Walbertsweiler ",
     "year": 2023,
