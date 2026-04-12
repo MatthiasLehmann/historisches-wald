@@ -111,7 +111,7 @@ export const importLocalPdfFile = async (payload) => {
     if (!(file instanceof File)) {
         throw new Error('Bitte wählen Sie eine PDF-Datei aus.');
     }
-    if (file.type && file.type !== 'application/pdf' && file.type !== 'application/x-pdf') {
+    if (!isPdfLikeFile(file)) {
         throw new Error('Nur PDF-Dateien können importiert werden.');
     }
     const base64 = await readFileAsBase64(file);
@@ -204,6 +204,15 @@ const readFileAsBase64 = (file) =>
         reader.onerror = () => reject(new Error('Datei konnte nicht gelesen werden.'));
         reader.readAsDataURL(file);
     });
+
+const isPdfLikeFile = (file) => {
+    const mimeType = typeof file?.type === 'string' ? file.type.trim().toLowerCase() : '';
+    const fileName = typeof file?.name === 'string' ? file.name.trim().toLowerCase() : '';
+    if (fileName.endsWith('.pdf')) {
+        return true;
+    }
+    return mimeType === '' || mimeType === 'application/pdf' || mimeType === 'application/x-pdf';
+};
 
 export const uploadAlbumPhoto = async (albumId, payload) => {
     if (!albumId) {

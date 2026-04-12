@@ -246,7 +246,7 @@ const MediaPDFs = () => {
             <input
               ref={fileInputRef}
               type="file"
-              accept="application/pdf"
+              accept=".pdf,application/pdf"
               className="hidden"
               onChange={handleLocalFileChange}
             />

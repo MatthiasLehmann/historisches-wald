@@ -38,6 +38,15 @@ const sanitizeFileStem = (value = '') => {
 
 const ensurePdfExtension = (value) => (value.toLowerCase().endsWith('.pdf') ? value : `${value}.pdf`);
 
+const isPdfFileName = (value = '') => value.trim().toLowerCase().endsWith('.pdf');
+
+const hasPdfSignature = (buffer) => {
+  if (!buffer || buffer.length < 4) {
+    return false;
+  }
+  return buffer.subarray(0, 4).toString('ascii') === '%PDF';
+};
+
 const fileExists = async (filePath) => {
   try {
     await fs.access(filePath);
@@ -60,7 +69,8 @@ const generateFileName = async (originalName = '') => {
 };
 
 export const saveBase64Pdf = async ({ data, mimeType, originalName }) => {
-  if (mimeType && !ALLOWED_MIME_TYPES.has(mimeType)) {
+  const normalizedMimeType = typeof mimeType === 'string' ? mimeType.trim().toLowerCase() : '';
+  if (normalizedMimeType && !ALLOWED_MIME_TYPES.has(normalizedMimeType) && !isPdfFileName(originalName || '')) {
     const error = new Error('Nur PDF-Dateien sind erlaubt.');
     error.statusCode = 400;
     throw error;
@@ -76,6 +86,11 @@ export const saveBase64Pdf = async ({ data, mimeType, originalName }) => {
   }
   if (!buffer || buffer.length === 0) {
     const error = new Error('PDF-Daten sind leer.');
+    error.statusCode = 400;
+    throw error;
+  }
+  if (!hasPdfSignature(buffer)) {
+    const error = new Error('Datei ist keine gueltige PDF.');
     error.statusCode = 400;
     throw error;
   }
