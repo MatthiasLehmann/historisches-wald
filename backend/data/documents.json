@@ -1,5 +1,203 @@
 [
   {
+    "id": "doc-1777382928753",
+    "title": "Die alte Apotheke",
+    "year": 2026,
+    "category": "Wald",
+    "subcategories": [
+      "sonst. Gewerbe"
+    ],
+    "location": "Wald",
+    "description": "<p>Die alte Apotheke</p>",
+    "transcription": "<p>Die alte Apotheke</p>",
+    "images": [
+      {
+        "id": "local_moin19f417uku2",
+        "src": "/files/images/thumbnails/album-1777381466012-213974350-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Die alte Apotheke",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin2r19f9pr75",
+        "src": "/files/images/thumbnails/album-1777381536027-947263061-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Alte Ansichten",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin4pg9dvwaj7",
+        "src": "/files/images/thumbnails/album-1777381627332-588167581-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Ausblick aus den Fenstern in alle Richtungen.",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin5i4rzxz18n",
+        "src": "/files/images/thumbnails/album-1777381664238-483864525-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Nach dem Umbau",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin6aoftlmqv2",
+        "src": "/files/images/thumbnails/album-1777381701771-388463342-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Gefunden:",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin6yrpxn84fi",
+        "src": "/files/images/thumbnails/album-1777381732902-542018453-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Apotheker Curt Wesener",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin812f93zoye",
+        "src": "/files/images/thumbnails/album-1777381782484-99761637-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Wesener's im Garten",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin90nzqnn1tr",
+        "src": "/files/images/thumbnails/album-1777381828621-161046295-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Das Herbarium von Apotheker Curt Wesener.",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moin9oue8n55ng",
+        "src": "/files/images/thumbnails/album-1777381859931-958843339-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Ein bedeutender Apotheker:\nHeinrich Sautermeister",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moinbiyncwkhut",
+        "src": "/files/images/thumbnails/album-1777381945400-449102733-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Das Deutsche Apotheken-Museum im Schloss Heidelberg.",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moincf38gd8oft",
+        "src": "/files/images/thumbnails/album-1777381987171-436105891-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Etiketten",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moind75tt3nafp",
+        "src": "/files/images/thumbnails/album-1777382023555-54154598-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Aufkleber",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moine54p5bybu0",
+        "src": "/files/images/thumbnails/album-1777382067774-719314829-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Kleine Tüten für die Etiketten.",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_moinf4i6b8pihm",
+        "src": "/files/images/thumbnails/album-1777382113514-409191779-thumb.jpg",
+        "title": "Die alte Apotheke",
+        "description": "Jesuitenpater und berühmter Missionar Dominikus Mayr.",
+        "type": "album",
+        "date": "2026-04-28",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Elfriede Kempter",
+      "source": "Unbekannt",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_moin19f417uku2",
+      "local_moin2r19f9pr75",
+      "local_moin4pg9dvwaj7",
+      "local_moin5i4rzxz18n",
+      "local_moin6aoftlmqv2",
+      "local_moin6yrpxn84fi",
+      "local_moin812f93zoye",
+      "local_moin90nzqnn1tr",
+      "local_moin9oue8n55ng",
+      "local_moinbiyncwkhut",
+      "local_moincf38gd8oft",
+      "local_moind75tt3nafp",
+      "local_moine54p5bybu0",
+      "local_moinf4i6b8pihm"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1776026934722",
     "title": "Adressbuch Hippetsweiler 1935",
     "year": 1935,
