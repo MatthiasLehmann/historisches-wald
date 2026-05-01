@@ -1,5 +1,59 @@
 [
   {
+    "id": "doc-1777628824634",
+    "title": "Ehrenbürger Kaiser",
+    "year": 1966,
+    "category": "Wald",
+    "subcategories": [
+      "Personen"
+    ],
+    "location": "Wald",
+    "description": "<p>Südkurier Artikel von 1966 über Ehrenbürger und Bürgermeister aus Wald, Josef Kaiser.</p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "local_momq73ledvfz08",
+        "src": "/files/images/thumbnails/album-1777628641874-552414074-thumb.jpg",
+        "title": "Ehrenbürger Kaiser 2",
+        "description": "Südkurier Artikel 1966 über Ehrenbürger und Bürgermeister von Wald, Josef Kaiser.",
+        "type": "album",
+        "date": "2026-05-01",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_momq5jcoq5ch39",
+        "src": "/files/images/thumbnails/album-1777628568967-439746249-thumb.jpg",
+        "title": "Ehrenbürger Kaiser",
+        "description": "Südkurierartikel 1966 über Ehrenbürger und Bürgermeister  von Wald, Josef Kaiser.",
+        "type": "album",
+        "date": "2026-05-01",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "pdfs": [],
+    "metadata": {
+      "author": "Elfriede Kempter",
+      "source": "Südkurier",
+      "condition": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_momq73ledvfz08",
+      "local_momq5jcoq5ch39"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1777382928753",
     "title": "Die alte Apotheke",
     "year": 2026,
