@@ -47,9 +47,9 @@
     ],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Elfriede Kempter",
+      "reviewedAt": "2026-05-01T09:48:00.240Z",
       "comments": []
     }
   },
