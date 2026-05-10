@@ -14,7 +14,7 @@ const initialForm = {
   transcription: '',
   author: '',
   source: '',
-  condition: '',
+  editor: '',
   coverPhotoId: '',
   albumPhotoIds: [],
   pdfIds: [],
@@ -63,6 +63,7 @@ const SubmitDocument = () => {
           ? doc.subcategories.join(' ')
           : doc.subcategory ?? '',
         doc.metadata?.author ?? '',
+        doc.metadata?.editor ?? '',
         doc.location ?? '',
       ]
         .filter(Boolean)
@@ -149,7 +150,7 @@ const SubmitDocument = () => {
         : doc.transcription ?? '',
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
-      condition: doc.metadata?.condition ?? '',
+      editor: doc.metadata?.editor ?? '',
       coverPhotoId: doc.coverPhotoId ?? '',
       albumPhotoIds: Array.isArray(doc.albumPhotoIds)
         ? doc.albumPhotoIds.filter((id) => String(id) !== String(doc.coverPhotoId || ''))
@@ -186,6 +187,7 @@ const SubmitDocument = () => {
         category: selectedArea,
         subcategories: selectedSubcategories,
         transcription: form.transcription,
+        editor: form.editor,
         coverPhotoId: form.coverPhotoId || '',
         albumPhotoIds: Array.isArray(form.albumPhotoIds) ? form.albumPhotoIds : [],
         pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
@@ -752,12 +754,13 @@ const SubmitDocument = () => {
             />
           </label>
           <label className="space-y-1 text-sm font-medium text-ink/80">
-            Zustand
+            Bearbeiter*
             <input
-              name="condition"
-              value={form.condition}
+              name="editor"
+              value={form.editor}
               onChange={handleChange}
               className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+              required
             />
           </label>
         </div>

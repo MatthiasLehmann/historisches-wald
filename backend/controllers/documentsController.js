@@ -38,6 +38,16 @@ const normalizeReview = (doc) => {
   };
 };
 
+const normalizeMetadata = (doc) => {
+  const metadata = (doc && typeof doc.metadata === 'object') ? doc.metadata : {};
+
+  return {
+    author: metadata.author ?? doc?.author ?? 'Unbekannt',
+    source: metadata.source ?? doc?.source ?? 'Unbekannt',
+    editor: metadata.editor ?? doc?.editor ?? ''
+  };
+};
+
 const normalizeDocument = (doc) => {
   const normalized = normalizeReview(doc);
   const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
@@ -51,6 +61,7 @@ const normalizeDocument = (doc) => {
     albumPhotoIds,
     coverPhotoId,
     coverImage: null,
+    metadata: normalizeMetadata(normalized),
     images: Array.isArray(normalized.images) ? normalized.images : [],
     pdfs: []
   };
@@ -253,7 +264,7 @@ export const readDocuments = async () => {
 
 const writeDocuments = async (documents) => {
   const normalized = documents.map((doc) => {
-    const { coverImage, pdfs, ...stored } = normalizeDocument(doc);
+    const { coverImage, pdfs, author, source, editor, ...stored } = normalizeDocument(doc);
     return stored;
   });
   await fs.writeFile(DATA_FILE, JSON.stringify(normalized, null, 2), 'utf8');
@@ -342,9 +353,12 @@ export const getDocuments = async (_req, res) => {
 export const createDocument = async (req, res) => {
   try {
     const { title, year, category } = req.body || {};
+    const editor = typeof req.body?.editor === 'string'
+      ? req.body.editor.trim()
+      : '';
 
-    if (!title || !year || !category) {
-      return res.status(400).json({ message: 'title, year, and category are required.' });
+    if (!title || !year || !category || !editor) {
+      return res.status(400).json({ message: 'title, year, category, and editor are required.' });
     }
 
     const documents = await readDocuments();
@@ -370,7 +384,7 @@ export const createDocument = async (req, res) => {
       metadata: {
         author: req.body.author || 'Unbekannt',
         source: req.body.source || 'Unbekannt',
-        condition: req.body.condition || 'Unbekannt'
+        editor
       },
       imageIds,
       albumPhotoIds,
@@ -410,6 +424,13 @@ export const updateDocument = async (req, res) => {
 
     const existing = documents[index];
     const existingReview = normalizeReview(existing).review;
+    const existingMetadata = normalizeMetadata(existing);
+    const nextEditor = req.body.editor !== undefined
+      ? (typeof req.body.editor === 'string' ? req.body.editor.trim() : '')
+      : existingMetadata.editor;
+    if (!nextEditor) {
+      return res.status(400).json({ message: 'editor is required.' });
+    }
     const lookups = await ensureMediaLookups();
     const updated = {
       ...existing,
@@ -423,10 +444,10 @@ export const updateDocument = async (req, res) => {
         ? (req.body.coverPhotoId ? String(req.body.coverPhotoId) : '')
         : existing.coverPhotoId || '',
       metadata: {
-        ...existing.metadata,
-        author: req.body.author ?? existing.metadata?.author ?? 'Unbekannt',
-        source: req.body.source ?? existing.metadata?.source ?? 'Unbekannt',
-        condition: req.body.condition ?? existing.metadata?.condition ?? 'Unbekannt'
+        ...existingMetadata,
+        author: req.body.author ?? existingMetadata.author,
+        source: req.body.source ?? existingMetadata.source,
+        editor: nextEditor
       },
       review: existingReview
     };

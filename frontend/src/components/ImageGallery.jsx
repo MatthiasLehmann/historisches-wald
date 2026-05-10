@@ -103,10 +103,9 @@ const ImageGallery = ({ images, title }) => {
                                     {img.description?.trim() ? img.description : 'Keine Beschreibung vorhanden.'}
                                 </p>
                             </div>
-                            {(img.meta?.author || img.meta?.source) && (
+                            {img.meta?.source && (
                                 <div className="text-[10px] uppercase tracking-[0.2em] text-ink/50 flex flex-wrap gap-3">
-                                    {img.meta.author && <span>Autor: {img.meta.author}</span>}
-                                    {img.meta.source && <span>Quelle: {img.meta.source}</span>}
+                                    <span>Quelle: {img.meta.source}</span>
                                 </div>
                             )}
                         </figcaption>
