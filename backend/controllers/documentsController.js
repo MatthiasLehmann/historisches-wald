@@ -341,10 +341,10 @@ export const getDocuments = async (_req, res) => {
 
 export const createDocument = async (req, res) => {
   try {
-    const { title, year, category, location, description } = req.body || {};
+    const { title, year, category } = req.body || {};
 
-    if (!title || !year || !category || !location || !description) {
-      return res.status(400).json({ message: 'title, year, category, location, and description are required.' });
+    if (!title || !year || !category) {
+      return res.status(400).json({ message: 'title, year, and category are required.' });
     }
 
     const documents = await readDocuments();
@@ -361,8 +361,8 @@ export const createDocument = async (req, res) => {
       year: Number(year),
       category,
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : [],
-      location,
-      description,
+      location: req.body.location || '',
+      description: req.body.description || '',
       transcription: req.body.transcription || '',
       images: [],
       pdfs: [],

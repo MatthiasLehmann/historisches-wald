@@ -550,31 +550,25 @@ const SubmitDocument = () => {
           </div>
 
         <label className="space-y-1 text-sm font-medium text-ink/80 block">
-          Ort*
+          Ort
           <input
             name="location"
             value={form.location}
             onChange={handleChange}
             className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-            required
           />
         </label>
 
         <MarkdownEditor
-          label="Beschreibung*"
           value={form.description}
           onChange={(nextValue) => setForm((prev) => ({ ...prev, description: nextValue }))}
-          placeholder="Beschreiben Sie das Dokument samt Kontext."
-          required
-          helperText="Nutzen Sie den Editor für strukturierte Absätze, Listen, Links oder Tabellen."
+          placeholder="Optionaler Beschreibungstext mit Kontext, Einordnung oder Hinweisen."
         />
 
         <MarkdownEditor
-          label="Transkription / Notizen"
           value={form.transcription}
           onChange={(nextValue) => setForm((prev) => ({ ...prev, transcription: nextValue }))}
-          placeholder="Optionaler Volltext, Notizen oder Beobachtungen."
-          helperText="Optional: Formatieren Sie Transkriptionen direkt mit dem Editor."
+          placeholder="Optionale Transkription, Notizen oder Beobachtungen."
         />
 
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
