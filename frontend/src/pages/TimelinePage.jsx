@@ -46,7 +46,7 @@ const TimelinePage = () => {
     }, []);
 
     const approvedDocuments = React.useMemo(
-        () => documents.filter((doc) => doc?.review?.status === 'approved'),
+        () => documents.filter((doc) => doc?.review?.status === 'approved' && doc?.showInTimeline !== false),
         [documents]
     );
 

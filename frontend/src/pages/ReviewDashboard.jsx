@@ -324,7 +324,7 @@ const ReviewDashboard = () => {
                     </div>
                   </details>
                 )}
-                <dl className="grid md:grid-cols-4 gap-4 text-sm">
+                <dl className="grid md:grid-cols-5 gap-4 text-sm">
                   <div>
                     <dt className="text-ink/60">Kategorie</dt>
                     <dd className="font-medium text-ink">{selectedDocument.category}</dd>
@@ -340,6 +340,12 @@ const ReviewDashboard = () => {
                   <div>
                     <dt className="text-ink/60">Quelle</dt>
                     <dd className="font-medium text-ink">{selectedDocument.metadata?.source || 'Unbekannt'}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-ink/60">Zeitleiste</dt>
+                    <dd className="font-medium text-ink">
+                      {selectedDocument.showInTimeline === false ? 'Ausgeblendet' : 'Sichtbar'}
+                    </dd>
                   </div>
                 </dl>
               </article>

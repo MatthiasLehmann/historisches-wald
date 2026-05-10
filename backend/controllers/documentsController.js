@@ -61,6 +61,7 @@ const normalizeDocument = (doc) => {
     albumPhotoIds,
     coverPhotoId,
     coverImage: null,
+    showInTimeline: normalized.showInTimeline !== false,
     metadata: normalizeMetadata(normalized),
     images: Array.isArray(normalized.images) ? normalized.images : [],
     pdfs: []
@@ -381,6 +382,7 @@ export const createDocument = async (req, res) => {
       images: [],
       pdfs: [],
       coverPhotoId,
+      showInTimeline: req.body.showInTimeline !== false,
       metadata: {
         author: req.body.author || 'Unbekannt',
         source: req.body.source || 'Unbekannt',
@@ -443,6 +445,9 @@ export const updateDocument = async (req, res) => {
       coverPhotoId: req.body.coverPhotoId !== undefined
         ? (req.body.coverPhotoId ? String(req.body.coverPhotoId) : '')
         : existing.coverPhotoId || '',
+      showInTimeline: req.body.showInTimeline !== undefined
+        ? Boolean(req.body.showInTimeline)
+        : existing.showInTimeline !== false,
       metadata: {
         ...existingMetadata,
         author: req.body.author ?? existingMetadata.author,

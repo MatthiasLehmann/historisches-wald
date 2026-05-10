@@ -39,7 +39,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774889252179",
@@ -87,7 +88,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Bernhard Glöckler"
+    "source": "Bernhard Glöckler",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774888686730",
@@ -129,7 +131,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774887820230",
@@ -171,7 +174,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774813143373",
@@ -213,7 +217,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774812548804",
@@ -255,7 +260,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774812369590",
@@ -297,7 +303,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774810698858",
@@ -327,7 +334,8 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1774797137965",
@@ -369,7 +377,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774792807738",
@@ -411,7 +420,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774727979162",
@@ -453,7 +463,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774726977851",
@@ -495,7 +506,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Dr. Werner Fischer"
+    "source": "Dr. Werner Fischer",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774538326613",
@@ -523,7 +535,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Unbekannt"
+    "source": "Unbekannt",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774383823656",
@@ -553,7 +566,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Pfarrchronik"
+    "source": "Pfarrchronik",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774383559012",
@@ -583,7 +597,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-26T14:26:11.472Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1774383394773",
@@ -615,7 +630,8 @@
       "comments": []
     },
     "author": "Albert Waldenspuhl",
-    "source": "Albert Waldenspuhl"
+    "source": "Albert Waldenspuhl",
+    "showInTimeline": true
   },
   {
     "id": "doc-1774383138323",
@@ -645,7 +661,8 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1774382875072",
@@ -675,7 +692,8 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773864336058",
@@ -859,7 +877,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-18T20:06:27.061Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773863844309",
@@ -1127,7 +1146,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-18T19:57:53.978Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773863631556",
@@ -1467,7 +1487,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-18T19:54:08.079Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773863442195",
@@ -1675,7 +1696,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-18T19:54:23.877Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773863307840",
@@ -1919,7 +1941,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-18T19:49:20.253Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773863165945",
@@ -2079,7 +2102,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-18T19:46:38.644Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773862952670",
@@ -2313,7 +2337,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773862786554",
@@ -2449,7 +2474,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-18T19:40:37.657Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773780217150",
@@ -2647,7 +2673,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773780067288",
@@ -2809,7 +2836,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773779591911",
@@ -2909,7 +2937,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-17T20:33:56.468Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773779295611",
@@ -3013,7 +3042,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773779027026",
@@ -3053,7 +3083,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-17T20:24:04.679Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773778835578",
@@ -3105,7 +3136,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-17T20:20:49.238Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773778317940",
@@ -3159,7 +3191,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Gudrun Schmidt, Clemens Veeser, Archiv Gemeinde Wald"
+    "source": "Gudrun Schmidt, Clemens Veeser, Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773778043563",
@@ -3407,7 +3440,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773692474289",
@@ -3497,7 +3531,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Georg Blocherer, Archiv Gemeinde Wald, Pfarrchronik Wald"
+    "source": "Georg Blocherer, Archiv Gemeinde Wald, Pfarrchronik Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773604907260",
@@ -3539,7 +3574,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald von Franz-Sales Fröhlich"
+    "source": "Archiv Gemeinde Wald von Franz-Sales Fröhlich",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773602741074",
@@ -3653,7 +3689,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Fotos Georg Blocherer, Archiv Gemeinde Wald"
+    "source": "Fotos Georg Blocherer, Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773522608428",
@@ -3693,7 +3730,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-14T21:10:25.783Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773521051264",
@@ -3735,7 +3773,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Unbekannt"
+    "source": "Unbekannt",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773520196228",
@@ -3790,7 +3829,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-14T20:30:16.333Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773345924399",
@@ -3904,7 +3944,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773344143870",
@@ -3948,7 +3989,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Der Klosterneubau in Wald zu Anfang des 18. Jahrhunderts, Carl Baur"
+    "source": "Der Klosterneubau in Wald zu Anfang des 18. Jahrhunderts, Carl Baur",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773174523515",
@@ -3988,7 +4030,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-10T20:29:02.161Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773163864893",
@@ -4068,7 +4111,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773162567744",
@@ -4496,7 +4540,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773162092550",
@@ -4674,7 +4719,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773160927181",
@@ -4815,7 +4861,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773146549544",
@@ -4955,7 +5002,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773142218885",
@@ -4983,7 +5031,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-10T11:30:30.658Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773141917829",
@@ -5029,7 +5078,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Unbekannt"
+    "source": "Unbekannt",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773141599058",
@@ -5087,7 +5137,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Ortschronik Riedetsweiler"
+    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Ortschronik Riedetsweiler",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773141398447",
@@ -5132,7 +5183,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Archiv der Gemeinde Wald"
+    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Archiv der Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773141264662",
@@ -5212,7 +5264,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-10T11:14:46.464Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773141004117",
@@ -5256,7 +5309,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-03-10T11:10:19.160Z",
       "comments": []
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1773140735222",
@@ -5302,7 +5356,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "https://www.sueddeutscher-barock.ch/In-Bauherr/s-z/Wald_Thurn.html"
+    "source": "https://www.sueddeutscher-barock.ch/In-Bauherr/s-z/Wald_Thurn.html",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773140515594",
@@ -5347,7 +5402,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald "
+    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald ",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773140204219",
@@ -5392,7 +5448,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald; 800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald "
+    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald; 800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald ",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773139677077",
@@ -5437,7 +5494,8 @@
       "comments": []
     },
     "author": "Unbekannt",
-    "source": "https://www.heimschule-kloster-wald.de/de/kloster_wald/pdfs/2020-21/Todesanzeige-fuer-Sr.-Michaele.pdf?m=1610011163; Archiv der Gemeinde Wald "
+    "source": "https://www.heimschule-kloster-wald.de/de/kloster_wald/pdfs/2020-21/Todesanzeige-fuer-Sr.-Michaele.pdf?m=1610011163; Archiv der Gemeinde Wald ",
+    "showInTimeline": true
   },
   {
     "id": "doc-1773009563858",
@@ -5488,7 +5546,8 @@
       ]
     },
     "author": "Unbekannt",
-    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald    800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald    60 Jahre Heimschule Kloster - Wald Festschrift zum 60jährigen Bestehen der Heimschule Kloster Wald, 2006 Heimschule Kloster Wald"
+    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald    800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald    60 Jahre Heimschule Kloster - Wald Festschrift zum 60jährigen Bestehen der Heimschule Kloster Wald, 2006 Heimschule Kloster Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-1772540073667",
@@ -5538,7 +5597,8 @@
       ]
     },
     "author": "Unbekannt",
-    "source": "Unbekannt"
+    "source": "Unbekannt",
+    "showInTimeline": true
   },
   {
     "id": "doc-1772558738917",
@@ -7026,7 +7086,8 @@
           "comment": "Ja ist gut so. Ein bisschen zuviel Bilder im Dokument"
         }
       ]
-    }
+    },
+    "showInTimeline": true
   },
   {
     "id": "doc-1772554386220",
@@ -7066,7 +7127,8 @@
       ]
     },
     "author": "Matthias Lehmann",
-    "source": "Gemeinde Wald"
+    "source": "Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-001",
@@ -7111,7 +7173,8 @@
     "albumPhotoIds": [],
     "pdfs": [],
     "author": "Bischöfliche Kanzlei Augsburg",
-    "source": "Pfarrarchiv Wald"
+    "source": "Pfarrarchiv Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-005",
@@ -7161,7 +7224,8 @@
     ],
     "pdfs": [],
     "author": "Johann Hipp",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-002",
@@ -7211,7 +7275,8 @@
     ],
     "pdfs": [],
     "author": "Leo Endres",
-    "source": "Archiv Gemeinde Wald"
+    "source": "Archiv Gemeinde Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-003",
@@ -7270,7 +7335,8 @@
     "pdfs": [],
     "transcription": "",
     "author": "Architekt Müller",
-    "source": "Bauamt Wald"
+    "source": "Bauamt Wald",
+    "showInTimeline": true
   },
   {
     "id": "doc-004",
@@ -7302,7 +7368,8 @@
     "imageIds": [],
     "pdfIds": [],
     "albumPhotoIds": [],
-    "pdfs": []
+    "pdfs": [],
+    "showInTimeline": true
   },
   {
     "id": "doc-005-2",
@@ -7336,7 +7403,8 @@
     "imageIds": [],
     "pdfIds": [],
     "albumPhotoIds": [],
-    "pdfs": []
+    "pdfs": [],
+    "showInTimeline": true
   },
   {
     "id": "doc-006",
@@ -7386,6 +7454,7 @@
     ],
     "pdfs": [],
     "author": "Unbekannt",
-    "source": "Südkurier 03.08.1964 Archiv Gemeinde Wald"
+    "source": "Südkurier 03.08.1964 Archiv Gemeinde Wald",
+    "showInTimeline": true
   }
 ]

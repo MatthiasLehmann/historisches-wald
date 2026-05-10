@@ -15,6 +15,7 @@ const initialForm = {
   author: '',
   source: '',
   editor: '',
+  showInTimeline: true,
   coverPhotoId: '',
   albumPhotoIds: [],
   pdfIds: [],
@@ -74,8 +75,8 @@ const SubmitDocument = () => {
   }, [documents, documentSearchQuery]);
 
   const handleChange = (event) => {
-    const { name, value } = event.target;
-    setForm((prev) => ({ ...prev, [name]: value }));
+    const { checked, name, type, value } = event.target;
+    setForm((prev) => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
   };
 
   const handleAreaChange = (event) => {
@@ -151,6 +152,7 @@ const SubmitDocument = () => {
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
       editor: doc.metadata?.editor ?? '',
+      showInTimeline: doc.showInTimeline !== false,
       coverPhotoId: doc.coverPhotoId ?? '',
       albumPhotoIds: Array.isArray(doc.albumPhotoIds)
         ? doc.albumPhotoIds.filter((id) => String(id) !== String(doc.coverPhotoId || ''))
@@ -188,6 +190,7 @@ const SubmitDocument = () => {
         subcategories: selectedSubcategories,
         transcription: form.transcription,
         editor: form.editor,
+        showInTimeline: form.showInTimeline !== false,
         coverPhotoId: form.coverPhotoId || '',
         albumPhotoIds: Array.isArray(form.albumPhotoIds) ? form.albumPhotoIds : [],
         pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
@@ -764,6 +767,22 @@ const SubmitDocument = () => {
             />
           </label>
         </div>
+
+        <label className="flex items-start gap-3 rounded-sm border border-parchment-dark bg-parchment/20 p-4 text-sm text-ink/80">
+          <input
+            type="checkbox"
+            name="showInTimeline"
+            checked={form.showInTimeline !== false}
+            onChange={handleChange}
+            className="mt-1"
+          />
+          <span>
+            <span className="block font-semibold text-ink">In Zeitleiste anzeigen</span>
+            <span className="block text-ink/60">
+              Deaktivieren, wenn der Beitrag im Archiv sichtbar bleiben, aber nicht in der Zeitleiste erscheinen soll.
+            </span>
+          </span>
+        </label>
 
         <div className="flex items-center justify-between">
           {status && (
