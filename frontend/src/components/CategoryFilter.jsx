@@ -89,11 +89,11 @@ const CategoryFilter = ({ categories, selectedCategories, onToggleCategory }) =>
     );
 
     return (
-        <div className="space-y-4">
+        <div className="flex min-h-0 flex-1 flex-col gap-4">
             <button
                 type="button"
                 onClick={() => onToggleCategory('RESET')}
-                className={`w-full px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] rounded-sm border transition-all
+                className={`w-full shrink-0 px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] rounded-sm border transition-all
                     ${selectedCategories.length === 0
                         ? 'bg-ink text-parchment border-ink shadow'
                         : 'bg-parchment text-ink/70 border-parchment-dark hover:border-accent hover:text-accent'}`}
@@ -101,7 +101,7 @@ const CategoryFilter = ({ categories, selectedCategories, onToggleCategory }) =>
                 Alle Kategorien
             </button>
 
-            <div className="divide-y divide-parchment-dark/60 border border-parchment-dark/70 rounded-sm bg-white/70">
+            <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain divide-y divide-parchment-dark/60 border border-parchment-dark/70 rounded-sm bg-white/70">
                 {categories.map((category) => (
                     <div key={category.id} className="py-2">
                         <p className="text-xs uppercase tracking-[0.3em] text-ink/40 px-4">

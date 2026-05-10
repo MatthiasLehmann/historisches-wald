@@ -160,7 +160,7 @@ const Archive = () => {
 
             <div className="flex flex-col lg:flex-row gap-8">
                 <aside className="lg:w-1/3">
-                    <div className="bg-parchment-dark/30 border border-parchment-dark rounded-sm p-4 lg:sticky lg:top-28">
+                    <div className="bg-parchment-dark/30 border border-parchment-dark rounded-sm p-4 max-h-[75vh] lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] flex flex-col min-h-0">
                         <h2 className="text-sm font-semibold uppercase tracking-[0.3em] text-ink/50 mb-3">Kategorien</h2>
                         <CategoryFilter
                             categories={categoriesData}
