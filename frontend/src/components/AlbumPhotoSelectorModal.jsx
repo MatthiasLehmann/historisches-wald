@@ -1,7 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { fetchAlbumPhotos, fetchAlbums, fetchPhotos } from '../services/api.js';
 
-const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = [] }) => {
+const AlbumPhotoSelectorModal = ({
+  isOpen,
+  onClose,
+  onConfirm,
+  selectedPhotos = [],
+  selectionMode = 'multiple',
+  title = 'Album-Fotos auswählen',
+  eyebrow = 'Alben',
+  confirmLabel = 'Auswahl übernehmen',
+}) => {
   const [albums, setAlbums] = useState([]);
   const [selectedAlbumId, setSelectedAlbumId] = useState('');
   const [photos, setPhotos] = useState([]);
@@ -13,6 +22,7 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
   const [searchLoading, setSearchLoading] = useState(false);
   const [searchError, setSearchError] = useState('');
   const normalizedSearch = search.trim();
+  const isSingleSelection = selectionMode === 'single';
 
   useEffect(() => {
     if (!isOpen) {
@@ -70,6 +80,9 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
 
   const handleToggleSelection = (photo) => {
     setSelectionMap((prev) => {
+      if (isSingleSelection) {
+        return new Map([[String(photo.id), photo]]);
+      }
       const next = new Map(prev);
       const key = String(photo.id);
       if (next.has(key)) {
@@ -120,6 +133,11 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
   }, [isOpen, normalizedSearch]);
 
   const visiblePhotos = normalizedSearch ? searchResults : photos;
+  const selectionCountLabel = useMemo(() => (
+    isSingleSelection
+      ? (selectionMap.size > 0 ? '1 Foto ausgewählt' : 'Kein Foto ausgewählt')
+      : `${selectionMap.size} Foto(s) ausgewählt`
+  ), [isSingleSelection, selectionMap.size]);
 
   if (!isOpen) {
     return null;
@@ -130,8 +148,8 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
       <div className="bg-white rounded-md shadow-xl w-full max-w-5xl">
         <header className="flex items-center justify-between border-b border-parchment-dark px-6 py-4">
           <div>
-            <p className="text-xs uppercase tracking-[0.5em] text-ink/60">Alben</p>
-            <h2 className="text-2xl font-serif font-bold">Album-Fotos auswählen</h2>
+            <p className="text-xs uppercase tracking-[0.5em] text-ink/60">{eyebrow}</p>
+            <h2 className="text-2xl font-serif font-bold">{title}</h2>
           </div>
           <button type="button" onClick={onClose} className="text-sm text-ink/60 hover:text-ink">
             Schließen
@@ -174,7 +192,7 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
           )}
 
           <div className="text-sm text-ink/60 flex items-center justify-between">
-            <span>{selectionMap.size} Foto(s) ausgewählt</span>
+            <span>{selectionCountLabel}</span>
             {normalizedSearch ? (
               <span>Globale Treffer: {visiblePhotos.length}</span>
             ) : (
@@ -237,7 +255,7 @@ const AlbumPhotoSelectorModal = ({ isOpen, onClose, onConfirm, selectedPhotos = 
               onClick={handleConfirm}
               disabled={selectionMap.size === 0}
             >
-              Auswahl übernehmen
+              {confirmLabel}
             </button>
           </div>
         </div>

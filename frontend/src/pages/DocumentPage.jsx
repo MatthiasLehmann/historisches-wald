@@ -91,6 +91,8 @@ const DocumentPage = () => {
 
     const metadataSource = document.metadata?.source?.trim() || 'Unbekannt';
     const metadataYear = document.year || 'Ohne Jahr';
+    const coverImage = document.coverImage;
+    const coverSrc = typeof coverImage === 'string' ? coverImage : coverImage?.src || '';
     return (
         <article className="container mx-auto px-4 py-8">
             <button
@@ -102,7 +104,7 @@ const DocumentPage = () => {
             </button>
 
             <header className="mb-8 border-b border-parchment-dark pb-8">
-                <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-4">
+                <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mb-4">
                     <div>
                         <div className="flex flex-wrap gap-2 items-center mb-3">
                             <span className="inline-flex bg-accent/10 text-accent px-3 py-1 text-sm font-semibold rounded-full">
@@ -130,6 +132,22 @@ const DocumentPage = () => {
                         </p>
                     </div>
                 </div>
+                {coverSrc && (
+                    <figure className="mt-6 overflow-hidden rounded-sm border border-parchment-dark bg-white">
+                        <div className="aspect-[16/7] bg-parchment/40">
+                            <img
+                                src={coverSrc}
+                                alt={coverImage?.title || `${document.title} Beitragsbild`}
+                                className="w-full h-full object-cover sepia-[.1]"
+                            />
+                        </div>
+                        {coverImage?.title && (
+                            <figcaption className="border-t border-parchment-dark/60 bg-parchment/30 px-4 py-2 text-sm text-ink/70">
+                                {coverImage.title}
+                            </figcaption>
+                        )}
+                    </figure>
+                )}
             </header>
             <div className="space-y-10">
                 <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">

@@ -15,6 +15,7 @@ const initialForm = {
   author: '',
   source: '',
   condition: '',
+  coverPhotoId: '',
   albumPhotoIds: [],
   pdfIds: [],
 };
@@ -28,6 +29,8 @@ const SubmitDocument = () => {
   const [documents, setDocuments] = useState([]);
   const [documentSearchQuery, setDocumentSearchQuery] = useState('');
   const [editingId, setEditingId] = useState(null);
+  const [selectedCoverPhoto, setSelectedCoverPhoto] = useState(null);
+  const [isCoverPhotoSelectorOpen, setIsCoverPhotoSelectorOpen] = useState(false);
   const [selectedAlbumPhotos, setSelectedAlbumPhotos] = useState([]);
   const [isAlbumPhotoSelectorOpen, setIsAlbumPhotoSelectorOpen] = useState(false);
   const [selectedPdfs, setSelectedPdfs] = useState([]);
@@ -127,6 +130,7 @@ const SubmitDocument = () => {
     setSelectedArea('');
     setSelectedSubcategories([]);
     setEditingId(null);
+    setSelectedCoverPhoto(null);
     setSelectedAlbumPhotos([]);
     setSelectedPdfs([]);
   };
@@ -146,7 +150,10 @@ const SubmitDocument = () => {
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
       condition: doc.metadata?.condition ?? '',
-      albumPhotoIds: Array.isArray(doc.albumPhotoIds) ? doc.albumPhotoIds : [],
+      coverPhotoId: doc.coverPhotoId ?? '',
+      albumPhotoIds: Array.isArray(doc.albumPhotoIds)
+        ? doc.albumPhotoIds.filter((id) => String(id) !== String(doc.coverPhotoId || ''))
+        : [],
       pdfIds: Array.isArray(doc.pdfIds) ? doc.pdfIds : [],
     });
     setSelectedArea(doc.category ?? '');
@@ -157,8 +164,10 @@ const SubmitDocument = () => {
           ? [doc.subcategory]
           : [],
     );
+    const nextCoverPhotoId = doc.coverPhotoId ? String(doc.coverPhotoId) : '';
+    loadSelectedCoverPhoto(nextCoverPhotoId, doc.coverImage);
     const nextAlbumPhotoIds = Array.isArray(doc.albumPhotoIds) ? doc.albumPhotoIds : [];
-    loadSelectedAlbumPhotos(nextAlbumPhotoIds);
+    loadSelectedAlbumPhotos(nextAlbumPhotoIds, nextCoverPhotoId);
     const nextPdfIds = Array.isArray(doc.pdfIds) ? doc.pdfIds : [];
     loadSelectedPdfs(nextPdfIds);
     if (nextPdfIds.length > 0) {
@@ -177,6 +186,7 @@ const SubmitDocument = () => {
         category: selectedArea,
         subcategories: selectedSubcategories,
         transcription: form.transcription,
+        coverPhotoId: form.coverPhotoId || '',
         albumPhotoIds: Array.isArray(form.albumPhotoIds) ? form.albumPhotoIds : [],
         pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
       };
@@ -210,14 +220,48 @@ const SubmitDocument = () => {
     }
   };
 
-  const loadSelectedAlbumPhotos = async (photoIds) => {
+  const loadSelectedCoverPhoto = async (photoId, hydratedCover = null) => {
+    if (!photoId) {
+      setSelectedCoverPhoto(null);
+      return;
+    }
+    if (hydratedCover?.id && String(hydratedCover.id) === String(photoId)) {
+      setSelectedCoverPhoto({
+        id: hydratedCover.id,
+        name: hydratedCover.title,
+        preview: hydratedCover.src,
+        original: hydratedCover.src,
+        date_taken: hydratedCover.date || '',
+      });
+      return;
+    }
+    try {
+      const data = await fetchPhotos({ ids: [photoId] });
+      const photo = Array.isArray(data)
+        ? data.find((item) => String(item.id) === String(photoId))
+        : null;
+      setSelectedCoverPhoto(photo ?? null);
+    } catch (error) {
+      console.error('Beitragsbild konnte nicht geladen werden:', error);
+      setSelectedCoverPhoto(null);
+    }
+  };
+
+  const loadSelectedAlbumPhotos = async (photoIds, excludedPhotoId = '') => {
     if (!Array.isArray(photoIds) || photoIds.length === 0) {
       setSelectedAlbumPhotos([]);
       return;
     }
     try {
-      const data = await fetchPhotos({ ids: photoIds });
-      const ordered = photoIds
+      const galleryPhotoIds = excludedPhotoId
+        ? photoIds.filter((id) => String(id) !== String(excludedPhotoId))
+        : photoIds;
+      if (galleryPhotoIds.length === 0) {
+        setSelectedAlbumPhotos([]);
+        return;
+      }
+      const data = await fetchPhotos({ ids: galleryPhotoIds });
+      const ordered = galleryPhotoIds
         .map((id) => data.find((photo) => String(photo.id) === String(id)))
         .filter(Boolean);
       setSelectedAlbumPhotos(ordered);
@@ -227,16 +271,41 @@ const SubmitDocument = () => {
   };
 
   const handleAlbumPhotoSelectionSave = (photos) => {
-    const ids = photos.map((photo) => photo.id);
+    const coverPhotoId = form.coverPhotoId ? String(form.coverPhotoId) : '';
+    const galleryPhotos = coverPhotoId
+      ? photos.filter((photo) => String(photo.id) !== coverPhotoId)
+      : photos;
+    const ids = galleryPhotos.map((photo) => photo.id);
     setForm((prev) => ({ ...prev, albumPhotoIds: ids }));
-    setSelectedAlbumPhotos(photos);
+    setSelectedAlbumPhotos(galleryPhotos);
+  };
+
+  const handleCoverPhotoSelectionSave = (photos) => {
+    const photo = photos[0] ?? null;
+    const coverPhotoId = photo?.id ? String(photo.id) : '';
+    setSelectedCoverPhoto(photo);
+    setForm((prev) => ({
+      ...prev,
+      coverPhotoId,
+      albumPhotoIds: Array.isArray(prev.albumPhotoIds)
+        ? prev.albumPhotoIds.filter((photoId) => String(photoId) !== coverPhotoId)
+        : [],
+    }));
+    if (coverPhotoId) {
+      setSelectedAlbumPhotos((prev) => prev.filter((item) => String(item.id) !== coverPhotoId));
+    }
+  };
+
+  const removeCoverPhotoSelection = () => {
+    setSelectedCoverPhoto(null);
+    setForm((prev) => ({ ...prev, coverPhotoId: '' }));
   };
 
   const removeAlbumPhotoFromSelection = (id) => {
-    setSelectedAlbumPhotos((prev) => prev.filter((photo) => photo.id !== id));
+    setSelectedAlbumPhotos((prev) => prev.filter((photo) => String(photo.id) !== String(id)));
     setForm((prev) => ({
       ...prev,
-      albumPhotoIds: prev.albumPhotoIds.filter((photoId) => photoId !== id),
+      albumPhotoIds: prev.albumPhotoIds.filter((photoId) => String(photoId) !== String(id)),
     }));
   };
 
@@ -509,6 +578,52 @@ const SubmitDocument = () => {
         />
 
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
+          <div className="flex items-center justify-between gap-4">
+            <div>
+              <h2 className="text-lg font-serif font-bold text-ink">Beitragsbild</h2>
+              <p className="text-sm text-ink/70">Wählen Sie ein Album-Foto als Titelbild des Dokuments.</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsCoverPhotoSelectorOpen(true)}
+              className="px-4 py-2 bg-ink text-white text-sm font-semibold rounded-sm"
+            >
+              Beitragsbild auswählen
+            </button>
+          </div>
+          {!selectedCoverPhoto ? (
+            <p className="text-sm text-ink/60">Noch kein Beitragsbild ausgewählt.</p>
+          ) : (
+            <div className="border border-parchment-dark rounded-sm overflow-hidden bg-white max-w-md">
+              <div className="aspect-video bg-parchment-dark">
+                {selectedCoverPhoto.preview || selectedCoverPhoto.original ? (
+                  <img
+                    src={selectedCoverPhoto.preview || selectedCoverPhoto.original}
+                    alt={selectedCoverPhoto.name || `Foto ${selectedCoverPhoto.id}`}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="flex items-center justify-center h-full text-xs text-ink/50">Keine Vorschau</div>
+                )}
+              </div>
+              <div className="p-3 text-sm space-y-1">
+                <p className="font-semibold text-ink">{selectedCoverPhoto.name || `Foto ${selectedCoverPhoto.id}`}</p>
+                <p className="text-ink/60">{selectedCoverPhoto.date_taken || 'Aufnahmedatum unbekannt'}</p>
+                <p className="text-ink/60 text-xs">ID: {selectedCoverPhoto.id}</p>
+                <button
+                  type="button"
+                  onClick={removeCoverPhotoSelection}
+                  className="text-xs text-red-600 hover:underline"
+                >
+                  Beitragsbild entfernen
+                </button>
+              </div>
+            </div>
+          )}
+        </section>
+
+        <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Fotos aus Alben</h2>
@@ -670,6 +785,16 @@ const SubmitDocument = () => {
         </form>
       </div>
 
+      <AlbumPhotoSelectorModal
+        isOpen={isCoverPhotoSelectorOpen}
+        onClose={() => setIsCoverPhotoSelectorOpen(false)}
+        onConfirm={handleCoverPhotoSelectionSave}
+        selectedPhotos={selectedCoverPhoto ? [selectedCoverPhoto] : []}
+        selectionMode="single"
+        title="Beitragsbild auswählen"
+        eyebrow="Titelbild"
+        confirmLabel="Beitragsbild übernehmen"
+      />
       <AlbumPhotoSelectorModal
         isOpen={isAlbumPhotoSelectorOpen}
         onClose={() => setIsAlbumPhotoSelectorOpen(false)}

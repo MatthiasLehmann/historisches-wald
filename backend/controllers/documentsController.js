@@ -43,11 +43,14 @@ const normalizeDocument = (doc) => {
   const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
   const pdfIds = Array.isArray(normalized.pdfIds) ? normalized.pdfIds : [];
   const albumPhotoIds = Array.isArray(normalized.albumPhotoIds) ? normalized.albumPhotoIds : [];
+  const coverPhotoId = normalized.coverPhotoId ? String(normalized.coverPhotoId) : '';
   return {
     ...normalized,
     imageIds,
     pdfIds,
     albumPhotoIds,
+    coverPhotoId,
+    coverImage: null,
     images: Array.isArray(normalized.images) ? normalized.images : [],
     pdfs: []
   };
@@ -93,6 +96,9 @@ const buildAlbumPhotoLookup = async (documents) => {
         ids.add(String(id));
       }
     });
+    if (doc.coverPhotoId) {
+      ids.add(String(doc.coverPhotoId));
+    }
   });
   if (ids.size === 0) {
     return new Map();
@@ -148,23 +154,33 @@ const applyImagePreviews = (document, lookup, albumPhotoLookup = new Map()) => {
   const imageIds = Array.isArray(document.imageIds) ? document.imageIds : [];
   const existingImages = Array.isArray(document.images) ? document.images : [];
   const albumPhotoIds = Array.isArray(document.albumPhotoIds) ? document.albumPhotoIds : [];
+  const coverPhotoId = document.coverPhotoId ? String(document.coverPhotoId) : '';
+  const coverImage = coverPhotoId
+    ? mapAlbumPhotoToReference(albumPhotoLookup.get(coverPhotoId))
+    : null;
   const libraryRefs = imageIds
     .map((imageId) => lookup.get(imageId))
     .map((image) => mapImageRecordToReference(image))
     .filter((ref) => Boolean(ref?.src));
   const albumRefs = albumPhotoIds
-    .map((photoId) => albumPhotoLookup.get(photoId))
+    .filter((photoId) => String(photoId) !== coverPhotoId)
+    .map((photoId) => albumPhotoLookup.get(String(photoId)))
     .map((photo) => mapAlbumPhotoToReference(photo))
     .filter((ref) => Boolean(ref?.src));
+  const filteredExistingImages = coverPhotoId
+    ? existingImages.filter((image) => String(image?.id ?? '') !== coverPhotoId)
+    : existingImages;
   const combined =
     libraryRefs.length > 0 || albumRefs.length > 0
       ? [...libraryRefs, ...albumRefs]
-      : existingImages;
+      : filteredExistingImages;
 
   return {
     ...document,
     imageIds,
     albumPhotoIds,
+    coverPhotoId,
+    coverImage,
     images: combined
   };
 };
@@ -236,7 +252,10 @@ export const readDocuments = async () => {
 };
 
 const writeDocuments = async (documents) => {
-  const normalized = documents.map((doc) => normalizeDocument(doc));
+  const normalized = documents.map((doc) => {
+    const { coverImage, pdfs, ...stored } = normalizeDocument(doc);
+    return stored;
+  });
   await fs.writeFile(DATA_FILE, JSON.stringify(normalized, null, 2), 'utf8');
   return normalized;
 };
@@ -331,7 +350,10 @@ export const createDocument = async (req, res) => {
     const documents = await readDocuments();
     const imageIds = Array.isArray(req.body.imageIds) ? req.body.imageIds : [];
     const pdfIds = Array.isArray(req.body.pdfIds) ? req.body.pdfIds : [];
-    const albumPhotoIds = Array.isArray(req.body.albumPhotoIds) ? req.body.albumPhotoIds : [];
+    const coverPhotoId = req.body.coverPhotoId ? String(req.body.coverPhotoId) : '';
+    const albumPhotoIds = Array.isArray(req.body.albumPhotoIds)
+      ? req.body.albumPhotoIds.filter((photoId) => String(photoId) !== coverPhotoId)
+      : [];
     const lookups = await ensureMediaLookups();
     const newDocument = normalizeDocument({
       id: `doc-${Date.now()}`,
@@ -344,6 +366,7 @@ export const createDocument = async (req, res) => {
       transcription: req.body.transcription || '',
       images: [],
       pdfs: [],
+      coverPhotoId,
       metadata: {
         author: req.body.author || 'Unbekannt',
         source: req.body.source || 'Unbekannt',
@@ -396,7 +419,9 @@ export const updateDocument = async (req, res) => {
       images: Array.isArray(req.body.images) ? req.body.images : existing.images,
       imageIds: Array.isArray(req.body.imageIds) ? req.body.imageIds : existing.imageIds || [],
       pdfIds: Array.isArray(req.body.pdfIds) ? req.body.pdfIds : existing.pdfIds || [],
-      albumPhotoIds: Array.isArray(req.body.albumPhotoIds) ? req.body.albumPhotoIds : existing.albumPhotoIds || [],
+      coverPhotoId: req.body.coverPhotoId !== undefined
+        ? (req.body.coverPhotoId ? String(req.body.coverPhotoId) : '')
+        : existing.coverPhotoId || '',
       metadata: {
         ...existing.metadata,
         author: req.body.author ?? existing.metadata?.author ?? 'Unbekannt',
@@ -405,6 +430,9 @@ export const updateDocument = async (req, res) => {
       },
       review: existingReview
     };
+    updated.albumPhotoIds = Array.isArray(req.body.albumPhotoIds)
+      ? req.body.albumPhotoIds.filter((photoId) => String(photoId) !== updated.coverPhotoId)
+      : (existing.albumPhotoIds || []).filter((photoId) => String(photoId) !== updated.coverPhotoId);
 
     const normalized = normalizeDocument(updated);
     const albumPhotoLookup = await buildAlbumPhotoLookup([normalized]);

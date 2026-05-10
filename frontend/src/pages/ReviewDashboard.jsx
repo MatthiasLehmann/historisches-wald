@@ -115,6 +115,23 @@ const ReviewDashboard = () => {
       .filter((image) => Boolean(image?.src));
   }, [selectedDocument]);
 
+  const coverImage = useMemo(() => {
+    if (!selectedDocument?.coverImage) {
+      return null;
+    }
+    const image = selectedDocument.coverImage;
+    const src = typeof image === 'string' ? image : image.src || image.previewUrl || image.url || '';
+    if (!src) {
+      return null;
+    }
+    return {
+      id: image.id || `${selectedDocument.id}-cover`,
+      src,
+      title: image.title || image.name || `${selectedDocument.title} – Beitragsbild`,
+      description: image.description || image.caption || ''
+    };
+  }, [selectedDocument]);
+
   const documentPdfs = useMemo(() => {
     if (!selectedDocument || !Array.isArray(selectedDocument.pdfs)) {
       return [];
@@ -217,6 +234,27 @@ const ReviewDashboard = () => {
                   className="text-sm text-ink/80"
                   emptyFallback="Keine Beschreibung vorhanden."
                 />
+
+                {coverImage && (
+                  <section className="space-y-3">
+                    <h3 className="text-sm font-semibold text-ink">Beitragsbild</h3>
+                    <article className="border border-parchment-dark rounded-sm overflow-hidden bg-white max-w-md">
+                      <a href={coverImage.src} target="_blank" rel="noreferrer" className="block bg-parchment">
+                        <img
+                          src={coverImage.src}
+                          alt={coverImage.title}
+                          className="w-full h-48 object-cover"
+                        />
+                      </a>
+                      <div className="px-3 py-2 border-t border-parchment-dark/60 space-y-1">
+                        <p className="text-sm font-semibold text-ink">{coverImage.title}</p>
+                        {coverImage.description && (
+                          <p className="text-xs text-ink/60 leading-snug">{coverImage.description}</p>
+                        )}
+                      </div>
+                    </article>
+                  </section>
+                )}
 
                 {documentImages.length > 0 && (
                   <section className="space-y-3">

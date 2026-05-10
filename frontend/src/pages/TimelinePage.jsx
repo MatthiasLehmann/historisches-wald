@@ -436,7 +436,7 @@ const TimelinePage = () => {
                 ) : (
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                         {paginatedDocs.map((doc) => {
-                            const preview = doc.images?.[0];
+                            const preview = doc.coverImage || doc.images?.[0];
                             const previewSrc = typeof preview === 'string' ? preview : preview?.src || '';
                             const isSelected = doc.id === selectedDocumentId;
                             return (
@@ -556,7 +556,7 @@ const TimelinePage = () => {
                                 : 'Zusätzliche Materialien folgen.'}
                         </p>
                         {(() => {
-                            const preview = selectedDocument.images?.[0];
+                            const preview = selectedDocument.coverImage || selectedDocument.images?.[0];
                             const previewSrc = typeof preview === 'string' ? preview : preview?.src || '';
                             if (!previewSrc) {
                                 return null;

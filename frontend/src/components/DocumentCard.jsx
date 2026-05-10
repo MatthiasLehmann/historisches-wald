@@ -25,7 +25,7 @@ const DocumentCard = ({ document }) => {
         document.subcategory ? [document.subcategory] : []
     );
 
-    const coverImage = document.images?.[0];
+    const coverImage = document.coverImage || document.images?.[0];
     const coverSrc = typeof coverImage === 'string' ? coverImage : coverImage?.src || '';
 
     const previewText = React.useMemo(() => {
