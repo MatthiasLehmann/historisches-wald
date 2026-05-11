@@ -1,6 +1,21 @@
 {
   "albums": [
     {
+      "id": "local_momq25zpq6oxcq",
+      "title": "206_Ehrenbürger",
+      "description": "Ehrenbürger der Gemeinde Wald",
+      "url": "",
+      "cover_photo": "/files/images/thumbnails/album-1777628568967-439746249-thumb.jpg",
+      "photo_count": 2,
+      "created": 1777628413,
+      "last_updated": 1777628643,
+      "parent_id": "",
+      "photos": [
+        "local_momq73ledvfz08",
+        "local_momq5jcoq5ch39"
+      ]
+    },
+    {
       "id": "local_mmv2t29zpgiaml",
       "title": "180_Reischach",
       "description": "",
@@ -866,16 +881,30 @@
       "parent_id": "72177720329671887"
     },
     {
-      "photo_count": 20,
+      "photo_count": 34,
       "id": "72177720323502293",
       "url": "https://www.flickr.com/photos//albums/72177720323502293",
       "title": "04_Gebäude in Wald",
       "description": "",
       "view_count": "0",
       "created": "1738176036",
-      "last_updated": 1773604753,
-      "cover_photo": "/files/images/thumbnails/album-1773604752753-733514080-thumb.jpg",
+      "last_updated": 1777382114,
+      "cover_photo": "/files/images/thumbnails/album-1777381664238-483864525-thumb.jpg",
       "photos": [
+        "local_moinf4i6b8pihm",
+        "local_moine54p5bybu0",
+        "local_moind75tt3nafp",
+        "local_moincf38gd8oft",
+        "local_moinbiyncwkhut",
+        "local_moin9oue8n55ng",
+        "local_moin90nzqnn1tr",
+        "local_moin812f93zoye",
+        "local_moin6yrpxn84fi",
+        "local_moin6aoftlmqv2",
+        "local_moin5i4rzxz18n",
+        "local_moin4pg9dvwaj7",
+        "local_moin2r19f9pr75",
+        "local_moin19f417uku2",
         "local_mms6h683dfgqtl",
         "local_mmqsgyenfh59cp",
         "53509214940",

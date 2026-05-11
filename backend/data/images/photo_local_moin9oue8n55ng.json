@@ -1,0 +1,25 @@
+{
+  "id": "local_moin9oue8n55ng",
+  "name": "Die alte Apotheke",
+  "description": "Ein bedeutender Apotheker:\nHeinrich Sautermeister",
+  "date_taken": "2026-04-28",
+  "photopage": "",
+  "original": "/files/images/album-1777381859931-958843339.jpg",
+  "preview": "/files/images/thumbnails/album-1777381859931-958843339-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "72177720323502293"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-04-28T13:11:00.614Z",
+  "updatedAt": "2026-04-28T13:11:00.614Z"
+}
