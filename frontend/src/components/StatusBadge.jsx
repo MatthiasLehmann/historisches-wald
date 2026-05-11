@@ -11,12 +11,15 @@ const formatStatusLabel = (status) => {
   if (!status) {
     return 'unbekannt';
   }
-  return status
-    .replace(/[_-]+/g, ' ')
-    .split(' ')
-    .filter(Boolean)
-    .map((segment) => segment.charAt(0).toUpperCase() + segment.slice(1))
-    .join(' ');
+  const labels = {
+    pending: 'Ausstehend',
+    'in-progress': 'In Bearbeitung',
+    in_review: 'In Prüfung',
+    approved: 'Freigegeben',
+    'needs-info': 'Rückfrage',
+    rejected: 'Abgelehnt'
+  };
+  return labels[status] ?? status;
 };
 
 const StatusBadge = ({ status, className = '' }) => {

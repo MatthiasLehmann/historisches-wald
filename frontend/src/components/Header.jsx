@@ -25,16 +25,16 @@ const Header = () => {
     ];
 
     const internalNavItems = [
-        { name: 'Dashboard', path: '/internal/dashboard' },
+        { name: 'Übersicht', path: '/internal/dashboard' },
         { name: 'Dokumente', path: '/submit' },
-        { name: 'Review Center', path: '/review' },
-        { name: 'Mediathek PDFs', path: '/media/pdfs' },
+        { name: 'Prüfbereich', path: '/review' },
+        { name: 'PDF-Mediathek', path: '/media/pdfs' },
         { name: 'Alben', path: '/albums' },
         { name: 'Hilfe', path: '/help' }
     ];
 
     const loginNavItem = isAuthenticated
-        ? { name: 'Logout', path: '/logout' }
+        ? { name: 'Abmelden', path: '/logout' }
         : { name: 'Einloggen', path: '/login' };
 
     const isActive = (path) => {

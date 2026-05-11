@@ -172,7 +172,7 @@ const ImageGallery = ({ images, title }) => {
                                             disabled={zoom === 1}
                                         >
                                             <RotateCcw size={14} />
-                                            Reset
+                                            Zurücksetzen
                                         </button>
                                     </div>
                                 </div>

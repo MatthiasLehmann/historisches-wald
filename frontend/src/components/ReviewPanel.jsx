@@ -1,10 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
 const STATUS_LABELS = {
-  pending: 'Pending',
-  in_review: 'In Review',
-  approved: 'Approved',
-  rejected: 'Rejected'
+  pending: 'Ausstehend',
+  in_review: 'In Prüfung',
+  approved: 'Freigegeben',
+  rejected: 'Abgelehnt'
 };
 
 const STATUS_STYLES = {
@@ -47,7 +47,7 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
       try {
         const response = await fetch(`/api/documents/${documentId}/review`);
         if (!response.ok) {
-          throw new Error('Review data could not be loaded.');
+          throw new Error('Prüfdaten konnten nicht geladen werden.');
         }
         const data = await response.json();
         if (!cancelled) {
@@ -79,7 +79,7 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
   const requireReviewer = () => {
     const trimmed = reviewerName.trim();
     if (!trimmed) {
-      setMessage({ type: 'error', text: 'Reviewer name is required.' });
+      setMessage({ type: 'error', text: 'Name des Prüfers ist erforderlich.' });
       return null;
     }
     return trimmed;
@@ -90,7 +90,7 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
     const reviewer = requireReviewer();
     if (!reviewer) return;
     if (!commentText.trim()) {
-      setMessage({ type: 'error', text: 'Comment text is required.' });
+      setMessage({ type: 'error', text: 'Bitte geben Sie einen Kommentar ein.' });
       return;
     }
 
@@ -104,13 +104,13 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
       });
       if (!response.ok) {
         const error = await response.json();
-        throw new Error(error.message || 'Failed to add comment.');
+        throw new Error(error.message || 'Kommentar konnte nicht gespeichert werden.');
       }
       const data = await response.json();
       setReview(data);
       setStatusSelection(data.status);
       setCommentText('');
-      setMessage({ type: 'success', text: 'Comment added.' });
+      setMessage({ type: 'success', text: 'Kommentar gespeichert.' });
       onReviewChange?.(documentId, data);
     } catch (error) {
       setMessage({ type: 'error', text: error.message });
@@ -134,11 +134,11 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
       });
       if (!response.ok) {
         const error = await response.json();
-        throw new Error(error.message || 'Failed to update status.');
+        throw new Error(error.message || 'Status konnte nicht aktualisiert werden.');
       }
       const data = await response.json();
       setReview(data);
-      setMessage({ type: 'success', text: 'Status updated.' });
+      setMessage({ type: 'success', text: 'Status aktualisiert.' });
       onReviewChange?.(documentId, data);
     } catch (error) {
       setMessage({ type: 'error', text: error.message });
@@ -161,12 +161,12 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
       });
       if (!response.ok) {
         const error = await response.json();
-        throw new Error(error.message || 'Failed to complete review.');
+        throw new Error(error.message || 'Prüfung konnte nicht abgeschlossen werden.');
       }
       const data = await response.json();
       setReview(data);
       setStatusSelection('approved');
-      setMessage({ type: 'success', text: 'Review completed and committed.' });
+      setMessage({ type: 'success', text: 'Prüfung abgeschlossen und committet.' });
       onReviewChange?.(documentId, data);
     } catch (error) {
       setMessage({ type: 'error', text: error.message });
@@ -179,7 +179,7 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
     <section className="space-y-4 border border-parchment-dark rounded-sm bg-parchment/40 p-4">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-lg font-serif font-bold text-ink">Review</h2>
+          <h2 className="text-lg font-serif font-bold text-ink">Prüfung</h2>
           <p className="text-xs text-ink/60">Verlauf und Freigabe</p>
         </div>
         <span className={`inline-flex items-center px-3 py-1 text-xs font-semibold rounded-full ${statusBadgeClass}`}>
@@ -195,11 +195,11 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
 
       <dl className="grid grid-cols-2 gap-4 text-sm">
         <div>
-          <dt className="text-ink/60">Reviewer</dt>
+          <dt className="text-ink/60">Prüfer</dt>
           <dd className="font-medium text-ink">{review.reviewer || '—'}</dd>
         </div>
         <div>
-          <dt className="text-ink/60">Review-Date</dt>
+          <dt className="text-ink/60">Prüfdatum</dt>
           <dd className="font-medium text-ink">
             {review.reviewedAt ? new Date(review.reviewedAt).toLocaleString() : '—'}
           </dd>
@@ -207,7 +207,7 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
       </dl>
 
       <label className="block text-sm font-medium text-ink/80">
-        Reviewer Name*
+        Prüfername*
         <input
           value={reviewerName}
           onChange={(event) => setReviewerName(event.target.value)}
@@ -240,7 +240,7 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
 
       <form onSubmit={handleStatusSubmit} className="space-y-2">
         <label className="block text-sm font-medium text-ink/80">
-          Review-Status
+          Prüfstatus
           <select
             value={statusSelection}
             onChange={(event) => setStatusSelection(event.target.value)}
@@ -264,14 +264,14 @@ const ReviewPanel = ({ documentId, document, onReviewChange }) => {
       </form>
 
       <div className="flex items-center justify-between">
-        <p className="text-xs text-ink/60">Review abschließen, Status wird auf Approved gesetzt.</p>
+        <p className="text-xs text-ink/60">Prüfung abschließen, Status wird auf Freigegeben gesetzt.</p>
         <button
           type="button"
           onClick={handleCompleteReview}
           disabled={isLoading || isSubmitting}
           className="px-4 py-2 bg-green-600 text-white rounded-sm text-sm font-semibold disabled:opacity-50"
         >
-          Review abschließen (Git Commit)
+          Prüfung abschließen (Git-Commit)
         </button>
       </div>
 

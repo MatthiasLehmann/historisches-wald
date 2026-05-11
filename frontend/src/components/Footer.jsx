@@ -41,7 +41,7 @@ const Footer = () => {
                 <div className="border-t border-parchment/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-parchment/40">
                     <p>&copy; {new Date().getFullYear()} Historisches Wald. Alle Rechte vorbehalten.</p>
                     <div className="flex gap-4 mt-4 md:mt-0">
-                        <span>Built with React & Tailwind</span>
+                        <span>Erstellt mit React & Tailwind</span>
                     </div>
                 </div>
             </div>

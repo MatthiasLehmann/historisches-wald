@@ -294,7 +294,7 @@ const AlbumsPage = () => {
             />
           </label>
           <label className="text-sm text-ink/80 space-y-1">
-            Cover Foto URL
+            Titelbild-URL
             <input
               name="cover_photo"
               type="url"

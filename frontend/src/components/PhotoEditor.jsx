@@ -22,11 +22,16 @@ const toInputDateValue = (value) => {
 
 const buildReviewState = (source) => ({ ...DEFAULT_REVIEW, ...(source ?? {}) });
 
-const formatStatusLabel = (status) =>
-  status
-    .split('-')
-    .map((segment) => segment.charAt(0).toUpperCase() + segment.slice(1))
-    .join(' ');
+const PHOTO_STATUS_LABELS = {
+  pending: 'Ausstehend',
+  'in-progress': 'In Bearbeitung',
+  in_review: 'In Prüfung',
+  approved: 'Freigegeben',
+  'needs-info': 'Rückfrage',
+  rejected: 'Abgelehnt'
+};
+
+const formatStatusLabel = (status) => PHOTO_STATUS_LABELS[status] ?? status;
 
 const PhotoEditor = ({ value, onChange, statusOptions = [], disabled = false }) => {
   const review = useMemo(() => buildReviewState(value?.review), [value?.review]);
@@ -103,7 +108,7 @@ const PhotoEditor = ({ value, onChange, statusOptions = [], disabled = false }) 
     <div className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-6">
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-xs uppercase text-ink/60 tracking-wider">Review Status</p>
+          <p className="text-xs uppercase text-ink/60 tracking-wider">Prüfstatus</p>
           <StatusBadge status={review.status} />
         </div>
         <select
@@ -198,7 +203,7 @@ const PhotoEditor = ({ value, onChange, statusOptions = [], disabled = false }) 
       <div className="grid md:grid-cols-3 gap-6">
         <div>
           <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="reviewer">
-            Reviewer
+            Prüfer
           </label>
           <input
             id="reviewer"
@@ -211,7 +216,7 @@ const PhotoEditor = ({ value, onChange, statusOptions = [], disabled = false }) 
         </div>
         <div>
           <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="reviewedAt">
-            Reviewed At
+            Geprüft am
           </label>
           <input
             id="reviewedAt"
@@ -224,7 +229,7 @@ const PhotoEditor = ({ value, onChange, statusOptions = [], disabled = false }) 
         </div>
         <div>
           <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="review-comments">
-            Review-Kommentare
+            Prüfkommentare
           </label>
           <textarea
             id="review-comments"

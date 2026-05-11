@@ -67,7 +67,7 @@ const AlbumEditor = ({ album, onSubmit, saving, allAlbums = [] }) => {
         </div>
         <div className="flex-1 min-w-[260px]">
           <label className="block text-xs uppercase tracking-wide text-ink/60 mb-2" htmlFor="cover_photo">
-            Cover Foto URL
+            Titelbild-URL
           </label>
           <input
             id="cover_photo"

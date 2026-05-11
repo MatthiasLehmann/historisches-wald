@@ -6,10 +6,10 @@ import { fetchDashboardSummary } from '../services/api.js';
 const STATUS_ORDER = ['pending', 'in_review', 'approved', 'rejected'];
 
 const STATUS_META = {
-  pending: { label: 'Pending', accent: 'text-amber-900', pill: 'bg-amber-100 text-amber-900' },
-  in_review: { label: 'In Review', accent: 'text-sky-900', pill: 'bg-sky-100 text-sky-900' },
-  approved: { label: 'Approved', accent: 'text-emerald-900', pill: 'bg-emerald-100 text-emerald-900' },
-  rejected: { label: 'Rejected', accent: 'text-rose-900', pill: 'bg-rose-100 text-rose-900' }
+  pending: { label: 'Ausstehend', accent: 'text-amber-900', pill: 'bg-amber-100 text-amber-900' },
+  in_review: { label: 'In Prüfung', accent: 'text-sky-900', pill: 'bg-sky-100 text-sky-900' },
+  approved: { label: 'Freigegeben', accent: 'text-emerald-900', pill: 'bg-emerald-100 text-emerald-900' },
+  rejected: { label: 'Abgelehnt', accent: 'text-rose-900', pill: 'bg-rose-100 text-rose-900' }
 };
 
 const formatDateTime = (iso) => {
@@ -230,9 +230,9 @@ const InternalDashboard = () => {
       <header className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between mb-10">
         <div>
           <p className="text-xs uppercase tracking-[0.5em] text-accent">Intern</p>
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink">Operations Dashboard</h1>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink">Interne Übersicht</h1>
           <p className="text-sm text-ink/70 mt-2">
-            Überblick über Dokumente, Bilder, PDFs und Alben inklusive Review-Status und Engpässen.
+            Überblick über Dokumente, Bilder, PDFs und Alben inklusive Prüfstatus und Engpässen.
           </p>
           {summary?.lastUpdated && (
             <p className="text-xs text-ink/50 mt-1">Aktualisiert: {formatDateTime(summary.lastUpdated)}</p>
@@ -258,7 +258,7 @@ const InternalDashboard = () => {
       )}
 
       {loading && !summary ? (
-        <p className="text-sm text-ink/60">Dashboard wird geladen…</p>
+        <p className="text-sm text-ink/60">Übersicht wird geladen…</p>
       ) : null}
 
       {summary && (
@@ -321,7 +321,7 @@ const InternalDashboard = () => {
             <div className="flex items-center justify-between mb-6">
               <div>
                 <p className="text-xs uppercase tracking-[0.4em] text-accent">Pipeline</p>
-                <h2 className="text-2xl font-serif font-semibold text-ink">Review-Status gesamt</h2>
+                <h2 className="text-2xl font-serif font-semibold text-ink">Prüfstatus gesamt</h2>
               </div>
             </div>
             <div className="space-y-4">
@@ -361,11 +361,11 @@ const InternalDashboard = () => {
               emptyLabel="Alle Dokumente verfügen über mindestens ein Medium."
             />
             <FocusCard
-              title="Review-Zuweisung"
+              title="Prüfzuweisung"
               description="Offene Fälle ohne Prüfer"
               count={summary.documents.unassignedReviews.count}
               items={summary.documents.unassignedReviews.samples}
-              emptyLabel="Alle Reviews sind zugewiesen."
+              emptyLabel="Alle Prüfungen sind zugewiesen."
             />
           </section>
 
@@ -374,7 +374,7 @@ const InternalDashboard = () => {
           {summary.suggestions?.length > 0 && (
             <section className="border border-parchment-dark rounded-sm bg-white shadow-sm p-6 space-y-4">
               <div>
-                <p className="text-xs uppercase tracking-[0.4em] text-accent">Insights</p>
+                <p className="text-xs uppercase tracking-[0.4em] text-accent">Hinweise</p>
                 <h2 className="text-2xl font-serif font-semibold text-ink">Empfohlene Aktionen</h2>
               </div>
               <div className="space-y-3">

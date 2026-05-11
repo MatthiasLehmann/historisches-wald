@@ -40,6 +40,7 @@ const MediaPDFs = () => {
       return pdf.file?.path || pdf.file?.originalUrl || '';
     };
   }, []);
+  const formatLicenseLabel = (license) => (!license || license === 'rights-reserved' ? 'Rechte vorbehalten' : license);
 
   const loadPdfs = useCallback(async () => {
     setLoading(true);
@@ -137,7 +138,7 @@ const MediaPDFs = () => {
           <FileText className="text-accent" />
           <h1 className="text-4xl font-serif font-bold">PDF-Bibliothek</h1>
         </div>
-        <p className="text-ink/70 text-sm">Verwalten Sie zentrale PDF-Dateien, Review-Status und Verknüpfungen zu Dokumenten.</p>
+        <p className="text-ink/70 text-sm">Verwalten Sie zentrale PDF-Dateien, Prüfstatus und Verknüpfungen zu Dokumenten.</p>
       </header>
 
       {error && <div className="bg-red-50 text-red-700 px-4 py-2 mb-4 text-sm">{error}</div>}
@@ -161,7 +162,7 @@ const MediaPDFs = () => {
             onChange={(event) => setFilters((prev) => ({ ...prev, status: event.target.value }))}
             className="border border-parchment-dark rounded-sm px-3 py-2 bg-white"
           >
-            <option value="">Alle Stati</option>
+            <option value="">Alle Status</option>
             <option value="pending">Ausstehend</option>
             <option value="in_review">In Prüfung</option>
             <option value="approved">Freigegeben</option>
@@ -314,7 +315,7 @@ const MediaPDFs = () => {
                     <p className="text-sm text-ink/80">{pdf.description || 'Keine Beschreibung hinterlegt.'}</p>
                     <div className="text-xs text-ink/60 space-y-1">
                       <p>ID: {pdf.id}</p>
-                      <p>Lizenz: {pdf.license || 'rights-reserved'}</p>
+                      <p>Lizenz: {formatLicenseLabel(pdf.license || 'rights-reserved')}</p>
                       {pdf.linkedDocuments?.length > 0 && (
                         <p>Verknüpfte Dokumente: {pdf.linkedDocuments.join(', ')}</p>
                       )}
@@ -326,7 +327,7 @@ const MediaPDFs = () => {
                           Im neuen Tab öffnen
                         </a>
                         <a href={url} download className="text-ink hover:underline">
-                          Download
+                          Herunterladen
                         </a>
                       </div>
                     )}

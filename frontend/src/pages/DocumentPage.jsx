@@ -5,6 +5,8 @@ import ImageGallery from '../components/ImageGallery';
 import RichTextContent from '../components/RichTextContent';
 import { fetchDocuments } from '../services/api';
 
+const formatLicenseLabel = (license) => (!license || license === 'rights-reserved' ? 'Rechte vorbehalten' : license);
+
 const DocumentPage = () => {
     const { id } = useParams();
     const navigate = useNavigate();
@@ -202,7 +204,7 @@ const DocumentPage = () => {
                                                 {pdf.year || 'Ohne Jahr'} · {pdf.location || 'Ohne Ort'}
                                             </p>
                                             <p className="text-xs text-ink/60 mt-1">
-                                                Quelle: {pdf.source || 'Unbekannt'} · Lizenz: {pdf.license || 'rights-reserved'}
+                                                Quelle: {pdf.source || 'Unbekannt'} · Lizenz: {formatLicenseLabel(pdf.license)}
                                             </p>
                                         </div>
                                         <button

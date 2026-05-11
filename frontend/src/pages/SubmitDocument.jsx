@@ -6,6 +6,8 @@ import { fetchPdfs, fetchPhotos } from '../services/api.js';
 import MarkdownEditor from '../components/MarkdownEditor.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
 
+const formatLicenseLabel = (license) => (!license || license === 'rights-reserved' ? 'Rechte vorbehalten' : license);
+
 const initialForm = {
   title: '',
   year: '',
@@ -717,7 +719,7 @@ const SubmitDocument = () => {
                     </div>
                     <div className="text-sm text-ink/70 space-y-1">
                       <p>Quelle: {pdf.source || 'Unbekannt'}</p>
-                      <p>Lizenz: {pdf.license || 'rights-reserved'}</p>
+                      <p>Lizenz: {formatLicenseLabel(pdf.license)}</p>
                       <p>ID: {pdf.id}</p>
                       {pdfPreviewUrl(pdf) && (
                         <div className="flex items-center gap-4 text-xs pt-2">
@@ -725,7 +727,7 @@ const SubmitDocument = () => {
                             Im neuen Tab öffnen
                           </a>
                           <a href={pdfPreviewUrl(pdf)} download className="text-ink hover:underline">
-                            Download
+                            Herunterladen
                           </a>
                         </div>
                       )}

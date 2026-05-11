@@ -117,7 +117,7 @@ const PhotoPreviewModal = ({
                     onClick={() => updateZoom(1)}
                     disabled={zoom === 1}
                   >
-                    Reset
+                    Zurücksetzen
                   </button>
                   <span className="text-ink/70">Zoom: {(zoom * 100).toFixed(0)}%</span>
                 </div>

@@ -52,27 +52,27 @@ const workflows = [
           'Für Webquellen »PDF aus URL importieren« mit Original-Link, optionalen Metadaten und Jahr nutzen. Lokale Scans lädst du über »Datei auswählen« hoch; der Encoder wandelt sie automatisch in Base64.'
       },
       {
-        title: 'Metadaten & Review',
+        title: 'Metadaten & Prüfung',
         detail:
-          'Nach dem Upload kannst du Titel, Beschreibung, Quelle und Status anpassen. Verknüpfe PDFs im Dokumentenformular, damit Reviewer Zugriff auf Primärquellen haben.'
+          'Nach dem Upload kannst du Titel, Beschreibung, Quelle und Status anpassen. Verknüpfe PDFs im Dokumentenformular, damit Prüfer Zugriff auf Primärquellen haben.'
       }
     ]
   },
   {
     id: 'review',
-    title: 'Review von Dokumenten & Bildern',
+    title: 'Prüfung von Dokumenten & Bildern',
     description: 'Dokumentenstand prüfen, Feedback geben und Freigaben dokumentieren.',
     icon: ShieldCheck,
     steps: [
       {
-        title: 'Review Center öffnen',
+        title: 'Prüfbereich öffnen',
         detail:
-          'Unter »Intern → Review Center« findest du alle Dokumente, sortiert nach Priorität. Suche nach Titel, Jahr oder Kategorie und wähle einen Eintrag aus.'
+          'Unter »Intern → Prüfbereich« findest du alle Dokumente, sortiert nach Priorität. Suche nach Titel, Jahr oder Kategorie und wähle einen Eintrag aus.'
       },
       {
         title: 'Inhalte prüfen',
         detail:
-          'Nutze den rechten Detailbereich, um Beschreibung, Transkription, verknüpfte Bilder (Karussell) und PDFs (Download-Links) zu kontrollieren. Ergänze Kommentare direkt im Review-Panel.'
+          'Nutze den rechten Detailbereich, um Beschreibung, Transkription, verknüpfte Bilder (Karussell) und PDFs (Links zum Herunterladen) zu kontrollieren. Ergänze Kommentare direkt im Prüf-Panel.'
       },
       {
         title: 'Status setzen & Commit vorbereiten',
@@ -87,12 +87,12 @@ const quickLinks = [
   { label: 'Alben öffnen', path: '/albums', description: 'Albumstruktur und Foto-Uploads verwalten.' },
   { label: 'Dokumente verwalten', path: '/submit', description: 'Texte, Bilder und PDFs kombinieren.' },
   { label: 'Mediathek PDFs', path: '/media/pdfs', description: 'Quellen importieren & pflegen.' },
-  { label: 'Review Center', path: '/review', description: 'Dokument-Prüfung durchführen.' }
+  { label: 'Prüfbereich', path: '/review', description: 'Dokument-Prüfung durchführen.' }
 ];
 
 const reviewStatuses = [
   { status: 'pending', hint: 'Neu eingereichte Inhalte; warten auf Zuweisung.' },
-  { status: 'in_review', hint: 'Review läuft; übernehme Dokument nur, wenn du abstimmst.' },
+  { status: 'in_review', hint: 'Prüfung läuft; übernehme Dokument nur, wenn du abstimmst.' },
   { status: 'approved', hint: 'Freigegeben. Prüfe, ob Commit bereits gepusht ist, bevor du Änderungen machst.' },
   { status: 'rejected', hint: 'Zur Überarbeitung zurückgegeben. Kommentiere immer, was fehlt.' }
 ];
@@ -104,7 +104,7 @@ const HelpCenter = () => {
         <p className="text-xs uppercase tracking-[0.5em] text-accent">Hilfe</p>
         <h1 className="text-4xl font-serif font-bold text-ink">Workflow-Handbuch</h1>
         <p className="text-ink/70 max-w-3xl mx-auto">
-          Diese Ansicht fasst die drei Kernprozesse für Medien-Uploads und Reviews zusammen. Folge den Schritten chronologisch, um
+          Diese Ansicht fasst die drei Kernprozesse für Medien-Uploads und Prüfungen zusammen. Folge den Schritten chronologisch, um
           Bilder, PDFs und Dokumente konsistent ins Archiv zu bringen.
         </p>
       </header>
@@ -162,7 +162,7 @@ const HelpCenter = () => {
           <div className="flex items-center gap-3">
             <BookOpenCheck className="text-accent" />
             <div>
-              <h3 className="text-xl font-serif">Review-Checkliste</h3>
+              <h3 className="text-xl font-serif">Prüf-Checkliste</h3>
               <p className="text-sm text-ink/70">Nutze diese Punkte, bevor du einen Status bestätigst.</p>
             </div>
           </div>
@@ -177,7 +177,7 @@ const HelpCenter = () => {
             </li>
             <li className="flex gap-3">
               <CheckCircle2 className="text-accent mt-0.5" size={18} />
-              <span>Feedback dokumentiert: Nutze das Kommentarfeld im Review-Panel für Abweichungen oder offene Fragen.</span>
+              <span>Feedback dokumentiert: Nutze das Kommentarfeld im Prüf-Panel für Abweichungen oder offene Fragen.</span>
             </li>
             <li className="flex gap-3">
               <CheckCircle2 className="text-accent mt-0.5" size={18} />
@@ -190,7 +190,7 @@ const HelpCenter = () => {
             <GitCommit className="text-accent" />
             <div>
               <h3 className="text-xl font-serif">Statusübersicht</h3>
-              <p className="text-sm text-ink/70">Einheitliche Bedeutung in Dokument-, PDF- und Foto-Reviews.</p>
+              <p className="text-sm text-ink/70">Einheitliche Bedeutung in Dokument-, PDF- und Foto-Prüfungen.</p>
             </div>
           </div>
           <ul className="space-y-3">

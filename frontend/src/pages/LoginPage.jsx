@@ -32,7 +32,7 @@ const LoginPage = () => {
         className="w-full max-w-sm bg-white border border-parchment-dark rounded-sm shadow-lg p-6 space-y-4"
       >
         <div className="text-center space-y-2">
-          <p className="text-xs uppercase tracking-[0.5em] text-accent">Login</p>
+          <p className="text-xs uppercase tracking-[0.5em] text-accent">Anmeldung</p>
           <h1 className="text-3xl font-serif font-bold text-ink">Willkommen</h1>
         </div>
 

@@ -7,7 +7,7 @@ const API_BASE = '/api';
 
 const handleResponse = async (response) => {
     if (!response.ok) {
-        let message = `API Error: ${response.status}`;
+        let message = `API-Fehler: ${response.status}`;
         try {
             const errorBody = await response.json();
             if (errorBody?.message) {

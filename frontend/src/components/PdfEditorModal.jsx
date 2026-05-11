@@ -170,7 +170,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
       return;
     }
     if (!reviewerName.trim()) {
-      setError('Reviewer-Name erforderlich.');
+      setError('Prüfername erforderlich.');
       return;
     }
     try {
@@ -186,7 +186,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
       return;
     }
     if (!reviewerName.trim() || !commentText.trim()) {
-      setError('Reviewer und Kommentar erforderlich.');
+      setError('Prüfer und Kommentar erforderlich.');
       return;
     }
     try {
@@ -203,7 +203,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
 
   const handleCompleteReview = async () => {
     if (!pdf?.id || !reviewerName.trim()) {
-      setError('Reviewer-Name erforderlich.');
+      setError('Prüfername erforderlich.');
       return;
     }
     try {
@@ -329,7 +329,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
                 className="w-full border border-parchment-dark rounded-sm px-3 py-2 bg-white"
               >
                 <option value="local">Lokaler Pfad</option>
-                <option value="remote">Remote URL</option>
+                <option value="remote">Externe URL</option>
               </select>
             </label>
             <label className="space-y-1 text-sm font-medium text-ink/80">
@@ -391,7 +391,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
                 <>
                   <iframe
                     src={previewUrl}
-                    title="PDF Preview"
+                    title="PDF-Vorschau"
                     className="w-full h-64 border border-parchment-dark rounded-sm"
                   />
                   <div className="flex items-center gap-4 text-sm">
@@ -399,7 +399,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
                       In neuem Tab öffnen
                     </a>
                     <a href={previewUrl} download className="text-ink hover:underline">
-                      Download
+                      Herunterladen
                     </a>
                   </div>
                 </>
@@ -413,8 +413,8 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
             <div className="border border-parchment-dark rounded-sm p-3 bg-parchment/10 space-y-3">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-xs uppercase tracking-[0.4em] text-ink/60">Review</p>
-                  <p className="text-lg font-serif font-semibold">Status & Feedback</p>
+                  <p className="text-xs uppercase tracking-[0.4em] text-ink/60">Prüfung</p>
+                  <p className="text-lg font-serif font-semibold">Status & Rückmeldung</p>
                 </div>
                 {pdf && pdf.linkedDocuments?.length > 0 && (
                   <span className="text-xs text-ink/60">Verknüpft mit: {pdf.linkedDocuments.join(', ')}</span>
@@ -423,7 +423,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
 
               <div className="grid sm:grid-cols-2 gap-3">
                 <label className="text-sm font-medium text-ink/80 space-y-1">
-                  Reviewer
+                  Prüfer
                   <input
                     value={reviewerName}
                     onChange={(event) => setReviewerName(event.target.value)}
@@ -460,7 +460,7 @@ const PdfEditorModal = ({ isOpen, onClose, pdf = null, onSaved }) => {
                   onClick={handleCompleteReview}
                   disabled={!pdf?.id}
                 >
-                  Review abschließen
+                  Prüfung abschließen
                 </button>
               </div>
 

@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { fetchPdfs } from '../services/api.js';
 
 const statusOptions = [
-  { value: '', label: 'Alle Stati' },
+  { value: '', label: 'Alle Status' },
   { value: 'pending', label: 'Ausstehend' },
   { value: 'in_review', label: 'In Prüfung' },
   { value: 'approved', label: 'Freigegeben' },

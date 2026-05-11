@@ -151,8 +151,8 @@ const ReviewDashboard = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <header className="mb-10 text-center space-y-3">
-        <p className="text-xs uppercase tracking-[0.5em] text-accent">Review</p>
-        <h1 className="text-4xl font-serif font-bold text-ink">Review Center</h1>
+        <p className="text-xs uppercase tracking-[0.5em] text-accent">Prüfung</p>
+        <h1 className="text-4xl font-serif font-bold text-ink">Prüfbereich</h1>
         <p className="text-ink/70">Wähle ein Dokument, prüfe die Inhalte und bestätige das Ergebnis mit Git-Commit.</p>
       </header>
 
@@ -220,7 +220,7 @@ const ReviewDashboard = () => {
         <section className="w-full lg:w-2/3 space-y-6">
           {!selectedDocument ? (
             <div className="border border-dashed border-parchment-dark rounded-sm p-8 text-center text-ink/60">
-              Bitte ein Dokument auswählen, um das Review zu starten.
+              Bitte ein Dokument auswählen, um die Prüfung zu starten.
             </div>
           ) : (
             <div className="space-y-6">
@@ -305,7 +305,7 @@ const ReviewDashboard = () => {
                               Anzeigen
                             </a>
                             <a href={pdf.url} download className="text-ink/70 hover:underline">
-                              Download
+                              Herunterladen
                             </a>
                           </div>
                         </article>
