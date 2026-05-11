@@ -1,0 +1,25 @@
+{
+  "id": "local_moinbiyncwkhut",
+  "name": "Die alte Apotheke",
+  "description": "Das Deutsche Apotheken-Museum im Schloss Heidelberg.",
+  "date_taken": "2026-04-28",
+  "photopage": "",
+  "original": "/files/images/album-1777381945400-449102733.jpg",
+  "preview": "/files/images/thumbnails/album-1777381945400-449102733-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "72177720323502293"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-04-28T13:12:26.304Z",
+  "updatedAt": "2026-04-28T13:12:26.304Z"
+}
