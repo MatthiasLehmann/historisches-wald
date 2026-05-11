@@ -17,9 +17,9 @@ const Header = () => {
 
     const primaryNavItems = [
         { name: 'Startseite', path: '/' },
+        { name: 'Ortsteile', path: '/ortsteile' },
         { name: 'Archiv', path: '/archive' },
         { name: 'Zeitleiste', path: '/timeline' },
-        { name: 'Ortsteile', path: '/ortsteile' },
         { name: 'Wortwolke', path: '/wortwolke' },
         { name: 'Team', path: '/team' },
     ];

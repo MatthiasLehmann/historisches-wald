@@ -14,16 +14,16 @@ const discoveryLinks = [
         icon: FileText,
     },
     {
-        title: 'Zeitleiste',
-        description: 'Historische Ereignisse und Dokumente chronologisch entdecken.',
-        path: '/timeline',
-        icon: Clock,
-    },
-    {
         title: 'Ortsteile',
         description: 'Die Teilorte von Wald über Wappen, Ortsprofile und passende Dokumente erkunden.',
         path: '/ortsteile',
         icon: Map,
+    },
+    {
+        title: 'Zeitleiste',
+        description: 'Historische Ereignisse und Dokumente chronologisch entdecken.',
+        path: '/timeline',
+        icon: Clock,
     },
     {
         title: 'Wortwolke',
@@ -37,6 +37,24 @@ const discoveryLinks = [
         path: '/team',
         icon: Users,
     },
+];
+
+const districtHighlights = [
+    {
+        name: 'Wald',
+        image: '/files/images/thumbnails/photo-54854142452-thumb.jpg',
+        description: 'Kloster, Dorfgeschichte und zentrale Dokumente zur Gemeinde Wald.'
+    },
+    {
+        name: 'Glashütte',
+        image: '/files/images/thumbnails/photo-54855252744-thumb.jpg',
+        description: 'Ortsprofil mit Wappen, Glasgeschichte und verknüpften Quellen.'
+    },
+    {
+        name: 'Walbertsweiler',
+        image: '/files/images/thumbnails/photo-54854142442-thumb.jpg',
+        description: 'Einer der ältesten Teilorte mit passenden Archivbeiträgen.'
+    }
 ];
 
 const Home = () => {
@@ -122,6 +140,48 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className="py-16 bg-parchment border-b border-parchment-dark/60">
+                <div className="container mx-auto px-4">
+                    <div className="grid gap-8 lg:grid-cols-[0.9fr_1.4fr] lg:items-center">
+                        <div className="space-y-5">
+                            <p className="text-xs uppercase tracking-[0.45em] text-accent">Ortsteile</p>
+                            <h2 className="text-3xl md:text-4xl font-serif font-bold text-ink">Die Teilorte von Wald erkunden</h2>
+                            <p className="text-ink/70 leading-relaxed">
+                                Die Ortsteilübersicht verbindet Wappen, Ortsprofile und passende Dokumente. So finden Sie Beiträge direkt über Wald, Glashütte, Walbertsweiler und die weiteren Teilorte.
+                            </p>
+                            <Link
+                                to="/ortsteile"
+                                className="inline-flex items-center gap-2 rounded-sm bg-accent px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-accent-dark"
+                            >
+                                Ortsteile öffnen <ArrowRight size={16} />
+                            </Link>
+                        </div>
+                        <div className="grid gap-4 sm:grid-cols-3">
+                            {districtHighlights.map((district) => (
+                                <Link
+                                    key={district.name}
+                                    to="/ortsteile"
+                                    className="group overflow-hidden rounded-sm border border-parchment-dark bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-accent hover:shadow-md"
+                                >
+                                    <div className="aspect-[4/3] bg-parchment">
+                                        <img
+                                            src={district.image}
+                                            alt={`${district.name} Wappen`}
+                                            className="h-full w-full object-contain p-5 transition group-hover:scale-105"
+                                            loading="lazy"
+                                        />
+                                    </div>
+                                    <div className="space-y-2 border-t border-parchment-dark/60 p-4">
+                                        <h3 className="font-serif text-lg font-bold text-ink">{district.name}</h3>
+                                        <p className="text-sm leading-relaxed text-ink/70">{district.description}</p>
+                                    </div>
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="py-16 bg-parchment-light border-b border-parchment-dark/60">
                 <div className="container mx-auto px-4">
                     <div className="mb-10 max-w-3xl">
@@ -161,9 +221,9 @@ const Home = () => {
             <section className="py-20 bg-parchment">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-serif font-bold text-ink mb-4">Ausgewählte Dokumente</h2>
+                        <h2 className="text-3xl md:text-4xl font-serif font-bold text-ink mb-4">Neue Beiträge</h2>
                         <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
-                        <p className="mt-4 text-ink/60">Entdecken Sie besondere Fundstücke aus unserer Sammlung.</p>
+                        <p className="mt-4 text-ink/60">Entdecken Sie aktuelle Fundstücke aus unserer Sammlung.</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
