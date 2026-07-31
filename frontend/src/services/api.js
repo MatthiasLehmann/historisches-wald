@@ -85,6 +85,16 @@ export const fetchPdfs = async (params = {}) => {
     }
 };
 
+export const fetchPdf = async (id) => {
+    try {
+        const response = await fetch(`${API_BASE}/pdfs/${id}`);
+        return await handleResponse(response);
+    } catch (error) {
+        console.error('Failed to fetch PDF:', error);
+        throw error;
+    }
+};
+
 const mutatePdf = async (endpoint, method, body) => {
     const response = await fetch(`${API_BASE}${endpoint}`, {
         method,

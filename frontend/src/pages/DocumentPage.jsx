@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Calendar, MapPin, User, FileText, Bookmark, ScrollText, X } from 'lucide-react';
+import { ArrowLeft, Download, ExternalLink, FileText, ScrollText } from 'lucide-react';
 import ImageGallery from '../components/ImageGallery';
 import RichTextContent from '../components/RichTextContent';
 import { fetchDocuments } from '../services/api';
@@ -13,7 +13,6 @@ const DocumentPage = () => {
     const [document, setDocument] = React.useState(null);
     const [isLoading, setIsLoading] = React.useState(true);
     const [error, setError] = React.useState(null);
-    const [activePdf, setActivePdf] = React.useState(null);
 
     React.useEffect(() => {
         let ignore = false;
@@ -207,20 +206,25 @@ const DocumentPage = () => {
                                                 Quelle: {pdf.source || 'Unbekannt'} · Lizenz: {formatLicenseLabel(pdf.license)}
                                             </p>
                                         </div>
-                                        <button
-                                            type="button"
-                                            onClick={() => setActivePdf(pdf)}
-                                            className="px-4 py-2 text-sm font-semibold border border-accent text-accent rounded-sm hover:bg-accent hover:text-white transition"
-                                        >
-                                            PDF anzeigen
-                                        </button>
-                                    </div>
-                                    <div className="border border-dashed border-parchment-dark/70 rounded-sm overflow-hidden bg-white">
-                                        <iframe
-                                            src={pdf.url}
-                                            title={pdf.title}
-                                            className="w-full h-64"
-                                        />
+                                        <div className="flex flex-wrap gap-2">
+                                            <Link
+                                                to={`/pdfs/${pdf.id}/view`}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold border border-accent text-accent rounded-sm hover:bg-accent hover:text-white transition"
+                                            >
+                                                <ExternalLink size={16} />
+                                                PDF anzeigen
+                                            </Link>
+                                            <a
+                                                href={pdf.url}
+                                                download
+                                                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold border border-parchment-dark text-ink rounded-sm hover:bg-white transition"
+                                            >
+                                                <Download size={16} />
+                                                Herunterladen
+                                            </a>
+                                        </div>
                                     </div>
                                 </article>
                             ))}
@@ -228,40 +232,6 @@ const DocumentPage = () => {
                     </section>
                 )}
             </div>
-            {activePdf && (
-                <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 px-4">
-                    <div className="bg-white w-full max-w-4xl rounded-sm shadow-2xl border border-parchment-dark relative">
-                        <button
-                            type="button"
-                            className="absolute top-3 right-3 text-ink/70 hover:text-accent"
-                            onClick={() => setActivePdf(null)}
-                            aria-label="PDF schließen"
-                        >
-                            <X size={20} />
-                        </button>
-                        <header className="px-6 py-4 border-b border-parchment-dark">
-                            <p className="text-xs uppercase tracking-[0.4em] text-ink/60">PDF Vorschau</p>
-                            <h4 className="text-xl font-serif font-bold text-ink">{activePdf.title}</h4>
-                        </header>
-                        <div className="h-[70vh]">
-                            <iframe
-                                src={activePdf.url}
-                                title={activePdf.title}
-                                className="w-full h-full"
-                            />
-                        </div>
-                        <div className="flex justify-end gap-3 px-6 py-4 border-t border-parchment-dark">
-                            <button
-                                type="button"
-                                className="px-4 py-2 text-sm border border-parchment-dark rounded-sm hover:bg-parchment/40"
-                                onClick={() => setActivePdf(null)}
-                            >
-                                Schließen
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            )}
         </article>
     );
 };

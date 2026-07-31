@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { FileText, Plus, RefreshCcw, RotateCcw, Trash2 } from 'lucide-react';
+import { Download, ExternalLink, FileText, Plus, RefreshCcw, RotateCcw, Trash2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import PdfEditorModal from '../components/PdfEditorModal.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
 import {
@@ -371,9 +372,35 @@ const MediaPDFs = () => {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-4">
-                  <div className="border border-parchment-dark rounded-sm overflow-hidden bg-white">
+                  <div className="border border-parchment-dark rounded-sm bg-white p-4 flex flex-col justify-between gap-4">
                     {url ? (
-                      <iframe src={url} className="w-full h-64" title={pdf.title} />
+                      <>
+                        <div className="space-y-2">
+                          <p className="text-sm font-semibold text-ink">PDF in eigener Ansicht öffnen</p>
+                          <p className="text-sm text-ink/70">
+                            Die Vorschau wird in einem separaten Browser-Tab mit größerer Lesefläche angezeigt.
+                          </p>
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                          <Link
+                            to={`/pdfs/${pdf.id}/view`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-2 rounded-sm border border-accent px-4 py-2 text-sm font-semibold text-accent hover:bg-accent hover:text-white transition"
+                          >
+                            <ExternalLink size={16} />
+                            PDF anzeigen
+                          </Link>
+                          <a
+                            href={url}
+                            download
+                            className="inline-flex items-center gap-2 rounded-sm border border-parchment-dark px-4 py-2 text-sm font-semibold text-ink hover:bg-parchment/40 transition"
+                          >
+                            <Download size={16} />
+                            Herunterladen
+                          </a>
+                        </div>
+                      </>
                     ) : (
                       <div className="h-64 flex items-center justify-center text-sm text-ink/60">
                         Keine Vorschau verfügbar
@@ -393,16 +420,6 @@ const MediaPDFs = () => {
                       )}
                       <p>Aktualisiert: {new Date(pdf.updatedAt).toLocaleString()}</p>
                     </div>
-                    {url && (
-                      <div className="flex items-center gap-4 text-sm">
-                        <a href={url} target="_blank" rel="noreferrer" className="text-accent hover:underline">
-                          Im neuen Tab öffnen
-                        </a>
-                        <a href={url} download className="text-ink hover:underline">
-                          Herunterladen
-                        </a>
-                      </div>
-                    )}
                   </div>
                 </div>
               </li>

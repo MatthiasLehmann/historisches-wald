@@ -19,6 +19,7 @@ import SubmitDocument from './pages/SubmitDocument';
 import LoginPage from './pages/LoginPage';
 import ReviewDashboard from './pages/ReviewDashboard';
 import MediaPDFs from './pages/MediaPDFs';
+import PdfViewPage from './pages/PdfViewPage';
 import AlbumsPage from './pages/AlbumsPage';
 import AlbumDetailPage from './pages/AlbumDetailPage';
 import PhotoDetailPage from './pages/PhotoDetailPage';
@@ -56,6 +57,7 @@ const App = () => (
         <Route path="/" element={<Home />} />
         <Route path="/archive" element={<Archive />} />
         <Route path="/document/:id" element={<DocumentPage />} />
+        <Route path="/pdfs/:id/view" element={<PdfViewPage />} />
         <Route path="/timeline" element={<TimelinePage />} />
         <Route path="/wortwolke" element={<WordCloudPage />} />
         <Route path="/ortsteile" element={<CoatOfArmsPage />} />
