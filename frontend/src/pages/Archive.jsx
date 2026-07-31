@@ -137,7 +137,7 @@ const Archive = () => {
     }, [selectedCategories]);
 
     const filteredDocuments = useMemo(() => documents.filter(doc => {
-        const isApproved = doc?.review?.status === 'approved';
+        const isApproved = doc?.review?.status === 'approved' && doc?.showInArchive !== false;
         if (!isApproved) {
             return false;
         }

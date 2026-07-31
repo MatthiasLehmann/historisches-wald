@@ -48,24 +48,35 @@ const normalizeMetadata = (doc) => {
   };
 };
 
+const normalizeParentId = (value) => {
+  if (value === undefined || value === null) {
+    return '';
+  }
+  return String(value).trim();
+};
+
 const normalizeDocument = (doc, fallbackSortOrder = 0) => {
   const normalized = normalizeReview(doc);
   const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
   const pdfIds = Array.isArray(normalized.pdfIds) ? normalized.pdfIds : [];
   const albumPhotoIds = Array.isArray(normalized.albumPhotoIds) ? normalized.albumPhotoIds : [];
   const coverPhotoId = normalized.coverPhotoId ? String(normalized.coverPhotoId) : '';
+  const parentId = normalizeParentId(normalized.parent_id ?? normalized.parentId);
   const sortOrder = Number.isFinite(Number(normalized.sortOrder))
     ? Number(normalized.sortOrder)
     : fallbackSortOrder;
   return {
     ...normalized,
     sortOrder,
+    parent_id: parentId,
     imageIds,
     pdfIds,
     albumPhotoIds,
     coverPhotoId,
     coverImage: null,
     showInTimeline: normalized.showInTimeline !== false,
+    showInArchive: normalized.showInArchive !== false,
+    showInWordCloud: normalized.showInWordCloud !== false,
     metadata: normalizeMetadata(normalized),
     images: Array.isArray(normalized.images) ? normalized.images : [],
     pdfs: []
@@ -279,7 +290,7 @@ export const readDocuments = async () => {
 
 const writeDocuments = async (documents) => {
   const normalized = sortDocuments(documents.map((doc, index) => normalizeDocument(doc, index))).map((doc) => {
-    const { coverImage, pdfs, author, source, editor, ...stored } = normalizeDocument(doc);
+    const { coverImage, pdfs, author, source, editor, parentId, ...stored } = normalizeDocument(doc);
     return stored;
   });
   await fs.writeFile(DATA_FILE, JSON.stringify(normalized, null, 2), 'utf8');
@@ -384,6 +395,50 @@ const reorderDocumentsById = (documents, orderedDocumentIds = []) => {
     }));
 };
 
+const collectDocumentDescendantIds = (documents, documentId) => {
+  const descendants = new Set();
+  let changed = true;
+
+  while (changed) {
+    changed = false;
+    documents.forEach((document) => {
+      const parentId = normalizeParentId(document.parent_id);
+      if (!parentId) {
+        return;
+      }
+      if ((parentId === documentId || descendants.has(parentId)) && !descendants.has(document.id)) {
+        descendants.add(document.id);
+        changed = true;
+      }
+    });
+  }
+
+  return descendants;
+};
+
+const validateParentDocument = (documents, parentId, documentId = '') => {
+  const normalizedParentId = normalizeParentId(parentId);
+  if (!normalizedParentId) {
+    return '';
+  }
+  if (documentId && normalizedParentId === documentId) {
+    const error = new Error('Ein Dokument kann nicht sich selbst als übergeordnetes Dokument haben.');
+    error.statusCode = 400;
+    throw error;
+  }
+  if (!documents.some((document) => document.id === normalizedParentId)) {
+    const error = new Error('Übergeordnetes Dokument wurde nicht gefunden.');
+    error.statusCode = 400;
+    throw error;
+  }
+  if (documentId && collectDocumentDescendantIds(documents, documentId).has(normalizedParentId)) {
+    const error = new Error('Ein untergeordnetes Dokument kann nicht als übergeordnetes Dokument gewählt werden.');
+    error.statusCode = 400;
+    throw error;
+  }
+  return normalizedParentId;
+};
+
 export const getDocuments = async (_req, res) => {
   try {
     const [documents, lookups] = await Promise.all([readDocuments(), ensureMediaLookups()]);
@@ -425,6 +480,7 @@ export const createDocument = async (req, res) => {
     }
 
     const documents = await readDocuments();
+    const parentId = validateParentDocument(documents, req.body.parent_id ?? req.body.parentId);
     const imageIds = Array.isArray(req.body.imageIds) ? req.body.imageIds : [];
     const pdfIds = Array.isArray(req.body.pdfIds) ? req.body.pdfIds : [];
     const coverPhotoId = req.body.coverPhotoId ? String(req.body.coverPhotoId) : '';
@@ -441,6 +497,7 @@ export const createDocument = async (req, res) => {
       sortOrder: minSortOrder - 1,
       title,
       year: Number(year),
+      parent_id: parentId,
       category,
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : [],
       location: req.body.location || '',
@@ -450,6 +507,8 @@ export const createDocument = async (req, res) => {
       pdfs: [],
       coverPhotoId,
       showInTimeline: req.body.showInTimeline !== false,
+      showInArchive: req.body.showInArchive !== false,
+      showInWordCloud: req.body.showInWordCloud !== false,
       metadata: {
         author: req.body.author || 'Unbekannt',
         source: req.body.source || 'Unbekannt',
@@ -476,8 +535,7 @@ export const createDocument = async (req, res) => {
 
     res.status(201).json(hydrated);
   } catch (error) {
-    console.error('Error creating document:', error);
-    res.status(500).json({ message: 'Failed to create document.' });
+    handleControllerError(res, error, 'Failed to create document.');
   }
 };
 
@@ -500,11 +558,15 @@ export const updateDocument = async (req, res) => {
     if (!nextEditor) {
       return res.status(400).json({ message: 'editor is required.' });
     }
+    const nextParentId = req.body.parent_id !== undefined || req.body.parentId !== undefined
+      ? validateParentDocument(documents, req.body.parent_id ?? req.body.parentId, id)
+      : existing.parent_id || '';
     const lookups = await ensureMediaLookups();
     const updated = {
       ...existing,
       ...req.body,
       year: req.body.year ? Number(req.body.year) : existing.year,
+      parent_id: nextParentId,
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : existing.subcategories,
       images: Array.isArray(req.body.images) ? req.body.images : existing.images,
       imageIds: Array.isArray(req.body.imageIds) ? req.body.imageIds : existing.imageIds || [],
@@ -515,6 +577,12 @@ export const updateDocument = async (req, res) => {
       showInTimeline: req.body.showInTimeline !== undefined
         ? Boolean(req.body.showInTimeline)
         : existing.showInTimeline !== false,
+      showInArchive: req.body.showInArchive !== undefined
+        ? Boolean(req.body.showInArchive)
+        : existing.showInArchive !== false,
+      showInWordCloud: req.body.showInWordCloud !== undefined
+        ? Boolean(req.body.showInWordCloud)
+        : existing.showInWordCloud !== false,
       metadata: {
         ...existingMetadata,
         author: req.body.author ?? existingMetadata.author,
@@ -538,8 +606,7 @@ export const updateDocument = async (req, res) => {
 
     res.json(hydrated);
   } catch (error) {
-    console.error('Error updating document:', error);
-    res.status(500).json({ message: 'Failed to update document.' });
+    handleControllerError(res, error, 'Failed to update document.');
   }
 };
 
@@ -551,7 +618,9 @@ export const deleteDocument = async (req, res) => {
     if (!target) {
       return res.status(404).json({ message: 'Document not found.' });
     }
-    const filtered = documents.filter((doc) => doc.id !== id);
+    const filtered = documents
+      .filter((doc) => doc.id !== id)
+      .map((doc) => (doc.parent_id === id ? { ...doc, parent_id: '' } : doc));
 
     await writeDocuments(filtered);
     const lookups = await ensureMediaLookups();

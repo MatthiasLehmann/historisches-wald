@@ -19,9 +19,12 @@ const initialForm = {
   source: '',
   editor: '',
   showInTimeline: true,
+  showInArchive: true,
+  showInWordCloud: true,
   coverPhotoId: '',
   albumPhotoIds: [],
   pdfIds: [],
+  parent_id: '',
 };
 
 const defaultOpenSections = {
@@ -57,6 +60,184 @@ const CollapsibleSection = ({ title, eyebrow, summary, isOpen, onToggle, childre
   </section>
 );
 
+const buildDocumentTree = (documents = []) => {
+  const nodes = new Map();
+  documents.forEach((document) => {
+    nodes.set(document.id, { ...document, children: [] });
+  });
+
+  const roots = [];
+  nodes.forEach((node) => {
+    if (node.parent_id && nodes.has(node.parent_id)) {
+      nodes.get(node.parent_id).children.push(node);
+    } else {
+      roots.push(node);
+    }
+  });
+
+  const sortRecursive = (list) => {
+    list.sort((left, right) => {
+      const leftOrder = Number.isFinite(Number(left.sortOrder)) ? Number(left.sortOrder) : 0;
+      const rightOrder = Number.isFinite(Number(right.sortOrder)) ? Number(right.sortOrder) : 0;
+      if (leftOrder !== rightOrder) {
+        return leftOrder - rightOrder;
+      }
+      return String(left.title || '').localeCompare(String(right.title || ''), 'de', { sensitivity: 'base' });
+    });
+    list.forEach((child) => sortRecursive(child.children));
+  };
+
+  sortRecursive(roots);
+  return roots;
+};
+
+const flattenDocumentTree = (nodes = [], level = 0) =>
+  nodes.flatMap((node) => [
+    { ...node, level },
+    ...flattenDocumentTree(node.children, level + 1)
+  ]);
+
+const collectDescendantIds = (documents = [], documentId = '') => {
+  const descendants = new Set();
+  let changed = true;
+
+  while (changed) {
+    changed = false;
+    documents.forEach((document) => {
+      const parentId = document.parent_id ? String(document.parent_id) : '';
+      if ((parentId === documentId || descendants.has(parentId)) && !descendants.has(document.id)) {
+        descendants.add(document.id);
+        changed = true;
+      }
+    });
+  }
+
+  return descendants;
+};
+
+const getPublishingTargets = (doc) => {
+  const targets = [];
+  if (doc?.showInArchive !== false) targets.push('Archiv');
+  if (doc?.showInTimeline !== false) targets.push('Zeitleiste');
+  if (doc?.showInWordCloud !== false) targets.push('Wortwolke');
+  return targets;
+};
+
+const PublishingTargets = ({ doc }) => {
+  const targets = getPublishingTargets(doc);
+
+  if (targets.length === 0) {
+    return <p className="mt-2 text-xs font-semibold text-red-600">Nicht veröffentlicht</p>;
+  }
+
+  return (
+    <div className="mt-2 flex flex-wrap gap-1.5">
+      {targets.map((target) => (
+        <span
+          key={target}
+          className="rounded-sm border border-parchment-dark bg-white px-2 py-1 text-xs font-semibold text-ink/60"
+        >
+          {target}
+        </span>
+      ))}
+    </div>
+  );
+};
+
+const DocumentTreeNode = ({
+  node,
+  level = 0,
+  expandedIds,
+  editingId,
+  onToggle,
+  onSelect
+}) => {
+  const hasChildren = node.children.length > 0;
+  const isExpanded = expandedIds.includes(node.id);
+
+  return (
+    <li className="space-y-2" style={{ marginLeft: level * 10 }}>
+      <div className="flex items-stretch gap-1">
+        {hasChildren ? (
+          <button
+            type="button"
+            onClick={() => onToggle(node.id)}
+            className="mt-3 flex h-6 w-6 shrink-0 items-center justify-center rounded-sm border border-parchment-dark bg-parchment text-xs leading-none hover:bg-parchment-dark/40"
+            aria-label={isExpanded ? 'Einklappen' : 'Ausklappen'}
+          >
+            {isExpanded ? '−' : '+'}
+          </button>
+        ) : (
+          <span className="mt-3 h-6 w-6 shrink-0" />
+        )}
+
+        <button
+          type="button"
+          onClick={() => onSelect(node)}
+          className={`w-full text-left border rounded-sm px-4 py-3 transition-colors ${
+            editingId === node.id
+              ? 'border-accent bg-accent/10 text-accent'
+              : 'border-parchment-dark/60 hover:border-accent'
+          }`}
+        >
+          <div className="flex items-start justify-between gap-3">
+            <p className="font-semibold text-base leading-snug text-ink">{node.title}</p>
+            <StatusBadge status={node.review?.status} />
+          </div>
+          <div className="mt-2 flex flex-wrap gap-2 text-xs text-ink/60">
+            <span>{node.year || 'Ohne Jahr'}</span>
+            <span>{node.category || 'Ohne Kategorie'}</span>
+            {node.location && <span>{node.location}</span>}
+          </div>
+          {(node.metadata?.editor || node.metadata?.author) && (
+            <p className="mt-1 text-xs text-ink/50">
+              {node.metadata?.editor ? `Bearbeiter: ${node.metadata.editor}` : `Autor: ${node.metadata.author}`}
+            </p>
+          )}
+          <PublishingTargets doc={node} />
+        </button>
+      </div>
+
+      {hasChildren && isExpanded && (
+        <ul className="space-y-2 border-l border-parchment-dark/60 pl-3">
+          {node.children.map((child) => (
+            <DocumentTreeNode
+              key={child.id}
+              node={child}
+              level={level + 1}
+              expandedIds={expandedIds}
+              editingId={editingId}
+              onToggle={onToggle}
+              onSelect={onSelect}
+            />
+          ))}
+        </ul>
+      )}
+    </li>
+  );
+};
+
+const DocumentTree = ({ documents, expandedIds, editingId, onToggle, onSelect }) => {
+  if (!documents.length) {
+    return <p className="text-sm text-ink/50">Keine Dokumente passend zur Suche.</p>;
+  }
+
+  return (
+    <ul className="space-y-3">
+      {documents.map((node) => (
+        <DocumentTreeNode
+          key={node.id}
+          node={node}
+          expandedIds={expandedIds}
+          editingId={editingId}
+          onToggle={onToggle}
+          onSelect={onSelect}
+        />
+      ))}
+    </ul>
+  );
+};
+
 const SubmitDocument = () => {
   const [form, setForm] = useState(initialForm);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -82,6 +263,7 @@ const SubmitDocument = () => {
   const [draggedDocumentId, setDraggedDocumentId] = useState(null);
   const [isSavingDocumentOrder, setIsSavingDocumentOrder] = useState(false);
   const [openSections, setOpenSections] = useState(defaultOpenSections);
+  const [expandedDocumentIds, setExpandedDocumentIds] = useState([]);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -92,11 +274,14 @@ const SubmitDocument = () => {
   const availableSubs = currentArea?.subcategories ?? [];
 
   const filteredDocuments = useMemo(() => {
-    if (!documentSearchQuery.trim()) {
+    const query = documentSearchQuery.trim().toLowerCase();
+    if (!query) {
       return documents;
     }
-    const query = documentSearchQuery.toLowerCase();
-    return documents.filter((doc) => {
+    const documentsById = new Map(documents.map((doc) => [doc.id, doc]));
+    const visibleIds = new Set();
+
+    documents.forEach((doc) => {
       const searchable = [
         doc.title,
         doc.year ? String(doc.year) : '',
@@ -111,10 +296,43 @@ const SubmitDocument = () => {
         .filter(Boolean)
         .join(' ')
         .toLowerCase();
-      return searchable.includes(query);
+      if (!searchable.includes(query)) {
+        return;
+      }
+      visibleIds.add(doc.id);
+      let parentId = doc.parent_id ? String(doc.parent_id) : '';
+      while (parentId && documentsById.has(parentId)) {
+        visibleIds.add(parentId);
+        parentId = documentsById.get(parentId)?.parent_id || '';
+      }
     });
+
+    return documents.filter((doc) => visibleIds.has(doc.id));
   }, [documents, documentSearchQuery]);
   const displayedDocuments = isSortingDocuments ? orderedDocuments : filteredDocuments;
+  const displayedDocumentTree = useMemo(
+    () => buildDocumentTree(displayedDocuments),
+    [displayedDocuments]
+  );
+  const documentTreeOrder = useMemo(
+    () => flattenDocumentTree(buildDocumentTree(documents)),
+    [documents]
+  );
+  const parentDocumentOptions = useMemo(() => {
+    const blockedIds = new Set();
+    if (editingId) {
+      blockedIds.add(editingId);
+      collectDescendantIds(documents, editingId).forEach((id) => blockedIds.add(id));
+    }
+    return documentTreeOrder.filter((doc) => !blockedIds.has(doc.id));
+  }, [documentTreeOrder, documents, editingId]);
+  const publishingSummary = useMemo(() => {
+    const targets = [];
+    if (form.showInArchive !== false) targets.push('Archiv');
+    if (form.showInTimeline !== false) targets.push('Zeitleiste');
+    if (form.showInWordCloud !== false) targets.push('Wortwolke');
+    return targets.length > 0 ? targets.join(', ') : 'Nirgends sichtbar';
+  }, [form.showInArchive, form.showInTimeline, form.showInWordCloud]);
   const documentOrderChanged = useMemo(() => {
     if (!isSortingDocuments || orderedDocuments.length !== documents.length) {
       return false;
@@ -145,6 +363,22 @@ const SubmitDocument = () => {
     }));
   };
 
+  const toggleDocumentNode = (documentId) => {
+    setExpandedDocumentIds((prev) => (
+      prev.includes(documentId)
+        ? prev.filter((id) => id !== documentId)
+        : [...prev, documentId]
+    ));
+  };
+
+  const handleExpandAllDocuments = () => {
+    setExpandedDocumentIds(documents.map((doc) => doc.id));
+  };
+
+  const handleCollapseAllDocuments = () => {
+    setExpandedDocumentIds([]);
+  };
+
   const loadDocuments = useCallback(async () => {
     try {
       const response = await fetch('/api/documents');
@@ -168,6 +402,10 @@ const SubmitDocument = () => {
       setOrderedDocuments(documents);
     }
   }, [documents, isSortingDocuments]);
+
+  useEffect(() => {
+    setExpandedDocumentIds(documents.map((doc) => doc.id));
+  }, [documents]);
 
   const loadPdfLibrary = useCallback(async () => {
     setPdfLibraryLoading(true);
@@ -197,6 +435,7 @@ const SubmitDocument = () => {
     setSelectedAlbumPhotos([]);
     setSelectedPdfs([]);
     setOpenSections(defaultOpenSections);
+    setExpandedDocumentIds(documents.map((doc) => doc.id));
   };
 
   const handleSelectDocument = (doc) => {
@@ -215,11 +454,14 @@ const SubmitDocument = () => {
       source: doc.metadata?.source ?? '',
       editor: doc.metadata?.editor ?? '',
       showInTimeline: doc.showInTimeline !== false,
+      showInArchive: doc.showInArchive !== false,
+      showInWordCloud: doc.showInWordCloud !== false,
       coverPhotoId: doc.coverPhotoId ?? '',
       albumPhotoIds: Array.isArray(doc.albumPhotoIds)
         ? doc.albumPhotoIds.filter((id) => String(id) !== String(doc.coverPhotoId || ''))
         : [],
       pdfIds: Array.isArray(doc.pdfIds) ? doc.pdfIds : [],
+      parent_id: doc.parent_id ?? '',
     });
     setSelectedArea(doc.category ?? '');
     setSelectedSubcategories(
@@ -274,9 +516,12 @@ const SubmitDocument = () => {
         transcription: form.transcription,
         editor: form.editor,
         showInTimeline: form.showInTimeline !== false,
+        showInArchive: form.showInArchive !== false,
+        showInWordCloud: form.showInWordCloud !== false,
         coverPhotoId: form.coverPhotoId || '',
         albumPhotoIds: Array.isArray(form.albumPhotoIds) ? form.albumPhotoIds : [],
         pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
+        parent_id: form.parent_id || '',
       };
 
       const endpoint = editingId ? `/api/documents/${editingId}` : '/api/documents';
@@ -605,8 +850,36 @@ const SubmitDocument = () => {
                   disabled={isSortingDocuments}
                 />
               </label>
+              {!isSortingDocuments && (
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    onClick={handleExpandAllDocuments}
+                    className="flex-1 rounded-sm border border-parchment-dark px-3 py-2 text-xs font-semibold hover:bg-parchment-dark/10 disabled:opacity-50"
+                    disabled={expandedDocumentIds.length === documents.length}
+                  >
+                    Alles aufklappen
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleCollapseAllDocuments}
+                    className="flex-1 rounded-sm border border-parchment-dark px-3 py-2 text-xs font-semibold hover:bg-parchment-dark/10 disabled:opacity-50"
+                    disabled={expandedDocumentIds.length === 0}
+                  >
+                    Alles zuklappen
+                  </button>
+                </div>
+              )}
               {displayedDocuments.length === 0 ? (
                 <p className="text-sm text-ink/50">{isSortingDocuments ? 'Keine Dokumente vorhanden.' : 'Keine Dokumente passend zur Suche.'}</p>
+              ) : !isSortingDocuments ? (
+                <DocumentTree
+                  documents={displayedDocumentTree}
+                  expandedIds={expandedDocumentIds}
+                  editingId={editingId}
+                  onToggle={toggleDocumentNode}
+                  onSelect={handleSelectDocument}
+                />
               ) : (
                 <ul className="space-y-3">
                   {displayedDocuments.map((doc) => (
@@ -626,43 +899,19 @@ const SubmitDocument = () => {
                       }}
                       className={`${isSortingDocuments ? 'cursor-grab active:cursor-grabbing' : ''} ${draggedDocumentId === doc.id ? 'opacity-50' : ''}`}
                     >
-                      {isSortingDocuments ? (
-                        <div className="w-full border border-parchment-dark/60 rounded-sm px-4 py-3 bg-white">
-                          <div className="flex items-start justify-between gap-3">
-                            <div className="flex min-w-0 items-center gap-2">
-                              <GripVertical size={16} className="shrink-0 text-ink/50" />
-                              <p className="text-sm font-semibold leading-snug">{doc.title}</p>
-                            </div>
-                            <StatusBadge status={doc.review?.status} />
+                      <div className="w-full border border-parchment-dark/60 rounded-sm px-4 py-3 bg-white">
+                        <div className="flex items-start justify-between gap-3">
+                          <div className="flex min-w-0 items-center gap-2">
+                            <GripVertical size={16} className="shrink-0 text-ink/50" />
+                            <p className="text-sm font-semibold leading-snug">{doc.title}</p>
                           </div>
-                          <p className="pl-6 text-xs text-ink/60">{doc.year || 'Ohne Jahr'} · {doc.category || 'Ohne Kategorie'}</p>
+                          <StatusBadge status={doc.review?.status} />
                         </div>
-                      ) : (
-                        <button
-                          type="button"
-                          onClick={() => handleSelectDocument(doc)}
-                          className={`w-full text-left border rounded-sm px-4 py-3 transition-colors ${
-                            editingId === doc.id
-                              ? 'border-accent bg-accent/10 text-accent'
-                              : 'border-parchment-dark/60 hover:border-accent'
-                          }`}
-                        >
-                          <div className="flex items-start justify-between gap-3">
-                            <p className="font-semibold text-base leading-snug text-ink">{doc.title}</p>
-                            <StatusBadge status={doc.review?.status} />
-                          </div>
-                          <div className="mt-2 flex flex-wrap gap-2 text-xs text-ink/60">
-                            <span>{doc.year || 'Ohne Jahr'}</span>
-                            <span>{doc.category || 'Ohne Kategorie'}</span>
-                            {doc.location && <span>{doc.location}</span>}
-                          </div>
-                          {(doc.metadata?.editor || doc.metadata?.author) && (
-                            <p className="mt-1 text-xs text-ink/50">
-                              {doc.metadata?.editor ? `Bearbeiter: ${doc.metadata.editor}` : `Autor: ${doc.metadata.author}`}
-                            </p>
-                          )}
-                        </button>
-                      )}
+                        <p className="pl-6 text-xs text-ink/60">{doc.year || 'Ohne Jahr'} · {doc.category || 'Ohne Kategorie'}</p>
+                        <div className="pl-6">
+                          <PublishingTargets doc={doc} />
+                        </div>
+                      </div>
                     </li>
                   ))}
                 </ul>
@@ -727,6 +976,23 @@ const SubmitDocument = () => {
                   />
                 </label>
               </div>
+
+              <label className="space-y-1 text-sm font-medium text-ink/80 block">
+                Übergeordnetes Dokument
+                <select
+                  name="parent_id"
+                  value={form.parent_id}
+                  onChange={handleChange}
+                  className="w-full border border-parchment-dark rounded-sm px-3 py-2 bg-white"
+                >
+                  <option value="">Kein übergeordnetes Dokument</option>
+                  {parentDocumentOptions.map((doc) => (
+                    <option key={doc.id} value={doc.id}>
+                      {'- '.repeat(doc.level)}{doc.title}
+                    </option>
+                  ))}
+                </select>
+              </label>
 
               <div className="grid md:grid-cols-2 gap-4">
                 <label className="space-y-1 text-sm font-medium text-ink/80">
@@ -1016,25 +1282,59 @@ const SubmitDocument = () => {
           <CollapsibleSection
             eyebrow="Veröffentlichung"
             title="Veröffentlichung"
-            summary={form.showInTimeline !== false ? 'Zeitleiste aktiv' : 'Nur Archiv'}
+            summary={publishingSummary}
             isOpen={openSections.publishing}
             onToggle={() => toggleSection('publishing')}
           >
-            <label className="flex items-start gap-3 rounded-sm border border-parchment-dark bg-parchment/20 p-4 text-sm text-ink/80">
-              <input
-                type="checkbox"
-                name="showInTimeline"
-                checked={form.showInTimeline !== false}
-                onChange={handleChange}
-                className="mt-1"
-              />
-              <span>
-                <span className="block font-semibold text-ink">In Zeitleiste anzeigen</span>
-                <span className="block text-ink/60">
-                  Deaktivieren, wenn der Beitrag im Archiv sichtbar bleiben, aber nicht in der Zeitleiste erscheinen soll.
+            <div className="space-y-3">
+              <label className="flex items-start gap-3 rounded-sm border border-parchment-dark bg-parchment/20 p-4 text-sm text-ink/80">
+                <input
+                  type="checkbox"
+                  name="showInArchive"
+                  checked={form.showInArchive !== false}
+                  onChange={handleChange}
+                  className="mt-1"
+                />
+                <span>
+                  <span className="block font-semibold text-ink">Im Archiv anzeigen</span>
+                  <span className="block text-ink/60">
+                    Deaktivieren, wenn der Beitrag gespeichert bleiben, aber nicht in der Archivübersicht erscheinen soll.
+                  </span>
                 </span>
-              </span>
-            </label>
+              </label>
+
+              <label className="flex items-start gap-3 rounded-sm border border-parchment-dark bg-parchment/20 p-4 text-sm text-ink/80">
+                <input
+                  type="checkbox"
+                  name="showInTimeline"
+                  checked={form.showInTimeline !== false}
+                  onChange={handleChange}
+                  className="mt-1"
+                />
+                <span>
+                  <span className="block font-semibold text-ink">In Zeitleiste anzeigen</span>
+                  <span className="block text-ink/60">
+                    Deaktivieren, wenn der Beitrag nicht in der Zeitleiste erscheinen soll.
+                  </span>
+                </span>
+              </label>
+
+              <label className="flex items-start gap-3 rounded-sm border border-parchment-dark bg-parchment/20 p-4 text-sm text-ink/80">
+                <input
+                  type="checkbox"
+                  name="showInWordCloud"
+                  checked={form.showInWordCloud !== false}
+                  onChange={handleChange}
+                  className="mt-1"
+                />
+                <span>
+                  <span className="block font-semibold text-ink">In Wortwolke berücksichtigen</span>
+                  <span className="block text-ink/60">
+                    Deaktivieren, wenn der Titel nicht in die Wortwolke einfließen soll.
+                  </span>
+                </span>
+              </label>
+            </div>
           </CollapsibleSection>
 
         <div className="sticky bottom-4 z-10 flex items-center justify-between rounded-sm border border-parchment-dark bg-white px-4 py-3 shadow-md">
