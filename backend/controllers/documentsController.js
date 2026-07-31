@@ -48,14 +48,18 @@ const normalizeMetadata = (doc) => {
   };
 };
 
-const normalizeDocument = (doc) => {
+const normalizeDocument = (doc, fallbackSortOrder = 0) => {
   const normalized = normalizeReview(doc);
   const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
   const pdfIds = Array.isArray(normalized.pdfIds) ? normalized.pdfIds : [];
   const albumPhotoIds = Array.isArray(normalized.albumPhotoIds) ? normalized.albumPhotoIds : [];
   const coverPhotoId = normalized.coverPhotoId ? String(normalized.coverPhotoId) : '';
+  const sortOrder = Number.isFinite(Number(normalized.sortOrder))
+    ? Number(normalized.sortOrder)
+    : fallbackSortOrder;
   return {
     ...normalized,
+    sortOrder,
     imageIds,
     pdfIds,
     albumPhotoIds,
@@ -67,6 +71,16 @@ const normalizeDocument = (doc) => {
     pdfs: []
   };
 };
+
+const sortDocuments = (documents) =>
+  [...documents].sort((left, right) => {
+    const leftOrder = Number.isFinite(Number(left.sortOrder)) ? Number(left.sortOrder) : 0;
+    const rightOrder = Number.isFinite(Number(right.sortOrder)) ? Number(right.sortOrder) : 0;
+    if (leftOrder !== rightOrder) {
+      return leftOrder - rightOrder;
+    }
+    return String(left.id || '').localeCompare(String(right.id || ''), 'de', { sensitivity: 'base' });
+  });
 
 const buildImageLookup = (images) => {
   const lookup = new Map();
@@ -260,11 +274,11 @@ export const readDocuments = async () => {
   await ensureDataFile();
   const data = await fs.readFile(DATA_FILE, 'utf8');
   const parsed = data ? JSON.parse(data) : [];
-  return parsed.map((doc) => normalizeDocument(doc));
+  return sortDocuments(parsed.map((doc, index) => normalizeDocument(doc, index)));
 };
 
 const writeDocuments = async (documents) => {
-  const normalized = documents.map((doc) => {
+  const normalized = sortDocuments(documents.map((doc, index) => normalizeDocument(doc, index))).map((doc) => {
     const { coverImage, pdfs, author, source, editor, ...stored } = normalizeDocument(doc);
     return stored;
   });
@@ -339,6 +353,37 @@ const commitDocumentSave = async (docId, mode) => {
   }
 };
 
+const reorderDocumentsById = (documents, orderedDocumentIds = []) => {
+  if (!Array.isArray(orderedDocumentIds)) {
+    const error = new Error('Dokumenten-Reihenfolge muss als Liste übergeben werden.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const normalizedIds = orderedDocumentIds.map((documentId) => String(documentId).trim()).filter(Boolean);
+  const idSet = new Set(normalizedIds);
+  if (idSet.size !== normalizedIds.length) {
+    const error = new Error('Dokumenten-Reihenfolge enthält doppelte Einträge.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const documentMap = new Map(documents.map((document) => [String(document.id), document]));
+  const unknownDocumentId = normalizedIds.find((documentId) => !documentMap.has(documentId));
+  if (unknownDocumentId) {
+    const error = new Error(`Dokument ${unknownDocumentId} existiert nicht.`);
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const remainingDocuments = documents.filter((document) => !idSet.has(String(document.id)));
+  return [...normalizedIds.map((documentId) => documentMap.get(documentId)), ...remainingDocuments]
+    .map((document, index) => ({
+      ...document,
+      sortOrder: index
+    }));
+};
+
 export const getDocuments = async (_req, res) => {
   try {
     const [documents, lookups] = await Promise.all([readDocuments(), ensureMediaLookups()]);
@@ -348,6 +393,23 @@ export const getDocuments = async (_req, res) => {
   } catch (error) {
     console.error('Error reading documents:', error);
     res.status(500).json({ message: 'Failed to read documents.' });
+  }
+};
+
+export const updateDocumentOrder = async (req, res) => {
+  try {
+    const documents = await readDocuments();
+    const documentIds = Array.isArray(req.body?.documentIds) ? req.body.documentIds : req.body?.documents;
+    const reordered = reorderDocumentsById(documents, documentIds);
+    await writeDocuments(reordered);
+
+    const lookups = await ensureMediaLookups();
+    const albumPhotoLookup = await buildAlbumPhotoLookup(reordered);
+    const hydrated = sortDocuments(reordered)
+      .map((doc) => applyMediaReferences(doc, lookups, albumPhotoLookup));
+    res.json(hydrated);
+  } catch (error) {
+    handleControllerError(res, error, 'Failed to update document order.');
   }
 };
 
@@ -370,8 +432,13 @@ export const createDocument = async (req, res) => {
       ? req.body.albumPhotoIds.filter((photoId) => String(photoId) !== coverPhotoId)
       : [];
     const lookups = await ensureMediaLookups();
+    const minSortOrder = documents.reduce((current, document) => {
+      const value = Number(document.sortOrder);
+      return Number.isFinite(value) && value < current ? value : current;
+    }, 0);
     const newDocument = normalizeDocument({
       id: `doc-${Date.now()}`,
+      sortOrder: minSortOrder - 1,
       title,
       year: Number(year),
       category,

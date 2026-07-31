@@ -7,7 +7,8 @@ import {
   getDocumentReview,
   addReviewComment,
   updateReviewStatus,
-  completeReview
+  completeReview,
+  updateDocumentOrder
 } from '../controllers/documentsController.js';
 
 const router = Router();
@@ -16,6 +17,7 @@ router.route('/')
   .get(getDocuments)
   .post(createDocument);
 
+router.put('/order', updateDocumentOrder);
 router.get('/:id/review', getDocumentReview);
 router.post('/:id/review/comment', addReviewComment);
 router.put('/:id/review/status', updateReviewStatus);

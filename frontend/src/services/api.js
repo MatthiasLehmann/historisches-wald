@@ -60,6 +60,15 @@ export const fetchDocuments = async (params = {}) => {
     }
 };
 
+export const reorderDocuments = async (documentIds = []) => {
+    const response = await fetch(`${API_BASE}/documents/order`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ documentIds })
+    });
+    return handleResponse(response);
+};
+
 /**
  * Fetch PDFs with optional filters
  * @param {Object} params - Filtering/sorting parameters

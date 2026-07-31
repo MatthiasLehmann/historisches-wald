@@ -1,8 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { GripVertical, Save, X } from 'lucide-react';
 import categoriesData from '../data/categories.json';
 import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
 import AlbumPhotoSelectorModal from '../components/AlbumPhotoSelectorModal.jsx';
-import { fetchPdfs, fetchPhotos } from '../services/api.js';
+import { fetchPdfs, fetchPhotos, reorderDocuments } from '../services/api.js';
 import MarkdownEditor from '../components/MarkdownEditor.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
 
@@ -43,6 +44,10 @@ const SubmitDocument = () => {
   const [pdfLibraryError, setPdfLibraryError] = useState(null);
   const [isReloading, setIsReloading] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [isSortingDocuments, setIsSortingDocuments] = useState(false);
+  const [orderedDocuments, setOrderedDocuments] = useState([]);
+  const [draggedDocumentId, setDraggedDocumentId] = useState(null);
+  const [isSavingDocumentOrder, setIsSavingDocumentOrder] = useState(false);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -75,6 +80,13 @@ const SubmitDocument = () => {
       return searchable.includes(query);
     });
   }, [documents, documentSearchQuery]);
+  const displayedDocuments = isSortingDocuments ? orderedDocuments : filteredDocuments;
+  const documentOrderChanged = useMemo(() => {
+    if (!isSortingDocuments || orderedDocuments.length !== documents.length) {
+      return false;
+    }
+    return orderedDocuments.some((doc, index) => doc.id !== documents[index]?.id);
+  }, [documents, isSortingDocuments, orderedDocuments]);
 
   const handleChange = (event) => {
     const { checked, name, type, value } = event.target;
@@ -109,6 +121,12 @@ const SubmitDocument = () => {
   useEffect(() => {
     loadDocuments().catch(() => {});
   }, [loadDocuments]);
+
+  useEffect(() => {
+    if (!isSortingDocuments) {
+      setOrderedDocuments(documents);
+    }
+  }, [documents, isSortingDocuments]);
 
   const loadPdfLibrary = useCallback(async () => {
     setPdfLibraryLoading(true);
@@ -367,6 +385,54 @@ const SubmitDocument = () => {
     }
   };
 
+  const handleStartSortingDocuments = () => {
+    setDocumentSearchQuery('');
+    setOrderedDocuments(documents);
+    setDraggedDocumentId(null);
+    setStatus(null);
+    setIsSortingDocuments(true);
+  };
+
+  const handleCancelSortingDocuments = () => {
+    setOrderedDocuments(documents);
+    setDraggedDocumentId(null);
+    setIsSortingDocuments(false);
+  };
+
+  const moveDocumentInOrder = (sourceId, targetId) => {
+    if (!sourceId || !targetId || sourceId === targetId) {
+      return;
+    }
+    setOrderedDocuments((prev) => {
+      const sourceIndex = prev.findIndex((doc) => doc.id === sourceId);
+      const targetIndex = prev.findIndex((doc) => doc.id === targetId);
+      if (sourceIndex === -1 || targetIndex === -1) {
+        return prev;
+      }
+      const next = [...prev];
+      const [movedDocument] = next.splice(sourceIndex, 1);
+      next.splice(targetIndex, 0, movedDocument);
+      return next;
+    });
+  };
+
+  const handleSaveDocumentOrder = async () => {
+    setIsSavingDocumentOrder(true);
+    setStatus(null);
+    try {
+      const data = await reorderDocuments(orderedDocuments.map((doc) => doc.id));
+      setDocuments(data);
+      setOrderedDocuments(data);
+      setIsSortingDocuments(false);
+      setStatus({ type: 'success', message: 'Beitragsreihenfolge gespeichert.' });
+    } catch (error) {
+      setStatus({ type: 'error', message: error.message || 'Beitragsreihenfolge konnte nicht gespeichert werden.' });
+    } finally {
+      setIsSavingDocumentOrder(false);
+      setDraggedDocumentId(null);
+    }
+  };
+
   const handleDeleteDocument = async () => {
     if (!editingId || typeof window === 'undefined') {
       return;
@@ -412,7 +478,7 @@ const SubmitDocument = () => {
         <button
           type="button"
           onClick={handleManualReload}
-          disabled={isReloading}
+          disabled={isReloading || isSortingDocuments}
           className="inline-flex items-center justify-center rounded-sm border border-parchment-dark px-4 py-2 text-sm font-semibold text-ink hover:bg-parchment-dark/10 disabled:cursor-not-allowed disabled:opacity-60"
         >
           {isReloading ? 'Lädt …' : 'Neu Laden'}
@@ -423,12 +489,45 @@ const SubmitDocument = () => {
         <aside className="w-full lg:w-1/5 bg-white border border-parchment-dark rounded-sm shadow-sm p-4 space-y-4 max-h-[80vh] overflow-y-auto">
           <div>
             <h2 className="text-lg font-serif font-bold text-ink">Gespeicherte Dokumente</h2>
-            <p className="text-xs text-ink/60">Klicken zum Bearbeiten</p>
+            <p className="text-xs text-ink/60">{isSortingDocuments ? 'Per Drag-and-Drop sortieren' : 'Klicken zum Bearbeiten'}</p>
           </div>
           {documents.length === 0 ? (
             <p className="text-sm text-ink/50">Noch keine Dokumente geladen.</p>
           ) : (
             <>
+              <div className="flex flex-wrap gap-2">
+                {!isSortingDocuments ? (
+                  <button
+                    type="button"
+                    onClick={handleStartSortingDocuments}
+                    className="w-full rounded-sm border border-parchment-dark px-3 py-2 text-sm font-semibold hover:bg-parchment-dark/10 disabled:opacity-50"
+                    disabled={documents.length < 2}
+                  >
+                    Sortieren
+                  </button>
+                ) : (
+                  <>
+                    <button
+                      type="button"
+                      onClick={handleSaveDocumentOrder}
+                      className="inline-flex flex-1 items-center justify-center gap-2 rounded-sm bg-ink px-3 py-2 text-sm font-semibold text-white disabled:opacity-50"
+                      disabled={isSavingDocumentOrder || !documentOrderChanged}
+                    >
+                      <Save size={15} />
+                      Speichern
+                    </button>
+                    <button
+                      type="button"
+                      onClick={handleCancelSortingDocuments}
+                      className="inline-flex flex-1 items-center justify-center gap-2 rounded-sm border border-parchment-dark px-3 py-2 text-sm font-semibold disabled:opacity-50"
+                      disabled={isSavingDocumentOrder}
+                    >
+                      <X size={15} />
+                      Abbrechen
+                    </button>
+                  </>
+                )}
+              </div>
               <label className="block text-xs font-semibold text-ink/70 uppercase tracking-wide">
                 Suche
                 <input
@@ -437,29 +536,58 @@ const SubmitDocument = () => {
                   value={documentSearchQuery}
                   onChange={(event) => setDocumentSearchQuery(event.target.value)}
                   className="mt-1 w-full rounded-sm border border-parchment-dark/70 px-3 py-2 text-sm"
+                  disabled={isSortingDocuments}
                 />
               </label>
-              {filteredDocuments.length === 0 ? (
-                <p className="text-sm text-ink/50">Keine Dokumente passend zur Suche.</p>
+              {displayedDocuments.length === 0 ? (
+                <p className="text-sm text-ink/50">{isSortingDocuments ? 'Keine Dokumente vorhanden.' : 'Keine Dokumente passend zur Suche.'}</p>
               ) : (
                 <ul className="space-y-2">
-                  {filteredDocuments.map((doc) => (
-                    <li key={doc.id}>
-                      <button
-                        type="button"
-                        onClick={() => handleSelectDocument(doc)}
-                        className={`w-full text-left border rounded-sm px-3 py-2 transition-colors ${
-                          editingId === doc.id
-                            ? 'border-accent bg-accent/10 text-accent'
-                            : 'border-parchment-dark/60 hover:border-accent'
-                        }`}
-                      >
-                        <div className="flex items-center justify-between gap-3">
-                          <p className="font-semibold text-sm">{doc.title}</p>
-                          <StatusBadge status={doc.review?.status} />
+                  {displayedDocuments.map((doc) => (
+                    <li
+                      key={doc.id}
+                      draggable={isSortingDocuments && !isSavingDocumentOrder}
+                      onDragStart={() => setDraggedDocumentId(doc.id)}
+                      onDragEnd={() => setDraggedDocumentId(null)}
+                      onDragOver={(event) => {
+                        if (isSortingDocuments) {
+                          event.preventDefault();
+                        }
+                      }}
+                      onDrop={(event) => {
+                        event.preventDefault();
+                        moveDocumentInOrder(draggedDocumentId, doc.id);
+                      }}
+                      className={`${isSortingDocuments ? 'cursor-grab active:cursor-grabbing' : ''} ${draggedDocumentId === doc.id ? 'opacity-50' : ''}`}
+                    >
+                      {isSortingDocuments ? (
+                        <div className="w-full border border-parchment-dark/60 rounded-sm px-3 py-2 bg-white">
+                          <div className="flex items-center justify-between gap-3">
+                            <div className="flex min-w-0 items-center gap-2">
+                              <GripVertical size={16} className="shrink-0 text-ink/50" />
+                              <p className="truncate text-sm font-semibold">{doc.title}</p>
+                            </div>
+                            <StatusBadge status={doc.review?.status} />
+                          </div>
+                          <p className="pl-6 text-xs text-ink/60">{doc.year} · {doc.category}</p>
                         </div>
-                        <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
-                      </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => handleSelectDocument(doc)}
+                          className={`w-full text-left border rounded-sm px-3 py-2 transition-colors ${
+                            editingId === doc.id
+                              ? 'border-accent bg-accent/10 text-accent'
+                              : 'border-parchment-dark/60 hover:border-accent'
+                          }`}
+                        >
+                          <div className="flex items-center justify-between gap-3">
+                            <p className="font-semibold text-sm">{doc.title}</p>
+                            <StatusBadge status={doc.review?.status} />
+                          </div>
+                          <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
+                        </button>
+                      )}
                     </li>
                   ))}
                 </ul>
