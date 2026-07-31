@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { GripVertical, Save, X } from 'lucide-react';
+import { ChevronDown, ChevronRight, GripVertical, Save, X } from 'lucide-react';
 import categoriesData from '../data/categories.json';
 import PdfSelectorModal from '../components/PdfSelectorModal.jsx';
 import AlbumPhotoSelectorModal from '../components/AlbumPhotoSelectorModal.jsx';
@@ -23,6 +23,39 @@ const initialForm = {
   albumPhotoIds: [],
   pdfIds: [],
 };
+
+const defaultOpenSections = {
+  document: true,
+  content: false,
+  media: false,
+  sources: false,
+  publishing: false,
+};
+
+const CollapsibleSection = ({ title, eyebrow, summary, isOpen, onToggle, children }) => (
+  <section className="border border-parchment-dark rounded-sm bg-white shadow-sm">
+    <button
+      type="button"
+      onClick={onToggle}
+      className="flex w-full items-start justify-between gap-4 px-5 py-4 text-left"
+      aria-expanded={isOpen}
+    >
+      <span>
+        {eyebrow && <span className="block text-xs uppercase tracking-[0.3em] text-ink/50 mb-1">{eyebrow}</span>}
+        <span className="block text-xl font-serif font-bold text-ink">{title}</span>
+      </span>
+      <span className="flex min-w-0 items-center gap-3 text-xs text-ink/60">
+        {summary && <span className="max-w-[11rem] truncate sm:max-w-xs">{summary}</span>}
+        {isOpen ? <ChevronDown size={18} /> : <ChevronRight size={18} />}
+      </span>
+    </button>
+    {isOpen && (
+      <div className="border-t border-parchment-dark/60 px-5 py-5">
+        {children}
+      </div>
+    )}
+  </section>
+);
 
 const SubmitDocument = () => {
   const [form, setForm] = useState(initialForm);
@@ -48,6 +81,7 @@ const SubmitDocument = () => {
   const [orderedDocuments, setOrderedDocuments] = useState([]);
   const [draggedDocumentId, setDraggedDocumentId] = useState(null);
   const [isSavingDocumentOrder, setIsSavingDocumentOrder] = useState(false);
+  const [openSections, setOpenSections] = useState(defaultOpenSections);
 
   const areaOptions = useMemo(() => {
     const root = categoriesData[0];
@@ -104,6 +138,13 @@ const SubmitDocument = () => {
     );
   };
 
+  const toggleSection = (sectionId) => {
+    setOpenSections((prev) => ({
+      ...prev,
+      [sectionId]: !prev[sectionId],
+    }));
+  };
+
   const loadDocuments = useCallback(async () => {
     try {
       const response = await fetch('/api/documents');
@@ -155,6 +196,7 @@ const SubmitDocument = () => {
     setSelectedCoverPhoto(null);
     setSelectedAlbumPhotos([]);
     setSelectedPdfs([]);
+    setOpenSections(defaultOpenSections);
   };
 
   const handleSelectDocument = (doc) => {
@@ -201,6 +243,27 @@ const SubmitDocument = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setStatus(null);
+
+    const hasMissingDocumentFields = !form.title.trim() || !String(form.year).trim() || !selectedArea;
+    const hasMissingSourceFields = !form.editor.trim();
+
+    if (hasMissingDocumentFields || hasMissingSourceFields) {
+      setOpenSections((prev) => ({
+        ...prev,
+        document: hasMissingDocumentFields ? true : prev.document,
+        sources: hasMissingSourceFields ? true : prev.sources,
+      }));
+      setStatus({
+        type: 'error',
+        message: hasMissingDocumentFields && hasMissingSourceFields
+          ? 'Bitte Pflichtfelder in Beitrag und Quellen ausfüllen.'
+          : hasMissingDocumentFields
+            ? 'Bitte Pflichtfelder im Bereich Beitrag ausfüllen.'
+            : 'Bitte den Bearbeiter im Bereich Quellen eintragen.',
+      });
+      return;
+    }
+
     setIsSubmitting(true);
     try {
       const payload = {
@@ -485,11 +548,14 @@ const SubmitDocument = () => {
         </button>
       </header>
 
-      <div className="flex flex-col lg:flex-row gap-8">
-        <aside className="w-full lg:w-1/5 bg-white border border-parchment-dark rounded-sm shadow-sm p-4 space-y-4 max-h-[80vh] overflow-y-auto">
-          <div>
-            <h2 className="text-lg font-serif font-bold text-ink">Gespeicherte Dokumente</h2>
-            <p className="text-xs text-ink/60">{isSortingDocuments ? 'Per Drag-and-Drop sortieren' : 'Klicken zum Bearbeiten'}</p>
+      <div className="grid gap-8 lg:grid-cols-[minmax(360px,38%)_1fr] items-start">
+        <aside className="w-full bg-white border border-parchment-dark rounded-sm shadow-sm p-5 space-y-5 max-h-[82vh] overflow-y-auto">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <h2 className="text-2xl font-serif font-bold text-ink">Gespeicherte Dokumente</h2>
+              <p className="text-sm text-ink/60">{isSortingDocuments ? 'Per Drag-and-Drop sortieren' : 'Klicken zum Bearbeiten'}</p>
+            </div>
+            <span className="text-xs text-ink/60">{displayedDocuments.length} von {documents.length}</span>
           </div>
           {documents.length === 0 ? (
             <p className="text-sm text-ink/50">Noch keine Dokumente geladen.</p>
@@ -542,7 +608,7 @@ const SubmitDocument = () => {
               {displayedDocuments.length === 0 ? (
                 <p className="text-sm text-ink/50">{isSortingDocuments ? 'Keine Dokumente vorhanden.' : 'Keine Dokumente passend zur Suche.'}</p>
               ) : (
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   {displayedDocuments.map((doc) => (
                     <li
                       key={doc.id}
@@ -561,31 +627,40 @@ const SubmitDocument = () => {
                       className={`${isSortingDocuments ? 'cursor-grab active:cursor-grabbing' : ''} ${draggedDocumentId === doc.id ? 'opacity-50' : ''}`}
                     >
                       {isSortingDocuments ? (
-                        <div className="w-full border border-parchment-dark/60 rounded-sm px-3 py-2 bg-white">
-                          <div className="flex items-center justify-between gap-3">
+                        <div className="w-full border border-parchment-dark/60 rounded-sm px-4 py-3 bg-white">
+                          <div className="flex items-start justify-between gap-3">
                             <div className="flex min-w-0 items-center gap-2">
                               <GripVertical size={16} className="shrink-0 text-ink/50" />
-                              <p className="truncate text-sm font-semibold">{doc.title}</p>
+                              <p className="text-sm font-semibold leading-snug">{doc.title}</p>
                             </div>
                             <StatusBadge status={doc.review?.status} />
                           </div>
-                          <p className="pl-6 text-xs text-ink/60">{doc.year} · {doc.category}</p>
+                          <p className="pl-6 text-xs text-ink/60">{doc.year || 'Ohne Jahr'} · {doc.category || 'Ohne Kategorie'}</p>
                         </div>
                       ) : (
                         <button
                           type="button"
                           onClick={() => handleSelectDocument(doc)}
-                          className={`w-full text-left border rounded-sm px-3 py-2 transition-colors ${
+                          className={`w-full text-left border rounded-sm px-4 py-3 transition-colors ${
                             editingId === doc.id
                               ? 'border-accent bg-accent/10 text-accent'
                               : 'border-parchment-dark/60 hover:border-accent'
                           }`}
                         >
-                          <div className="flex items-center justify-between gap-3">
-                            <p className="font-semibold text-sm">{doc.title}</p>
+                          <div className="flex items-start justify-between gap-3">
+                            <p className="font-semibold text-base leading-snug text-ink">{doc.title}</p>
                             <StatusBadge status={doc.review?.status} />
                           </div>
-                          <p className="text-xs text-ink/60">{doc.year} · {doc.category}</p>
+                          <div className="mt-2 flex flex-wrap gap-2 text-xs text-ink/60">
+                            <span>{doc.year || 'Ohne Jahr'}</span>
+                            <span>{doc.category || 'Ohne Kategorie'}</span>
+                            {doc.location && <span>{doc.location}</span>}
+                          </div>
+                          {(doc.metadata?.editor || doc.metadata?.author) && (
+                            <p className="mt-1 text-xs text-ink/50">
+                              {doc.metadata?.editor ? `Bearbeiter: ${doc.metadata.editor}` : `Autor: ${doc.metadata.author}`}
+                            </p>
+                          )}
                         </button>
                       )}
                     </li>
@@ -596,7 +671,7 @@ const SubmitDocument = () => {
           )}
         </aside>
 
-        <form onSubmit={handleSubmit} className="w-full lg:w-4/5 space-y-6 bg-white border border-parchment-dark rounded-sm shadow-sm p-6">
+        <form onSubmit={handleSubmit} className="w-full space-y-5">
           {editingId && (
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between bg-parchment/60 border border-parchment-dark/50 rounded-sm px-4 py-2 text-sm text-ink/80">
               <span>Bearbeite: {form.title || editingId}</span>
@@ -621,93 +696,121 @@ const SubmitDocument = () => {
             </div>
           )}
 
-          <div className="grid md:grid-cols-2 gap-4">
-            <label className="space-y-1 text-sm font-medium text-ink/80">
-              Titel*
-              <input
-                name="title"
-                value={form.title}
-                onChange={handleChange}
-                className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-                required
-              />
-            </label>
-            <label className="space-y-1 text-sm font-medium text-ink/80">
-              Jahr*
-              <input
-                name="year"
-                type="number"
-                value={form.year}
-                onChange={handleChange}
-                className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-                required
-              />
-            </label>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-4">
-            <label className="space-y-1 text-sm font-medium text-ink/80">
-              Kategorie*
-              <select
-                name="category"
-                value={selectedArea}
-                onChange={handleAreaChange}
-                className="w-full border border-parchment-dark rounded-sm px-3 py-2 bg-white"
-                required
-              >
-                <option value="">Bitte wählen</option>
-                {areaOptions.map((area) => (
-                  <option key={area.id} value={area.label}>
-                    {area.label}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <div className="space-y-1 text-sm font-medium text-ink/80">
-              Unterkategorien
-              <div className="border border-parchment-dark rounded-sm px-3 py-2 bg-parchment/30 max-h-40 overflow-y-auto">
-                {availableSubs.length === 0 && (
-                  <p className="text-xs text-ink/50">Keine Unterkategorien verfügbar.</p>
-                )}
-                {availableSubs.map((sub) => (
-                  <label key={sub.id} className="flex items-center gap-2 text-sm font-normal text-ink/70 py-1">
-                    <input
-                      type="checkbox"
-                      value={sub.label}
-                      checked={selectedSubcategories.includes(sub.label)}
-                      onChange={() => toggleSubcategory(sub.label)}
-                    />
-                    {sub.label}
-                  </label>
-                ))}
+          <CollapsibleSection
+            eyebrow="Beitrag"
+            title="Beitrag"
+            summary={form.title || 'Pflichtfelder'}
+            isOpen={openSections.document}
+            onToggle={() => toggleSection('document')}
+          >
+            <div className="space-y-5">
+              <div className="grid md:grid-cols-2 gap-4">
+                <label className="space-y-1 text-sm font-medium text-ink/80">
+                  Titel*
+                  <input
+                    name="title"
+                    value={form.title}
+                    onChange={handleChange}
+                    className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                    required
+                  />
+                </label>
+                <label className="space-y-1 text-sm font-medium text-ink/80">
+                  Jahr*
+                  <input
+                    name="year"
+                    type="number"
+                    value={form.year}
+                    onChange={handleChange}
+                    className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                    required
+                  />
+                </label>
               </div>
+
+              <div className="grid md:grid-cols-2 gap-4">
+                <label className="space-y-1 text-sm font-medium text-ink/80">
+                  Kategorie*
+                  <select
+                    name="category"
+                    value={selectedArea}
+                    onChange={handleAreaChange}
+                    className="w-full border border-parchment-dark rounded-sm px-3 py-2 bg-white"
+                    required
+                  >
+                    <option value="">Bitte wählen</option>
+                    {areaOptions.map((area) => (
+                      <option key={area.id} value={area.label}>
+                        {area.label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <div className="space-y-1 text-sm font-medium text-ink/80">
+                  Unterkategorien
+                  <div className="border border-parchment-dark rounded-sm px-3 py-2 bg-parchment/30 max-h-40 overflow-y-auto">
+                    {availableSubs.length === 0 && (
+                      <p className="text-xs text-ink/50">Keine Unterkategorien verfügbar.</p>
+                    )}
+                    {availableSubs.map((sub) => (
+                      <label key={sub.id} className="flex items-center gap-2 text-sm font-normal text-ink/70 py-1">
+                        <input
+                          type="checkbox"
+                          value={sub.label}
+                          checked={selectedSubcategories.includes(sub.label)}
+                          onChange={() => toggleSubcategory(sub.label)}
+                        />
+                        {sub.label}
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <label className="space-y-1 text-sm font-medium text-ink/80 block">
+                Ort
+                <input
+                  name="location"
+                  value={form.location}
+                  onChange={handleChange}
+                  className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                />
+              </label>
             </div>
-          </div>
+          </CollapsibleSection>
 
-        <label className="space-y-1 text-sm font-medium text-ink/80 block">
-          Ort
-          <input
-            name="location"
-            value={form.location}
-            onChange={handleChange}
-            className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-          />
-        </label>
+          <CollapsibleSection
+            eyebrow="Inhalt"
+            title="Kurzfassung und Abschrift"
+            summary={form.description || form.transcription ? 'Inhalte vorhanden' : 'Optional'}
+            isOpen={openSections.content}
+            onToggle={() => toggleSection('content')}
+          >
+            <div className="space-y-5">
+              <MarkdownEditor
+                label="Kurzfassung"
+                value={form.description}
+                onChange={(nextValue) => setForm((prev) => ({ ...prev, description: nextValue }))}
+                placeholder="Optionale Kurzfassung mit Kontext, Einordnung oder Hinweisen."
+              />
 
-        <MarkdownEditor
-          label="Kurzfassung"
-          value={form.description}
-          onChange={(nextValue) => setForm((prev) => ({ ...prev, description: nextValue }))}
-          placeholder="Optionale Kurzfassung mit Kontext, Einordnung oder Hinweisen."
-        />
+              <MarkdownEditor
+                label="Abschrift"
+                value={form.transcription}
+                onChange={(nextValue) => setForm((prev) => ({ ...prev, transcription: nextValue }))}
+                placeholder="Optionale Abschrift des Originaltexts, Notizen oder Beobachtungen."
+              />
+            </div>
+          </CollapsibleSection>
 
-        <MarkdownEditor
-          label="Abschrift"
-          value={form.transcription}
-          onChange={(nextValue) => setForm((prev) => ({ ...prev, transcription: nextValue }))}
-          placeholder="Optionale Abschrift des Originaltexts, Notizen oder Beobachtungen."
-        />
-
+          <CollapsibleSection
+            eyebrow="Medien"
+            title="Medien"
+            summary={`${selectedAlbumPhotos.length + (selectedCoverPhoto ? 1 : 0)} Fotos · ${selectedPdfs.length} PDFs`}
+            isOpen={openSections.media}
+            onToggle={() => toggleSection('media')}
+          >
+            <div className="space-y-5">
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
           <div className="flex items-center justify-between gap-4">
             <div>
@@ -868,55 +971,73 @@ const SubmitDocument = () => {
             </div>
           )}
         </section>
+            </div>
+          </CollapsibleSection>
 
-        <div className="grid md:grid-cols-3 gap-4">
-          <label className="space-y-1 text-sm font-medium text-ink/80">
-            Autor
-            <input
-              name="author"
-              value={form.author}
-              onChange={handleChange}
-              className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-            />
-          </label>
-          <label className="space-y-1 text-sm font-medium text-ink/80">
-            Quelle
-            <input
-              name="source"
-              value={form.source}
-              onChange={handleChange}
-              className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-            />
-          </label>
-          <label className="space-y-1 text-sm font-medium text-ink/80">
-            Bearbeiter*
-            <input
-              name="editor"
-              value={form.editor}
-              onChange={handleChange}
-              className="w-full border border-parchment-dark rounded-sm px-3 py-2"
-              required
-            />
-          </label>
-        </div>
+          <CollapsibleSection
+            eyebrow="Quellen"
+            title="Quellen"
+            summary={form.editor || form.source || form.author ? 'Metadaten vorhanden' : 'Bearbeiter erforderlich'}
+            isOpen={openSections.sources}
+            onToggle={() => toggleSection('sources')}
+          >
+            <div className="grid md:grid-cols-3 gap-4">
+              <label className="space-y-1 text-sm font-medium text-ink/80">
+                Autor
+                <input
+                  name="author"
+                  value={form.author}
+                  onChange={handleChange}
+                  className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                />
+              </label>
+              <label className="space-y-1 text-sm font-medium text-ink/80">
+                Quelle
+                <input
+                  name="source"
+                  value={form.source}
+                  onChange={handleChange}
+                  className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                />
+              </label>
+              <label className="space-y-1 text-sm font-medium text-ink/80">
+                Bearbeiter*
+                <input
+                  name="editor"
+                  value={form.editor}
+                  onChange={handleChange}
+                  className="w-full border border-parchment-dark rounded-sm px-3 py-2"
+                  required
+                />
+              </label>
+            </div>
+          </CollapsibleSection>
 
-        <label className="flex items-start gap-3 rounded-sm border border-parchment-dark bg-parchment/20 p-4 text-sm text-ink/80">
-          <input
-            type="checkbox"
-            name="showInTimeline"
-            checked={form.showInTimeline !== false}
-            onChange={handleChange}
-            className="mt-1"
-          />
-          <span>
-            <span className="block font-semibold text-ink">In Zeitleiste anzeigen</span>
-            <span className="block text-ink/60">
-              Deaktivieren, wenn der Beitrag im Archiv sichtbar bleiben, aber nicht in der Zeitleiste erscheinen soll.
-            </span>
-          </span>
-        </label>
+          <CollapsibleSection
+            eyebrow="Veröffentlichung"
+            title="Veröffentlichung"
+            summary={form.showInTimeline !== false ? 'Zeitleiste aktiv' : 'Nur Archiv'}
+            isOpen={openSections.publishing}
+            onToggle={() => toggleSection('publishing')}
+          >
+            <label className="flex items-start gap-3 rounded-sm border border-parchment-dark bg-parchment/20 p-4 text-sm text-ink/80">
+              <input
+                type="checkbox"
+                name="showInTimeline"
+                checked={form.showInTimeline !== false}
+                onChange={handleChange}
+                className="mt-1"
+              />
+              <span>
+                <span className="block font-semibold text-ink">In Zeitleiste anzeigen</span>
+                <span className="block text-ink/60">
+                  Deaktivieren, wenn der Beitrag im Archiv sichtbar bleiben, aber nicht in der Zeitleiste erscheinen soll.
+                </span>
+              </span>
+            </label>
+          </CollapsibleSection>
 
-        <div className="flex items-center justify-between">
+        <div className="sticky bottom-4 z-10 flex items-center justify-between rounded-sm border border-parchment-dark bg-white px-4 py-3 shadow-md">
           {status && (
             <p className={`text-sm ${status.type === 'success' ? 'text-green-600' : 'text-red-600'}`}>
               {status.message}
