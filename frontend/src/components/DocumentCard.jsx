@@ -30,7 +30,7 @@ const DocumentCard = ({ document }) => {
 
     const previewText = React.useMemo(() => {
         const plain = toPlainText(document.description);
-        return plain || 'Keine Beschreibung vorhanden.';
+        return plain || 'Keine Kurzfassung vorhanden.';
     }, [document.description]);
 
     return (

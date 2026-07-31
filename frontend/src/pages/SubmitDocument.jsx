@@ -695,15 +695,17 @@ const SubmitDocument = () => {
         </label>
 
         <MarkdownEditor
+          label="Kurzfassung"
           value={form.description}
           onChange={(nextValue) => setForm((prev) => ({ ...prev, description: nextValue }))}
-          placeholder="Optionaler Beschreibungstext mit Kontext, Einordnung oder Hinweisen."
+          placeholder="Optionale Kurzfassung mit Kontext, Einordnung oder Hinweisen."
         />
 
         <MarkdownEditor
+          label="Abschrift"
           value={form.transcription}
           onChange={(nextValue) => setForm((prev) => ({ ...prev, transcription: nextValue }))}
-          placeholder="Optionale Transkription, Notizen oder Beobachtungen."
+          placeholder="Optionale Abschrift des Originaltexts, Notizen oder Beobachtungen."
         />
 
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">

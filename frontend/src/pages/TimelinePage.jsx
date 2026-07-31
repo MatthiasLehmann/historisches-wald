@@ -513,7 +513,7 @@ const TimelinePage = () => {
                         <RichTextContent
                             content={selectedDocument.description}
                             className="text-ink/70 leading-relaxed"
-                            emptyFallback="Keine Beschreibung vorhanden."
+                            emptyFallback="Keine Kurzfassung vorhanden."
                         />
                         <div className="flex flex-wrap gap-3 text-sm text-ink/60">
                             <span className="inline-flex items-center gap-2">
@@ -551,7 +551,7 @@ const TimelinePage = () => {
                         <h3 className="font-serif text-lg font-bold text-ink">Kurzinfo</h3>
                         <p className="text-sm text-ink/70 leading-relaxed">
                             {selectedDocument.transcription
-                                ? 'Enthält Transkription und Bildmaterial.'
+                                ? 'Enthält Abschrift und Bildmaterial.'
                                 : 'Zusätzliche Materialien folgen.'}
                         </p>
                         {(() => {

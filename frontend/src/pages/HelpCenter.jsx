@@ -72,7 +72,7 @@ const workflows = [
       {
         title: 'Inhalte prüfen',
         detail:
-          'Nutze den rechten Detailbereich, um Beschreibung, Transkription, verknüpfte Bilder (Karussell) und PDFs (Links zum Herunterladen) zu kontrollieren. Ergänze Kommentare direkt im Prüf-Panel.'
+          'Nutze den rechten Detailbereich, um Kurzfassung, Abschrift, verknüpfte Bilder (Karussell) und PDFs (Links zum Herunterladen) zu kontrollieren. Ergänze Kommentare direkt im Prüf-Panel.'
       },
       {
         title: 'Status setzen & Commit vorbereiten',

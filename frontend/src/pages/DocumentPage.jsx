@@ -154,12 +154,12 @@ const DocumentPage = () => {
                 <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
                     <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
                         <FileText size={20} className="text-accent" />
-                        Beschreibung
+                        Kurzfassung
                     </h3>
                     <RichTextContent
                         content={document.description}
                         className="prose-lg text-ink/80 prose-headings:font-serif"
-                        emptyFallback="Keine Beschreibung vorhanden."
+                        emptyFallback="Keine Kurzfassung vorhanden."
                     />
                 </section>
 
@@ -167,13 +167,13 @@ const DocumentPage = () => {
                     <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
                         <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
                             <ScrollText size={20} className="text-accent" />
-                            Transkription
+                            Abschrift
                         </h3>
                         <div className="border-l-4 border-accent/20 pl-4 py-2 bg-parchment/20 rounded-sm">
                             <RichTextContent
                                 content={document.transcription}
                                 className="prose prose-sm text-ink/80"
-                                emptyFallback="Keine Transkription vorhanden."
+                                emptyFallback="Keine Abschrift vorhanden."
                             />
                         </div>
                     </section>

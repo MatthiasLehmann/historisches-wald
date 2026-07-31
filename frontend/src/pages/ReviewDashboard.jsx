@@ -233,7 +233,7 @@ const ReviewDashboard = () => {
                 <RichTextContent
                   content={selectedDocument.description}
                   className="text-sm text-ink/80"
-                  emptyFallback="Keine Beschreibung vorhanden."
+                  emptyFallback="Keine Kurzfassung vorhanden."
                 />
 
                 {coverImage && (
@@ -315,11 +315,11 @@ const ReviewDashboard = () => {
                 )}
                 {selectedDocument.transcription && (
                   <details className="text-sm text-ink/70">
-                    <summary className="cursor-pointer text-ink font-semibold">Transkription anzeigen</summary>
+                    <summary className="cursor-pointer text-ink font-semibold">Abschrift anzeigen</summary>
                     <div className="mt-2 border border-parchment-dark/40 rounded-sm p-3 bg-parchment/30">
                       <RichTextContent
                         content={selectedDocument.transcription}
-                        emptyFallback="Keine Transkription vorhanden."
+                        emptyFallback="Keine Abschrift vorhanden."
                       />
                     </div>
                   </details>
