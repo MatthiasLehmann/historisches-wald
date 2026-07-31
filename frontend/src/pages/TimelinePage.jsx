@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Calendar, MapPin, ArrowRight } from 'lucide-react';
-import MediaTimelineSection from '../components/MediaTimelineSection.jsx';
 import RichTextContent from '../components/RichTextContent';
 import { fetchDocuments } from '../services/api';
 
@@ -575,10 +574,6 @@ const TimelinePage = () => {
                     </article>
                 </section>
             )}
-
-            <div className="py-10 border-t border-parchment-dark/70">
-                <MediaTimelineSection />
-            </div>
         </div>
     );
 };
