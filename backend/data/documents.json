@@ -26,7 +26,9 @@
       "reviewer": "Matthias Lehmann",
       "reviewedAt": "2026-07-31T21:09:31.962Z",
       "comments": []
-    }
+    },
+    "showInArchive": false,
+    "showInWordCloud": false
   },
   {
     "id": "doc-1777628824634",
@@ -83,7 +85,9 @@
     "showInTimeline": true,
     "sortOrder": 0,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1777382928753",
@@ -284,7 +288,9 @@
     "showInTimeline": true,
     "sortOrder": 1,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1776026934722",
@@ -331,7 +337,9 @@
     "showInTimeline": true,
     "sortOrder": 2,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1776025448371",
@@ -378,7 +386,9 @@
     "showInTimeline": true,
     "sortOrder": 3,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774889357455",
@@ -421,7 +431,9 @@
     "showInTimeline": true,
     "sortOrder": 4,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774889252179",
@@ -470,7 +482,9 @@
     "showInTimeline": true,
     "sortOrder": 5,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774888686730",
@@ -513,7 +527,9 @@
     "showInTimeline": true,
     "sortOrder": 6,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774887820230",
@@ -556,7 +572,9 @@
     "showInTimeline": true,
     "sortOrder": 7,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774813143373",
@@ -599,7 +617,9 @@
     "showInTimeline": true,
     "sortOrder": 8,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774812548804",
@@ -642,7 +662,9 @@
     "showInTimeline": true,
     "sortOrder": 9,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774812369590",
@@ -685,7 +707,9 @@
     "showInTimeline": true,
     "sortOrder": 10,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774810698858",
@@ -724,7 +748,9 @@
     "showInTimeline": true,
     "sortOrder": 11,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774797137965",
@@ -767,7 +793,9 @@
     "showInTimeline": true,
     "sortOrder": 12,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774792807738",
@@ -810,7 +838,9 @@
     "showInTimeline": true,
     "sortOrder": 13,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774727979162",
@@ -853,7 +883,9 @@
     "showInTimeline": true,
     "sortOrder": 14,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774726977851",
@@ -896,7 +928,9 @@
     "showInTimeline": true,
     "sortOrder": 15,
     "parent_id": "doc-1785531865123",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774538326613",
@@ -925,7 +959,9 @@
     "showInTimeline": true,
     "sortOrder": 16,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774383823656",
@@ -956,7 +992,9 @@
     "showInTimeline": true,
     "sortOrder": 17,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774383559012",
@@ -989,7 +1027,9 @@
     "showInTimeline": true,
     "sortOrder": 18,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774383394773",
@@ -1022,7 +1062,9 @@
     "showInTimeline": true,
     "sortOrder": 19,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774383138323",
@@ -1055,7 +1097,9 @@
     "showInTimeline": true,
     "sortOrder": 20,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1774382875072",
@@ -1088,7 +1132,9 @@
     "showInTimeline": true,
     "sortOrder": 21,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773864336058",
@@ -1275,7 +1321,9 @@
     "showInTimeline": true,
     "sortOrder": 22,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773863844309",
@@ -1546,7 +1594,9 @@
     "showInTimeline": true,
     "sortOrder": 23,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773863631556",
@@ -1889,7 +1939,9 @@
     "showInTimeline": true,
     "sortOrder": 24,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773863442195",
@@ -2100,7 +2152,9 @@
     "showInTimeline": true,
     "sortOrder": 25,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773863307840",
@@ -2347,7 +2401,9 @@
     "showInTimeline": true,
     "sortOrder": 26,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773863165945",
@@ -2510,7 +2566,9 @@
     "showInTimeline": true,
     "sortOrder": 27,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773862952670",
@@ -2745,7 +2803,9 @@
     "showInTimeline": true,
     "sortOrder": 28,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773862786554",
@@ -2884,7 +2944,9 @@
     "showInTimeline": true,
     "sortOrder": 29,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773780217150",
@@ -3083,7 +3145,9 @@
     "showInTimeline": true,
     "sortOrder": 30,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773780067288",
@@ -3246,7 +3310,9 @@
     "showInTimeline": true,
     "sortOrder": 31,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773779591911",
@@ -3349,7 +3415,9 @@
     "showInTimeline": true,
     "sortOrder": 32,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773779295611",
@@ -3454,7 +3522,9 @@
     "showInTimeline": true,
     "sortOrder": 33,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773779027026",
@@ -3497,7 +3567,9 @@
     "showInTimeline": true,
     "sortOrder": 34,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773778835578",
@@ -3552,7 +3624,9 @@
     "showInTimeline": true,
     "sortOrder": 35,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773778317940",
@@ -3607,7 +3681,9 @@
     "showInTimeline": true,
     "sortOrder": 36,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773778043563",
@@ -3856,7 +3932,9 @@
     "showInTimeline": true,
     "sortOrder": 37,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773692474289",
@@ -3947,7 +4025,9 @@
     "showInTimeline": true,
     "sortOrder": 38,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773604907260",
@@ -3990,7 +4070,9 @@
     "showInTimeline": true,
     "sortOrder": 39,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773602741074",
@@ -4105,7 +4187,9 @@
     "showInTimeline": true,
     "sortOrder": 40,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773522608428",
@@ -4148,7 +4232,9 @@
     "showInTimeline": true,
     "sortOrder": 41,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773521051264",
@@ -4191,7 +4277,9 @@
     "showInTimeline": true,
     "sortOrder": 42,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773520196228",
@@ -4249,7 +4337,9 @@
     "showInTimeline": true,
     "sortOrder": 43,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773345924399",
@@ -4364,7 +4454,9 @@
     "showInTimeline": true,
     "sortOrder": 44,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773344143870",
@@ -4409,7 +4501,9 @@
     "showInTimeline": true,
     "sortOrder": 45,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773174523515",
@@ -4452,7 +4546,9 @@
     "showInTimeline": true,
     "sortOrder": 46,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773163864893",
@@ -4533,7 +4629,9 @@
     "showInTimeline": true,
     "sortOrder": 47,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773162567744",
@@ -4962,7 +5060,9 @@
     "showInTimeline": true,
     "sortOrder": 48,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773162092550",
@@ -5141,7 +5241,9 @@
     "showInTimeline": true,
     "sortOrder": 49,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773160927181",
@@ -5283,7 +5385,9 @@
     "showInTimeline": true,
     "sortOrder": 50,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773146549544",
@@ -5424,7 +5528,9 @@
     "showInTimeline": true,
     "sortOrder": 51,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773142218885",
@@ -5455,7 +5561,9 @@
     "showInTimeline": true,
     "sortOrder": 52,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773141917829",
@@ -5502,7 +5610,9 @@
     "showInTimeline": true,
     "sortOrder": 53,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773141599058",
@@ -5561,7 +5671,9 @@
     "showInTimeline": true,
     "sortOrder": 54,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773141398447",
@@ -5607,7 +5719,9 @@
     "showInTimeline": true,
     "sortOrder": 55,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773141264662",
@@ -5690,7 +5804,9 @@
     "showInTimeline": true,
     "sortOrder": 56,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773141004117",
@@ -5737,7 +5853,9 @@
     "showInTimeline": true,
     "sortOrder": 57,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773140735222",
@@ -5784,7 +5902,9 @@
     "showInTimeline": true,
     "sortOrder": 58,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773140515594",
@@ -5830,7 +5950,9 @@
     "showInTimeline": true,
     "sortOrder": 59,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773140204219",
@@ -5876,7 +5998,9 @@
     "showInTimeline": true,
     "sortOrder": 60,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773139677077",
@@ -5922,7 +6046,9 @@
     "showInTimeline": true,
     "sortOrder": 61,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1773009563858",
@@ -5974,7 +6100,9 @@
     "showInTimeline": true,
     "sortOrder": 62,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1772540073667",
@@ -6025,7 +6153,9 @@
     "showInTimeline": true,
     "sortOrder": 63,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1772558738917",
@@ -7516,7 +7646,9 @@
     "showInTimeline": true,
     "sortOrder": 64,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-1772554386220",
@@ -7557,7 +7689,9 @@
     "showInTimeline": true,
     "sortOrder": 65,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-001",
@@ -7603,7 +7737,9 @@
     "showInTimeline": true,
     "sortOrder": 66,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-005",
@@ -7654,7 +7790,9 @@
     "showInTimeline": true,
     "sortOrder": 67,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-002",
@@ -7705,7 +7843,9 @@
     "showInTimeline": true,
     "sortOrder": 68,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-003",
@@ -7765,7 +7905,9 @@
     "showInTimeline": true,
     "sortOrder": 69,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-004",
@@ -7800,7 +7942,9 @@
     "showInTimeline": true,
     "sortOrder": 70,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-005-2",
@@ -7837,7 +7981,9 @@
     "showInTimeline": true,
     "sortOrder": 71,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   },
   {
     "id": "doc-006",
@@ -7887,6 +8033,8 @@
     "showInTimeline": true,
     "sortOrder": 72,
     "parent_id": "",
-    "coverPhotoId": ""
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
   }
 ]
