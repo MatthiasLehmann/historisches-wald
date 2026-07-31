@@ -1,12 +1,14 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { FileText, Plus, RefreshCcw, Trash2 } from 'lucide-react';
+import { FileText, Plus, RefreshCcw, RotateCcw, Trash2 } from 'lucide-react';
 import PdfEditorModal from '../components/PdfEditorModal.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
 import {
   deletePdfAsset,
   fetchPdfs,
   importLocalPdfFile,
-  importRemotePdf
+  importRemotePdf,
+  permanentlyDeletePdfAsset,
+  restorePdfAsset
 } from '../services/api.js';
 
 const MediaPDFs = () => {
@@ -22,6 +24,7 @@ const MediaPDFs = () => {
   const [error, setError] = useState(null);
   const [isEditorOpen, setIsEditorOpen] = useState(false);
   const [editorPdf, setEditorPdf] = useState(null);
+  const [showTrash, setShowTrash] = useState(false);
   const [importData, setImportData] = useState({
     url: '',
     title: '',
@@ -46,25 +49,49 @@ const MediaPDFs = () => {
     setLoading(true);
     setError(null);
     try {
-      const result = await fetchPdfs(filters);
+      const result = await fetchPdfs({
+        ...filters,
+        trash: showTrash ? 'true' : undefined
+      });
       setPdfs(result);
     } catch (fetchError) {
       setError(fetchError.message);
     } finally {
       setLoading(false);
     }
-  }, [filters]);
+  }, [filters, showTrash]);
 
   useEffect(() => {
     loadPdfs();
   }, [loadPdfs]);
 
   const handleDelete = async (pdf) => {
-    if (!window.confirm(`PDF "${pdf.title}" wirklich löschen?`)) {
+    if (!window.confirm(`PDF "${pdf.title}" in den Papierkorb verschieben?`)) {
       return;
     }
     try {
       await deletePdfAsset(pdf.id);
+      loadPdfs();
+    } catch (deleteError) {
+      setError(deleteError.message);
+    }
+  };
+
+  const handleRestore = async (pdf) => {
+    try {
+      await restorePdfAsset(pdf.id);
+      loadPdfs();
+    } catch (restoreError) {
+      setError(restoreError.message);
+    }
+  };
+
+  const handlePermanentDelete = async (pdf) => {
+    if (!window.confirm(`PDF "${pdf.title}" endgültig löschen? Diese Aktion kann nicht rückgängig gemacht werden.`)) {
+      return;
+    }
+    try {
+      await permanentlyDeletePdfAsset(pdf.id);
       loadPdfs();
     } catch (deleteError) {
       setError(deleteError.message);
@@ -194,6 +221,24 @@ const MediaPDFs = () => {
           </button>
         </div>
 
+        <div className="flex flex-wrap items-center gap-2 border-t border-parchment-dark pt-4">
+          <button
+            type="button"
+            onClick={() => setShowTrash(false)}
+            className={`px-4 py-2 border rounded-sm text-sm ${showTrash ? 'border-parchment-dark' : 'border-ink bg-ink text-white'}`}
+          >
+            Aktive PDFs
+          </button>
+          <button
+            type="button"
+            onClick={() => setShowTrash(true)}
+            className={`px-4 py-2 border rounded-sm text-sm ${showTrash ? 'border-ink bg-ink text-white' : 'border-parchment-dark'}`}
+          >
+            Papierkorb
+          </button>
+        </div>
+
+        {!showTrash && (
         <div className="flex flex-col md:flex-row md:items-center gap-3 border-t border-parchment-dark pt-4">
           <form onSubmit={handleImport} className="flex flex-wrap gap-2 flex-1">
             <input
@@ -261,12 +306,13 @@ const MediaPDFs = () => {
             Neues PDF
           </button>
         </div>
+        )}
       </section>
 
       <section className="space-y-4">
         {loading && <p className="text-sm text-ink/60">Lade PDFs…</p>}
         {!loading && pdfs.length === 0 && (
-          <p className="text-sm text-ink/60">Keine PDFs vorhanden.</p>
+          <p className="text-sm text-ink/60">{showTrash ? 'Der Papierkorb ist leer.' : 'Keine PDFs vorhanden.'}</p>
         )}
         <ul className="space-y-4">
           {pdfs.map((pdf) => {
@@ -283,21 +329,44 @@ const MediaPDFs = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <StatusBadge status={pdf.review?.status} />
-                    <button
-                      type="button"
-                      onClick={() => handleOpenEditor(pdf)}
-                      className="px-4 py-2 border border-parchment-dark rounded-sm text-sm"
-                    >
-                      Bearbeiten
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => handleDelete(pdf)}
-                      className="px-3 py-2 border border-red-200 text-red-700 rounded-sm text-sm flex items-center gap-2"
-                    >
-                      <Trash2 size={16} />
-                      Löschen
-                    </button>
+                    {!showTrash ? (
+                      <>
+                        <button
+                          type="button"
+                          onClick={() => handleOpenEditor(pdf)}
+                          className="px-4 py-2 border border-parchment-dark rounded-sm text-sm"
+                        >
+                          Bearbeiten
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleDelete(pdf)}
+                          className="px-3 py-2 border border-red-200 text-red-700 rounded-sm text-sm flex items-center gap-2"
+                        >
+                          <Trash2 size={16} />
+                          In Papierkorb
+                        </button>
+                      </>
+                    ) : (
+                      <>
+                        <button
+                          type="button"
+                          onClick={() => handleRestore(pdf)}
+                          className="px-3 py-2 border border-emerald-200 text-emerald-700 rounded-sm text-sm flex items-center gap-2"
+                        >
+                          <RotateCcw size={16} />
+                          Wiederherstellen
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handlePermanentDelete(pdf)}
+                          className="px-3 py-2 border border-red-200 text-red-700 rounded-sm text-sm flex items-center gap-2"
+                        >
+                          <Trash2 size={16} />
+                          Endgültig löschen
+                        </button>
+                      </>
+                    )}
                   </div>
                 </div>
 
@@ -318,6 +387,9 @@ const MediaPDFs = () => {
                       <p>Lizenz: {formatLicenseLabel(pdf.license || 'rights-reserved')}</p>
                       {pdf.linkedDocuments?.length > 0 && (
                         <p>Verknüpfte Dokumente: {pdf.linkedDocuments.join(', ')}</p>
+                      )}
+                      {pdf.deletedAt && (
+                        <p>Im Papierkorb seit: {new Date(pdf.deletedAt).toLocaleString()}</p>
                       )}
                       <p>Aktualisiert: {new Date(pdf.updatedAt).toLocaleString()}</p>
                     </div>

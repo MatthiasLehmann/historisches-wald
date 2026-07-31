@@ -113,7 +113,15 @@ const filterPdfs = (pdfs, query) => {
     sort = 'updatedAt',
     order = 'desc'
   } = query;
+  const trashMode = query.trash === 'true' || query.deleted === 'only';
+  const includeDeleted = query.includeDeleted === 'true' || query.deleted === 'all';
   let result = [...pdfs];
+
+  if (trashMode) {
+    result = result.filter((pdf) => Boolean(pdf.deletedAt));
+  } else if (!includeDeleted) {
+    result = result.filter((pdf) => !pdf.deletedAt);
+  }
 
   if (ids) {
     const idSet = new Set(ids.split(',').map((value) => value.trim()).filter(Boolean));
@@ -289,6 +297,46 @@ export const updatePdf = async (req, res) => {
 export const deletePdf = async (req, res) => {
   try {
     const pdfs = await readPdfs();
+    const index = pdfs.findIndex((pdf) => pdf.id === req.params.id);
+    if (index === -1) {
+      return res.status(404).json({ message: 'PDF nicht gefunden.' });
+    }
+    const updated = {
+      ...pdfs[index],
+      deletedAt: pdfs[index].deletedAt || new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+    pdfs[index] = updated;
+    await writePdfs(pdfs);
+    res.json(updated);
+  } catch (error) {
+    handleError(res, error, 'PDF konnte nicht gelöscht werden.');
+  }
+};
+
+export const restorePdf = async (req, res) => {
+  try {
+    const pdfs = await readPdfs();
+    const index = pdfs.findIndex((pdf) => pdf.id === req.params.id);
+    if (index === -1) {
+      return res.status(404).json({ message: 'PDF nicht gefunden.' });
+    }
+    const updated = {
+      ...pdfs[index],
+      deletedAt: null,
+      updatedAt: new Date().toISOString()
+    };
+    pdfs[index] = updated;
+    await writePdfs(pdfs);
+    res.json(updated);
+  } catch (error) {
+    handleError(res, error, 'PDF konnte nicht wiederhergestellt werden.');
+  }
+};
+
+export const permanentlyDeletePdf = async (req, res) => {
+  try {
+    const pdfs = await readPdfs();
     const filtered = pdfs.filter((pdf) => pdf.id !== req.params.id);
     if (filtered.length === pdfs.length) {
       return res.status(404).json({ message: 'PDF nicht gefunden.' });
@@ -297,7 +345,7 @@ export const deletePdf = async (req, res) => {
     await persistDocumentPdfRemoval(req.params.id);
     res.status(204).send();
   } catch (error) {
-    handleError(res, error, 'PDF konnte nicht gelöscht werden.');
+    handleError(res, error, 'PDF konnte nicht endgültig gelöscht werden.');
   }
 };
 

@@ -1,8 +1,16 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import { RotateCcw, Trash2 } from 'lucide-react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import PhotoEditor from '../components/PhotoEditor';
 import StatusBadge from '../components/StatusBadge';
-import { fetchPhotoAlbums, fetchPhotoById, updatePhoto } from '../services/api.js';
+import {
+  deletePhoto,
+  fetchPhotoAlbums,
+  fetchPhotoById,
+  permanentlyDeletePhoto,
+  restorePhoto,
+  updatePhoto
+} from '../services/api.js';
 
 const mapPhotoToForm = (photo) => ({
   name: photo?.name ?? '',
@@ -28,6 +36,7 @@ const PhotoDetailPage = () => {
   const [albums, setAlbums] = useState([]);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [mediaActionPending, setMediaActionPending] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
@@ -94,6 +103,66 @@ const PhotoDetailPage = () => {
     }
   };
 
+  const handleMoveToTrash = async () => {
+    if (!photoId || !photo) {
+      return;
+    }
+    if (!window.confirm(`Foto "${photo.name || photo.id}" in den Papierkorb verschieben?`)) {
+      return;
+    }
+    setMediaActionPending(true);
+    setError('');
+    setSuccess('');
+    try {
+      const updated = await deletePhoto(photoId);
+      setPhoto(updated);
+      setFormState(mapPhotoToForm(updated));
+      setSuccess('Foto wurde in den Papierkorb verschoben.');
+    } catch (err) {
+      setError(err.message || 'Foto konnte nicht in den Papierkorb verschoben werden.');
+    } finally {
+      setMediaActionPending(false);
+    }
+  };
+
+  const handleRestore = async () => {
+    if (!photoId) {
+      return;
+    }
+    setMediaActionPending(true);
+    setError('');
+    setSuccess('');
+    try {
+      const updated = await restorePhoto(photoId);
+      setPhoto(updated);
+      setFormState(mapPhotoToForm(updated));
+      setSuccess('Foto wurde wiederhergestellt.');
+    } catch (err) {
+      setError(err.message || 'Foto konnte nicht wiederhergestellt werden.');
+    } finally {
+      setMediaActionPending(false);
+    }
+  };
+
+  const handlePermanentDelete = async () => {
+    if (!photoId || !photo) {
+      return;
+    }
+    if (!window.confirm(`Foto "${photo.name || photo.id}" endgültig löschen? Diese Aktion kann nicht rückgängig gemacht werden.`)) {
+      return;
+    }
+    setMediaActionPending(true);
+    setError('');
+    setSuccess('');
+    try {
+      await permanentlyDeletePhoto(photoId);
+      navigate('/albums');
+    } catch (err) {
+      setError(err.message || 'Foto konnte nicht endgültig gelöscht werden.');
+      setMediaActionPending(false);
+    }
+  };
+
   const albumsList = useMemo(() => albums ?? [], [albums]);
 
   return (
@@ -106,11 +175,52 @@ const PhotoDetailPage = () => {
           <h1 className="text-3xl font-serif">Foto {photoId}</h1>
           {photo?.missing && <p className="text-red-600 text-sm">Datei fehlt auf dem Datenträger.</p>}
         </div>
-        {photo && <StatusBadge status={photo.review?.status} />}
+        {photo && (
+          <div className="flex flex-wrap items-center gap-3">
+            <StatusBadge status={photo.review?.status} />
+            {photo.deletedAt ? (
+              <>
+                <button
+                  type="button"
+                  onClick={handleRestore}
+                  className="px-3 py-2 border border-emerald-200 text-emerald-700 rounded-md text-sm flex items-center gap-2 disabled:opacity-50"
+                  disabled={mediaActionPending}
+                >
+                  <RotateCcw size={16} />
+                  Wiederherstellen
+                </button>
+                <button
+                  type="button"
+                  onClick={handlePermanentDelete}
+                  className="px-3 py-2 border border-red-200 text-red-700 rounded-md text-sm flex items-center gap-2 disabled:opacity-50"
+                  disabled={mediaActionPending}
+                >
+                  <Trash2 size={16} />
+                  Endgültig löschen
+                </button>
+              </>
+            ) : (
+              <button
+                type="button"
+                onClick={handleMoveToTrash}
+                className="px-3 py-2 border border-red-200 text-red-700 rounded-md text-sm flex items-center gap-2 disabled:opacity-50"
+                disabled={mediaActionPending}
+              >
+                <Trash2 size={16} />
+                In Papierkorb
+              </button>
+            )}
+          </div>
+        )}
       </div>
 
       {error && <p className="text-red-600">{error}</p>}
       {success && <p className="text-emerald-600">{success}</p>}
+      {photo?.deletedAt && (
+        <p className="bg-amber-50 border border-amber-200 text-amber-800 px-4 py-2 text-sm rounded-md">
+          Dieses Foto liegt seit {new Date(photo.deletedAt).toLocaleString()} im Papierkorb.
+        </p>
+      )}
 
       {photo && (
         <div className="grid gap-6 lg:grid-cols-2">
@@ -169,15 +279,15 @@ const PhotoDetailPage = () => {
           </div>
 
           <div className="flex flex-col gap-4">
-            <PhotoEditor value={formState} onChange={setFormState} disabled={saving} />
+            <PhotoEditor value={formState} onChange={setFormState} disabled={saving || Boolean(photo.deletedAt)} />
             <div className="flex justify-end">
               <button
                 type="button"
                 onClick={handleSave}
                 className="px-4 py-2 bg-ink text-white rounded-md disabled:opacity-50"
-                disabled={saving}
+                disabled={saving || Boolean(photo.deletedAt)}
               >
-                {saving ? 'Speichern...' : 'Foto speichern'}
+                {photo.deletedAt ? 'Foto im Papierkorb' : saving ? 'Speichern...' : 'Foto speichern'}
               </button>
             </div>
           </div>

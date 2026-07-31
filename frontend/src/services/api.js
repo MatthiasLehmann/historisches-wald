@@ -104,6 +104,16 @@ export const deletePdfAsset = async (id) => {
     return handleResponse(response);
 };
 
+export const restorePdfAsset = async (id) => {
+    const response = await fetch(`${API_BASE}/pdfs/${id}/restore`, { method: 'POST' });
+    return handleResponse(response);
+};
+
+export const permanentlyDeletePdfAsset = async (id) => {
+    const response = await fetch(`${API_BASE}/pdfs/${id}/permanent`, { method: 'DELETE' });
+    return handleResponse(response);
+};
+
 export const importRemotePdf = async (payload) => mutatePdf('/pdfs/import-url', 'POST', payload);
 
 export const importLocalPdfFile = async (payload) => {
@@ -248,6 +258,21 @@ export const fetchPhotoById = async (id) => {
 
 export const updatePhoto = async (id, payload) =>
     mutateJson(`${API_BASE}/photos/${id}`, 'PUT', payload);
+
+export const deletePhoto = async (id) => {
+    const response = await fetch(`${API_BASE}/photos/${id}`, { method: 'DELETE' });
+    return handleResponse(response);
+};
+
+export const restorePhoto = async (id) => {
+    const response = await fetch(`${API_BASE}/photos/${id}/restore`, { method: 'POST' });
+    return handleResponse(response);
+};
+
+export const permanentlyDeletePhoto = async (id) => {
+    const response = await fetch(`${API_BASE}/photos/${id}/permanent`, { method: 'DELETE' });
+    return handleResponse(response);
+};
 
 export const fetchPhotoAlbums = async (id) => {
     const response = await fetch(`${API_BASE}/photos/${id}/albums`);

@@ -259,3 +259,32 @@ export const removePhotoFromAlbum = async (albumId, photoId) => {
 
   return normalizeAlbum(album);
 };
+
+export const removePhotoFromAllAlbums = async (photoId) => {
+  const payload = await loadAlbumsRaw();
+  const normalizedPhotoId = String(photoId);
+  let changed = false;
+
+  payload.albums = payload.albums.map((album) => {
+    const existingPhotos = Array.isArray(album.photos) ? album.photos.map((value) => String(value)) : [];
+    const nextPhotos = existingPhotos.filter((id) => id !== normalizedPhotoId);
+    const nextCoverPhoto = String(album.cover_photo || '') === normalizedPhotoId ? '' : album.cover_photo;
+    if (nextPhotos.length === existingPhotos.length && nextCoverPhoto === album.cover_photo) {
+      return album;
+    }
+    changed = true;
+    return {
+      ...album,
+      cover_photo: nextCoverPhoto,
+      photos: nextPhotos,
+      photo_count: nextPhotos.length,
+      last_updated: getUnixTimestamp()
+    };
+  });
+
+  if (changed) {
+    await saveAlbumsRaw(payload);
+  }
+
+  return payload.albums.map(normalizeAlbum);
+};

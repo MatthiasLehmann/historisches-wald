@@ -70,7 +70,8 @@ export const normalizePdf = (pdf = {}) => {
     },
     linkedDocuments: ensureTags(pdf.linkedDocuments),
     createdAt,
-    updatedAt: pdf.updatedAt ?? createdAt
+    updatedAt: pdf.updatedAt ?? createdAt,
+    deletedAt: pdf.deletedAt ?? null
   };
 };
 

@@ -9,6 +9,8 @@ import {
   importPdfFromUrl,
   listLocalPdfFiles,
   listPdfs,
+  permanentlyDeletePdf,
+  restorePdf,
   updatePdf,
   updateReviewStatus
 } from '../controllers/pdfsController.js';
@@ -23,6 +25,8 @@ router.post('/import-file', importPdfFromFile);
 router.get('/:id', getPdf);
 router.put('/:id', updatePdf);
 router.delete('/:id', deletePdf);
+router.post('/:id/restore', restorePdf);
+router.delete('/:id/permanent', permanentlyDeletePdf);
 router.post('/:id/review/comment', addReviewComment);
 router.put('/:id/review/status', updateReviewStatus);
 router.put('/:id/review/complete', completeReview);

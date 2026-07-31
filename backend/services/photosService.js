@@ -81,6 +81,7 @@ const normalizePhoto = (photo, fallbackId, overrides = {}) => {
     missing: Boolean(photo?.missing),
     createdAt: typeof photo?.createdAt === 'string' ? photo.createdAt : null,
     updatedAt: typeof photo?.updatedAt === 'string' ? photo.updatedAt : null,
+    deletedAt: typeof photo?.deletedAt === 'string' ? photo.deletedAt : null,
     ...overrides
   };
   return normalized;
@@ -297,7 +298,9 @@ const extractPhotoIdFromFile = (fileName) => {
   return fileName.slice('photo_'.length, -'.json'.length);
 };
 
-export const listPhotos = async () => {
+export const listPhotos = async (options = {}) => {
+  const includeDeleted = options.includeDeleted === true;
+  const trashOnly = options.trashOnly === true;
   const photosDir = getPhotosDir();
   let files = [];
   try {
@@ -326,7 +329,14 @@ export const listPhotos = async () => {
       }
     })
   );
-  return photos.filter(Boolean);
+  return photos
+    .filter(Boolean)
+    .filter((photo) => {
+      if (trashOnly) {
+        return Boolean(photo.deletedAt);
+      }
+      return includeDeleted || !photo.deletedAt;
+    });
 };
 
 export const updatePhotoById = async (photoId, input) => {
@@ -336,10 +346,57 @@ export const updatePhotoById = async (photoId, input) => {
   return normalizePhoto(updated, photoId);
 };
 
-export const getPhotosByIds = async (photoIds = []) => {
+export const trashPhotoById = async (photoId) => {
+  const existing = await readPhotoRaw(photoId);
+  if (!existing) {
+    const error = new Error(`Photo ${photoId} not found.`);
+    error.statusCode = 404;
+    throw error;
+  }
+  const now = new Date().toISOString();
+  const updated = {
+    ...existing,
+    deletedAt: existing.deletedAt || now,
+    updatedAt: now
+  };
+  await writePhotoRaw(photoId, updated);
+  return normalizePhoto(updated, photoId);
+};
+
+export const restorePhotoById = async (photoId) => {
+  const existing = await readPhotoRaw(photoId);
+  if (!existing) {
+    const error = new Error(`Photo ${photoId} not found.`);
+    error.statusCode = 404;
+    throw error;
+  }
+  const updated = {
+    ...existing,
+    deletedAt: null,
+    updatedAt: new Date().toISOString()
+  };
+  await writePhotoRaw(photoId, updated);
+  return normalizePhoto(updated, photoId);
+};
+
+export const permanentlyDeletePhotoById = async (photoId) => {
+  const existing = await readPhotoRaw(photoId);
+  if (!existing) {
+    const error = new Error(`Photo ${photoId} not found.`);
+    error.statusCode = 404;
+    throw error;
+  }
+  await fs.unlink(getPhotoFilePath(photoId));
+  return normalizePhoto(existing, photoId);
+};
+
+export const getPhotosByIds = async (photoIds = [], options = {}) => {
   const uniqueIds = Array.from(new Set(photoIds.map((value) => String(value))));
   const photos = await Promise.all(uniqueIds.map((id) => getPhotoById(id)));
-  return photos;
+  if (options.includeDeleted) {
+    return photos;
+  }
+  return photos.filter((photo) => !photo.deletedAt);
 };
 
 export const REVIEW_STATUS_OPTIONS = REVIEW_STATUSES;
