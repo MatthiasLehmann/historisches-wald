@@ -89,7 +89,7 @@ const Home = () => {
     }, []);
 
     const approvedDocuments = React.useMemo(
-        () => documents.filter((doc) => doc?.review?.status === 'approved'),
+        () => documents.filter((doc) => doc?.review?.status === 'approved' && doc?.showInArchive !== false),
         [documents]
     );
 
