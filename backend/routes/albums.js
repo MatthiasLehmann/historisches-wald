@@ -2,6 +2,7 @@ import { Router } from 'express';
 import {
   createAlbum,
   createAlbumPhoto,
+  deleteAlbum,
   getAlbum,
   getAlbumPhotos,
   getAlbums,
@@ -16,6 +17,7 @@ router.get('/', getAlbums);
 router.post('/', createAlbum);
 router.get('/:id', getAlbum);
 router.put('/:id', updateAlbum);
+router.delete('/:id', deleteAlbum);
 router.post('/:id/photos', createAlbumPhoto);
 router.get('/:id/photos', getAlbumPhotos);
 router.put('/:id/photos/order', updateAlbumPhotoOrder);

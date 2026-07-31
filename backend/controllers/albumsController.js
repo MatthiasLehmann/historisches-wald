@@ -2,6 +2,7 @@ import { promises as fs } from 'fs';
 import {
   addPhotoToAlbum,
   createAlbum as createAlbumEntry,
+  deleteAlbumById,
   ensureUnassignedAlbum,
   getAlbumById,
   listAlbums,
@@ -76,6 +77,15 @@ export const createAlbum = async (req, res, next) => {
   try {
     const album = await createAlbumEntry(req.body || {});
     res.status(201).json(album);
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const deleteAlbum = async (req, res, next) => {
+  try {
+    const deleted = await deleteAlbumById(req.params.id);
+    res.json({ album: deleted });
   } catch (error) {
     next(error);
   }

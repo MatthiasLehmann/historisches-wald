@@ -201,6 +201,11 @@ export const createAlbum = async (payload) =>
 export const updateAlbum = async (id, payload) =>
     mutateJson(`${API_BASE}/albums/${id}`, 'PUT', payload);
 
+export const deleteAlbum = async (id) => {
+    const response = await fetch(`${API_BASE}/albums/${id}`, { method: 'DELETE' });
+    return handleResponse(response);
+};
+
 export const fetchAlbumPhotos = async (id) => {
     const response = await fetch(`${API_BASE}/albums/${id}/photos`);
     return handleResponse(response);

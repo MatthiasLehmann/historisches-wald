@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { ChevronDown, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { createAlbum, fetchAlbums, uploadAlbumPhoto } from '../services/api.js';
+import { createAlbum, deleteAlbum, fetchAlbums, uploadAlbumPhoto } from '../services/api.js';
 
 const sortAlbums = (albums, sortKey, order) => {
   const sorted = [...albums].sort((a, b) => {
@@ -108,6 +109,31 @@ const AlbumTree = ({ albums, expandedIds, onToggle }) => {
   );
 };
 
+const CollapsiblePanel = ({ eyebrow, title, summary, isOpen, onToggle, children }) => (
+  <section className="bg-white border border-parchment-dark rounded-lg shadow-sm">
+    <button
+      type="button"
+      onClick={onToggle}
+      className="w-full flex items-start justify-between gap-4 p-6 text-left"
+      aria-expanded={isOpen}
+    >
+      <span>
+        {eyebrow && <span className="block text-xs uppercase tracking-[0.3em] text-ink/50 mb-2">{eyebrow}</span>}
+        <span className="block text-xl font-serif text-ink">{title}</span>
+      </span>
+      <span className="flex items-center gap-3 text-xs text-ink/60">
+        {summary && <span>{summary}</span>}
+        {isOpen ? <ChevronDown size={18} /> : <ChevronRight size={18} />}
+      </span>
+    </button>
+    {isOpen && (
+      <div className="px-6 pb-6">
+        {children}
+      </div>
+    )}
+  </section>
+);
+
 const AlbumsPage = () => {
   const [albums, setAlbums] = useState([]);
   const [search, setSearch] = useState('');
@@ -120,7 +146,14 @@ const AlbumsPage = () => {
   const [photoForm, setPhotoForm] = useState(defaultPhotoForm);
   const [creatingAlbum, setCreatingAlbum] = useState(false);
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
+  const [deletingAlbumId, setDeletingAlbumId] = useState(null);
   const [expandedIds, setExpandedIds] = useState([]);
+  const [openSections, setOpenSections] = useState({
+    albumTree: false,
+    createAlbum: false,
+    uploadPhoto: false,
+    filters: true
+  });
   const fileInputRef = useRef(null);
 
   useEffect(() => {
@@ -237,10 +270,60 @@ const AlbumsPage = () => {
     return sortAlbums(base, sortKey, order);
   }, [albums, search, sortKey, order]);
   const albumTree = useMemo(() => buildAlbumTree(albums), [albums]);
+  const childAlbumIds = useMemo(
+    () => new Set(albums.map((album) => String(album.parent_id || '')).filter(Boolean)),
+    [albums]
+  );
   const handleToggleNode = (albumId) => {
     setExpandedIds((prev) =>
       prev.includes(albumId) ? prev.filter((id) => id !== albumId) : [...prev, albumId]
     );
+  };
+  const handleExpandAllAlbums = () => {
+    setExpandedIds(albums.map((album) => album.id));
+  };
+  const handleCollapseAllAlbums = () => {
+    setExpandedIds([]);
+  };
+  const toggleSection = (sectionId) => {
+    setOpenSections((prev) => ({
+      ...prev,
+      [sectionId]: !prev[sectionId]
+    }));
+  };
+
+  const isAlbumEmpty = (album) => {
+    const photoCount = Number(album?.photo_count);
+    const photos = Array.isArray(album?.photos) ? album.photos : [];
+    return (!Number.isFinite(photoCount) || photoCount === 0) && photos.length === 0;
+  };
+
+  const canDeleteAlbum = (album) =>
+    Boolean(album?.id) &&
+    isAlbumEmpty(album) &&
+    !childAlbumIds.has(String(album.id)) &&
+    String(album.title || '').trim().toLowerCase() !== 'nicht zugewiesen';
+
+  const handleDeleteAlbum = async (album) => {
+    if (!canDeleteAlbum(album)) {
+      setError('Nur leere Alben ohne Unteralben können gelöscht werden.');
+      return;
+    }
+    if (!window.confirm(`Leeres Album "${album.title}" löschen?`)) {
+      return;
+    }
+    setDeletingAlbumId(album.id);
+    setError('');
+    setSuccessMessage('');
+    try {
+      await deleteAlbum(album.id);
+      setAlbums((prev) => prev.filter((entry) => entry.id !== album.id));
+      setSuccessMessage(`Album "${album.title}" wurde gelöscht.`);
+    } catch (err) {
+      setError(err.message || 'Album konnte nicht gelöscht werden.');
+    } finally {
+      setDeletingAlbumId(null);
+    }
   };
 
   return (
@@ -253,221 +336,256 @@ const AlbumsPage = () => {
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[320px_1fr] items-start">
-        <aside className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6">
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-ink/50">Struktur</p>
-              <h2 className="text-xl font-serif">Album-Baum</h2>
+        <CollapsiblePanel
+          eyebrow="Struktur"
+          title="Album-Baum"
+          summary={`${albums.length} Alben`}
+          isOpen={openSections.albumTree}
+          onToggle={() => toggleSection('albumTree')}
+        >
+          <>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <button
+                type="button"
+                onClick={handleExpandAllAlbums}
+                className="px-3 py-2 border border-parchment-dark rounded-md text-xs font-semibold text-ink disabled:opacity-50"
+                disabled={albums.length === 0 || expandedIds.length === albums.length}
+              >
+                Alles aufklappen
+              </button>
+              <button
+                type="button"
+                onClick={handleCollapseAllAlbums}
+                className="px-3 py-2 border border-parchment-dark rounded-md text-xs font-semibold text-ink disabled:opacity-50"
+                disabled={expandedIds.length === 0}
+              >
+                Alles zuklappen
+              </button>
             </div>
-            <span className="text-xs text-ink/60">{albums.length} Alben</span>
-          </div>
-          <div className="max-h-[480px] overflow-y-auto pr-2">
-            <AlbumTree albums={albumTree} expandedIds={expandedIds} onToggle={handleToggleNode} />
-          </div>
-        </aside>
+            <div className="max-h-[480px] overflow-y-auto pr-2">
+              <AlbumTree albums={albumTree} expandedIds={expandedIds} onToggle={handleToggleNode} />
+            </div>
+          </>
+        </CollapsiblePanel>
         <div className="grid gap-6 lg:grid-cols-2">
-          <form onSubmit={handleCreateAlbum} className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-4">
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-ink/50 mb-2">Neues Album</p>
-            <h2 className="text-xl font-serif">Album erstellen</h2>
-          </div>
-          <label className="text-sm text-ink/80 space-y-1">
-            Titel*
-            <input
-              name="title"
-              value={albumForm.title}
-              onChange={handleAlbumFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2"
-              required
-              disabled={creatingAlbum}
-            />
-          </label>
-          <label className="text-sm text-ink/80 space-y-1">
-            Beschreibung
-            <textarea
-              name="description"
-              rows={3}
-              value={albumForm.description}
-              onChange={handleAlbumFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2"
-              disabled={creatingAlbum}
-            />
-          </label>
-          <label className="text-sm text-ink/80 space-y-1">
-            Titelbild-URL
-            <input
-              name="cover_photo"
-              type="url"
-              value={albumForm.cover_photo}
-              onChange={handleAlbumFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2"
-              placeholder="https://..."
-              disabled={creatingAlbum}
-            />
-          </label>
-          <label className="text-sm text-ink/80 space-y-1">
-            Übergeordnetes Album
-            <select
-              name="parent_id"
-              value={albumForm.parent_id}
-              onChange={handleAlbumFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2 bg-white"
-              disabled={creatingAlbum}
-            >
-              <option value="">(Keines)</option>
-              {albums.map((entry) => (
-                <option key={entry.id} value={entry.id}>
-                  {entry.title}
-                </option>
-              ))}
-            </select>
-          </label>
-          <div className="flex justify-end">
-            <button
-              type="submit"
-              className="px-4 py-2 bg-ink text-white rounded-md disabled:opacity-50"
-              disabled={creatingAlbum}
-            >
-              {creatingAlbum ? 'Speichern...' : 'Album erstellen'}
-            </button>
-          </div>
-          </form>
+          <CollapsiblePanel
+            eyebrow="Neues Album"
+            title="Album erstellen"
+            summary={openSections.createAlbum ? 'Felder ausblenden' : 'Felder anzeigen'}
+            isOpen={openSections.createAlbum}
+            onToggle={() => toggleSection('createAlbum')}
+          >
+            <form onSubmit={handleCreateAlbum} className="flex flex-col gap-4">
+              <label className="text-sm text-ink/80 space-y-1">
+                Titel*
+                <input
+                  name="title"
+                  value={albumForm.title}
+                  onChange={handleAlbumFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2"
+                  required
+                  disabled={creatingAlbum}
+                />
+              </label>
+              <label className="text-sm text-ink/80 space-y-1">
+                Beschreibung
+                <textarea
+                  name="description"
+                  rows={3}
+                  value={albumForm.description}
+                  onChange={handleAlbumFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2"
+                  disabled={creatingAlbum}
+                />
+              </label>
+              <label className="text-sm text-ink/80 space-y-1">
+                Titelbild-URL
+                <input
+                  name="cover_photo"
+                  type="url"
+                  value={albumForm.cover_photo}
+                  onChange={handleAlbumFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2"
+                  placeholder="https://..."
+                  disabled={creatingAlbum}
+                />
+              </label>
+              <label className="text-sm text-ink/80 space-y-1">
+                Übergeordnetes Album
+                <select
+                  name="parent_id"
+                  value={albumForm.parent_id}
+                  onChange={handleAlbumFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2 bg-white"
+                  disabled={creatingAlbum}
+                >
+                  <option value="">(Keines)</option>
+                  {albums.map((entry) => (
+                    <option key={entry.id} value={entry.id}>
+                      {entry.title}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <div className="flex justify-end">
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-ink text-white rounded-md disabled:opacity-50"
+                  disabled={creatingAlbum}
+                >
+                  {creatingAlbum ? 'Speichern...' : 'Album erstellen'}
+                </button>
+              </div>
+            </form>
+          </CollapsiblePanel>
 
-          <form onSubmit={handlePhotoUpload} className="bg-white border border-parchment-dark rounded-lg shadow-sm p-6 flex flex-col gap-4">
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-ink/50 mb-2">Neues Bild</p>
-            <h2 className="text-xl font-serif">Foto zu Album hinzufügen</h2>
-          </div>
-          <label className="text-sm text-ink/80 space-y-1">
-            Album
-            <select
-              name="albumId"
-              value={photoForm.albumId}
-              onChange={handlePhotoFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2 bg-white"
-              disabled={albums.length === 0 || uploadingPhoto}
-            >
-              {albums.length === 0 && <option value="">Keine Alben vorhanden</option>}
-              {albums.map((album) => (
-                <option key={album.id} value={album.id}>
-                  {album.title}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="text-sm text-ink/80 space-y-1">
-            Titel
-            <input
-              name="name"
-              value={photoForm.name}
-              onChange={handlePhotoFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2"
-              placeholder="z.B. Dorfplatz"
-              disabled={uploadingPhoto}
-            />
-          </label>
-          <label className="text-sm text-ink/80 space-y-1">
-            Beschreibung
-            <textarea
-              name="description"
-              rows={3}
-              value={photoForm.description}
-              onChange={handlePhotoFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2"
-              disabled={uploadingPhoto}
-            />
-          </label>
-          <label className="text-sm text-ink/80 space-y-1">
-            Aufnahmedatum
-            <input
-              type="date"
-              name="date_taken"
-              value={photoForm.date_taken}
-              onChange={handlePhotoFieldChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2"
-              disabled={uploadingPhoto}
-            />
-          </label>
-          <label className="text-sm text-ink/80 space-y-1">
-            Bilddatei*
-            <input
-              type="file"
-              accept="image/*"
-              onChange={handlePhotoFileChange}
-              className="w-full border border-parchment-dark rounded-md px-3 py-2"
-              ref={fileInputRef}
-              disabled={uploadingPhoto}
-            />
-            {photoForm.file && (
-              <span className="text-xs text-ink/60">Ausgewählt: {photoForm.file.name}</span>
-            )}
-          </label>
-          <label className="flex items-center gap-2 text-sm text-ink/80">
-            <input
-              type="checkbox"
-              name="setAsCover"
-              checked={photoForm.setAsCover}
-              onChange={handlePhotoFieldChange}
-              disabled={uploadingPhoto}
-            />
-            Dieses Foto als Cover verwenden
-          </label>
-          <div className="flex justify-end">
-            <button
-              type="submit"
-              className="px-4 py-2 bg-parchment-dark text-ink rounded-md disabled:opacity-50"
-              disabled={uploadingPhoto || albums.length === 0}
-            >
-              {uploadingPhoto ? 'Ladet hoch...' : 'Foto hinzufügen'}
-            </button>
-          </div>
-          </form>
+          <CollapsiblePanel
+            eyebrow="Neues Bild"
+            title="Foto zu Album hinzufügen"
+            summary={openSections.uploadPhoto ? 'Felder ausblenden' : 'Felder anzeigen'}
+            isOpen={openSections.uploadPhoto}
+            onToggle={() => toggleSection('uploadPhoto')}
+          >
+            <form onSubmit={handlePhotoUpload} className="flex flex-col gap-4">
+              <label className="text-sm text-ink/80 space-y-1">
+                Album
+                <select
+                  name="albumId"
+                  value={photoForm.albumId}
+                  onChange={handlePhotoFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2 bg-white"
+                  disabled={albums.length === 0 || uploadingPhoto}
+                >
+                  {albums.length === 0 && <option value="">Keine Alben vorhanden</option>}
+                  {albums.map((album) => (
+                    <option key={album.id} value={album.id}>
+                      {album.title}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="text-sm text-ink/80 space-y-1">
+                Titel
+                <input
+                  name="name"
+                  value={photoForm.name}
+                  onChange={handlePhotoFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2"
+                  placeholder="z.B. Dorfplatz"
+                  disabled={uploadingPhoto}
+                />
+              </label>
+              <label className="text-sm text-ink/80 space-y-1">
+                Beschreibung
+                <textarea
+                  name="description"
+                  rows={3}
+                  value={photoForm.description}
+                  onChange={handlePhotoFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2"
+                  disabled={uploadingPhoto}
+                />
+              </label>
+              <label className="text-sm text-ink/80 space-y-1">
+                Aufnahmedatum
+                <input
+                  type="date"
+                  name="date_taken"
+                  value={photoForm.date_taken}
+                  onChange={handlePhotoFieldChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2"
+                  disabled={uploadingPhoto}
+                />
+              </label>
+              <label className="text-sm text-ink/80 space-y-1">
+                Bilddatei*
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={handlePhotoFileChange}
+                  className="w-full border border-parchment-dark rounded-md px-3 py-2"
+                  ref={fileInputRef}
+                  disabled={uploadingPhoto}
+                />
+                {photoForm.file && (
+                  <span className="text-xs text-ink/60">Ausgewählt: {photoForm.file.name}</span>
+                )}
+              </label>
+              <label className="flex items-center gap-2 text-sm text-ink/80">
+                <input
+                  type="checkbox"
+                  name="setAsCover"
+                  checked={photoForm.setAsCover}
+                  onChange={handlePhotoFieldChange}
+                  disabled={uploadingPhoto}
+                />
+                Dieses Foto als Cover verwenden
+              </label>
+              <div className="flex justify-end">
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-parchment-dark text-ink rounded-md disabled:opacity-50"
+                  disabled={uploadingPhoto || albums.length === 0}
+                >
+                  {uploadingPhoto ? 'Ladet hoch...' : 'Foto hinzufügen'}
+                </button>
+              </div>
+            </form>
+          </CollapsiblePanel>
         </div>
       </div>
 
-      <div className="bg-white border border-parchment-dark rounded-lg shadow-sm p-4 flex flex-wrap gap-4 items-end">
-        <div className="flex-1 min-w-[200px]">
-          <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="album-search">
-            Suche
-          </label>
-          <input
-            id="album-search"
-            type="search"
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            className="w-full border border-parchment-dark rounded-md px-3 py-2"
-            placeholder="z.B. Postkarten"
-          />
+      <CollapsiblePanel
+        eyebrow="Ansicht"
+        title="Suche und Sortierung"
+        summary={filteredAlbums.length === albums.length ? `${albums.length} Alben` : `${filteredAlbums.length} von ${albums.length}`}
+        isOpen={openSections.filters}
+        onToggle={() => toggleSection('filters')}
+      >
+        <div className="flex flex-wrap gap-4 items-end">
+          <div className="flex-1 min-w-[200px]">
+            <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="album-search">
+              Suche
+            </label>
+            <input
+              id="album-search"
+              type="search"
+              value={search}
+              onChange={(event) => setSearch(event.target.value)}
+              className="w-full border border-parchment-dark rounded-md px-3 py-2"
+              placeholder="z.B. Postkarten"
+            />
+          </div>
+          <div>
+            <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="sort-key">
+              Sortierung
+            </label>
+            <select
+              id="sort-key"
+              value={sortKey}
+              onChange={(event) => setSortKey(event.target.value)}
+              className="border border-parchment-dark rounded-md px-3 py-2"
+            >
+              <option value="title">Titel (A-Z)</option>
+              <option value="last_updated">Zuletzt aktualisiert</option>
+            </select>
+          </div>
+          <div>
+            <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="sort-order">
+              Reihenfolge
+            </label>
+            <select
+              id="sort-order"
+              value={order}
+              onChange={(event) => setOrder(event.target.value)}
+              className="border border-parchment-dark rounded-md px-3 py-2"
+            >
+              <option value="asc">Aufsteigend</option>
+              <option value="desc">Absteigend</option>
+            </select>
+          </div>
         </div>
-        <div>
-          <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="sort-key">
-            Sortierung
-          </label>
-          <select
-            id="sort-key"
-            value={sortKey}
-            onChange={(event) => setSortKey(event.target.value)}
-            className="border border-parchment-dark rounded-md px-3 py-2"
-          >
-            <option value="title">Titel (A-Z)</option>
-            <option value="last_updated">Zuletzt aktualisiert</option>
-          </select>
-        </div>
-        <div>
-          <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="sort-order">
-            Reihenfolge
-          </label>
-          <select
-            id="sort-order"
-            value={order}
-            onChange={(event) => setOrder(event.target.value)}
-            className="border border-parchment-dark rounded-md px-3 py-2"
-          >
-            <option value="asc">Aufsteigend</option>
-            <option value="desc">Absteigend</option>
-          </select>
-        </div>
-      </div>
+      </CollapsiblePanel>
 
       {loading && <p className="text-ink/70">Lade Alben...</p>}
       {error && <p className="text-red-600">{error}</p>}
@@ -475,22 +593,38 @@ const AlbumsPage = () => {
 
       {!loading && !error && (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredAlbums.map((album) => (
-            <Link
-              key={album.id}
-              to={`/albums/${album.id}`}
-              className="border border-parchment-dark rounded-lg p-4 bg-white shadow-sm hover:shadow-md transition-shadow flex flex-col gap-2"
-            >
-              <div className="flex items-center justify-between">
-                <p className="text-sm font-semibold text-ink">{album.title}</p>
-                <span className="text-xs text-ink/60">{album.photo_count} Fotos</span>
-              </div>
-              <p className="text-xs text-ink/70 line-clamp-3">{album.description || 'Keine Beschreibung.'}</p>
-              <p className="text-xs text-ink/60">
-                Aktualisiert: {album.last_updated ? new Date(album.last_updated * 1000).toLocaleDateString() : 'unbekannt'}
-              </p>
-            </Link>
-          ))}
+          {filteredAlbums.map((album) => {
+            const isDeletable = canDeleteAlbum(album);
+            return (
+              <article
+                key={album.id}
+                className="border border-parchment-dark rounded-lg p-4 bg-white shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3"
+              >
+                <Link to={`/albums/${album.id}`} className="flex flex-col gap-2">
+                  <div className="flex items-center justify-between gap-3">
+                    <p className="text-sm font-semibold text-ink">{album.title}</p>
+                    <span className={`text-xs ${isAlbumEmpty(album) ? 'text-accent' : 'text-ink/60'}`}>
+                      {album.photo_count} Fotos
+                    </span>
+                  </div>
+                  <p className="text-xs text-ink/70 line-clamp-3">{album.description || 'Keine Beschreibung.'}</p>
+                  <p className="text-xs text-ink/60">
+                    Aktualisiert: {album.last_updated ? new Date(album.last_updated * 1000).toLocaleDateString() : 'unbekannt'}
+                  </p>
+                </Link>
+                {isDeletable && (
+                  <button
+                    type="button"
+                    onClick={() => handleDeleteAlbum(album)}
+                    className="self-start px-3 py-2 border border-red-200 text-red-700 rounded-md text-xs font-semibold disabled:opacity-50"
+                    disabled={deletingAlbumId === album.id}
+                  >
+                    {deletingAlbumId === album.id ? 'Löscht...' : 'Leeres Album löschen'}
+                  </button>
+                )}
+              </article>
+            );
+          })}
           {filteredAlbums.length === 0 && (
             <p className="text-ink/70">Keine Alben gefunden.</p>
           )}

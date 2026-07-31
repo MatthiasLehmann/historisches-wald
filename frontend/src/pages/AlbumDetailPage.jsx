@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { GripVertical, Save, X } from 'lucide-react';
+import { GripVertical, Save, Trash2, X } from 'lucide-react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import AlbumEditor from '../components/AlbumEditor';
 import PhotoCard from '../components/PhotoCard';
@@ -8,6 +8,7 @@ import {
   fetchAlbumById,
   fetchAlbumPhotos,
   fetchAlbums,
+  deleteAlbum,
   removePhotoFromAlbum,
   reorderAlbumPhotos,
   updateAlbum,
@@ -41,6 +42,7 @@ const AlbumDetailPage = () => {
   const [photoActionError, setPhotoActionError] = useState('');
   const [photoActionSuccess, setPhotoActionSuccess] = useState('');
   const [removingPhotoId, setRemovingPhotoId] = useState(null);
+  const [deletingAlbum, setDeletingAlbum] = useState(false);
   const [isSortingPhotos, setIsSortingPhotos] = useState(false);
   const [orderedPhotos, setOrderedPhotos] = useState([]);
   const [draggedPhotoId, setDraggedPhotoId] = useState(null);
@@ -147,6 +149,15 @@ const AlbumDetailPage = () => {
   }, [isSortingPhotos, orderedPhotos, photos]);
 
   const [previewPhoto, setPreviewPhoto] = useState(null);
+  const hasChildAlbums = useMemo(
+    () => allAlbums.some((entry) => String(entry.parent_id || '') === String(albumId)),
+    [allAlbums, albumId]
+  );
+  const canDeleteAlbum = Boolean(album) &&
+    photos.length === 0 &&
+    Number(album.photo_count || 0) === 0 &&
+    !hasChildAlbums &&
+    !isUnassignedAlbum;
 
   const handleSelectPhoto = (photo) => {
     setPreviewPhoto(photo);
@@ -154,6 +165,29 @@ const AlbumDetailPage = () => {
 
   const handleClosePreview = () => {
     setPreviewPhoto(null);
+  };
+
+  const handleDeleteAlbum = async () => {
+    if (!albumId || !album) {
+      return;
+    }
+    if (!canDeleteAlbum) {
+      setError('Nur leere Alben ohne Unteralben können gelöscht werden.');
+      return;
+    }
+    if (!window.confirm(`Leeres Album "${album.title}" löschen?`)) {
+      return;
+    }
+    setDeletingAlbum(true);
+    setError('');
+    try {
+      await deleteAlbum(albumId);
+      navigate('/albums');
+    } catch (deleteError) {
+      setError(deleteError.message || 'Album konnte nicht gelöscht werden.');
+    } finally {
+      setDeletingAlbum(false);
+    }
   };
 
   const handleUploadFieldChange = (event) => {
@@ -301,7 +335,20 @@ const AlbumDetailPage = () => {
           </h1>
           <p className="text-ink/70 text-sm">ID: {albumId}</p>
         </div>
-        <p className="text-sm text-ink/60">{photos.length} Fotos geladen</p>
+        <div className="flex flex-wrap items-center gap-3">
+          <p className="text-sm text-ink/60">{photos.length} Fotos geladen</p>
+          {canDeleteAlbum && (
+            <button
+              type="button"
+              onClick={handleDeleteAlbum}
+              className="inline-flex items-center gap-2 px-3 py-2 border border-red-200 text-red-700 rounded-md text-sm font-semibold disabled:opacity-50"
+              disabled={deletingAlbum}
+            >
+              <Trash2 size={16} />
+              {deletingAlbum ? 'Löscht...' : 'Leeres Album löschen'}
+            </button>
+          )}
+        </div>
       </div>
 
       {error && <p className="text-red-600">{error}</p>}

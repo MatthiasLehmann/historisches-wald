@@ -142,6 +142,41 @@ export const updateAlbumById = async (albumId, input) => {
   return normalizeAlbum(updatedRaw);
 };
 
+export const deleteAlbumById = async (albumId) => {
+  const payload = await loadAlbumsRaw();
+  const index = payload.albums.findIndex((entry) => entry.id === albumId);
+  if (index === -1) {
+    const error = new Error(`Album ${albumId} not found.`);
+    error.statusCode = 404;
+    throw error;
+  }
+
+  const album = normalizeAlbum(payload.albums[index]);
+  if (normalizeTitle(album.title) === UNASSIGNED_ALBUM_TITLE) {
+    const error = new Error('Das Sammelalbum "nicht zugewiesen" kann nicht gelöscht werden.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  if (album.photos.length > 0 || album.photo_count > 0) {
+    const error = new Error('Nur leere Alben können gelöscht werden.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const hasChildAlbums = payload.albums.some((entry) => String(entry.parent_id || '') === String(albumId));
+  if (hasChildAlbums) {
+    const error = new Error('Alben mit Unteralben können nicht gelöscht werden.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  payload.albums.splice(index, 1);
+  await saveAlbumsRaw(payload);
+
+  return album;
+};
+
 export const findAlbumsByPhotoId = async (photoId) => {
   const { albums } = await loadAlbumsRaw();
   return albums
