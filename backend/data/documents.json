@@ -22,9 +22,9 @@
     "albumPhotoIds": [],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Matthias Lehmann",
+      "reviewedAt": "2026-07-31T21:09:31.962Z",
       "comments": []
     }
   },
