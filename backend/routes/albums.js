@@ -6,6 +6,7 @@ import {
   getAlbumPhotos,
   getAlbums,
   removeAlbumPhoto,
+  updateAlbumPhotoOrder,
   updateAlbum
 } from '../controllers/albumsController.js';
 
@@ -17,6 +18,7 @@ router.get('/:id', getAlbum);
 router.put('/:id', updateAlbum);
 router.post('/:id/photos', createAlbumPhoto);
 router.get('/:id/photos', getAlbumPhotos);
+router.put('/:id/photos/order', updateAlbumPhotoOrder);
 router.delete('/:id/photos/:photoId', removeAlbumPhoto);
 
 export default router;

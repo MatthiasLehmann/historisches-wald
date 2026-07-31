@@ -197,6 +197,18 @@ export const removePhotoFromAlbum = async (albumId, photoId) => {
     return handleResponse(response);
 };
 
+export const reorderAlbumPhotos = async (albumId, photoIds = []) => {
+    if (!albumId) {
+        throw new Error('Album-ID fehlt.');
+    }
+    const response = await fetch(`${API_BASE}/albums/${albumId}/photos/order`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ photoIds })
+    });
+    return handleResponse(response);
+};
+
 export const fetchPhotos = async (params = {}) => {
     const query = serializeParams(params);
     const response = await fetch(`${API_BASE}/photos${query}`);

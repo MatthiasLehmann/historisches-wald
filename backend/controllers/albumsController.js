@@ -6,6 +6,7 @@ import {
   getAlbumById,
   listAlbums,
   removePhotoFromAlbum,
+  reorderAlbumPhotos,
   updateAlbumById
 } from '../services/albumsService.js';
 import { createPhoto, getPhotoById, getPhotosByIds, updatePhotoById } from '../services/photosService.js';
@@ -43,6 +44,17 @@ export const getAlbumPhotos = async (req, res, next) => {
     const album = await getAlbumById(req.params.id);
     const photos = await getPhotosByIds(album.photos);
     res.json(photos);
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const updateAlbumPhotoOrder = async (req, res, next) => {
+  try {
+    const photoIds = Array.isArray(req.body?.photoIds) ? req.body.photoIds : req.body?.photos;
+    const album = await reorderAlbumPhotos(req.params.id, photoIds);
+    const photos = await getPhotosByIds(album.photos);
+    res.json({ album, photos });
   } catch (error) {
     next(error);
   }

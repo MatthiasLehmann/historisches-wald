@@ -1,9 +1,18 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { GripVertical, Save, X } from 'lucide-react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import AlbumEditor from '../components/AlbumEditor';
 import PhotoCard from '../components/PhotoCard';
 import PhotoPreviewModal from '../components/PhotoPreviewModal';
-import { fetchAlbumById, fetchAlbumPhotos, fetchAlbums, removePhotoFromAlbum, updateAlbum, uploadAlbumPhoto } from '../services/api.js';
+import {
+  fetchAlbumById,
+  fetchAlbumPhotos,
+  fetchAlbums,
+  removePhotoFromAlbum,
+  reorderAlbumPhotos,
+  updateAlbum,
+  uploadAlbumPhoto
+} from '../services/api.js';
 
 const PAGE_SIZE = 24;
 const defaultUploadForm = {
@@ -32,6 +41,10 @@ const AlbumDetailPage = () => {
   const [photoActionError, setPhotoActionError] = useState('');
   const [photoActionSuccess, setPhotoActionSuccess] = useState('');
   const [removingPhotoId, setRemovingPhotoId] = useState(null);
+  const [isSortingPhotos, setIsSortingPhotos] = useState(false);
+  const [orderedPhotos, setOrderedPhotos] = useState([]);
+  const [draggedPhotoId, setDraggedPhotoId] = useState(null);
+  const [savingPhotoOrder, setSavingPhotoOrder] = useState(false);
   const uploadInputRef = useRef(null);
   const isUnassignedAlbum = ((album?.title ?? '').trim().toLowerCase() === 'nicht zugewiesen');
 
@@ -71,6 +84,11 @@ const AlbumDetailPage = () => {
   useEffect(() => {
     loadAlbum();
   }, [loadAlbum]);
+  useEffect(() => {
+    if (!isSortingPhotos) {
+      setOrderedPhotos(photos);
+    }
+  }, [isSortingPhotos, photos]);
   useEffect(() => {
     const loadAllAlbums = async () => {
       try {
@@ -120,6 +138,13 @@ const AlbumDetailPage = () => {
     const start = (currentPage - 1) * PAGE_SIZE;
     return filteredPhotos.slice(start, start + PAGE_SIZE);
   }, [filteredPhotos, currentPage]);
+  const displayedPhotos = isSortingPhotos ? orderedPhotos : paginatedPhotos;
+  const photoOrderChanged = useMemo(() => {
+    if (!isSortingPhotos || orderedPhotos.length !== photos.length) {
+      return false;
+    }
+    return orderedPhotos.some((photo, index) => photo.id !== photos[index]?.id);
+  }, [isSortingPhotos, orderedPhotos, photos]);
 
   const [previewPhoto, setPreviewPhoto] = useState(null);
 
@@ -200,6 +225,67 @@ const AlbumDetailPage = () => {
       setPhotoActionError(actionError.message || 'Foto konnte nicht entfernt werden.');
     } finally {
       setRemovingPhotoId(null);
+    }
+  };
+
+  const handleStartSorting = () => {
+    setPhotoSearch('');
+    setPage(1);
+    setOrderedPhotos(photos);
+    setDraggedPhotoId(null);
+    setPhotoActionError('');
+    setPhotoActionSuccess('');
+    setIsSortingPhotos(true);
+  };
+
+  const handleCancelSorting = () => {
+    setOrderedPhotos(photos);
+    setDraggedPhotoId(null);
+    setIsSortingPhotos(false);
+  };
+
+  const movePhotoInOrder = (sourceId, targetId) => {
+    if (!sourceId || !targetId || sourceId === targetId) {
+      return;
+    }
+    setOrderedPhotos((prev) => {
+      const sourceIndex = prev.findIndex((photo) => photo.id === sourceId);
+      const targetIndex = prev.findIndex((photo) => photo.id === targetId);
+      if (sourceIndex === -1 || targetIndex === -1) {
+        return prev;
+      }
+      const next = [...prev];
+      const [movedPhoto] = next.splice(sourceIndex, 1);
+      next.splice(targetIndex, 0, movedPhoto);
+      return next;
+    });
+  };
+
+  const handleSavePhotoOrder = async () => {
+    if (!albumId) {
+      return;
+    }
+    setSavingPhotoOrder(true);
+    setPhotoActionError('');
+    setPhotoActionSuccess('');
+    try {
+      const response = await reorderAlbumPhotos(
+        albumId,
+        orderedPhotos.map((photo) => photo.id)
+      );
+      if (response?.album) {
+        setAlbum(response.album);
+      }
+      const nextPhotos = response?.photos ?? orderedPhotos;
+      setPhotos(nextPhotos);
+      setOrderedPhotos(nextPhotos);
+      setIsSortingPhotos(false);
+      setPhotoActionSuccess('Foto-Reihenfolge gespeichert.');
+    } catch (orderError) {
+      setPhotoActionError(orderError.message || 'Foto-Reihenfolge konnte nicht gespeichert werden.');
+    } finally {
+      setSavingPhotoOrder(false);
+      setDraggedPhotoId(null);
     }
   };
 
@@ -311,8 +397,10 @@ const AlbumDetailPage = () => {
             onChange={(event) => setPhotoSearch(event.target.value)}
             className="w-full border border-parchment-dark rounded-md px-3 py-2"
             placeholder="Foto-Name"
+            disabled={isSortingPhotos}
           />
         </div>
+        {!isSortingPhotos && (
         <div>
           <label className="block text-xs uppercase text-ink/60 mb-2" htmlFor="page">
             Seite
@@ -339,16 +427,72 @@ const AlbumDetailPage = () => {
             </button>
           </div>
         </div>
+        )}
+        <div className="flex flex-wrap items-center gap-2">
+          {!isSortingPhotos ? (
+            <button
+              type="button"
+              onClick={handleStartSorting}
+              className="px-4 py-2 border border-parchment-dark rounded-md text-sm disabled:opacity-50"
+              disabled={photos.length < 2}
+            >
+              Sortieren
+            </button>
+          ) : (
+            <>
+              <button
+                type="button"
+                onClick={handleSavePhotoOrder}
+                className="inline-flex items-center gap-2 px-4 py-2 bg-ink text-white rounded-md text-sm disabled:opacity-50"
+                disabled={savingPhotoOrder || !photoOrderChanged}
+              >
+                <Save size={16} />
+                Speichern
+              </button>
+              <button
+                type="button"
+                onClick={handleCancelSorting}
+                className="inline-flex items-center gap-2 px-4 py-2 border border-parchment-dark rounded-md text-sm disabled:opacity-50"
+                disabled={savingPhotoOrder}
+              >
+                <X size={16} />
+                Abbrechen
+              </button>
+            </>
+          )}
+        </div>
       </div>
 
       {loading ? (
         <p className="text-ink/70">Fotos werden geladen...</p>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {paginatedPhotos.map((photo) => (
-            <PhotoCard key={photo.id} photo={photo} onSelect={handleSelectPhoto} />
+          {displayedPhotos.map((photo) => (
+            <div
+              key={photo.id}
+              draggable={isSortingPhotos && !savingPhotoOrder}
+              onDragStart={() => setDraggedPhotoId(photo.id)}
+              onDragEnd={() => setDraggedPhotoId(null)}
+              onDragOver={(event) => {
+                if (isSortingPhotos) {
+                  event.preventDefault();
+                }
+              }}
+              onDrop={(event) => {
+                event.preventDefault();
+                movePhotoInOrder(draggedPhotoId, photo.id);
+              }}
+              className={`relative ${isSortingPhotos ? 'cursor-grab active:cursor-grabbing' : ''} ${draggedPhotoId === photo.id ? 'opacity-50' : ''}`}
+            >
+              {isSortingPhotos && (
+                <div className="absolute left-2 top-2 z-10 rounded bg-white/90 border border-parchment-dark p-1 text-ink shadow-sm">
+                  <GripVertical size={18} />
+                </div>
+              )}
+              <PhotoCard photo={photo} onSelect={isSortingPhotos ? undefined : handleSelectPhoto} />
+            </div>
           ))}
-          {paginatedPhotos.length === 0 && (
+          {displayedPhotos.length === 0 && (
             <p className="text-ink/70">Keine Fotos entsprechen dem Filter.</p>
           )}
         </div>

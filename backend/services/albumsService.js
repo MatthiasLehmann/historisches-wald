@@ -260,6 +260,55 @@ export const removePhotoFromAlbum = async (albumId, photoId) => {
   return normalizeAlbum(album);
 };
 
+export const reorderAlbumPhotos = async (albumId, orderedPhotoIds = []) => {
+  const payload = await loadAlbumsRaw();
+  const index = payload.albums.findIndex((entry) => entry.id === albumId);
+  if (index === -1) {
+    const error = new Error(`Album ${albumId} not found.`);
+    error.statusCode = 404;
+    throw error;
+  }
+  if (!Array.isArray(orderedPhotoIds)) {
+    const error = new Error('Foto-Reihenfolge muss als Liste übergeben werden.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const album = payload.albums[index];
+  const existingPhotos = Array.isArray(album.photos) ? album.photos.map((value) => String(value)) : [];
+  const existingSet = new Set(existingPhotos);
+  const ordered = orderedPhotoIds.map((photoId) => String(photoId).trim()).filter(Boolean);
+  const orderedSet = new Set(ordered);
+
+  if (orderedSet.size !== ordered.length) {
+    const error = new Error('Foto-Reihenfolge enthält doppelte Einträge.');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const unknownPhotoId = ordered.find((photoId) => !existingSet.has(photoId));
+  if (unknownPhotoId) {
+    const error = new Error(`Foto ${unknownPhotoId} gehört nicht zu diesem Album.`);
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const remainingPhotos = existingPhotos.filter((photoId) => !orderedSet.has(photoId));
+  const nextPhotos = [...ordered, ...remainingPhotos];
+  const changed = nextPhotos.length !== existingPhotos.length ||
+    nextPhotos.some((photoId, photoIndex) => photoId !== existingPhotos[photoIndex]);
+
+  if (changed) {
+    album.photos = nextPhotos;
+    album.photo_count = nextPhotos.length;
+    album.last_updated = getUnixTimestamp();
+    payload.albums[index] = album;
+    await saveAlbumsRaw(payload);
+  }
+
+  return normalizeAlbum(album);
+};
+
 export const removePhotoFromAllAlbums = async (photoId) => {
   const payload = await loadAlbumsRaw();
   const normalizedPhotoId = String(photoId);
