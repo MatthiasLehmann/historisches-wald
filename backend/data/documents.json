@@ -12,7 +12,7 @@
     "transcription": "<p></p>",
     "images": [],
     "coverPhotoId": "",
-    "showInTimeline": true,
+    "showInTimeline": false,
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
