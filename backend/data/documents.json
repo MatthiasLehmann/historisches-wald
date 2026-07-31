@@ -1,5 +1,34 @@
 [
   {
+    "id": "doc-1785531865123",
+    "sortOrder": -1,
+    "title": "Flurnamen",
+    "year": 2022,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [],
+    "location": "",
+    "description": "<p>usammenstellung von Flurnamen übver alle Ortschaften</p>",
+    "transcription": "<p></p>",
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "M.Lehmann"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1777628824634",
     "title": "Ehrenbürger Kaiser",
     "year": 1966,
@@ -34,7 +63,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Elfriede Kempter",
       "source": "Südkurier",
@@ -52,7 +80,10 @@
       "reviewedAt": "2026-05-01T09:48:00.240Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 0,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1777382928753",
@@ -221,7 +252,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Elfriede Kempter",
       "source": "Unbekannt",
@@ -251,7 +281,10 @@
       "reviewedAt": "2026-04-28T13:30:06.557Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 1,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1776026934722",
@@ -277,7 +310,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Hohenzollerische Heimatbücherei",
@@ -296,9 +328,10 @@
       "reviewedAt": "2026-04-12T20:49:42.772Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Hohenzollerische Heimatbücherei",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 2,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1776025448371",
@@ -324,7 +357,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Hohenzollerische Heimatbücherei",
@@ -343,7 +375,10 @@
       "reviewedAt": "2026-04-12T20:26:14.801Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 3,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774889357455",
@@ -367,7 +402,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -384,9 +418,10 @@
       "reviewedAt": "2026-03-30T17:01:06.624Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 4,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774889252179",
@@ -414,7 +449,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Bernhard Glöckler",
@@ -433,9 +467,10 @@
       "reviewedAt": "2026-03-30T16:48:52.699Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Bernhard Glöckler",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 5,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774888686730",
@@ -459,7 +494,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -476,9 +510,10 @@
       "reviewedAt": "2026-03-30T16:44:00.791Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 6,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774887820230",
@@ -502,7 +537,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -519,9 +553,10 @@
       "reviewedAt": "2026-03-30T16:37:02.007Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 7,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774813143373",
@@ -545,7 +580,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -562,9 +596,10 @@
       "reviewedAt": "2026-03-29T19:45:28.345Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 8,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774812548804",
@@ -588,7 +623,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -605,9 +639,10 @@
       "reviewedAt": "2026-03-29T19:34:40.375Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 9,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774812369590",
@@ -631,7 +666,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -648,9 +682,10 @@
       "reviewedAt": "2026-03-29T19:27:50.319Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 10,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774810698858",
@@ -664,7 +699,6 @@
     "description": "<p>Der gräfische Hof von Reischach war zusammen mit dem Hof der späteren Wirtschaft ein Hof.</p>",
     "transcription": "<p>Der gräfische Hof von Reischach war zusammen mit dem Hof der späteren Wirtschaft ein Hof.</p><p>Ein Besitzer namens Waldenspul teilte den Hof in zwei Teile. Er lies auf dem zweiten Teil ein Haus bauen, außerhalb von Reischach.</p><p>Auf dieses Haus bzw. Hof kam zunächst ein Nikolaus Waldenspul. Dieser starb bald, seine Witwe verkaufte den Hof an einen Georg Waldenspul. Dessen Sohn Bernhard kam dann auf den Hof. </p><p>Von diesem kaufte Graf von Reischach, der in Berlin wohnte, den Hof.</p><p>Bernhard blieb als Pächter auf dem Hofe. Der Hof war also Pachtgut, bis ihn die Eheleute Hugo Glöckler von Tautenbronn und Theresia, geborene Krall, durch Vermittlung des Bürgermeisters Sales Koch von Wald von der Gräfin von Reischach, Witwe in Berlin, kauften. Sie sind Eigentümer des Hofes.</p><p>Der Hof wird ungefähr auf 30 000 RM geschätzt.</p><p>Die Wirtschaft in Reischach datiert zurück auf einen Karle. Er kam von Rengetsweiler, geboren war er in Kettenacker, sein Vater war Förster.</p><p>Eine Tochter vom Wirt Karle heiratete einen Kessler von Hippetsweiler.</p><p>Eine Tochter heiratet einen Steidle von der Pfarrei Dietershofen, augenblicklicher Wirt in Reischach.</p><p>Im Sept. 1951 besuchte ich in Koblenz-Pfaffendorf die 71jährige Sr. Gertrud von Reischach -</p><p>eine Karmelitin -, die Schwester des Grafen von Reischach.</p><p>….. Schlatt&nbsp; b. Singen </p><p>W. Br. = Willibald Branner</p><p>Bleibt aber der Pächter über drei Monate mit der Pacht im Rückstande, oder liefert er keine Lebensmittel nach § 4, so kann die Verpächterin sofortige Räumung verlangen.</p><p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; § 16</p><p>Bei ordnungsmässigen Ablauf der Pacht hat der Pächter möglichst zeitig die Früchte einzuheimsen und seinem Nachfolger die ordnungsmässige Bestellung der freigewordenen Felder mit dem ordnungsmässig vorhandenen Dünger zu gestatten. (s.a. § 591 und 593 B.G.B.).</p><p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; § 17.</p><p>Verpächterin bezieht die Entschädigung für die Genehmigung der Leitung des elektrischen Stromes über ihr Grundstück und für die Aufstallung der Masten. Sie wird sich bemühen, für das Haus des Pachtgutes elektrischen Strom zu erhalten.</p><p>Reischach, den 21. März 1921</p><p>Bernhard Waldenspul</p><p>Helen Gräfin Reischach</p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
@@ -687,7 +721,10 @@
         }
       ]
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 11,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774797137965",
@@ -711,7 +748,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -728,9 +764,10 @@
       "reviewedAt": "2026-03-29T15:13:04.460Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 12,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774792807738",
@@ -754,7 +791,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -771,9 +807,10 @@
       "reviewedAt": "2026-03-29T14:01:04.626Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 13,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774727979162",
@@ -797,7 +834,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -814,9 +850,10 @@
       "reviewedAt": "2026-03-28T20:29:12.058Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 14,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774726977851",
@@ -840,7 +877,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Dr. Werner Fischer",
@@ -857,9 +893,10 @@
       "reviewedAt": "2026-03-28T19:47:19.921Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Dr. Werner Fischer",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 15,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774538326613",
@@ -871,7 +908,6 @@
     "description": "<p>Ortschronik Ruhestetten 1952 von Bürgermeister Blocherer</p>",
     "transcription": "<p>Aus geschichtlicher Frühzeit </p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
@@ -886,9 +922,10 @@
       "reviewedAt": null,
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Unbekannt",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 16,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774383823656",
@@ -902,7 +939,6 @@
     "description": "<p>Auszug aus einem Pachtvertrag mit Unterschrift der Gräfin von Reischach und Bernhard Waldenspuhl.</p>",
     "transcription": "<p>Original und Abschrift.</p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Pfarrchronik",
@@ -917,9 +953,10 @@
       "reviewedAt": null,
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Pfarrchronik",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 17,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774383559012",
@@ -933,7 +970,6 @@
     "description": "<p>Die Freiherren von Reischach.</p>",
     "transcription": "<p></p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Sebastian Runkel",
       "source": "Sebastian Runkel",
@@ -950,7 +986,10 @@
       "reviewedAt": "2026-03-26T14:26:11.472Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 18,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774383394773",
@@ -964,7 +1003,6 @@
     "description": "<p>Kunde von der Burren-Burg in Wald (Hohenzollern).</p>",
     "transcription": "<p></p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Albert Waldenspuhl",
       "source": "Albert Waldenspuhl",
@@ -981,9 +1019,10 @@
       "reviewedAt": null,
       "comments": []
     },
-    "author": "Albert Waldenspuhl",
-    "source": "Albert Waldenspuhl",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 19,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774383138323",
@@ -997,7 +1036,6 @@
     "description": "<p>Die Herren von Reischach in unserer Heimat.</p>",
     "transcription": "<p>Original und Abschrift.</p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Fürst. Hohenz. Archiv Sigmaringen",
@@ -1014,7 +1052,10 @@
       "reviewedAt": null,
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 20,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1774382875072",
@@ -1028,7 +1069,6 @@
     "description": "<p>Reischach 1246 erstmals erwähnt.</p>",
     "transcription": "<p></p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Gemeinde Wald",
       "source": "800 Jahre Wald",
@@ -1045,7 +1085,10 @@
       "reviewedAt": null,
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 21,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773864336058",
@@ -1201,7 +1244,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -1230,7 +1272,10 @@
       "reviewedAt": "2026-03-18T20:06:27.061Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 22,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773863844309",
@@ -1463,7 +1508,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -1499,7 +1543,10 @@
       "reviewedAt": "2026-03-18T19:57:53.978Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 23,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773863631556",
@@ -1798,7 +1845,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -1840,7 +1886,10 @@
       "reviewedAt": "2026-03-18T19:54:08.079Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 24,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773863442195",
@@ -2018,7 +2067,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -2049,7 +2097,10 @@
       "reviewedAt": "2026-03-18T19:54:23.877Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 25,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773863307840",
@@ -2260,7 +2311,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -2294,7 +2344,10 @@
       "reviewedAt": "2026-03-18T19:49:20.253Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 26,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773863165945",
@@ -2428,7 +2481,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -2455,7 +2507,10 @@
       "reviewedAt": "2026-03-18T19:46:38.644Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 27,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773862952670",
@@ -2655,7 +2710,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -2688,9 +2742,10 @@
       "reviewedAt": "2026-03-18T19:43:01.233Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 28,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773862786554",
@@ -2802,7 +2857,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -2827,7 +2881,10 @@
       "reviewedAt": "2026-03-18T19:40:37.657Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 29,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773780217150",
@@ -2994,7 +3051,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -3024,9 +3080,10 @@
       "reviewedAt": null,
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 30,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773780067288",
@@ -3160,7 +3217,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -3187,9 +3243,10 @@
       "reviewedAt": "2026-03-17T20:41:34.697Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 31,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773779591911",
@@ -3268,7 +3325,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -3290,7 +3346,10 @@
       "reviewedAt": "2026-03-17T20:33:56.468Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 32,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773779295611",
@@ -3371,7 +3430,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -3393,9 +3451,10 @@
       "reviewedAt": "2026-03-17T20:28:39.701Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 33,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773779027026",
@@ -3419,7 +3478,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -3436,7 +3494,10 @@
       "reviewedAt": "2026-03-17T20:24:04.679Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 34,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773778835578",
@@ -3471,7 +3532,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -3489,7 +3549,10 @@
       "reviewedAt": "2026-03-17T20:20:49.238Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 35,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773778317940",
@@ -3524,7 +3587,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Gudrun Schmidt, Clemens Veeser, Archiv Gemeinde Wald",
@@ -3542,9 +3604,10 @@
       "reviewedAt": "2026-03-17T20:12:37.335Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Gudrun Schmidt, Clemens Veeser, Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 36,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773778043563",
@@ -3757,7 +3820,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -3791,9 +3853,10 @@
       "reviewedAt": "2026-03-17T20:07:42.999Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 37,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773692474289",
@@ -3861,7 +3924,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Georg Blocherer, Archiv Gemeinde Wald, Pfarrchronik Wald",
@@ -3882,9 +3944,10 @@
       "reviewedAt": "2026-03-18T19:43:13.384Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Georg Blocherer, Archiv Gemeinde Wald, Pfarrchronik Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 38,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773604907260",
@@ -3908,7 +3971,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald von Franz-Sales Fröhlich",
@@ -3925,9 +3987,10 @@
       "reviewedAt": "2026-03-26T14:25:25.161Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald von Franz-Sales Fröhlich",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 39,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773602741074",
@@ -4017,7 +4080,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Fotos Georg Blocherer, Archiv Gemeinde Wald",
@@ -4040,9 +4102,10 @@
       "reviewedAt": null,
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Fotos Georg Blocherer, Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 40,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773522608428",
@@ -4066,7 +4129,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -4083,7 +4145,10 @@
       "reviewedAt": "2026-03-14T21:10:25.783Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 41,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773521051264",
@@ -4107,7 +4172,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
@@ -4124,9 +4188,10 @@
       "reviewedAt": "2026-03-14T20:44:42.836Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Unbekannt",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 42,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773520196228",
@@ -4164,7 +4229,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
@@ -4182,7 +4246,10 @@
       "reviewedAt": "2026-03-14T20:30:16.333Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 43,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773345924399",
@@ -4272,7 +4339,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -4295,9 +4361,10 @@
       "reviewedAt": "2026-03-12T20:05:41.845Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 44,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773344143870",
@@ -4323,7 +4390,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Der Klosterneubau in Wald zu Anfang des 18. Jahrhunderts, Carl Baur",
@@ -4340,9 +4406,10 @@
       "reviewedAt": "2026-03-12T19:36:25.826Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Der Klosterneubau in Wald zu Anfang des 18. Jahrhunderts, Carl Baur",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 45,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773174523515",
@@ -4366,7 +4433,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Ortschronik Ruhestetten",
@@ -4383,7 +4449,10 @@
       "reviewedAt": "2026-03-10T20:29:02.161Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 46,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773163864893",
@@ -4442,7 +4511,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -4462,9 +4530,10 @@
       "reviewedAt": "2026-03-10T17:31:56.110Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 47,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773162567744",
@@ -4842,7 +4911,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -4891,9 +4959,10 @@
       "reviewedAt": "2026-03-10T17:10:57.857Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 48,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773162092550",
@@ -5042,7 +5111,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -5070,9 +5138,10 @@
       "reviewedAt": "2026-03-10T17:01:49.415Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 49,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773160927181",
@@ -5187,7 +5256,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -5212,9 +5280,10 @@
       "reviewedAt": "2026-03-10T16:42:20.827Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 50,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773146549544",
@@ -5328,7 +5397,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -5353,9 +5421,10 @@
       "reviewedAt": "2026-03-10T12:42:55.249Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 51,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773142218885",
@@ -5369,7 +5438,6 @@
     "description": "<p>Ehrenbürger Dr. Wilhelm Erhart (1909 - 1994)</p>",
     "transcription": "<p>Wilhelm Ehrhart wurde am 4. August 1909 geboren. Von 1938 bis 1980 hat Dr. med. Wilhelm Ehrhart eine Landarztpraxis in Wald unterhalten. 1980 wurde ihm in einer öffentlichen Gemeinderatssitzung im Musiksaal der Hauptschule Wald durch Bürgermeister Arthur Zeh die Ehrenbürgerwürde der Gemeinde Wald verliehen. Umrahmt wurde die Verleihung von einem Streichquartett mit fünf Solisten. Große Anerkennung fand sein über 40-jähriger Einsatz für die Gesundheitsversorgung in Wald und Umgebung. Anfänglich habe er unter großen Schwierigkeiten mit dem Fahrrad, Motorrad oder mit dem Pferd seine Patienten besucht von Ringgenbach bis Aach-Linz, von Otterswang bis nach Rast. Er habe dabei weit mehr geleistet als man hätte erwarten können. Neben seiner Tätigkeit in seiner Arztpraxis hat er viele Ausbildungsstunden bei den Maltesern und beim Roten Kreuz geleistet. Nach Eintritt in den Ruhestand wurde die Praxis von Dr. Hausmanns als Nachfolger übernommen. Dr. Wilhelm Ehrhart starb am 20. September 1994 in München.</p>",
     "images": [],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Archiv Gemeinde Wald",
@@ -5384,7 +5452,10 @@
       "reviewedAt": "2026-03-10T11:30:30.658Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 52,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773141917829",
@@ -5412,7 +5483,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
@@ -5429,9 +5499,10 @@
       "reviewedAt": "2026-03-10T11:28:13.315Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Unbekannt",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 53,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773141599058",
@@ -5470,7 +5541,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Ortschronik Riedetsweiler",
@@ -5488,9 +5558,10 @@
       "reviewedAt": "2026-03-10T11:21:27.942Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Ortschronik Riedetsweiler",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 54,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773141398447",
@@ -5517,7 +5588,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Archiv der Gemeinde Wald",
@@ -5534,9 +5604,10 @@
       "reviewedAt": "2026-03-10T11:17:39.668Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; Archiv der Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 55,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773141264662",
@@ -5597,7 +5668,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald; https://www.realschule-breisach.de; https://journals.ub.uni-heidelberg.de/index.php/breisach/article/viewFile/19448/13245 Vor Jahren starb Pfarrer und Dekan Hugo Höfler – Ein Leben in Dienste der Mitmenschen, Wilfried Wagner ",
@@ -5617,7 +5687,10 @@
       "reviewedAt": "2026-03-10T11:14:46.464Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 56,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773141004117",
@@ -5645,7 +5718,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
@@ -5662,7 +5734,10 @@
       "reviewedAt": "2026-03-10T11:10:19.160Z",
       "comments": []
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 57,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773140735222",
@@ -5690,7 +5765,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "https://www.sueddeutscher-barock.ch/In-Bauherr/s-z/Wald_Thurn.html",
@@ -5707,9 +5781,10 @@
       "reviewedAt": "2026-03-10T11:07:57.584Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "https://www.sueddeutscher-barock.ch/In-Bauherr/s-z/Wald_Thurn.html",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 58,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773140515594",
@@ -5736,7 +5811,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald ",
@@ -5753,9 +5827,10 @@
       "reviewedAt": "2026-03-10T11:02:08.459Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald ",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 59,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773140204219",
@@ -5782,7 +5857,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald; 800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald ",
@@ -5799,9 +5873,10 @@
       "reviewedAt": "2026-03-10T10:57:03.105Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald; 800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald ",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 60,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773139677077",
@@ -5828,7 +5903,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "https://www.heimschule-kloster-wald.de/de/kloster_wald/pdfs/2020-21/Todesanzeige-fuer-Sr.-Michaele.pdf?m=1610011163; Archiv der Gemeinde Wald ",
@@ -5845,9 +5919,10 @@
       "reviewedAt": "2026-03-10T10:48:25.575Z",
       "comments": []
     },
-    "author": "Unbekannt",
-    "source": "https://www.heimschule-kloster-wald.de/de/kloster_wald/pdfs/2020-21/Todesanzeige-fuer-Sr.-Michaele.pdf?m=1610011163; Archiv der Gemeinde Wald ",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 61,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1773009563858",
@@ -5874,7 +5949,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald    800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald    60 Jahre Heimschule Kloster - Wald Festschrift zum 60jährigen Bestehen der Heimschule Kloster Wald, 2006 Heimschule Kloster Wald",
@@ -5897,9 +5971,10 @@
         }
       ]
     },
-    "author": "Unbekannt",
-    "source": "Sr. Adalbert erzählt über die Entstehung der Heimschule Kloster Wald, 1994 Heimschule Kloster Wald    800 Jahre Wald – Zur Geschichte der Gemeinde und ihrer Teilorte,  2008 Gemeinde Wald    60 Jahre Heimschule Kloster - Wald Festschrift zum 60jährigen Bestehen der Heimschule Kloster Wald, 2006 Heimschule Kloster Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 62,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1772540073667",
@@ -5925,7 +6000,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Otto Kuhn \"Mein Leben\"",
@@ -5948,9 +6022,10 @@
         }
       ]
     },
-    "author": "Unbekannt",
-    "source": "Otto Kuhn \"Mein Leben\"",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 63,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1772558738917",
@@ -7296,7 +7371,6 @@
         "license": "All Rights Reserved"
       }
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
@@ -7439,7 +7513,10 @@
         }
       ]
     },
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 64,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-1772554386220",
@@ -7453,7 +7530,6 @@
     "images": [
       "/files/images/album-1772554728723-820826433.png"
     ],
-    "pdfs": [],
     "metadata": {
       "author": "Matthias Lehmann",
       "source": "Gemeinde Wald",
@@ -7478,9 +7554,10 @@
         }
       ]
     },
-    "author": "Matthias Lehmann",
-    "source": "Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 65,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-001",
@@ -7523,10 +7600,10 @@
       ]
     },
     "albumPhotoIds": [],
-    "pdfs": [],
-    "author": "Bischöfliche Kanzlei Augsburg",
-    "source": "Pfarrarchiv Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 66,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-005",
@@ -7574,10 +7651,10 @@
     "albumPhotoIds": [
       "54631349988"
     ],
-    "pdfs": [],
-    "author": "Johann Hipp",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 67,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-002",
@@ -7625,10 +7702,10 @@
     "albumPhotoIds": [
       "54631349988"
     ],
-    "pdfs": [],
-    "author": "Leo Endres",
-    "source": "Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 68,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-003",
@@ -7684,11 +7761,11 @@
       "54859330840",
       "54858169352"
     ],
-    "pdfs": [],
     "transcription": "",
-    "author": "Architekt Müller",
-    "source": "Bauamt Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 69,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-004",
@@ -7720,8 +7797,10 @@
     "imageIds": [],
     "pdfIds": [],
     "albumPhotoIds": [],
-    "pdfs": [],
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 70,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-005-2",
@@ -7755,8 +7834,10 @@
     "imageIds": [],
     "pdfIds": [],
     "albumPhotoIds": [],
-    "pdfs": [],
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 71,
+    "parent_id": "",
+    "coverPhotoId": ""
   },
   {
     "id": "doc-006",
@@ -7790,7 +7871,6 @@
     "metadata": {
       "author": "Unbekannt",
       "source": "Südkurier 03.08.1964 Archiv Gemeinde Wald",
-      "archive_reference": "Zeitungsartikel",
       "editor": "Textüberlieferung"
     },
     "review": {
@@ -7804,9 +7884,9 @@
     "albumPhotoIds": [
       "local_mmkvq2lrf1sm4f"
     ],
-    "pdfs": [],
-    "author": "Unbekannt",
-    "source": "Südkurier 03.08.1964 Archiv Gemeinde Wald",
-    "showInTimeline": true
+    "showInTimeline": true,
+    "sortOrder": 72,
+    "parent_id": "",
+    "coverPhotoId": ""
   }
 ]
