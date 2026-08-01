@@ -1,8 +1,11 @@
 import { memo } from 'react';
 import { ImageOff } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import StatusBadge from './StatusBadge';
 
-const PhotoCard = memo(({ photo, onSelect }) => {
+const baseClassName = 'w-full text-left bg-white border border-parchment-dark rounded-lg shadow-sm hover:shadow-md transition-shadow duration-150 flex flex-col';
+
+const PhotoCard = memo(({ photo, onSelect, state, to }) => {
   const handleClick = () => {
     if (onSelect) {
       onSelect(photo);
@@ -11,12 +14,8 @@ const PhotoCard = memo(({ photo, onSelect }) => {
 
   const thumbnailUrl = photo?.preview || photo?.original || '';
 
-  return (
-    <button
-      type="button"
-      onClick={handleClick}
-      className="w-full text-left bg-white border border-parchment-dark rounded-lg shadow-sm hover:shadow-md transition-shadow duration-150 flex flex-col"
-    >
+  const content = (
+    <>
       <div className="relative w-full h-48 bg-parchment-dark/20 overflow-hidden rounded-t-lg">
         {thumbnailUrl ? (
           <img
@@ -46,8 +45,26 @@ const PhotoCard = memo(({ photo, onSelect }) => {
         <p className="text-xs text-ink/70">Aufgenommen: {photo?.date_taken || 'unbekannt'}</p>
         <p className="text-xs text-ink/70">Tags: {(photo?.tags || []).join(', ') || 'keine'}</p>
       </div>
-    </button>
+    </>
   );
+
+  if (to) {
+    return (
+      <Link to={to} state={state} className={baseClassName}>
+        {content}
+      </Link>
+    );
+  }
+
+  if (onSelect) {
+    return (
+      <button type="button" onClick={handleClick} className={baseClassName}>
+        {content}
+      </button>
+    );
+  }
+
+  return <div className={baseClassName}>{content}</div>;
 });
 
 export default PhotoCard;

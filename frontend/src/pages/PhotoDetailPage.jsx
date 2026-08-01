@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { RotateCcw, Trash2 } from 'lucide-react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import PhotoEditor from '../components/PhotoEditor';
 import StatusBadge from '../components/StatusBadge';
 import {
@@ -30,6 +30,7 @@ const mapPhotoToForm = (photo) => ({
 
 const PhotoDetailPage = () => {
   const { photoId } = useParams();
+  const location = useLocation();
   const navigate = useNavigate();
   const [photo, setPhoto] = useState(null);
   const [formState, setFormState] = useState(null);
@@ -164,13 +165,26 @@ const PhotoDetailPage = () => {
   };
 
   const albumsList = useMemo(() => albums ?? [], [albums]);
+  const returnAlbum = useMemo(() => {
+    const stateAlbumId = location.state?.fromAlbumId ? String(location.state.fromAlbumId) : '';
+    if (stateAlbumId) {
+      const matchedAlbum = albumsList.find((album) => String(album.id) === stateAlbumId);
+      return {
+        id: stateAlbumId,
+        title: matchedAlbum?.title || location.state?.fromAlbumTitle || 'Album'
+      };
+    }
+    return albumsList.length === 1 ? albumsList[0] : null;
+  }, [albumsList, location.state]);
+  const backLinkTarget = returnAlbum ? `/albums/${returnAlbum.id}` : '/albums';
+  const backLinkLabel = returnAlbum ? `← Zurück zu ${returnAlbum.title}` : '← Zurück zu den Alben';
 
   return (
     <div className="container mx-auto px-4 py-10 flex flex-col gap-6">
       <div className="flex flex-wrap items-center gap-4 justify-between">
         <div>
-          <Link to="/albums" className="text-sm text-ink/70 hover:text-ink">
-            ← Zurück zu den Alben
+          <Link to={backLinkTarget} className="text-sm text-ink/70 hover:text-ink">
+            {backLinkLabel}
           </Link>
           <h1 className="text-3xl font-serif">Foto {photoId}</h1>
           {photo?.missing && <p className="text-red-600 text-sm">Datei fehlt auf dem Datenträger.</p>}

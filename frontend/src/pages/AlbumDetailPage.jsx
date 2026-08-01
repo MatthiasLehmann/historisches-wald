@@ -3,7 +3,6 @@ import { GripVertical, Save, Trash2, X } from 'lucide-react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import AlbumEditor from '../components/AlbumEditor';
 import PhotoCard from '../components/PhotoCard';
-import PhotoPreviewModal from '../components/PhotoPreviewModal';
 import {
   fetchAlbumById,
   fetchAlbumPhotos,
@@ -148,7 +147,6 @@ const AlbumDetailPage = () => {
     return orderedPhotos.some((photo, index) => photo.id !== photos[index]?.id);
   }, [isSortingPhotos, orderedPhotos, photos]);
 
-  const [previewPhoto, setPreviewPhoto] = useState(null);
   const hasChildAlbums = useMemo(
     () => allAlbums.some((entry) => String(entry.parent_id || '') === String(albumId)),
     [allAlbums, albumId]
@@ -158,14 +156,6 @@ const AlbumDetailPage = () => {
     Number(album.photo_count || 0) === 0 &&
     !hasChildAlbums &&
     !isUnassignedAlbum;
-
-  const handleSelectPhoto = (photo) => {
-    setPreviewPhoto(photo);
-  };
-
-  const handleClosePreview = () => {
-    setPreviewPhoto(null);
-  };
 
   const handleDeleteAlbum = async () => {
     if (!albumId || !album) {
@@ -254,7 +244,6 @@ const AlbumDetailPage = () => {
       setPhotoActionSuccess(
         `Foto wurde dem Album "${response?.unassignedAlbum?.title ?? 'nicht zugewiesen'}" zugeordnet.`
       );
-      setPreviewPhoto(null);
     } catch (actionError) {
       setPhotoActionError(actionError.message || 'Foto konnte nicht entfernt werden.');
     } finally {
@@ -536,27 +525,28 @@ const AlbumDetailPage = () => {
                   <GripVertical size={18} />
                 </div>
               )}
-              <PhotoCard photo={photo} onSelect={isSortingPhotos ? undefined : handleSelectPhoto} />
+              {!isSortingPhotos && !isUnassignedAlbum && (
+                <button
+                  type="button"
+                  className="absolute right-2 top-2 z-10 inline-flex items-center gap-1 rounded bg-white/95 px-2 py-1 text-xs font-semibold text-red-700 shadow-sm border border-red-200 hover:bg-red-50 disabled:opacity-60"
+                  onClick={() => handleRemovePhotoFromAlbum(photo)}
+                  disabled={removingPhotoId === photo.id}
+                >
+                  <X size={14} />
+                  {removingPhotoId === photo.id ? 'Entfernt...' : 'Entfernen'}
+                </button>
+              )}
+              <PhotoCard
+                photo={photo}
+                to={isSortingPhotos ? undefined : `/photos/${photo.id}`}
+                state={isSortingPhotos ? undefined : { fromAlbumId: albumId, fromAlbumTitle: album?.title || '' }}
+              />
             </div>
           ))}
           {displayedPhotos.length === 0 && (
             <p className="text-ink/70">Keine Fotos entsprechen dem Filter.</p>
           )}
         </div>
-      )}
-
-      {previewPhoto && (
-        <PhotoPreviewModal
-          photo={previewPhoto}
-          onClose={handleClosePreview}
-          onNavigate={() => navigate(`/photos/${previewPhoto.id}`)}
-          onRemoveFromAlbum={
-            isUnassignedAlbum
-              ? undefined
-              : () => handleRemovePhotoFromAlbum(previewPhoto)
-          }
-          isRemoving={removingPhotoId === previewPhoto.id}
-        />
       )}
     </div>
   );
