@@ -467,9 +467,7 @@
       "editor": "Unbekannt"
     },
     "imageIds": [],
-    "albumPhotoIds": [
-      "local_mndfgfi8ei2925"
-    ],
+    "albumPhotoIds": [],
     "pdfIds": [
       "pdf-00013"
     ],
@@ -482,7 +480,7 @@
     "showInTimeline": true,
     "sortOrder": 5,
     "parent_id": "",
-    "coverPhotoId": "",
+    "coverPhotoId": "54983295602",
     "showInArchive": true,
     "showInWordCloud": true
   },
