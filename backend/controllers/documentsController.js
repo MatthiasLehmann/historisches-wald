@@ -57,6 +57,10 @@ const normalizeParentId = (value) => {
 
 const normalizeDocument = (doc, fallbackSortOrder = 0) => {
   const normalized = normalizeReview(doc);
+  const hasExplicitImageReferences =
+    Object.prototype.hasOwnProperty.call(normalized, 'imageIds') ||
+    Object.prototype.hasOwnProperty.call(normalized, 'albumPhotoIds') ||
+    Object.prototype.hasOwnProperty.call(normalized, 'coverPhotoId');
   const imageIds = Array.isArray(normalized.imageIds) ? normalized.imageIds : [];
   const pdfIds = Array.isArray(normalized.pdfIds) ? normalized.pdfIds : [];
   const albumPhotoIds = Array.isArray(normalized.albumPhotoIds) ? normalized.albumPhotoIds : [];
@@ -73,6 +77,7 @@ const normalizeDocument = (doc, fallbackSortOrder = 0) => {
     pdfIds,
     albumPhotoIds,
     coverPhotoId,
+    _hasExplicitImageReferences: hasExplicitImageReferences,
     coverImage: null,
     showInTimeline: normalized.showInTimeline !== false,
     showInArchive: normalized.showInArchive !== false,
@@ -213,10 +218,13 @@ const applyImagePreviews = (document, lookup, albumPhotoLookup = new Map()) => {
   const combined =
     libraryRefs.length > 0 || albumRefs.length > 0
       ? [...libraryRefs, ...albumRefs]
-      : filteredExistingImages;
+      : document._hasExplicitImageReferences
+        ? []
+        : filteredExistingImages;
+  const { _hasExplicitImageReferences, ...publicDocument } = document;
 
   return {
-    ...document,
+    ...publicDocument,
     imageIds,
     albumPhotoIds,
     coverPhotoId,
@@ -293,7 +301,7 @@ export const readDocuments = async () => {
 
 const writeDocuments = async (documents) => {
   const normalized = sortDocuments(documents.map((doc, index) => normalizeDocument(doc, index))).map((doc) => {
-    const { coverImage, pdfs, author, source, editor, parentId, ...stored } = normalizeDocument(doc);
+    const { coverImage, pdfs, author, source, editor, parentId, _hasExplicitImageReferences, ...stored } = normalizeDocument(doc);
     return stored;
   });
   await fs.writeFile(DATA_FILE, JSON.stringify(normalized, null, 2), 'utf8');
