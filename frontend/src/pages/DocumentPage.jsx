@@ -238,9 +238,9 @@ const DocumentPage = () => {
             </button>
 
             <header className="mb-8 border-b border-parchment-dark pb-8">
-                <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mb-4">
-                    <div>
-                        <div className="flex flex-wrap gap-2 items-center mb-3">
+                <div className={`grid gap-6 ${coverSrc ? 'lg:grid-cols-[minmax(0,1fr)_minmax(280px,420px)] lg:items-start' : ''}`}>
+                    <div className="space-y-4">
+                        <div className="flex flex-wrap gap-2 items-center">
                             <span className="inline-flex bg-accent/10 text-accent px-3 py-1 text-sm font-semibold rounded-full">
                                 {document.category}
                             </span>
@@ -259,38 +259,39 @@ const DocumentPage = () => {
                         {parentDocument && (
                             <Link
                                 to={`/document/${parentDocument.id}`}
-                                className="mt-4 inline-flex items-center gap-2 rounded-sm border border-parchment-dark bg-white px-3 py-2 text-sm font-semibold text-ink/70 hover:border-accent hover:text-accent"
+                                className="inline-flex items-center gap-2 rounded-sm border border-parchment-dark bg-white px-3 py-2 text-sm font-semibold text-ink/70 hover:border-accent hover:text-accent"
                             >
                                 <BookOpen size={16} />
                                 Teil von: {parentDocument.title}
                             </Link>
                         )}
-                    </div>
-                    <div className="text-right">
-                        <p className="text-4xl font-serif font-bold text-ink/50">
-                            {metadataYear}
-                        </p>
-                        <p className="text-sm text-ink/60 mt-2">
-                            Quelle: <span className="font-semibold text-ink">{metadataSource}</span>
-                        </p>
-                    </div>
-                </div>
-                {coverSrc && (
-                    <figure className="mt-6 overflow-hidden rounded-sm border border-parchment-dark bg-white">
-                        <div className="aspect-[16/7] bg-parchment/40">
-                            <img
-                                src={coverSrc}
-                                alt={coverImage?.title || `${document.title} Beitragsbild`}
-                                className="w-full h-full object-cover sepia-[.1]"
-                            />
+                        <div>
+                            <p className="text-4xl font-serif font-bold text-ink/50">
+                                {metadataYear}
+                            </p>
+                            <p className="text-sm text-ink/60 mt-2">
+                                Quelle: <span className="font-semibold text-ink">{metadataSource}</span>
+                            </p>
                         </div>
-                        {coverImage?.title && (
-                            <figcaption className="border-t border-parchment-dark/60 bg-parchment/30 px-4 py-2 text-sm text-ink/70">
-                                {coverImage.title}
-                            </figcaption>
-                        )}
-                    </figure>
-                )}
+                    </div>
+
+                    {coverSrc && (
+                        <figure className="overflow-hidden rounded-sm border border-parchment-dark bg-white shadow-sm">
+                            <div className="flex h-72 items-center justify-center bg-parchment/40 p-3 sm:h-80 lg:h-[340px]">
+                                <img
+                                    src={coverSrc}
+                                    alt={coverImage?.title || `${document.title} Beitragsbild`}
+                                    className="max-h-full max-w-full object-contain sepia-[.1]"
+                                />
+                            </div>
+                            {coverImage?.title && (
+                                <figcaption className="border-t border-parchment-dark/60 bg-parchment/30 px-4 py-2 text-sm text-ink/70">
+                                    {coverImage.title}
+                                </figcaption>
+                            )}
+                        </figure>
+                    )}
+                </div>
             </header>
             <div className="space-y-10">
                 {hasDescription && (
