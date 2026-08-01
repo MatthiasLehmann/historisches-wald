@@ -98,7 +98,8 @@ const buildImageLookup = (images) => {
   images.forEach((image) => {
     lookup.set(image.id, {
       ...image,
-      previewUrl: resolveImagePreviewUrl(image)
+      previewUrl: resolveImagePreviewUrl(image),
+      originalUrl: image.file?.originalUrl || image.file?.path || null
     });
   });
   return lookup;
@@ -155,6 +156,7 @@ const mapImageRecordToReference = (image) => {
   return {
     id: image.id,
     src: image.previewUrl,
+    original: image.originalUrl || image.previewUrl,
     title: image.title || `Bild ${image.id}`,
     description: image.description || '',
     type: 'library',
@@ -177,6 +179,7 @@ const mapAlbumPhotoToReference = (photo) => {
   return {
     id: String(photo.id),
     src,
+    original: photo.original || src,
     title: photo.name || `Albumfoto ${photo.id}`,
     description: photo.description || '',
     type: 'album',
