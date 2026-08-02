@@ -6118,8 +6118,9 @@
       {
         "id": "local_mnddgast11e3ny",
         "src": "/files/images/thumbnails/album-1774886259099-308799789-thumb.jpg",
+        "original": "/files/images/album-1774886259099-308799789.jpg",
         "title": "Otto Kuhn senior",
-        "description": "",
+        "description": "Gerbereibesitzer geb. 1846 in Klosterwald gest. 1931 in Wald",
         "type": "album",
         "date": "",
         "author": "",
@@ -6128,9 +6129,9 @@
       }
     ],
     "metadata": {
-      "author": "Unbekannt",
+      "author": "Otto Kuhn sen.",
       "source": "Otto Kuhn \"Mein Leben\"",
-      "editor": "Unbekannt"
+      "editor": "Martin Kuhn"
     },
     "imageIds": [],
     "albumPhotoIds": [
