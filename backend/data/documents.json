@@ -6137,7 +6137,9 @@
     "albumPhotoIds": [
       "local_mnddgast11e3ny"
     ],
-    "pdfIds": [],
+    "pdfIds": [
+      "pdf-00017"
+    ],
     "review": {
       "status": "approved",
       "reviewer": "Matthias",
