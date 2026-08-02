@@ -43,19 +43,9 @@
     "transcription": "<p></p>",
     "images": [
       {
-        "id": "local_momq73ledvfz08",
-        "src": "/files/images/thumbnails/album-1777628641874-552414074-thumb.jpg",
-        "title": "Ehrenbürger Kaiser 2",
-        "description": "Südkurier Artikel 1966 über Ehrenbürger und Bürgermeister von Wald, Josef Kaiser.",
-        "type": "album",
-        "date": "2026-05-01",
-        "author": "",
-        "source": "",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "local_momq5jcoq5ch39",
         "src": "/files/images/thumbnails/album-1777628568967-439746249-thumb.jpg",
+        "original": "/files/images/album-1777628568967-439746249.jpg",
         "title": "Ehrenbürger Kaiser",
         "description": "Südkurierartikel 1966 über Ehrenbürger und Bürgermeister  von Wald, Josef Kaiser.",
         "type": "album",
@@ -72,7 +62,6 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_momq73ledvfz08",
       "local_momq5jcoq5ch39"
     ],
     "pdfIds": [],
@@ -85,7 +74,7 @@
     "showInTimeline": true,
     "sortOrder": 0,
     "parent_id": "",
-    "coverPhotoId": "",
+    "coverPhotoId": "local_momq73ledvfz08",
     "showInArchive": true,
     "showInWordCloud": true
   },
