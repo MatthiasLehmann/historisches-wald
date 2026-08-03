@@ -43,9 +43,9 @@
       "pdf-00018"
     ],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Kempter Elfriede",
+      "reviewedAt": "2026-08-03T08:03:32.315Z",
       "comments": []
     }
   },
