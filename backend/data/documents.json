@@ -1,5 +1,40 @@
 [
   {
+    "id": "doc-1785743391892",
+    "sortOrder": -2,
+    "title": "Orts-Chronik Ruhestetten 1876",
+    "year": 1876,
+    "parent_id": "",
+    "category": "Ruhestetten",
+    "subcategories": [
+      "Vorstellung"
+    ],
+    "location": "Ruhestetten",
+    "description": "<p>Orts-Chronik Ruhestetten 1876 + 1952</p>",
+    "transcription": "<p></p>",
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Blocherer",
+      "source": "Orts-Chronik",
+      "editor": "Elfriede Kempter"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00018"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1785531865123",
     "sortOrder": -1,
     "title": "Flurnamen",
