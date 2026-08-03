@@ -12,8 +12,21 @@
     "location": "Ruhestetten",
     "description": "<p>Orts-Chronik Ruhestetten 1876 + 1952</p>",
     "transcription": "<p></p>",
-    "images": [],
-    "coverPhotoId": "",
+    "images": [
+      {
+        "id": "local_mscxtqwysbaieu",
+        "src": "/files/images/thumbnails/album-1785743920842-489745597-thumb.jpg",
+        "original": "/files/images/album-1785743920842-489745597.png",
+        "title": "Orts-Chronik Bild",
+        "description": "Bild mit Haus",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "local_mscxw75javoji8",
     "showInTimeline": true,
     "showInArchive": true,
     "showInWordCloud": true,
@@ -23,7 +36,9 @@
       "editor": "Elfriede Kempter"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mscxtqwysbaieu"
+    ],
     "pdfIds": [
       "pdf-00018"
     ],
