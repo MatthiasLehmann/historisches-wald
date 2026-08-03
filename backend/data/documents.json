@@ -1,5 +1,40 @@
 [
   {
+    "id": "doc-1785745496977",
+    "sortOrder": -3,
+    "title": "Walder Chronik für 1955",
+    "year": 1955,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Vorstellung"
+    ],
+    "location": "Wald",
+    "description": "<p>Walder Chronik 1955</p>",
+    "transcription": "<p></p>",
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Walter Hering",
+      "source": "Zeitungsartikel: Pfarrchronik Kloster Wald, Band II, 1953-1968",
+      "editor": "Elfriede Kempter"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [
+      "pdf-00021"
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1785743391892",
     "sortOrder": -2,
     "title": "Orts-Chronik Ruhestetten 1876",
