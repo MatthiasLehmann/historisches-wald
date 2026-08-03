@@ -28,9 +28,9 @@
       "pdf-00021"
     ],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Kempter Elfriede",
+      "reviewedAt": "2026-08-03T08:29:24.654Z",
       "comments": []
     }
   },
