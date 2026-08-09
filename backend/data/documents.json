@@ -1,38 +1,5 @@
 [
   {
-    "id": "doc-1786298665648",
-    "sortOrder": -1,
-    "title": "Artikel Südkurier Abbruch Gebäude Seitz",
-    "year": 1992,
-    "parent_id": "",
-    "category": "Wald",
-    "subcategories": [
-      "Handwerk"
-    ],
-    "location": "Wald",
-    "description": "<p></p>",
-    "transcription": "<p><strong>Artikel Südkurier zum Abbruch des Gebäudes Seitz 1992 von Andreas Steffan </strong></p><p>Jahrzente lang prägte die Brauerei Seitz mit ihren imposanten Brauerei- und Landwirtschaftsgebäuden das Dorfbild von Wald. Mitten im Dorfzentrum und unmittelbar neben dem Kloster Wald gelegen, bot es nicht nur den Waldern ein vertrautes Bild. Doch im Laufe der letzten Jahrzehnte verfiel das repräsentatinve Anwesen zusehens. So mußte der Landwirtschaftskomplex bereits im vergangenen Jahr wegen Einsturzgefahr abgerissen werden. Nach dem Tod der letzten Seitz-Vertreterin wurde das gesamte Areal an die Hohenzollerische Landesbank verkauft. Die ließ nun auch die restlichen Gebäude abreißen (unser Bild). An ihrer Stelle soll ein zweigeschossiges Wohn- und Geschäftshaus gebaut werden. Für das restliche Areal sieht der Bebauungsplan \"Dorfmitte Wald\" eine eingeschossige Wohnbebauung vor. </p><p></p><p></p>",
-    "images": [],
-    "coverPhotoId": "local_msm3tbqx09kpb6",
-    "showInTimeline": true,
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "metadata": {
-      "author": "Andreas Steffan",
-      "source": "Südkurier 1992",
-      "editor": "Stefanie Grüner"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-09T18:07:38.410Z",
-      "comments": []
-    }
-  },
-  {
     "id": "doc-1772558738917",
     "title": "Postkarten aus Wald",
     "year": 1935,
@@ -2602,6 +2569,54 @@
     "showInWordCloud": true
   },
   {
+    "id": "doc-1786298665648",
+    "sortOrder": 21,
+    "title": "Artikel Südkurier Abbruch Gebäude Seitz",
+    "year": 1992,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Handwerk"
+    ],
+    "location": "Wald",
+    "description": "<p></p>",
+    "transcription": "<p><strong>Artikel Südkurier zum Abbruch des Gebäudes Seitz 1992 von Andreas Steffan </strong></p><p>Jahrzente lang prägte die Brauerei Seitz mit ihren imposanten Brauerei- und Landwirtschaftsgebäuden das Dorfbild von Wald. Mitten im Dorfzentrum und unmittelbar neben dem Kloster Wald gelegen, bot es nicht nur den Waldern ein vertrautes Bild. Doch im Laufe der letzten Jahrzehnte verfiel das repräsentatinve Anwesen zusehens. So mußte der Landwirtschaftskomplex bereits im vergangenen Jahr wegen Einsturzgefahr abgerissen werden. Nach dem Tod der letzten Seitz-Vertreterin wurde das gesamte Areal an die Hohenzollerische Landesbank verkauft. Die ließ nun auch die restlichen Gebäude abreißen (unser Bild). An ihrer Stelle soll ein zweigeschossiges Wohn- und Geschäftshaus gebaut werden. Für das restliche Areal sieht der Bebauungsplan \"Dorfmitte Wald\" eine eingeschossige Wohnbebauung vor. </p><p></p><p></p>",
+    "images": [
+      {
+        "id": "local_msm3tbqx09kpb6",
+        "src": "/files/images/thumbnails/album-1786298176937-118948776-thumb.jpg",
+        "original": "/files/images/album-1786298176937-118948776.jpg",
+        "title": "Artikel zum Abbruch Gebäude Seitz 1992",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Andreas Steffan",
+      "source": "Südkurier 1992",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_msm3tbqx09kpb6"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-09T18:07:38.410Z",
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773160927181",
     "title": "Goldene Profess und Verleihung der Ehrenbürgerwürde Willibald Branner",
     "year": 1983,
@@ -2739,7 +2754,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 21,
+    "sortOrder": 22,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -2856,7 +2871,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 22,
+    "sortOrder": 23,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3069,7 +3084,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 23,
+    "sortOrder": 24,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3126,7 +3141,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 24,
+    "sortOrder": 25,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3327,7 +3342,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 25,
+    "sortOrder": 26,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3364,7 +3379,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 26,
+    "sortOrder": 27,
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
@@ -3409,7 +3424,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 27,
+    "sortOrder": 28,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3442,7 +3457,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 28,
+    "sortOrder": 29,
     "parent_id": "",
     "coverPhotoId": "local_momq5jcoq5ch39",
     "showInArchive": true,
@@ -3494,7 +3509,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 29,
+    "sortOrder": 30,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3587,7 +3602,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 30,
+    "sortOrder": 31,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3670,7 +3685,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 31,
+    "sortOrder": 32,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3715,7 +3730,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 32,
+    "sortOrder": 33,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4146,7 +4161,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 33,
+    "sortOrder": 34,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4154,7 +4169,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 34,
+    "sortOrder": 35,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -4241,7 +4256,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 35,
+    "sortOrder": 36,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4514,7 +4529,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 36,
+    "sortOrder": 37,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4859,7 +4874,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 37,
+    "sortOrder": 38,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5108,7 +5123,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 38,
+    "sortOrder": 39,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5273,7 +5288,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 39,
+    "sortOrder": 40,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5510,7 +5525,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5651,7 +5666,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5816,7 +5831,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5921,7 +5936,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6028,7 +6043,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 44,
+    "sortOrder": 45,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6279,7 +6294,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6324,7 +6339,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6355,7 +6370,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 47,
+    "sortOrder": 48,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6394,7 +6409,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 48,
+    "sortOrder": 49,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6511,7 +6526,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 49,
+    "sortOrder": 50,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6560,7 +6575,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6609,7 +6624,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6652,7 +6667,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 53,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6705,7 +6720,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6753,7 +6768,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6798,7 +6813,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6847,7 +6862,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6903,7 +6918,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 58,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6964,7 +6979,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7017,7 +7032,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7079,7 +7094,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7112,7 +7127,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7160,7 +7175,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7208,7 +7223,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7412,7 +7427,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -7601,7 +7616,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7648,7 +7663,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7733,7 +7748,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 68,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7781,7 +7796,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 69,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7835,7 +7850,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7843,7 +7858,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 70,
+    "sortOrder": 71,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -7922,7 +7937,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 71,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7965,7 +7980,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 72,
+    "sortOrder": 73,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8013,7 +8028,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 73,
+    "sortOrder": 74,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8062,7 +8077,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8111,7 +8126,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 76,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
