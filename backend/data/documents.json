@@ -1,5 +1,38 @@
 [
   {
+    "id": "doc-1786300517640",
+    "sortOrder": -1,
+    "title": "Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\"",
+    "year": 1969,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Personen"
+    ],
+    "location": "Wald",
+    "description": "<p>Bürgermeister Joseph Kaiser zum Ehrenbürger ernannt und in den Ruhestand verabschiedet - Bürgermeister Artur Zeh ins Amt eingesetzt</p>",
+    "transcription": "<p><strong>Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\" 04.06.1969 </strong></p><p>Bürgermeister Joseph Kaiser zum Ehrenbürger ernannt und in den Ruhestand verabschiedet - Bürgermeister Artur Zeh ins Amt eingesetzt</p><p>Wald. In der Gemeinde Wald im Süden des Landkreises Sigmaringen hat sich am Montagabend ein bedeutungsvoller Wechsel ereignet. Bürgermeister Joseph Kaiser ist nach 20jähriger verantwortungsvoller Tätigkeit in den Ruhestand getreten. In Anerkennung seiner Verdienste hat ihn der Gemeinderat zum Ehrenbürger ernannt. Bürgermeister-Stellvertreter Anton Lernhart führte Kaisers Nachfolger, Bürgermeister Artur Zeh, ins neue Amt ein. Die Feier, an der viele Gäste teilnahmen, war in der prächtig geschmückten Turnhalle der neuen Schule. Die Bürger von Wald waren in großer Zahl erschienen, um dem historischen Ereignis beizuwohnen. Mit dem Wechsel im Amt ist nämlich ein Novum verbunden. </p>",
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Schwäbische Zeitung ",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1772558738917",
     "title": "Postkarten aus Wald",
     "year": 1935,
@@ -2245,8 +2278,332 @@
     "showInWordCloud": false
   },
   {
-    "id": "doc-1786299436771",
+    "id": "doc-1773162092550",
+    "title": "Goldene Profess und Verleihung der Ehrenbürgerwürde Schwester Wiltrud Müller OSB ",
+    "year": 1998,
+    "category": "Wald",
+    "subcategories": [
+      "Veranstaltungen",
+      "Personen",
+      "Heimschule"
+    ],
+    "location": "Wald",
+    "description": "<p>Goldene Profess und Verleihung der Ehrenbürgerwürde Schwester Wiltrud Müller OSB 1998</p>",
+    "transcription": "<p>Am 11. Oktober 1998 wurde mit einem Festakt im Feuerwehrhaus Wald die 50-jährige Profess von Schwester Wiltrud Müller OSB und das 50-jährige Bestehen des Christlichen Bildungswerks Wald begangen. Ihm Rahmen dieser Feierlichkeiten wurde Schwester Wiltrud durch Bürgermeister Werner Müller die Ehrenbürgerwürde der Gemeinde Wald verliehen um ihren Einsatz und ihre Verdienste um die Gemeinde zu ehren. In der Ehrenbürgerurkunde wurde die warmherzige, fürsorgliche Arte, ihr kulturgeschichtliches Engagement und ihre großartige Persönlichkeit sowie der Einsatz in der Krankenhauseelsorge hervorgehoben. Umrahmt wurde die Feier vom Kirchenchor Wald und einer Flötengruppe des Musikvereins Wald. Abgerundet wurde der Nachmittag durch Bildungsreferentin Frau Dr. Klaiber aus Gorheim, die Pioniere des Christlichen Bildungswerks Wald zur Entstehung und Entwicklung des Bildungswerks befragte.</p>",
+    "images": [
+      {
+        "id": "55020075530",
+        "src": "/files/images/thumbnails/photo-55020075530-thumb.jpg",
+        "title": "img20220123_18043544",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:16",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55020075530/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55020075495",
+        "src": "/files/images/thumbnails/photo-55020075495-thumb.jpg",
+        "title": "img20220123_18072359",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:15",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55020075495/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55018875512",
+        "src": "/files/images/thumbnails/photo-55018875512-thumb.jpg",
+        "title": "img20220123_18060479",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:16",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55018875512/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55019757521",
+        "src": "/files/images/thumbnails/photo-55019757521-thumb.jpg",
+        "title": "img20220123_18120655",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:11",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019757521/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55019939733",
+        "src": "/files/images/thumbnails/photo-55019939733-thumb.jpg",
+        "title": "img20220123_18120650",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:12",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019939733/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55018875472",
+        "src": "/files/images/thumbnails/photo-55018875472-thumb.jpg",
+        "title": "img20220123_18060482",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:16",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55018875472/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55020074220",
+        "src": "/files/images/thumbnails/photo-55020074220-thumb.jpg",
+        "title": "img20250307_21405195",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:21:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55020074220/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55020112990",
+        "src": "/files/images/thumbnails/photo-55020112990-thumb.jpg",
+        "title": "Ehrenbürgerurkunde Schwester Wiltrud Müller",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:40:23",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55020112990/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55019939748",
+        "src": "/files/images/thumbnails/photo-55019939748-thumb.jpg",
+        "title": "img20220123_18104244_0001",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:13",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019939748/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55020075410",
+        "src": "/files/images/thumbnails/photo-55020075410-thumb.jpg",
+        "title": "img20220123_18091279",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:13",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55020075410/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55018875172",
+        "src": "/files/images/thumbnails/photo-55018875172-thumb.jpg",
+        "title": "img20220123_18160051_0001",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:08",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55018875172/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55020021749",
+        "src": "/files/images/thumbnails/photo-55020021749-thumb.jpg",
+        "title": "img20220123_18160051",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:22:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55020021749/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "editor": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "55020075530",
+      "55020075495",
+      "55018875512",
+      "55019757521",
+      "55019939733",
+      "55018875472",
+      "55020074220",
+      "55020112990",
+      "55019939748",
+      "55020075410",
+      "55018875172",
+      "55020021749"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-03-10T17:01:49.415Z",
+      "comments": []
+    },
+    "showInTimeline": true,
     "sortOrder": 19,
+    "parent_id": "",
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
+  },
+  {
+    "id": "doc-1773146549544",
+    "title": "Goldene Profess und Verleihung der Ehrenbürgerwürde Theodor Zeller ",
+    "year": 1998,
+    "category": "Wald",
+    "subcategories": [
+      "Veranstaltungen"
+    ],
+    "location": "Wald ",
+    "description": "<p>Goldene Profess und Verleihung der Ehrenbürgerwürde Pfarrer Theodor Zeller</p>",
+    "transcription": "<p>Am 28. Juni 1998 konnte der Pfarrer und Gymnasialprofessor Theodor Zeller seine 50-jährige Profess in Wald feiern. Der Jubilar wurde am Elternhaus abgeholt und in einem Festumzug vom Musikverein Wald und 15 Geistlichen in festlichem Ornat zur Kirche St. Bernhard begleitet. Die Predigt des Festgottesdienstes hielt Prälat DDr. Eugen Biser aus München. Umrahmt wurde die Messe vom Kirchenchor Wald unter der Leitung von Josef Bodenmiller. Nach dem Gottesdienst gab es einen Steh-Empfang im Foyer der Zehn-Dörfer-Halle. Am Nachmittag fand ab 15 Uhr ein Pfarrnachmittag mit Kaffee und Kuchen statt. In diesem Rahmen wurde Theodor Zeller durch Bürgermeister Werner Müller die Urkunde über das Ehrenbürgerrecht der Gemeinde Wald verliehen als Anerkennung seiner Verdienste um die Gemeinde. Der Tag endete mit einer Dankes-Vesper.</p>",
+    "images": [
+      {
+        "id": "55019883298",
+        "src": "/files/images/thumbnails/photo-55019883298-thumb.jpg",
+        "title": "img20250307_20234764",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:34",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019883298/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55018819782",
+        "src": "/files/images/thumbnails/photo-55018819782-thumb.jpg",
+        "title": "img20250307_20264543",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:34",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55018819782/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55020018350",
+        "src": "/files/images/thumbnails/photo-55020018350-thumb.jpg",
+        "title": "img20250307_20185106",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55020018350/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55019701226",
+        "src": "/files/images/thumbnails/photo-55019701226-thumb.jpg",
+        "title": "img20250307_20264538",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:34",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019701226/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55019883263",
+        "src": "/files/images/thumbnails/photo-55019883263-thumb.jpg",
+        "title": "img20250307_20234750",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019883263/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55019966209",
+        "src": "/files/images/thumbnails/photo-55019966209-thumb.jpg",
+        "title": "img20250307_20210581",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:38",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019966209/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55018819992",
+        "src": "/files/images/thumbnails/photo-55018819992-thumb.jpg",
+        "title": "img20250307_20210570",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55018819992/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55019966259",
+        "src": "/files/images/thumbnails/photo-55019966259-thumb.jpg",
+        "title": "img20250307_20185113",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 10:46:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55019966259/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "55018846497",
+        "src": "/files/images/thumbnails/photo-55018846497-thumb.jpg",
+        "title": "Urkunde Ehrenbürgerwürde Theodor Zeller",
+        "description": "",
+        "type": "album",
+        "date": "2026-01-02 11:03:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/55018846497/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Archiv Gemeinde Wald",
+      "editor": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "55019883298",
+      "55018819782",
+      "55020018350",
+      "55019701226",
+      "55019883263",
+      "55019966209",
+      "55018819992",
+      "55019966259",
+      "55018846497"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-03-10T12:42:55.249Z",
+      "comments": []
+    },
+    "showInTimeline": true,
+    "sortOrder": 20,
+    "parent_id": "",
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true
+  },
+  {
+    "id": "doc-1786299436771",
+    "sortOrder": 21,
     "title": "Abbruch ehemalige Brauerei Seitz ",
     "year": 1992,
     "parent_id": "",
@@ -2473,330 +2830,6 @@
       "reviewedAt": "2026-08-09T18:17:49.504Z",
       "comments": []
     }
-  },
-  {
-    "id": "doc-1773162092550",
-    "title": "Goldene Profess und Verleihung der Ehrenbürgerwürde Schwester Wiltrud Müller OSB ",
-    "year": 1998,
-    "category": "Wald",
-    "subcategories": [
-      "Veranstaltungen",
-      "Personen",
-      "Heimschule"
-    ],
-    "location": "Wald",
-    "description": "<p>Goldene Profess und Verleihung der Ehrenbürgerwürde Schwester Wiltrud Müller OSB 1998</p>",
-    "transcription": "<p>Am 11. Oktober 1998 wurde mit einem Festakt im Feuerwehrhaus Wald die 50-jährige Profess von Schwester Wiltrud Müller OSB und das 50-jährige Bestehen des Christlichen Bildungswerks Wald begangen. Ihm Rahmen dieser Feierlichkeiten wurde Schwester Wiltrud durch Bürgermeister Werner Müller die Ehrenbürgerwürde der Gemeinde Wald verliehen um ihren Einsatz und ihre Verdienste um die Gemeinde zu ehren. In der Ehrenbürgerurkunde wurde die warmherzige, fürsorgliche Arte, ihr kulturgeschichtliches Engagement und ihre großartige Persönlichkeit sowie der Einsatz in der Krankenhauseelsorge hervorgehoben. Umrahmt wurde die Feier vom Kirchenchor Wald und einer Flötengruppe des Musikvereins Wald. Abgerundet wurde der Nachmittag durch Bildungsreferentin Frau Dr. Klaiber aus Gorheim, die Pioniere des Christlichen Bildungswerks Wald zur Entstehung und Entwicklung des Bildungswerks befragte.</p>",
-    "images": [
-      {
-        "id": "55020075530",
-        "src": "/files/images/thumbnails/photo-55020075530-thumb.jpg",
-        "title": "img20220123_18043544",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:16",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55020075530/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55020075495",
-        "src": "/files/images/thumbnails/photo-55020075495-thumb.jpg",
-        "title": "img20220123_18072359",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:15",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55020075495/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55018875512",
-        "src": "/files/images/thumbnails/photo-55018875512-thumb.jpg",
-        "title": "img20220123_18060479",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:16",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55018875512/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55019757521",
-        "src": "/files/images/thumbnails/photo-55019757521-thumb.jpg",
-        "title": "img20220123_18120655",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:11",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019757521/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55019939733",
-        "src": "/files/images/thumbnails/photo-55019939733-thumb.jpg",
-        "title": "img20220123_18120650",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:12",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019939733/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55018875472",
-        "src": "/files/images/thumbnails/photo-55018875472-thumb.jpg",
-        "title": "img20220123_18060482",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:16",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55018875472/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55020074220",
-        "src": "/files/images/thumbnails/photo-55020074220-thumb.jpg",
-        "title": "img20250307_21405195",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:21:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55020074220/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55020112990",
-        "src": "/files/images/thumbnails/photo-55020112990-thumb.jpg",
-        "title": "Ehrenbürgerurkunde Schwester Wiltrud Müller",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:40:23",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55020112990/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55019939748",
-        "src": "/files/images/thumbnails/photo-55019939748-thumb.jpg",
-        "title": "img20220123_18104244_0001",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:13",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019939748/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55020075410",
-        "src": "/files/images/thumbnails/photo-55020075410-thumb.jpg",
-        "title": "img20220123_18091279",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:13",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55020075410/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55018875172",
-        "src": "/files/images/thumbnails/photo-55018875172-thumb.jpg",
-        "title": "img20220123_18160051_0001",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:08",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55018875172/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55020021749",
-        "src": "/files/images/thumbnails/photo-55020021749-thumb.jpg",
-        "title": "img20220123_18160051",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:22:09",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55020021749/",
-        "license": "All Rights Reserved"
-      }
-    ],
-    "metadata": {
-      "author": "Unbekannt",
-      "source": "Archiv Gemeinde Wald",
-      "editor": "Unbekannt"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [
-      "55020075530",
-      "55020075495",
-      "55018875512",
-      "55019757521",
-      "55019939733",
-      "55018875472",
-      "55020074220",
-      "55020112990",
-      "55019939748",
-      "55020075410",
-      "55018875172",
-      "55020021749"
-    ],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-03-10T17:01:49.415Z",
-      "comments": []
-    },
-    "showInTimeline": true,
-    "sortOrder": 20,
-    "parent_id": "",
-    "coverPhotoId": "",
-    "showInArchive": true,
-    "showInWordCloud": true
-  },
-  {
-    "id": "doc-1773146549544",
-    "title": "Goldene Profess und Verleihung der Ehrenbürgerwürde Theodor Zeller ",
-    "year": 1998,
-    "category": "Wald",
-    "subcategories": [
-      "Veranstaltungen"
-    ],
-    "location": "Wald ",
-    "description": "<p>Goldene Profess und Verleihung der Ehrenbürgerwürde Pfarrer Theodor Zeller</p>",
-    "transcription": "<p>Am 28. Juni 1998 konnte der Pfarrer und Gymnasialprofessor Theodor Zeller seine 50-jährige Profess in Wald feiern. Der Jubilar wurde am Elternhaus abgeholt und in einem Festumzug vom Musikverein Wald und 15 Geistlichen in festlichem Ornat zur Kirche St. Bernhard begleitet. Die Predigt des Festgottesdienstes hielt Prälat DDr. Eugen Biser aus München. Umrahmt wurde die Messe vom Kirchenchor Wald unter der Leitung von Josef Bodenmiller. Nach dem Gottesdienst gab es einen Steh-Empfang im Foyer der Zehn-Dörfer-Halle. Am Nachmittag fand ab 15 Uhr ein Pfarrnachmittag mit Kaffee und Kuchen statt. In diesem Rahmen wurde Theodor Zeller durch Bürgermeister Werner Müller die Urkunde über das Ehrenbürgerrecht der Gemeinde Wald verliehen als Anerkennung seiner Verdienste um die Gemeinde. Der Tag endete mit einer Dankes-Vesper.</p>",
-    "images": [
-      {
-        "id": "55019883298",
-        "src": "/files/images/thumbnails/photo-55019883298-thumb.jpg",
-        "title": "img20250307_20234764",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:34",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019883298/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55018819782",
-        "src": "/files/images/thumbnails/photo-55018819782-thumb.jpg",
-        "title": "img20250307_20264543",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:34",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55018819782/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55020018350",
-        "src": "/files/images/thumbnails/photo-55020018350-thumb.jpg",
-        "title": "img20250307_20185106",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:40",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55020018350/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55019701226",
-        "src": "/files/images/thumbnails/photo-55019701226-thumb.jpg",
-        "title": "img20250307_20264538",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:34",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019701226/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55019883263",
-        "src": "/files/images/thumbnails/photo-55019883263-thumb.jpg",
-        "title": "img20250307_20234750",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019883263/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55019966209",
-        "src": "/files/images/thumbnails/photo-55019966209-thumb.jpg",
-        "title": "img20250307_20210581",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:38",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019966209/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55018819992",
-        "src": "/files/images/thumbnails/photo-55018819992-thumb.jpg",
-        "title": "img20250307_20210570",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:40",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55018819992/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55019966259",
-        "src": "/files/images/thumbnails/photo-55019966259-thumb.jpg",
-        "title": "img20250307_20185113",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 10:46:40",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55019966259/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "55018846497",
-        "src": "/files/images/thumbnails/photo-55018846497-thumb.jpg",
-        "title": "Urkunde Ehrenbürgerwürde Theodor Zeller",
-        "description": "",
-        "type": "album",
-        "date": "2026-01-02 11:03:40",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/55018846497/",
-        "license": "All Rights Reserved"
-      }
-    ],
-    "metadata": {
-      "author": "Unbekannt",
-      "source": "Archiv Gemeinde Wald",
-      "editor": "Unbekannt"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [
-      "55019883298",
-      "55018819782",
-      "55020018350",
-      "55019701226",
-      "55019883263",
-      "55019966209",
-      "55018819992",
-      "55019966259",
-      "55018846497"
-    ],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-03-10T12:42:55.249Z",
-      "comments": []
-    },
-    "showInTimeline": true,
-    "sortOrder": 21,
-    "parent_id": "",
-    "coverPhotoId": "",
-    "showInArchive": true,
-    "showInWordCloud": true
   },
   {
     "id": "doc-1786298665648",
