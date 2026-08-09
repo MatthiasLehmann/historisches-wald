@@ -7385,9 +7385,9 @@
       "editor": "Risse an den Rändern"
     },
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-09T19:41:17.899Z",
       "comments": []
     },
     "imageIds": [],
