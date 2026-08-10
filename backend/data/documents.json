@@ -1,38 +1,5 @@
 [
   {
-    "id": "doc-1786385281676",
-    "sortOrder": -1,
-    "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
-    "year": 1966,
-    "parent_id": "",
-    "category": "Wald",
-    "subcategories": [
-      "Personen"
-    ],
-    "location": "Wald ",
-    "description": "<p>Artikel Südkurier vom 31.10.1966 über den Bürgermeister und Ehrenbürger Josef Kaiser</p>",
-    "transcription": "<p><strong>Vom Handelspionier in Afrika zum Bürgermeister in Wald </strong></p><p>Josef Kaiser seit 18 Jahren im Amt und für 12 Jahre wiedergewählt - Böllerschüsse als Glückwunsch </p><p>Erwartungsgemäß gab die Mehrheit der 328 Wähler in Wald dem Mann, der seit 18 Jahren Bürgermeister ist und dem sie schon zweimal das Vertrauen bewiesen haben, vor Kurzem Ihre Stimme. Zwölf Böllersalven donnerten am Abend nach der ruhigen Wahl, die ohne jegliche \"Untergrundarbeit\" über die Bühne gegangen war, zu Ehren von Josef Kaiser, und die Musikapelle, deren Vorsitzender er seit eineinhalb Jahren ist, brachte ihm vor der Wirtschaft, in der gefeiert wurde, ein Ständchen. </p><p>Bürgermeister Kaiser, der in wenigen Tagen sein 65. Lebensjahr vollendet, ist zwar kein Verwaltungsfachmann, aber er hat es, seitdem er den höchsten Gemeindeposten als Nachfolger des inzwischen verstorbenen Josef Karle bezog, verstanden, zusammen mit einem gut arbeitenden Gemeinderat ersprießliche Arbeit zu leisten. </p><p>Er kennt die Grenzen des Möglichen in seiner Gemeinde, die nahe an die Tausend-Einwohner-Grenze rückt (Wald hatte 1948 etwa 550 Einwohner, jetzt sind es 950) und versucht beständig, Schritt für Schritt weiter vorwärts zu kommen. Weitere Schulräume zu schaffen, Bauland zu erschließen, den Feldwegebau auch in dem zu Wald gehördenden Steckeln voranzutreiben, der im letzten Jahr zwar geplant, aber wegen mangelnder Mittel wieder abgeschrieben worden war, und innerhalb der Gemeinde Gehwege zu bauen und zu verlängern, sind seine Zukunftspläne. Seit Kaiser Bürgermeister ist, sind allein am Sägeweg neun neue Häuser entstanden - ein beachtliche Zahl in einem Ort wie Wald, der eine besondere Struktur hat. Die neue Volksschule, Symbol des Zentralschulorts, in dem die Kultur ein weites Feld hat, die neu in Betrieb genommene Kläranlage, die Kanalisation sind wichtige Stationen in seiner Tätigkeit. Der am 11. November 1901 in Wald als Sohn eines Kaufmanns geborene Josef Kaiser hatte keineswegs von jung an die Linie späterer maßgebender kommunalpolitischer Tätigkeit verfolgt. Wagemutig war er als 23-jähriger nach der Mittleren Reife an der Realschule Meßkirch 1918 und einer kaufmännischen Lehre in Ravensburg in der Zeit der Arbeitslosigkeit mit einem Freund nach Afrika ausgewandert. Portugiesisch-Angola im Westen des Schwarzen Kontinents war die erste Station für die jungen Walder gewesen, in der sie sich unter schwierigen Bedingungen als Farmer versuchten. Dort trennten sich ihre Wege. Der Freund, Georg Vogel, der vor drei Jahren einige Monate Heimaturlaub in Wald machte, lebt mit seiner Familie heute noch dort als Manager einer Sisalpflanzung, während Josef Kaiser bald darauf umsattelte, beim Bahnbau 200 Schwarze beaufsichtigte und nach zwei Jahren heimkehrte. Doch schon Monate später zog es ihn zurück, diesmal in die frühere deutsche Konolie Ostafrika nach Tanga, wo er als Kaufmann für indische, englische und deutsche Handelsunternehmen arbeitete. Damals beherrschte der junge Auswanderer aus Hohenzollern perfekt die Landessprache Kisuaheli. Dennoch entschloß er sich 1933, wieder in die Heimat zurückzuziehen. Kaiser übernahm 1936, nach der Hochzeit mit der Allgäuerin Margarthe Härtl das Geschäft seiner versorbenen Eltern. 10 Jahre später kam er in den Gemeinderat; 1948 wurde er zum Bürgermeister gewählt. Er übernahm das Amt unter besseren Vorraussetzungen als viele seiner langjährigen Kollegen, die 1945 gewählt wurden. Die Heimschule Kloster Wald hat sich seit ihrem Einzug 1946 nach den Worten Kaisers, der seit seinem Beginn mit ihr gut zusammenarbeitet \"zugunsten der Gemeinde entwickelt\". Walds Bürgermeister hat nach einem bewegten Lebenslauf ein weiteres Tätigkeitsfeld in der Öffentlichkeit gefunden. Er ist Vorsitzender der Wasserversorgungsgruppe Wald, an die zehn Gemeinden angeschlossen sind, neben dem Posten als Vorsitzender des Bezirks-Imkervereins. </p><p></p>",
-    "images": [],
-    "coverPhotoId": "53537579778",
-    "showInTimeline": true,
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "metadata": {
-      "author": "Unbekannt",
-      "source": "Südkurier 1966",
-      "editor": "Elfriede Kempter"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-10T18:25:21.935Z",
-      "comments": []
-    }
-  },
-  {
     "id": "doc-1772558738917",
     "title": "Postkarten aus Wald",
     "year": 2026,
@@ -3939,6 +3906,39 @@
     "showInWordCloud": true
   },
   {
+    "id": "doc-1786385281676",
+    "sortOrder": 32,
+    "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
+    "year": 1966,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Personen"
+    ],
+    "location": "Wald ",
+    "description": "<p>Artikel Südkurier vom 31.10.1966 über den Bürgermeister und Ehrenbürger Josef Kaiser</p>",
+    "transcription": "<p><strong>Vom Handelspionier in Afrika zum Bürgermeister in Wald </strong></p><p>Josef Kaiser seit 18 Jahren im Amt und für 12 Jahre wiedergewählt - Böllerschüsse als Glückwunsch </p><p>Erwartungsgemäß gab die Mehrheit der 328 Wähler in Wald dem Mann, der seit 18 Jahren Bürgermeister ist und dem sie schon zweimal das Vertrauen bewiesen haben, vor Kurzem Ihre Stimme. Zwölf Böllersalven donnerten am Abend nach der ruhigen Wahl, die ohne jegliche \"Untergrundarbeit\" über die Bühne gegangen war, zu Ehren von Josef Kaiser, und die Musikapelle, deren Vorsitzender er seit eineinhalb Jahren ist, brachte ihm vor der Wirtschaft, in der gefeiert wurde, ein Ständchen. </p><p>Bürgermeister Kaiser, der in wenigen Tagen sein 65. Lebensjahr vollendet, ist zwar kein Verwaltungsfachmann, aber er hat es, seitdem er den höchsten Gemeindeposten als Nachfolger des inzwischen verstorbenen Josef Karle bezog, verstanden, zusammen mit einem gut arbeitenden Gemeinderat ersprießliche Arbeit zu leisten. </p><p>Er kennt die Grenzen des Möglichen in seiner Gemeinde, die nahe an die Tausend-Einwohner-Grenze rückt (Wald hatte 1948 etwa 550 Einwohner, jetzt sind es 950) und versucht beständig, Schritt für Schritt weiter vorwärts zu kommen. Weitere Schulräume zu schaffen, Bauland zu erschließen, den Feldwegebau auch in dem zu Wald gehördenden Steckeln voranzutreiben, der im letzten Jahr zwar geplant, aber wegen mangelnder Mittel wieder abgeschrieben worden war, und innerhalb der Gemeinde Gehwege zu bauen und zu verlängern, sind seine Zukunftspläne. Seit Kaiser Bürgermeister ist, sind allein am Sägeweg neun neue Häuser entstanden - ein beachtliche Zahl in einem Ort wie Wald, der eine besondere Struktur hat. Die neue Volksschule, Symbol des Zentralschulorts, in dem die Kultur ein weites Feld hat, die neu in Betrieb genommene Kläranlage, die Kanalisation sind wichtige Stationen in seiner Tätigkeit. Der am 11. November 1901 in Wald als Sohn eines Kaufmanns geborene Josef Kaiser hatte keineswegs von jung an die Linie späterer maßgebender kommunalpolitischer Tätigkeit verfolgt. Wagemutig war er als 23-jähriger nach der Mittleren Reife an der Realschule Meßkirch 1918 und einer kaufmännischen Lehre in Ravensburg in der Zeit der Arbeitslosigkeit mit einem Freund nach Afrika ausgewandert. Portugiesisch-Angola im Westen des Schwarzen Kontinents war die erste Station für die jungen Walder gewesen, in der sie sich unter schwierigen Bedingungen als Farmer versuchten. Dort trennten sich ihre Wege. Der Freund, Georg Vogel, der vor drei Jahren einige Monate Heimaturlaub in Wald machte, lebt mit seiner Familie heute noch dort als Manager einer Sisalpflanzung, während Josef Kaiser bald darauf umsattelte, beim Bahnbau 200 Schwarze beaufsichtigte und nach zwei Jahren heimkehrte. Doch schon Monate später zog es ihn zurück, diesmal in die frühere deutsche Konolie Ostafrika nach Tanga, wo er als Kaufmann für indische, englische und deutsche Handelsunternehmen arbeitete. Damals beherrschte der junge Auswanderer aus Hohenzollern perfekt die Landessprache Kisuaheli. Dennoch entschloß er sich 1933, wieder in die Heimat zurückzuziehen. Kaiser übernahm 1936, nach der Hochzeit mit der Allgäuerin Margarthe Härtl das Geschäft seiner versorbenen Eltern. 10 Jahre später kam er in den Gemeinderat; 1948 wurde er zum Bürgermeister gewählt. Er übernahm das Amt unter besseren Vorraussetzungen als viele seiner langjährigen Kollegen, die 1945 gewählt wurden. Die Heimschule Kloster Wald hat sich seit ihrem Einzug 1946 nach den Worten Kaisers, der seit seinem Beginn mit ihr gut zusammenarbeitet \"zugunsten der Gemeinde entwickelt\". Walds Bürgermeister hat nach einem bewegten Lebenslauf ein weiteres Tätigkeitsfeld in der Öffentlichkeit gefunden. Er ist Vorsitzender der Wasserversorgungsgruppe Wald, an die zehn Gemeinden angeschlossen sind, neben dem Posten als Vorsitzender des Bezirks-Imkervereins. </p><p></p>",
+    "images": [],
+    "coverPhotoId": "53537579778",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Südkurier 1966",
+      "editor": "Elfriede Kempter"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-10T18:25:21.935Z",
+      "comments": []
+    }
+  },
+  {
     "id": "doc-006",
     "title": "Zeitungsartikel Brand Riedetsweiler",
     "year": 1964,
@@ -3984,7 +3984,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 32,
+    "sortOrder": 33,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4077,7 +4077,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 33,
+    "sortOrder": 34,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4160,7 +4160,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 34,
+    "sortOrder": 35,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4205,7 +4205,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 35,
+    "sortOrder": 36,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4636,7 +4636,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 36,
+    "sortOrder": 37,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4644,7 +4644,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -4731,7 +4731,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 38,
+    "sortOrder": 39,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5004,7 +5004,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 39,
+    "sortOrder": 40,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5349,7 +5349,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5598,7 +5598,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5763,7 +5763,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6000,7 +6000,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6141,7 +6141,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 44,
+    "sortOrder": 45,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6306,7 +6306,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6411,7 +6411,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6518,7 +6518,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 47,
+    "sortOrder": 48,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6769,7 +6769,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 48,
+    "sortOrder": 49,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6783,11 +6783,12 @@
     "subcategories": [],
     "location": "Wald ",
     "description": "<p>Zeitungsartikel zum Abbruch der alten Kapelle in Wald 1953</p>",
-    "transcription": "<p>Urkundenfund beim Abbruch der alten Kapelle in Wald</p><p>Am Allerheiligen-Sonntag wird die neue Kapelle eingeweiht.</p>",
+    "transcription": "<p><strong>Urkundenfund beim Abbruch der alten Kapelle in Wald</strong></p><p>Am Allerheiligen-Sonntag wird die neue Kapelle eingeweiht</p><p>Wald. Die alte Kapelle an der Weggabelung beim Gasthaus \"Zum Grünen Baum\" in unserer Gemeinde, die schon vor Jahrhunderten entstanden sein muß und von deren Erbauung keine Unterlagen mehr vorliegen, wurde nun, da sie inzwischen altersschwach geworden ist und sich einseitig nach rechts gesenkt hat, abgebrochen und durch eine neue und schönere Kapelle ersetzt. Die Kreuzigungsgruppe, die aus dem 17. Jahrhundert stammt, wird wieder in der neuen Kapelle aufgestellt, nachdem sie in der Bildhauerwerkstätte der Klosterschule neu aufgefrischt wurde. Den Plan für die neue Kapelle schuf Landeskonservator Reg.-Baurat Walter Genzmer, Sigmaringen.  </p>",
     "images": [
       {
         "id": "local_mmqsgyenfh59cp",
         "src": "/files/images/thumbnails/album-1773520760727-7315436-thumb.jpg",
+        "original": "/files/images/album-1773520760727-7315436.png",
         "title": "Wegekapelle.png",
         "description": "",
         "type": "album",
@@ -6814,7 +6815,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 49,
+    "sortOrder": 50,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6845,7 +6846,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6884,7 +6885,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7001,7 +7002,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 53,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7050,7 +7051,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7099,7 +7100,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7142,7 +7143,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7195,7 +7196,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7229,7 +7230,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 58,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7274,7 +7275,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7309,7 +7310,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7365,7 +7366,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7426,7 +7427,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7479,7 +7480,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7541,7 +7542,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7574,7 +7575,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7608,7 +7609,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7656,7 +7657,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7860,7 +7861,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 68,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -8062,7 +8063,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 69,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8109,7 +8110,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8194,7 +8195,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 70,
+    "sortOrder": 71,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8228,7 +8229,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 71,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8282,7 +8283,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 72,
+    "sortOrder": 73,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8290,7 +8291,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 73,
+    "sortOrder": 74,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -8369,7 +8370,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8412,7 +8413,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 76,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8460,7 +8461,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 76,
+    "sortOrder": 77,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8468,7 +8469,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 77,
+    "sortOrder": 78,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -8540,7 +8541,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8589,7 +8590,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 79,
+    "sortOrder": 80,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8597,7 +8598,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 80,
+    "sortOrder": 81,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
