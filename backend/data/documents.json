@@ -1,36 +1,5 @@
 [
   {
-    "id": "doc-1786353025774",
-    "sortOrder": -1,
-    "title": "Die Vermessung von Wald ",
-    "year": 1775,
-    "parent_id": "",
-    "category": "Wald",
-    "subcategories": [],
-    "location": "Wald/Walbertsweiler",
-    "description": "<p></p>",
-    "transcription": "<p><strong>Staatsarchiv: Die Vermessung von Wald </strong></p><p>von Falko Hahn</p><p>im Staatsarchiv Sigmaringen aufbewahrte Vermessungskarte von Walbertsweiler aus dem Jahr 1775. Sichtbar gewordene Grund- und Bodengeschichte eines im Bann von Kloster Wald liegenden kleinen Bauerndorfs. Das Kirchdorf Walbertsweiler war seit der Gründung des geistlichen Herrschaft von Kloster Wald im Jahr 1212 der größte und wichtigste von 15 Orten, die das Bestehen von Kloster Wald sicherten. </p><p>Als Leibeigene waren die Walbertsweiler ausersehen, als Knechte und Mägde den Klosterhof zu bewirtschaften und im Kloster für die hinter Mauern unsichtbaren Schwestern vom Orden der Zisterzienser zu sorgen. Die heimisch Gebliebenen ackerten auf den ihnen auf Zeit gegebenen Äckern und Wiesen, leisteten Steuern an das Kloster, den berüchtigten Zehnten. Ihr Pfarrer bezog von der Gemeinde das Heurecht. Wald selbst wiederum zahlte für in Wald liegende Güter des evangelischen Königsbronner Pfleghofs den Zehnt nach Pfullendorf. So wurde der Groß- oder Fruchtzehnt vom Getreideertrag erhoben, der Kleinzehnt von Ölsamen, Hanf, Flachs, Erdäpfel, Rüben, Obst, Gemüse, später auch Kartoffeln. Der Heu- und Blutzehnt wurde von neu geborenem Vieh erfasst. </p><p>Um die klösterliche Gemeinschaft von Wald langfristig über Steuereinnahmen zu sichern, bestellte die Äbtissin mmit ihrem Amtmann in gewissen Abständen einen examinierten Geometer zum Vermessen der Klosterorte. Im Jahr 1775 wurde Anton Zeh aus Herdwangen nach Walbertsweiler verpflichtet, um den Ort in seiner Gemarkung mit Häusern, Äckern und Wiesen zeichnerisch aufzunehmen. In seine farbige Karte gab er den 40 Besitzern und Lehenträgern über ihre Häuser ein bleibendes Gesicht. Zuoberst als \"A\" und \"B\" stellte er das \"Hochadelige Stift Wald\" und die \"Löbliche Pfarrey alda\". Weiter im Alphabet nahm er die mit vielen Zeiten überstehenden Familiennamen auf, wie Restle, Schweikart, Burth, Renz, Glöckler, Krall, Moser, Kuhn oder Blum. Die gut erhaltene Karte ist über alle Ecken mit einem dichten Gatterzaun geschlossen. Morgens wurde das Vieh auf dei Weiden innerhalb der Gemarkung oder durch Fallgattertore hinausgetrieben und abends wieder heimgeführt. </p><p>Die Grenze des 89 Mal 102 Zentimeter großen Karte mit 40 Flurnamen, einem Bach und sechs Wegen nach Meßkirch, Rengentsweiler, Kappel, Rast, Sauldorf und Bichtlingen umschrieb Zeh mit: \"gegen Rengetsweiler\", die \"niedere Gerichtsbarkeit mit Rengetsweiler einschließlich ihres Grund und Bodens\", \"Trieb und Tratt\" sowie \"Gebot und Verbot\". Was er wegließ, war der Fußweg nach Wald, auf dem viele aus dem Dorf jeden Tag zu Fuß gingen. An den Waldsaum des Bichtlinger Fußwegs hat der Geometer einen mit einem Gewehr ausgestatteten Feldschützen gezeichnet. Das innere der Gemarkung mit den mehr als 40 Flurnamen, dem Wegegeflecht um die Parzellen mit ihren Grundstücksmaßen ist das Kunstwerk des Geometers Zeh. </p><p>Mittelpunkt der Karte ist das Dorf mit seinen Häusern. Jedem Bauernhaus und der Obrigkeit hat er einen Buchstaben zur Aufstellung einer Namensliste zur Seite gestellt. Dei übertrug er dann Buchstabengenau in die Parzellen. Das Kloster gab jedem Haus einen Heilligen als Hauspatron. In elf Öschlagen liegen 500 Acker- und 80 Wiesenparzellen. Als Jauchert eingetragen, den ein Bauer an einem Morgen mit einem Joch Ochsen umplügen konnte, Wiesen vermaß er in Mannsmahnd. Alle paar Schritte lang führte in des Nachbarn Parzelle. Aus ihnen errechnete dann der Amtmann auf viele Jahre den Zehnten. Seine Unterschrift mit der Jahreszahl 1775 setzte er unter die mittels Zirkelbogen und Knotenschnüren fertig gewordene Karte von Walbertsweiler, umd sie dem Amtmann zu übergeben. </p>",
-    "images": [],
-    "coverPhotoId": "",
-    "showInTimeline": false,
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "metadata": {
-      "author": "Falko Hahn",
-      "source": "Staatsarchiv ",
-      "editor": "Stefanie Grüner"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [],
-    "pdfIds": [],
-    "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
-      "comments": []
-    }
-  },
-  {
     "id": "doc-1772558738917",
     "title": "Postkarten aus Wald",
     "year": 2026,
@@ -8464,6 +8433,37 @@
     "showInWordCloud": true
   },
   {
+    "id": "doc-1786353025774",
+    "sortOrder": 77,
+    "title": "Die Vermessung von Wald ",
+    "year": 1775,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [],
+    "location": "Wald/Walbertsweiler",
+    "description": "<p></p>",
+    "transcription": "<p><strong>Staatsarchiv: Die Vermessung von Wald </strong></p><p>von Falko Hahn</p><p>im Staatsarchiv Sigmaringen aufbewahrte Vermessungskarte von Walbertsweiler aus dem Jahr 1775. Sichtbar gewordene Grund- und Bodengeschichte eines im Bann von Kloster Wald liegenden kleinen Bauerndorfs. Das Kirchdorf Walbertsweiler war seit der Gründung des geistlichen Herrschaft von Kloster Wald im Jahr 1212 der größte und wichtigste von 15 Orten, die das Bestehen von Kloster Wald sicherten. </p><p>Als Leibeigene waren die Walbertsweiler ausersehen, als Knechte und Mägde den Klosterhof zu bewirtschaften und im Kloster für die hinter Mauern unsichtbaren Schwestern vom Orden der Zisterzienser zu sorgen. Die heimisch Gebliebenen ackerten auf den ihnen auf Zeit gegebenen Äckern und Wiesen, leisteten Steuern an das Kloster, den berüchtigten Zehnten. Ihr Pfarrer bezog von der Gemeinde das Heurecht. Wald selbst wiederum zahlte für in Wald liegende Güter des evangelischen Königsbronner Pfleghofs den Zehnt nach Pfullendorf. So wurde der Groß- oder Fruchtzehnt vom Getreideertrag erhoben, der Kleinzehnt von Ölsamen, Hanf, Flachs, Erdäpfel, Rüben, Obst, Gemüse, später auch Kartoffeln. Der Heu- und Blutzehnt wurde von neu geborenem Vieh erfasst. </p><p>Um die klösterliche Gemeinschaft von Wald langfristig über Steuereinnahmen zu sichern, bestellte die Äbtissin mmit ihrem Amtmann in gewissen Abständen einen examinierten Geometer zum Vermessen der Klosterorte. Im Jahr 1775 wurde Anton Zeh aus Herdwangen nach Walbertsweiler verpflichtet, um den Ort in seiner Gemarkung mit Häusern, Äckern und Wiesen zeichnerisch aufzunehmen. In seine farbige Karte gab er den 40 Besitzern und Lehenträgern über ihre Häuser ein bleibendes Gesicht. Zuoberst als \"A\" und \"B\" stellte er das \"Hochadelige Stift Wald\" und die \"Löbliche Pfarrey alda\". Weiter im Alphabet nahm er die mit vielen Zeiten überstehenden Familiennamen auf, wie Restle, Schweikart, Burth, Renz, Glöckler, Krall, Moser, Kuhn oder Blum. Die gut erhaltene Karte ist über alle Ecken mit einem dichten Gatterzaun geschlossen. Morgens wurde das Vieh auf dei Weiden innerhalb der Gemarkung oder durch Fallgattertore hinausgetrieben und abends wieder heimgeführt. </p><p>Die Grenze des 89 Mal 102 Zentimeter großen Karte mit 40 Flurnamen, einem Bach und sechs Wegen nach Meßkirch, Rengentsweiler, Kappel, Rast, Sauldorf und Bichtlingen umschrieb Zeh mit: \"gegen Rengetsweiler\", die \"niedere Gerichtsbarkeit mit Rengetsweiler einschließlich ihres Grund und Bodens\", \"Trieb und Tratt\" sowie \"Gebot und Verbot\". Was er wegließ, war der Fußweg nach Wald, auf dem viele aus dem Dorf jeden Tag zu Fuß gingen. An den Waldsaum des Bichtlinger Fußwegs hat der Geometer einen mit einem Gewehr ausgestatteten Feldschützen gezeichnet. Das innere der Gemarkung mit den mehr als 40 Flurnamen, dem Wegegeflecht um die Parzellen mit ihren Grundstücksmaßen ist das Kunstwerk des Geometers Zeh. </p><p>Mittelpunkt der Karte ist das Dorf mit seinen Häusern. Jedem Bauernhaus und der Obrigkeit hat er einen Buchstaben zur Aufstellung einer Namensliste zur Seite gestellt. Dei übertrug er dann Buchstabengenau in die Parzellen. Das Kloster gab jedem Haus einen Heilligen als Hauspatron. In elf Öschlagen liegen 500 Acker- und 80 Wiesenparzellen. Als Jauchert eingetragen, den ein Bauer an einem Morgen mit einem Joch Ochsen umplügen konnte, Wiesen vermaß er in Mannsmahnd. Alle paar Schritte lang führte in des Nachbarn Parzelle. Aus ihnen errechnete dann der Amtmann auf viele Jahre den Zehnten. Seine Unterschrift mit der Jahreszahl 1775 setzte er unter die mittels Zirkelbogen und Knotenschnüren fertig gewordene Karte von Walbertsweiler, umd sie dem Amtmann zu übergeben. </p>",
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": false,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Falko Hahn",
+      "source": "Staatsarchiv ",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773140735222",
     "title": "Äbtissin Maria Dioskora",
     "year": 1702,
@@ -8506,7 +8506,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 77,
+    "sortOrder": 78,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8555,7 +8555,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8563,7 +8563,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 79,
+    "sortOrder": 80,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
@@ -8571,7 +8571,7 @@
     "subcategories": [],
     "location": "Wald",
     "description": "<p></p>",
-    "transcription": "<p>Geschichte des Klosters Wald</p><p>Die erste urkundliche Erwähnung erfuhr das Dorf Wald, als der Stauferkönig&nbsp;Philipp von Schwaben&nbsp;die&nbsp;Vogtei&nbsp;Wald für 30 Mark und die Vogtei&nbsp;Hippetsweiler&nbsp;an die Brüder von Fronhofen verkaufte. Dieser undatierte Verkauf muss spätestens im Jahr 1208 stattgefunden haben, denn das war das Todesjahr des Königs. Bald darauf haben die Brüder dann Wald an die Herren von Balbe verkauft, die es im Jahr 1212 wiederum zum Preis von 55 Mark an den kaiserlichen Ministerialen Burkhard von Weckenstein&nbsp;verkauften. Dieser gründete im selben Jahr zu Gunsten seiner Schwestern Judintha und Ita von Weckenstein, die beide schon Zisterzienserinnen waren, das Kloster. Judintha, die ältere der beiden Schwestern, wurde als&nbsp;Äbtissin, Ita als&nbsp;Priorin&nbsp;eingesetzt.&nbsp;Das Geschlecht der Weckensteiner hatte seinen Stammsitz im&nbsp;Schmeietal&nbsp;zwischen&nbsp;Oberschmeien&nbsp;und&nbsp;Storzingen&nbsp;auf der&nbsp;Burg Weckenstein. Es erlosch bereits 1383. Das Kloster in Wald war das erste Zisterzienserkloster, das im Raum&nbsp;Oberschwaben&nbsp;gegründet wurde. Auf Bitten der&nbsp;Nonnen&nbsp;sowie des Papstes&nbsp;Honorius III.&nbsp;und durch Vermittlung Burkhards von Weckenstein wurde das Kloster Wald anfangs der&nbsp;Reichsabtei Salem&nbsp;als Tochterkloster unterstellt und bereits 1217 durch Unterstützung des Salemer Abts&nbsp;Eberhard von Rohrdorf&nbsp;zur&nbsp;Abtei&nbsp;erhoben. Das Kloster verfügte über Landbesitz nahe des Bodensees um Weinbau zu betreiben und zu Spitzenzeiter über 12 Weiher.</p><p>600 Jahre lang waren vielfach die Töchter des schwäbischen Adels Angehörige des reichsadligen Stiftes Kloster Wald. Der gesamte Klosterkomplex wurde im&nbsp;Dreißigjährigen Krieg&nbsp;(1618–1648) beinahe völlig zerstört. Aus dem Mittelalter sind nur noch der&nbsp;romanische&nbsp;und der&nbsp;gotische&nbsp;Teil des Kreuzgangs, der Kapitelsaal und der „Jennerflügel“ erhalten.</p><p>Aufgrund der&nbsp;Säkularisation&nbsp;kam das Gebiet des Klosters Wald 1806 an das Fürstentum&nbsp;Hohenzollern-Sigmaringen. Der Fürst&nbsp;Anton Aloys&nbsp;selbst schloss mit dem Konvent einen Pensionsvertrag ab, alle Nonnen erhielten bis zu ihrem Lebensende einen Geldbetrag. Die Neuaufnahme von Novizinnen war jedoch untersagt und damit war das Konvent zum Aussterben verurteilt. 1853 verließ die letzte Schwester das Kloster. 1849 kam das ehemals waldische Gebiet als Teil von Hohenzollern-Sigmaringen als&nbsp;Hohenzollernsche Lande&nbsp;an&nbsp;Preußen, im Klostergebäude waren das&nbsp;Oberamt&nbsp;und das&nbsp;Amtsgericht&nbsp;untergebracht.</p>",
+    "transcription": "<p><strong>Geschichte des Klosters Wald</strong></p><p>Die erste urkundliche Erwähnung erfuhr das Dorf Wald, als der Stauferkönig&nbsp;Philipp von Schwaben&nbsp;die&nbsp;Vogtei&nbsp;Wald für 30 Mark und die Vogtei&nbsp;Hippetsweiler&nbsp;an die Brüder von Fronhofen verkaufte. Dieser undatierte Verkauf muss spätestens im Jahr 1208 stattgefunden haben, denn das war das Todesjahr des Königs. Bald darauf haben die Brüder dann Wald an die Herren von Balbe verkauft, die es im Jahr 1212 wiederum zum Preis von 55 Mark (entspricht einer heutigen Kaufkraft von 24.721,00 €) an den kaiserlichen Ministerialen Burkhard von Weckenstein&nbsp;verkauften. Dieser beabsichtige dort für seine Schwestern ein Kloster zu gründen. Der Kaufvertrag wurde am 1. April 1212 im Hafen von Uhldingen abgeschlossen. Alle Daten stammen aus dem Stiftungsbrief der Konstanzer Bischofs Konrad II von Tegerfelden (1209 - 1233). Der Stiftungsbrief wurde zwischen 1227 und 1233 ausgestellt und im Freibruger Diözesam Archiv 12. 1878 S. 187-188 veröffentlicht. Schon in den Kauf war der Salemer Abt Eberhard von Rohrdorf (1191 - 1240) eingebunden. Er genehmigte den Platz für die Klostergründung.</p><p>Die Gründung des Klosters zu Gunsten der Schwestern Judintha und Ita von Weckenstein fand ebenfalls im Jahr 1212 statt.  Beide Schwestern waren schon Zisterzienserinnen. Judintha, die ältere der beiden Schwestern, wurde als&nbsp;Äbtissin, Ita als&nbsp;Priorin&nbsp;eingesetzt.&nbsp;Das Geschlecht der Weckensteiner hatte seinen Stammsitz im Schmeietal zwischen Oberschmeien und Storzingen&nbsp;auf der&nbsp;Burg Weckenstein. Es erlosch bereits 1383. Das Kloster in Wald war das erste Zisterzienserkloster, das im Raum&nbsp;Oberschwaben&nbsp;gegründet wurde. Auf Bitten der&nbsp;Nonnen&nbsp;sowie des Papstes&nbsp;Honorius III.&nbsp;und durch Vermittlung Burkhards von Weckenstein wurde das Kloster Wald anfangs der&nbsp;Reichsabtei Salem&nbsp;als Tochterkloster unterstellt und bereits 1217 durch Unterstützung des Salemer Abts&nbsp;Eberhard von Rohrdorf&nbsp;zur&nbsp;Abtei&nbsp;erhoben. Das Kloster verfügte über Landbesitz nahe des Bodensees um Weinbau zu betreiben und zu Spitzenzeiter über 12 Weiher.</p><p>600 Jahre lang waren vielfach die Töchter des schwäbischen Adels Angehörige des reichsadligen Stiftes Kloster Wald. Der gesamte Klosterkomplex wurde im&nbsp;Dreißigjährigen Krieg&nbsp;(1618–1648) beinahe völlig zerstört. Aus dem Mittelalter sind nur noch der&nbsp;romanische&nbsp;und der&nbsp;gotische&nbsp;Teil des Kreuzgangs, der Kapitelsaal und der „Jennerflügel“ erhalten.</p><p>Aufgrund der&nbsp;Säkularisation&nbsp;kam das Gebiet des Klosters Wald 1806 an das Fürstentum&nbsp;Hohenzollern-Sigmaringen. Der Fürst&nbsp;Anton Aloys&nbsp;selbst schloss mit dem Konvent einen Pensionsvertrag ab, alle Nonnen erhielten bis zu ihrem Lebensende einen Geldbetrag. Die Neuaufnahme von Novizinnen war jedoch untersagt und damit war das Konvent zum Aussterben verurteilt. 1853 verließ die letzte Schwester das Kloster. 1849 kam das ehemals waldische Gebiet als Teil von Hohenzollern-Sigmaringen als&nbsp;Hohenzollernsche Lande&nbsp;an&nbsp;Preußen, im Klostergebäude waren das&nbsp;Oberamt&nbsp;und das&nbsp;Amtsgericht&nbsp;untergebracht.</p>",
     "images": [
       {
         "id": "local_msmzu4rfxpjj12",
