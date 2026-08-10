@@ -4086,18 +4086,19 @@
   {
     "id": "doc-1773163864893",
     "title": "Altes Feuerwehrhaus und Wegekapelle ",
-    "year": 1958,
+    "year": 1953,
     "category": "Wald",
     "subcategories": [
       "Kirchen"
     ],
     "location": "Wald ",
-    "description": "<p>Altes Feuerwehrhaus und Wegekapelle </p>",
-    "transcription": "<p>Das alte Feuerwehrhaus von Wald wurde im Jahr 1958 abgebrochen. Im Gebäude wurde auch der gemeindliche Leichenwagen untergebracht. Neben dem Feuerwehrhaus befand sich die alte Wegekapelle, die nach Abbruch des Feuerwerhauses durch eine neue Wegekapelle ersetzt wurde.</p>",
+    "description": "<p>Altes Feuerwehrhaus und Wegekapelle</p>",
+    "transcription": "<p>Das alte Feuerwehrhaus von Wald wurde im Jahr 1953 abgebrochen. Im Gebäude wurde auch der gemeindliche Leichenwagen untergebracht. Neben dem Feuerwehrhaus befand sich die alte Wegekapelle, die nach Abbruch des Feuerwerhauses durch eine neue Wegekapelle ersetzt wurde.</p>",
     "images": [
       {
         "id": "53509214940",
         "src": "/files/images/thumbnails/photo-53509214940-thumb.jpg",
+        "original": "/files/images/1953_53509214940_o.jpg",
         "title": "1953",
         "description": "",
         "type": "album",
@@ -4109,6 +4110,7 @@
       {
         "id": "53509214890",
         "src": "/files/images/thumbnails/photo-53509214890-thumb.jpg",
+        "original": "/files/images/1953_53509214890_o.jpg",
         "title": "1953",
         "description": "",
         "type": "album",
@@ -4120,6 +4122,7 @@
       {
         "id": "53508953473",
         "src": "/files/images/thumbnails/photo-53508953473-thumb.jpg",
+        "original": "/files/images/1953_53508953473_o.jpg",
         "title": "1953",
         "description": "",
         "type": "album",
@@ -4131,6 +4134,7 @@
       {
         "id": "53508953548",
         "src": "/files/images/thumbnails/photo-53508953548-thumb.jpg",
+        "original": "/files/images/1953_53508953548_o.jpg",
         "title": "1953",
         "description": "",
         "type": "album",
