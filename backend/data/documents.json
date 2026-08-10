@@ -1,5 +1,38 @@
 [
   {
+    "id": "doc-1786385281676",
+    "sortOrder": -1,
+    "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
+    "year": 1966,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Personen"
+    ],
+    "location": "Wald ",
+    "description": "<p>Artikel Südkurier vom 31.10.1966 über den Bürgermeister und Ehrenbürger Josef Kaiser</p>",
+    "transcription": "<p><strong>Vom Handelspionier in Afrika zum Bürgermeister in Wald </strong></p><p>Josef Kaiser seit 18 Jahren im Amt und für 12 Jahre wiedergewählt - Böllerschüsse als Glückwunsch </p><p>Erwartungsgemäß gab die Mehrheit der 328 Wähler in Wald dem Mann, der seit 18 Jahren Bürgermeister ist und dem sie schon zweimal das Vertrauen bewiesen haben, vor Kurzem Ihre Stimme. Zwölf Böllersalven donnerten am Abend nach der ruhigen Wahl, die ohne jegliche \"Untergrundarbeit\" über die Bühne gegangen war, zu Ehren von Josef Kaiser, und die Musikapelle, deren Vorsitzender er seit eineinhalb Jahren ist, brachte ihm vor der Wirtschaft, in der gefeiert wurde, ein Ständchen. </p><p>Bürgermeister Kaiser, der in wenigen Tagen sein 65. Lebensjahr vollendet, ist zwar kein Verwaltungsfachmann, aber er hat es, seitdem er den höchsten Gemeindeposten als Nachfolger des inzwischen verstorbenen Josef Karle bezog, verstanden, zusammen mit einem gut arbeitenden Gemeinderat ersprießliche Arbeit zu leisten. </p>",
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Südkurier 1966",
+      "editor": "Elfriede Kempter"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1772558738917",
     "title": "Postkarten aus Wald",
     "year": 2026,
