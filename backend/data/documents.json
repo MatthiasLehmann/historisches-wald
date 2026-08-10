@@ -1798,7 +1798,7 @@
     "metadata": {
       "author": "Unbekannt",
       "source": "Fürst. Hohenz. Archiv Sigmaringen",
-      "editor": "Unbekannt"
+      "editor": "Elfriede Kempter"
     },
     "imageIds": [],
     "albumPhotoIds": [],
@@ -1811,7 +1811,7 @@
       "reviewedAt": null,
       "comments": []
     },
-    "showInTimeline": true,
+    "showInTimeline": false,
     "sortOrder": 5,
     "parent_id": "",
     "coverPhotoId": "",
