@@ -7862,7 +7862,7 @@
   },
   {
     "id": "doc-1773864336058",
-    "title": "Kloster Wald ",
+    "title": "Kloster Wald um 1900 ",
     "year": 1900,
     "category": "Wald",
     "subcategories": [],
@@ -7873,6 +7873,7 @@
       {
         "id": "54381846442",
         "src": "/files/images/thumbnails/photo-54381846442-thumb.jpg",
+        "original": "/files/images/8_54381846442_o.jpg",
         "title": "8",
         "description": "",
         "type": "album",
@@ -7884,6 +7885,7 @@
       {
         "id": "54382955888",
         "src": "/files/images/thumbnails/photo-54382955888-thumb.jpg",
+        "original": "/files/images/10_54382955888_o.jpg",
         "title": "10",
         "description": "",
         "type": "album",
@@ -7895,6 +7897,7 @@
       {
         "id": "54382923359",
         "src": "/files/images/thumbnails/photo-54382923359-thumb.jpg",
+        "original": "/files/images/9_54382923359_o.jpg",
         "title": "9",
         "description": "",
         "type": "album",
@@ -7906,6 +7909,7 @@
       {
         "id": "54382923414",
         "src": "/files/images/thumbnails/photo-54382923414-thumb.jpg",
+        "original": "/files/images/7_54382923414_o.jpg",
         "title": "7",
         "description": "",
         "type": "album",
@@ -7917,6 +7921,7 @@
       {
         "id": "54382723871",
         "src": "/files/images/thumbnails/photo-54382723871-thumb.jpg",
+        "original": "/files/images/6_54382723871_o.jpg",
         "title": "6",
         "description": "",
         "type": "album",
@@ -7928,6 +7933,7 @@
       {
         "id": "54382923209",
         "src": "/files/images/thumbnails/photo-54382923209-thumb.jpg",
+        "original": "/files/images/11_54382923209_o.jpg",
         "title": "11",
         "description": "",
         "type": "album",
@@ -7939,6 +7945,7 @@
       {
         "id": "54382923154",
         "src": "/files/images/thumbnails/photo-54382923154-thumb.jpg",
+        "original": "/files/images/12_54382923154_o.jpg",
         "title": "12",
         "description": "",
         "type": "album",
@@ -7950,6 +7957,7 @@
       {
         "id": "54382723551",
         "src": "/files/images/thumbnails/photo-54382723551-thumb.jpg",
+        "original": "/files/images/13_54382723551_o.jpg",
         "title": "13",
         "description": "",
         "type": "album",
@@ -7961,6 +7969,7 @@
       {
         "id": "54382923144",
         "src": "/files/images/thumbnails/photo-54382923144-thumb.jpg",
+        "original": "/files/images/14_54382923144_o.jpg",
         "title": "14",
         "description": "",
         "type": "album",
@@ -7972,6 +7981,7 @@
       {
         "id": "54381845982",
         "src": "/files/images/thumbnails/photo-54381845982-thumb.jpg",
+        "original": "/files/images/15_54381845982_o.jpg",
         "title": "15",
         "description": "",
         "type": "album",
@@ -7983,6 +7993,7 @@
       {
         "id": "54383107535",
         "src": "/files/images/thumbnails/photo-54383107535-thumb.jpg",
+        "original": "/files/images/17_54383107535_o.jpg",
         "title": "17",
         "description": "",
         "type": "album",
@@ -7994,6 +8005,7 @@
       {
         "id": "54382922989",
         "src": "/files/images/thumbnails/photo-54382922989-thumb.jpg",
+        "original": "/files/images/16_54382922989_o.jpg",
         "title": "16",
         "description": "",
         "type": "album",
@@ -8005,6 +8017,7 @@
       {
         "id": "54382955533",
         "src": "/files/images/thumbnails/photo-54382955533-thumb.jpg",
+        "original": "/files/images/18_54382955533_o.jpg",
         "title": "18",
         "description": "",
         "type": "album",
