@@ -1616,7 +1616,7 @@
   {
     "id": "doc-1773778317940",
     "title": "Postkarten Ruhestetten ",
-    "year": 1927,
+    "year": 2026,
     "category": "Ruhestetten",
     "subcategories": [],
     "location": "Ruhestetten",
@@ -1626,8 +1626,9 @@
       {
         "id": "local_mmv1piuqcrsrgb",
         "src": "/files/images/thumbnails/album-1773778141990-684061409-thumb.jpg",
+        "original": "/files/images/album-1773778141990-684061409.jpg",
         "title": "Postkarte Ruhestetten 1927 von Gudrun Schmidt",
-        "description": "dderwererfwerfrawerfe",
+        "description": "dsedferawrerawerewr",
         "type": "album",
         "date": "",
         "author": "",
@@ -1637,6 +1638,7 @@
       {
         "id": "local_mmv1qtfqq21rbq",
         "src": "/files/images/thumbnails/album-1773778202823-808088794-thumb.jpg",
+        "original": "/files/images/album-1773778202823-808088794.jpg",
         "title": "Postkarte Ruhestetten von Clemens Veeser",
         "description": "",
         "type": "album",
@@ -1663,7 +1665,7 @@
       "reviewedAt": "2026-03-17T20:12:37.335Z",
       "comments": []
     },
-    "showInTimeline": true,
+    "showInTimeline": false,
     "sortOrder": 1,
     "parent_id": "",
     "coverPhotoId": "",
