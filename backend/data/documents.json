@@ -3868,14 +3868,29 @@
     "location": "Wald",
     "description": "<p>Artikel Südkurier vom 03.11.1966 über den Bürgermeister und Ehrenbürger Josef Kaiser aus Wald</p>",
     "transcription": "<p><strong>Josef Kaiser zum drittenmal Bürgermeister </strong></p><p>Ein überwältigendes Wahlergebnis - Seit 1948 ununterbrochen im Amt</p><p>Wie am Montag schon berichtet, wurde der bisherige Bürgermeister der Gemeinde Wald, Kaufmann Josef Kaiser, mit 89 Prozent der abgegebenen Stimmen das dritte Mal zum Bürgermeister der Gemeinde gewählt. </p><p>Das erste Mal wurde Kaiser 148 auf sechs Jahr, 1954 auf 12 Jahre und diesmal ebenfalls wieder auf 12 Jahre gewählt. Aus Anlaß dieser Wiederwahl erscheint es angebracht, an einige in seiner Dienstzeit vorgenommenen Baumaßnahmenund Entscheidungen zu erinnern. </p><p>Gleich nach seinem Amtsantritt wurde das Gemeindehaus mit Räumen für die Feuerwehr und fünf Wohnungen erbaut. Für zehn Verbandsgemeinden, teilweise im badischen Landesteil gelegen, wurde auf seine Initiative hin eine zentrale Wasserversorgung erbaut. </p><p>Den Friedhof der Pfarrgemeinde hat er wieder herrichten und in einen sauberen Zustand versetzen lassen. Die alte Kapelle gegenüber dem Anwesen Koch mit dem alten Spritzenhaus wurde abgebrochen und neu erstellt. Die Kanalisation wurde gebaut und Bürgersteige angelegt. Der Bau eines neuen Schulhauses mit Turnhalle war in erster Linie seiner Initiative zu verdanken. Dann folgte die Erstellung einer Kläranlage. Das sind einige Taten in den abgelaufenen zwei Dienstperioden von Bürgermeister Kaiser, die das Gesicht der zentralen Schulgemeinde grundlegend verändert haben. Nachdem das überwältigende Wahlergebnis feststand, gaben 12 Kanonenschläge bekannt, daß der alte Bürgermeister wiedergewählt war. Die Musikkapelle Wald versammelte sich vor der Gaststätte \"Grüner Baum\" und spielte ihrem 1. Vorsitzenden ein Ständchen. Nachdem schon vorher der Dirigent Hübschle die Glückwünsche der Kapelle aus. In der Gaststätte dankte Kaiser für das große Vertrauen der Bürgerschaft. So wie in der Vergangenheit werde er auch in Zukunft für die Gemeinde arbeiten. Sein besonderer Dank galt dem Gemeinderat, der immer in guter Zusammenarbeit alle die anstehenden Probleme richtig erkannt und seine Zustimmung gegeben habe. Als vordringliche Probleme für die Zukunft nannte er den Straßenbau und die auf die Gemeinde zukommenden Bauvorhaben im Zusammenhang mit der geplanten Nachbarschaftsschule in Wald. Ein Freitrunk für die Kapelle und die anwesenden Bürger schloß sich an. </p>",
-    "images": [],
+    "images": [
+      {
+        "id": "local_momq5jcoq5ch39",
+        "src": "/files/images/thumbnails/album-1777628568967-439746249-thumb.jpg",
+        "original": "/files/images/album-1777628568967-439746249.jpg",
+        "title": "Ehrenbürger Kaiser",
+        "description": "Südkurierartikel 1966 über Ehrenbürger und Bürgermeister  von Wald, Josef Kaiser.",
+        "type": "album",
+        "date": "2026-05-01",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "metadata": {
       "author": "Unbekannt",
       "source": "Südkurier",
       "editor": "Elfriede Kempter"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_momq5jcoq5ch39"
+    ],
     "pdfIds": [],
     "review": {
       "status": "approved",
@@ -3886,7 +3901,7 @@
     "showInTimeline": true,
     "sortOrder": 31,
     "parent_id": "",
-    "coverPhotoId": "local_momq5jcoq5ch39",
+    "coverPhotoId": "53536514392",
     "showInArchive": true,
     "showInWordCloud": true
   },
