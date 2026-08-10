@@ -1806,9 +1806,9 @@
       "pdf-00009"
     ],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-10T08:30:24.627Z",
       "comments": []
     },
     "showInTimeline": false,
