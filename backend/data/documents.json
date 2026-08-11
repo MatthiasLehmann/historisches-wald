@@ -1,5 +1,38 @@
 [
   {
+    "id": "doc-1786475696502",
+    "sortOrder": -2,
+    "title": "Artikel Südkurier \"Bürgermeister-Kandidat Zeh stellte sich vor\"",
+    "year": 1969,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Personen"
+    ],
+    "location": "Wald",
+    "description": "<p>Artikel Südkurier vom 15. April 1969 </p>",
+    "transcription": "<p><strong>Bürgermeister-Kandidat Zeh stellte sich vor</strong></p><p>Guter persönlicher Eindruck - Wissen und Können für Gemeinwohl </p>",
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "jz",
+      "source": "Südkurier 1969",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1786473902406",
     "sortOrder": -1,
     "title": "Artur Zeh ",
