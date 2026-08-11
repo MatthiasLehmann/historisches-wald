@@ -157,18 +157,6 @@
     },
     "images": [
       {
-        "id": "local_mmv2ixidor3kvp",
-        "src": "/files/images/thumbnails/album-1773779512598-484108320-thumb.jpg",
-        "original": "/files/images/album-1773779512598-484108320.jpg",
-        "title": "Rothenlachen.jpg",
-        "description": "",
-        "type": "album",
-        "date": "",
-        "author": "",
-        "source": "",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "local_mmv2il218ekzxw",
         "src": "/files/images/thumbnails/album-1773779498317-104534576-thumb.jpg",
         "original": "/files/images/album-1773779498317-104534576.jpg",
@@ -193,7 +181,7 @@
         "license": "All Rights Reserved"
       }
     ],
-    "coverPhotoId": "",
+    "coverPhotoId": "local_mmv2ixidor3kvp",
     "showInTimeline": true,
     "showInArchive": true,
     "showInWordCloud": true,
@@ -204,14 +192,13 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mmv2ixidor3kvp",
       "local_mmv2il218ekzxw",
       "local_mmv2hc8azqu0ke"
     ],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
+      "status": "approved",
+      "reviewer": "M.Lehmann",
       "reviewedAt": null,
       "comments": []
     }
