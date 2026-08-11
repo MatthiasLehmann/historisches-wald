@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Download, ExternalLink, FileText, ListTree, ScrollText } from 'lucide-react';
+import { ArrowLeft, ArrowUp, BookOpen, Download, ExternalLink, FileText, Images, ListTree, ScrollText } from 'lucide-react';
 import ImageGallery from '../components/ImageGallery';
 import RichTextContent from '../components/RichTextContent';
 import { fetchDocuments } from '../services/api';
@@ -115,6 +115,9 @@ const ChapterList = ({ chapters }) => (
     </div>
 );
 
+const quickActionClass =
+    'inline-flex items-center justify-center gap-2 rounded-sm border border-accent px-4 py-2 text-sm font-semibold text-accent transition hover:bg-accent hover:text-white';
+
 const DocumentPage = () => {
     const { id } = useParams();
     const navigate = useNavigate();
@@ -227,6 +230,9 @@ const DocumentPage = () => {
     const metadataYear = document.year || 'Ohne Jahr';
     const coverImage = document.coverImage;
     const coverSrc = typeof coverImage === 'string' ? coverImage : coverImage?.src || '';
+    const hasGallery = Array.isArray(document.images) && document.images.length > 0;
+    const singlePdf = linkedPdfs.length === 1 ? linkedPdfs[0] : null;
+    const hasQuickActions = hasTranscription || hasGallery || linkedPdfs.length > 0;
     return (
         <article className="container mx-auto px-4 py-8">
             <button
@@ -237,7 +243,7 @@ const DocumentPage = () => {
                 <span>Zurück</span>
             </button>
 
-            <header className="mb-8 border-b border-parchment-dark pb-8">
+            <header id="document-header" className="mb-8 scroll-mt-24 border-b border-parchment-dark pb-8">
                 <div className={`grid gap-6 ${coverSrc ? 'lg:grid-cols-[minmax(0,1fr)_minmax(280px,420px)] lg:items-start' : ''}`}>
                     <div className="space-y-4">
                         <div className="flex flex-wrap gap-2 items-center">
@@ -273,6 +279,38 @@ const DocumentPage = () => {
                                 Quelle: <span className="font-semibold text-ink">{metadataSource}</span>
                             </p>
                         </div>
+                        {hasQuickActions && (
+                            <nav className="flex flex-wrap gap-2 pt-2" aria-label="Beitragsbereiche">
+                                {hasTranscription && (
+                                    <a href="#inhalt" className={quickActionClass}>
+                                        <ScrollText size={16} />
+                                        Inhalt
+                                    </a>
+                                )}
+                                {hasGallery && (
+                                    <a href="#galerie" className={quickActionClass}>
+                                        <Images size={16} />
+                                        Galerie
+                                    </a>
+                                )}
+                                {singlePdf ? (
+                                    <a
+                                        href={singlePdf.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className={quickActionClass}
+                                    >
+                                        <ExternalLink size={16} />
+                                        PDF öffnen
+                                    </a>
+                                ) : linkedPdfs.length > 1 ? (
+                                    <a href="#pdfs" className={quickActionClass}>
+                                        <FileText size={16} />
+                                        PDFs anzeigen
+                                    </a>
+                                ) : null}
+                            </nav>
+                        )}
                     </div>
 
                     {coverSrc && (
@@ -308,10 +346,10 @@ const DocumentPage = () => {
                 )}
 
                 {hasTranscription && (
-                    <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
+                    <section id="inhalt" className="scroll-mt-24 bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
                         <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
                             <ScrollText size={20} className="text-accent" />
-                            Abschrift
+                            Inhalt
                         </h3>
                         <div className="border-l-4 border-accent/20 pl-4 py-2 bg-parchment/20 rounded-sm">
                             <RichTextContent
@@ -350,13 +388,13 @@ const DocumentPage = () => {
                     </section>
                 )}
 
-                <section>
+                <section id="galerie" className="scroll-mt-24">
                     <h3 className="font-serif text-xl font-bold mb-4">Galerie</h3>
                     <ImageGallery images={document.images} title={document.title} />
                 </section>
 
                 {linkedPdfs.length > 0 && (
-                    <section className="bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
+                    <section id="pdfs" className="scroll-mt-24 bg-white p-6 rounded-sm shadow-sm border border-parchment-dark">
                         <h3 className="font-serif text-xl font-bold mb-4 flex items-center gap-2">
                             <FileText size={20} className="text-accent" />
                             Verknüpfte PDFs
@@ -378,15 +416,15 @@ const DocumentPage = () => {
                                             </p>
                                         </div>
                                         <div className="flex flex-wrap gap-2">
-                                            <Link
-                                                to={`/pdfs/${pdf.id}/view`}
+                                            <a
+                                                href={pdf.url}
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold border border-accent text-accent rounded-sm hover:bg-accent hover:text-white transition"
                                             >
                                                 <ExternalLink size={16} />
                                                 PDF anzeigen
-                                            </Link>
+                                            </a>
                                             <a
                                                 href={pdf.url}
                                                 download
@@ -403,6 +441,13 @@ const DocumentPage = () => {
                     </section>
                 )}
             </div>
+            <a
+                href="#document-header"
+                className="fixed bottom-4 right-4 z-40 inline-flex items-center gap-2 rounded-full border border-accent bg-parchment px-4 py-3 text-sm font-semibold text-accent shadow-lg transition hover:bg-accent hover:text-white"
+            >
+                <ArrowUp size={16} />
+                Nach oben
+            </a>
         </article>
     );
 };
