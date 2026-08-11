@@ -24,7 +24,9 @@
     },
     "imageIds": [],
     "albumPhotoIds": [],
-    "pdfIds": [],
+    "pdfIds": [
+      "pdf-00022"
+    ],
     "review": {
       "status": "pending",
       "reviewer": "",
