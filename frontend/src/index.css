@@ -160,6 +160,39 @@ h6 {
   font-weight: 600;
 }
 
+.wysiwyg-editor__content .ProseMirror .album-photo-node,
+.album-photo-node {
+  border: 1px solid var(--color-parchment-dark);
+  border-radius: 0.25rem;
+  background: #fff;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.wysiwyg-editor__content .ProseMirror .album-photo-node.ProseMirror-selectednode {
+  outline: 3px solid rgba(139, 90, 43, 0.35);
+  outline-offset: 2px;
+}
+
+.wysiwyg-editor__content .ProseMirror .album-photo-node img,
+.album-photo-node img {
+  display: block;
+  width: 100%;
+  max-height: 26rem;
+  object-fit: contain;
+  background: var(--color-parchment);
+}
+
+.wysiwyg-editor__content .ProseMirror .album-photo-node figcaption,
+.album-photo-node figcaption {
+  border-top: 1px solid var(--color-parchment-dark);
+  background: rgba(244, 236, 216, 0.55);
+  color: rgba(44, 36, 27, 0.72);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  padding: 0.65rem 0.85rem;
+}
+
 .wysiwyg-editor__content .ProseMirror .is-editor-empty:first-child::before {
   content: attr(data-placeholder);
   color: rgba(44, 36, 27, 0.4);
