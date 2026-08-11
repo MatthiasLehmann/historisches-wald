@@ -55,6 +55,13 @@ const normalizeParentId = (value) => {
   return String(value).trim();
 };
 
+const normalizeTipTapJson = (value) => {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) {
+    return null;
+  }
+  return value;
+};
+
 const normalizeDocument = (doc, fallbackSortOrder = 0) => {
   const normalized = normalizeReview(doc);
   const hasExplicitImageReferences =
@@ -83,6 +90,8 @@ const normalizeDocument = (doc, fallbackSortOrder = 0) => {
     showInArchive: normalized.showInArchive !== false,
     showInWordCloud: normalized.showInWordCloud !== false,
     metadata: normalizeMetadata(normalized),
+    descriptionJson: normalizeTipTapJson(normalized.descriptionJson),
+    transcriptionJson: normalizeTipTapJson(normalized.transcriptionJson),
     images: Array.isArray(normalized.images) ? normalized.images : [],
     pdfs: []
   };
@@ -513,7 +522,9 @@ export const createDocument = async (req, res) => {
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : [],
       location: req.body.location || '',
       description: req.body.description || '',
+      descriptionJson: normalizeTipTapJson(req.body.descriptionJson),
       transcription: req.body.transcription || '',
+      transcriptionJson: normalizeTipTapJson(req.body.transcriptionJson),
       images: [],
       pdfs: [],
       coverPhotoId,
@@ -579,6 +590,12 @@ export const updateDocument = async (req, res) => {
       year: req.body.year ? Number(req.body.year) : existing.year,
       parent_id: nextParentId,
       subcategories: Array.isArray(req.body.subcategories) ? req.body.subcategories : existing.subcategories,
+      descriptionJson: req.body.descriptionJson !== undefined
+        ? normalizeTipTapJson(req.body.descriptionJson)
+        : existing.descriptionJson ?? null,
+      transcriptionJson: req.body.transcriptionJson !== undefined
+        ? normalizeTipTapJson(req.body.transcriptionJson)
+        : existing.transcriptionJson ?? null,
       images: Array.isArray(req.body.images) ? req.body.images : existing.images,
       imageIds: Array.isArray(req.body.imageIds) ? req.body.imageIds : existing.imageIds || [],
       pdfIds: Array.isArray(req.body.pdfIds) ? req.body.pdfIds : existing.pdfIds || [],

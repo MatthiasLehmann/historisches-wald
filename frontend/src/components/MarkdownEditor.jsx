@@ -1,5 +1,6 @@
 import React, { useEffect, useId, useMemo } from 'react';
 import clsx from 'clsx';
+import { Node, mergeAttributes } from '@tiptap/core';
 import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Underline from '@tiptap/extension-underline';
@@ -24,6 +25,7 @@ import {
   Heading1,
   Heading2,
   Heading3,
+  ImagePlus,
   Italic,
   Link as LinkIcon,
   List,
@@ -36,6 +38,7 @@ import {
   Underline as UnderlineIcon,
   Undo2,
 } from 'lucide-react';
+import AlbumPhotoSelectorModal from './AlbumPhotoSelectorModal.jsx';
 
 const HTML_PATTERN = /<\/?[a-z][\s\S]*>/i;
 
@@ -77,6 +80,69 @@ const toHtml = (input) => {
 const sanitize = (input) => DOMPurify.sanitize(input || '', { USE_PROFILES: { html: true } });
 const stripHtml = (input) => normalizeValue(input).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 
+const isTipTapJson = (value) =>
+  value && typeof value === 'object' && !Array.isArray(value) && value.type === 'doc';
+
+const AlbumPhoto = Node.create({
+  name: 'albumPhoto',
+  group: 'block',
+  atom: true,
+  selectable: true,
+  draggable: true,
+
+  addAttributes() {
+    return {
+      photoId: { default: '' },
+      src: { default: '' },
+      alt: { default: '' },
+      caption: { default: '' },
+    };
+  },
+
+  parseHTML() {
+    return [
+      {
+        tag: 'figure[data-album-photo-id]',
+        getAttrs: (element) => {
+          const image = element.querySelector('img');
+          const caption = element.querySelector('figcaption');
+          return {
+            photoId: element.getAttribute('data-album-photo-id') || '',
+            src: image?.getAttribute('src') || '',
+            alt: image?.getAttribute('alt') || '',
+            caption: caption?.textContent || '',
+          };
+        },
+      },
+    ];
+  },
+
+  renderHTML({ HTMLAttributes }) {
+    const { photoId, src, alt, caption } = HTMLAttributes;
+    return [
+      'figure',
+      mergeAttributes({
+        class: 'album-photo-node',
+        'data-album-photo-id': photoId,
+      }),
+      ['img', { src, alt }],
+      ['figcaption', caption || alt || `Foto ${photoId}`],
+    ];
+  },
+
+  addCommands() {
+    return {
+      insertAlbumPhoto:
+        (attrs) =>
+        ({ commands }) =>
+          commands.insertContent({
+            type: this.name,
+            attrs,
+          }),
+    };
+  },
+});
+
 const ToolbarButton = ({ onClick, active, disabled, title, children }) => (
   <button
     type="button"
@@ -106,10 +172,14 @@ const MarkdownEditor = ({
   minRows = 6,
   minHeight,
   readOnly = false,
+  jsonValue = null,
+  onJsonChange,
+  enableAlbumPhotos = false,
 }) => {
   const generatedId = useId();
   const editorId = id || generatedId;
   const helperId = helperText ? `${editorId}-helper` : undefined;
+  const [isAlbumPhotoSelectorOpen, setIsAlbumPhotoSelectorOpen] = React.useState(false);
 
   const computedMinHeight = useMemo(() => {
     if (minHeight) {
@@ -125,6 +195,7 @@ const MarkdownEditor = ({
     {
       extensions: [
         StarterKit.configure({ codeBlock: false }),
+        AlbumPhoto,
         Underline,
         TextAlign.configure({ types: ['heading', 'paragraph'] }),
         Highlight.configure({ multicolor: false }),
@@ -140,14 +211,16 @@ const MarkdownEditor = ({
         TableHeader,
         TableCell,
       ],
-      content: sanitize(toHtml(value)),
+      content: isTipTapJson(jsonValue) ? jsonValue : sanitize(toHtml(value)),
       editable: !readOnly,
       onUpdate: ({ editor: instance }) => {
-        if (!onChange) {
-          return;
-        }
         const html = sanitize(instance.getHTML());
-        onChange(html);
+        if (onChange) {
+          onChange(html);
+        }
+        if (onJsonChange) {
+          onJsonChange(instance.getJSON());
+        }
       },
     },
     [placeholder, readOnly],
@@ -164,11 +237,17 @@ const MarkdownEditor = ({
     if (!editor) {
       return;
     }
+    if (isTipTapJson(jsonValue)) {
+      if (JSON.stringify(jsonValue) !== JSON.stringify(editor.getJSON())) {
+        editor.commands.setContent(jsonValue, false);
+      }
+      return;
+    }
     const incoming = sanitize(toHtml(value));
     if (incoming !== editor.getHTML()) {
       editor.commands.setContent(incoming || '<p></p>', false);
     }
-  }, [editor, value]);
+  }, [editor, jsonValue, value]);
 
   const handleSetLink = () => {
     if (!editor) return;
@@ -182,6 +261,24 @@ const MarkdownEditor = ({
       return;
     }
     editor.chain().focus().setLink({ href: url.trim() }).run();
+  };
+
+  const handleInsertAlbumPhoto = (photos) => {
+    if (!editor) return;
+    const photo = photos[0];
+    if (!photo?.id) return;
+    const src = photo.preview || photo.original || '';
+    if (!src) return;
+    editor
+      .chain()
+      .focus()
+      .insertAlbumPhoto({
+        photoId: String(photo.id),
+        src,
+        alt: photo.name || `Foto ${photo.id}`,
+        caption: photo.name || photo.description || `Foto ${photo.id}`,
+      })
+      .run();
   };
 
   if (!editor) {
@@ -369,6 +466,14 @@ const MarkdownEditor = ({
             >
               <LinkIcon className="w-4 h-4" />
             </ToolbarButton>
+            {enableAlbumPhotos && (
+              <ToolbarButton
+                onClick={() => setIsAlbumPhotoSelectorOpen(true)}
+                title="Album-Foto einfügen"
+              >
+                <ImagePlus className="w-4 h-4" />
+              </ToolbarButton>
+            )}
             <ToolbarButton
               onClick={() => editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()}
               title="Tabelle einfügen"
@@ -402,6 +507,18 @@ const MarkdownEditor = ({
         value={stripHtml(value)}
         required={required}
       />
+      {enableAlbumPhotos && (
+        <AlbumPhotoSelectorModal
+          isOpen={isAlbumPhotoSelectorOpen}
+          onClose={() => setIsAlbumPhotoSelectorOpen(false)}
+          onConfirm={handleInsertAlbumPhoto}
+          selectedPhotos={[]}
+          selectionMode="single"
+          title="Album-Foto in Text einfügen"
+          eyebrow="Editor"
+          confirmLabel="Foto einfügen"
+        />
+      )}
     </div>
   );
 };

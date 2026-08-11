@@ -14,7 +14,9 @@ const initialForm = {
   year: '',
   location: '',
   description: '',
+  descriptionJson: null,
   transcription: '',
+  transcriptionJson: null,
   author: '',
   source: '',
   editor: '',
@@ -33,6 +35,35 @@ const defaultOpenSections = {
   media: false,
   sources: false,
   publishing: false,
+};
+
+const collectAlbumPhotoIdsFromTipTapJson = (node, ids = new Set()) => {
+  if (!node || typeof node !== 'object') {
+    return ids;
+  }
+  if (node.type === 'albumPhoto' && node.attrs?.photoId) {
+    ids.add(String(node.attrs.photoId));
+  }
+  if (Array.isArray(node.content)) {
+    node.content.forEach((child) => collectAlbumPhotoIdsFromTipTapJson(child, ids));
+  }
+  return ids;
+};
+
+const collectInlineAlbumPhotoIds = (...jsonValues) =>
+  Array.from(
+    jsonValues.reduce((ids, value) => collectAlbumPhotoIdsFromTipTapJson(value, ids), new Set())
+  );
+
+const mergeAlbumPhotoIds = ({ selectedIds = [], inlineIds = [], coverPhotoId = '' }) => {
+  const cover = coverPhotoId ? String(coverPhotoId) : '';
+  return Array.from(
+    new Set(
+      [...selectedIds, ...inlineIds]
+        .map((id) => String(id))
+        .filter((id) => id && id !== cover)
+    )
+  );
 };
 
 const CollapsibleSection = ({ title, eyebrow, summary, isOpen, onToggle, children }) => (
@@ -250,6 +281,7 @@ const SubmitDocument = () => {
   const [selectedCoverPhoto, setSelectedCoverPhoto] = useState(null);
   const [isCoverPhotoSelectorOpen, setIsCoverPhotoSelectorOpen] = useState(false);
   const [selectedAlbumPhotos, setSelectedAlbumPhotos] = useState([]);
+  const [inlineAlbumPhotos, setInlineAlbumPhotos] = useState([]);
   const [isAlbumPhotoSelectorOpen, setIsAlbumPhotoSelectorOpen] = useState(false);
   const [selectedPdfs, setSelectedPdfs] = useState([]);
   const [isPdfSelectorOpen, setIsPdfSelectorOpen] = useState(false);
@@ -339,6 +371,11 @@ const SubmitDocument = () => {
     }
     return orderedDocuments.some((doc, index) => doc.id !== documents[index]?.id);
   }, [documents, isSortingDocuments, orderedDocuments]);
+  const inlineAlbumPhotoIds = useMemo(
+    () => collectInlineAlbumPhotoIds(form.descriptionJson, form.transcriptionJson),
+    [form.descriptionJson, form.transcriptionJson]
+  );
+  const inlineAlbumPhotoKey = inlineAlbumPhotoIds.join(',');
 
   const handleChange = (event) => {
     const { checked, name, type, value } = event.target;
@@ -433,6 +470,7 @@ const SubmitDocument = () => {
     setEditingId(null);
     setSelectedCoverPhoto(null);
     setSelectedAlbumPhotos([]);
+    setInlineAlbumPhotos([]);
     setSelectedPdfs([]);
     setOpenSections(defaultOpenSections);
     setExpandedDocumentIds(documents.map((doc) => doc.id));
@@ -447,9 +485,11 @@ const SubmitDocument = () => {
       description: Array.isArray(doc.description)
         ? doc.description.join('\n\n')
         : doc.description ?? '',
+      descriptionJson: doc.descriptionJson ?? null,
       transcription: Array.isArray(doc.transcription)
         ? doc.transcription.join('\n\n')
         : doc.transcription ?? '',
+      transcriptionJson: doc.transcriptionJson ?? null,
       author: doc.metadata?.author ?? '',
       source: doc.metadata?.source ?? '',
       editor: doc.metadata?.editor ?? '',
@@ -508,18 +548,25 @@ const SubmitDocument = () => {
 
     setIsSubmitting(true);
     try {
+      const mergedAlbumPhotoIds = mergeAlbumPhotoIds({
+        selectedIds: form.albumPhotoIds,
+        inlineIds: inlineAlbumPhotoIds,
+        coverPhotoId: form.coverPhotoId,
+      });
       const payload = {
         ...form,
         year: form.year ? Number(form.year) : '',
         category: selectedArea,
         subcategories: selectedSubcategories,
+        descriptionJson: form.descriptionJson,
         transcription: form.transcription,
+        transcriptionJson: form.transcriptionJson,
         editor: form.editor,
         showInTimeline: form.showInTimeline !== false,
         showInArchive: form.showInArchive !== false,
         showInWordCloud: form.showInWordCloud !== false,
         coverPhotoId: form.coverPhotoId || '',
-        albumPhotoIds: Array.isArray(form.albumPhotoIds) ? form.albumPhotoIds : [],
+        albumPhotoIds: mergedAlbumPhotoIds,
         pdfIds: Array.isArray(form.pdfIds) ? form.pdfIds : [],
         parent_id: form.parent_id || '',
       };
@@ -602,6 +649,26 @@ const SubmitDocument = () => {
       console.error('Album-Fotos konnten nicht geladen werden:', error);
     }
   };
+
+  useEffect(() => {
+    const loadInlineAlbumPhotos = async () => {
+      if (inlineAlbumPhotoIds.length === 0) {
+        setInlineAlbumPhotos([]);
+        return;
+      }
+      try {
+        const data = await fetchPhotos({ ids: inlineAlbumPhotoIds });
+        const ordered = inlineAlbumPhotoIds
+          .map((id) => data.find((photo) => String(photo.id) === String(id)))
+          .filter(Boolean);
+        setInlineAlbumPhotos(ordered);
+      } catch (error) {
+        console.error('Inline-Fotos konnten nicht geladen werden:', error);
+        setInlineAlbumPhotos([]);
+      }
+    };
+    loadInlineAlbumPhotos();
+  }, [inlineAlbumPhotoIds, inlineAlbumPhotoKey]);
 
   const handleAlbumPhotoSelectionSave = (photos) => {
     const coverPhotoId = form.coverPhotoId ? String(form.coverPhotoId) : '';
@@ -1047,7 +1114,7 @@ const SubmitDocument = () => {
 
           <CollapsibleSection
             eyebrow="Inhalt"
-            title="Kurzfassung und Abschrift"
+            title="Inhalt"
             summary={form.description || form.transcription ? 'Inhalte vorhanden' : 'Optional'}
             isOpen={openSections.content}
             onToggle={() => toggleSection('content')}
@@ -1057,14 +1124,20 @@ const SubmitDocument = () => {
                 label="Kurzfassung"
                 value={form.description}
                 onChange={(nextValue) => setForm((prev) => ({ ...prev, description: nextValue }))}
+                jsonValue={form.descriptionJson}
+                onJsonChange={(nextValue) => setForm((prev) => ({ ...prev, descriptionJson: nextValue }))}
+                enableAlbumPhotos
                 placeholder="Optionale Kurzfassung mit Kontext, Einordnung oder Hinweisen."
               />
 
               <MarkdownEditor
-                label="Abschrift"
+                label="Inhalt"
                 value={form.transcription}
                 onChange={(nextValue) => setForm((prev) => ({ ...prev, transcription: nextValue }))}
-                placeholder="Optionale Abschrift des Originaltexts, Notizen oder Beobachtungen."
+                jsonValue={form.transcriptionJson}
+                onJsonChange={(nextValue) => setForm((prev) => ({ ...prev, transcriptionJson: nextValue }))}
+                enableAlbumPhotos
+                placeholder="Optionaler Originaltext, Notizen, Beobachtungen oder Bild-Einordnungen."
               />
             </div>
           </CollapsibleSection>
@@ -1072,11 +1145,46 @@ const SubmitDocument = () => {
           <CollapsibleSection
             eyebrow="Medien"
             title="Medien"
-            summary={`${selectedAlbumPhotos.length + (selectedCoverPhoto ? 1 : 0)} Fotos · ${selectedPdfs.length} PDFs`}
+            summary={`${selectedAlbumPhotos.length + (selectedCoverPhoto ? 1 : 0)} Fotos · ${inlineAlbumPhotoIds.length} im Text · ${selectedPdfs.length} PDFs`}
             isOpen={openSections.media}
             onToggle={() => toggleSection('media')}
           >
             <div className="space-y-5">
+        {inlineAlbumPhotoIds.length > 0 && (
+          <section className="border border-accent/30 rounded-sm bg-accent/5 p-4 space-y-3">
+            <div>
+              <h2 className="text-lg font-serif font-bold text-ink">Fotos im Text</h2>
+              <p className="text-sm text-ink/70">
+                Diese Album-Fotos wurden direkt im Editor eingefügt und werden beim Speichern automatisch mit dem Beitrag verknüpft.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {inlineAlbumPhotos.length > 0 ? inlineAlbumPhotos.map((photo) => (
+                <span
+                  key={photo.id}
+                  className="inline-flex items-center gap-2 rounded-sm border border-accent/30 bg-white px-3 py-2 text-xs font-semibold text-ink/80"
+                >
+                  {photo.preview || photo.original ? (
+                    <img
+                      src={photo.preview || photo.original}
+                      alt=""
+                      className="h-8 w-8 rounded-sm object-cover"
+                      loading="lazy"
+                    />
+                  ) : null}
+                  {photo.name || `Foto ${photo.id}`}
+                </span>
+              )) : inlineAlbumPhotoIds.map((photoId) => (
+                <span
+                  key={photoId}
+                  className="inline-flex rounded-sm border border-accent/30 bg-white px-3 py-2 text-xs font-semibold text-ink/80"
+                >
+                  Foto {photoId}
+                </span>
+              ))}
+            </div>
+          </section>
+        )}
         <section className="border border-parchment-dark rounded-sm bg-parchment/20 p-4 space-y-4">
           <div className="flex items-center justify-between gap-4">
             <div>
