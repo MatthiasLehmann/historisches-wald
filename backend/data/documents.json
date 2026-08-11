@@ -179,9 +179,21 @@
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mmv2ixidor3kvp",
+        "src": "/files/images/thumbnails/album-1773779512598-484108320-thumb.jpg",
+        "original": "/files/images/album-1773779512598-484108320.jpg",
+        "title": "Rothenlachen.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
       }
     ],
-    "coverPhotoId": "local_mmv2ixidor3kvp",
+    "coverPhotoId": "local_mmv1kippgge6ka",
     "showInTimeline": true,
     "showInArchive": true,
     "showInWordCloud": true,
@@ -193,7 +205,8 @@
     "imageIds": [],
     "albumPhotoIds": [
       "local_mmv2il218ekzxw",
-      "local_mmv2hc8azqu0ke"
+      "local_mmv2hc8azqu0ke",
+      "local_mmv2ixidor3kvp"
     ],
     "pdfIds": [],
     "review": {
