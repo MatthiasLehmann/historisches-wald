@@ -16,16 +16,8 @@
   "geo": [],
   "groups": [],
   "albums": [
-    {
-      "id": "72177720324399929",
-      "title": "06_Brauerei",
-      "url": "https://www.flickr.com/photos//albums/72177720324399929"
-    },
-    {
-      "id": "72177720330935669",
-      "title": "207_Brauerei",
-      "url": "https://www.flickr.com/photos//albums/72177720330935669"
-    }
+    "local_mmbzcjshe9kkuk",
+    "[object Object]"
   ],
   "tags": [],
   "people": [],
@@ -35,5 +27,12 @@
   "tagging_permissions": "only you",
   "safety": "safe",
   "comments": [],
-  "preview": "/files/images/thumbnails/photo-54382715049-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54382715049-thumb.jpg",
+  "updatedAt": "2026-08-09T17:51:52.462Z",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  }
 }

@@ -1,5 +1,188 @@
 [
   {
+    "id": "pdf-00022",
+    "title": "Südkurier Vorstellung Zeh 15.04.1969.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Su-dkurier-Vorstellung-Zeh-15.04.1969.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1786475696502"
+    ],
+    "createdAt": "2026-08-11T19:41:39.006Z",
+    "updatedAt": "2026-08-11T19:42:33.450Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00021",
+    "title": "Walder Chronik für 1955",
+    "year": 1955,
+    "description": "Ein Zeitungsartikel, eingeklebt in der Pfarrchronik Kloster Wald, Band II, 1953 -1968",
+    "location": "Wald",
+    "source": "Zeitungsartikel: Pfarrchronik Kloster Wald, Band II, 1953-1968",
+    "author": "Walter Hering",
+    "license": "rights-reserved",
+    "tags": [
+      "Chronik",
+      "Wald",
+      "1955",
+      "Walter Hering",
+      "Pfarrchronik"
+    ],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Walder-Chronik-fu-r-1955.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1785745496977"
+    ],
+    "createdAt": "2026-08-03T08:21:24.292Z",
+    "updatedAt": "2026-08-03T08:24:56.997Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00020",
+    "title": "Walder Chronik für 1955.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Walder-Chronik-fu-r-1955-1.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-08-03T08:16:12.679Z",
+    "updatedAt": "2026-08-03T08:16:12.679Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00019",
+    "title": "Walder Chronik für 1955.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Walder-Chronik-fu-r-1955.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-08-03T08:16:02.121Z",
+    "updatedAt": "2026-08-03T08:16:02.121Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00018",
+    "title": "Orts-Chronik Ruhestetten 1876",
+    "year": 1876,
+    "description": "Orts-Chronik für die Gemeinde Ruhestetten \nArchiv Nummer: 0128 + 0129",
+    "location": "Ruhestetten",
+    "source": "Orts-Chronik",
+    "author": "Blocherer",
+    "license": "rights-reserved",
+    "tags": [
+      "Ruhestetten",
+      "Chronik",
+      "Orts-Chronik",
+      "1876",
+      "1952",
+      "Blocherer"
+    ],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Chronik_Ruhestetten_Zusam.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "approved",
+      "reviewer": "Kempter Elfriede",
+      "reviewedAt": "2026-08-03T07:52:47.881Z",
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1785743391892"
+    ],
+    "createdAt": "2026-08-03T07:40:54.381Z",
+    "updatedAt": "2026-08-03T07:53:03.398Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00017",
+    "title": "Kleinrentners Leben 1923.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Kleinrentners-Leben-1923.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1772540073667"
+    ],
+    "createdAt": "2026-08-02T13:39:13.122Z",
+    "updatedAt": "2026-08-02T13:43:31.278Z",
+    "deletedAt": null
+  },
+  {
     "id": "pdf-00016",
     "title": "Hippetsweiler Adressbuch 1935.pdf",
     "year": null,
@@ -25,7 +208,8 @@
       "doc-1776026934722"
     ],
     "createdAt": "2026-04-12T21:12:37.819Z",
-    "updatedAt": "2026-04-12T21:13:43.938Z"
+    "updatedAt": "2026-04-12T21:13:43.938Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00015",
@@ -53,7 +237,8 @@
       "doc-1776025448371"
     ],
     "createdAt": "2026-04-12T20:15:23.415Z",
-    "updatedAt": "2026-04-12T20:24:08.388Z"
+    "updatedAt": "2026-04-12T20:24:08.388Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00013",
@@ -81,7 +266,8 @@
       "doc-1774889252179"
     ],
     "createdAt": "2026-03-30T16:32:16.441Z",
-    "updatedAt": "2026-03-30T16:47:32.195Z"
+    "updatedAt": "2026-03-30T16:47:32.195Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00012",
@@ -107,7 +293,8 @@
     },
     "linkedDocuments": [],
     "createdAt": "2026-03-24T20:19:54.945Z",
-    "updatedAt": "2026-03-29T13:37:10.249Z"
+    "updatedAt": "2026-03-29T13:37:10.249Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00011",
@@ -135,7 +322,8 @@
       "doc-1774383559012"
     ],
     "createdAt": "2026-03-24T20:17:00.326Z",
-    "updatedAt": "2026-03-24T20:19:19.022Z"
+    "updatedAt": "2026-03-24T20:19:19.022Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00010",
@@ -163,7 +351,8 @@
       "doc-1774383394773"
     ],
     "createdAt": "2026-03-24T20:13:01.193Z",
-    "updatedAt": "2026-03-24T20:16:34.782Z"
+    "updatedAt": "2026-03-24T20:16:34.782Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00009",
@@ -191,7 +380,8 @@
       "doc-1774383138323"
     ],
     "createdAt": "2026-03-24T20:08:45.142Z",
-    "updatedAt": "2026-03-24T20:12:18.333Z"
+    "updatedAt": "2026-03-24T20:12:18.333Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00008",
@@ -219,7 +409,8 @@
       "doc-1774382875072"
     ],
     "createdAt": "2026-03-24T20:01:48.585Z",
-    "updatedAt": "2026-03-24T20:07:55.083Z"
+    "updatedAt": "2026-03-24T20:07:55.083Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00007",
@@ -251,7 +442,8 @@
       "doc-1774810698858"
     ],
     "createdAt": "2026-03-24T13:34:52.043Z",
-    "updatedAt": "2026-03-29T18:58:18.868Z"
+    "updatedAt": "2026-03-29T18:58:18.868Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00006",
@@ -277,7 +469,8 @@
     },
     "linkedDocuments": [],
     "createdAt": "2026-03-24T13:10:32.798Z",
-    "updatedAt": "2026-03-24T13:10:32.798Z"
+    "updatedAt": "2026-03-24T13:10:32.798Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00005",
@@ -305,7 +498,8 @@
       "doc-1772562144063"
     ],
     "createdAt": "2026-03-03T18:18:52.849Z",
-    "updatedAt": "2026-03-03T18:22:24.064Z"
+    "updatedAt": "2026-03-03T18:22:24.064Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00004",
@@ -333,7 +527,8 @@
       "doc-1772554386220"
     ],
     "createdAt": "2026-03-03T16:11:36.459Z",
-    "updatedAt": "2026-03-03T16:13:06.221Z"
+    "updatedAt": "2026-03-03T16:13:06.221Z",
+    "deletedAt": null
   },
   {
     "id": "pdf-00003",
@@ -359,6 +554,7 @@
     },
     "linkedDocuments": [],
     "createdAt": "2026-02-27T14:48:19.126Z",
-    "updatedAt": "2026-03-03T16:00:42.139Z"
+    "updatedAt": "2026-03-03T16:00:42.139Z",
+    "deletedAt": null
   }
 ]
