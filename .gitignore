@@ -27,3 +27,6 @@ dist-ssr
 /backend/public/files/images/*
 /backend/public/files/pdf/*
 !/backend/public/files/images/.gitkeep
+
+.vite/
+mobile/.vite/
