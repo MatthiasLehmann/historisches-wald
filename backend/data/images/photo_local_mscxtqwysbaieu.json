@@ -1,0 +1,25 @@
+{
+  "id": "local_mscxtqwysbaieu",
+  "name": "Orts-Chronik Bild",
+  "description": "Bild mit Haus",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1785743920842-489745597.png",
+  "preview": "/files/images/thumbnails/album-1785743920842-489745597-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "72177720327295965"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-08-03T07:58:44.867Z",
+  "updatedAt": "2026-08-03T07:58:44.867Z"
+}

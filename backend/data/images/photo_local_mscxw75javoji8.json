@@ -1,0 +1,25 @@
+{
+  "id": "local_mscxw75javoji8",
+  "name": "Orts-Chronik Titelblatt",
+  "description": "Titelblatt",
+  "date_taken": "1952-01-01",
+  "photopage": "",
+  "original": "/files/images/album-1785744034835-151003382.png",
+  "preview": "/files/images/thumbnails/album-1785744034835-151003382-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "72177720327295965"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-08-03T08:00:39.224Z",
+  "updatedAt": "2026-08-03T08:00:39.224Z"
+}
