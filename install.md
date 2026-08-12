@@ -97,6 +97,24 @@ Build Output:
 
 /var/www/historisches-wald/frontend/dist
 
+### Mobile PWA builden
+
+Die mobile App liegt parallel zur bestehenden Website im Ordner `mobile/` und wird später unter `/app` ausgeliefert.
+
+```
+cd /var/www/historisches-wald/mobile
+
+npm install
+
+npm run build
+```
+
+Build Output:
+
+```
+/var/www/historisches-wald/mobile/dist
+```
+
 ### Nginx konfigurieren
 
 Datei öffnen:
@@ -123,7 +141,20 @@ server {
 
     }
 
+    location /app/ {
+
+        alias /var/www/historisches-wald/mobile/dist/;
+        try_files $uri $uri/ /app/index.html;
+
+    }
+
     location /api {
+
+        proxy_pass http://localhost:3000;
+
+    }
+
+    location /files {
 
         proxy_pass http://localhost:3000;
 
@@ -167,6 +198,14 @@ cd /var/www/historisches-wald
 git pull origin main
 
 cd frontend
+
+npm install
+
+npm run build
+
+cd ..
+
+cd mobile
 
 npm install
 

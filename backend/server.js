@@ -8,6 +8,7 @@ import dashboardRouter from './routes/dashboard.js';
 import pdfsRouter from './routes/pdfs.js';
 import albumsRouter from './routes/albums.js';
 import photosRouter from './routes/photos.js';
+import publicRouter from './routes/public.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -26,6 +27,7 @@ app.use('/api/dashboard', dashboardRouter);
 app.use('/api/pdfs', pdfsRouter);
 app.use('/api/albums', albumsRouter);
 app.use('/api/photos', photosRouter);
+app.use('/api/public', publicRouter);
 
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok' });
