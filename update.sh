@@ -17,6 +17,11 @@ npm ci
 npm run build
 popd >/dev/null
 
+pushd mobile >/dev/null
+npm ci
+npm run build
+popd >/dev/null
+
 pushd backend >/dev/null
 npm ci
 pm2 restart historisches-backend
