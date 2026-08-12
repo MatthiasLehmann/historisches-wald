@@ -459,12 +459,15 @@ const validateParentDocument = (documents, parentId, documentId = '') => {
   return normalizedParentId;
 };
 
+export const readHydratedDocuments = async () => {
+  const [documents, lookups] = await Promise.all([readDocuments(), ensureMediaLookups()]);
+  const albumPhotoLookup = await buildAlbumPhotoLookup(documents);
+  return documents.map((doc) => applyMediaReferences(doc, lookups, albumPhotoLookup));
+};
+
 export const getDocuments = async (_req, res) => {
   try {
-    const [documents, lookups] = await Promise.all([readDocuments(), ensureMediaLookups()]);
-    const albumPhotoLookup = await buildAlbumPhotoLookup(documents);
-    const hydrated = documents.map((doc) => applyMediaReferences(doc, lookups, albumPhotoLookup));
-    res.json(hydrated);
+    res.json(await readHydratedDocuments());
   } catch (error) {
     console.error('Error reading documents:', error);
     res.status(500).json({ message: 'Failed to read documents.' });
