@@ -30,7 +30,9 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1772558738917",
@@ -1644,7 +1646,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773778317940",
@@ -1703,7 +1707,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774810698858",
@@ -1744,7 +1750,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774383394773",
@@ -1779,7 +1787,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774383559012",
@@ -1814,7 +1824,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774383138323",
@@ -1849,7 +1861,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774383823656",
@@ -1882,7 +1896,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774382875072",
@@ -1917,7 +1933,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774889357455",
@@ -1962,7 +1980,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774813143373",
@@ -2007,7 +2027,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774812369590",
@@ -2052,7 +2074,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774888686730",
@@ -2097,7 +2121,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774812548804",
@@ -2142,7 +2168,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774797137965",
@@ -2187,7 +2215,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774887820230",
@@ -2232,7 +2262,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774727979162",
@@ -2277,7 +2309,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774792807738",
@@ -2322,7 +2356,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774726977851",
@@ -2367,7 +2403,9 @@
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1785531865123",
@@ -2398,7 +2436,9 @@
       "comments": []
     },
     "showInArchive": true,
-    "showInWordCloud": false
+    "showInWordCloud": false,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773162092550",
@@ -2579,7 +2619,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773146549544",
@@ -2722,7 +2764,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786299436771",
@@ -2952,7 +2996,9 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-08-09T18:17:49.504Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786298665648",
@@ -3000,7 +3046,9 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-08-09T18:07:38.410Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773160927181",
@@ -3144,7 +3192,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773602741074",
@@ -3261,7 +3311,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773863442195",
@@ -3474,7 +3526,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773778835578",
@@ -3531,7 +3585,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773780217150",
@@ -3732,7 +3788,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774889252179",
@@ -3769,7 +3827,9 @@
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773522608428",
@@ -3814,7 +3874,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786300517640",
@@ -3888,7 +3950,9 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-08-09T19:32:49.597Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786475696502",
@@ -3923,7 +3987,9 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-08-11T19:42:58.236Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1777628824634",
@@ -3971,7 +4037,9 @@
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786385281676",
@@ -4004,7 +4072,9 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-08-10T18:25:21.935Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-006",
@@ -4056,7 +4126,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773692474289",
@@ -4149,7 +4221,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773779027026",
@@ -4194,7 +4268,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773162567744",
@@ -4625,7 +4701,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1785745496977",
@@ -4660,7 +4738,9 @@
       "reviewer": "Kempter Elfriede",
       "reviewedAt": "2026-08-03T08:29:24.654Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773520196228",
@@ -4720,7 +4800,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773863844309",
@@ -4993,7 +5075,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773863631556",
@@ -5338,7 +5422,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773863307840",
@@ -5587,7 +5673,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773863165945",
@@ -5752,7 +5840,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773862952670",
@@ -5989,7 +6079,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773862786554",
@@ -6130,7 +6222,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773780067288",
@@ -6295,7 +6389,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773779591911",
@@ -6400,7 +6496,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773779295611",
@@ -6507,7 +6605,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773778043563",
@@ -6758,7 +6858,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773521051264",
@@ -6804,7 +6906,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773163864893",
@@ -6891,7 +6995,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1774538326613",
@@ -6922,7 +7028,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-005-2",
@@ -6961,7 +7069,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773345924399",
@@ -7078,7 +7188,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1776026934722",
@@ -7127,7 +7239,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1776025448371",
@@ -7176,7 +7290,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1772554386220",
@@ -7219,7 +7335,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-005",
@@ -7272,7 +7390,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773139677077",
@@ -7306,7 +7426,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773604907260",
@@ -7351,7 +7473,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773141917829",
@@ -7386,7 +7510,9 @@
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1772540073667",
@@ -7442,7 +7568,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773141599058",
@@ -7503,7 +7631,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-002",
@@ -7556,7 +7686,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-003",
@@ -7618,7 +7750,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773142218885",
@@ -7651,7 +7785,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773140515594",
@@ -7685,7 +7821,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773141398447",
@@ -7733,7 +7871,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786472052797",
@@ -7766,7 +7906,9 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-08-11T18:14:29.501Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1777382928753",
@@ -7970,7 +8112,9 @@
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773864336058",
@@ -8172,7 +8316,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773344143870",
@@ -8184,11 +8330,12 @@
     ],
     "location": "Wald ",
     "description": "<p>Von Carl Baur</p>",
-    "transcription": "<p>Über die Baugeschichte des alten Zisterzienserinnenklosters Wald in Hohenzollern ist bisher wenig bekannt geworden. Außer einigen dürftigen Daten weiß weder G. Hafner noch Laur-Zingerler Eingehenderes zu berichten. Die Suche nach Bauakten im Fürstlich-Hohenzollerischen Hausarchiv war vergebens. Ein glücklicher Fund im Preußischen Staatsarchiv – Herrn Studienrat Grünewald, seinem Leiter, sei für seine tatkräftige Hilfe beim Suchen bestens gedankt – brachte wenigstens einen Einblick in die Bautätigkeit unter der Äbtissin Maria Antonia Freyin von Falkenstein (Fasz. Nr. 79 Kirchenbaulickeiten in Wald 1 – 121). Auch über den Bau der jetzigen Klosterkirche und ihre Ausgestaltung ist durch dieses Aktenbündel Licht gefallen und eine von mir bereits fertiggestellte Arbeit über die „Klosterkirche von Wald“ wird demnächst eingehend das „Kleinod des Barock – Rokokokunst“ in Wald behandeln. Ein Lageplan über das Klosterdorf Wald im Fürstlichen Archiv hellt auch die Frage auf nach der alten Kirche und bringt sogar eine gute Zeichnung derselben. Im Folgenden soll der Klosterneubau zu Beginn des 18. Jahrhunderts behandelt werden.</p><p>Die tatkräftige Äbtissin Maria Jakobina von Bodman (1681 – 1709) hatte den Conventbau am Klosterweiher errichten, die alte Kirche abreißen und eine neue bauen lassen. Überall war ja in Schwaben, Bayern und Oesterreich eine große Baulust angebrochen und auch das stille Kloster in Wald wollte nicht zurückstehen, zumal durch Unglücksfälle, Kriege und Plünderungen das Kloster einer Restauration und Erweiterung bedurfte. Sie selbst nennt die Kirche in ihren Briefen „sehr baufällig“.</p><p>Nicht minder großzügig und unternehmungslustig war ihre Nachfolgerin Maria Antonia von Falkenstein, die von 1709-39 den Äbtissinenstab führte. Bevor noch die neuerbaute Kirche die innere Ausschmückung erfuhr, lenkte die adelige Frau ihre Aufmerksamkeit der Erweiterung des Klosters zu. Als ein wohl „erfahrener, sicherer Baumeister“ wurde der Äbtissin von Abt Coelestin in Elchingen zu ihrem Vorhaben Christian Widmann von dort empfohlen. Nach dem Empfehlungsschreiben des Abtes hat Christian Widemann verschiedene Kirchen und andere „ansehntliche Gebäu“ aufgeführt, auch im Kloster zu Elchingen gebaut an der Kirche, am Amthaus und „an dem bekannten hochfürstlichen Würtembergischen Gebäu zu Ludwigsburg lang und viel gearbeitet“. Er ist auch bereit „eine allenfalls erforderliche Kaution zu laisten“. Auf diesen Schreiben vom 27. Mai 1720 antwortet allerdings die Äbtissin, daß sie „nit gedenkhe, vor zwey Jahren den Bau anfangen zulassen. Sie sei aber bereit den Baumeister zu berücksichtigen und evtl. anzunehmen (Brief vom 27. Mai 1720). Ein Assecourationsbrief des Abtes vom 10. Januar 1721 meldet, daß Christian Widenmann von der Frau Äbtissin in Wald als Baumeister wirklich angenommen worden ist unter der Bedingung, „eine Caution von 3000 fl zur Sicherheit“ zu „praestieren“. Diese Summe wird vom Abt auf die Bitte Widemanns ohne Bedenken praestiert und der Cautionsbrief ausgestellt.</p><p>Die Äbtissin von Falkenstein war damit sehr zufrieden und bereits am 3. April 1721 (also ehe die zwei Jahre vorbei waren) schließt sie mit dem Baumeister Christian Widenman und seinem Bruder Hans Jerg Widenman den I. Accord zu Erstellung des Conventbaues. Wir lassen diese „Verdingbrief“ oder Accord im Wortlaut folgen, weil damit am besten die Art des Baues, die Einteilung und Ausführung zu erstehen ist.</p><p>I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bauperiode: Das Conventgebäude</p><p>Accord vom 3. April 1721 Gebr. Widenman</p><p>„Zu wissen, daß von der Hochwürdigen Frey Reichs hochwohlgeborenen Frauen, Frauen Maria Antonia Freyin adlichen Stüffts undt Gottshaußes Waldt, auch Priorin undt Convent allda, gegen Beeden gbrüeder, als H. H.: Christian und Hans Jerg Wideman, zu Oberelchingen undt Eheingen wohnhaft, der erste Theill des zubauen vorhabendten neuen Closters, wie ein solches der zu Handten gestelte letztere Riß undt Aufsatz zaiget, auch wie wirkhlich außgestekht, dergestalten verdingt, undt mit ihnen ausdrükhentlich abgehandelt worden, daß</p><ol><li><p>Die Baumeistern auf ihre Kösten, neben vorderst gelaister Caution, daß sie vor das gebäw auf sechs Jahr gewähren, undt den Fehler zuverbessern schuldigt sein sollen, wann sich einer auß ihrer oder der ihrig schuldt zaigen würde, das Fundament graben, undt von denen an den Bau mit Maurer undt rauchwerkher genuegsamben streinbrecherer zu Regnatsweyler undt Daute Bronnen, auch all anderen Handtwerkhsleuth, wie die immer nammen haben mögen, völlig undt dergestalten inner drey Jahren aufführen sollen, daß das Gottshauß mit allen disen lödiglich nichts zuthun und einzig denen H H: Baumeisteren, wann einer oder Beide allhier, neben dem Fuetter vor ihre Pferdt, iedoch da selbe einige Zeit verbleibt, das dero Pferdt zum nuzen undt Dienst des Gotteshauses gebraucht werden khönnen, so dann dem Zimmermeister, Ballier, undt noch einem das Essen und Trikhen, iedoch ohne Lohn, zuraichen schuldtig seyen.</p></li><li><p>Soll das Eckhgebäw oder Bavillion in die Vierung 50 schue überhaupt, der lange Bau, so an diesen anstehet, - 112 schue brait, und 38. über haupt sein.</p></li><li><p>Kombt in das gevierte die Kellerstiegen, S: V: Seult, Dohlen, undt zwey oder drey große Kuchelkeller. -. 11. oder 12. schue hoch, nach dem sich der Boden geben thuett.</p></li><li><p>Der undere oder erste stockh soll 16. der andere undt dritte aber 12 schue hoch sein, undt dises gebäw zwar nach dem letzten kleineren Riß, iedoch die Auftheillung wie im Haubtriß zufinden, eingerichtet, mit rauchen steinen, sambt der Haubt- und Zargenmauren, auch denen gängen und Schidtwändten, die Schidtwändt aber in den zwei oberen Stöckh, wie nit weniger die Zellenschidtwändt, von holz gemacht, mit Ziegelstein außgemauret undt darnach verklaidet werden.</p></li><li><p>An dem Gebäw außenher würdet drey schue, oder etliche Zoll weniger, nachdem sich die quader Stuckh geben, gehauen, die Kellerfenster, undt andere Fenster Stöckh in dem gebäw von Guaderstuckh, außerhalb dem gebäw aber alle von dem Regnatsweyler Steinbruch ganz glatt, die Wäschkuchel&nbsp; undt Mezg, Kuchelkeller, Eckh- undt Fenster Bögen, allwo manns in dem gebäw nöthig hat, wie nit weniger der Stockh im Boden, der Gang undt Kuchel im ersten Stockwerk durchauß mit Ziegelsteinen aufgeführt, und gewölbt, auch der Bau u. gewölber sauber verbuzet werden.</p></li><li><p>Sindt die zwey obere Stöckh, Beide gäng undt Zimmer, Zellen und Stiegen, mit Deckhinen auf zunaglen, sauber zubutzen, undt sambt denen seiten Wändten mit leicht glatt gezogener Gibsarbeith zu verfertigen, außenher ein fein gemaurtes Hauptgesimbs zuführen, das Dach fleißig zudeckhen, undt inwändig wohl mit zarter Spaiß zuverstreichen, undt außenher sauber zubutzen.</p></li><li><p>Soll der Zimmermann einen wohl versicherten Dachstuel machen, undt auf dem eckh- oder Bavillionsgebäw einen gebrochenen Dachstuel nach dem Riß stellen, auch den ersten Boden under dem Dach mit Bretter belegen, die kleineren Schrögbögen, undt was die Maurer auf dem Blaz nöthig, machen, das rüst- undt all anderes Bauholz in dem Waldt wenigst rauch Beschlagen, vorhero aber das Gottshauß auf sein Kösten es föllen laßen.</p></li><li><p>Alle Fenster Stöckh sollen von Aiche Holz, sambt denen Fenster Rahmen in denen dreyen Stockwerkh, im underen Stockh die Thüren von Aiche Holz mit gefaßter Füllung, in denen zwey oberen Stöckhen von Dänne Holz sambt denen Thürfaßungen mit einer leichten maier gemacht, auch alle Böden in denen Zimmer undt Zellen mit dergleichen Holz belegt, die Stiegen Tritt undt Undersäz, item die Stiegengländter, Dockhenfües, undt Handgriff, die vohr in dem S: v: Seult, von aichenem, undt dann die Verschläg, undt Siz mit Dänneholz verfertigt werden.</p></li><li><p>In dem Unteren Stockh sindt die Fenster Stöckh alle schwarz anzuschlagen, undt abzurüsten, Ebenfalls alle Thüren in denen gewölber undt anderen Gemächer schwarz außzumachen, In dem Anderen undt driten Stockh aber in der Frauen Priorin undt Frauen Subpriorin Zimmer die Fensterstöckh, wie auch auf dem Gang, so dann die Thüren an denen Zellen, neben aller Zugehördt mit feinem schwarzem schloß anzuschlagen, außterhalb aber sollen die Handgriff oder Knöpf an den Thüren weiß scheinen, im Underen Stockh außterhalb gegen den weyher undt Hof die Fensterstöckh, undt Keller Lichter mit geflambtem eisen, so die Baumesitern ebenmessig zu kauffen, undt also verfertigen zulassen haben, vergittert, undt</p></li><li><p>Alle Fensterstöckh mit durchsichtigen sechseckhigen hellen scheiben, sambt dem notwendigen Zühn undt Bely, in der mezg, wäsch Kuchel undt denen Kellergewölber allein mit Waldtglaß wohl versorget, die öfen in dem gebäw von dem Hafner sauber glassirt aufgesetzt, undt all dises von denen Baumeistern auf ihre Kösten erkauft undt durchauß gemacht werden.</p></li><li><p>Ueberlasset zwar das Gottshauß denen Beiden Baumeistern innerhalb denen dreyen Jahres alles eisen Geschirr, an Bickhel, Hauen, schaufeln, undt was selbe zu der Arbeith weiteres kometh, sofill nemblich auf diesen Tag vorhanden ist, was nun aber an dergleichen eisenwerk abgängig, oder hinkünftig verbrochen werden möchte, sollen sie Baumeisteren auf ihre Kösten, das Holzwerkh hingegen, als schuebkärren, Tragbähren, Kübl, Gälten, undt derlay, von dem Wangner Kiefer, schreiner, Undt anderen, das Gottshauß machen, die Baumeister aber all dises Holzwerkh mit eisen beschlagen lassen, auch die Farben und Pinsel zum anstreichen herschaffen, entgegen des Gottshauß das Pulster zu beenden steinbrüchen allein herzuthuen, undt das Oel zu gemeltem anstreichen herzugeben obligirt sein solle, zumahlen versprochen würdet, denen Maurern, neben dem Underhalt mit denen Bettstattn, wann die an- undt aufstehen, deßgleichen bey dem aufrichten, ein ehrliches Mittagessen mit immer subben, stuckh Brodt und Fleisch, Knöpfle undt auf eine Person eine halbe maß wein abfolgen zu lassen, undt dann so fern die Zimmerleuth, Maurer, undt rauchwerkher nit allein aufzurichten vermöchten, mit mehreren undt nothwendigen wurff sailer auch maurer schnier herzuschaffen.</p></li><li><p>Gleichwie nun aber sie Beede Baumeistere den ganzen Bau wie gemelt, auf ihre Kösten aufzuführen, undt mit ihrer, auch all anderer handwerkhsleuten arbeith zu vollführen, auf sich genommen haben, allso würdet ihnen auch von seiten des Gottshauses versprochen, all undt jedes, so dieselben an eisen, scheiben, gibs, welches gibs allein das Gottshauß zu kauffen, item allem Bauholz, Bretter, Latten, undt was under dem Holz begriffen, so dann alle stein auß der Ziegelhütten, undt steinbrüchen, undt in Summa anderer alle Baumaterialia, wie die immer namen haben mögen, ohne der Baumeister ohne einigen entgelt undt Kosten auf den hoff anhero führen, vor dero Maurer undt rauchwerkher zwei stuben, neben dem benötigten holz, wenn sie nemblich von den Zimmer spännen nit genueg haben, zum Kochen undt einfeiern abfolgen zulassen, an parem gelt aber, nebst einem fueder wein 1720er gewächs, zehen Tausend Neun Hundert Gulden, Reichsmünz undt Landeßwehrung, woran sie beraits 6ten gbris 1720 empfangen haben 100 fl (Gulden). Demnach ihnen allein noch zu bezahlen stehe, zehen Tausend Acht Hundert Gulden, undt zwar in diesem Jahr nach und nach 3000 fl, 1722 4000 fl, 1723 3800 fl. Summa 10800 fl. Jedoch solln hiervon dasjenige abgezogen werden, was bisdahero der Ballier an gelt, brodt und mehl, auch früchten, mit denen maureren erhoben hat.</p></li><li><p>Was nun die Baumeistere vor sich undt die ihrigen wehrendtem disen bau an wein, bier, frucht, undt anderes lebenmitlen empfangen thuen, das alles solle in bilichen preis wie schläg und Käuff diser orthen gehen, undt sonderbahr, war jeden markt zu Ueberlingen die frucht in mittelmessigem Preis gelten thuett, angeschlagen und an dem bauschilling abgezogen, auch zu mehrerer richtigkeit allzeit vor dem winter, ehe die Maurer hinweg gehen, mit denen Baumeisteren eine ordentliche Abrechnung gepflogen werden: <br>Lezslich würdet ihnen die vertröstung gegeben, dass wann dieser beraits verdingt erste Conventsbau zu disseitigem Vergnüegen, wie man verhoffet, auffgemacht, mann ihnen Baumeisteren die übrige neue Clostergebäw, so fern anderst mit selben im taglohn oder überhaub, wider zu tractiren, vor allem anderen zubauen überlaßen wollen.</p></li></ol><p>Zur Vösthaltung all vorbeschriebenen ist gegenwertiger Verdingß Brieff dobblet verfertiget, undt jedem Theil einer zugestelt, undt underschrieben, auch mit allseitigen Pettschaften bekräftigt worden.</p><p>So beschehen in dem Frey Adelich Stüft undt Gottshauß Waldt den driten Tag Aprilis in dem Jahr 1721. <br>(S.) Maria Antonia, Abtissin (S.) Priorin u. Convent (S.) Christian Wüdtmann (S.) Georg Widemman</p><p>Die Arbeit wird sofort in Angriff genommen, wie die Abrechnungen zeigen und der Conventbau wird planmäßig errichtet. Es ist dies der 1. Gebäudeteil vom Klosterweiher her an der Straße, in dem sich heute die Post, die Oberförsterei und verschiedene Wohnungen befinden, also die Hälfte der ganzen Westfront. Die Abrechnungen mit den Baumeistern im Oktober jeden Jahres werden gewissenhaft durchgeführt und lauten: <br><br>Verzaichnuß.</p><p>Was vor Par gelt die beede Baumeister undt gebrueder als H. H: Christian und Hans Jerg Widemann in dem Jahr 1721 von dem Hochadlichen Stüft und Gottshauß Waldt empfangen, worbey dann zuwissen ist, daß das Gottshauß und beede Hh: Gebrueder miteinander eine soclhe Verzeichnus haben, undt der empfang des gelts auf einer sein solle, wie auf der anderen, es wären dann , das der einte Theil seinen Brief verliehren würde, auf welchen fahl nun der einig noch vorhandtene gleichwohlen gelten, undt demme glauben beygemessen werden soll.</p><p>&nbsp;</p><p>den 7ten Aprilis 1721, ihne beeden H H. Baumeister miteinander geben   200 fl</p><p>den 20ten Aprilis 1721. Dem H: Hans Jerg Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;500 fl</p><p>den 30ten May 1721, dem H: Christian Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;200 fl</p><p>den 22ten Juny 1721 dem H: Hans Jerg Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;200 fl</p><p>den 5ten July 1721 dem H. Christian Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 200 fl</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;latus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 1 300 fl</p><p>den 26ten July 1721 dem H: Christian Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 400 fl</p><p>den 17ten Aug: 1721 dem H: Hans Jerg Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300 fl</p><p>den 12ten Septemb: 1721 dem H. Hans Jerg Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 300 fl</p><p>den 4ten Octob: 1721dem H: Hans Jerg Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300 fl</p><p>hat der Ballier undt vorderst einstmahlen der H: Hans Jerg Widemann <br>an gelt, Früchten undt Brodt empfangen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25fl</p><p>Über dieses an underschidlich früchten empfangen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192 fl 23 x</p><p>An Brodt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;89 fl 50x</p><p>den 9. Oktob: 1721 dem H. Christian Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 92 fl 46 x 4 H</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; latus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 700 fl</p><p>Wormit dann die vermög accords auf das erste Jahr versprochene 3000 fl völlig undt ohne abgang bezahlt undt richtig gemacht worden den 9ten Octob: 1721.</p><p>&nbsp;</p>",
+    "transcription": "<p>Über die Baugeschichte des alten Zisterzienserinnenklosters Wald in Hohenzollern ist bisher wenig bekannt geworden. Außer einigen dürftigen Daten weiß weder G. Hafner noch Laur-Zingerler Eingehenderes zu berichten. Die Suche nach Bauakten im Fürstlich-Hohenzollerischen Hausarchiv war vergebens. Ein glücklicher Fund im Preußischen Staatsarchiv – Herrn Studienrat Grünewald, seinem Leiter, sei für seine tatkräftige Hilfe beim Suchen bestens gedankt – brachte wenigstens einen Einblick in die Bautätigkeit unter der Äbtissin Maria Antonia Freyin von Falkenstein (Fasz. Nr. 79 Kirchenbaulickeiten in Wald 1 – 121). Auch über den Bau der jetzigen Klosterkirche und ihre Ausgestaltung ist durch dieses Aktenbündel Licht gefallen und eine von mir bereits fertiggestellte Arbeit über die „Klosterkirche von Wald“ wird demnächst eingehend das „Kleinod des Barock – Rokokokunst“ in Wald behandeln. Ein Lageplan über das Klosterdorf Wald im Fürstlichen Archiv hellt auch die Frage auf nach der alten Kirche und bringt sogar eine gute Zeichnung derselben. Im Folgenden soll der Klosterneubau zu Beginn des 18. Jahrhunderts behandelt werden.</p><p>Die tatkräftige Äbtissin Maria Jakobina von Bodman (1681 – 1709) hatte den Conventbau am Klosterweiher errichten, die alte Kirche abreißen und eine neue bauen lassen. Überall war ja in Schwaben, Bayern und Oesterreich eine große Baulust angebrochen und auch das stille Kloster in Wald wollte nicht zurückstehen, zumal durch Unglücksfälle, Kriege und Plünderungen das Kloster einer Restauration und Erweiterung bedurfte. Sie selbst nennt die Kirche in ihren Briefen „sehr baufällig“.</p><p>Nicht minder großzügig und unternehmungslustig war ihre Nachfolgerin Maria Antonia von Falkenstein, die von 1709-39 den Äbtissinenstab führte. Bevor noch die neuerbaute Kirche die innere Ausschmückung erfuhr, lenkte die adelige Frau ihre Aufmerksamkeit der Erweiterung des Klosters zu. Als ein wohl „erfahrener, sicherer Baumeister“ wurde der Äbtissin von Abt Coelestin in Elchingen zu ihrem Vorhaben Christian Widmann von dort empfohlen. Nach dem Empfehlungsschreiben des Abtes hat Christian Widemann verschiedene Kirchen und andere „ansehntliche Gebäu“ aufgeführt, auch im Kloster zu Elchingen gebaut an der Kirche, am Amthaus und „an dem bekannten hochfürstlichen Würtembergischen Gebäu zu Ludwigsburg lang und viel gearbeitet“. Er ist auch bereit „eine allenfalls erforderliche Kaution zu laisten“. Auf diesen Schreiben vom 27. Mai 1720 antwortet allerdings die Äbtissin, daß sie „nit gedenkhe, vor zwey Jahren den Bau anfangen zulassen. Sie sei aber bereit den Baumeister zu berücksichtigen und evtl. anzunehmen (Brief vom 27. Mai 1720). Ein Assecourationsbrief des Abtes vom 10. Januar 1721 meldet, daß Christian Widenmann von der Frau Äbtissin in Wald als Baumeister wirklich angenommen worden ist unter der Bedingung, „eine Caution von 3000 fl zur Sicherheit“ zu „praestieren“. Diese Summe wird vom Abt auf die Bitte Widemanns ohne Bedenken praestiert und der Cautionsbrief ausgestellt.</p><p>Die Äbtissin von Falkenstein war damit sehr zufrieden und bereits am 3. April 1721 (also ehe die zwei Jahre vorbei waren) schließt sie mit dem Baumeister Christian Widenman und seinem Bruder Hans Jerg Widenman den I. Accord zu Erstellung des Conventbaues. Wir lassen diese „Verdingbrief“ oder Accord im Wortlaut folgen, weil damit am besten die Art des Baues, die Einteilung und Ausführung zu erstehen ist.</p><p>I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bauperiode: Das Conventgebäude</p><p>Accord vom 3. April 1721 Gebr. Widenman</p><p>„Zu wissen, daß von der Hochwürdigen Frey Reichs hochwohlgeborenen Frauen, Frauen Maria Antonia Freyin adlichen Stüffts undt Gottshaußes Waldt, auch Priorin undt Convent allda, gegen Beeden gbrüeder, als H. H.: Christian und Hans Jerg Wideman, zu Oberelchingen undt Eheingen wohnhaft, der erste Theill des zubauen vorhabendten neuen Closters, wie ein solches der zu Handten gestelte letztere Riß undt Aufsatz zaiget, auch wie wirkhlich außgestekht, dergestalten verdingt, undt mit ihnen ausdrükhentlich abgehandelt worden, daß</p><ol><li><p>Die Baumeistern auf ihre Kösten, neben vorderst gelaister Caution, daß sie vor das gebäw auf sechs Jahr gewähren, undt den Fehler zuverbessern schuldigt sein sollen, wann sich einer auß ihrer oder der ihrig schuldt zaigen würde, das Fundament graben, undt von denen an den Bau mit Maurer undt rauchwerkher genuegsamben streinbrecherer zu Regnatsweyler undt Daute Bronnen, auch all anderen Handtwerkhsleuth, wie die immer nammen haben mögen, völlig undt dergestalten inner drey Jahren aufführen sollen, daß das Gottshauß mit allen disen lödiglich nichts zuthun und einzig denen H H: Baumeisteren, wann einer oder Beide allhier, neben dem Fuetter vor ihre Pferdt, iedoch da selbe einige Zeit verbleibt, das dero Pferdt zum nuzen undt Dienst des Gotteshauses gebraucht werden khönnen, so dann dem Zimmermeister, Ballier, undt noch einem das Essen und Trikhen, iedoch ohne Lohn, zuraichen schuldtig seyen.</p></li><li><p>Soll das Eckhgebäw oder Bavillion in die Vierung 50 schue überhaupt, der lange Bau, so an diesen anstehet, - 112 schue brait, und 38. über haupt sein.</p></li><li><p>Kombt in das gevierte die Kellerstiegen, S: V: Seult, Dohlen, undt zwey oder drey große Kuchelkeller. -. 11. oder 12. schue hoch, nach dem sich der Boden geben thuett.</p></li><li><p>Der undere oder erste stockh soll 16. der andere undt dritte aber 12 schue hoch sein, undt dises gebäw zwar nach dem letzten kleineren Riß, iedoch die Auftheillung wie im Haubtriß zufinden, eingerichtet, mit rauchen steinen, sambt der Haubt- und Zargenmauren, auch denen gängen und Schidtwändten, die Schidtwändt aber in den zwei oberen Stöckh, wie nit weniger die Zellenschidtwändt, von holz gemacht, mit Ziegelstein außgemauret undt darnach verklaidet werden.</p></li><li><p>An dem Gebäw außenher würdet drey schue, oder etliche Zoll weniger, nachdem sich die quader Stuckh geben, gehauen, die Kellerfenster, undt andere Fenster Stöckh in dem gebäw von Guaderstuckh, außerhalb dem gebäw aber alle von dem Regnatsweyler Steinbruch ganz glatt, die Wäschkuchel&nbsp; undt Mezg, Kuchelkeller, Eckh- undt Fenster Bögen, allwo manns in dem gebäw nöthig hat, wie nit weniger der Stockh im Boden, der Gang undt Kuchel im ersten Stockwerk durchauß mit Ziegelsteinen aufgeführt, und gewölbt, auch der Bau u. gewölber sauber verbuzet werden.</p></li><li><p>Sindt die zwey obere Stöckh, Beide gäng undt Zimmer, Zellen und Stiegen, mit Deckhinen auf zunaglen, sauber zubutzen, undt sambt denen seiten Wändten mit leicht glatt gezogener Gibsarbeith zu verfertigen, außenher ein fein gemaurtes Hauptgesimbs zuführen, das Dach fleißig zudeckhen, undt inwändig wohl mit zarter Spaiß zuverstreichen, undt außenher sauber zubutzen.</p></li><li><p>Soll der Zimmermann einen wohl versicherten Dachstuel machen, undt auf dem eckh- oder Bavillionsgebäw einen gebrochenen Dachstuel nach dem Riß stellen, auch den ersten Boden under dem Dach mit Bretter belegen, die kleineren Schrögbögen, undt was die Maurer auf dem Blaz nöthig, machen, das rüst- undt all anderes Bauholz in dem Waldt wenigst rauch Beschlagen, vorhero aber das Gottshauß auf sein Kösten es föllen laßen.</p></li><li><p>Alle Fenster Stöckh sollen von Aiche Holz, sambt denen Fenster Rahmen in denen dreyen Stockwerkh, im underen Stockh die Thüren von Aiche Holz mit gefaßter Füllung, in denen zwey oberen Stöckhen von Dänne Holz sambt denen Thürfaßungen mit einer leichten maier gemacht, auch alle Böden in denen Zimmer undt Zellen mit dergleichen Holz belegt, die Stiegen Tritt undt Undersäz, item die Stiegengländter, Dockhenfües, undt Handgriff, die vohr in dem S: v: Seult, von aichenem, undt dann die Verschläg, undt Siz mit Dänneholz verfertigt werden.</p></li><li><p>In dem Unteren Stockh sindt die Fenster Stöckh alle schwarz anzuschlagen, undt abzurüsten, Ebenfalls alle Thüren in denen gewölber undt anderen Gemächer schwarz außzumachen, In dem Anderen undt driten Stockh aber in der Frauen Priorin undt Frauen Subpriorin Zimmer die Fensterstöckh, wie auch auf dem Gang, so dann die Thüren an denen Zellen, neben aller Zugehördt mit feinem schwarzem schloß anzuschlagen, außterhalb aber sollen die Handgriff oder Knöpf an den Thüren weiß scheinen, im Underen Stockh außterhalb gegen den weyher undt Hof die Fensterstöckh, undt Keller Lichter mit geflambtem eisen, so die Baumesitern ebenmessig zu kauffen, undt also verfertigen zulassen haben, vergittert, undt</p></li><li><p>Alle Fensterstöckh mit durchsichtigen sechseckhigen hellen scheiben, sambt dem notwendigen Zühn undt Bely, in der mezg, wäsch Kuchel undt denen Kellergewölber allein mit Waldtglaß wohl versorget, die öfen in dem gebäw von dem Hafner sauber glassirt aufgesetzt, undt all dises von denen Baumeistern auf ihre Kösten erkauft undt durchauß gemacht werden.</p></li><li><p>Ueberlasset zwar das Gottshauß denen Beiden Baumeistern innerhalb denen dreyen Jahres alles eisen Geschirr, an Bickhel, Hauen, schaufeln, undt was selbe zu der Arbeith weiteres kometh, sofill nemblich auf diesen Tag vorhanden ist, was nun aber an dergleichen eisenwerk abgängig, oder hinkünftig verbrochen werden möchte, sollen sie Baumeisteren auf ihre Kösten, das Holzwerkh hingegen, als schuebkärren, Tragbähren, Kübl, Gälten, undt derlay, von dem Wangner Kiefer, schreiner, Undt anderen, das Gottshauß machen, die Baumeister aber all dises Holzwerkh mit eisen beschlagen lassen, auch die Farben und Pinsel zum anstreichen herschaffen, entgegen des Gottshauß das Pulster zu beenden steinbrüchen allein herzuthuen, undt das Oel zu gemeltem anstreichen herzugeben obligirt sein solle, zumahlen versprochen würdet, denen Maurern, neben dem Underhalt mit denen Bettstattn, wann die an- undt aufstehen, deßgleichen bey dem aufrichten, ein ehrliches Mittagessen mit immer subben, stuckh Brodt und Fleisch, Knöpfle undt auf eine Person eine halbe maß wein abfolgen zu lassen, undt dann so fern die Zimmerleuth, Maurer, undt rauchwerkher nit allein aufzurichten vermöchten, mit mehreren undt nothwendigen wurff sailer auch maurer schnier herzuschaffen.</p></li><li><p>Gleichwie nun aber sie Beede Baumeistere den ganzen Bau wie gemelt, auf ihre Kösten aufzuführen, undt mit ihrer, auch all anderer handwerkhsleuten arbeith zu vollführen, auf sich genommen haben, allso würdet ihnen auch von seiten des Gottshauses versprochen, all undt jedes, so dieselben an eisen, scheiben, gibs, welches gibs allein das Gottshauß zu kauffen, item allem Bauholz, Bretter, Latten, undt was under dem Holz begriffen, so dann alle stein auß der Ziegelhütten, undt steinbrüchen, undt in Summa anderer alle Baumaterialia, wie die immer namen haben mögen, ohne der Baumeister ohne einigen entgelt undt Kosten auf den hoff anhero führen, vor dero Maurer undt rauchwerkher zwei stuben, neben dem benötigten holz, wenn sie nemblich von den Zimmer spännen nit genueg haben, zum Kochen undt einfeiern abfolgen zulassen, an parem gelt aber, nebst einem fueder wein 1720er gewächs, zehen Tausend Neun Hundert Gulden, Reichsmünz undt Landeßwehrung, woran sie beraits 6ten gbris 1720 empfangen haben 100 fl (Gulden). Demnach ihnen allein noch zu bezahlen stehe, zehen Tausend Acht Hundert Gulden, undt zwar in diesem Jahr nach und nach 3000 fl, 1722 4000 fl, 1723 3800 fl. Summa 10800 fl. Jedoch solln hiervon dasjenige abgezogen werden, was bisdahero der Ballier an gelt, brodt und mehl, auch früchten, mit denen maureren erhoben hat.</p></li><li><p>Was nun die Baumeistere vor sich undt die ihrigen wehrendtem disen bau an wein, bier, frucht, undt anderes lebenmitlen empfangen thuen, das alles solle in bilichen preis wie schläg und Käuff diser orthen gehen, undt sonderbahr, war jeden markt zu Ueberlingen die frucht in mittelmessigem Preis gelten thuett, angeschlagen und an dem bauschilling abgezogen, auch zu mehrerer richtigkeit allzeit vor dem winter, ehe die Maurer hinweg gehen, mit denen Baumeisteren eine ordentliche Abrechnung gepflogen werden: <br>Lezslich würdet ihnen die vertröstung gegeben, dass wann dieser beraits verdingt erste Conventsbau zu disseitigem Vergnüegen, wie man verhoffet, auffgemacht, mann ihnen Baumeisteren die übrige neue Clostergebäw, so fern anderst mit selben im taglohn oder überhaub, wider zu tractiren, vor allem anderen zubauen überlaßen wollen.</p></li></ol><p>Zur Vösthaltung all vorbeschriebenen ist gegenwertiger Verdingß Brieff dobblet verfertiget, undt jedem Theil einer zugestelt, undt underschrieben, auch mit allseitigen Pettschaften bekräftigt worden.</p><p>So beschehen in dem Frey Adelich Stüft undt Gottshauß Waldt den driten Tag Aprilis in dem Jahr 1721. <br>(S.) Maria Antonia, Abtissin (S.) Priorin u. Convent (S.) Christian Wüdtmann (S.) Georg Widemman</p><p>Die Arbeit wird sofort in Angriff genommen, wie die Abrechnungen zeigen und der Conventbau wird planmäßig errichtet. Es ist dies der 1. Gebäudeteil vom Klosterweiher her an der Straße, in dem sich heute die Post, die Oberförsterei und verschiedene Wohnungen befinden, also die Hälfte der ganzen Westfront. Die Abrechnungen mit den Baumeistern im Oktober jeden Jahres werden gewissenhaft durchgeführt und lauten: <br><br>Verzaichnuß.</p><p>Was vor Par gelt die beede Baumeister undt gebrueder als H. H: Christian und Hans Jerg Widemann in dem Jahr 1721 von dem Hochadlichen Stüft und Gottshauß Waldt empfangen, worbey dann zuwissen ist, daß das Gottshauß und beede Hh: Gebrueder miteinander eine soclhe Verzeichnus haben, undt der empfang des gelts auf einer sein solle, wie auf der anderen, es wären dann , das der einte Theil seinen Brief verliehren würde, auf welchen fahl nun der einig noch vorhandtene gleichwohlen gelten, undt demme glauben beygemessen werden soll.</p><p>&nbsp;</p><p>den 7ten Aprilis 1721, ihne beeden H H. Baumeister miteinander geben   200 fl</p><p>den 20ten Aprilis 1721. Dem H: Hans Jerg Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 500 fl</p><p>den 30ten May 1721, dem H: Christian Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 200 fl</p><p>den 22ten Juny 1721 dem H: Hans Jerg Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;200 fl</p><p>den 5ten July 1721 dem H. Christian Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 200 fl</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;latus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 1 300 fl</p><p>den 26ten July 1721 dem H: Christian Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400 fl</p><p>den 17ten Aug: 1721 dem H: Hans Jerg Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300 fl</p><p>den 12ten Septemb: 1721 dem H. Hans Jerg Widemann bezahlt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;300 fl</p><p>den 4ten Octob: 1721dem H: Hans Jerg Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;300 fl</p><p>hat der Ballier undt vorderst einstmahlen der H: Hans Jerg Widemann <br>an gelt, Früchten undt Brodt empfangen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25fl</p><p>Über dieses an underschidlich früchten empfangen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192 fl 23 x</p><p>An Brodt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 89 fl 50x</p><p>den 9. Oktob: 1721 dem H. Christian Widemann geben&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          92 fl 46 x 4 H</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;latus  &nbsp;1 700 fl</p><p>Wormit dann die vermög accords auf das erste Jahr versprochene 3000 fl völlig undt ohne abgang bezahlt undt richtig gemacht worden den 9ten Octob: 1721.</p><p>Verzeichnuß.</p><p>Was vor Par gelt beede Baumeister und Gebrueder, als H. H. Christian undt Hans Jerg Widemann in dem Jahr 1722 von dem Hochadlichen Stüft undt Gotthauß Waldt empfangen haben, undt weyl jeder Theill eine gleiche Verzeichnus hat, so seindt auch beede gültig, auch so gar, wann die einte verlohren würde, wie vorm Jahr angemerkht. </p><p>den 9ten Aprilis 1722. ihme H: Christian Widemann bezahlt                            700 fl</p><p>den 19ten Aprilis 1722. dem H: Hans Jerg Widemann geben                              300 fl</p><p>den 29ten May 1722.  ihme H: Hans Jerg Widemann gezahlt                              400 fl</p><p>den 27ten Juny 1722. dem H: Christian Wiedemann bezahlt                              300 fl</p><p>den 6ten July 1722. dem H: Hans Jerg Widemann geben                                    300 fl</p><p>den 22ten July 1722. dem H: Hans Jerg Widemann bezahlt                                 400 fl</p><p>den 29ten Aug: 1722 ihme H: Hans Jerg Widemann geben                                  400 fl</p><p>                                                                                                                     latus ./.  2800 fl</p><p>den 19ten Septemb: 1722. dem H: Hans Jerg Widemann bezahlt                       400 fl</p><p>den 9ten Octob: 1722. dem H: Hans Jerg Widemann geben                                600 fl</p><p>Empfangen weit.ers an Früchten                                                                           308 fl 13 x 4 H</p><p>mit brodt                                                                                                                       12 fl 15 x</p><p>Wegen denen Betten undt ligerstatt                                                                         45 fl 40 x</p><p>                                                                                                                      latus ./. 1366 fl 8 x 4 H</p><p>Summa ./. 4166 fl 8 x 4 H. </p><p>Haben allso an dem heurigen accord der 4000 fl zuvihl empfangen               166 fl 8 x 4 H</p><p>hirran sollen bezahlen mit einem conto wegen des Herrn pat: <br>Beichtvatershauß a1)                                                                                                  101 fl 50 x</p><p>wegen der ybs hüttn                                                                                                    24 fl 42 x</p><p>                                                                                                                                       126 fl 32 x</p><p>Eines von dem anderen abzogen verbleiben beede H. H: Baumeister dem Gottsh. annoch schuldig 36 fl 36 x 4 H<br>Welches gelt selbe dato par bezahlt undt entrichtet haben, gleich nach gehaltener Rechnung mit dem H: Hans Jerg Widemann<br>den 19 Octob: 1722</p><p>Verzeichnuß</p><p>Was vor gelt die beede Baumeister undt gebrueder, als H. H: Christian undt Hans Jerg Widemann in dem Jahr 1723</p><p>&nbsp;</p>",
     "images": [
       {
         "id": "54382955888",
         "src": "/files/images/thumbnails/photo-54382955888-thumb.jpg",
+        "original": "/files/images/10_54382955888_o.jpg",
         "title": "10",
         "description": "",
         "type": "album",
@@ -8219,7 +8366,947 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Von Carl Baur"
+            }
+          ]
+        }
+      ]
+    },
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Über die Baugeschichte des alten Zisterzienserinnenklosters Wald in Hohenzollern ist bisher wenig bekannt geworden. Außer einigen dürftigen Daten weiß weder G. Hafner noch Laur-Zingerler Eingehenderes zu berichten. Die Suche nach Bauakten im Fürstlich-Hohenzollerischen Hausarchiv war vergebens. Ein glücklicher Fund im Preußischen Staatsarchiv – Herrn Studienrat Grünewald, seinem Leiter, sei für seine tatkräftige Hilfe beim Suchen bestens gedankt – brachte wenigstens einen Einblick in die Bautätigkeit unter der Äbtissin Maria Antonia Freyin von Falkenstein (Fasz. Nr. 79 Kirchenbaulickeiten in Wald 1 – 121). Auch über den Bau der jetzigen Klosterkirche und ihre Ausgestaltung ist durch dieses Aktenbündel Licht gefallen und eine von mir bereits fertiggestellte Arbeit über die „Klosterkirche von Wald“ wird demnächst eingehend das „Kleinod des Barock – Rokokokunst“ in Wald behandeln. Ein Lageplan über das Klosterdorf Wald im Fürstlichen Archiv hellt auch die Frage auf nach der alten Kirche und bringt sogar eine gute Zeichnung derselben. Im Folgenden soll der Klosterneubau zu Beginn des 18. Jahrhunderts behandelt werden."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Die tatkräftige Äbtissin Maria Jakobina von Bodman (1681 – 1709) hatte den Conventbau am Klosterweiher errichten, die alte Kirche abreißen und eine neue bauen lassen. Überall war ja in Schwaben, Bayern und Oesterreich eine große Baulust angebrochen und auch das stille Kloster in Wald wollte nicht zurückstehen, zumal durch Unglücksfälle, Kriege und Plünderungen das Kloster einer Restauration und Erweiterung bedurfte. Sie selbst nennt die Kirche in ihren Briefen „sehr baufällig“."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Nicht minder großzügig und unternehmungslustig war ihre Nachfolgerin Maria Antonia von Falkenstein, die von 1709-39 den Äbtissinenstab führte. Bevor noch die neuerbaute Kirche die innere Ausschmückung erfuhr, lenkte die adelige Frau ihre Aufmerksamkeit der Erweiterung des Klosters zu. Als ein wohl „erfahrener, sicherer Baumeister“ wurde der Äbtissin von Abt Coelestin in Elchingen zu ihrem Vorhaben Christian Widmann von dort empfohlen. Nach dem Empfehlungsschreiben des Abtes hat Christian Widemann verschiedene Kirchen und andere „ansehntliche Gebäu“ aufgeführt, auch im Kloster zu Elchingen gebaut an der Kirche, am Amthaus und „an dem bekannten hochfürstlichen Würtembergischen Gebäu zu Ludwigsburg lang und viel gearbeitet“. Er ist auch bereit „eine allenfalls erforderliche Kaution zu laisten“. Auf diesen Schreiben vom 27. Mai 1720 antwortet allerdings die Äbtissin, daß sie „nit gedenkhe, vor zwey Jahren den Bau anfangen zulassen. Sie sei aber bereit den Baumeister zu berücksichtigen und evtl. anzunehmen (Brief vom 27. Mai 1720). Ein Assecourationsbrief des Abtes vom 10. Januar 1721 meldet, daß Christian Widenmann von der Frau Äbtissin in Wald als Baumeister wirklich angenommen worden ist unter der Bedingung, „eine Caution von 3000 fl zur Sicherheit“ zu „praestieren“. Diese Summe wird vom Abt auf die Bitte Widemanns ohne Bedenken praestiert und der Cautionsbrief ausgestellt."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Die Äbtissin von Falkenstein war damit sehr zufrieden und bereits am 3. April 1721 (also ehe die zwei Jahre vorbei waren) schließt sie mit dem Baumeister Christian Widenman und seinem Bruder Hans Jerg Widenman den I. Accord zu Erstellung des Conventbaues. Wir lassen diese „Verdingbrief“ oder Accord im Wortlaut folgen, weil damit am besten die Art des Baues, die Einteilung und Ausführung zu erstehen ist."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "I.      Bauperiode: Das Conventgebäude"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Accord vom 3. April 1721 Gebr. Widenman"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "„Zu wissen, daß von der Hochwürdigen Frey Reichs hochwohlgeborenen Frauen, Frauen Maria Antonia Freyin adlichen Stüffts undt Gottshaußes Waldt, auch Priorin undt Convent allda, gegen Beeden gbrüeder, als H. H.: Christian und Hans Jerg Wideman, zu Oberelchingen undt Eheingen wohnhaft, der erste Theill des zubauen vorhabendten neuen Closters, wie ein solches der zu Handten gestelte letztere Riß undt Aufsatz zaiget, auch wie wirkhlich außgestekht, dergestalten verdingt, undt mit ihnen ausdrükhentlich abgehandelt worden, daß"
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "start": 1,
+            "type": null
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Die Baumeistern auf ihre Kösten, neben vorderst gelaister Caution, daß sie vor das gebäw auf sechs Jahr gewähren, undt den Fehler zuverbessern schuldigt sein sollen, wann sich einer auß ihrer oder der ihrig schuldt zaigen würde, das Fundament graben, undt von denen an den Bau mit Maurer undt rauchwerkher genuegsamben streinbrecherer zu Regnatsweyler undt Daute Bronnen, auch all anderen Handtwerkhsleuth, wie die immer nammen haben mögen, völlig undt dergestalten inner drey Jahren aufführen sollen, daß das Gottshauß mit allen disen lödiglich nichts zuthun und einzig denen H H: Baumeisteren, wann einer oder Beide allhier, neben dem Fuetter vor ihre Pferdt, iedoch da selbe einige Zeit verbleibt, das dero Pferdt zum nuzen undt Dienst des Gotteshauses gebraucht werden khönnen, so dann dem Zimmermeister, Ballier, undt noch einem das Essen und Trikhen, iedoch ohne Lohn, zuraichen schuldtig seyen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Soll das Eckhgebäw oder Bavillion in die Vierung 50 schue überhaupt, der lange Bau, so an diesen anstehet, - 112 schue brait, und 38. über haupt sein."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Kombt in das gevierte die Kellerstiegen, S: V: Seult, Dohlen, undt zwey oder drey große Kuchelkeller. -. 11. oder 12. schue hoch, nach dem sich der Boden geben thuett."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Der undere oder erste stockh soll 16. der andere undt dritte aber 12 schue hoch sein, undt dises gebäw zwar nach dem letzten kleineren Riß, iedoch die Auftheillung wie im Haubtriß zufinden, eingerichtet, mit rauchen steinen, sambt der Haubt- und Zargenmauren, auch denen gängen und Schidtwändten, die Schidtwändt aber in den zwei oberen Stöckh, wie nit weniger die Zellenschidtwändt, von holz gemacht, mit Ziegelstein außgemauret undt darnach verklaidet werden."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "An dem Gebäw außenher würdet drey schue, oder etliche Zoll weniger, nachdem sich die quader Stuckh geben, gehauen, die Kellerfenster, undt andere Fenster Stöckh in dem gebäw von Guaderstuckh, außerhalb dem gebäw aber alle von dem Regnatsweyler Steinbruch ganz glatt, die Wäschkuchel  undt Mezg, Kuchelkeller, Eckh- undt Fenster Bögen, allwo manns in dem gebäw nöthig hat, wie nit weniger der Stockh im Boden, der Gang undt Kuchel im ersten Stockwerk durchauß mit Ziegelsteinen aufgeführt, und gewölbt, auch der Bau u. gewölber sauber verbuzet werden."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Sindt die zwey obere Stöckh, Beide gäng undt Zimmer, Zellen und Stiegen, mit Deckhinen auf zunaglen, sauber zubutzen, undt sambt denen seiten Wändten mit leicht glatt gezogener Gibsarbeith zu verfertigen, außenher ein fein gemaurtes Hauptgesimbs zuführen, das Dach fleißig zudeckhen, undt inwändig wohl mit zarter Spaiß zuverstreichen, undt außenher sauber zubutzen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Soll der Zimmermann einen wohl versicherten Dachstuel machen, undt auf dem eckh- oder Bavillionsgebäw einen gebrochenen Dachstuel nach dem Riß stellen, auch den ersten Boden under dem Dach mit Bretter belegen, die kleineren Schrögbögen, undt was die Maurer auf dem Blaz nöthig, machen, das rüst- undt all anderes Bauholz in dem Waldt wenigst rauch Beschlagen, vorhero aber das Gottshauß auf sein Kösten es föllen laßen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Alle Fenster Stöckh sollen von Aiche Holz, sambt denen Fenster Rahmen in denen dreyen Stockwerkh, im underen Stockh die Thüren von Aiche Holz mit gefaßter Füllung, in denen zwey oberen Stöckhen von Dänne Holz sambt denen Thürfaßungen mit einer leichten maier gemacht, auch alle Böden in denen Zimmer undt Zellen mit dergleichen Holz belegt, die Stiegen Tritt undt Undersäz, item die Stiegengländter, Dockhenfües, undt Handgriff, die vohr in dem S: v: Seult, von aichenem, undt dann die Verschläg, undt Siz mit Dänneholz verfertigt werden."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "In dem Unteren Stockh sindt die Fenster Stöckh alle schwarz anzuschlagen, undt abzurüsten, Ebenfalls alle Thüren in denen gewölber undt anderen Gemächer schwarz außzumachen, In dem Anderen undt driten Stockh aber in der Frauen Priorin undt Frauen Subpriorin Zimmer die Fensterstöckh, wie auch auf dem Gang, so dann die Thüren an denen Zellen, neben aller Zugehördt mit feinem schwarzem schloß anzuschlagen, außterhalb aber sollen die Handgriff oder Knöpf an den Thüren weiß scheinen, im Underen Stockh außterhalb gegen den weyher undt Hof die Fensterstöckh, undt Keller Lichter mit geflambtem eisen, so die Baumesitern ebenmessig zu kauffen, undt also verfertigen zulassen haben, vergittert, undt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Alle Fensterstöckh mit durchsichtigen sechseckhigen hellen scheiben, sambt dem notwendigen Zühn undt Bely, in der mezg, wäsch Kuchel undt denen Kellergewölber allein mit Waldtglaß wohl versorget, die öfen in dem gebäw von dem Hafner sauber glassirt aufgesetzt, undt all dises von denen Baumeistern auf ihre Kösten erkauft undt durchauß gemacht werden."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ueberlasset zwar das Gottshauß denen Beiden Baumeistern innerhalb denen dreyen Jahres alles eisen Geschirr, an Bickhel, Hauen, schaufeln, undt was selbe zu der Arbeith weiteres kometh, sofill nemblich auf diesen Tag vorhanden ist, was nun aber an dergleichen eisenwerk abgängig, oder hinkünftig verbrochen werden möchte, sollen sie Baumeisteren auf ihre Kösten, das Holzwerkh hingegen, als schuebkärren, Tragbähren, Kübl, Gälten, undt derlay, von dem Wangner Kiefer, schreiner, Undt anderen, das Gottshauß machen, die Baumeister aber all dises Holzwerkh mit eisen beschlagen lassen, auch die Farben und Pinsel zum anstreichen herschaffen, entgegen des Gottshauß das Pulster zu beenden steinbrüchen allein herzuthuen, undt das Oel zu gemeltem anstreichen herzugeben obligirt sein solle, zumahlen versprochen würdet, denen Maurern, neben dem Underhalt mit denen Bettstattn, wann die an- undt aufstehen, deßgleichen bey dem aufrichten, ein ehrliches Mittagessen mit immer subben, stuckh Brodt und Fleisch, Knöpfle undt auf eine Person eine halbe maß wein abfolgen zu lassen, undt dann so fern die Zimmerleuth, Maurer, undt rauchwerkher nit allein aufzurichten vermöchten, mit mehreren undt nothwendigen wurff sailer auch maurer schnier herzuschaffen."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Gleichwie nun aber sie Beede Baumeistere den ganzen Bau wie gemelt, auf ihre Kösten aufzuführen, undt mit ihrer, auch all anderer handwerkhsleuten arbeith zu vollführen, auf sich genommen haben, allso würdet ihnen auch von seiten des Gottshauses versprochen, all undt jedes, so dieselben an eisen, scheiben, gibs, welches gibs allein das Gottshauß zu kauffen, item allem Bauholz, Bretter, Latten, undt was under dem Holz begriffen, so dann alle stein auß der Ziegelhütten, undt steinbrüchen, undt in Summa anderer alle Baumaterialia, wie die immer namen haben mögen, ohne der Baumeister ohne einigen entgelt undt Kosten auf den hoff anhero führen, vor dero Maurer undt rauchwerkher zwei stuben, neben dem benötigten holz, wenn sie nemblich von den Zimmer spännen nit genueg haben, zum Kochen undt einfeiern abfolgen zulassen, an parem gelt aber, nebst einem fueder wein 1720er gewächs, zehen Tausend Neun Hundert Gulden, Reichsmünz undt Landeßwehrung, woran sie beraits 6ten gbris 1720 empfangen haben 100 fl (Gulden). Demnach ihnen allein noch zu bezahlen stehe, zehen Tausend Acht Hundert Gulden, undt zwar in diesem Jahr nach und nach 3000 fl, 1722 4000 fl, 1723 3800 fl. Summa 10800 fl. Jedoch solln hiervon dasjenige abgezogen werden, was bisdahero der Ballier an gelt, brodt und mehl, auch früchten, mit denen maureren erhoben hat."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Was nun die Baumeistere vor sich undt die ihrigen wehrendtem disen bau an wein, bier, frucht, undt anderes lebenmitlen empfangen thuen, das alles solle in bilichen preis wie schläg und Käuff diser orthen gehen, undt sonderbahr, war jeden markt zu Ueberlingen die frucht in mittelmessigem Preis gelten thuett, angeschlagen und an dem bauschilling abgezogen, auch zu mehrerer richtigkeit allzeit vor dem winter, ehe die Maurer hinweg gehen, mit denen Baumeisteren eine ordentliche Abrechnung gepflogen werden: "
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Lezslich würdet ihnen die vertröstung gegeben, dass wann dieser beraits verdingt erste Conventsbau zu disseitigem Vergnüegen, wie man verhoffet, auffgemacht, mann ihnen Baumeisteren die übrige neue Clostergebäw, so fern anderst mit selben im taglohn oder überhaub, wider zu tractiren, vor allem anderen zubauen überlaßen wollen."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Zur Vösthaltung all vorbeschriebenen ist gegenwertiger Verdingß Brieff dobblet verfertiget, undt jedem Theil einer zugestelt, undt underschrieben, auch mit allseitigen Pettschaften bekräftigt worden."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "So beschehen in dem Frey Adelich Stüft undt Gottshauß Waldt den driten Tag Aprilis in dem Jahr 1721. "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "(S.) Maria Antonia, Abtissin (S.) Priorin u. Convent (S.) Christian Wüdtmann (S.) Georg Widemman"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Die Arbeit wird sofort in Angriff genommen, wie die Abrechnungen zeigen und der Conventbau wird planmäßig errichtet. Es ist dies der 1. Gebäudeteil vom Klosterweiher her an der Straße, in dem sich heute die Post, die Oberförsterei und verschiedene Wohnungen befinden, also die Hälfte der ganzen Westfront. Die Abrechnungen mit den Baumeistern im Oktober jeden Jahres werden gewissenhaft durchgeführt und lauten: "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Verzaichnuß."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Was vor Par gelt die beede Baumeister undt gebrueder als H. H: Christian und Hans Jerg Widemann in dem Jahr 1721 von dem Hochadlichen Stüft und Gottshauß Waldt empfangen, worbey dann zuwissen ist, daß das Gottshauß und beede Hh: Gebrueder miteinander eine soclhe Verzeichnus haben, undt der empfang des gelts auf einer sein solle, wie auf der anderen, es wären dann , das der einte Theil seinen Brief verliehren würde, auf welchen fahl nun der einig noch vorhandtene gleichwohlen gelten, undt demme glauben beygemessen werden soll."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 7ten Aprilis 1721, ihne beeden H H. Baumeister miteinander geben   200 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 20ten Aprilis 1721. Dem H: Hans Jerg Widemann bezahlt                      500 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 30ten May 1721, dem H: Christian Widemann geben                              200 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 22ten Juny 1721 dem H: Hans Jerg Widemann geben                              200 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 5ten July 1721 dem H. Christian Widemann bezahlt                               200 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "                                                                                                       latus               1 300 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 26ten July 1721 dem H: Christian Widemann bezahlt                             400 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 17ten Aug: 1721 dem H: Hans Jerg Widemann geben                               300 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 12ten Septemb: 1721 dem H. Hans Jerg Widemann bezahlt                    300 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 4ten Octob: 1721dem H: Hans Jerg Widemann geben                              300 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "hat der Ballier undt vorderst einstmahlen der H: Hans Jerg Widemann "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "an gelt, Früchten undt Brodt empfangen                                                             25fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Über dieses an underschidlich früchten empfangen                                      192 fl 23 x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "An Brodt                                                                                                                    89 fl 50x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 9. Oktob: 1721 dem H. Christian Widemann geben                                     92 fl 46 x 4 H"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "                                                                                                                    latus   1 700 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Wormit dann die vermög accords auf das erste Jahr versprochene 3000 fl völlig undt ohne abgang bezahlt undt richtig gemacht worden den 9ten Octob: 1721."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Verzeichnuß."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Was vor Par gelt beede Baumeister und Gebrueder, als H. H. Christian undt Hans Jerg Widemann in dem Jahr 1722 von dem Hochadlichen Stüft undt Gotthauß Waldt empfangen haben, undt weyl jeder Theill eine gleiche Verzeichnus hat, so seindt auch beede gültig, auch so gar, wann die einte verlohren würde, wie vorm Jahr angemerkht. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 9ten Aprilis 1722. ihme H: Christian Widemann bezahlt                            700 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 19ten Aprilis 1722. dem H: Hans Jerg Widemann geben                              300 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 29ten May 1722.  ihme H: Hans Jerg Widemann gezahlt                              400 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 27ten Juny 1722. dem H: Christian Wiedemann bezahlt                              300 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 6ten July 1722. dem H: Hans Jerg Widemann geben                                    300 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 22ten July 1722. dem H: Hans Jerg Widemann bezahlt                                 400 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 29ten Aug: 1722 ihme H: Hans Jerg Widemann geben                                  400 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "                                                                                                                     latus ./.  2800 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 19ten Septemb: 1722. dem H: Hans Jerg Widemann bezahlt                       400 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "den 9ten Octob: 1722. dem H: Hans Jerg Widemann geben                                600 fl"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Empfangen weit.ers an Früchten                                                                           308 fl 13 x 4 H"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "mit brodt                                                                                                                       12 fl 15 x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Wegen denen Betten undt ligerstatt                                                                         45 fl 40 x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "                                                                                                                      latus ./. 1366 fl 8 x 4 H"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Summa ./. 4166 fl 8 x 4 H. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Haben allso an dem heurigen accord der 4000 fl zuvihl empfangen               166 fl 8 x 4 H"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "hirran sollen bezahlen mit einem conto wegen des Herrn pat: "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Beichtvatershauß a1)                                                                                                  101 fl 50 x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "wegen der ybs hüttn                                                                                                    24 fl 42 x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "                                                                                                                                       126 fl 32 x"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Eines von dem anderen abzogen verbleiben beede H. H: Baumeister dem Gottsh. annoch schuldig 36 fl 36 x 4 H"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Welches gelt selbe dato par bezahlt undt entrichtet haben, gleich nach gehaltener Rechnung mit dem H: Hans Jerg Widemann"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "den 19 Octob: 1722"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Verzeichnuß"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Was vor gelt die beede Baumeister undt gebrueder, als H. H: Christian undt Hans Jerg Widemann in dem Jahr 1723"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "doc-1773141264662",
@@ -8304,7 +9391,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773140204219",
@@ -8338,7 +9427,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773009563858",
@@ -8392,7 +9483,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1785743391892",
@@ -8442,7 +9535,9 @@
       "reviewer": "Kempter Elfriede",
       "reviewedAt": "2026-08-03T08:03:32.315Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-004",
@@ -8479,7 +9574,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773174523515",
@@ -8522,7 +9619,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-001",
@@ -8570,7 +9669,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786353025774",
@@ -8601,7 +9702,9 @@
       "reviewer": "",
       "reviewedAt": null,
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773140735222",
@@ -8650,7 +9753,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1773141004117",
@@ -8699,7 +9804,9 @@
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
-    "showInWordCloud": true
+    "showInWordCloud": true,
+    "descriptionJson": null,
+    "transcriptionJson": null
   },
   {
     "id": "doc-1786351547532",
@@ -8745,6 +9852,8 @@
       "reviewer": "Stefanie Grüner",
       "reviewedAt": "2026-08-10T08:48:16.672Z",
       "comments": []
-    }
+    },
+    "descriptionJson": null,
+    "transcriptionJson": null
   }
 ]
