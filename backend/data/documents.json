@@ -1,5 +1,95 @@
 [
   {
+    "id": "doc-1786722552401",
+    "sortOrder": -1,
+    "title": "Artikel Südkurier \"Lobgesang auf die Heimschule\" ",
+    "year": 2006,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Heimschule"
+    ],
+    "location": "Wald",
+    "description": "<p>Arikel Südkurier vom 24. Oktober 2006</p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Arikel Südkurier vom 24. Oktober 2006"
+            }
+          ]
+        }
+      ]
+    },
+    "transcription": "<p><strong>Lobgesang auf die Heimschule</strong></p><p>Weihbischof Rainer Klug zelebrierte den Festgottesdienst zum Geburtstag im Kloster Wald </p><p></p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Lobgesang auf die Heimschule"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Weihbischof Rainer Klug zelebrierte den Festgottesdienst zum Geburtstag im Kloster Wald "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "ebe",
+      "source": "Südkurier 2006",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1786473902406",
     "sortOrder": 0,
     "title": "Artur Zeh ",
