@@ -28,7 +28,7 @@
         }
       ]
     },
-    "transcription": "<p><strong>Lobgesang auf die Heimschule</strong></p><p>Weihbischof Rainer Klug zelebrierte den Festgottesdienst zum Geburtstag im Kloster Wald </p><p></p>",
+    "transcription": "<p><strong>Lobgesang auf die Heimschule</strong></p><p>Weihbischof Rainer Klug zelebrierte den Festgottesdienst zum Geburtstag im Kloster Wald </p><p>Wald - Als eine \"mutige Gründung nach dem Schrecken des Nationalsozialismus\" bezeichnete Weihbischof Rainer Klug beim Festgottesdienst am Freitag zum 60-jährigen Bestehen der Heimschule Kloster Wald deren Entstehung. In der bis vollbesetzten Pfarrkirche Sankt Berhard rief er den Festgästen zu: \"Seid ein Loblied auf Gott!\" Klug verstand es, mit eindrücklichen Bildern die Gottesdienstbesucher in den Bann einer Predigt zu ziehen.<br>Zu Beginn begrüßte Pater Anselm Herzog Carl von Württemberg, Landrat Dirk Gaerte, den ehemaligen Ministerpräsident Baden-Württembergs Erwin Teufel, der nach dem Gottesdienst die Festansprache hielt, Bürgermeister Werner Müller und den evangelischen Pfarrer Walter Schwaiger. Der feierliche Rahmen des Festgottesdienstes wurde unterstrichen von musikalischen Darbietungen des Schulchores unter der Leitung von Guido Haas und Martin Herrn an der Orgel. <br>\"Lasst euch mit eurem Gesang hören\", wandte sich Weihbischof Rainer Klug an diejenigen Schülerinnen, die im Kreuzgang den Gottesdienst über Lautsprecher mitfeierten, weil sie in der Pfarrkirche keinen Platz mehr gefunden hatten. Klug überbrachte die hohe Anerkennung sowie die Glückwünsche von Erzbischof Robert Zollitsch und würdigte die Gründung der Heimschule im Jahr 1946, nachdem Gott zuvor aus den Schulen verbannt worden war. Gleichzeitig sprach er sich gegen jede fundamenalistische Enge in den Schulen und der Gesellschaft aus. <br>\"Manchmal braucht man einen, der einen in den Arm nimmt und sagt: Du bist tollm, hast eine tolle Figur\", versuchte Klug die \"Pädagogik Gottes\" zu erklären und erntete verständnisvolles Schmunzeln der Gäste, unter ihnen auch zahlreich \"Urwälderinnen\". Auch die Bilder und Emotionen der Fußball-Weltmeisterschaft im Sommer dienten als Vergleich mit der Gemeinschaft der Christen und ihrer Begeisterung für Jesus: \"Ein Halleluja muss man singen, wie man den Ausruf Tor, Tor, Tor nicht flüstern kann.\" Für Weihbischof Rainer Klug steht die Botschaft Gottes auch für Wahrhaftigkeit und Öffentlichkeit. Er forderte die Erziehenden an der Schule auf, zu ihren Hoffnungen und Schwächen zu stehen. Klug lobte die Heimschule Kloster Wald als eine \"hervorragenede Schule\", die offen ist für alle, der sich seit 60 Jahren junge Menschen anvertrauen. Weihbischof Rainer Klug beendete seine Predigt mit einem Wort an die Schülerinnen: \"Seid mit eurem Leben ein Loblied auf Gott!\". </p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -65,7 +65,34 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Wald - Als eine \"mutige Gründung nach dem Schrecken des Nationalsozialismus\" bezeichnete Weihbischof Rainer Klug beim Festgottesdienst am Freitag zum 60-jährigen Bestehen der Heimschule Kloster Wald deren Entstehung. In der bis vollbesetzten Pfarrkirche Sankt Berhard rief er den Festgästen zu: \"Seid ein Loblied auf Gott!\" Klug verstand es, mit eindrücklichen Bildern die Gottesdienstbesucher in den Bann einer Predigt zu ziehen."
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Zu Beginn begrüßte Pater Anselm Herzog Carl von Württemberg, Landrat Dirk Gaerte, den ehemaligen Ministerpräsident Baden-Württembergs Erwin Teufel, der nach dem Gottesdienst die Festansprache hielt, Bürgermeister Werner Müller und den evangelischen Pfarrer Walter Schwaiger. Der feierliche Rahmen des Festgottesdienstes wurde unterstrichen von musikalischen Darbietungen des Schulchores unter der Leitung von Guido Haas und Martin Herrn an der Orgel. "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "\"Lasst euch mit eurem Gesang hören\", wandte sich Weihbischof Rainer Klug an diejenigen Schülerinnen, die im Kreuzgang den Gottesdienst über Lautsprecher mitfeierten, weil sie in der Pfarrkirche keinen Platz mehr gefunden hatten. Klug überbrachte die hohe Anerkennung sowie die Glückwünsche von Erzbischof Robert Zollitsch und würdigte die Gründung der Heimschule im Jahr 1946, nachdem Gott zuvor aus den Schulen verbannt worden war. Gleichzeitig sprach er sich gegen jede fundamenalistische Enge in den Schulen und der Gesellschaft aus. "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "\"Manchmal braucht man einen, der einen in den Arm nimmt und sagt: Du bist tollm, hast eine tolle Figur\", versuchte Klug die \"Pädagogik Gottes\" zu erklären und erntete verständnisvolles Schmunzeln der Gäste, unter ihnen auch zahlreich \"Urwälderinnen\". Auch die Bilder und Emotionen der Fußball-Weltmeisterschaft im Sommer dienten als Vergleich mit der Gemeinschaft der Christen und ihrer Begeisterung für Jesus: \"Ein Halleluja muss man singen, wie man den Ausruf Tor, Tor, Tor nicht flüstern kann.\" Für Weihbischof Rainer Klug steht die Botschaft Gottes auch für Wahrhaftigkeit und Öffentlichkeit. Er forderte die Erziehenden an der Schule auf, zu ihren Hoffnungen und Schwächen zu stehen. Klug lobte die Heimschule Kloster Wald als eine \"hervorragenede Schule\", die offen ist für alle, der sich seit 60 Jahren junge Menschen anvertrauen. Weihbischof Rainer Klug beendete seine Predigt mit einem Wort an die Schülerinnen: \"Seid mit eurem Leben ein Loblied auf Gott!\". "
+            }
+          ]
         }
       ]
     },
