@@ -8487,6 +8487,18 @@
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_msso4xebu5ejek",
+        "src": "/files/images/thumbnails/album-1786695104525-572372756-thumb.jpg",
+        "original": "/files/images/album-1786695104525-572372756.jpg",
+        "title": "1000201867.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
       }
     ],
     "metadata": {
@@ -8508,7 +8520,8 @@
       "local_mssoxt81x3zgkv",
       "local_mssoy0uzh6xjx9",
       "local_mssoy6uaj46vcr",
-      "local_mssoydi6d0k913"
+      "local_mssoydi6d0k913",
+      "local_msso4xebu5ejek"
     ],
     "pdfIds": [],
     "review": {
@@ -8520,7 +8533,7 @@
     "showInTimeline": true,
     "sortOrder": 73,
     "parent_id": "",
-    "coverPhotoId": "local_msso4xebu5ejek",
+    "coverPhotoId": "",
     "showInArchive": true,
     "showInWordCloud": true,
     "descriptionJson": {
