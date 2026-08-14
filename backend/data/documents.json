@@ -4002,7 +4002,7 @@
       "Personen"
     ],
     "location": "Wald",
-    "description": "<p></p>",
+    "description": "<p>Artikel Südkurier vom April 1969</p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -4010,7 +4010,13 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Artikel Südkurier vom April 1969"
+            }
+          ]
         }
       ]
     },
