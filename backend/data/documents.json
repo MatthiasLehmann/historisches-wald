@@ -117,7 +117,20 @@
         }
       ]
     },
-    "images": [],
+    "images": [
+      {
+        "id": "local_mst424598t6h2a",
+        "src": "/files/images/thumbnails/album-1786721851199-211922633-thumb.jpg",
+        "original": "/files/images/album-1786721851199-211922633.png",
+        "title": "Bürgermeisterkandidat stellt sich in Wald vor.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -128,7 +141,9 @@
       "editor": "Stefanie Grüner"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mst424598t6h2a"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
