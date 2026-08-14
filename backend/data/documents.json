@@ -96,7 +96,32 @@
         }
       ]
     },
-    "images": [],
+    "images": [
+      {
+        "id": "local_mst4yzjmu9suwc",
+        "src": "/files/images/thumbnails/album-1786723382280-176495058-thumb.jpg",
+        "original": "/files/images/album-1786723382280-176495058.jpg",
+        "title": "1000202147.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mst4z86x5l55lo",
+        "src": "/files/images/thumbnails/album-1786723394942-330876403-thumb.jpg",
+        "original": "/files/images/album-1786723394942-330876403.jpg",
+        "title": "1000202148.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -107,7 +132,10 @@
       "editor": "Stefanie Grüner"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mst4yzjmu9suwc",
+      "local_mst4z86x5l55lo"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
