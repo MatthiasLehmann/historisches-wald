@@ -1,158 +1,5 @@
 [
   {
-    "id": "doc-1786721635004",
-    "sortOrder": -1,
-    "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
-    "year": 1966,
-    "parent_id": "",
-    "category": "Wald",
-    "subcategories": [
-      "Personen"
-    ],
-    "location": "Wald",
-    "description": "<p></p>",
-    "descriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          }
-        }
-      ]
-    },
-    "transcription": "<p><strong>Bürgermeisterkandidat stellt sich in Wald vor</strong></p><p>Amtmann Artur Zeh einziger Bewerber - Landrat Dr. Gögler für Verwaltungsgemeinschaft </p><p>Wald. \"Wir haben zwar eine Wahl, aber keine Wahl\", meinte ein Bürger am Samstagabend in der neuen Turnhalle von Wald. Gemeint war, daß zur Bürgermeisterwahl am 20. April nur ein Bewerber antritt, nachem ein zweiter sich zurückgezogen hat. Der Uebriggebliebene stellte sich am Samstag den Einwohnern von Wald vor. Es handelt sich um den 32 Jahre alten Amtmann Artur Zeh aus Neuenbürg, der sich um die Nachfolge von Bürgermeister Josef Kaiser bewirbt. Das Gemeindeoberhaupt von Wald hieß neben dem Kandidaten Landrat Dr. Max Gögler willkommen und erinnerte daran, daß sich erstmal in der Dorfgeschichte nicht Walder Bürger um den Posten des Bürgermeisters bewerben. Josef Kaiser meinte, daß es heute nicht mehr einfach sei dieses Amt zu bekleiden, zumal man entsprechende Voraussetzungen mitbringen müsse, um sich im Wald der Gesetze auszukennen. Bürgermeister zu sein sei heute ein Beruf wie jeder andere auch.</p><p>Bürgermeister Kaiser berichtete, daß man sich vergeblich um einheimische Bewerber bemüht und darum die Stelle ausgeschrieben habe. Er wies darauf hin, daß man mit den umliegenden Gemeinden über eine Verwaltungsgemeinschaft gesprochen habe, damit der künftige Bürgermeister arbeitsmäßig ausgelastet ist. Noch einen weiteren Aspekt ließ Josef Kaiser anklingen: die Besoldung des Bürgermeisters richtet sich nach der Einwohnerzahl. Bei der Ausschreibung habe man auf mehrere Bewerber gehofft, aber nur zwei hätten sich gemeldet: Artur Zeh und Walter Prinz aus Ravensburg. Dieser jedoch zog sich - wie berichtet - von seiner Kandidatur zurück, mit der Begründung, er, als kaufmännischer Angestellter könne gegen einen Verwaltungsfachmann nicht antreten. </p><p>Dann stellte sich Artur Zeh vor. Er ist 32 Jahre alt, verheiratet und Vater einer einjährigen Tochter. Aufgewachsen ist er im Kreis Freundenstadt, der Vater war Eisenbahner. Nach Volksschule und Gymnasium begann Artur Zeh eine dreijährige Lehrzeit in einer kleinen Stadt und kam dann zum Verwaltungsaktuariat in Calw, wo er die Probleme der kleinen Gemeinden kennenlernte. Nach dem erfolgreichen Besuch der staatlichen Verwaltungsschule kam der junge Beamte zum Landratsamt Münsingen, wo er sich mit den vielschichtigen Aufgaben einer Verwaltung vertraut machte. Nächste Station war Sulzbach im Kreis Backnang, dann Neuenbürg. Artur Zeh hat dort zehn Gemeinden mit zusammen 7.000 Einwohnern zu betreuen. </p><p>Dem Bürgermeister und dem Gemeinderat von Wald zollte Artur Zeh seine Anerkennung für die bisher geleistete Arbeit. Dennoch stünden noch viele Aufgaben an, zumal sich der Fortschritt nicht aufhalten lasse. Der Bewerber plädierte dafür, daß auch auf dem Land der Bürger den gleichen Verwaltungsdienst in Anspruch nehmen dürfe wie in der Stadt. Als ein wichtiges Aufgabengebiet sprach er den Schulsektor an, auf dem man noch nicht zum Ziel gelangt sei. Ansonsten entsagte sich Artur Zeh eines Aufgabenkatalogs, weil man die Probleme nicht so ohne Weiteres lösen könne. Die Gemeinde Wald habe eine Mittelpunktfunktion mit Entwicklungsmöglichkeiten. Es werde notwendig sein, daß die Gemeinden noch enger zusammenarbeiten als bisher, um von der Entwicklung nicht überrollt zu werden. Aus diesem Grund müsse die Verwaltungsgemeinschaft mit 6 weiteren Gemeinden geschaffen werden. Artur Zeh versprach das Werk von Josef Kaiser fortzusetzen. </p><p>Landrat Dr. Gögler ging auf die Verwaltungsgemeinschaft ein. Von der Verwaltungsreform her wehe ein scharfer Wind. Die Gemeinschaft habe den Vorteil der Zentralisierung der Amtsgeschäfte und das Land könne außerdem stärker zur Kasse gebeten werden. Abschließend dankte Dr. Gögler Josef Kaiser für dessen Arbeit. \"Ein Bürgermeister, der für so wenig Geld seine Geschäfte führt, finden Sie landauf landab nicht\", versicherte er. </p>",
-    "transcriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "bold"
-                }
-              ],
-              "text": "Bürgermeisterkandidat stellt sich in Wald vor"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Amtmann Artur Zeh einziger Bewerber - Landrat Dr. Gögler für Verwaltungsgemeinschaft "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Wald. \"Wir haben zwar eine Wahl, aber keine Wahl\", meinte ein Bürger am Samstagabend in der neuen Turnhalle von Wald. Gemeint war, daß zur Bürgermeisterwahl am 20. April nur ein Bewerber antritt, nachem ein zweiter sich zurückgezogen hat. Der Uebriggebliebene stellte sich am Samstag den Einwohnern von Wald vor. Es handelt sich um den 32 Jahre alten Amtmann Artur Zeh aus Neuenbürg, der sich um die Nachfolge von Bürgermeister Josef Kaiser bewirbt. Das Gemeindeoberhaupt von Wald hieß neben dem Kandidaten Landrat Dr. Max Gögler willkommen und erinnerte daran, daß sich erstmal in der Dorfgeschichte nicht Walder Bürger um den Posten des Bürgermeisters bewerben. Josef Kaiser meinte, daß es heute nicht mehr einfach sei dieses Amt zu bekleiden, zumal man entsprechende Voraussetzungen mitbringen müsse, um sich im Wald der Gesetze auszukennen. Bürgermeister zu sein sei heute ein Beruf wie jeder andere auch."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Bürgermeister Kaiser berichtete, daß man sich vergeblich um einheimische Bewerber bemüht und darum die Stelle ausgeschrieben habe. Er wies darauf hin, daß man mit den umliegenden Gemeinden über eine Verwaltungsgemeinschaft gesprochen habe, damit der künftige Bürgermeister arbeitsmäßig ausgelastet ist. Noch einen weiteren Aspekt ließ Josef Kaiser anklingen: die Besoldung des Bürgermeisters richtet sich nach der Einwohnerzahl. Bei der Ausschreibung habe man auf mehrere Bewerber gehofft, aber nur zwei hätten sich gemeldet: Artur Zeh und Walter Prinz aus Ravensburg. Dieser jedoch zog sich - wie berichtet - von seiner Kandidatur zurück, mit der Begründung, er, als kaufmännischer Angestellter könne gegen einen Verwaltungsfachmann nicht antreten. "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Dann stellte sich Artur Zeh vor. Er ist 32 Jahre alt, verheiratet und Vater einer einjährigen Tochter. Aufgewachsen ist er im Kreis Freundenstadt, der Vater war Eisenbahner. Nach Volksschule und Gymnasium begann Artur Zeh eine dreijährige Lehrzeit in einer kleinen Stadt und kam dann zum Verwaltungsaktuariat in Calw, wo er die Probleme der kleinen Gemeinden kennenlernte. Nach dem erfolgreichen Besuch der staatlichen Verwaltungsschule kam der junge Beamte zum Landratsamt Münsingen, wo er sich mit den vielschichtigen Aufgaben einer Verwaltung vertraut machte. Nächste Station war Sulzbach im Kreis Backnang, dann Neuenbürg. Artur Zeh hat dort zehn Gemeinden mit zusammen 7.000 Einwohnern zu betreuen. "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Dem Bürgermeister und dem Gemeinderat von Wald zollte Artur Zeh seine Anerkennung für die bisher geleistete Arbeit. Dennoch stünden noch viele Aufgaben an, zumal sich der Fortschritt nicht aufhalten lasse. Der Bewerber plädierte dafür, daß auch auf dem Land der Bürger den gleichen Verwaltungsdienst in Anspruch nehmen dürfe wie in der Stadt. Als ein wichtiges Aufgabengebiet sprach er den Schulsektor an, auf dem man noch nicht zum Ziel gelangt sei. Ansonsten entsagte sich Artur Zeh eines Aufgabenkatalogs, weil man die Probleme nicht so ohne Weiteres lösen könne. Die Gemeinde Wald habe eine Mittelpunktfunktion mit Entwicklungsmöglichkeiten. Es werde notwendig sein, daß die Gemeinden noch enger zusammenarbeiten als bisher, um von der Entwicklung nicht überrollt zu werden. Aus diesem Grund müsse die Verwaltungsgemeinschaft mit 6 weiteren Gemeinden geschaffen werden. Artur Zeh versprach das Werk von Josef Kaiser fortzusetzen. "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Landrat Dr. Gögler ging auf die Verwaltungsgemeinschaft ein. Von der Verwaltungsreform her wehe ein scharfer Wind. Die Gemeinschaft habe den Vorteil der Zentralisierung der Amtsgeschäfte und das Land könne außerdem stärker zur Kasse gebeten werden. Abschließend dankte Dr. Gögler Josef Kaiser für dessen Arbeit. \"Ein Bürgermeister, der für so wenig Geld seine Geschäfte führt, finden Sie landauf landab nicht\", versicherte er. "
-            }
-          ]
-        }
-      ]
-    },
-    "images": [
-      {
-        "id": "local_mst424598t6h2a",
-        "src": "/files/images/thumbnails/album-1786721851199-211922633-thumb.jpg",
-        "original": "/files/images/album-1786721851199-211922633.png",
-        "title": "Bürgermeisterkandidat stellt sich in Wald vor.png",
-        "description": "",
-        "type": "album",
-        "date": "",
-        "author": "",
-        "source": "",
-        "license": "All Rights Reserved"
-      }
-    ],
-    "coverPhotoId": "",
-    "showInTimeline": true,
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "metadata": {
-      "author": "ro",
-      "source": "Südkurier 1966",
-      "editor": "Stefanie Grüner"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [
-      "local_mst424598t6h2a"
-    ],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-14T15:38:50.008Z",
-      "comments": []
-    }
-  },
-  {
     "id": "doc-1786473902406",
     "sortOrder": 0,
     "title": "Artur Zeh ",
@@ -4145,6 +3992,159 @@
     "transcriptionJson": null
   },
   {
+    "id": "doc-1786721635004",
+    "sortOrder": 33,
+    "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
+    "year": 1969,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Personen"
+    ],
+    "location": "Wald",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p><strong>Bürgermeisterkandidat stellt sich in Wald vor</strong></p><p>Amtmann Artur Zeh einziger Bewerber - Landrat Dr. Gögler für Verwaltungsgemeinschaft </p><p>Wald. \"Wir haben zwar eine Wahl, aber keine Wahl\", meinte ein Bürger am Samstagabend in der neuen Turnhalle von Wald. Gemeint war, daß zur Bürgermeisterwahl am 20. April nur ein Bewerber antritt, nachem ein zweiter sich zurückgezogen hat. Der Uebriggebliebene stellte sich am Samstag den Einwohnern von Wald vor. Es handelt sich um den 32 Jahre alten Amtmann Artur Zeh aus Neuenbürg, der sich um die Nachfolge von Bürgermeister Josef Kaiser bewirbt. Das Gemeindeoberhaupt von Wald hieß neben dem Kandidaten Landrat Dr. Max Gögler willkommen und erinnerte daran, daß sich erstmal in der Dorfgeschichte nicht Walder Bürger um den Posten des Bürgermeisters bewerben. Josef Kaiser meinte, daß es heute nicht mehr einfach sei dieses Amt zu bekleiden, zumal man entsprechende Voraussetzungen mitbringen müsse, um sich im Wald der Gesetze auszukennen. Bürgermeister zu sein sei heute ein Beruf wie jeder andere auch.</p><p>Bürgermeister Kaiser berichtete, daß man sich vergeblich um einheimische Bewerber bemüht und darum die Stelle ausgeschrieben habe. Er wies darauf hin, daß man mit den umliegenden Gemeinden über eine Verwaltungsgemeinschaft gesprochen habe, damit der künftige Bürgermeister arbeitsmäßig ausgelastet ist. Noch einen weiteren Aspekt ließ Josef Kaiser anklingen: die Besoldung des Bürgermeisters richtet sich nach der Einwohnerzahl. Bei der Ausschreibung habe man auf mehrere Bewerber gehofft, aber nur zwei hätten sich gemeldet: Artur Zeh und Walter Prinz aus Ravensburg. Dieser jedoch zog sich - wie berichtet - von seiner Kandidatur zurück, mit der Begründung, er, als kaufmännischer Angestellter könne gegen einen Verwaltungsfachmann nicht antreten. </p><p>Dann stellte sich Artur Zeh vor. Er ist 32 Jahre alt, verheiratet und Vater einer einjährigen Tochter. Aufgewachsen ist er im Kreis Freundenstadt, der Vater war Eisenbahner. Nach Volksschule und Gymnasium begann Artur Zeh eine dreijährige Lehrzeit in einer kleinen Stadt und kam dann zum Verwaltungsaktuariat in Calw, wo er die Probleme der kleinen Gemeinden kennenlernte. Nach dem erfolgreichen Besuch der staatlichen Verwaltungsschule kam der junge Beamte zum Landratsamt Münsingen, wo er sich mit den vielschichtigen Aufgaben einer Verwaltung vertraut machte. Nächste Station war Sulzbach im Kreis Backnang, dann Neuenbürg. Artur Zeh hat dort zehn Gemeinden mit zusammen 7.000 Einwohnern zu betreuen. </p><p>Dem Bürgermeister und dem Gemeinderat von Wald zollte Artur Zeh seine Anerkennung für die bisher geleistete Arbeit. Dennoch stünden noch viele Aufgaben an, zumal sich der Fortschritt nicht aufhalten lasse. Der Bewerber plädierte dafür, daß auch auf dem Land der Bürger den gleichen Verwaltungsdienst in Anspruch nehmen dürfe wie in der Stadt. Als ein wichtiges Aufgabengebiet sprach er den Schulsektor an, auf dem man noch nicht zum Ziel gelangt sei. Ansonsten entsagte sich Artur Zeh eines Aufgabenkatalogs, weil man die Probleme nicht so ohne Weiteres lösen könne. Die Gemeinde Wald habe eine Mittelpunktfunktion mit Entwicklungsmöglichkeiten. Es werde notwendig sein, daß die Gemeinden noch enger zusammenarbeiten als bisher, um von der Entwicklung nicht überrollt zu werden. Aus diesem Grund müsse die Verwaltungsgemeinschaft mit 6 weiteren Gemeinden geschaffen werden. Artur Zeh versprach das Werk von Josef Kaiser fortzusetzen. </p><p>Landrat Dr. Gögler ging auf die Verwaltungsgemeinschaft ein. Von der Verwaltungsreform her wehe ein scharfer Wind. Die Gemeinschaft habe den Vorteil der Zentralisierung der Amtsgeschäfte und das Land könne außerdem stärker zur Kasse gebeten werden. Abschließend dankte Dr. Gögler Josef Kaiser für dessen Arbeit. \"Ein Bürgermeister, der für so wenig Geld seine Geschäfte führt, finden Sie landauf landab nicht\", versicherte er. </p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Bürgermeisterkandidat stellt sich in Wald vor"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Amtmann Artur Zeh einziger Bewerber - Landrat Dr. Gögler für Verwaltungsgemeinschaft "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Wald. \"Wir haben zwar eine Wahl, aber keine Wahl\", meinte ein Bürger am Samstagabend in der neuen Turnhalle von Wald. Gemeint war, daß zur Bürgermeisterwahl am 20. April nur ein Bewerber antritt, nachem ein zweiter sich zurückgezogen hat. Der Uebriggebliebene stellte sich am Samstag den Einwohnern von Wald vor. Es handelt sich um den 32 Jahre alten Amtmann Artur Zeh aus Neuenbürg, der sich um die Nachfolge von Bürgermeister Josef Kaiser bewirbt. Das Gemeindeoberhaupt von Wald hieß neben dem Kandidaten Landrat Dr. Max Gögler willkommen und erinnerte daran, daß sich erstmal in der Dorfgeschichte nicht Walder Bürger um den Posten des Bürgermeisters bewerben. Josef Kaiser meinte, daß es heute nicht mehr einfach sei dieses Amt zu bekleiden, zumal man entsprechende Voraussetzungen mitbringen müsse, um sich im Wald der Gesetze auszukennen. Bürgermeister zu sein sei heute ein Beruf wie jeder andere auch."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Bürgermeister Kaiser berichtete, daß man sich vergeblich um einheimische Bewerber bemüht und darum die Stelle ausgeschrieben habe. Er wies darauf hin, daß man mit den umliegenden Gemeinden über eine Verwaltungsgemeinschaft gesprochen habe, damit der künftige Bürgermeister arbeitsmäßig ausgelastet ist. Noch einen weiteren Aspekt ließ Josef Kaiser anklingen: die Besoldung des Bürgermeisters richtet sich nach der Einwohnerzahl. Bei der Ausschreibung habe man auf mehrere Bewerber gehofft, aber nur zwei hätten sich gemeldet: Artur Zeh und Walter Prinz aus Ravensburg. Dieser jedoch zog sich - wie berichtet - von seiner Kandidatur zurück, mit der Begründung, er, als kaufmännischer Angestellter könne gegen einen Verwaltungsfachmann nicht antreten. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Dann stellte sich Artur Zeh vor. Er ist 32 Jahre alt, verheiratet und Vater einer einjährigen Tochter. Aufgewachsen ist er im Kreis Freundenstadt, der Vater war Eisenbahner. Nach Volksschule und Gymnasium begann Artur Zeh eine dreijährige Lehrzeit in einer kleinen Stadt und kam dann zum Verwaltungsaktuariat in Calw, wo er die Probleme der kleinen Gemeinden kennenlernte. Nach dem erfolgreichen Besuch der staatlichen Verwaltungsschule kam der junge Beamte zum Landratsamt Münsingen, wo er sich mit den vielschichtigen Aufgaben einer Verwaltung vertraut machte. Nächste Station war Sulzbach im Kreis Backnang, dann Neuenbürg. Artur Zeh hat dort zehn Gemeinden mit zusammen 7.000 Einwohnern zu betreuen. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Dem Bürgermeister und dem Gemeinderat von Wald zollte Artur Zeh seine Anerkennung für die bisher geleistete Arbeit. Dennoch stünden noch viele Aufgaben an, zumal sich der Fortschritt nicht aufhalten lasse. Der Bewerber plädierte dafür, daß auch auf dem Land der Bürger den gleichen Verwaltungsdienst in Anspruch nehmen dürfe wie in der Stadt. Als ein wichtiges Aufgabengebiet sprach er den Schulsektor an, auf dem man noch nicht zum Ziel gelangt sei. Ansonsten entsagte sich Artur Zeh eines Aufgabenkatalogs, weil man die Probleme nicht so ohne Weiteres lösen könne. Die Gemeinde Wald habe eine Mittelpunktfunktion mit Entwicklungsmöglichkeiten. Es werde notwendig sein, daß die Gemeinden noch enger zusammenarbeiten als bisher, um von der Entwicklung nicht überrollt zu werden. Aus diesem Grund müsse die Verwaltungsgemeinschaft mit 6 weiteren Gemeinden geschaffen werden. Artur Zeh versprach das Werk von Josef Kaiser fortzusetzen. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Landrat Dr. Gögler ging auf die Verwaltungsgemeinschaft ein. Von der Verwaltungsreform her wehe ein scharfer Wind. Die Gemeinschaft habe den Vorteil der Zentralisierung der Amtsgeschäfte und das Land könne außerdem stärker zur Kasse gebeten werden. Abschließend dankte Dr. Gögler Josef Kaiser für dessen Arbeit. \"Ein Bürgermeister, der für so wenig Geld seine Geschäfte führt, finden Sie landauf landab nicht\", versicherte er. "
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "local_mst424598t6h2a",
+        "src": "/files/images/thumbnails/album-1786721851199-211922633-thumb.jpg",
+        "original": "/files/images/album-1786721851199-211922633.png",
+        "title": "Bürgermeisterkandidat stellt sich in Wald vor.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "ro",
+      "source": "Südkurier 1966",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mst424598t6h2a"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-14T15:38:50.008Z",
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1777628824634",
     "title": "Artikel Südkurier \"Josef Kaiser zum drittenmal Bürgermeister\"",
     "year": 1966,
@@ -4186,7 +4186,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 33,
+    "sortOrder": 34,
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
@@ -4196,7 +4196,7 @@
   },
   {
     "id": "doc-1786385281676",
-    "sortOrder": 34,
+    "sortOrder": 35,
     "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
     "year": 1966,
     "parent_id": "",
@@ -4275,7 +4275,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 35,
+    "sortOrder": 36,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4370,7 +4370,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 36,
+    "sortOrder": 37,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4417,7 +4417,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 37,
+    "sortOrder": 38,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4850,7 +4850,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 38,
+    "sortOrder": 39,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4860,7 +4860,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 39,
+    "sortOrder": 40,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -4949,7 +4949,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5224,7 +5224,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5571,7 +5571,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5822,7 +5822,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5989,7 +5989,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 44,
+    "sortOrder": 45,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6228,7 +6228,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6371,7 +6371,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6538,7 +6538,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 47,
+    "sortOrder": 48,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6645,7 +6645,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 48,
+    "sortOrder": 49,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6754,7 +6754,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 49,
+    "sortOrder": 50,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7007,7 +7007,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7055,7 +7055,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7144,7 +7144,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 53,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7177,7 +7177,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7218,7 +7218,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7337,7 +7337,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7388,7 +7388,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7439,7 +7439,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 58,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7484,7 +7484,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7539,7 +7539,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7575,7 +7575,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7622,7 +7622,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7659,7 +7659,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
@@ -7717,7 +7717,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7780,7 +7780,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7835,7 +7835,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7899,7 +7899,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7934,7 +7934,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 68,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7970,7 +7970,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 69,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8020,7 +8020,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8030,7 +8030,7 @@
   },
   {
     "id": "doc-1786472052797",
-    "sortOrder": 70,
+    "sortOrder": 71,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -8261,7 +8261,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 71,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -8465,7 +8465,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 72,
+    "sortOrder": 73,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8684,7 +8684,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 73,
+    "sortOrder": 74,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9880,7 +9880,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9916,7 +9916,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 76,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9972,7 +9972,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 76,
+    "sortOrder": 77,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9982,7 +9982,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 77,
+    "sortOrder": 78,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -10063,7 +10063,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10108,7 +10108,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 79,
+    "sortOrder": 80,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10158,7 +10158,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 80,
+    "sortOrder": 81,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10168,7 +10168,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 81,
+    "sortOrder": 82,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -10242,7 +10242,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 82,
+    "sortOrder": 83,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10293,7 +10293,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 83,
+    "sortOrder": 84,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10303,7 +10303,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 84,
+    "sortOrder": 85,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
