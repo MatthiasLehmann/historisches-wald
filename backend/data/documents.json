@@ -1,5 +1,143 @@
 [
   {
+    "id": "doc-1786721635004",
+    "sortOrder": -1,
+    "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
+    "year": 1966,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Personen"
+    ],
+    "location": "Wald",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p><strong>Bürgermeisterkandidat stellt sich in Wald vor</strong></p><p>Amtmann Artur Zeh einziger Bewerber - Landrat Dr. Gögler für Verwaltungsgemeinschaft </p><p>Wald. \"Wir haben zwar eine Wahl, aber keine Wahl\", meinte ein Bürger am Samstagabend in der neuen Turnhalle von Wald. Gemeint war, daß zur Bürgermeisterwahl am 20. April nur ein Bewerber antritt, nachem ein zweiter sich zurückgezogen hat. Der Uebriggebliebene stellte sich am Samstag den Einwohnern von Wald vor. Es handelt sich um den 32 Jahre alten Amtmann Artur Zeh aus Neuenbürg, der sich um die Nachfolge von Bürgermeister Josef Kaiser bewirbt. Das Gemeindeoberhaupt von Wald hieß neben dem Kandidaten Landrat Dr. Max Gögler willkommen und erinnerte daran, daß sich erstmal in der Dorfgeschichte nicht Walder Bürger um den Posten des Bürgermeisters bewerben. Josef Kaiser meinte, daß es heute nicht mehr einfach sei dieses Amt zu bekleiden, zumal man entsprechende Voraussetzungen mitbringen müsse, um sich im Wald der Gesetze auszukennen. Bürgermeister zu sein sei heute ein Beruf wie jeder andere auch.</p><p>Bürgermeister Kaiser berichtete, daß man sich vergeblich um einheimische Bewerber bemüht und darum die Stelle ausgeschrieben habe. Er wies darauf hin, daß man mit den umliegenden Gemeinden über eine Verwaltungsgemeinschaft gesprochen habe, damit der künftige Bürgermeister arbeitsmäßig ausgelastet ist. Noch einen weiteren Aspekt ließ Josef Kaiser anklingen: die Besoldung des Bürgermeisters richtet sich nach der Einwohnerzahl. Bei der Ausschreibung habe man auf mehrere Bewerber gehofft, aber nur zwei hätten sich gemeldet: Artur Zeh und Walter Prinz aus Ravensburg. Dieser jedoch zog sich - wie berichtet - von seiner Kandidatur zurück, mit der Begründung, er, als kaufmännischer Angestellter könne gegen einen Verwaltungsfachmann nicht antreten. </p><p>Dann stellte sich Artur Zeh vor. Er ist 32 Jahre alt, verheiratet und Vater einer einjährigen Tochter. Aufgewachsen ist er im Kreis Freundenstadt, der Vater war Eisenbahner. Nach Volksschule und Gymnasium begann Artur Zeh eine dreijährige Lehrzeit in einer kleinen Stadt und kam dann zum Verwaltungsaktuariat in Calw, wo er die Probleme der kleinen Gemeinden kennenlernte. Nach dem erfolgreichen Besuch der staatlichen Verwaltungsschule kam der junge Beamte zum Landratsamt Münsingen, wo er sich mit den vielschichtigen Aufgaben einer Verwaltung vertraut machte. Nächste Station war Sulzbach im Kreis Backnang, dann Neuenbürg. Artur Zeh hat dort zehn Gemeinden mit zusammen 7.000 Einwohnern zu betreuen. </p><p>Dem Bürgermeister und dem Gemeinderat von Wald zollte Artur Zeh seine Anerkennung für die bisher geleistete Arbeit. Dennoch stünden noch viele Aufgaben an, zumal sich der Fortschritt nicht aufhalten lasse. Der Bewerber plädierte dafür, daß auch auf dem Land der Bürger den gleichen Verwaltungsdienst in Anspruch nehmen dürfe wie in der Stadt. Als ein wichtiges Aufgabengebiet sprach er den Schulsektor an, auf dem man noch nicht zum Ziel gelangt sei. Ansonsten entsagte sich Artur Zeh eines Aufgabenkatalogs, weil man die Probleme nicht so ohne Weiteres lösen könne. Die Gemeinde Wald habe eine Mittelpunktfunktion mit Entwicklungsmöglichkeiten. Es werde notwendig sein, daß die Gemeinden noch enger zusammenarbeiten als bisher, um von der Entwicklung nicht überrollt zu werden. Aus diesem Grund müsse die Verwaltungsgemeinschaft mit 6 weiteren Gemeinden geschaffen werden. Artur Zeh versprach das Werk von Josef Kaiser fortzusetzen. </p><p>Landrat Dr. Gögler ging auf die Verwaltungsgemeinschaft ein. Von der Verwaltungsreform her wehe ein scharfer Wind. Die Gemeinschaft habe den Vorteil der Zentralisierung der Amtsgeschäfte und das Land könne außerdem stärker zur Kasse gebeten werden. Abschließend dankte Dr. Gögler Josef Kaiser für dessen Arbeit. \"Ein Bürgermeister, der für so wenig Geld seine Geschäfte führt, finden Sie landauf landab nicht\", versicherte er. </p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Bürgermeisterkandidat stellt sich in Wald vor"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Amtmann Artur Zeh einziger Bewerber - Landrat Dr. Gögler für Verwaltungsgemeinschaft "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Wald. \"Wir haben zwar eine Wahl, aber keine Wahl\", meinte ein Bürger am Samstagabend in der neuen Turnhalle von Wald. Gemeint war, daß zur Bürgermeisterwahl am 20. April nur ein Bewerber antritt, nachem ein zweiter sich zurückgezogen hat. Der Uebriggebliebene stellte sich am Samstag den Einwohnern von Wald vor. Es handelt sich um den 32 Jahre alten Amtmann Artur Zeh aus Neuenbürg, der sich um die Nachfolge von Bürgermeister Josef Kaiser bewirbt. Das Gemeindeoberhaupt von Wald hieß neben dem Kandidaten Landrat Dr. Max Gögler willkommen und erinnerte daran, daß sich erstmal in der Dorfgeschichte nicht Walder Bürger um den Posten des Bürgermeisters bewerben. Josef Kaiser meinte, daß es heute nicht mehr einfach sei dieses Amt zu bekleiden, zumal man entsprechende Voraussetzungen mitbringen müsse, um sich im Wald der Gesetze auszukennen. Bürgermeister zu sein sei heute ein Beruf wie jeder andere auch."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Bürgermeister Kaiser berichtete, daß man sich vergeblich um einheimische Bewerber bemüht und darum die Stelle ausgeschrieben habe. Er wies darauf hin, daß man mit den umliegenden Gemeinden über eine Verwaltungsgemeinschaft gesprochen habe, damit der künftige Bürgermeister arbeitsmäßig ausgelastet ist. Noch einen weiteren Aspekt ließ Josef Kaiser anklingen: die Besoldung des Bürgermeisters richtet sich nach der Einwohnerzahl. Bei der Ausschreibung habe man auf mehrere Bewerber gehofft, aber nur zwei hätten sich gemeldet: Artur Zeh und Walter Prinz aus Ravensburg. Dieser jedoch zog sich - wie berichtet - von seiner Kandidatur zurück, mit der Begründung, er, als kaufmännischer Angestellter könne gegen einen Verwaltungsfachmann nicht antreten. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Dann stellte sich Artur Zeh vor. Er ist 32 Jahre alt, verheiratet und Vater einer einjährigen Tochter. Aufgewachsen ist er im Kreis Freundenstadt, der Vater war Eisenbahner. Nach Volksschule und Gymnasium begann Artur Zeh eine dreijährige Lehrzeit in einer kleinen Stadt und kam dann zum Verwaltungsaktuariat in Calw, wo er die Probleme der kleinen Gemeinden kennenlernte. Nach dem erfolgreichen Besuch der staatlichen Verwaltungsschule kam der junge Beamte zum Landratsamt Münsingen, wo er sich mit den vielschichtigen Aufgaben einer Verwaltung vertraut machte. Nächste Station war Sulzbach im Kreis Backnang, dann Neuenbürg. Artur Zeh hat dort zehn Gemeinden mit zusammen 7.000 Einwohnern zu betreuen. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Dem Bürgermeister und dem Gemeinderat von Wald zollte Artur Zeh seine Anerkennung für die bisher geleistete Arbeit. Dennoch stünden noch viele Aufgaben an, zumal sich der Fortschritt nicht aufhalten lasse. Der Bewerber plädierte dafür, daß auch auf dem Land der Bürger den gleichen Verwaltungsdienst in Anspruch nehmen dürfe wie in der Stadt. Als ein wichtiges Aufgabengebiet sprach er den Schulsektor an, auf dem man noch nicht zum Ziel gelangt sei. Ansonsten entsagte sich Artur Zeh eines Aufgabenkatalogs, weil man die Probleme nicht so ohne Weiteres lösen könne. Die Gemeinde Wald habe eine Mittelpunktfunktion mit Entwicklungsmöglichkeiten. Es werde notwendig sein, daß die Gemeinden noch enger zusammenarbeiten als bisher, um von der Entwicklung nicht überrollt zu werden. Aus diesem Grund müsse die Verwaltungsgemeinschaft mit 6 weiteren Gemeinden geschaffen werden. Artur Zeh versprach das Werk von Josef Kaiser fortzusetzen. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Landrat Dr. Gögler ging auf die Verwaltungsgemeinschaft ein. Von der Verwaltungsreform her wehe ein scharfer Wind. Die Gemeinschaft habe den Vorteil der Zentralisierung der Amtsgeschäfte und das Land könne außerdem stärker zur Kasse gebeten werden. Abschließend dankte Dr. Gögler Josef Kaiser für dessen Arbeit. \"Ein Bürgermeister, der für so wenig Geld seine Geschäfte führt, finden Sie landauf landab nicht\", versicherte er. "
+            }
+          ]
+        }
+      ]
+    },
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "ro",
+      "source": "Südkurier 1966",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1786473902406",
     "sortOrder": 0,
     "title": "Artur Zeh ",
