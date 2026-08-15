@@ -28,7 +28,7 @@
         }
       ]
     },
-    "transcription": "<p><strong>Gründungsgeschichte der Ortsgruppe des Maltereser Hilfsdienst Wald e. V. </strong></p><p>Ortsgruppe des Malteser Hilfsdienst Wald e. V. wurde 1961 im Nebenzimmer des Gasthauses Grüner Baum gegründet. Erster Ortsbeauftragter war Bernhard Erath. Zu  den Gründungsmitgliedern zählen: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Georg Kupka, Inge Lernhart, Egon Ostermaier, Maya Molitor, Erich Dinse, Alfons Häusler und Bernhard Schatz. </p><p></p><p></p>",
+    "transcription": "<p><strong>Gründungsgeschichte der Ortsgruppe des Maltereser Hilfsdienst Wald e. V. </strong></p><p>Ortsgruppe des Malteser Hilfsdienst Wald e. V. wurde 1961 im Nebenzimmer des Gasthauses Grüner Baum gegründet. Erster Ortsbeauftragter war Bernhard Erath. Zu  den Gründungsmitgliedern zählen: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Georg Kupka, Inge Lernhart, Egon Ostermaier, Maya Molitor, Erich Dinse, Alfons Häusler und Bernhard Schatz. </p><figure class=\"album-photo-node\" data-album-photo-id=\"54833736487\"><img src=\"/files/images/thumbnails/photo-54833736487-thumb.jpg\" alt=\"Gründungsmitglieder_K640_Jubiläum 2011 (46)\"><figcaption>Gründungsmitglieder_K640_Jubiläum 2011 (46)</figcaption></figure><p>von links: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Bernhard Erath, Georg Kupka, Inge Lernhart, Egon Ostermaier</p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -62,20 +62,42 @@
           ]
         },
         {
-          "type": "paragraph",
+          "type": "albumPhoto",
           "attrs": {
-            "textAlign": null
+            "photoId": "54833736487",
+            "src": "/files/images/thumbnails/photo-54833736487-thumb.jpg",
+            "alt": "Gründungsmitglieder_K640_Jubiläum 2011 (46)",
+            "caption": "Gründungsmitglieder_K640_Jubiläum 2011 (46)"
           }
         },
         {
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "von links: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Bernhard Erath, Georg Kupka, Inge Lernhart, Egon Ostermaier"
+            }
+          ]
         }
       ]
     },
-    "images": [],
+    "images": [
+      {
+        "id": "54833736487",
+        "src": "/files/images/thumbnails/photo-54833736487-thumb.jpg",
+        "original": "/files/images/grundungsmitglieder_k640_jubilaum-2011-46_54833736487_o.jpg",
+        "title": "Gründungsmitglieder_K640_Jubiläum 2011 (46)",
+        "description": "",
+        "type": "album",
+        "date": "2025-10-05 14:22:55",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54833736487/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -86,7 +108,9 @@
       "editor": "Stefanie Grüner"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "54833736487"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
