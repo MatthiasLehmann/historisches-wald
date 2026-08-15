@@ -28,7 +28,7 @@
         }
       ]
     },
-    "transcription": "<p><strong>Gründungsgeschichte der Ortsgruppe des Maltereser Hilfsdienst Wald e. V. </strong></p><p>Ortsgruppe des Malteser Hilfsdienst Wald e. V. wurde 1961 im Nebenzimmer des Gasthauses Grüner Baum gegründet. Erster Ortsbeauftragter war Bernhard Erath. Zu  den Gründungsmitgliedern zählen: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Georg Kupka, Inge Lernhart, Egon Ostermaier, Maya Molitor, Erich Dinse, Alfons Häusler und Bernhard Schatz. </p><figure class=\"album-photo-node\" data-album-photo-id=\"54833736487\"><img src=\"/files/images/thumbnails/photo-54833736487-thumb.jpg\" alt=\"Gründungsmitglieder_K640_Jubiläum 2011 (46)\"><figcaption>Gründungsmitglieder_K640_Jubiläum 2011 (46)</figcaption></figure><p>von links: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Bernhard Erath, Georg Kupka, Inge Lernhart, Egon Ostermaier</p>",
+    "transcription": "<p><strong>Gründungsgeschichte der Ortsgruppe des Maltereser Hilfsdienst Wald e. V. </strong></p><p>Ortsgruppe des Malteser Hilfsdienst Wald e. V. wurde 1961 im Nebenzimmer des Gasthauses Grüner Baum gegründet. Erster Ortsbeauftragter war Bernhard Erath. Zu  den Gründungsmitgliedern zählen: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Georg Kupka, Inge Lernhart, Egon Ostermaier, Maya Molitor, Erich Dinse, Alfons Häusler und Bernhard Schatz. </p><figure class=\"album-photo-node\" data-album-photo-id=\"54833736487\"><img src=\"/files/images/thumbnails/photo-54833736487-thumb.jpg\" alt=\"Gründungsmitglieder_K640_Jubiläum 2011 (46)\"><figcaption>Gründungsmitglieder_K640_Jubiläum 2011 (46)</figcaption></figure><p><em>von links: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Bernhard Erath, Georg Kupka, Inge Lernhart, Egon Ostermaier</em></p><p></p><p><strong>Ausbildung </strong></p><p>Der Sanitätsdienst enstand in Kooperation mit Dr. Wilhelm Erhart. Erster Ausbilder im Bereich Erste-Hilfe was Georg Kupka. Auf ihn folgte, von 1978 bis 1994, Gerhard Lohr. Ab 1992 kamen mit Michael Fox und Ralf-Peter Hipp neue Ausbilder hinzu. Später folgten Silvia Scholl, Uwe Längle und Frank Krall. Heute wird der Bereich alleine von Ralf-Peter Hipp gestemmt. </p><figure class=\"album-photo-node\" data-album-photo-id=\"54833736607\"><img src=\"/files/images/thumbnails/photo-54833736607-thumb.jpg\" alt=\"Ausbildung EH_GerhardLohr_K640_Jubiläum 2011 (146)\"><figcaption>Ausbildung EH_GerhardLohr_K640_Jubiläum 2011 (146)</figcaption></figure><p><em>rechts hinten: Ausbilder Gerhard Lohr</em></p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"54834825429\"><img src=\"/files/images/thumbnails/photo-54834825429-thumb.jpg\" alt=\"Ausbildung MalteserJugend_K640_Jubiläum 2011 (176)\"><figcaption>Ausbildung MalteserJugend_K640_Jubiläum 2011 (176)</figcaption></figure><p><em>Übung der Malteser Jugend </em></p><p></p><p></p><p></p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -78,9 +78,125 @@
           "content": [
             {
               "type": "text",
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ],
               "text": "von links: Willi Halmer, Kurt Stengele, Siegfried Keller, Bernhard Straub, Bernhard Erath, Georg Kupka, Inge Lernhart, Egon Ostermaier"
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Ausbildung "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Der Sanitätsdienst enstand in Kooperation mit Dr. Wilhelm Erhart. Erster Ausbilder im Bereich Erste-Hilfe was Georg Kupka. Auf ihn folgte, von 1978 bis 1994, Gerhard Lohr. Ab 1992 kamen mit Michael Fox und Ralf-Peter Hipp neue Ausbilder hinzu. Später folgten Silvia Scholl, Uwe Längle und Frank Krall. Heute wird der Bereich alleine von Ralf-Peter Hipp gestemmt. "
+            }
+          ]
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "54833736607",
+            "src": "/files/images/thumbnails/photo-54833736607-thumb.jpg",
+            "alt": "Ausbildung EH_GerhardLohr_K640_Jubiläum 2011 (146)",
+            "caption": "Ausbildung EH_GerhardLohr_K640_Jubiläum 2011 (146)"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": "rechts hinten: Ausbilder Gerhard Lohr"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "54834825429",
+            "src": "/files/images/thumbnails/photo-54834825429-thumb.jpg",
+            "alt": "Ausbildung MalteserJugend_K640_Jubiläum 2011 (176)",
+            "caption": "Ausbildung MalteserJugend_K640_Jubiläum 2011 (176)"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": "Übung der Malteser Jugend "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
         }
       ]
     },
@@ -96,6 +212,30 @@
         "author": "",
         "source": "https://www.flickr.com/photos/199943033@N03/54833736487/",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "54833736607",
+        "src": "/files/images/thumbnails/photo-54833736607-thumb.jpg",
+        "original": "/files/images/ausbildung-eh_gerhardlohr_k640_jubilaum-2011-146_54833736607_o.jpg",
+        "title": "Ausbildung EH_GerhardLohr_K640_Jubiläum 2011 (146)",
+        "description": "My beautiful picture",
+        "type": "album",
+        "date": "2008-01-01 12:00:54",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54833736607/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54834825429",
+        "src": "/files/images/thumbnails/photo-54834825429-thumb.jpg",
+        "original": "/files/images/ausbildung-malteserjugend_k640_jubilaum-2011-176_54834825429_o.jpg",
+        "title": "Ausbildung MalteserJugend_K640_Jubiläum 2011 (176)",
+        "description": "",
+        "type": "album",
+        "date": "2006-04-25 19:31:49",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54834825429/",
+        "license": "All Rights Reserved"
       }
     ],
     "coverPhotoId": "",
@@ -109,7 +249,9 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "54833736487"
+      "54833736487",
+      "54833736607",
+      "54834825429"
     ],
     "pdfIds": [],
     "review": {
