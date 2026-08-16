@@ -22,7 +22,7 @@
         }
       ]
     },
-    "transcription": "<p>Dieses kleine Heftchen des Radfahrervereins „Gemütlichkeit“ Riedetsweiler wurde uns von Franz Ritter zur Verfügung gestellt. Es handelt sich um die Mitgliedskarte vom Schriftführer des Vereins, Fridolin Ritter, aus dem Jahr 1930.&nbsp;Aufgeführt sind die Gründungsmitglieder des Vereins.</p><p><strong>Aus Riedetsweiler:&nbsp;                   </strong><br>Benkler, Joseph&nbsp;<br>Benkler, Joseph jr.&nbsp;<br>Braun, Joseph&nbsp;<br>Braun, Otto&nbsp;<br>Dietmann, Karl&nbsp;<br>Gärtner, Max<br>Hipp, Albert&nbsp;<br>Hipp, Anton&nbsp;<br>Restle, Jakob<br>Restle, Karl<br>Restle, Leo<br>Restle, Eduard<br>Ritter, Otto<br>Ritter, Wilhelm<br>Ritter, Fridolin<br>Sick, Erhard<br>Straub, Joseph<br>Straub, Edwin</p><p><strong>Aus Wald:&nbsp;</strong><br>Vogel, Adolf</p><p><strong>Aus Bittelschieß:</strong><br>Gabele, Theodor&nbsp;</p>",
+    "transcription": "<p>Dieses kleine Heftchen des Radfahrervereins „Gemütlichkeit“ Riedetsweiler wurde uns von Franz Ritter zur Verfügung gestellt. Es handelt sich um die Mitgliedskarte vom Schriftführer des Vereins, Fridolin Ritter, aus dem Jahr 1930.&nbsp;Aufgeführt sind die Gründungsmitglieder des Vereins.</p><p><strong>Aus Riedetsweiler:&nbsp;                   </strong><br>Benkler, Joseph&nbsp;<br>Benkler, Joseph jr.&nbsp;<br>Braun, Joseph&nbsp;<br>Braun, Otto&nbsp;<br>Dietmann, Karl&nbsp;<br>Gärtner, Max<br>Hipp, Albert&nbsp;<br>Hipp, Anton&nbsp;<br>Restle, Jakob<br>Restle, Karl<br>Restle, Leo<br>Restle, Eduard<br>Ritter, Otto<br>Ritter, Wilhelm<br>Ritter, Fridolin<br>Sick, Erhard<br>Straub, Joseph<br>Straub, Edwin</p><p><strong>Aus Wald:&nbsp;</strong><br>Vogel, Adolf</p><p><strong>Aus Bittelschieß:</strong><br>Gabele, Theodor&nbsp;</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_msw5bquvlhfok5\"><img src=\"/files/images/thumbnails/album-1786905370438-359275116-thumb.jpg\" alt=\"Statuten des Radfahrervereins &quot;Gemütlichkeit&quot; Riedetsweiler\"><figcaption>Statuten des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler</figcaption></figure><figure class=\"album-photo-node\" data-album-photo-id=\"local_msw5c470flhgeq\"><img src=\"/files/images/thumbnails/album-1786905394780-973756857-thumb.jpg\" alt=\"Migliedskarte des Radfahrervereins &quot;Gemütlichkeit&quot; Riedetsweiler\"><figcaption>Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler</figcaption></figure><figure class=\"album-photo-node\" data-album-photo-id=\"local_msw5cw8ffbcbky\"><img src=\"/files/images/thumbnails/album-1786905430592-456193335-thumb.jpg\" alt=\"Migliedskarte des Radfahrervereins &quot;Gemütlichkeit&quot; Riedetsweiler\"><figcaption>Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler</figcaption></figure><p></p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -228,10 +228,86 @@
               "text": "Gabele, Theodor "
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_msw5bquvlhfok5",
+            "src": "/files/images/thumbnails/album-1786905370438-359275116-thumb.jpg",
+            "alt": "Statuten des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler",
+            "caption": "Statuten des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler"
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_msw5c470flhgeq",
+            "src": "/files/images/thumbnails/album-1786905394780-973756857-thumb.jpg",
+            "alt": "Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler",
+            "caption": "Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler"
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_msw5cw8ffbcbky",
+            "src": "/files/images/thumbnails/album-1786905430592-456193335-thumb.jpg",
+            "alt": "Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler",
+            "caption": "Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
         }
       ]
     },
-    "images": [],
+    "images": [
+      {
+        "id": "local_msw5bquvlhfok5",
+        "src": "/files/images/thumbnails/album-1786905370438-359275116-thumb.jpg",
+        "original": "/files/images/album-1786905370438-359275116.jpg",
+        "title": "Statuten des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_msw5c470flhgeq",
+        "src": "/files/images/thumbnails/album-1786905394780-973756857-thumb.jpg",
+        "original": "/files/images/album-1786905394780-973756857.jpg",
+        "title": "Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_msw5cw8ffbcbky",
+        "src": "/files/images/thumbnails/album-1786905430592-456193335-thumb.jpg",
+        "original": "/files/images/album-1786905430592-456193335.jpg",
+        "title": "Migliedskarte des Radfahrervereins \"Gemütlichkeit\" Riedetsweiler",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -242,7 +318,11 @@
       "editor": "Stefanie Grüner"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_msw5bquvlhfok5",
+      "local_msw5c470flhgeq",
+      "local_msw5cw8ffbcbky"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
