@@ -10,7 +10,7 @@
       "Vereine"
     ],
     "location": "Wald",
-    "description": "<p>Gründungsgeschichte</p>",
+    "description": "<p>Gründungsgeschichte der Ortsgruppe</p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -22,7 +22,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Gründungsgeschichte"
+              "text": "Gründungsgeschichte der Ortsgruppe"
             }
           ]
         }
