@@ -3968,6 +3968,18 @@
         "author": "",
         "source": "https://www.flickr.com/photos/199943033@N03/54984471205/",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "54984132831",
+        "src": "/files/images/thumbnails/photo-54984132831-thumb.jpg",
+        "original": "/files/images/210_landesbank_54984132831_o.jpg",
+        "title": "Bild 1 Einnehmerei",
+        "description": "",
+        "type": "album",
+        "date": "2025-12-14 12:41:18",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54984132831/",
+        "license": "All Rights Reserved"
       }
     ],
     "metadata": {
@@ -3979,7 +3991,8 @@
     "albumPhotoIds": [
       "54984425344",
       "54984470360",
-      "54984471205"
+      "54984471205",
+      "54984132831"
     ],
     "pdfIds": [
       "pdf-00013"
