@@ -10,7 +10,7 @@
       "Vereine"
     ],
     "location": "Wald",
-    "description": "<p>Gründungsgeschichte der Malteser Wald </p>",
+    "description": "<p></p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -18,13 +18,7 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Gründungsgeschichte der Malteser Wald "
-            }
-          ]
+          }
         }
       ]
     },
