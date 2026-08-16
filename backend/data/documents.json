@@ -10,7 +10,7 @@
       "Vereine"
     ],
     "location": "Wald",
-    "description": "<p></p>",
+    "description": "<p>Gründungsgeschichte</p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -18,7 +18,13 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Gründungsgeschichte"
+            }
+          ]
         }
       ]
     },
