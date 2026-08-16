@@ -1,5 +1,257 @@
 [
   {
+    "id": "doc-1786905604677",
+    "sortOrder": -2,
+    "title": "Radfahrerverein \"Gemütlichkeit\" Riedetsweiler ",
+    "year": 1930,
+    "parent_id": "",
+    "category": "Riedetsweiler",
+    "subcategories": [
+      "Vereine"
+    ],
+    "location": "Riedetsweiler",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p>Dieses kleine Heftchen des Radfahrervereins „Gemütlichkeit“ Riedetsweiler wurde uns von Franz Ritter zur Verfügung gestellt. Es handelt sich um die Mitgliedskarte vom Schriftführer des Vereins, Fridolin Ritter, aus dem Jahr 1930.&nbsp;Aufgeführt sind die Gründungsmitglieder des Vereins.</p><p><strong>Aus Riedetsweiler:&nbsp;                   </strong><br>Benkler, Joseph&nbsp;<br>Benkler, Joseph jr.&nbsp;<br>Braun, Joseph&nbsp;<br>Braun, Otto&nbsp;<br>Dietmann, Karl&nbsp;<br>Gärtner, Max<br>Hipp, Albert&nbsp;<br>Hipp, Anton&nbsp;<br>Restle, Jakob<br>Restle, Karl<br>Restle, Leo<br>Restle, Eduard<br>Ritter, Otto<br>Ritter, Wilhelm<br>Ritter, Fridolin<br>Sick, Erhard<br>Straub, Joseph<br>Straub, Edwin</p><p><strong>Aus Wald:&nbsp;</strong><br>Vogel, Adolf</p><p><strong>Aus Bittelschieß:</strong><br>Gabele, Theodor&nbsp;</p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Dieses kleine Heftchen des Radfahrervereins „Gemütlichkeit“ Riedetsweiler wurde uns von Franz Ritter zur Verfügung gestellt. Es handelt sich um die Mitgliedskarte vom Schriftführer des Vereins, Fridolin Ritter, aus dem Jahr 1930. Aufgeführt sind die Gründungsmitglieder des Vereins."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Aus Riedetsweiler:                    "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Benkler, Joseph "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Benkler, Joseph jr. "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Braun, Joseph "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Braun, Otto "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Dietmann, Karl "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Gärtner, Max"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Hipp, Albert "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Hipp, Anton "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Restle, Jakob"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Restle, Karl"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Restle, Leo"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Restle, Eduard"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Ritter, Otto"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Ritter, Wilhelm"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Ritter, Fridolin"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Sick, Erhard"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Straub, Joseph"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Straub, Edwin"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Aus Wald: "
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Vogel, Adolf"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ],
+              "text": "Aus Bittelschieß:"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Gabele, Theodor "
+            }
+          ]
+        }
+      ]
+    },
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Franz Ritter",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1786818951319",
     "sortOrder": -1,
     "title": "Malteser Hilfsdienst Wald ",
