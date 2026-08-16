@@ -561,8 +561,8 @@
       "Postkarten"
     ],
     "location": "Wald",
-    "description": "Ausgesuchte Postkarten aus Wald.",
-    "transcription": "",
+    "description": "<p></p>",
+    "transcription": "<p></p>",
     "images": [
       {
         "id": "53508710586",
@@ -2165,8 +2165,28 @@
     "coverPhotoId": "",
     "showInArchive": true,
     "showInWordCloud": true,
-    "descriptionJson": null,
-    "transcriptionJson": null
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    }
   },
   {
     "id": "doc-1773778317940",
