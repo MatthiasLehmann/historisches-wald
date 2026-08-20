@@ -1,16 +1,14 @@
 [
   {
-    "id": "doc-1787254340266",
+    "id": "doc-1787254622068",
     "sortOrder": -1,
-    "title": "Lageplan von Wald 1888 ",
-    "year": 1888,
+    "title": "Lageplan von 1908",
+    "year": 1908,
     "parent_id": "",
     "category": "Wald",
-    "subcategories": [
-      "Lageplaene"
-    ],
+    "subcategories": [],
     "location": "Wald",
-    "description": "<p>mit den Hausnamen von 1932 bis 1962 (Falko Hahn)</p>",
+    "description": "<p></p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -18,57 +16,45 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "mit den Hausnamen von 1932 bis 1962 (Falko Hahn)"
-            }
-          ]
+          }
         }
       ]
     },
-    "transcription": "<h1>Lageplan von Wald 1888 mit den Hausnamen von 1932 bis 1962 (Falko Hahn)</h1><p><br></p>",
+    "transcription": "<p></p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
         {
-          "type": "heading",
-          "attrs": {
-            "textAlign": null,
-            "level": 1
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Lageplan von Wald 1888 mit den Hausnamen von 1932 bis 1962 (Falko Hahn)"
-            }
-          ]
-        },
-        {
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          },
-          "content": [
-            {
-              "type": "hardBreak"
-            }
-          ]
+          }
         }
       ]
     },
     "images": [
       {
-        "id": "54646150853",
-        "src": "/files/images/thumbnails/photo-54646150853-thumb.jpg",
-        "original": "/files/images/lageplan-hausnamen-wald-1932-1962_54646150853_o.jpg",
-        "title": "Lageplan Hausnamen Wald 1932-1962",
-        "description": "Am 22.06.2014 hat Falko Hahn die Hausnamen in diese Karte eingefügt. Die Informanten waren Rosa Masse, Lore Lösch und Ernst Herburger.\nMartin Kuhn 2025",
+        "id": "54753673281",
+        "src": "/files/images/thumbnails/photo-54753673281-thumb.jpg",
+        "original": "/files/images/lageplan-wald-von-1908_54753673281_o.jpg",
+        "title": "Lageplan Wald von 1908",
+        "description": "",
         "type": "album",
-        "date": "2014-11-04 07:35:25",
+        "date": "2025-08-30 00:43:00",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54646150853/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54753673281/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54753673271",
+        "src": "/files/images/thumbnails/photo-54753673271-thumb.jpg",
+        "original": "/files/images/beschreibung-lageplan-wald-von-1908_54753673271_o.jpg",
+        "title": "Beschreibung Lageplan Wald von 1908",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-30 00:42:59",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54753673271/",
         "license": "All Rights Reserved"
       }
     ],
@@ -83,13 +69,14 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "54646150853"
+      "54753673281",
+      "54753673271"
     ],
     "pdfIds": [],
     "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-20T19:32:42.452Z",
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
       "comments": []
     }
   },
@@ -13168,8 +13155,102 @@
     "transcriptionJson": null
   },
   {
-    "id": "doc-1785743391892",
+    "id": "doc-1787254340266",
     "sortOrder": 87,
+    "title": "Lageplan von Wald 1888 ",
+    "year": 1888,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Lageplaene"
+    ],
+    "location": "Wald",
+    "description": "<p>mit den Hausnamen von 1932 bis 1962 (Falko Hahn)</p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "mit den Hausnamen von 1932 bis 1962 (Falko Hahn)"
+            }
+          ]
+        }
+      ]
+    },
+    "transcription": "<h1>Lageplan von Wald 1888 mit den Hausnamen von 1932 bis 1962 (Falko Hahn)</h1><p><br></p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "heading",
+          "attrs": {
+            "textAlign": null,
+            "level": 1
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Lageplan von Wald 1888 mit den Hausnamen von 1932 bis 1962 (Falko Hahn)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "hardBreak"
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "54646150853",
+        "src": "/files/images/thumbnails/photo-54646150853-thumb.jpg",
+        "original": "/files/images/lageplan-hausnamen-wald-1932-1962_54646150853_o.jpg",
+        "title": "Lageplan Hausnamen Wald 1932-1962",
+        "description": "Am 22.06.2014 hat Falko Hahn die Hausnamen in diese Karte eingefügt. Die Informanten waren Rosa Masse, Lore Lösch und Ernst Herburger.\nMartin Kuhn 2025",
+        "type": "album",
+        "date": "2014-11-04 07:35:25",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54646150853/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54646150853"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-20T19:32:42.452Z",
+      "comments": []
+    }
+  },
+  {
+    "id": "doc-1785743391892",
+    "sortOrder": 88,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -13250,7 +13331,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 88,
+    "sortOrder": 89,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13295,7 +13376,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 89,
+    "sortOrder": 90,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13345,7 +13426,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 90,
+    "sortOrder": 91,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13355,7 +13436,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 91,
+    "sortOrder": 92,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -13429,7 +13510,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 92,
+    "sortOrder": 93,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13480,7 +13561,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 93,
+    "sortOrder": 94,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13490,7 +13571,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 94,
+    "sortOrder": 95,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
