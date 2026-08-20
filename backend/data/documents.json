@@ -1,15 +1,15 @@
 [
   {
-    "id": "doc-1787250638863",
+    "id": "doc-1787253273732",
     "sortOrder": -1,
-    "title": "Mission in Wald 1904",
-    "year": 1904,
+    "title": "Elisabethen-Verein Satzung 1909",
+    "year": 1909,
     "parent_id": "",
     "category": "Wald",
     "subcategories": [
-      "Kirchen"
+      "Vereine"
     ],
-    "location": "Wald ",
+    "location": "Wald",
     "description": "<p></p>",
     "descriptionJson": {
       "type": "doc",
@@ -22,10 +22,23 @@
         }
       ]
     },
-    "transcription": "<p>Andenken an die Tage der heiligen Mission zu Klosterwald abgehalten durch Patres des Franziskanerordens vom 06. bis 13. März 1904.</p>",
+    "transcription": "<h1>Satzungen des Elisabethen-Vereins Klosterwald gegründet 19. November 1909</h1><p>Verein zur Errichtung und Unterhaltung von Krankenschwestern in Wald. Der Verein stellt sich unter den Schutz der hl. Elisabeth von Thüringen und führt den Namen \"Elisabethen-Verein Klosterwald\". </p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
+        {
+          "type": "heading",
+          "attrs": {
+            "textAlign": null,
+            "level": 1
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Satzungen des Elisabethen-Vereins Klosterwald gegründet 19. November 1909"
+            }
+          ]
+        },
         {
           "type": "paragraph",
           "attrs": {
@@ -34,7 +47,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Andenken an die Tage der heiligen Mission zu Klosterwald abgehalten durch Patres des Franziskanerordens vom 06. bis 13. März 1904."
+              "text": "Verein zur Errichtung und Unterhaltung von Krankenschwestern in Wald. Der Verein stellt sich unter den Schutz der hl. Elisabeth von Thüringen und führt den Namen \"Elisabethen-Verein Klosterwald\". "
             }
           ]
         }
@@ -42,10 +55,10 @@
     },
     "images": [
       {
-        "id": "local_mt1usf41mn10ax",
-        "src": "/files/images/thumbnails/album-1787250477142-828754336-thumb.jpg",
-        "original": "/files/images/album-1787250477142-828754336.jpg",
-        "title": "Mission-Seite-1-1536x2048.jpg",
+        "id": "local_mt1wa2rljhdnak",
+        "src": "/files/images/thumbnails/album-1787252981436-385415368-thumb.jpg",
+        "original": "/files/images/album-1787252981436-385415368.jpg",
+        "title": "Satzung-Deckblatt-1536x2048.jpg",
         "description": "",
         "type": "album",
         "date": "",
@@ -54,10 +67,10 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "local_mt1usjtttxbofl",
-        "src": "/files/images/thumbnails/album-1787250483419-476704168-thumb.jpg",
-        "original": "/files/images/album-1787250483419-476704168.jpg",
-        "title": "Mission-Seite-2-1536x2048.jpg",
+        "id": "local_mt1waa4heeg101",
+        "src": "/files/images/thumbnails/album-1787252990989-272639967-thumb.jpg",
+        "original": "/files/images/album-1787252990989-272639967.jpg",
+        "title": "Satzung-Seite-1-1536x2048.jpg",
         "description": "",
         "type": "album",
         "date": "",
@@ -66,10 +79,10 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "local_mt1usqak3dw2qu",
-        "src": "/files/images/thumbnails/album-1787250491776-628650459-thumb.jpg",
-        "original": "/files/images/album-1787250491776-628650459.jpg",
-        "title": "Mission-Seite-3-1536x2048.jpg",
+        "id": "local_mt1wae32qwihc6",
+        "src": "/files/images/thumbnails/album-1787252996038-777943613-thumb.jpg",
+        "original": "/files/images/album-1787252996038-777943613.jpg",
+        "title": "Satzung-Seite-2-1536x2048.jpg",
         "description": "",
         "type": "album",
         "date": "",
@@ -78,10 +91,46 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "local_mt1uswbgy9wu1t",
-        "src": "/files/images/thumbnails/album-1787250499572-472900707-thumb.jpg",
-        "original": "/files/images/album-1787250499572-472900707.jpg",
-        "title": "Mission-Seite-4-1536x2048.jpg",
+        "id": "local_mt1waj5blgwpjo",
+        "src": "/files/images/thumbnails/album-1787253002593-644265081-thumb.jpg",
+        "original": "/files/images/album-1787253002593-644265081.jpg",
+        "title": "Satzung-Seite-3-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1wap5zwe25s8",
+        "src": "/files/images/thumbnails/album-1787253010423-175108811-thumb.jpg",
+        "original": "/files/images/album-1787253010423-175108811.jpg",
+        "title": "Satzung-Seite-4-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1watkvbdjaca",
+        "src": "/files/images/thumbnails/album-1787253016208-859110599-thumb.jpg",
+        "original": "/files/images/album-1787253016208-859110599.jpg",
+        "title": "Satzung-Seite-5-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1wax982fa9cu",
+        "src": "/files/images/thumbnails/album-1787253021037-50336341-thumb.jpg",
+        "original": "/files/images/album-1787253021037-50336341.jpg",
+        "title": "Satzung-Seite-6-1536x2048.jpg",
         "description": "",
         "type": "album",
         "date": "",
@@ -101,16 +150,19 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mt1usf41mn10ax",
-      "local_mt1usjtttxbofl",
-      "local_mt1usqak3dw2qu",
-      "local_mt1uswbgy9wu1t"
+      "local_mt1wa2rljhdnak",
+      "local_mt1waa4heeg101",
+      "local_mt1wae32qwihc6",
+      "local_mt1waj5blgwpjo",
+      "local_mt1wap5zwe25s8",
+      "local_mt1watkvbdjaca",
+      "local_mt1wax982fa9cu"
     ],
     "pdfIds": [],
     "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüer",
-      "reviewedAt": "2026-08-20T18:30:55.946Z",
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
       "comments": []
     }
   },
@@ -10349,8 +10401,123 @@
     "transcriptionJson": null
   },
   {
-    "id": "doc-1786472052797",
+    "id": "doc-1787250638863",
     "sortOrder": 76,
+    "title": "Mission in Wald 1904",
+    "year": 1904,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Kirchen"
+    ],
+    "location": "Wald ",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p>Andenken an die Tage der heiligen Mission zu Klosterwald abgehalten durch Patres des Franziskanerordens vom 06. bis 13. März 1904.</p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Andenken an die Tage der heiligen Mission zu Klosterwald abgehalten durch Patres des Franziskanerordens vom 06. bis 13. März 1904."
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "local_mt1usf41mn10ax",
+        "src": "/files/images/thumbnails/album-1787250477142-828754336-thumb.jpg",
+        "original": "/files/images/album-1787250477142-828754336.jpg",
+        "title": "Mission-Seite-1-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1usjtttxbofl",
+        "src": "/files/images/thumbnails/album-1787250483419-476704168-thumb.jpg",
+        "original": "/files/images/album-1787250483419-476704168.jpg",
+        "title": "Mission-Seite-2-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1usqak3dw2qu",
+        "src": "/files/images/thumbnails/album-1787250491776-628650459-thumb.jpg",
+        "original": "/files/images/album-1787250491776-628650459.jpg",
+        "title": "Mission-Seite-3-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1uswbgy9wu1t",
+        "src": "/files/images/thumbnails/album-1787250499572-472900707-thumb.jpg",
+        "original": "/files/images/album-1787250499572-472900707.jpg",
+        "title": "Mission-Seite-4-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mt1usf41mn10ax",
+      "local_mt1usjtttxbofl",
+      "local_mt1usqak3dw2qu",
+      "local_mt1uswbgy9wu1t"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüer",
+      "reviewedAt": "2026-08-20T18:30:55.946Z",
+      "comments": []
+    }
+  },
+  {
+    "id": "doc-1786472052797",
+    "sortOrder": 77,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -10581,7 +10748,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 77,
+    "sortOrder": 78,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -10785,7 +10952,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11004,7 +11171,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 79,
+    "sortOrder": 80,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12200,7 +12367,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 80,
+    "sortOrder": 81,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12236,7 +12403,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 81,
+    "sortOrder": 82,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12292,7 +12459,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 82,
+    "sortOrder": 83,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12302,7 +12469,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 83,
+    "sortOrder": 84,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -12383,7 +12550,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 84,
+    "sortOrder": 85,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12428,7 +12595,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 85,
+    "sortOrder": 86,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12478,7 +12645,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 86,
+    "sortOrder": 87,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12488,7 +12655,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 87,
+    "sortOrder": 88,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -12562,7 +12729,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 88,
+    "sortOrder": 89,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12613,7 +12780,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 89,
+    "sortOrder": 90,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12623,7 +12790,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 90,
+    "sortOrder": 91,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
