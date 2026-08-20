@@ -22,7 +22,7 @@
         }
       ]
     },
-    "transcription": "<p>In unserer Sammlung befindet sich auch der Pfarrführer von 1950. Besonders bemerkenswert ist darin die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. Dieses historische Dokument eröffnet eindrucksvolle Einblicke in die Nachkriegszeit und liefert wertvolle Anknüpfungspunkte für weitere Themen, die wir dann noch vorstellen möchten.</p>",
+    "transcription": "<p>Der Pfarrführer von 1950 enthält die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. </p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -34,7 +34,7 @@
           "content": [
             {
               "type": "text",
-              "text": "In unserer Sammlung befindet sich auch der Pfarrführer von 1950. Besonders bemerkenswert ist darin die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. Dieses historische Dokument eröffnet eindrucksvolle Einblicke in die Nachkriegszeit und liefert wertvolle Anknüpfungspunkte für weitere Themen, die wir dann noch vorstellen möchten."
+              "text": "Der Pfarrführer von 1950 enthält die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. "
             }
           ]
         }
