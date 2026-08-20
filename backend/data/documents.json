@@ -1,278 +1,7 @@
 [
   {
-    "id": "doc-1787249534405",
-    "sortOrder": -2,
-    "title": "Pfarrführer von 1950",
-    "year": 1950,
-    "parent_id": "",
-    "category": "Wald",
-    "subcategories": [
-      "Kirchen"
-    ],
-    "location": "",
-    "description": "<p></p>",
-    "descriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          }
-        }
-      ]
-    },
-    "transcription": "<p>Der Pfarrführer von 1950 enthält die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. </p>",
-    "transcriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Der Pfarrführer von 1950 enthält die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. "
-            }
-          ]
-        }
-      ]
-    },
-    "images": [
-      {
-        "id": "54694525771",
-        "src": "/files/images/thumbnails/photo-54694525771-thumb.jpg",
-        "original": "/files/images/01-pfarrfhrer-seite-1_54694525771_o.jpg",
-        "title": "01 Pfarrführer Seite 1",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:12",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694525771/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54693699562",
-        "src": "/files/images/thumbnails/photo-54693699562-thumb.jpg",
-        "original": "/files/images/02-pfarrfhrer-seite-2_54693699562_o.jpg",
-        "title": "02 Pfarrführer Seite 2",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:12",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54693699562/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694771649",
-        "src": "/files/images/thumbnails/photo-54694771649-thumb.jpg",
-        "original": "/files/images/03-pfarrfrher-seite-3_54694771649_o.jpg",
-        "title": "03 Pfarrfürher Seite 3",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:12",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694771649/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54693699542",
-        "src": "/files/images/thumbnails/photo-54693699542-thumb.jpg",
-        "original": "/files/images/04-pfarrfhrer-seite-4_54693699542_o.jpg",
-        "title": "04 Pfarrführer Seite 4",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:11",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54693699542/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54693699502",
-        "src": "/files/images/thumbnails/photo-54693699502-thumb.jpg",
-        "original": "/files/images/05-pfarrfhrer-seite-5_54693699502_o.jpg",
-        "title": "05 Pfarrführer Seite 5",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:09",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54693699502/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694743713",
-        "src": "/files/images/thumbnails/photo-54694743713-thumb.jpg",
-        "original": "/files/images/06-pfarrfhrer-seite-6_54694743713_o.jpg",
-        "title": "06 Pfarrführer Seite 6",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:08",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694743713/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694525701",
-        "src": "/files/images/thumbnails/photo-54694525701-thumb.jpg",
-        "original": "/files/images/07-pfarrfrher-seite-7_54694525701_o.jpg",
-        "title": "07 Pfarrfürher Seite 7",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:08",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694525701/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54693699447",
-        "src": "/files/images/thumbnails/photo-54693699447-thumb.jpg",
-        "original": "/files/images/08-pfarrfrher-seite-8_54693699447_o.jpg",
-        "title": "08 Pfarrfürher Seite 8",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:07",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54693699447/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694771494",
-        "src": "/files/images/thumbnails/photo-54694771494-thumb.jpg",
-        "original": "/files/images/09-pfarrfhrer-seite-9_54694771494_o.jpg",
-        "title": "09 Pfarrführer Seite 9",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:06",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694771494/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694859410",
-        "src": "/files/images/thumbnails/photo-54694859410-thumb.jpg",
-        "original": "/files/images/10-pfarrfher-seite-10_54694859410_o.jpg",
-        "title": "10 Pfarrfüher Seite 10",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:05",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694859410/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694525636",
-        "src": "/files/images/thumbnails/photo-54694525636-thumb.jpg",
-        "original": "/files/images/11-pfarrfhrer-seite-11_54694525636_o.jpg",
-        "title": "11 Pfarrführer Seite 11",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:04",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694525636/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694859390",
-        "src": "/files/images/thumbnails/photo-54694859390-thumb.jpg",
-        "original": "/files/images/12-pfarrfhrer-seite-12_54694859390_o.jpg",
-        "title": "12 Pfarrführer Seite 12",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:04",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694859390/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694859325",
-        "src": "/files/images/thumbnails/photo-54694859325-thumb.jpg",
-        "original": "/files/images/13-pfarrfhrer-seite-13_54694859325_o.jpg",
-        "title": "13 Pfarrführer Seite 13",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:00",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694859325/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694743548",
-        "src": "/files/images/thumbnails/photo-54694743548-thumb.jpg",
-        "original": "/files/images/14-pfarrfhrer-seite-14_54694743548_o.jpg",
-        "title": "14 Pfarrführer Seite 14",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:00",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694743548/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694743608",
-        "src": "/files/images/thumbnails/photo-54694743608-thumb.jpg",
-        "original": "/files/images/15-pfarrfhrer-seite-15_54694743608_o.jpg",
-        "title": "15 Pfarrführer Seite 15",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:04",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694743608/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54694525581",
-        "src": "/files/images/thumbnails/photo-54694525581-thumb.jpg",
-        "original": "/files/images/16-pfarrfher-seite-16_54694525581_o.jpg",
-        "title": "16 Pfarrfüher Seite 16",
-        "description": "",
-        "type": "album",
-        "date": "2025-08-02 02:59:00",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54694525581/",
-        "license": "All Rights Reserved"
-      }
-    ],
-    "coverPhotoId": "",
-    "showInTimeline": true,
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "metadata": {
-      "author": "Franz Sales Fröhlich",
-      "source": "Pfarrführer 1950",
-      "editor": "Stefanie Grüner"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [
-      "54694525771",
-      "54693699562",
-      "54694771649",
-      "54693699542",
-      "54693699502",
-      "54694743713",
-      "54694525701",
-      "54693699447",
-      "54694771494",
-      "54694859410",
-      "54694525636",
-      "54694859390",
-      "54694859325",
-      "54694743548",
-      "54694743608",
-      "54694525581"
-    ],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-20T18:12:39.614Z",
-      "comments": []
-    }
-  },
-  {
     "id": "doc-1786906610584",
-    "sortOrder": -1,
+    "sortOrder": 0,
     "title": "Historisches Wald stellt Homepage vor ",
     "year": 2025,
     "parent_id": "",
@@ -446,7 +175,7 @@
   },
   {
     "id": "doc-1786818951319",
-    "sortOrder": 0,
+    "sortOrder": 1,
     "title": "Malteser Hilfsdienst Wald ",
     "year": 1961,
     "parent_id": "",
@@ -1878,7 +1607,7 @@
   },
   {
     "id": "doc-1786473902406",
-    "sortOrder": 1,
+    "sortOrder": 2,
     "title": "Artur Zeh ",
     "year": 1936,
     "parent_id": "",
@@ -2947,7 +2676,7 @@
       ]
     },
     "showInTimeline": false,
-    "sortOrder": 2,
+    "sortOrder": 3,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3028,7 +2757,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 3,
+    "sortOrder": 4,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3071,7 +2800,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 4,
+    "sortOrder": 5,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3108,7 +2837,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 5,
+    "sortOrder": 6,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3145,7 +2874,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 6,
+    "sortOrder": 7,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3182,7 +2911,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 7,
+    "sortOrder": 8,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3217,7 +2946,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 8,
+    "sortOrder": 9,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3254,7 +2983,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 9,
+    "sortOrder": 10,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3301,7 +3030,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 10,
+    "sortOrder": 11,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3348,7 +3077,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 11,
+    "sortOrder": 12,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3395,7 +3124,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 12,
+    "sortOrder": 13,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3442,7 +3171,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 13,
+    "sortOrder": 14,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3489,7 +3218,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 14,
+    "sortOrder": 15,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3536,7 +3265,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 15,
+    "sortOrder": 16,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3583,7 +3312,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 16,
+    "sortOrder": 17,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3630,7 +3359,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 17,
+    "sortOrder": 18,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3677,7 +3406,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 18,
+    "sortOrder": 19,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3724,7 +3453,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 19,
+    "sortOrder": 20,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3734,7 +3463,7 @@
   },
   {
     "id": "doc-1785531865123",
-    "sortOrder": 20,
+    "sortOrder": 21,
     "title": "Flurnamen",
     "year": 2023,
     "parent_id": "",
@@ -3767,7 +3496,7 @@
   },
   {
     "id": "doc-1786722552401",
-    "sortOrder": 21,
+    "sortOrder": 22,
     "title": "Artikel Südkurier \"Lobgesang auf die Heimschule\" ",
     "year": 2006,
     "parent_id": "",
@@ -4085,7 +3814,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 22,
+    "sortOrder": 23,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4230,7 +3959,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 23,
+    "sortOrder": 24,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4240,7 +3969,7 @@
   },
   {
     "id": "doc-1786299436771",
-    "sortOrder": 24,
+    "sortOrder": 25,
     "title": "Abbruch ehemalige Brauerei Seitz ",
     "year": 1992,
     "parent_id": "",
@@ -4472,7 +4201,7 @@
   },
   {
     "id": "doc-1786298665648",
-    "sortOrder": 25,
+    "sortOrder": 26,
     "title": "Artikel Südkurier Abbruch ehemalige Brauerei Seitz",
     "year": 1992,
     "parent_id": "",
@@ -4658,7 +4387,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 26,
+    "sortOrder": 27,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4777,7 +4506,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 27,
+    "sortOrder": 28,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4992,7 +4721,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 28,
+    "sortOrder": 29,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5051,7 +4780,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 29,
+    "sortOrder": 30,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5254,7 +4983,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 30,
+    "sortOrder": 31,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5347,7 +5076,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 31,
+    "sortOrder": 32,
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
@@ -5737,7 +5466,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 32,
+    "sortOrder": 33,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5747,7 +5476,7 @@
   },
   {
     "id": "doc-1786300517640",
-    "sortOrder": 33,
+    "sortOrder": 34,
     "title": "Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\"",
     "year": 1969,
     "parent_id": "",
@@ -5823,7 +5552,7 @@
   },
   {
     "id": "doc-1786475696502",
-    "sortOrder": 34,
+    "sortOrder": 35,
     "title": "Artikel Südkurier \"Bürgermeister-Kandidat Zeh stellte sich vor\"",
     "year": 1969,
     "parent_id": "",
@@ -5860,7 +5589,7 @@
   },
   {
     "id": "doc-1786721635004",
-    "sortOrder": 35,
+    "sortOrder": 36,
     "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
     "year": 1969,
     "parent_id": "",
@@ -6059,7 +5788,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 36,
+    "sortOrder": 37,
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
@@ -6069,7 +5798,7 @@
   },
   {
     "id": "doc-1786385281676",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
     "year": 1966,
     "parent_id": "",
@@ -6148,7 +5877,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 38,
+    "sortOrder": 39,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6243,7 +5972,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 39,
+    "sortOrder": 40,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6290,7 +6019,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6723,7 +6452,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6733,7 +6462,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 42,
+    "sortOrder": 43,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -6822,7 +6551,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7097,7 +6826,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 44,
+    "sortOrder": 45,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7444,7 +7173,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7695,7 +7424,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7862,7 +7591,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 47,
+    "sortOrder": 48,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8101,7 +7830,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 48,
+    "sortOrder": 49,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8244,7 +7973,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 49,
+    "sortOrder": 50,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8411,7 +8140,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8518,7 +8247,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8627,7 +8356,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 53,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8880,7 +8609,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8928,7 +8657,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9017,7 +8746,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9050,13 +8779,284 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
     "showInWordCloud": true,
     "descriptionJson": null,
     "transcriptionJson": null
+  },
+  {
+    "id": "doc-1787249534405",
+    "sortOrder": 58,
+    "title": "Pfarrführer von Klosterwald 1950",
+    "year": 1950,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Kirchen"
+    ],
+    "location": "",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p>Der Pfarrführer von 1950 enthält die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. </p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Der Pfarrführer von 1950 enthält die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. "
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "54694525771",
+        "src": "/files/images/thumbnails/photo-54694525771-thumb.jpg",
+        "original": "/files/images/01-pfarrfhrer-seite-1_54694525771_o.jpg",
+        "title": "01 Pfarrführer Seite 1",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:12",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525771/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699562",
+        "src": "/files/images/thumbnails/photo-54693699562-thumb.jpg",
+        "original": "/files/images/02-pfarrfhrer-seite-2_54693699562_o.jpg",
+        "title": "02 Pfarrführer Seite 2",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:12",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699562/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694771649",
+        "src": "/files/images/thumbnails/photo-54694771649-thumb.jpg",
+        "original": "/files/images/03-pfarrfrher-seite-3_54694771649_o.jpg",
+        "title": "03 Pfarrfürher Seite 3",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:12",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694771649/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699542",
+        "src": "/files/images/thumbnails/photo-54693699542-thumb.jpg",
+        "original": "/files/images/04-pfarrfhrer-seite-4_54693699542_o.jpg",
+        "title": "04 Pfarrführer Seite 4",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:11",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699542/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699502",
+        "src": "/files/images/thumbnails/photo-54693699502-thumb.jpg",
+        "original": "/files/images/05-pfarrfhrer-seite-5_54693699502_o.jpg",
+        "title": "05 Pfarrführer Seite 5",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699502/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694743713",
+        "src": "/files/images/thumbnails/photo-54694743713-thumb.jpg",
+        "original": "/files/images/06-pfarrfhrer-seite-6_54694743713_o.jpg",
+        "title": "06 Pfarrführer Seite 6",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:08",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694743713/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694525701",
+        "src": "/files/images/thumbnails/photo-54694525701-thumb.jpg",
+        "original": "/files/images/07-pfarrfrher-seite-7_54694525701_o.jpg",
+        "title": "07 Pfarrfürher Seite 7",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:08",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525701/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699447",
+        "src": "/files/images/thumbnails/photo-54693699447-thumb.jpg",
+        "original": "/files/images/08-pfarrfrher-seite-8_54693699447_o.jpg",
+        "title": "08 Pfarrfürher Seite 8",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:07",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699447/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694771494",
+        "src": "/files/images/thumbnails/photo-54694771494-thumb.jpg",
+        "original": "/files/images/09-pfarrfhrer-seite-9_54694771494_o.jpg",
+        "title": "09 Pfarrführer Seite 9",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694771494/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694859410",
+        "src": "/files/images/thumbnails/photo-54694859410-thumb.jpg",
+        "original": "/files/images/10-pfarrfher-seite-10_54694859410_o.jpg",
+        "title": "10 Pfarrfüher Seite 10",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:05",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694859410/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694525636",
+        "src": "/files/images/thumbnails/photo-54694525636-thumb.jpg",
+        "original": "/files/images/11-pfarrfhrer-seite-11_54694525636_o.jpg",
+        "title": "11 Pfarrführer Seite 11",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525636/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694859390",
+        "src": "/files/images/thumbnails/photo-54694859390-thumb.jpg",
+        "original": "/files/images/12-pfarrfhrer-seite-12_54694859390_o.jpg",
+        "title": "12 Pfarrführer Seite 12",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694859390/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694859325",
+        "src": "/files/images/thumbnails/photo-54694859325-thumb.jpg",
+        "original": "/files/images/13-pfarrfhrer-seite-13_54694859325_o.jpg",
+        "title": "13 Pfarrführer Seite 13",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694859325/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694743548",
+        "src": "/files/images/thumbnails/photo-54694743548-thumb.jpg",
+        "original": "/files/images/14-pfarrfhrer-seite-14_54694743548_o.jpg",
+        "title": "14 Pfarrführer Seite 14",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694743548/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694743608",
+        "src": "/files/images/thumbnails/photo-54694743608-thumb.jpg",
+        "original": "/files/images/15-pfarrfhrer-seite-15_54694743608_o.jpg",
+        "title": "15 Pfarrführer Seite 15",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694743608/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694525581",
+        "src": "/files/images/thumbnails/photo-54694525581-thumb.jpg",
+        "original": "/files/images/16-pfarrfher-seite-16_54694525581_o.jpg",
+        "title": "16 Pfarrfüher Seite 16",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525581/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Franz Sales Fröhlich",
+      "source": "Pfarrführer 1950",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54694525771",
+      "54693699562",
+      "54694771649",
+      "54693699542",
+      "54693699502",
+      "54694743713",
+      "54694525701",
+      "54693699447",
+      "54694771494",
+      "54694859410",
+      "54694525636",
+      "54694859390",
+      "54694859325",
+      "54694743548",
+      "54694743608",
+      "54694525581"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-20T18:12:39.614Z",
+      "comments": []
+    }
   },
   {
     "id": "doc-005-2",
@@ -9091,7 +9091,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9210,7 +9210,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9261,7 +9261,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9312,7 +9312,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9357,7 +9357,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9412,7 +9412,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9448,7 +9448,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9458,7 +9458,7 @@
   },
   {
     "id": "doc-1786905604677",
-    "sortOrder": 64,
+    "sortOrder": 66,
     "title": "Radfahrerverein \"Gemütlichkeit\" Riedetsweiler ",
     "year": 1930,
     "parent_id": "",
@@ -9827,7 +9827,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9864,7 +9864,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 68,
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
@@ -9922,7 +9922,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 69,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9985,7 +9985,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10040,7 +10040,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 71,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10104,7 +10104,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 70,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10139,7 +10139,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 71,
+    "sortOrder": 73,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10175,7 +10175,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 72,
+    "sortOrder": 74,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10225,7 +10225,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 73,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10235,7 +10235,7 @@
   },
   {
     "id": "doc-1786472052797",
-    "sortOrder": 74,
+    "sortOrder": 76,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -10466,7 +10466,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 77,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -10670,7 +10670,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 76,
+    "sortOrder": 78,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10889,7 +10889,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 77,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12085,7 +12085,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 80,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12121,7 +12121,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 79,
+    "sortOrder": 81,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12177,7 +12177,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 80,
+    "sortOrder": 82,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12187,7 +12187,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 81,
+    "sortOrder": 83,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -12268,7 +12268,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 82,
+    "sortOrder": 84,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12313,7 +12313,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 83,
+    "sortOrder": 85,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12363,7 +12363,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 84,
+    "sortOrder": 86,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12373,7 +12373,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 85,
+    "sortOrder": 87,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -12447,7 +12447,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 86,
+    "sortOrder": 88,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12498,7 +12498,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 87,
+    "sortOrder": 89,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12508,7 +12508,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 88,
+    "sortOrder": 90,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
