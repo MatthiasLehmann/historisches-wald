@@ -1,5 +1,120 @@
 [
   {
+    "id": "doc-1787250638863",
+    "sortOrder": -1,
+    "title": "Mission in Wald 1904",
+    "year": 1904,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Kirchen"
+    ],
+    "location": "Wald ",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p>Andenken an die Tage der heiligen Mission zu Klosterwald abgehalten durch Patres des Franziskanerordens vom 06. bis 13. März 1904.</p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Andenken an die Tage der heiligen Mission zu Klosterwald abgehalten durch Patres des Franziskanerordens vom 06. bis 13. März 1904."
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "local_mt1usf41mn10ax",
+        "src": "/files/images/thumbnails/album-1787250477142-828754336-thumb.jpg",
+        "original": "/files/images/album-1787250477142-828754336.jpg",
+        "title": "Mission-Seite-1-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1usjtttxbofl",
+        "src": "/files/images/thumbnails/album-1787250483419-476704168-thumb.jpg",
+        "original": "/files/images/album-1787250483419-476704168.jpg",
+        "title": "Mission-Seite-2-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1usqak3dw2qu",
+        "src": "/files/images/thumbnails/album-1787250491776-628650459-thumb.jpg",
+        "original": "/files/images/album-1787250491776-628650459.jpg",
+        "title": "Mission-Seite-3-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mt1uswbgy9wu1t",
+        "src": "/files/images/thumbnails/album-1787250499572-472900707-thumb.jpg",
+        "original": "/files/images/album-1787250499572-472900707.jpg",
+        "title": "Mission-Seite-4-1536x2048.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mt1usf41mn10ax",
+      "local_mt1usjtttxbofl",
+      "local_mt1usqak3dw2qu",
+      "local_mt1uswbgy9wu1t"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1786906610584",
     "sortOrder": 0,
     "title": "Historisches Wald stellt Homepage vor ",
