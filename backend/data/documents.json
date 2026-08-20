@@ -1,12 +1,14 @@
 [
   {
-    "id": "doc-1787255222324",
+    "id": "doc-1787255698270",
     "sortOrder": -1,
-    "title": "Bau Kläranlage Gemeinde Wald 1987 - 1989",
-    "year": 1987,
+    "title": "Kirchenführer 1950",
+    "year": 1950,
     "parent_id": "",
     "category": "Wald",
-    "subcategories": [],
+    "subcategories": [
+      "Kirchen"
+    ],
     "location": "Wald",
     "description": "<p></p>",
     "descriptionJson": {
@@ -20,7 +22,7 @@
         }
       ]
     },
-    "transcription": "<p>Bau der Kläranlage der Gemeinde Wald von 1987 bis 1989</p>",
+    "transcription": "<p>Kirchenführer aus dem Jahr 1950</p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -32,7 +34,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Bau der Kläranlage der Gemeinde Wald von 1987 bis 1989"
+              "text": "Kirchenführer aus dem Jahr 1950"
             }
           ]
         }
@@ -40,267 +42,99 @@
     },
     "images": [
       {
-        "id": "54368765645",
-        "src": "/files/images/thumbnails/photo-54368765645-thumb.jpg",
-        "original": "/files/images/img20250222_10424017_54368765645_o.jpg",
-        "title": "img20250222_10424017",
+        "id": "54877904927",
+        "src": "/files/images/thumbnails/photo-54877904927-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-1_54877904927_o.jpg",
+        "title": "Kloster Wald Seite 1",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:44",
+        "date": "2025-10-25 08:27:02",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368765645/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54877904927/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54368765630",
-        "src": "/files/images/thumbnails/photo-54368765630-thumb.jpg",
-        "original": "/files/images/img20250222_10424036_54368765630_o.jpg",
-        "title": "img20250222_10424036",
+        "id": "54878992238",
+        "src": "/files/images/thumbnails/photo-54878992238-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-2_54878992238_o.jpg",
+        "title": "Kloster Wald Seite 2",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:43",
+        "date": "2025-10-25 08:27:00",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368765630/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54878992238/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54368765590",
-        "src": "/files/images/thumbnails/photo-54368765590-thumb.jpg",
-        "original": "/files/images/img20250222_10455338_54368765590_o.jpg",
-        "title": "img20250222_10455338",
+        "id": "54879019109",
+        "src": "/files/images/thumbnails/photo-54879019109-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-3_54879019109_o.jpg",
+        "title": "Kloster Wald Seite 3",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:41",
+        "date": "2025-10-25 08:26:59",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368765590/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54879019109/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54368363986",
-        "src": "/files/images/thumbnails/photo-54368363986-thumb.jpg",
-        "original": "/files/images/img20250222_10455341_54368363986_o.jpg",
-        "title": "img20250222_10455341",
+        "id": "54878992198",
+        "src": "/files/images/thumbnails/photo-54878992198-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-4_54878992198_o.jpg",
+        "title": "Kloster Wald Seite 4",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:40",
+        "date": "2025-10-25 08:26:59",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368363986/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54878992198/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54368601633",
-        "src": "/files/images/thumbnails/photo-54368601633-thumb.jpg",
-        "original": "/files/images/img20250222_10455358_54368601633_o.jpg",
-        "title": "img20250222_10455358",
+        "id": "54877904842",
+        "src": "/files/images/thumbnails/photo-54877904842-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-5_54877904842_o.jpg",
+        "title": "Kloster Wald Seite 5",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:40",
+        "date": "2025-10-25 08:26:59",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368601633/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54877904842/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54368601618",
-        "src": "/files/images/thumbnails/photo-54368601618-thumb.jpg",
-        "original": "/files/images/img20250222_10495316_54368601618_o.jpg",
-        "title": "img20250222_10495316",
+        "id": "54879019084",
+        "src": "/files/images/thumbnails/photo-54879019084-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-6_54879019084_o.jpg",
+        "title": "Kloster Wald Seite 6",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:40",
+        "date": "2025-10-25 08:26:58",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368601618/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54879019084/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54368601538",
-        "src": "/files/images/thumbnails/photo-54368601538-thumb.jpg",
-        "original": "/files/images/img20250222_10542160_54368601538_o.jpg",
-        "title": "img20250222_10542160",
+        "id": "54879019064",
+        "src": "/files/images/thumbnails/photo-54879019064-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-8_54879019064_o.jpg",
+        "title": "Kloster Wald Seite 8",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:36",
+        "date": "2025-10-25 08:26:58",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368601538/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54879019064/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54367495757",
-        "src": "/files/images/thumbnails/photo-54367495757-thumb.jpg",
-        "original": "/files/images/img20250222_11001982_54367495757_o.jpg",
-        "title": "img20250222_11001982",
+        "id": "54877904802",
+        "src": "/files/images/thumbnails/photo-54877904802-thumb.jpg",
+        "original": "/files/images/kloster-wald-seite-9_54877904802_o.jpg",
+        "title": "Kloster Wald Seite 9",
         "description": "",
         "type": "album",
-        "date": "2025-03-05 23:25:31",
+        "date": "2025-10-25 08:26:58",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54367495757/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368577474",
-        "src": "/files/images/thumbnails/photo-54368577474-thumb.jpg",
-        "original": "/files/images/img20250222_11114286_54368577474_o.jpg",
-        "title": "img20250222_11114286",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:27",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368577474/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54367495832",
-        "src": "/files/images/thumbnails/photo-54367495832-thumb.jpg",
-        "original": "/files/images/img20250222_10542174_54367495832_o.jpg",
-        "title": "img20250222_10542174",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:35",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54367495832/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54367495422",
-        "src": "/files/images/thumbnails/photo-54367495422-thumb.jpg",
-        "original": "/files/images/img20250224_20163614_54367495422_o.jpg",
-        "title": "img20250224_20163614",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:16",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54367495422/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54367495447",
-        "src": "/files/images/thumbnails/photo-54367495447-thumb.jpg",
-        "original": "/files/images/img20250224_20163606_54367495447_o.jpg",
-        "title": "img20250224_20163606",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:18",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54367495447/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54367495267",
-        "src": "/files/images/thumbnails/photo-54367495267-thumb.jpg",
-        "original": "/files/images/img20250305_16210429_54367495267_o.jpg",
-        "title": "img20250305_16210429",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:09",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54367495267/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368363376",
-        "src": "/files/images/thumbnails/photo-54368363376-thumb.jpg",
-        "original": "/files/images/img20250305_16253189_54368363376_o.jpg",
-        "title": "img20250305_16253189",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:09",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368363376/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368600938",
-        "src": "/files/images/thumbnails/photo-54368600938-thumb.jpg",
-        "original": "/files/images/img20250305_16343476_54368600938_o.jpg",
-        "title": "img20250305_16343476",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:00",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368600938/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368600958",
-        "src": "/files/images/thumbnails/photo-54368600958-thumb.jpg",
-        "original": "/files/images/img20250305_16312880_54368600958_o.jpg",
-        "title": "img20250305_16312880",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:25:01",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368600958/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54367495037",
-        "src": "/files/images/thumbnails/photo-54367495037-thumb.jpg",
-        "original": "/files/images/img20250305_16390311_54367495037_o.jpg",
-        "title": "img20250305_16390311",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:24:55",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54367495037/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54367494897",
-        "src": "/files/images/thumbnails/photo-54367494897-thumb.jpg",
-        "original": "/files/images/img20250305_16533173_54367494897_o.jpg",
-        "title": "img20250305_16533173",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:24:47",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54367494897/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368363071",
-        "src": "/files/images/thumbnails/photo-54368363071-thumb.jpg",
-        "original": "/files/images/img20250305_16493770_54368363071_o.jpg",
-        "title": "img20250305_16493770",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:24:48",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368363071/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368764525",
-        "src": "/files/images/thumbnails/photo-54368764525-thumb.jpg",
-        "original": "/files/images/img20250305_16573110_54368764525_o.jpg",
-        "title": "img20250305_16573110",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:24:43",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368764525/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368764460",
-        "src": "/files/images/thumbnails/photo-54368764460-thumb.jpg",
-        "original": "/files/images/img20250305_17003646_54368764460_o.jpg",
-        "title": "img20250305_17003646",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:24:39",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368764460/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54368600483",
-        "src": "/files/images/thumbnails/photo-54368600483-thumb.jpg",
-        "original": "/files/images/img20250305_17040295_54368600483_o.jpg",
-        "title": "img20250305_17040295",
-        "description": "",
-        "type": "album",
-        "date": "2025-03-05 23:24:39",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54368600483/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54877904802/",
         "license": "All Rights Reserved"
       }
     ],
@@ -315,34 +149,20 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "54368765645",
-      "54368765630",
-      "54368765590",
-      "54368363986",
-      "54368601633",
-      "54368601618",
-      "54368601538",
-      "54367495757",
-      "54368577474",
-      "54367495832",
-      "54367495422",
-      "54367495447",
-      "54367495267",
-      "54368363376",
-      "54368600938",
-      "54368600958",
-      "54367495037",
-      "54367494897",
-      "54368363071",
-      "54368764525",
-      "54368764460",
-      "54368600483"
+      "54877904927",
+      "54878992238",
+      "54879019109",
+      "54878992198",
+      "54877904842",
+      "54879019084",
+      "54879019064",
+      "54877904802"
     ],
     "pdfIds": [],
     "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-20T19:47:24.095Z",
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
       "comments": []
     }
   },
@@ -5203,6 +5023,353 @@
     "transcriptionJson": null
   },
   {
+    "id": "doc-1787255222324",
+    "sortOrder": 29,
+    "title": "Bau Kläranlage Gemeinde Wald 1987 - 1989",
+    "year": 1987,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [],
+    "location": "Wald",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p>Bau der Kläranlage der Gemeinde Wald von 1987 bis 1989</p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Bau der Kläranlage der Gemeinde Wald von 1987 bis 1989"
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "54368765645",
+        "src": "/files/images/thumbnails/photo-54368765645-thumb.jpg",
+        "original": "/files/images/img20250222_10424017_54368765645_o.jpg",
+        "title": "img20250222_10424017",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:44",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368765645/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368765630",
+        "src": "/files/images/thumbnails/photo-54368765630-thumb.jpg",
+        "original": "/files/images/img20250222_10424036_54368765630_o.jpg",
+        "title": "img20250222_10424036",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:43",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368765630/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368765590",
+        "src": "/files/images/thumbnails/photo-54368765590-thumb.jpg",
+        "original": "/files/images/img20250222_10455338_54368765590_o.jpg",
+        "title": "img20250222_10455338",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:41",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368765590/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368363986",
+        "src": "/files/images/thumbnails/photo-54368363986-thumb.jpg",
+        "original": "/files/images/img20250222_10455341_54368363986_o.jpg",
+        "title": "img20250222_10455341",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368363986/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368601633",
+        "src": "/files/images/thumbnails/photo-54368601633-thumb.jpg",
+        "original": "/files/images/img20250222_10455358_54368601633_o.jpg",
+        "title": "img20250222_10455358",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368601633/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368601618",
+        "src": "/files/images/thumbnails/photo-54368601618-thumb.jpg",
+        "original": "/files/images/img20250222_10495316_54368601618_o.jpg",
+        "title": "img20250222_10495316",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368601618/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368601538",
+        "src": "/files/images/thumbnails/photo-54368601538-thumb.jpg",
+        "original": "/files/images/img20250222_10542160_54368601538_o.jpg",
+        "title": "img20250222_10542160",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:36",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368601538/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54367495757",
+        "src": "/files/images/thumbnails/photo-54367495757-thumb.jpg",
+        "original": "/files/images/img20250222_11001982_54367495757_o.jpg",
+        "title": "img20250222_11001982",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:31",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54367495757/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368577474",
+        "src": "/files/images/thumbnails/photo-54368577474-thumb.jpg",
+        "original": "/files/images/img20250222_11114286_54368577474_o.jpg",
+        "title": "img20250222_11114286",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:27",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368577474/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54367495832",
+        "src": "/files/images/thumbnails/photo-54367495832-thumb.jpg",
+        "original": "/files/images/img20250222_10542174_54367495832_o.jpg",
+        "title": "img20250222_10542174",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:35",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54367495832/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54367495422",
+        "src": "/files/images/thumbnails/photo-54367495422-thumb.jpg",
+        "original": "/files/images/img20250224_20163614_54367495422_o.jpg",
+        "title": "img20250224_20163614",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:16",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54367495422/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54367495447",
+        "src": "/files/images/thumbnails/photo-54367495447-thumb.jpg",
+        "original": "/files/images/img20250224_20163606_54367495447_o.jpg",
+        "title": "img20250224_20163606",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:18",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54367495447/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54367495267",
+        "src": "/files/images/thumbnails/photo-54367495267-thumb.jpg",
+        "original": "/files/images/img20250305_16210429_54367495267_o.jpg",
+        "title": "img20250305_16210429",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54367495267/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368363376",
+        "src": "/files/images/thumbnails/photo-54368363376-thumb.jpg",
+        "original": "/files/images/img20250305_16253189_54368363376_o.jpg",
+        "title": "img20250305_16253189",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368363376/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368600938",
+        "src": "/files/images/thumbnails/photo-54368600938-thumb.jpg",
+        "original": "/files/images/img20250305_16343476_54368600938_o.jpg",
+        "title": "img20250305_16343476",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368600938/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368600958",
+        "src": "/files/images/thumbnails/photo-54368600958-thumb.jpg",
+        "original": "/files/images/img20250305_16312880_54368600958_o.jpg",
+        "title": "img20250305_16312880",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:25:01",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368600958/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54367495037",
+        "src": "/files/images/thumbnails/photo-54367495037-thumb.jpg",
+        "original": "/files/images/img20250305_16390311_54367495037_o.jpg",
+        "title": "img20250305_16390311",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:24:55",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54367495037/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54367494897",
+        "src": "/files/images/thumbnails/photo-54367494897-thumb.jpg",
+        "original": "/files/images/img20250305_16533173_54367494897_o.jpg",
+        "title": "img20250305_16533173",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:24:47",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54367494897/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368363071",
+        "src": "/files/images/thumbnails/photo-54368363071-thumb.jpg",
+        "original": "/files/images/img20250305_16493770_54368363071_o.jpg",
+        "title": "img20250305_16493770",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:24:48",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368363071/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368764525",
+        "src": "/files/images/thumbnails/photo-54368764525-thumb.jpg",
+        "original": "/files/images/img20250305_16573110_54368764525_o.jpg",
+        "title": "img20250305_16573110",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:24:43",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368764525/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368764460",
+        "src": "/files/images/thumbnails/photo-54368764460-thumb.jpg",
+        "original": "/files/images/img20250305_17003646_54368764460_o.jpg",
+        "title": "img20250305_17003646",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:24:39",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368764460/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54368600483",
+        "src": "/files/images/thumbnails/photo-54368600483-thumb.jpg",
+        "original": "/files/images/img20250305_17040295_54368600483_o.jpg",
+        "title": "img20250305_17040295",
+        "description": "",
+        "type": "album",
+        "date": "2025-03-05 23:24:39",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54368600483/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54368765645",
+      "54368765630",
+      "54368765590",
+      "54368363986",
+      "54368601633",
+      "54368601618",
+      "54368601538",
+      "54367495757",
+      "54368577474",
+      "54367495832",
+      "54367495422",
+      "54367495447",
+      "54367495267",
+      "54368363376",
+      "54368600938",
+      "54368600958",
+      "54367495037",
+      "54367494897",
+      "54368363071",
+      "54368764525",
+      "54368764460",
+      "54368600483"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-20T19:47:24.095Z",
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1773160927181",
     "title": "Goldene Profess und Verleihung der Ehrenbürgerwürde Willibald Branner",
     "year": 1983,
@@ -5340,7 +5507,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 29,
+    "sortOrder": 30,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5459,7 +5626,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 30,
+    "sortOrder": 31,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5674,7 +5841,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 31,
+    "sortOrder": 32,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5733,7 +5900,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 32,
+    "sortOrder": 33,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5936,7 +6103,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 33,
+    "sortOrder": 34,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6029,7 +6196,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 34,
+    "sortOrder": 35,
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
@@ -6419,7 +6586,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 35,
+    "sortOrder": 36,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6429,7 +6596,7 @@
   },
   {
     "id": "doc-1786300517640",
-    "sortOrder": 36,
+    "sortOrder": 37,
     "title": "Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\"",
     "year": 1969,
     "parent_id": "",
@@ -6505,7 +6672,7 @@
   },
   {
     "id": "doc-1786475696502",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "title": "Artikel Südkurier \"Bürgermeister-Kandidat Zeh stellte sich vor\"",
     "year": 1969,
     "parent_id": "",
@@ -6542,7 +6709,7 @@
   },
   {
     "id": "doc-1786721635004",
-    "sortOrder": 38,
+    "sortOrder": 39,
     "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
     "year": 1969,
     "parent_id": "",
@@ -6741,7 +6908,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 39,
+    "sortOrder": 40,
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
@@ -6751,7 +6918,7 @@
   },
   {
     "id": "doc-1786385281676",
-    "sortOrder": 40,
+    "sortOrder": 41,
     "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
     "year": 1966,
     "parent_id": "",
@@ -6830,7 +6997,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6925,7 +7092,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6972,7 +7139,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7405,7 +7572,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 44,
+    "sortOrder": 45,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7415,7 +7582,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 45,
+    "sortOrder": 46,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -7504,7 +7671,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7779,7 +7946,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 47,
+    "sortOrder": 48,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8126,7 +8293,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 48,
+    "sortOrder": 49,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8377,7 +8544,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 49,
+    "sortOrder": 50,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8544,7 +8711,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8783,7 +8950,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8926,7 +9093,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 53,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9093,7 +9260,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9200,7 +9367,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9309,7 +9476,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9562,7 +9729,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9610,7 +9777,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 58,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9699,7 +9866,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9732,7 +9899,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9742,7 +9909,7 @@
   },
   {
     "id": "doc-1787249534405",
-    "sortOrder": 60,
+    "sortOrder": 61,
     "title": "Pfarrführer von Klosterwald 1950",
     "year": 1950,
     "parent_id": "",
@@ -10044,7 +10211,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10163,7 +10330,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10214,7 +10381,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10265,7 +10432,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10310,7 +10477,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10365,7 +10532,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10401,7 +10568,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 68,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10411,7 +10578,7 @@
   },
   {
     "id": "doc-1786905604677",
-    "sortOrder": 68,
+    "sortOrder": 69,
     "title": "Radfahrerverein \"Gemütlichkeit\" Riedetsweiler ",
     "year": 1930,
     "parent_id": "",
@@ -10780,7 +10947,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10817,7 +10984,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 70,
+    "sortOrder": 71,
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
@@ -10875,7 +11042,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 71,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10938,7 +11105,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 72,
+    "sortOrder": 73,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10993,7 +11160,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 73,
+    "sortOrder": 74,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11057,7 +11224,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11092,7 +11259,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 76,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11102,7 +11269,7 @@
   },
   {
     "id": "doc-1787253273732",
-    "sortOrder": 76,
+    "sortOrder": 77,
     "title": "Elisabethen-Verein Satzung 1909",
     "year": 1909,
     "parent_id": "",
@@ -11269,7 +11436,7 @@
   },
   {
     "id": "doc-1787254622068",
-    "sortOrder": 77,
+    "sortOrder": 78,
     "title": "Lageplan von 1908",
     "year": 1908,
     "parent_id": "",
@@ -11376,7 +11543,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11426,7 +11593,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 79,
+    "sortOrder": 80,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11436,7 +11603,7 @@
   },
   {
     "id": "doc-1787250638863",
-    "sortOrder": 80,
+    "sortOrder": 81,
     "title": "Mission in Wald 1904",
     "year": 1904,
     "parent_id": "",
@@ -11551,7 +11718,7 @@
   },
   {
     "id": "doc-1786472052797",
-    "sortOrder": 81,
+    "sortOrder": 82,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -11782,7 +11949,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 82,
+    "sortOrder": 83,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -11986,7 +12153,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 83,
+    "sortOrder": 84,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12205,7 +12372,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 84,
+    "sortOrder": 85,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13401,7 +13568,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 85,
+    "sortOrder": 86,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13437,7 +13604,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 86,
+    "sortOrder": 87,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13493,7 +13660,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 87,
+    "sortOrder": 88,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13503,7 +13670,7 @@
   },
   {
     "id": "doc-1787254340266",
-    "sortOrder": 88,
+    "sortOrder": 89,
     "title": "Lageplan von Wald 1888 ",
     "year": 1888,
     "parent_id": "",
@@ -13597,7 +13764,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 89,
+    "sortOrder": 90,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -13678,7 +13845,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 90,
+    "sortOrder": 91,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13723,7 +13890,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 91,
+    "sortOrder": 92,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13773,7 +13940,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 92,
+    "sortOrder": 93,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13783,7 +13950,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 93,
+    "sortOrder": 94,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -13857,7 +14024,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 94,
+    "sortOrder": 95,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13908,7 +14075,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 95,
+    "sortOrder": 96,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13918,7 +14085,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 96,
+    "sortOrder": 97,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
