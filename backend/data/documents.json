@@ -1,14 +1,16 @@
 [
   {
-    "id": "doc-1787254000098",
+    "id": "doc-1787254340266",
     "sortOrder": -1,
-    "title": "Kleine Reischachgeschichte ",
-    "year": 2025,
+    "title": "Lageplan von Wald 1888 ",
+    "year": 1888,
     "parent_id": "",
-    "category": "Reischach",
-    "subcategories": [],
-    "location": "Reischach",
-    "description": "<p>Von Falko Hahn, im Mai 2025</p>",
+    "category": "Wald",
+    "subcategories": [
+      "Lageplaene"
+    ],
+    "location": "Wald",
+    "description": "<p>mit den Hausnamen von 1932 bis 1962 (Falko Hahn)</p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -20,13 +22,13 @@
           "content": [
             {
               "type": "text",
-              "text": "Von Falko Hahn, im Mai 2025"
+              "text": "mit den Hausnamen von 1932 bis 1962 (Falko Hahn)"
             }
           ]
         }
       ]
     },
-    "transcription": "<h1>Kleine Reischachgeschichte </h1><p>Von Falko Hahn, im Mai 2025</p><p>Den 6. Juni 1290 darf die politische Gemeinde Wald als einen glücklichen Tag in seine Annalen ein­schreiben. An jenem Tag war die noch junge Herrschaft Kloster Wald über Nacht um 13 Orte ange­wachsen. Auf dem Burrenberg als Sitz der Herren von Reischach trafen sich Walds Äbtissin Anna Grä­fin von Veringen und die Brüder Rudolf und Eggehard von Reischach. Wald hatte einen Kranz von Ortschaften um sich gezogen, den sie bis zum letzten Tag behielten. Am andern Morgen standen die Herren von Reischach vor der Vertreibung von ihrer angestammten von Erdwällen gesi­cherten Burgstelle. Das freie Sichtfeld nach Süden war umgekehrt, jetzt schaute Wald von Süd nach Nord. Mit dem Vertrag gelang dem Kloster ein Akt kalt eingefädelter Überrumplung, der zur wichtigs­ten Vergrößerung in ihrer jungen Geschichte wurde.&nbsp;</p><p>Die Orte Hippetsweiler, Riedetsweiler und Rothenlachen, Gaisweiler, Reischach und Burrau, Litzel­bach, Otterswang, Weihwang, Kappel, Walbertsweiler, Dietershofen, Buffenhofen und Ringgenbach mit Grundbesitz und den meisten Rechten, außer dem Hochgericht waren Waldisches Hoheitsgebiet. Allein auf das ewig streitbare Rengetsweiler musste verzichtet werden. Im Abkommen gelobten die beiden Reischacher mit ihrer Treue an Eides Statt, innerhalb eines Kreises um die Dörfer Göggingen, Mennin­gen, Wackershofen, Sauldorf, Linz, Zell und Bittelschieß weder Leute noch Güter zu kaufen. Mit der Zwangsauflösung des Klosters im Jahr 1806 durch Napoleon entwickelte sich das ausgestorbene Wald ganz allmählich zur politischen Gemeinde Wald, als rechtlicher Nachfolger von Kloster Wald.</p><p>Mit der Gemeindegebietsreform zwischen 1971 und 1975 wurden der Gemeinde Wald dann neun aus dem ehemaligen Klosterverbund selbständig gewordene Orte zugeteilt: Hippetsweiler, Riedetsweiler, Rothenlachen, Ruhestetten, Reischach, Walbertsweiler, Glashütte, Kappel und Sentenhart.</p><p>In Abkommen von 1290 zeigte Kloster Wald schlaglichtartig, wie strikt und rücksichtslos es sein konnte, um ein geschlossenes Herrschaftsgebiet zu bekommen. Der Grund für den Zugriff lag in der geringen Ausstattung Walds bei der Neugründung von 1212. Weder Walds Gründer Burkard von We­ckenstein noch König Friedrich II. statteten es mit genügendem Besitz und Leuten aus, so lief es Ge­fahr unter die Hausmachtpolitik der Herrschaft Sigmaringens zu geraten.</p><p>Ohne den „Burren“ als Sitz der Herren von Reischach gäbe es also keine Zehn-Dörfer-Gemeinde Wald. Auch die Festhalle würde einen anderen Namen tragen. Ausgehend vom Weiherdamm des Klos­terweihers erreicht der Wanderer den Burren nach einer Viertelstunde Gehzeit. Zu seinen Füßen lag einst die vom Burraubach angetriebene Burraumühle. Was den Burren im Volksmund einen Platz si­chert, ist sein vielfach besprochenes sagenhaftes Vermächtnis. Doch der Burren hat mehr zu bieten. Was den 45 Meter hohen Berg umgürtet, ist nicht nur der 6. Juni 1290 mit der Vertreibung der Herren von Reischach. Bis in die Nachkriegszeit waren noch bescheidene Reste der kleinen Burg Burrau vor­handen.</p><p>Ihr war nur ein kurzer Bestand beschieden. Der Burgplatz war damals als eine leichte Erhöhung im Buchenwald erkennbar. Im Westen gab es Spuren von zwei Gräben und zwei dazu gehörenden Erdwäl­-len, im Norden ein Graben, im Osten war einst der Zugang. Im Boden steckten noch Mauerreste und roh behauene Bausteine, aus unbekanntem Ursprung.&nbsp;</p><p>Über die Burrenburg bei Wald und ihre Geschichte sind nur spärliche urkundliche Nachrichten vor­handen. Die undeutliche Burrenherrlichkeit galt bereits um 1250 als im Niedergang liegend. Den Na­men Eberhard von Burre findet man 1216 bis 1243 mehrfach in Walder Urkunden, einige Male auch in Schriftstücken von Salem. Die Familie wurde zerstreut. Ein Teil der Familie fasste Fuß in Inzigkofen, im Hegau und an anderen Orten mit Burgen.</p>",
+    "transcription": "<h1>Lageplan von Wald 1888 mit den Hausnamen von 1932 bis 1962 (Falko Hahn)</h1><p><br></p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -39,7 +41,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Kleine Reischachgeschichte "
+              "text": "Lageplan von Wald 1888 mit den Hausnamen von 1932 bis 1962 (Falko Hahn)"
             }
           ]
         },
@@ -50,92 +52,7 @@
           },
           "content": [
             {
-              "type": "text",
-              "text": "Von Falko Hahn, im Mai 2025"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Den 6. Juni 1290 darf die politische Gemeinde Wald als einen glücklichen Tag in seine Annalen ein­schreiben. An jenem Tag war die noch junge Herrschaft Kloster Wald über Nacht um 13 Orte ange­wachsen. Auf dem Burrenberg als Sitz der Herren von Reischach trafen sich Walds Äbtissin Anna Grä­fin von Veringen und die Brüder Rudolf und Eggehard von Reischach. Wald hatte einen Kranz von Ortschaften um sich gezogen, den sie bis zum letzten Tag behielten. Am andern Morgen standen die Herren von Reischach vor der Vertreibung von ihrer angestammten von Erdwällen gesi­cherten Burgstelle. Das freie Sichtfeld nach Süden war umgekehrt, jetzt schaute Wald von Süd nach Nord. Mit dem Vertrag gelang dem Kloster ein Akt kalt eingefädelter Überrumplung, der zur wichtigs­ten Vergrößerung in ihrer jungen Geschichte wurde. "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Die Orte Hippetsweiler, Riedetsweiler und Rothenlachen, Gaisweiler, Reischach und Burrau, Litzel­bach, Otterswang, Weihwang, Kappel, Walbertsweiler, Dietershofen, Buffenhofen und Ringgenbach mit Grundbesitz und den meisten Rechten, außer dem Hochgericht waren Waldisches Hoheitsgebiet. Allein auf das ewig streitbare Rengetsweiler musste verzichtet werden. Im Abkommen gelobten die beiden Reischacher mit ihrer Treue an Eides Statt, innerhalb eines Kreises um die Dörfer Göggingen, Mennin­gen, Wackershofen, Sauldorf, Linz, Zell und Bittelschieß weder Leute noch Güter zu kaufen. Mit der Zwangsauflösung des Klosters im Jahr 1806 durch Napoleon entwickelte sich das ausgestorbene Wald ganz allmählich zur politischen Gemeinde Wald, als rechtlicher Nachfolger von Kloster Wald."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Mit der Gemeindegebietsreform zwischen 1971 und 1975 wurden der Gemeinde Wald dann neun aus dem ehemaligen Klosterverbund selbständig gewordene Orte zugeteilt: Hippetsweiler, Riedetsweiler, Rothenlachen, Ruhestetten, Reischach, Walbertsweiler, Glashütte, Kappel und Sentenhart."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "In Abkommen von 1290 zeigte Kloster Wald schlaglichtartig, wie strikt und rücksichtslos es sein konnte, um ein geschlossenes Herrschaftsgebiet zu bekommen. Der Grund für den Zugriff lag in der geringen Ausstattung Walds bei der Neugründung von 1212. Weder Walds Gründer Burkard von We­ckenstein noch König Friedrich II. statteten es mit genügendem Besitz und Leuten aus, so lief es Ge­fahr unter die Hausmachtpolitik der Herrschaft Sigmaringens zu geraten."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Ohne den „Burren“ als Sitz der Herren von Reischach gäbe es also keine Zehn-Dörfer-Gemeinde Wald. Auch die Festhalle würde einen anderen Namen tragen. Ausgehend vom Weiherdamm des Klos­terweihers erreicht der Wanderer den Burren nach einer Viertelstunde Gehzeit. Zu seinen Füßen lag einst die vom Burraubach angetriebene Burraumühle. Was den Burren im Volksmund einen Platz si­chert, ist sein vielfach besprochenes sagenhaftes Vermächtnis. Doch der Burren hat mehr zu bieten. Was den 45 Meter hohen Berg umgürtet, ist nicht nur der 6. Juni 1290 mit der Vertreibung der Herren von Reischach. Bis in die Nachkriegszeit waren noch bescheidene Reste der kleinen Burg Burrau vor­handen."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Ihr war nur ein kurzer Bestand beschieden. Der Burgplatz war damals als eine leichte Erhöhung im Buchenwald erkennbar. Im Westen gab es Spuren von zwei Gräben und zwei dazu gehörenden Erdwäl­-len, im Norden ein Graben, im Osten war einst der Zugang. Im Boden steckten noch Mauerreste und roh behauene Bausteine, aus unbekanntem Ursprung. "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Über die Burrenburg bei Wald und ihre Geschichte sind nur spärliche urkundliche Nachrichten vor­handen. Die undeutliche Burrenherrlichkeit galt bereits um 1250 als im Niedergang liegend. Den Na­men Eberhard von Burre findet man 1216 bis 1243 mehrfach in Walder Urkunden, einige Male auch in Schriftstücken von Salem. Die Familie wurde zerstreut. Ein Teil der Familie fasste Fuß in Inzigkofen, im Hegau und an anderen Orten mit Burgen."
+              "type": "hardBreak"
             }
           ]
         }
@@ -143,15 +60,15 @@
     },
     "images": [
       {
-        "id": "local_mt1ww8rh0tzcmn",
-        "src": "/files/images/thumbnails/album-1787254016029-199443606-thumb.jpg",
-        "original": "/files/images/album-1787254016029-199443606.png",
-        "title": "image.png",
-        "description": "",
+        "id": "54646150853",
+        "src": "/files/images/thumbnails/photo-54646150853-thumb.jpg",
+        "original": "/files/images/lageplan-hausnamen-wald-1932-1962_54646150853_o.jpg",
+        "title": "Lageplan Hausnamen Wald 1932-1962",
+        "description": "Am 22.06.2014 hat Falko Hahn die Hausnamen in diese Karte eingefügt. Die Informanten waren Rosa Masse, Lore Lösch und Ernst Herburger.\nMartin Kuhn 2025",
         "type": "album",
-        "date": "",
+        "date": "2014-11-04 07:35:25",
         "author": "",
-        "source": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54646150853/",
         "license": "All Rights Reserved"
       }
     ],
@@ -166,13 +83,13 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mt1ww8rh0tzcmn"
+      "54646150853"
     ],
     "pdfIds": [],
     "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-20T19:28:14.911Z",
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
       "comments": []
     }
   },
@@ -3169,6 +3086,183 @@
     "transcriptionJson": null
   },
   {
+    "id": "doc-1787254000098",
+    "sortOrder": 11,
+    "title": "Kleine Reischachgeschichte ",
+    "year": 2025,
+    "parent_id": "",
+    "category": "Reischach",
+    "subcategories": [],
+    "location": "Reischach",
+    "description": "<p>Von Falko Hahn, im Mai 2025</p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Von Falko Hahn, im Mai 2025"
+            }
+          ]
+        }
+      ]
+    },
+    "transcription": "<h1>Kleine Reischachgeschichte </h1><p>Von Falko Hahn, im Mai 2025</p><p>Den 6. Juni 1290 darf die politische Gemeinde Wald als einen glücklichen Tag in seine Annalen ein­schreiben. An jenem Tag war die noch junge Herrschaft Kloster Wald über Nacht um 13 Orte ange­wachsen. Auf dem Burrenberg als Sitz der Herren von Reischach trafen sich Walds Äbtissin Anna Grä­fin von Veringen und die Brüder Rudolf und Eggehard von Reischach. Wald hatte einen Kranz von Ortschaften um sich gezogen, den sie bis zum letzten Tag behielten. Am andern Morgen standen die Herren von Reischach vor der Vertreibung von ihrer angestammten von Erdwällen gesi­cherten Burgstelle. Das freie Sichtfeld nach Süden war umgekehrt, jetzt schaute Wald von Süd nach Nord. Mit dem Vertrag gelang dem Kloster ein Akt kalt eingefädelter Überrumplung, der zur wichtigs­ten Vergrößerung in ihrer jungen Geschichte wurde.&nbsp;</p><p>Die Orte Hippetsweiler, Riedetsweiler und Rothenlachen, Gaisweiler, Reischach und Burrau, Litzel­bach, Otterswang, Weihwang, Kappel, Walbertsweiler, Dietershofen, Buffenhofen und Ringgenbach mit Grundbesitz und den meisten Rechten, außer dem Hochgericht waren Waldisches Hoheitsgebiet. Allein auf das ewig streitbare Rengetsweiler musste verzichtet werden. Im Abkommen gelobten die beiden Reischacher mit ihrer Treue an Eides Statt, innerhalb eines Kreises um die Dörfer Göggingen, Mennin­gen, Wackershofen, Sauldorf, Linz, Zell und Bittelschieß weder Leute noch Güter zu kaufen. Mit der Zwangsauflösung des Klosters im Jahr 1806 durch Napoleon entwickelte sich das ausgestorbene Wald ganz allmählich zur politischen Gemeinde Wald, als rechtlicher Nachfolger von Kloster Wald.</p><p>Mit der Gemeindegebietsreform zwischen 1971 und 1975 wurden der Gemeinde Wald dann neun aus dem ehemaligen Klosterverbund selbständig gewordene Orte zugeteilt: Hippetsweiler, Riedetsweiler, Rothenlachen, Ruhestetten, Reischach, Walbertsweiler, Glashütte, Kappel und Sentenhart.</p><p>In Abkommen von 1290 zeigte Kloster Wald schlaglichtartig, wie strikt und rücksichtslos es sein konnte, um ein geschlossenes Herrschaftsgebiet zu bekommen. Der Grund für den Zugriff lag in der geringen Ausstattung Walds bei der Neugründung von 1212. Weder Walds Gründer Burkard von We­ckenstein noch König Friedrich II. statteten es mit genügendem Besitz und Leuten aus, so lief es Ge­fahr unter die Hausmachtpolitik der Herrschaft Sigmaringens zu geraten.</p><p>Ohne den „Burren“ als Sitz der Herren von Reischach gäbe es also keine Zehn-Dörfer-Gemeinde Wald. Auch die Festhalle würde einen anderen Namen tragen. Ausgehend vom Weiherdamm des Klos­terweihers erreicht der Wanderer den Burren nach einer Viertelstunde Gehzeit. Zu seinen Füßen lag einst die vom Burraubach angetriebene Burraumühle. Was den Burren im Volksmund einen Platz si­chert, ist sein vielfach besprochenes sagenhaftes Vermächtnis. Doch der Burren hat mehr zu bieten. Was den 45 Meter hohen Berg umgürtet, ist nicht nur der 6. Juni 1290 mit der Vertreibung der Herren von Reischach. Bis in die Nachkriegszeit waren noch bescheidene Reste der kleinen Burg Burrau vor­handen.</p><p>Ihr war nur ein kurzer Bestand beschieden. Der Burgplatz war damals als eine leichte Erhöhung im Buchenwald erkennbar. Im Westen gab es Spuren von zwei Gräben und zwei dazu gehörenden Erdwäl­-len, im Norden ein Graben, im Osten war einst der Zugang. Im Boden steckten noch Mauerreste und roh behauene Bausteine, aus unbekanntem Ursprung.&nbsp;</p><p>Über die Burrenburg bei Wald und ihre Geschichte sind nur spärliche urkundliche Nachrichten vor­handen. Die undeutliche Burrenherrlichkeit galt bereits um 1250 als im Niedergang liegend. Den Na­men Eberhard von Burre findet man 1216 bis 1243 mehrfach in Walder Urkunden, einige Male auch in Schriftstücken von Salem. Die Familie wurde zerstreut. Ein Teil der Familie fasste Fuß in Inzigkofen, im Hegau und an anderen Orten mit Burgen.</p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "heading",
+          "attrs": {
+            "textAlign": null,
+            "level": 1
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Kleine Reischachgeschichte "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Von Falko Hahn, im Mai 2025"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Den 6. Juni 1290 darf die politische Gemeinde Wald als einen glücklichen Tag in seine Annalen ein­schreiben. An jenem Tag war die noch junge Herrschaft Kloster Wald über Nacht um 13 Orte ange­wachsen. Auf dem Burrenberg als Sitz der Herren von Reischach trafen sich Walds Äbtissin Anna Grä­fin von Veringen und die Brüder Rudolf und Eggehard von Reischach. Wald hatte einen Kranz von Ortschaften um sich gezogen, den sie bis zum letzten Tag behielten. Am andern Morgen standen die Herren von Reischach vor der Vertreibung von ihrer angestammten von Erdwällen gesi­cherten Burgstelle. Das freie Sichtfeld nach Süden war umgekehrt, jetzt schaute Wald von Süd nach Nord. Mit dem Vertrag gelang dem Kloster ein Akt kalt eingefädelter Überrumplung, der zur wichtigs­ten Vergrößerung in ihrer jungen Geschichte wurde. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Die Orte Hippetsweiler, Riedetsweiler und Rothenlachen, Gaisweiler, Reischach und Burrau, Litzel­bach, Otterswang, Weihwang, Kappel, Walbertsweiler, Dietershofen, Buffenhofen und Ringgenbach mit Grundbesitz und den meisten Rechten, außer dem Hochgericht waren Waldisches Hoheitsgebiet. Allein auf das ewig streitbare Rengetsweiler musste verzichtet werden. Im Abkommen gelobten die beiden Reischacher mit ihrer Treue an Eides Statt, innerhalb eines Kreises um die Dörfer Göggingen, Mennin­gen, Wackershofen, Sauldorf, Linz, Zell und Bittelschieß weder Leute noch Güter zu kaufen. Mit der Zwangsauflösung des Klosters im Jahr 1806 durch Napoleon entwickelte sich das ausgestorbene Wald ganz allmählich zur politischen Gemeinde Wald, als rechtlicher Nachfolger von Kloster Wald."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Mit der Gemeindegebietsreform zwischen 1971 und 1975 wurden der Gemeinde Wald dann neun aus dem ehemaligen Klosterverbund selbständig gewordene Orte zugeteilt: Hippetsweiler, Riedetsweiler, Rothenlachen, Ruhestetten, Reischach, Walbertsweiler, Glashütte, Kappel und Sentenhart."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "In Abkommen von 1290 zeigte Kloster Wald schlaglichtartig, wie strikt und rücksichtslos es sein konnte, um ein geschlossenes Herrschaftsgebiet zu bekommen. Der Grund für den Zugriff lag in der geringen Ausstattung Walds bei der Neugründung von 1212. Weder Walds Gründer Burkard von We­ckenstein noch König Friedrich II. statteten es mit genügendem Besitz und Leuten aus, so lief es Ge­fahr unter die Hausmachtpolitik der Herrschaft Sigmaringens zu geraten."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Ohne den „Burren“ als Sitz der Herren von Reischach gäbe es also keine Zehn-Dörfer-Gemeinde Wald. Auch die Festhalle würde einen anderen Namen tragen. Ausgehend vom Weiherdamm des Klos­terweihers erreicht der Wanderer den Burren nach einer Viertelstunde Gehzeit. Zu seinen Füßen lag einst die vom Burraubach angetriebene Burraumühle. Was den Burren im Volksmund einen Platz si­chert, ist sein vielfach besprochenes sagenhaftes Vermächtnis. Doch der Burren hat mehr zu bieten. Was den 45 Meter hohen Berg umgürtet, ist nicht nur der 6. Juni 1290 mit der Vertreibung der Herren von Reischach. Bis in die Nachkriegszeit waren noch bescheidene Reste der kleinen Burg Burrau vor­handen."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Ihr war nur ein kurzer Bestand beschieden. Der Burgplatz war damals als eine leichte Erhöhung im Buchenwald erkennbar. Im Westen gab es Spuren von zwei Gräben und zwei dazu gehörenden Erdwäl­-len, im Norden ein Graben, im Osten war einst der Zugang. Im Boden steckten noch Mauerreste und roh behauene Bausteine, aus unbekanntem Ursprung. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Über die Burrenburg bei Wald und ihre Geschichte sind nur spärliche urkundliche Nachrichten vor­handen. Die undeutliche Burrenherrlichkeit galt bereits um 1250 als im Niedergang liegend. Den Na­men Eberhard von Burre findet man 1216 bis 1243 mehrfach in Walder Urkunden, einige Male auch in Schriftstücken von Salem. Die Familie wurde zerstreut. Ein Teil der Familie fasste Fuß in Inzigkofen, im Hegau und an anderen Orten mit Burgen."
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "local_mt1ww8rh0tzcmn",
+        "src": "/files/images/thumbnails/album-1787254016029-199443606-thumb.jpg",
+        "original": "/files/images/album-1787254016029-199443606.png",
+        "title": "image.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "local_mt1ww8rh0tzcmn"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-20T19:28:14.911Z",
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1774889357455",
     "title": "Flurnamen von Walbertsweiler ",
     "year": 2023,
@@ -3207,7 +3301,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 11,
+    "sortOrder": 12,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3254,7 +3348,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 12,
+    "sortOrder": 13,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3301,7 +3395,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 13,
+    "sortOrder": 14,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3348,7 +3442,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 14,
+    "sortOrder": 15,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3395,7 +3489,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 15,
+    "sortOrder": 16,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3442,7 +3536,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 16,
+    "sortOrder": 17,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3489,7 +3583,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 17,
+    "sortOrder": 18,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3536,7 +3630,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 18,
+    "sortOrder": 19,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3583,7 +3677,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 19,
+    "sortOrder": 20,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3630,7 +3724,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 20,
+    "sortOrder": 21,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3640,7 +3734,7 @@
   },
   {
     "id": "doc-1785531865123",
-    "sortOrder": 21,
+    "sortOrder": 22,
     "title": "Flurnamen",
     "year": 2023,
     "parent_id": "",
@@ -3673,7 +3767,7 @@
   },
   {
     "id": "doc-1786722552401",
-    "sortOrder": 22,
+    "sortOrder": 23,
     "title": "Artikel Südkurier \"Lobgesang auf die Heimschule\" ",
     "year": 2006,
     "parent_id": "",
@@ -3818,7 +3912,7 @@
   },
   {
     "id": "doc-1787253659074",
-    "sortOrder": 23,
+    "sortOrder": 24,
     "title": "200 Jahre Ortsgeschichte auf 6,5 Metern: Das Gemeindearchiv Walbertsweiler und seine Schätze",
     "year": 2006,
     "parent_id": "",
@@ -4420,7 +4514,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 24,
+    "sortOrder": 25,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4565,7 +4659,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 25,
+    "sortOrder": 26,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4575,7 +4669,7 @@
   },
   {
     "id": "doc-1786299436771",
-    "sortOrder": 26,
+    "sortOrder": 27,
     "title": "Abbruch ehemalige Brauerei Seitz ",
     "year": 1992,
     "parent_id": "",
@@ -4807,7 +4901,7 @@
   },
   {
     "id": "doc-1786298665648",
-    "sortOrder": 27,
+    "sortOrder": 28,
     "title": "Artikel Südkurier Abbruch ehemalige Brauerei Seitz",
     "year": 1992,
     "parent_id": "",
@@ -4993,7 +5087,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 28,
+    "sortOrder": 29,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5112,7 +5206,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 29,
+    "sortOrder": 30,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5327,7 +5421,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 30,
+    "sortOrder": 31,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5386,7 +5480,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 31,
+    "sortOrder": 32,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5589,7 +5683,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 32,
+    "sortOrder": 33,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -5682,7 +5776,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 33,
+    "sortOrder": 34,
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
@@ -6072,7 +6166,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 34,
+    "sortOrder": 35,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6082,7 +6176,7 @@
   },
   {
     "id": "doc-1786300517640",
-    "sortOrder": 35,
+    "sortOrder": 36,
     "title": "Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\"",
     "year": 1969,
     "parent_id": "",
@@ -6158,7 +6252,7 @@
   },
   {
     "id": "doc-1786475696502",
-    "sortOrder": 36,
+    "sortOrder": 37,
     "title": "Artikel Südkurier \"Bürgermeister-Kandidat Zeh stellte sich vor\"",
     "year": 1969,
     "parent_id": "",
@@ -6195,7 +6289,7 @@
   },
   {
     "id": "doc-1786721635004",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
     "year": 1969,
     "parent_id": "",
@@ -6394,7 +6488,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 38,
+    "sortOrder": 39,
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
@@ -6404,7 +6498,7 @@
   },
   {
     "id": "doc-1786385281676",
-    "sortOrder": 39,
+    "sortOrder": 40,
     "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
     "year": 1966,
     "parent_id": "",
@@ -6483,7 +6577,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6578,7 +6672,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -6625,7 +6719,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7058,7 +7152,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7068,7 +7162,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -7157,7 +7251,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7432,7 +7526,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7779,7 +7873,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 47,
+    "sortOrder": 48,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8030,7 +8124,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 48,
+    "sortOrder": 49,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8197,7 +8291,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 49,
+    "sortOrder": 50,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8436,7 +8530,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8579,7 +8673,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8746,7 +8840,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 53,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8853,7 +8947,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8962,7 +9056,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9215,7 +9309,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9263,7 +9357,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9352,7 +9446,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 58,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9385,7 +9479,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9395,7 +9489,7 @@
   },
   {
     "id": "doc-1787249534405",
-    "sortOrder": 59,
+    "sortOrder": 60,
     "title": "Pfarrführer von Klosterwald 1950",
     "year": 1950,
     "parent_id": "",
@@ -9697,7 +9791,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9816,7 +9910,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9867,7 +9961,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9918,7 +10012,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9963,7 +10057,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10018,7 +10112,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10054,7 +10148,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10064,7 +10158,7 @@
   },
   {
     "id": "doc-1786905604677",
-    "sortOrder": 67,
+    "sortOrder": 68,
     "title": "Radfahrerverein \"Gemütlichkeit\" Riedetsweiler ",
     "year": 1930,
     "parent_id": "",
@@ -10433,7 +10527,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 69,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10470,7 +10564,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
@@ -10528,7 +10622,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 70,
+    "sortOrder": 71,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10591,7 +10685,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 71,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10646,7 +10740,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 72,
+    "sortOrder": 73,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10710,7 +10804,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 73,
+    "sortOrder": 74,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10745,7 +10839,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10755,7 +10849,7 @@
   },
   {
     "id": "doc-1787253273732",
-    "sortOrder": 75,
+    "sortOrder": 76,
     "title": "Elisabethen-Verein Satzung 1909",
     "year": 1909,
     "parent_id": "",
@@ -10948,7 +11042,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 76,
+    "sortOrder": 77,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10998,7 +11092,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 77,
+    "sortOrder": 78,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11008,7 +11102,7 @@
   },
   {
     "id": "doc-1787250638863",
-    "sortOrder": 78,
+    "sortOrder": 79,
     "title": "Mission in Wald 1904",
     "year": 1904,
     "parent_id": "",
@@ -11123,7 +11217,7 @@
   },
   {
     "id": "doc-1786472052797",
-    "sortOrder": 79,
+    "sortOrder": 80,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -11354,7 +11448,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 80,
+    "sortOrder": 81,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -11558,7 +11652,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 81,
+    "sortOrder": 82,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11777,7 +11871,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 82,
+    "sortOrder": 83,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12973,7 +13067,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 83,
+    "sortOrder": 84,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13009,7 +13103,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 84,
+    "sortOrder": 85,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13065,7 +13159,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 85,
+    "sortOrder": 86,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13075,7 +13169,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 86,
+    "sortOrder": 87,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -13156,7 +13250,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 87,
+    "sortOrder": 88,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13201,7 +13295,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 88,
+    "sortOrder": 89,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13251,7 +13345,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 89,
+    "sortOrder": 90,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13261,7 +13355,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 90,
+    "sortOrder": 91,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -13335,7 +13429,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 91,
+    "sortOrder": 92,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13386,7 +13480,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 92,
+    "sortOrder": 93,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13396,7 +13490,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 93,
+    "sortOrder": 94,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
