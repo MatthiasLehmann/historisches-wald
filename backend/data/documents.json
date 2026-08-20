@@ -108,9 +108,9 @@
     ],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüer",
+      "reviewedAt": "2026-08-20T18:30:55.946Z",
       "comments": []
     }
   },
