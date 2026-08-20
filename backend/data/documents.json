@@ -141,7 +141,20 @@
         }
       ]
     },
-    "images": [],
+    "images": [
+      {
+        "id": "local_mt1ww8rh0tzcmn",
+        "src": "/files/images/thumbnails/album-1787254016029-199443606-thumb.jpg",
+        "original": "/files/images/album-1787254016029-199443606.png",
+        "title": "image.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -152,7 +165,9 @@
       "editor": "Stefanie Grüner"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mt1ww8rh0tzcmn"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
