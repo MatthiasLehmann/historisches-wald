@@ -1,5 +1,276 @@
 [
   {
+    "id": "doc-1787249534405",
+    "sortOrder": -2,
+    "title": "Pfarrführer von 1950",
+    "year": 1950,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Kirchen"
+    ],
+    "location": "",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p>In unserer Sammlung befindet sich auch der Pfarrführer von 1950. Besonders bemerkenswert ist darin die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. Dieses historische Dokument eröffnet eindrucksvolle Einblicke in die Nachkriegszeit und liefert wertvolle Anknüpfungspunkte für weitere Themen, die wir dann noch vorstellen möchten.</p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "In unserer Sammlung befindet sich auch der Pfarrführer von 1950. Besonders bemerkenswert ist darin die Auflistung der Gefallenen und Vermissten aus Wald, Hippetsweiler, Ruhestetten, Rothenlachen, Riedetsweiler, Reischach, Gaisweiler, Otterswang und Litzelbach. Dieses historische Dokument eröffnet eindrucksvolle Einblicke in die Nachkriegszeit und liefert wertvolle Anknüpfungspunkte für weitere Themen, die wir dann noch vorstellen möchten."
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "54694525771",
+        "src": "/files/images/thumbnails/photo-54694525771-thumb.jpg",
+        "original": "/files/images/01-pfarrfhrer-seite-1_54694525771_o.jpg",
+        "title": "01 Pfarrführer Seite 1",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:12",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525771/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699562",
+        "src": "/files/images/thumbnails/photo-54693699562-thumb.jpg",
+        "original": "/files/images/02-pfarrfhrer-seite-2_54693699562_o.jpg",
+        "title": "02 Pfarrführer Seite 2",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:12",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699562/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694771649",
+        "src": "/files/images/thumbnails/photo-54694771649-thumb.jpg",
+        "original": "/files/images/03-pfarrfrher-seite-3_54694771649_o.jpg",
+        "title": "03 Pfarrfürher Seite 3",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:12",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694771649/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699542",
+        "src": "/files/images/thumbnails/photo-54693699542-thumb.jpg",
+        "original": "/files/images/04-pfarrfhrer-seite-4_54693699542_o.jpg",
+        "title": "04 Pfarrführer Seite 4",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:11",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699542/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699502",
+        "src": "/files/images/thumbnails/photo-54693699502-thumb.jpg",
+        "original": "/files/images/05-pfarrfhrer-seite-5_54693699502_o.jpg",
+        "title": "05 Pfarrführer Seite 5",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699502/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694743713",
+        "src": "/files/images/thumbnails/photo-54694743713-thumb.jpg",
+        "original": "/files/images/06-pfarrfhrer-seite-6_54694743713_o.jpg",
+        "title": "06 Pfarrführer Seite 6",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:08",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694743713/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694525701",
+        "src": "/files/images/thumbnails/photo-54694525701-thumb.jpg",
+        "original": "/files/images/07-pfarrfrher-seite-7_54694525701_o.jpg",
+        "title": "07 Pfarrfürher Seite 7",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:08",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525701/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54693699447",
+        "src": "/files/images/thumbnails/photo-54693699447-thumb.jpg",
+        "original": "/files/images/08-pfarrfrher-seite-8_54693699447_o.jpg",
+        "title": "08 Pfarrfürher Seite 8",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:07",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54693699447/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694771494",
+        "src": "/files/images/thumbnails/photo-54694771494-thumb.jpg",
+        "original": "/files/images/09-pfarrfhrer-seite-9_54694771494_o.jpg",
+        "title": "09 Pfarrführer Seite 9",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694771494/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694859410",
+        "src": "/files/images/thumbnails/photo-54694859410-thumb.jpg",
+        "original": "/files/images/10-pfarrfher-seite-10_54694859410_o.jpg",
+        "title": "10 Pfarrfüher Seite 10",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:05",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694859410/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694525636",
+        "src": "/files/images/thumbnails/photo-54694525636-thumb.jpg",
+        "original": "/files/images/11-pfarrfhrer-seite-11_54694525636_o.jpg",
+        "title": "11 Pfarrführer Seite 11",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525636/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694859390",
+        "src": "/files/images/thumbnails/photo-54694859390-thumb.jpg",
+        "original": "/files/images/12-pfarrfhrer-seite-12_54694859390_o.jpg",
+        "title": "12 Pfarrführer Seite 12",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694859390/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694859325",
+        "src": "/files/images/thumbnails/photo-54694859325-thumb.jpg",
+        "original": "/files/images/13-pfarrfhrer-seite-13_54694859325_o.jpg",
+        "title": "13 Pfarrführer Seite 13",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694859325/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694743548",
+        "src": "/files/images/thumbnails/photo-54694743548-thumb.jpg",
+        "original": "/files/images/14-pfarrfhrer-seite-14_54694743548_o.jpg",
+        "title": "14 Pfarrführer Seite 14",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694743548/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694743608",
+        "src": "/files/images/thumbnails/photo-54694743608-thumb.jpg",
+        "original": "/files/images/15-pfarrfhrer-seite-15_54694743608_o.jpg",
+        "title": "15 Pfarrführer Seite 15",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:04",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694743608/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54694525581",
+        "src": "/files/images/thumbnails/photo-54694525581-thumb.jpg",
+        "original": "/files/images/16-pfarrfher-seite-16_54694525581_o.jpg",
+        "title": "16 Pfarrfüher Seite 16",
+        "description": "",
+        "type": "album",
+        "date": "2025-08-02 02:59:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54694525581/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Pfarrführer 1950",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54694525771",
+      "54693699562",
+      "54694771649",
+      "54693699542",
+      "54693699502",
+      "54694743713",
+      "54694525701",
+      "54693699447",
+      "54694771494",
+      "54694859410",
+      "54694525636",
+      "54694859390",
+      "54694859325",
+      "54694743548",
+      "54694743608",
+      "54694525581"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1786906610584",
     "sortOrder": -1,
     "title": "Historisches Wald stellt Homepage vor ",
