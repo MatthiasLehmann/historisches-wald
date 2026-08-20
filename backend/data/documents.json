@@ -38,7 +38,56 @@
         }
       ]
     },
-    "images": [],
+    "images": [
+      {
+        "id": "53537301071",
+        "src": "/files/images/thumbnails/photo-53537301071-thumb.jpg",
+        "original": "/files/images/img060_53537301071_o.jpg",
+        "title": "img060",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-18 11:34:20",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53537301071/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53537301056",
+        "src": "/files/images/thumbnails/photo-53537301056-thumb.jpg",
+        "original": "/files/images/img064_53537301056_o.jpg",
+        "title": "img064",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-18 11:34:20",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53537301056/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53537485928",
+        "src": "/files/images/thumbnails/photo-53537485928-thumb.jpg",
+        "original": "/files/images/img062_53537485928_o.jpg",
+        "title": "img062",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-18 11:34:20",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53537485928/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53537622399",
+        "src": "/files/images/thumbnails/photo-53537622399-thumb.jpg",
+        "original": "/files/images/img063_53537622399_o.jpg",
+        "title": "img063",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-18 11:34:20",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53537622399/",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -49,7 +98,12 @@
       "editor": "Stefanie Grüner"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "53537301071",
+      "53537301056",
+      "53537485928",
+      "53537622399"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
