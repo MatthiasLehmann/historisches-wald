@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-BRANCH="documentation"
+BRANCH="${BRANCH:-main}"
 REPO_DIR="/var/www/historisches-wald"
 
 echo "Update gestartet ($(date -Iseconds))"
