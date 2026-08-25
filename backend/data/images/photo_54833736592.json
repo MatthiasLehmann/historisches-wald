@@ -1,7 +1,7 @@
 {
   "id": "54833736592",
-  "name": "Fasnet Maltesermädels_K640_Jubiläum 2011 (93)",
-  "description": "My beautiful picture",
+  "name": "Fasnet Maltesermädels",
+  "description": "",
   "count_views": "0",
   "count_faves": "0",
   "count_comments": "0",
@@ -30,5 +30,13 @@
   "tagging_permissions": "only you",
   "safety": "safe",
   "comments": [],
-  "preview": "/files/images/thumbnails/photo-54833736592-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54833736592-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54833736592/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-16T15:07:36.970Z"
 }

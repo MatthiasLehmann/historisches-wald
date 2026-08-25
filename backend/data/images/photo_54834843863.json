@@ -1,6 +1,6 @@
 {
   "id": "54834843863",
-  "name": "Rucksackfasnet alte Turnhalle_K640_Jubiläum 2011 (11)",
+  "name": "Rucksackfasnet alte Turnhalle I",
   "description": "",
   "count_views": "0",
   "count_faves": "0",
@@ -30,5 +30,13 @@
   "tagging_permissions": "only you",
   "safety": "safe",
   "comments": [],
-  "preview": "/files/images/thumbnails/photo-54834843863-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54834843863-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54834843863/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-16T14:56:23.510Z"
 }

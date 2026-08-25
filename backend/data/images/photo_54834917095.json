@@ -1,7 +1,7 @@
 {
   "id": "54834917095",
-  "name": "Rucksackfasnet_Kickeler_K640_Jubiläum 2011 (188)",
-  "description": "                               ",
+  "name": "Rucksackfasnet III",
+  "description": "",
   "count_views": "0",
   "count_faves": "0",
   "count_comments": "0",
@@ -30,5 +30,13 @@
   "tagging_permissions": "only you",
   "safety": "safe",
   "comments": [],
-  "preview": "/files/images/thumbnails/photo-54834917095-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54834917095-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54834917095/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-16T14:57:42.637Z"
 }

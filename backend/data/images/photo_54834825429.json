@@ -1,6 +1,6 @@
 {
   "id": "54834825429",
-  "name": "Ausbildung MalteserJugend_K640_Jubiläum 2011 (176)",
+  "name": "Ausbildung Malteser Jugend",
   "description": "",
   "count_views": "0",
   "count_faves": "0",
@@ -30,5 +30,13 @@
   "tagging_permissions": "only you",
   "safety": "safe",
   "comments": [],
-  "preview": "/files/images/thumbnails/photo-54834825429-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54834825429-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54834825429/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-15T18:52:41.781Z"
 }

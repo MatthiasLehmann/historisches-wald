@@ -1,7 +1,7 @@
 {
   "id": "54834592241",
-  "name": "Rucksackfasnet_K640_Jubiläum 2011 (190)",
-  "description": "                               ",
+  "name": "Die 'Gaggerer' der Rucksackfasnet im Feuerwehrhaus",
+  "description": "",
   "count_views": "0",
   "count_faves": "0",
   "count_comments": "0",
@@ -30,5 +30,13 @@
   "tagging_permissions": "only you",
   "safety": "safe",
   "comments": [],
-  "preview": "/files/images/thumbnails/photo-54834592241-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54834592241-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54834592241/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-23T16:22:02.518Z"
 }

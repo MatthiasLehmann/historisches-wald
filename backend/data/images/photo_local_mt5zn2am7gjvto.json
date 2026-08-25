@@ -1,0 +1,25 @@
+{
+  "id": "local_mt5zn2am7gjvto",
+  "name": "Bildergalerie 1.png",
+  "description": "",
+  "date_taken": "",
+  "photopage": "",
+  "original": "/files/images/album-1787500490024-151675167.png",
+  "preview": "/files/images/thumbnails/album-1787500490024-151675167-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "72177720323413656"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-08-23T15:54:51.359Z",
+  "updatedAt": "2026-08-23T15:54:51.359Z"
+}

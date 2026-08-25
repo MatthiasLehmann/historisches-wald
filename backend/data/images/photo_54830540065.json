@@ -1,6 +1,6 @@
 {
   "id": "54830540065",
-  "name": "Umzug Fasnetsamstig Malteser ca. 1977?",
+  "name": "Umzug Fasnetsamstig Malteser",
   "description": "My beautiful picture",
   "count_views": "0",
   "count_faves": "0",
@@ -38,5 +38,13 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54830540065//#comment72157720463051209"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54830540065-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54830540065-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54830540065/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-16T15:05:13.965Z"
 }

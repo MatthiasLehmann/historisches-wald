@@ -1,6 +1,6 @@
 {
   "id": "54984132831",
-  "name": "210_Landesbank",
+  "name": "Bild 1 Einnehmerei",
   "description": "",
   "count_views": "0",
   "count_faves": "0",
@@ -45,5 +45,13 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54984132831//#comment72157720477966518"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54984132831-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54984132831-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54984132831/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-16T14:49:18.828Z"
 }

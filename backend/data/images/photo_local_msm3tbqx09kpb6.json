@@ -1,14 +1,17 @@
 {
   "id": "local_msm3tbqx09kpb6",
   "name": "Artikel zum Abbruch Gebäude Seitz 1992",
-  "description": "",
-  "date_taken": "",
+  "description": "Veränderung\nJahrzehnte lang prägte die Brauerei Seitz mit ihren imposanten Brauerei- und\nLandwirtschaftsgebäuden das Dorfbild von Wald. Mitten im Dorfzentrum und unmittel- bar neben dem Kloster Wald gelegen, bot es nicht nur den Waldern ein vertrautes Bild. Doch im Laufe der letzten Jahrzehnte verfiel das repräsentative Anwesen zusehens. So mußte der Landwirtschaftskomplex bereits im vergan- genen Jahr wegen Einsturzgefahr abgerissen werden. Nach dem Tod der letzten Seitz-Vertreterin wurde das gesamte Areal an die Hohenzollerische Landesbank verkauft. Die ließ nun auch die restlichen Gebäude abreißen (unser Bild). An ihrer Stelle soll ein zweigeschossiges Wohn- und Geschäftshaus gebaut werden. Für das restliche Areal sieht der\nBebauungsplan „Dorfmitte Wald\" eine eingeschossige Wohnbebauung vor.",
+  "date_taken": "1992",
   "photopage": "",
   "original": "/files/images/album-1786298176937-118948776.jpg",
   "preview": "/files/images/thumbnails/album-1786298176937-118948776-thumb.jpg",
   "license": "All Rights Reserved",
   "privacy": "public",
-  "tags": [],
+  "tags": [
+    "wald",
+    "Brauerei"
+  ],
   "albums": [
     "72177720324399929"
   ],
@@ -21,5 +24,6 @@
   },
   "missing": false,
   "createdAt": "2026-08-09T17:56:18.514Z",
-  "updatedAt": "2026-08-09T17:58:00.267Z"
+  "updatedAt": "2026-08-12T13:33:53.407Z",
+  "source": "Südkurier ppb./Bild: Steffan"
 }

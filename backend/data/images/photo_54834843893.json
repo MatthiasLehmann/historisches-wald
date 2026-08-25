@@ -1,6 +1,6 @@
 {
   "id": "54834843893",
-  "name": "K640_Jubiläum 2011 (196)",
+  "name": "Jugendgruppe",
   "description": "",
   "count_views": "0",
   "count_faves": "0",
@@ -30,5 +30,13 @@
   "tagging_permissions": "only you",
   "safety": "safe",
   "comments": [],
-  "preview": "/files/images/thumbnails/photo-54834843893-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54834843893-thumb.jpg",
+  "source": "https://www.flickr.com/photos/199943033@N03/54834843893/",
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-15T19:07:53.783Z"
 }

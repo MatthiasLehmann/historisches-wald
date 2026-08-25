@@ -28,11 +28,12 @@
   "safety": "safe",
   "comments": [],
   "preview": "/files/images/thumbnails/photo-54382715049-thumb.jpg",
-  "updatedAt": "2026-08-09T17:51:52.462Z",
+  "updatedAt": "2026-08-12T13:34:38.541Z",
   "review": {
-    "status": "pending",
+    "status": "approved",
     "reviewer": "",
     "reviewedAt": null,
     "comments": []
-  }
+  },
+  "source": "https://www.flickr.com/photos/199943033@N03/54382715049/"
 }
