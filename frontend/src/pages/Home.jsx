@@ -120,7 +120,7 @@ const Home = () => {
                             <span className="text-accent italic">Geschichte von Wald</span>
                         </h1>
                         <p className="text-xl md:text-2xl font-light mb-10 text-parchment/80 leading-relaxed max-w-2xl mx-auto">
-                            Ein digitales Archiv für historische Dokumente, Urkunden und Fotografien aus vergangenen Jahrhunderten.
+                            Willkommen auf unserer Homepage, auf der die Geschichte der zehn Ortsteile der Gemeinde Wald / Hohenzollern zum Leben erwacht.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link
@@ -142,6 +142,27 @@ const Home = () => {
 
             <section className="py-16 bg-parchment border-b border-parchment-dark/60">
                 <div className="container mx-auto px-4">
+                    <div className="mb-14">
+                        <h2 className="mb-5 font-serif text-3xl font-bold text-ink md:text-4xl">
+                            Historisches Wald - Gemeinsam für die Geschichte unserer Heimat
+                        </h2>
+                        <div className="space-y-4 text-lg leading-relaxed text-ink/75">
+                            <p>
+                                Hier findest du erste Beiträge, Geschichten, Bilder, Erzählungen und Auszüge oder Hinweise auf Literatur und kannst gerne selbst etwas beitragen.
+                                Vieles wurde uns freundlicherweise zur Verfügung gestellt, einiges stammt aus Veröffentlichungen, manches wurde ergänzt.
+                                Weiteres Material und Beiträge sind herzlich willkommen!
+                            </p>
+                            <p>
+                                Unser Ziel ist es, durch die Veröffentlichung des gesammelten Materials das historische Erbe unserer Gemeinde zu bewahren und die gesammelten Bilder und das erhaltene Wissen allen zugänglich zu machen.
+                                Auf diese Weise soll diese Sammlung stetig wachsen und für uns alle immer interessanter werden.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="mb-14 flex items-center gap-4" aria-hidden="true">
+                        <div className="h-px flex-1 bg-parchment-dark"></div>
+                        <div className="h-1.5 w-20 rounded-full bg-accent"></div>
+                        <div className="h-px flex-1 bg-parchment-dark"></div>
+                    </div>
                     <div className="grid gap-8 lg:grid-cols-[0.9fr_1.4fr] lg:items-center">
                         <div className="space-y-5">
                             <p className="text-xs uppercase tracking-[0.45em] text-accent">Ortsteile</p>
