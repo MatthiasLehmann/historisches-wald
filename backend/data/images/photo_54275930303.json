@@ -1,7 +1,7 @@
 {
   "id": "54275930303",
   "name": "Gasthaus zur Post und Villa Koch",
-  "description": "37_Wald I\nca. 1930?",
+  "description": "Links: Hohenzollernstraße 18 (früher Hausnr. 1 und 4) Heute St. Maurus mit Turnhalle der Heimschule. Unter Äbtissin Edmunda von Kolb als Gästehaus des Klosters von 1793-1797 gebaut, mit Zehntscheuer und Ställen. 1806 durch die Säkularisation von Napoleon enteignet, dem Fürst von Sigmaringen zugesprochen. Bis 1809 als Lehensgut durch F.J. Linder bewirtschaftet. Übernahme der Gastwirtschaft mit Landwirtschaft durch Schwiegersohn Franz-Sales Koch I. 1822 von 'Gasthaus zur Post' in 'Gasthaus zum Adler' umbenannt. Allodifikation (Ablösung) 1841. Wein- und Gastwirtschaft, Poststation, Metzgerei, Bäckerei und kl. Filiale der Hohenz. Landesbank. Besitzerwechsel an Schwiegersohn Anton Fröhlich. 1961 Verkauf des Anwesens an das Kloster. Jetzt St. Maurus mit Werkstätten der Heimschule. Abbruch der Zehntscheuer mit Ställen, jetzt Turnhalle der Heimschule. \n\nRechts: Von-Weckenstein-Str. 3 (früher Hausnr. 126) Heute: Außenhaus der Heimschule Koch'sche Villa. Gebaut für/von Bürgermeister Koch (Bruder des Gastwirts Koch) und seine Mutter. Verkauft 1959 an die Klosterschwestern, die es zunächst vermieteten. Früher auch Legewie-Haus genannt. Letzte Mieter: Herr und Frau Peteln. Elfriede Kempter",
   "count_views": "0",
   "count_faves": "0",
   "count_comments": "3",
@@ -23,31 +23,11 @@
     }
   ],
   "tags": [
-    {
-      "tag": "Postkarte",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:39"
-    },
-    {
-      "tag": "ClemensVeeser",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:39"
-    },
-    {
-      "tag": "Wald",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:39"
-    },
-    {
-      "tag": "Auswahl1",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:39"
-    },
-    {
-      "tag": "Postk.Website",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:39"
-    }
+    "Postkarte",
+    "ClemensVeeser",
+    "Wald",
+    "Auswahl1",
+    "Postk.Website"
   ],
   "people": [],
   "notes": [],
@@ -78,5 +58,13 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54275930303//#comment72157720445105802"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54275930303-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54275930303-thumb.jpg",
+  "source": "Postkarte von Clemens Veeser Stefanie Grüner",
+  "review": {
+    "status": "approved",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-26T16:21:27.588Z"
 }

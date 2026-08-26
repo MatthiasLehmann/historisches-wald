@@ -23,21 +23,9 @@
     }
   ],
   "tags": [
-    {
-      "tag": "Postkarte",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:40"
-    },
-    {
-      "tag": "ClemensVeeser",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:40"
-    },
-    {
-      "tag": "Wald",
-      "user": "https://www.flickr.com/photos/199943033@N03/",
-      "date_create": "2025-01-19 12:23:40"
-    }
+    "Postkarte",
+    "ClemensVeeser",
+    "Wald"
   ],
   "people": [],
   "notes": [],
@@ -54,5 +42,13 @@
       "url": "https://www.flickr.com/photos/199943033@N03/54274801137//#comment72157720410070301"
     }
   ],
-  "preview": "/files/images/thumbnails/photo-54274801137-thumb.jpg"
+  "preview": "/files/images/thumbnails/photo-54274801137-thumb.jpg",
+  "source": "Postkarte von Clemens Veeser Kommentar von Stefanie Grüner",
+  "review": {
+    "status": "approved",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "updatedAt": "2026-08-26T16:23:03.974Z"
 }
