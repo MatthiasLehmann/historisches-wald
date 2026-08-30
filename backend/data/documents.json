@@ -10,7 +10,7 @@
       "Zeitzeugen"
     ],
     "location": "",
-    "description": "<p>Dr. Karl Kuhn verfasste 1982 in Hechingen die Chronik \"Zur Geschichte der Familie Kuhn in Wald\" \"Mit einer Ahnentafel und 80 Photographien auf 21 Blättern\". Auf Seite 69 bis 85 beschreibt er sein Heimatdorf Wald.</p>",
+    "description": "<p>Dr. Karl Kuhn verfasste 1982 in Hechingen die Chronik \"Zur Geschichte der Familie Kuhn in Wald\" \"Mit einer Ahnentafel und 80 Photographien auf 21 Blättern\". Auf Seite 69 bis 85 beschreibt er sein Heimatdorf Wald und wovon die Walder um das Jahr 1900 lebten.</p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -22,7 +22,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Dr. Karl Kuhn verfasste 1982 in Hechingen die Chronik \"Zur Geschichte der Familie Kuhn in Wald\" \"Mit einer Ahnentafel und 80 Photographien auf 21 Blättern\". Auf Seite 69 bis 85 beschreibt er sein Heimatdorf Wald."
+              "text": "Dr. Karl Kuhn verfasste 1982 in Hechingen die Chronik \"Zur Geschichte der Familie Kuhn in Wald\" \"Mit einer Ahnentafel und 80 Photographien auf 21 Blättern\". Auf Seite 69 bis 85 beschreibt er sein Heimatdorf Wald und wovon die Walder um das Jahr 1900 lebten."
             }
           ]
         }
