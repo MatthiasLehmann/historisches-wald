@@ -2122,7 +2122,9 @@
     },
     "imageIds": [],
     "albumPhotoIds": [],
-    "pdfIds": [],
+    "pdfIds": [
+      "pdf-00025"
+    ],
     "review": {
       "status": "approved",
       "reviewer": "Martin Kuhn",
