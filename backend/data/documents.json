@@ -11,10 +11,30 @@
       "Gewerbe"
     ],
     "location": "",
-    "description": "",
-    "descriptionJson": null,
-    "transcription": "",
-    "transcriptionJson": null,
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p></p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
     "images": [],
     "coverPhotoId": "",
     "showInTimeline": true,
@@ -27,7 +47,9 @@
     },
     "imageIds": [],
     "albumPhotoIds": [],
-    "pdfIds": [],
+    "pdfIds": [
+      "pdf-00024"
+    ],
     "review": {
       "status": "pending",
       "reviewer": "",
