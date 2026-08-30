@@ -338,9 +338,9 @@
       "pdf-00024"
     ],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Martin Kuhn",
+      "reviewedAt": "2026-08-30T19:58:11.874Z",
       "comments": []
     }
   },
