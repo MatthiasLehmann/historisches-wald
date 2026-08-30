@@ -1,5 +1,41 @@
 [
   {
+    "id": "doc-1788116720939",
+    "sortOrder": -2,
+    "title": "Das Hafnerhandwerk in Klosterwald",
+    "year": 1960,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Handwerk",
+      "Gewerbe"
+    ],
+    "location": "",
+    "description": "",
+    "descriptionJson": null,
+    "transcription": "",
+    "transcriptionJson": null,
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Martin Kuhn"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1787493799966",
     "sortOrder": -1,
     "title": "Fasnet in Wald",
