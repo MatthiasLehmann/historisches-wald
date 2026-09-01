@@ -3791,7 +3791,9 @@
       "54834592241",
       "local_mt5znaixpfyfel"
     ],
-    "pdfIds": [],
+    "pdfIds": [
+      "pdf-00027"
+    ],
     "review": {
       "status": "approved",
       "reviewer": "Martin Kuhn",
