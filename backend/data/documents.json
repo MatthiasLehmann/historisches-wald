@@ -1377,7 +1377,9 @@
       "local_mtyxf8oc67fr5m",
       "local_mtywkgwfm2kxvi"
     ],
-    "pdfIds": [],
+    "pdfIds": [
+      "pdf-00028"
+    ],
     "review": {
       "status": "pending",
       "reviewer": "",
