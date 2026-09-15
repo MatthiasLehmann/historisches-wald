@@ -20,10 +20,16 @@
         }
       ]
     },
-    "transcription": "<figure class=\"album-photo-node\" data-album-photo-id=\"local_mu32ga602d2ejh\"><img src=\"/files/images/thumbnails/album-1789500597525-644691740-thumb.jpg\" alt=\"Seite 1.png\"><figcaption>Seite 1.png</figcaption></figure>",
+    "transcription": "<p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mu32ga602d2ejh\"><img src=\"/files/images/thumbnails/album-1789500597525-644691740-thumb.jpg\" alt=\"Seite 1.png\"><figcaption>Seite 1.png</figcaption></figure><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mu32pgxz1bvbmc\"><img src=\"/files/images/thumbnails/album-1789501026215-988597103-thumb.jpg\" alt=\"Seite 2.png\"><figcaption>Seite 2.png</figcaption></figure><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mu32pmguryz0g5\"><img src=\"/files/images/thumbnails/album-1789501033385-386541234-thumb.jpg\" alt=\"Seite 3.png\"><figcaption>Seite 3.png</figcaption></figure><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mu32qh3zlw0n4x\"><img src=\"/files/images/thumbnails/album-1789501073083-76309821-thumb.jpg\" alt=\"Seite 4.png\"><figcaption>Seite 4.png</figcaption></figure><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mu32q7xe2orm8n\"><img src=\"/files/images/thumbnails/album-1789501061170-376508469-thumb.jpg\" alt=\"Seite 5.png\"><figcaption>Seite 5.png</figcaption></figure><p></p><p></p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
         {
           "type": "albumPhoto",
           "attrs": {
@@ -31,6 +37,78 @@
             "src": "/files/images/thumbnails/album-1789500597525-644691740-thumb.jpg",
             "alt": "Seite 1.png",
             "caption": "Seite 1.png"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mu32pgxz1bvbmc",
+            "src": "/files/images/thumbnails/album-1789501026215-988597103-thumb.jpg",
+            "alt": "Seite 2.png",
+            "caption": "Seite 2.png"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mu32pmguryz0g5",
+            "src": "/files/images/thumbnails/album-1789501033385-386541234-thumb.jpg",
+            "alt": "Seite 3.png",
+            "caption": "Seite 3.png"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mu32qh3zlw0n4x",
+            "src": "/files/images/thumbnails/album-1789501073083-76309821-thumb.jpg",
+            "alt": "Seite 4.png",
+            "caption": "Seite 4.png"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mu32q7xe2orm8n",
+            "src": "/files/images/thumbnails/album-1789501061170-376508469-thumb.jpg",
+            "alt": "Seite 5.png",
+            "caption": "Seite 5.png"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
           }
         }
       ]
@@ -41,6 +119,54 @@
         "src": "/files/images/thumbnails/album-1789500597525-644691740-thumb.jpg",
         "original": "/files/images/album-1789500597525-644691740.png",
         "title": "Seite 1.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mu32pgxz1bvbmc",
+        "src": "/files/images/thumbnails/album-1789501026215-988597103-thumb.jpg",
+        "original": "/files/images/album-1789501026215-988597103.png",
+        "title": "Seite 2.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mu32pmguryz0g5",
+        "src": "/files/images/thumbnails/album-1789501033385-386541234-thumb.jpg",
+        "original": "/files/images/album-1789501033385-386541234.png",
+        "title": "Seite 3.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mu32qh3zlw0n4x",
+        "src": "/files/images/thumbnails/album-1789501073083-76309821-thumb.jpg",
+        "original": "/files/images/album-1789501073083-76309821.png",
+        "title": "Seite 4.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mu32q7xe2orm8n",
+        "src": "/files/images/thumbnails/album-1789501061170-376508469-thumb.jpg",
+        "original": "/files/images/album-1789501061170-376508469.png",
+        "title": "Seite 5.png",
         "description": "",
         "type": "album",
         "date": "",
@@ -60,7 +186,11 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mu32ga602d2ejh"
+      "local_mu32ga602d2ejh",
+      "local_mu32pgxz1bvbmc",
+      "local_mu32pmguryz0g5",
+      "local_mu32qh3zlw0n4x",
+      "local_mu32q7xe2orm8n"
     ],
     "pdfIds": [
       "pdf-00030"
