@@ -8,11 +8,47 @@
     "category": "Rothenlachen",
     "subcategories": [],
     "location": "",
-    "description": "",
-    "descriptionJson": null,
-    "transcription": "",
-    "transcriptionJson": null,
-    "images": [],
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<figure class=\"album-photo-node\" data-album-photo-id=\"local_mu32ga602d2ejh\"><img src=\"/files/images/thumbnails/album-1789500597525-644691740-thumb.jpg\" alt=\"Seite 1.png\"><figcaption>Seite 1.png</figcaption></figure>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mu32ga602d2ejh",
+            "src": "/files/images/thumbnails/album-1789500597525-644691740-thumb.jpg",
+            "alt": "Seite 1.png",
+            "caption": "Seite 1.png"
+          }
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "local_mu32ga602d2ejh",
+        "src": "/files/images/thumbnails/album-1789500597525-644691740-thumb.jpg",
+        "original": "/files/images/album-1789500597525-644691740.png",
+        "title": "Seite 1.png",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -23,7 +59,9 @@
       "editor": "Martin Kuhn"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mu32ga602d2ejh"
+    ],
     "pdfIds": [
       "pdf-00030"
     ],
