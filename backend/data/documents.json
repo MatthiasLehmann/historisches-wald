@@ -1,5 +1,38 @@
 [
   {
+    "id": "doc-1789499305864",
+    "sortOrder": -5,
+    "title": "Frühgeschichte von Rothenlachen von Dr. Ralf Keller",
+    "year": 2024,
+    "parent_id": "",
+    "category": "Rothenlachen",
+    "subcategories": [],
+    "location": "",
+    "description": "",
+    "descriptionJson": null,
+    "transcription": "",
+    "transcriptionJson": null,
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Dr. Ralf Keller",
+      "source": "Unbekannt",
+      "editor": "Martin Kuhn"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1789246800723",
     "sortOrder": -4,
     "title": "Historisches Rothenlachen",
