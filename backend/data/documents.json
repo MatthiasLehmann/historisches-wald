@@ -23,7 +23,7 @@
         }
       ]
     },
-    "transcription": "<p></p>",
+    "transcription": "<p>Wie ein roter Faden ziehen sich die Theateraufführungen durch das Vereinsgeschehen. Die Auswahl und Einstudierungen der Theaterstücke übernahm in bewährter Regie der langjährige Oberturnwart und 1978 zum Ehrenmitglied ernannte Schmiedemeister August Restle. Er verstand es, mit seinem Idealismus und Einfühlvermögen meisterhaft durch die Proben zu führen und eindrucksvoll die einzelnen Szenen zu gestalten.</p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -31,7 +31,13 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Wie ein roter Faden ziehen sich die Theateraufführungen durch das Vereinsgeschehen. Die Auswahl und Einstudierungen der Theaterstücke übernahm in bewährter Regie der langjährige Oberturnwart und 1978 zum Ehrenmitglied ernannte Schmiedemeister August Restle. Er verstand es, mit seinem Idealismus und Einfühlvermögen meisterhaft durch die Proben zu führen und eindrucksvoll die einzelnen Szenen zu gestalten."
+            }
+          ]
         }
       ]
     },
