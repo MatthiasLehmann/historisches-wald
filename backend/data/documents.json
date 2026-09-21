@@ -6,7 +6,9 @@
     "year": 2024,
     "parent_id": "",
     "category": "Rothenlachen",
-    "subcategories": [],
+    "subcategories": [
+      "Vorstellung"
+    ],
     "location": "Rothenlachen",
     "description": "<p></p>",
     "descriptionJson": {
