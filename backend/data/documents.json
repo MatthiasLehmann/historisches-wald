@@ -211,7 +211,9 @@
     "year": 2026,
     "parent_id": "",
     "category": "Rothenlachen",
-    "subcategories": [],
+    "subcategories": [
+      "Vorstellung"
+    ],
     "location": "Rothenlachen",
     "description": "<p>Anlässlich der 800-Jahrfeier von Rothenlachen fertigte Gabriele Kraft im September 2024 die Chronik  \"800 Jahre Rothenlachen\" an. Für diese Website hat Frau Kraft eine Kurzfassung verfasst. </p>",
     "descriptionJson": {
