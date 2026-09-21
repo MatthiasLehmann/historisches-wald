@@ -23,7 +23,7 @@
         }
       ]
     },
-    "transcription": "<p>Wie ein roter Faden ziehen sich die Theateraufführungen durch das Vereinsgeschehen. Die Auswahl und Einstudierungen der Theaterstücke übernahm in bewährter Regie der langjährige Oberturnwart und 1978 zum Ehrenmitglied ernannte Schmiedemeister August Restle. Er verstand es, mit seinem Idealismus und Einfühlvermögen meisterhaft durch die Proben zu führen und eindrucksvoll die einzelnen Szenen zu gestalten.</p>",
+    "transcription": "<p>Wie ein roter Faden ziehen sich die Theateraufführungen durch das Vereinsgeschehen. Die Auswahl und Einstudierungen der Theaterstücke übernahm in bewährter Regie der langjährige Oberturnwart und 1978 zum Ehrenmitglied ernannte Schmiedemeister August Restle. Er verstand es, mit seinem Idealismus und Einfühlvermögen meisterhaft durch die Proben zu führen und eindrucksvoll die einzelnen Szenen zu gestalten.</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mubn5mn2mduh0p\"><img src=\"/files/images/thumbnails/album-1790019101821-634794296-thumb.jpg\" alt=\"Freischütz\"><figcaption>Freischütz</figcaption></figure><p></p><p></p><p></p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -38,10 +38,50 @@
               "text": "Wie ein roter Faden ziehen sich die Theateraufführungen durch das Vereinsgeschehen. Die Auswahl und Einstudierungen der Theaterstücke übernahm in bewährter Regie der langjährige Oberturnwart und 1978 zum Ehrenmitglied ernannte Schmiedemeister August Restle. Er verstand es, mit seinem Idealismus und Einfühlvermögen meisterhaft durch die Proben zu führen und eindrucksvoll die einzelnen Szenen zu gestalten."
             }
           ]
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mubn5mn2mduh0p",
+            "src": "/files/images/thumbnails/album-1790019101821-634794296-thumb.jpg",
+            "alt": "Freischütz",
+            "caption": "Freischütz"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
         }
       ]
     },
-    "images": [],
+    "images": [
+      {
+        "id": "local_mubn5mn2mduh0p",
+        "src": "/files/images/thumbnails/album-1790019101821-634794296-thumb.jpg",
+        "original": "/files/images/album-1790019101821-634794296.png",
+        "title": "Freischütz",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -52,7 +92,9 @@
       "editor": "Martin Kuhn"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mubn5mn2mduh0p"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
