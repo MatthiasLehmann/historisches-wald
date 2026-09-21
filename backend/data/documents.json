@@ -11,7 +11,7 @@
       "Vereine"
     ],
     "location": "",
-    "description": "<p></p>",
+    "description": "<p>Der TSV führte mit dem Kirchenchor ca. 1950 bis 1961 Theaterstücke auf.</p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
@@ -19,11 +19,17 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Der TSV führte mit dem Kirchenchor ca. 1950 bis 1961 Theaterstücke auf."
+            }
+          ]
         }
       ]
     },
-    "transcription": "<p>Wie ein roter Faden ziehen sich die Theateraufführungen durch das Vereinsgeschehen. Die Auswahl und Einstudierungen der Theaterstücke übernahm in bewährter Regie der langjährige Oberturnwart und 1978 zum Ehrenmitglied ernannte Schmiedemeister August Restle. Er verstand es, mit seinem Idealismus und Einfühlvermögen meisterhaft durch die Proben zu führen und eindrucksvoll die einzelnen Szenen zu gestalten.</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mubn5mn2mduh0p\"><img src=\"/files/images/thumbnails/album-1790019101821-634794296-thumb.jpg\" alt=\"Freischütz\"><figcaption>Freischütz</figcaption></figure><p></p><p></p><p></p>",
+    "transcription": "<p>Wie ein roter Faden ziehen sich die Theateraufführungen durch das Vereinsgeschehen. Die Auswahl und Einstudierungen der Theaterstücke übernahm in bewährter Regie der langjährige Oberturnwart und 1978 zum Ehrenmitglied ernannte Schmiedemeister August Restle. Er verstand es, mit seinem Idealismus und Einfühlvermögen meisterhaft durch die Proben zu führen und eindrucksvoll die einzelnen Szenen zu gestalten.</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mubn5mn2mduh0p\"><img src=\"/files/images/thumbnails/album-1790019101821-634794296-thumb.jpg\" alt=\"Freischütz\"><figcaption>Freischütz</figcaption></figure><p>Die Theatergruppe des TSV Wald und der Kirchenchor Wald führte 1959 die Oper „Der Freischütz“ auf. V.l.: ‚Ferde‘ Vonier, Lydia Fox geb. Ostermaier, Anton Erath, Richard Stoll (Steckeln), Hugo Glöckler (Reischach), Mathäus Homberger, Manfred Müller.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mubn64ibmuuswb\"><img src=\"/files/images/thumbnails/album-1790019124990-738171641-thumb.jpg\" alt=\"Heiraterei\"><figcaption>Heiraterei</figcaption></figure><p>Aufführung des Lustspiels „Die Heiraterei“ der Theatergruppe des TSV Wald 1960.</p><p></p><p>Noch heute erinnert man sich gerne in Wald und der weiteren Umgebung an folgende Theaterstücke:</p><ul><li><p>Des Glockenspielers Töchterlein</p></li><li><p>Der Tatzelwurm</p></li><li><p>Die Zigeunerin von Rocca Valla, 1953</p></li><li><p>Die Orgelmacher, 1957</p></li><li><p>Der Freischütz, 1959</p></li><li><p>Heiraterei, 1960</p></li><li><p>Der Steinmetz zum Dombau in Köln, 1961</p></li></ul><p>Nach der Fertigstellung 1954/55 fanden die Aufführungen in der Vereinsturnhalle des TSV statt. Die passenden Kulissen entwarf der Walder Kunstmaler Robert Schneider. Weit und breit war die Walder Theatergesellschaft des Turnvereins, die ein harmonisches Zusammenwirken vor allem mit dem Kirchenchor und der Musikkapelle zeigte, bekannt. Bei den Aufführungen herrschte oft großer Andrang und es mussten weitere Termine geplant werden. Mit den Einnahmen aus dem Theaterspiel verbesserte sich der Kassenstand des Vereins spürbar und die Schuldenlast durch den Vereinsturnhallenbau konnte abgetragen werden.</p><p>Bericht aus dem TSV Wald Archiv</p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -52,7 +58,40 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Die Theatergruppe des TSV Wald und der Kirchenchor Wald führte 1959 die Oper „Der Freischütz“ auf. V.l.: ‚Ferde‘ Vonier, Lydia Fox geb. Ostermaier, Anton Erath, Richard Stoll (Steckeln), Hugo Glöckler (Reischach), Mathäus Homberger, Manfred Müller."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
           }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mubn64ibmuuswb",
+            "src": "/files/images/thumbnails/album-1790019124990-738171641-thumb.jpg",
+            "alt": "Heiraterei",
+            "caption": "Heiraterei"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Aufführung des Lustspiels „Die Heiraterei“ der Theatergruppe des TSV Wald 1960."
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -64,7 +103,161 @@
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Noch heute erinnert man sich gerne in Wald und der weiteren Umgebung an folgende Theaterstücke:"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Des Glockenspielers Töchterlein"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Der Tatzelwurm"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Die Zigeunerin von Rocca Valla, 1953"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Die Orgelmacher, 1957"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Der Freischütz, 1959"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Heiraterei, 1960"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Der Steinmetz zum Dombau in Köln, 1961"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Nach der Fertigstellung 1954/55 fanden die Aufführungen in der Vereinsturnhalle des TSV statt. Die passenden Kulissen entwarf der Walder Kunstmaler Robert Schneider. Weit und breit war die Walder Theatergesellschaft des Turnvereins, die ein harmonisches Zusammenwirken vor allem mit dem Kirchenchor und der Musikkapelle zeigte, bekannt. Bei den Aufführungen herrschte oft großer Andrang und es mussten weitere Termine geplant werden. Mit den Einnahmen aus dem Theaterspiel verbesserte sich der Kassenstand des Vereins spürbar und die Schuldenlast durch den Vereinsturnhallenbau konnte abgetragen werden."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Bericht aus dem TSV Wald Archiv"
+            }
+          ]
         }
       ]
     },
@@ -74,6 +267,18 @@
         "src": "/files/images/thumbnails/album-1790019101821-634794296-thumb.jpg",
         "original": "/files/images/album-1790019101821-634794296.png",
         "title": "Freischütz",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mubn64ibmuuswb",
+        "src": "/files/images/thumbnails/album-1790019124990-738171641-thumb.jpg",
+        "original": "/files/images/album-1790019124990-738171641.png",
+        "title": "Heiraterei",
         "description": "",
         "type": "album",
         "date": "",
@@ -93,7 +298,8 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mubn5mn2mduh0p"
+      "local_mubn5mn2mduh0p",
+      "local_mubn64ibmuuswb"
     ],
     "pdfIds": [],
     "review": {
