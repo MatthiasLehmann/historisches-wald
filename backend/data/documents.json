@@ -1,5 +1,61 @@
 [
   {
+    "id": "doc-1790019030359",
+    "sortOrder": -6,
+    "title": "Theatergesellschaft des TSV Wald",
+    "year": 1960,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Veranstaltungen",
+      "Vereine"
+    ],
+    "location": "",
+    "description": "<p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p></p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "TSV Wald Archiv",
+      "editor": "Martin Kuhn"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1789499305864",
     "sortOrder": -5,
     "title": "Frühgeschichte von Rothenlachen von Dr. Ralf Keller",
