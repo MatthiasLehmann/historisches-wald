@@ -263,18 +263,6 @@
     },
     "images": [
       {
-        "id": "local_mubn5mn2mduh0p",
-        "src": "/files/images/thumbnails/album-1790019101821-634794296-thumb.jpg",
-        "original": "/files/images/album-1790019101821-634794296.png",
-        "title": "Freischütz",
-        "description": "",
-        "type": "album",
-        "date": "",
-        "author": "",
-        "source": "",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "local_mubn64ibmuuswb",
         "src": "/files/images/thumbnails/album-1790019124990-738171641-thumb.jpg",
         "original": "/files/images/album-1790019124990-738171641.png",
@@ -287,7 +275,7 @@
         "license": "All Rights Reserved"
       }
     ],
-    "coverPhotoId": "",
+    "coverPhotoId": "local_mubn5mn2mduh0p",
     "showInTimeline": true,
     "showInArchive": true,
     "showInWordCloud": true,
@@ -298,7 +286,6 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mubn5mn2mduh0p",
       "local_mubn64ibmuuswb"
     ],
     "pdfIds": [],
