@@ -1,5 +1,38 @@
 [
   {
+    "id": "doc-1791017989188",
+    "sortOrder": -7,
+    "title": "Historisches Rothenlachen",
+    "year": 2024,
+    "parent_id": "",
+    "category": "Rothenlachen",
+    "subcategories": [],
+    "location": "",
+    "description": "",
+    "descriptionJson": null,
+    "transcription": "",
+    "transcriptionJson": null,
+    "images": [],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Gabriele Kraft",
+      "source": "Unbekannt",
+      "editor": "Martin Kuhn"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
     "id": "doc-1790019030359",
     "sortOrder": -6,
     "title": "Theatergesellschaft des TSV Wald",
