@@ -8,11 +8,59 @@
     "category": "Rothenlachen",
     "subcategories": [],
     "location": "",
-    "description": "",
-    "descriptionJson": null,
-    "transcription": "",
-    "transcriptionJson": null,
-    "images": [],
+    "description": "<figure class=\"album-photo-node\" data-album-photo-id=\"local_mutlnrbdav5nsq\"><img src=\"/files/images/thumbnails/album-1791104979283-243673415-thumb.jpg\" alt=\"TestTitel\"><figcaption>TestTitel</figcaption></figure><p></p><p></p>",
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_mutlnrbdav5nsq",
+            "src": "/files/images/thumbnails/album-1791104979283-243673415-thumb.jpg",
+            "alt": "TestTitel",
+            "caption": "TestTitel"
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcription": "<p></p>",
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "images": [
+      {
+        "id": "local_mutlnrbdav5nsq",
+        "src": "/files/images/thumbnails/album-1791104979283-243673415-thumb.jpg",
+        "original": "/files/images/album-1791104979283-243673415.png",
+        "title": "TestTitel",
+        "description": "TestBeschreibung\nQuelle. Test",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      }
+    ],
     "coverPhotoId": "",
     "showInTimeline": true,
     "showInArchive": true,
@@ -23,7 +71,9 @@
       "editor": "M.Lehmann"
     },
     "imageIds": [],
-    "albumPhotoIds": [],
+    "albumPhotoIds": [
+      "local_mutlnrbdav5nsq"
+    ],
     "pdfIds": [],
     "review": {
       "status": "pending",
