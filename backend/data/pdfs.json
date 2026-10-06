@@ -1,5 +1,314 @@
 [
   {
+    "id": "pdf-00033",
+    "title": "Historisches Rothenlachen Gabriele Kraft September 2026.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Historisches-Rothenlachen-Gabriele-Kraft-September-2026.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1791017989188"
+    ],
+    "createdAt": "2026-10-03T09:06:07.470Z",
+    "updatedAt": "2026-10-03T09:07:00.657Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00032",
+    "title": "Rothenlachen Frühgeschichte Dr Keller 28.09.2026.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Rothenlachen-Fru-hgeschichte-Dr-Keller-28.09.2026.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-10-03T09:05:54.845Z",
+    "updatedAt": "2026-10-03T09:05:54.845Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00031",
+    "title": "Rothenlachen_überarbeitet_3.10.2026_PDF.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Rothenlachen_u-berarbeitet_3.10.2026_PDF.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-10-03T09:01:28.270Z",
+    "updatedAt": "2026-10-03T09:05:34.239Z",
+    "deletedAt": "2026-10-03T09:05:34.239Z"
+  },
+  {
+    "id": "pdf-00030",
+    "title": "Frühgeschichte Rothenlachen Ralf Keller.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Fru-hgeschichte-Rothenlachen-Ralf-Keller.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1789499305864"
+    ],
+    "createdAt": "2026-09-15T19:09:07.050Z",
+    "updatedAt": "2026-09-15T19:11:10.863Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00029",
+    "title": "Rothenlachen Frühgeschichte Dr Keller",
+    "year": null,
+    "description": "Dr. Ralf Keller schreibt über achäologische Fundstätten und Funde aus der Umgebung von Rothenlachen",
+    "location": "",
+    "source": "",
+    "author": "Dr. Ralf Keller",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Rothenlachen_Fru-hgesch_Keller.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-09-12T18:59:04.621Z",
+    "updatedAt": "2026-09-12T19:03:15.793Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00028",
+    "title": "Historisches Rothenlachen Gabriele Kraft März 2026.pdf",
+    "year": 2026,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "Gabriele Kraft",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Historisches-Rothenlachen-Gabriele-Kraft-Ma-rz-2026.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1789246800723"
+    ],
+    "createdAt": "2026-09-12T18:58:38.292Z",
+    "updatedAt": "2026-09-12T22:09:56.780Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00027",
+    "title": "Fasnet in Wald Stand 30.08.2026.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Fasnet-in-Wald-Stand-30.08.2026.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1787493799966"
+    ],
+    "createdAt": "2026-09-01T19:41:02.185Z",
+    "updatedAt": "2026-09-01T19:42:13.188Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00026",
+    "title": "0007_260728205003_001.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/0007_260728205003_001.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-09-01T13:18:46.186Z",
+    "updatedAt": "2026-09-01T13:18:51.259Z",
+    "deletedAt": "2026-09-01T13:18:51.259Z"
+  },
+  {
+    "id": "pdf-00025",
+    "title": "Karl Kuhn über sein Heimatdorf Wald",
+    "year": 1992,
+    "description": "",
+    "location": "",
+    "source": "Zur Geschichte der Familie Kuhn in Wald",
+    "author": "Dr. Karl Kuhn",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Karl-Kuhn-u-ber-sein-Heimatdorf-Wald-v.-Elfriede-Kempter-abgeschrieben.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "approved",
+      "reviewer": "Martin Kuhn",
+      "reviewedAt": "2026-08-30T22:49:03.604Z",
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1788122459477"
+    ],
+    "createdAt": "2026-08-30T22:46:31.122Z",
+    "updatedAt": "2026-08-30T22:50:22.402Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00024",
+    "title": "Hafnerhandwerk in Klosterwald Stand 10.07.2025.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Hafnerhandwerk-in-Klosterwald-Stand-10.07.2025.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [
+      "doc-1788116720939"
+    ],
+    "createdAt": "2026-08-30T19:03:47.477Z",
+    "updatedAt": "2026-08-30T19:38:12.640Z",
+    "deletedAt": null
+  },
+  {
+    "id": "pdf-00023",
+    "title": "Bernhard-Gloeckler-ueber-die-Bank-frueher.pdf",
+    "year": null,
+    "description": "",
+    "location": "",
+    "source": "",
+    "author": "",
+    "license": "rights-reserved",
+    "tags": [],
+    "file": {
+      "type": "local",
+      "path": "/files/pdf/Bernhard-Gloeckler-ueber-die-Bank-frueher-1.pdf",
+      "originalUrl": null
+    },
+    "pages": null,
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    },
+    "linkedDocuments": [],
+    "createdAt": "2026-08-30T18:18:38.654Z",
+    "updatedAt": "2026-08-30T18:18:38.654Z",
+    "deletedAt": null
+  },
+  {
     "id": "pdf-00022",
     "title": "Südkurier Vorstellung Zeh 15.04.1969.pdf",
     "year": null,

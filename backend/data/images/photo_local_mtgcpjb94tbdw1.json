@@ -1,0 +1,25 @@
+{
+  "id": "local_mtgcpjb94tbdw1",
+  "name": "Dr. Karl Kuhn",
+  "description": "",
+  "date_taken": "1992-07-01",
+  "photopage": "",
+  "original": "/files/images/album-1788127103438-555190507.jpg",
+  "preview": "/files/images/thumbnails/album-1788127103438-555190507-thumb.jpg",
+  "license": "All Rights Reserved",
+  "privacy": "public",
+  "tags": [],
+  "albums": [
+    "72177720330911192"
+  ],
+  "comments": [],
+  "review": {
+    "status": "pending",
+    "reviewer": "",
+    "reviewedAt": null,
+    "comments": []
+  },
+  "missing": false,
+  "createdAt": "2026-08-30T21:58:23.494Z",
+  "updatedAt": "2026-08-30T21:58:23.494Z"
+}
