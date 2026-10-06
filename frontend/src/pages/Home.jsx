@@ -119,23 +119,9 @@ const Home = () => {
                             Tauchen Sie ein in die <br />
                             <span className="text-accent italic">Geschichte von Wald</span>
                         </h1>
-                        <p className="text-xl md:text-2xl font-light mb-10 text-parchment/80 leading-relaxed max-w-2xl mx-auto">
+                        <p className="text-xl md:text-2xl font-light text-parchment/80 leading-relaxed max-w-2xl mx-auto">
                             Willkommen auf unserer Homepage, auf der die Geschichte der zehn Ortsteile der Gemeinde Wald / Hohenzollern zum Leben erwacht.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link
-                                to="/archive"
-                                className="px-8 py-4 bg-accent text-white font-bold rounded-sm shadow-lg hover:bg-accent-dark transition-colors flex items-center justify-center gap-2"
-                            >
-                                Archiv durchsuchen <ArrowRight size={20} />
-                            </Link>
-                            <Link
-                                to="/timeline"
-                                className="px-8 py-4 bg-transparent border border-parchment text-parchment font-bold rounded-sm hover:bg-parchment/10 transition-colors"
-                            >
-                                Zeitleiste ansehen
-                            </Link>
-                        </div>
                     </Motion.div>
                 </div>
             </section>
