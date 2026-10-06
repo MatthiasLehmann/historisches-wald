@@ -30,6 +30,23 @@ Wir sind kein Verein und stehen allen, an der Geschichte unsere Gemeinde Interes
                  </div>
             </section>
 
+            <section className="bg-parchment border border-parchment-dark rounded-sm p-6 md:p-8">
+                <h2 className="mb-5 font-serif text-3xl font-bold text-ink md:text-4xl">
+                    Historisches Wald - Gemeinsam für die Geschichte unserer Heimat
+                </h2>
+                <div className="space-y-4 text-lg leading-relaxed text-ink/75">
+                    <p>
+                        Hier findest du erste Beiträge, Geschichten, Bilder, Erzählungen und Auszüge oder Hinweise auf Literatur und kannst gerne selbst etwas beitragen.
+                        Vieles wurde uns freundlicherweise zur Verfügung gestellt, einiges stammt aus Veröffentlichungen, manches wurde ergänzt.
+                        Weiteres Material und Beiträge sind herzlich willkommen!
+                    </p>
+                    <p>
+                        Unser Ziel ist es, durch die Veröffentlichung des gesammelten Materials das historische Erbe unserer Gemeinde zu bewahren und die gesammelten Bilder und das erhaltene Wissen allen zugänglich zu machen.
+                        Auf diese Weise soll diese Sammlung stetig wachsen und für uns alle immer interessanter werden.
+                    </p>
+                </div>
+            </section>
+
             <section className="grid lg:grid-cols-2 gap-8 items-center">
                 <div className="rounded-sm overflow-hidden shadow-md border border-parchment-dark bg-parchment-dark/40">
                     <img

@@ -108,29 +108,42 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Featured Section */}
+            <section className="py-20 bg-parchment">
+                <div className="container mx-auto px-4">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl md:text-4xl font-serif font-bold text-ink mb-4">Neue Beiträge</h2>
+                        <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
+                        <p className="mt-4 text-ink/60">Entdecken Sie aktuelle Fundstücke aus unserer Sammlung.</p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                        {error ? (
+                            <p className="col-span-full text-center text-red-600">{error}</p>
+                        ) : isLoading ? (
+                            <p className="col-span-full text-center text-ink/60">Dokumente werden geladen...</p>
+                        ) : recentDocuments.length > 0 ? (
+                            recentDocuments.map((doc) => (
+                                <DocumentCard key={doc.id} document={doc} />
+                            ))
+                        ) : (
+                            <p className="col-span-full text-center text-ink/50">Noch keine Dokumente vorhanden.</p>
+                        )}
+                    </div>
+
+                    <div className="text-center">
+                        <Link
+                            to="/archive"
+                            className="inline-flex items-center gap-2 text-ink/70 hover:text-accent font-semibold border-b-2 border-transparent hover:border-accent transition-all pb-1"
+                        >
+                            Alle Dokumente anzeigen <ArrowRight size={16} />
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
             <section className="py-16 bg-parchment border-b border-parchment-dark/60">
                 <div className="container mx-auto px-4">
-                    <div className="mb-14">
-                        <h2 className="mb-5 font-serif text-3xl font-bold text-ink md:text-4xl">
-                            Historisches Wald - Gemeinsam für die Geschichte unserer Heimat
-                        </h2>
-                        <div className="space-y-4 text-lg leading-relaxed text-ink/75">
-                            <p>
-                                Hier findest du erste Beiträge, Geschichten, Bilder, Erzählungen und Auszüge oder Hinweise auf Literatur und kannst gerne selbst etwas beitragen.
-                                Vieles wurde uns freundlicherweise zur Verfügung gestellt, einiges stammt aus Veröffentlichungen, manches wurde ergänzt.
-                                Weiteres Material und Beiträge sind herzlich willkommen!
-                            </p>
-                            <p>
-                                Unser Ziel ist es, durch die Veröffentlichung des gesammelten Materials das historische Erbe unserer Gemeinde zu bewahren und die gesammelten Bilder und das erhaltene Wissen allen zugänglich zu machen.
-                                Auf diese Weise soll diese Sammlung stetig wachsen und für uns alle immer interessanter werden.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="mb-14 flex items-center gap-4" aria-hidden="true">
-                        <div className="h-px flex-1 bg-parchment-dark"></div>
-                        <div className="h-1.5 w-20 rounded-full bg-accent"></div>
-                        <div className="h-px flex-1 bg-parchment-dark"></div>
-                    </div>
                     <div className="max-w-3xl space-y-5">
                         <p className="text-xs uppercase tracking-[0.45em] text-accent">Ortsteile</p>
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-ink">Die Teilorte von Wald erkunden</h2>
@@ -178,40 +191,6 @@ const Home = () => {
                                 </span>
                             </Link>
                         ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Featured Section */}
-            <section className="py-20 bg-parchment">
-                <div className="container mx-auto px-4">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-serif font-bold text-ink mb-4">Neue Beiträge</h2>
-                        <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
-                        <p className="mt-4 text-ink/60">Entdecken Sie aktuelle Fundstücke aus unserer Sammlung.</p>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                        {error ? (
-                            <p className="col-span-full text-center text-red-600">{error}</p>
-                        ) : isLoading ? (
-                            <p className="col-span-full text-center text-ink/60">Dokumente werden geladen...</p>
-                        ) : recentDocuments.length > 0 ? (
-                            recentDocuments.map((doc) => (
-                                <DocumentCard key={doc.id} document={doc} />
-                            ))
-                        ) : (
-                            <p className="col-span-full text-center text-ink/50">Noch keine Dokumente vorhanden.</p>
-                        )}
-                    </div>
-
-                    <div className="text-center">
-                        <Link
-                            to="/archive"
-                            className="inline-flex items-center gap-2 text-ink/70 hover:text-accent font-semibold border-b-2 border-transparent hover:border-accent transition-all pb-1"
-                        >
-                            Alle Dokumente anzeigen <ArrowRight size={16} />
-                        </Link>
                     </div>
                 </div>
             </section>
