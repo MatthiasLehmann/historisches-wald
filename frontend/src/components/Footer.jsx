@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -17,15 +18,15 @@ const Footer = () => {
                         <h4 className="font-serif font-bold mb-4 text-parchment/90">Kontakt</h4>
                         <div className="flex items-center gap-2 text-parchment/60 text-sm mb-2">
                             <Mail size={16} />
-                            <span>kontakt (ad) historisches-wald.de</span>
+                            <span>kontakt (at) historisches-wald.de</span>
                         </div>
                     </div>
 
                     <div>
                         <h4 className="font-serif font-bold mb-4 text-parchment/90">Rechtliches</h4>
                         <ul className="space-y-2 text-sm text-parchment/60">
-                            <li><a href="#" className="hover:text-white transition-colors">Impressum</a></li>
-                            <li><a href="#" className="hover:text-white transition-colors">Datenschutz</a></li>
+                            <li><Link to="/impressum" className="hover:text-white transition-colors">Impressum</Link></li>
+                            <li><Link to="/datenschutz" className="hover:text-white transition-colors">Datenschutz</Link></li>
                             <li><a href="#" className="hover:text-white transition-colors">Nutzungsbedingungen</a></li>
                         </ul>
                     </div>
