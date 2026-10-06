@@ -27,7 +27,7 @@ const Footer = () => {
                         <ul className="space-y-2 text-sm text-parchment/60">
                             <li><Link to="/impressum" className="hover:text-white transition-colors">Impressum</Link></li>
                             <li><Link to="/datenschutz" className="hover:text-white transition-colors">Datenschutz</Link></li>
-                            <li><a href="#" className="hover:text-white transition-colors">Nutzungsbedingungen</a></li>
+                            <li><Link to="/nutzungsbedingungen" className="hover:text-white transition-colors">Nutzungsbedingungen</Link></li>
                         </ul>
                     </div>
                 </div>

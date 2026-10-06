@@ -27,6 +27,7 @@ import InternalDashboard from './pages/InternalDashboard';
 import HelpCenter from './pages/HelpCenter';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
+import Nutzungsbedingungen from './pages/Nutzungsbedingungen';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -59,6 +60,7 @@ const App = () => (
         <Route path="/" element={<Home />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/nutzungsbedingungen" element={<Nutzungsbedingungen />} />
         <Route path="/archive" element={<Archive />} />
         <Route path="/document/:id" element={<DocumentPage />} />
         <Route path="/pdfs/:id/view" element={<PdfViewPage />} />
