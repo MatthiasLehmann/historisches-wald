@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { MapPin, Tag } from 'lucide-react';
 import { motion as Motion } from 'framer-motion';
 
+const MotionLink = Motion.create(Link);
+
 const HTML_PATTERN = /<\/?[a-z][\s\S]*>/i;
 
 const toPlainText = (value) => {
@@ -34,11 +36,13 @@ const DocumentCard = ({ document }) => {
     }, [document.description]);
 
     return (
-        <Motion.div
+        <MotionLink
+            to={`/document/${document.id}`}
+            aria-label={document.title}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="group bg-white rounded-sm shadow-md overflow-hidden border border-parchment-dark hover:shadow-lg transition-all duration-300 flex flex-col h-full"
+            className="group bg-white rounded-sm shadow-md overflow-hidden border border-parchment-dark hover:shadow-lg transition-all duration-300 flex flex-col h-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
         >
             <div className="relative aspect-[4/3] bg-parchment/40 flex items-center justify-center overflow-hidden">
                 {coverSrc ? (
@@ -76,9 +80,7 @@ const DocumentCard = ({ document }) => {
                 </div>
 
                 <h3 className="font-serif text-xl font-bold mb-2 text-ink group-hover:text-accent transition-colors line-clamp-1">
-                    <Link to={`/document/${document.id}`}>
-                        {document.title}
-                    </Link>
+                    {document.title}
                 </h3>
 
                 <p className="text-ink/70 text-sm mb-4 line-clamp-2 font-serif flex-grow">
@@ -90,15 +92,12 @@ const DocumentCard = ({ document }) => {
                         <MapPin size={12} />
                         {document.location}
                     </span>
-                    <Link
-                        to={`/document/${document.id}`}
-                        className="text-accent font-semibold hover:underline"
-                    >
+                    <span className="text-accent font-semibold group-hover:underline">
                         Mehr erfahren →
-                    </Link>
+                    </span>
                 </div>
             </div>
-        </Motion.div>
+        </MotionLink>
     );
 };
 
