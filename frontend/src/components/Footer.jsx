@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -17,15 +17,8 @@ const Footer = () => {
                         <h4 className="font-serif font-bold mb-4 text-parchment/90">Kontakt</h4>
                         <div className="flex items-center gap-2 text-parchment/60 text-sm mb-2">
                             <Mail size={16} />
-                            <a href="mailto:kontakt@historisches-wald.de" className="hover:text-accent-light transition-colors">
-                                kontakt@historisches-wald.de
-                            </a>
+                            <span>kontakt (ad) historisches-wald.de</span>
                         </div>
-                        <p className="text-parchment/60 text-sm">
-                            Gemeindearchiv Wald<br />
-                            Brauereistr. 5<br />
-                            88639 Wald
-                        </p>
                     </div>
 
                     <div>

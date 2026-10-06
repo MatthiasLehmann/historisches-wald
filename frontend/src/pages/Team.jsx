@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import logo from '../assets/logo-historisches-wald.png';
 
 const people = [
@@ -25,7 +25,7 @@ const Team = () => {
                 <h1 className="text-4xl md:text-5xl font-serif font-bold text-ink">Gesichter hinter dem Archiv</h1>
                 <p className="text-ink/70">
                 Die Gruppe „Historisches Wald“ besteht aus Walder Bürgerinnen und Bürgern, die an der Geschichte ihrer Heimat interessiert sind. Wir haben uns zum Ziel gesetzt, in Zusammenarbeit mit der Gemeinde Wald, historische Fotos, Bilder und Gegenstände zu sammeln, zu digitalisieren und für die Nachwelt aufzubewahren. Außerdem möchten wir die Erforschung der Geschichte unserer Zehn-Dörfer-Gemeinde fördern, unser gewonnenes Wissen verbreiten und so die Erinnerung bewahren.
-Wir sind kein Verein und stehen allen, an der Geschichte unsere Gemeinde Interessierten, offen. Ihr habt Interesse bei uns mitzumachen? Oder ihr habt historische Fotos, Bilder, Beiträge oder Gegenstände, die ihr uns zur Verfügung stellen könnt? Gerne auch „nur“ zur Digitalisierung. Dann meldet Euch über unser Kontakt oder unter 07578 / 9217267.
+Wir sind kein Verein und stehen allen, an der Geschichte unsere Gemeinde Interessierten, offen. Ihr habt Interesse bei uns mitzumachen? Oder ihr habt historische Fotos, Bilder, Beiträge oder Gegenstände, die ihr uns zur Verfügung stellen könnt? Gerne auch „nur“ zur Digitalisierung. Dann meldet Euch über die unten angegebene E-Mail-Adresse.
                 </p>
                  </div>
             </section>
@@ -80,21 +80,8 @@ Wir sind kein Verein und stehen allen, an der Geschichte unsere Gemeinde Interes
                 </div>
                 <div className="space-y-3 text-sm text-ink/80">
                     <p className="flex items-center gap-2">
-                        <Mail size={18} className="text-accent" /> kontakt@historisches-wald.de
+                        <Mail size={18} className="text-accent" /> kontakt (ad) historisches-wald.de
                     </p>
-                    <p className="flex items-center gap-2">
-                        <Phone size={18} className="text-accent" /> +49 7578-9217267
-                    </p>
-                    <p className="flex items-center gap-2">
-                        <MapPin size={18} className="text-accent" /> Brauereistr. 5, 88639 Wald
-                    </p>
-                    <a
-                        href="mailto:kontakt@historisches-wald.de"
-                        className="inline-flex items-center gap-2 px-5 py-3 bg-accent text-white font-semibold rounded-sm shadow hover:bg-accent-dark"
-                    >
-                        Kontakt aufnehmen
-                        <ArrowRight size={16} />
-                    </a>
                 </div>
             </section>
         </div>
