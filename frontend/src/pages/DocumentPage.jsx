@@ -354,7 +354,7 @@ const DocumentPage = () => {
                         <div className="border-l-4 border-accent/20 pl-4 py-2 bg-parchment/20 rounded-sm">
                             <RichTextContent
                                 content={document.transcription}
-                                className="prose prose-sm text-ink/80"
+                                className="prose prose-sm text-ink/80 hide-image-captions"
                             />
                         </div>
                     </section>

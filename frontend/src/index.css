@@ -193,6 +193,10 @@ h6 {
   padding: 0.65rem 0.85rem;
 }
 
+.hide-image-captions figure[data-album-photo-id] > figcaption {
+  display: none;
+}
+
 .wysiwyg-editor__content .ProseMirror .is-editor-empty:first-child::before {
   content: attr(data-placeholder);
   color: rgba(44, 36, 27, 0.4);

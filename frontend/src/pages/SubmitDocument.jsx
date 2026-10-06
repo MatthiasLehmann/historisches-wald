@@ -1137,6 +1137,7 @@ const SubmitDocument = () => {
                 jsonValue={form.transcriptionJson}
                 onJsonChange={(nextValue) => setForm((prev) => ({ ...prev, transcriptionJson: nextValue }))}
                 enableAlbumPhotos
+                hideImageCaptions
                 placeholder="Optionaler Originaltext, Notizen, Beobachtungen oder Bild-Einordnungen."
               />
             </div>

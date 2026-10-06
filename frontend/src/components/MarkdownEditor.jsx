@@ -175,6 +175,7 @@ const MarkdownEditor = ({
   jsonValue = null,
   onJsonChange,
   enableAlbumPhotos = false,
+  hideImageCaptions = false,
 }) => {
   const generatedId = useId();
   const editorId = id || generatedId;
@@ -488,7 +489,7 @@ const MarkdownEditor = ({
           id={editorId}
           aria-describedby={helperId}
           aria-required={required}
-          className="wysiwyg-editor__content"
+          className={clsx('wysiwyg-editor__content', hideImageCaptions && 'hide-image-captions')}
           style={{ minHeight: computedMinHeight }}
         />
 

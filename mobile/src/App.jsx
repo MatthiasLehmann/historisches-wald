@@ -656,8 +656,8 @@ const DocumentPage = () => {
       </header>
 
       {hasDescription && <RichTextBlock id="inhalt" content={document.description} />}
-      {!hasDescription && hasTranscription && <RichTextBlock id="inhalt" content={document.transcription} />}
-      {hasDescription && hasTranscription && <RichTextBlock content={document.transcription} />}
+      {!hasDescription && hasTranscription && <RichTextBlock id="inhalt" content={document.transcription} hideImageCaptions />}
+      {hasDescription && hasTranscription && <RichTextBlock content={document.transcription} hideImageCaptions />}
 
       {hasGallery && (
         <section id="galerie" className="section-anchor">
@@ -838,7 +838,7 @@ const PhotoDetailPage = () => {
   );
 };
 
-const RichTextBlock = ({ id, content }) => {
+const RichTextBlock = ({ id, content, hideImageCaptions = false }) => {
   const html = useMemo(() => sanitizeHtml(content), [content]);
   const plainText = useMemo(() => normalizeContent(content).trim(), [content]);
 
@@ -850,7 +850,7 @@ const RichTextBlock = ({ id, content }) => {
     return (
       <section
         id={id}
-        className="text-block rich-text section-anchor"
+        className={`text-block rich-text section-anchor${hideImageCaptions ? ' hide-image-captions' : ''}`}
         dangerouslySetInnerHTML={{ __html: html }}
       />
     );

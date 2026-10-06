@@ -911,6 +911,10 @@ p {
   line-height: 1.45;
 }
 
+.hide-image-captions figure[data-album-photo-id] > figcaption {
+  display: none;
+}
+
 .rich-text hr {
   width: 100%;
   border: 0;
