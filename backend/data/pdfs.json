@@ -1,12 +1,12 @@
 [
   {
     "id": "pdf-00033",
-    "title": "Historisches Rothenlachen Gabriele Kraft September 2026.pdf",
-    "year": null,
+    "title": "Historisches Rothenlachen Gabriele Kraft",
+    "year": 2026,
     "description": "",
-    "location": "",
-    "source": "",
-    "author": "",
+    "location": "Rothenlachen",
+    "source": "Gabriele Kraft",
+    "author": "Gabriele Kraft",
     "license": "rights-reserved",
     "tags": [],
     "file": {
@@ -16,16 +16,16 @@
     },
     "pages": null,
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Martin Kuhn",
+      "reviewedAt": "2026-10-06T21:48:07.469Z",
       "comments": []
     },
     "linkedDocuments": [
       "doc-1791017989188"
     ],
     "createdAt": "2026-10-03T09:06:07.470Z",
-    "updatedAt": "2026-10-03T09:07:00.657Z",
+    "updatedAt": "2026-10-06T21:48:12.338Z",
     "deletedAt": null
   },
   {

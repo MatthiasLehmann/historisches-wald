@@ -1,7 +1,7 @@
 {
   "id": "local_mtyv9863bbxofx",
   "name": "Geschossenes Bild",
-  "description": "",
+  "description": "Ausschnitt aus dem Gemälde vom Geschossenen Bild (1680/1690), Pfarrkirche St. Bernhard Wald. Laut Herrn Hahn sind die Häuser rechts oben hinter dem Kloster eine (stilisierte?) Darstellung von Rothenlachen",
   "date_taken": "",
   "photopage": "",
   "original": "/files/images/album-1789246646345-795310297.png",
@@ -14,12 +14,13 @@
   ],
   "comments": [],
   "review": {
-    "status": "pending",
+    "status": "approved",
     "reviewer": "",
     "reviewedAt": null,
     "comments": []
   },
   "missing": false,
   "createdAt": "2026-09-12T20:57:26.428Z",
-  "updatedAt": "2026-09-12T20:57:26.428Z"
+  "updatedAt": "2026-10-06T21:16:26.225Z",
+  "source": "Pfarrkirche St. Bernhard Wald (Foto Falko Hahn)"
 }

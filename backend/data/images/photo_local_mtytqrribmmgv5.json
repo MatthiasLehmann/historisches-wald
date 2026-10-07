@@ -1,7 +1,7 @@
 {
   "id": "local_mtytqrribmmgv5",
   "name": "Ortskern von Rothenlachen",
-  "description": "",
+  "description": "Ortskern Anfang 18. Jahrhundert, Ausschnitt aus Lehenkarte von Rothenlachen",
   "date_taken": "",
   "photopage": "",
   "original": "/files/images/album-1789244105591-909023822.png",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T20:15:05.743Z",
-  "updatedAt": "2026-09-12T21:09:05.860Z"
+  "updatedAt": "2026-10-06T21:28:35.475Z",
+  "source": "(Landesarchiv BW, Abt. Staatsarchiv Stuttgart) K I W/8)"
 }
