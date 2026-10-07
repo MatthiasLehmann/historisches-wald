@@ -281,6 +281,22 @@ const DocumentPage = () => {
                         </div>
                         {hasQuickActions && (
                             <nav className="flex flex-wrap gap-2 pt-2" aria-label="Beitragsbereiche">
+                                {singlePdf ? (
+                                    <a
+                                        href={singlePdf.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className={quickActionClass}
+                                    >
+                                        <ExternalLink size={16} />
+                                        Original als PDF öffnen
+                                    </a>
+                                ) : linkedPdfs.length > 1 ? (
+                                    <a href="#pdfs" className={quickActionClass}>
+                                        <FileText size={16} />
+                                        PDFs anzeigen
+                                    </a>
+                                ) : null}
                                 {hasTranscription && (
                                     <a href="#inhalt" className={quickActionClass}>
                                         <ScrollText size={16} />
@@ -293,22 +309,6 @@ const DocumentPage = () => {
                                         Galerie
                                     </a>
                                 )}
-                                {singlePdf ? (
-                                    <a
-                                        href={singlePdf.url}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className={quickActionClass}
-                                    >
-                                        <ExternalLink size={16} />
-                                        PDF öffnen
-                                    </a>
-                                ) : linkedPdfs.length > 1 ? (
-                                    <a href="#pdfs" className={quickActionClass}>
-                                        <FileText size={16} />
-                                        PDFs anzeigen
-                                    </a>
-                                ) : null}
                             </nav>
                         )}
                     </div>

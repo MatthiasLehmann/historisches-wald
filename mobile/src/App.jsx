@@ -627,6 +627,17 @@ const DocumentPage = () => {
           </div>
           {hasQuickActions && (
             <nav className="quick-actions" aria-label="Beitragsbereiche">
+              {singlePdf ? (
+                <QuickAction href={singlePdf.url} external>
+                  <ExternalLink size={16} />
+                  Original als PDF öffnen
+                </QuickAction>
+              ) : pdfs.length > 1 ? (
+                <QuickAction href="#pdfs">
+                  <FileText size={16} />
+                  PDFs
+                </QuickAction>
+              ) : null}
               {(hasDescription || hasTranscription) && (
                 <QuickAction href="#inhalt">
                   <ScrollText size={16} />
@@ -639,17 +650,6 @@ const DocumentPage = () => {
                   Bilder
                 </QuickAction>
               )}
-              {singlePdf ? (
-                <QuickAction href={singlePdf.url} external>
-                  <ExternalLink size={16} />
-                  PDF öffnen
-                </QuickAction>
-              ) : pdfs.length > 1 ? (
-                <QuickAction href="#pdfs">
-                  <FileText size={16} />
-                  PDFs
-                </QuickAction>
-              ) : null}
             </nav>
           )}
         </div>
