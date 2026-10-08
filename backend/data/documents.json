@@ -1647,18 +1647,6 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "local_mtywjkijeb30vu",
-        "src": "/files/images/thumbnails/album-1789248808559-36568247-thumb.jpg",
-        "original": "/files/images/album-1789248808559-36568247.png",
-        "title": "Hof Restle Westseite",
-        "description": "Restle-Hof Giebelseite 1964, Höhenstraße 3",
-        "type": "album",
-        "date": "1964",
-        "author": "",
-        "source": "Bildarchiv Foto Marburg/ Helga Schmidt-Glassner",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "local_mtywhpwv2uxewa",
         "src": "/files/images/thumbnails/album-1789248722239-449879421-thumb.jpg",
         "original": "/files/images/album-1789248722239-449879421.png",
@@ -1779,7 +1767,7 @@
         "license": "All Rights Reserved"
       }
     ],
-    "coverPhotoId": "",
+    "coverPhotoId": "local_mtywjkijeb30vu",
     "showInTimeline": true,
     "showInArchive": true,
     "showInWordCloud": true,
@@ -1796,7 +1784,6 @@
       "local_mtywhymlwzh8fg",
       "local_mtywj7990gigmz",
       "local_mtywjckg09rwr7",
-      "local_mtywjkijeb30vu",
       "local_mtywhpwv2uxewa",
       "local_mtyx9smkyy4mm5",
       "local_mtyxf8oc67fr5m",
