@@ -1,44 +1,484 @@
 [
   {
-    "id": "doc-1791105049852",
-    "sortOrder": 0,
-    "title": "Titel Test",
+    "id": "doc-1791527022806",
+    "sortOrder": -1,
+    "title": "Postkarten aus Walbertsweiler ",
     "year": 2026,
     "parent_id": "",
-    "category": "Rothenlachen",
-    "subcategories": [],
-    "location": "",
-    "description": "<figure class=\"album-photo-node\" data-album-photo-id=\"local_mutlnrbdav5nsq\"><img src=\"/files/images/thumbnails/album-1791104979283-243673415-thumb.jpg\" alt=\"TestTitel\"><figcaption>TestTitel</figcaption></figure><p></p><p></p>",
+    "category": "Walbertsweiler",
+    "subcategories": [
+      "Postkarten"
+    ],
+    "location": "Walbertsweiler",
+    "description": "",
+    "descriptionJson": null,
+    "transcription": "",
+    "transcriptionJson": null,
+    "images": [
+      {
+        "id": "54630851236",
+        "src": "/files/images/thumbnails/photo-54630851236-thumb.jpg",
+        "original": "/files/images/04_walbertsweiler-1906_54630851236_o.jpg",
+        "title": "04_Walbertsweiler 1906",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:18",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54630851236/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629981857",
+        "src": "/files/images/thumbnails/photo-54629981857-thumb.jpg",
+        "original": "/files/images/15_walbertsweiler-1910_54629981857_o.jpg",
+        "title": "15_Walbertsweiler 1910",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629981857/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631071048",
+        "src": "/files/images/thumbnails/photo-54631071048-thumb.jpg",
+        "original": "/files/images/05_walbertsweiler-1902_54631071048_o.jpg",
+        "title": "05_Walbertsweiler 1902",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:17",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631071048/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629982347",
+        "src": "/files/images/thumbnails/photo-54629982347-thumb.jpg",
+        "original": "/files/images/1_walbertsweiler-i_54629982347_o.jpg",
+        "title": "1_Walbertsweiler I",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:20",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629982347/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631055239",
+        "src": "/files/images/thumbnails/photo-54631055239-thumb.jpg",
+        "original": "/files/images/06_walbertsweiler-i-1906_54631055239_o.jpg",
+        "title": "06_Walbertsweiler I 1906",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:17",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631055239/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631055194",
+        "src": "/files/images/thumbnails/photo-54631055194-thumb.jpg",
+        "original": "/files/images/07_walbertsweiler-i_54631055194_o.jpg",
+        "title": "07_Walbertsweiler I",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:15",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631055194/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631155500",
+        "src": "/files/images/thumbnails/photo-54631155500-thumb.jpg",
+        "original": "/files/images/08_walbertsweiler-i_54631155500_o.jpg",
+        "title": "08_Walbertsweiler I",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:14",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631155500/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631070918",
+        "src": "/files/images/thumbnails/photo-54631070918-thumb.jpg",
+        "original": "/files/images/09_walbertsweiler-i-1927_54631070918_o.jpg",
+        "title": "09_Walbertsweiler I 1927",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:13",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631070918/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629981887",
+        "src": "/files/images/thumbnails/photo-54629981887-thumb.jpg",
+        "original": "/files/images/14_walbertsweiler_54629981887_o.jpg",
+        "title": "14_Walbertsweiler",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629981887/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631054979",
+        "src": "/files/images/thumbnails/photo-54631054979-thumb.jpg",
+        "original": "/files/images/13_walbertsweiler-i_54631054979_o.jpg",
+        "title": "13_Walbertsweiler I",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631054979/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629981912",
+        "src": "/files/images/thumbnails/photo-54629981912-thumb.jpg",
+        "original": "/files/images/12_walbertsweiler-1933_54629981912_o.jpg",
+        "title": "12_Walbertsweiler 1933",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:07",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629981912/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631155280",
+        "src": "/files/images/thumbnails/photo-54631155280-thumb.jpg",
+        "original": "/files/images/11_walbertsweiler-1936_54631155280_o.jpg",
+        "title": "11_Walbertsweiler 1936",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:08",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631155280/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629982012",
+        "src": "/files/images/thumbnails/photo-54629982012-thumb.jpg",
+        "original": "/files/images/10_walbertsweiler-i-1910_54629982012_o.jpg",
+        "title": "10_Walbertsweiler I 1910",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:10",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629982012/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629981782",
+        "src": "/files/images/thumbnails/photo-54629981782-thumb.jpg",
+        "original": "/files/images/16_walbertsweiler-1983_54629981782_o.jpg",
+        "title": "16_Walbertsweiler 1983",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:03",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629981782/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629981727",
+        "src": "/files/images/thumbnails/photo-54629981727-thumb.jpg",
+        "original": "/files/images/21_walbertsweiler-i-1918_54629981727_o.jpg",
+        "title": "21_Walbertsweiler I 1918",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:08:59",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629981727/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631154995",
+        "src": "/files/images/thumbnails/photo-54631154995-thumb.jpg",
+        "original": "/files/images/22_walbertsweiler-i-1920_54631154995_o.jpg",
+        "title": "22_Walbertsweiler I 1920",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:08:59",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631154995/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631273493",
+        "src": "/files/images/thumbnails/photo-54631273493-thumb.jpg",
+        "original": "/files/images/walbertsweiler-ii_54631273493_o.jpg",
+        "title": "Walbertsweiler II",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:57:05",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631273493/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631257979",
+        "src": "/files/images/thumbnails/photo-54631257979-thumb.jpg",
+        "original": "/files/images/walbertsweiler-iii_54631257979_o.jpg",
+        "title": "Walbertsweiler III",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:57:02",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631257979/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631052291",
+        "src": "/files/images/thumbnails/photo-54631052291-thumb.jpg",
+        "original": "/files/images/walbertsweiler-v_54631052291_o.jpg",
+        "title": "Walbertsweiler V",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:59",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631052291/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631273013",
+        "src": "/files/images/thumbnails/photo-54631273013-thumb.jpg",
+        "original": "/files/images/walbertsweiler_54631273013_o.jpg",
+        "title": "Walbertsweiler",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:49",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631273013/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631273258",
+        "src": "/files/images/thumbnails/photo-54631273258-thumb.jpg",
+        "original": "/files/images/walbertsweiler-vii_54631273258_o.jpg",
+        "title": "Walbertsweiler VII",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:57",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631273258/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631356500",
+        "src": "/files/images/thumbnails/photo-54631356500-thumb.jpg",
+        "original": "/files/images/walbertsweiler-xiii_54631356500_o.jpg",
+        "title": "Walbertsweiler XIII",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:45",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631356500/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631052086",
+        "src": "/files/images/thumbnails/photo-54631052086-thumb.jpg",
+        "original": "/files/images/walbertsweiler-xii_54631052086_o.jpg",
+        "title": "Walbertsweiler XII",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:50",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631052086/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631052116",
+        "src": "/files/images/thumbnails/photo-54631052116-thumb.jpg",
+        "original": "/files/images/walbertsweiler-xi_54631052116_o.jpg",
+        "title": "Walbertsweiler XI",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:52",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631052116/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631257579",
+        "src": "/files/images/thumbnails/photo-54631257579-thumb.jpg",
+        "original": "/files/images/walbertsweiler-x_54631257579_o.jpg",
+        "title": "Walbertsweiler X",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:48",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631257579/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Diverse ",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54630851236",
+      "54629981857",
+      "54631071048",
+      "54629982347",
+      "54631055239",
+      "54631055194",
+      "54631155500",
+      "54631070918",
+      "54629981887",
+      "54631054979",
+      "54629981912",
+      "54631155280",
+      "54629982012",
+      "54629981782",
+      "54629981727",
+      "54631154995",
+      "54631273493",
+      "54631257979",
+      "54631052291",
+      "54631273013",
+      "54631273258",
+      "54631356500",
+      "54631052086",
+      "54631052116",
+      "54631257579"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
+      "comments": []
+    }
+  },
+  {
+    "id": "doc-1786906610584",
+    "sortOrder": 0,
+    "title": "Historisches Wald stellt Homepage vor ",
+    "year": 2025,
+    "parent_id": "",
+    "category": "Wald",
+    "subcategories": [
+      "Vorstellung"
+    ],
+    "location": "Wald",
+    "description": "<p>Franz-Sales Fröhlich übergibt Sammlung</p>",
     "descriptionJson": {
       "type": "doc",
       "content": [
         {
-          "type": "albumPhoto",
-          "attrs": {
-            "photoId": "local_mutlnrbdav5nsq",
-            "src": "/files/images/thumbnails/album-1791104979283-243673415-thumb.jpg",
-            "alt": "TestTitel",
-            "caption": "TestTitel"
-          }
-        },
-        {
           "type": "paragraph",
           "attrs": {
             "textAlign": null
-          }
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          }
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Franz-Sales Fröhlich übergibt Sammlung"
+            }
+          ]
         }
       ]
     },
-    "transcription": "<p></p>",
+    "transcription": "<p>Nach&nbsp;intensiver&nbsp;Vorarbeit ging die&nbsp;Homepage&nbsp;der Gruppe „Historisches Wald“ am&nbsp;19. Juli 2025&nbsp;im Sitzungssaal des Rathauses in Wald online. Das Kernteam, bestehend aus Martin Kuhn, Elfriede Kempter, Matthias Lehmann und Stefanie Grüner, hat monatelang alte Fotos und historische Dokumente zusammengetragen und viel Zeit in Recherchen investiert. Das Ergebnis ist die Website&nbsp;<a rel=\"noopener noreferrer nofollow\" class=\"text-accent underline font-semibold\" href=\"http://www.historisches-wald.de\">www.historisches-wald.de</a>,&nbsp;die im Beisein von Bürgermeister Joachim Grüner und Unterstützern der Gruppe vorgestellt wurde. Neben Beiträgen aus dem Kernort Wald soll die Plattform&nbsp;zukünftig allen zehn Ortsteilen die Möglichkeit&nbsp;bieten, ihre eigene Geschichte vorzustellen. Das Team freut sich&nbsp;bereits jetzt auf Einsendungen aus&nbsp;allen Teilen der Zehn-Dörfer-Gemeinde.&nbsp;</p><p>In seiner Ansprache betonte Matthias Lehmann: „Mit dieser Plattform möchten wir nicht nur die lokale Geschichte bewahren, sondern auch ein lebendiges Netzwerk schaffen.&nbsp;Die Bürgerinnen und Bürger sind&nbsp;eingeladen, Beiträge zu verfassen, alte Dokumente bereitzustellen und Geschichten weiterzuerzählen. Nur gemeinsam können wir das reiche kulturelle Erbe unserer Heimat lebendig halten“.</p><p>Als besonderen Gast konnte die Gruppe „Historisches Wald“ Franz-Sales Fröhlich aus Bad Waldsee&nbsp;im Rathaus in Wald begrüßen. Zusammen mit seiner Frau ist er in seine ehemalige Heimatgemeinde gekommen,&nbsp;um der Gemeinde&nbsp;seine Sammlung an historischen Dokumenten, Bildern und Schriftstücken zur Verfügung&nbsp;zu&nbsp;stellen. Es ist ihm ein großes Anliegen, dass seine „Schätze“ in gute Hände kommen und dazu beitragen,&nbsp;die Geschichte der Gemeinde zu bewahren.&nbsp;Zu seiner Sammlung erzählte Franz-Sales Fröhlich die eine&nbsp;oder andere&nbsp;spannende Geschichte.&nbsp;Bürgermeister Joachim Grüner dankte Herrn Fröhlich für die Bereitstellung der Unterlagen für das Gemeindearchiv, das&nbsp;immer weiter&nbsp;anwächst.&nbsp;Zum Beispiel gibt es schon&nbsp;eine beachtliche Sammlung an Fotos von historischen Postkarten, auf die&nbsp;die&nbsp;Gemeinde und die&nbsp;Gruppe „Historisches Wald“&nbsp;vor allem&nbsp;dank der Unterstützung von Gudrun Schmidt und Clemens&nbsp;Veeser&nbsp;zurückgreifen&nbsp;kann.&nbsp;Viele weitere Fotos, Dokumente und Exponate wurden aus der Walder Bevölkerung zur Verfügung gestellt. All das soll nach und nach auf der Website veröffentlicht und Interessierten zugänglich gemacht werden.&nbsp;</p><p>„Wir hoffen, dass unser&nbsp;Vorhaben und die dazugehörende Homepage&nbsp;auf großes Interesse stoßen&nbsp;und freuen uns über viele Unterstützer, damit die&nbsp;Geschichte unserer Heimat&nbsp;festgehalten wird und in Erinnerung bleiben kann“. Mit diesen Worten von Martin Kuhn endete der kleine Empfang im Walder Rathaus, der einen spannenden Einblick in die umfangreiche Geschichte der Zehn-Dörfer-Gemeinde gab.</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_msw65yodtegdlb\"><img src=\"/files/images/thumbnails/album-1786906788067-303878210-thumb.jpg\" alt=\"Übergabe Sammlung Franz-Sales Fröhlich\"><figcaption>Übergabe Sammlung Franz-Sales Fröhlich</figcaption></figure><figure class=\"album-photo-node\" data-album-photo-id=\"local_msw665pcaxjnb2\"><img src=\"/files/images/thumbnails/album-1786906797551-458446375-thumb.jpg\" alt=\"Übergabe Sammlung Franz-Sales Fröhlich\"><figcaption>Übergabe Sammlung Franz-Sales Fröhlich</figcaption></figure><p></p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Nach intensiver Vorarbeit ging die Homepage der Gruppe „Historisches Wald“ am 19. Juli 2025 im Sitzungssaal des Rathauses in Wald online. Das Kernteam, bestehend aus Martin Kuhn, Elfriede Kempter, Matthias Lehmann und Stefanie Grüner, hat monatelang alte Fotos und historische Dokumente zusammengetragen und viel Zeit in Recherchen investiert. Das Ergebnis ist die Website "
+            },
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "http://www.historisches-wald.de",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer nofollow",
+                    "class": "text-accent underline font-semibold"
+                  }
+                }
+              ],
+              "text": "www.historisches-wald.de"
+            },
+            {
+              "type": "text",
+              "text": ", die im Beisein von Bürgermeister Joachim Grüner und Unterstützern der Gruppe vorgestellt wurde. Neben Beiträgen aus dem Kernort Wald soll die Plattform zukünftig allen zehn Ortsteilen die Möglichkeit bieten, ihre eigene Geschichte vorzustellen. Das Team freut sich bereits jetzt auf Einsendungen aus allen Teilen der Zehn-Dörfer-Gemeinde. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "In seiner Ansprache betonte Matthias Lehmann: „Mit dieser Plattform möchten wir nicht nur die lokale Geschichte bewahren, sondern auch ein lebendiges Netzwerk schaffen. Die Bürgerinnen und Bürger sind eingeladen, Beiträge zu verfassen, alte Dokumente bereitzustellen und Geschichten weiterzuerzählen. Nur gemeinsam können wir das reiche kulturelle Erbe unserer Heimat lebendig halten“."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Als besonderen Gast konnte die Gruppe „Historisches Wald“ Franz-Sales Fröhlich aus Bad Waldsee im Rathaus in Wald begrüßen. Zusammen mit seiner Frau ist er in seine ehemalige Heimatgemeinde gekommen, um der Gemeinde seine Sammlung an historischen Dokumenten, Bildern und Schriftstücken zur Verfügung zu stellen. Es ist ihm ein großes Anliegen, dass seine „Schätze“ in gute Hände kommen und dazu beitragen, die Geschichte der Gemeinde zu bewahren. Zu seiner Sammlung erzählte Franz-Sales Fröhlich die eine oder andere spannende Geschichte. Bürgermeister Joachim Grüner dankte Herrn Fröhlich für die Bereitstellung der Unterlagen für das Gemeindearchiv, das immer weiter anwächst. Zum Beispiel gibt es schon eine beachtliche Sammlung an Fotos von historischen Postkarten, auf die die Gemeinde und die Gruppe „Historisches Wald“ vor allem dank der Unterstützung von Gudrun Schmidt und Clemens Veeser zurückgreifen kann. Viele weitere Fotos, Dokumente und Exponate wurden aus der Walder Bevölkerung zur Verfügung gestellt. All das soll nach und nach auf der Website veröffentlicht und Interessierten zugänglich gemacht werden. "
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "„Wir hoffen, dass unser Vorhaben und die dazugehörende Homepage auf großes Interesse stoßen und freuen uns über viele Unterstützer, damit die Geschichte unserer Heimat festgehalten wird und in Erinnerung bleiben kann“. Mit diesen Worten von Martin Kuhn endete der kleine Empfang im Walder Rathaus, der einen spannenden Einblick in die umfangreiche Geschichte der Zehn-Dörfer-Gemeinde gab."
+            }
+          ]
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_msw65yodtegdlb",
+            "src": "/files/images/thumbnails/album-1786906788067-303878210-thumb.jpg",
+            "alt": "Übergabe Sammlung Franz-Sales Fröhlich",
+            "caption": "Übergabe Sammlung Franz-Sales Fröhlich"
+          }
+        },
+        {
+          "type": "albumPhoto",
+          "attrs": {
+            "photoId": "local_msw665pcaxjnb2",
+            "src": "/files/images/thumbnails/album-1786906797551-458446375-thumb.jpg",
+            "alt": "Übergabe Sammlung Franz-Sales Fröhlich",
+            "caption": "Übergabe Sammlung Franz-Sales Fröhlich"
+          }
+        },
         {
           "type": "paragraph",
           "attrs": {
@@ -49,11 +489,23 @@
     },
     "images": [
       {
-        "id": "local_mutlnrbdav5nsq",
-        "src": "/files/images/thumbnails/album-1791104979283-243673415-thumb.jpg",
-        "original": "/files/images/album-1791104979283-243673415.png",
-        "title": "TestTitel",
-        "description": "TestBeschreibung\nQuelle. Test",
+        "id": "local_msw65yodtegdlb",
+        "src": "/files/images/thumbnails/album-1786906788067-303878210-thumb.jpg",
+        "original": "/files/images/album-1786906788067-303878210.jpg",
+        "title": "Übergabe Sammlung Franz-Sales Fröhlich",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_msw665pcaxjnb2",
+        "src": "/files/images/thumbnails/album-1786906797551-458446375-thumb.jpg",
+        "original": "/files/images/album-1786906797551-458446375.jpg",
+        "title": "Übergabe Sammlung Franz-Sales Fröhlich",
+        "description": "",
         "type": "album",
         "date": "",
         "author": "",
@@ -68,23 +520,1088 @@
     "metadata": {
       "author": "Unbekannt",
       "source": "Unbekannt",
-      "editor": "M.Lehmann"
+      "editor": "Stefanie Grüner"
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mutlnrbdav5nsq"
+      "local_msw65yodtegdlb",
+      "local_msw665pcaxjnb2"
     ],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-08-16T19:02:25.597Z",
       "comments": []
     }
   },
   {
-    "id": "doc-1791017989188",
+    "id": "doc-1772558738917",
+    "title": "Postkarten aus Wald",
+    "year": 2026,
+    "category": "Wald",
+    "subcategories": [
+      "Postkarten"
+    ],
+    "location": "Wald",
+    "description": "<p></p>",
+    "transcription": "<p></p>",
+    "images": [
+      {
+        "id": "53508710586",
+        "src": "/files/images/thumbnails/photo-53508710586-thumb.jpg",
+        "original": "/files/images/jahr-1935_53508710586_o.jpg",
+        "title": "Jahr 1935",
+        "description": "Haus auf der linken Seite:\nHohenzollernstraße 18 (früher Hausnr. 1 und 4)\nHeute St. Maurus mit Turnhalle der Heimschule.\nUnter Äbtissin Edmunda von Kolb als Gästehaus des Klosters von 1793-1797 gebaut, mit Zehntscheuer und Ställen.\n1806 durch die Säkularisation von Napoleon enteignet, dem Fürst von Sigmaringen zugesprochen.\nBis 1809 als Lehensgut durch F.J. Linder bewirtschaftet.\nÜbernahme der Gastwirtschaft mit Landwirtschaft durch Schwiegersohn Franz-Sales Koch I.\n1822 von 'Gasthaus zur Post' in 'Gasthaus zum Adler' umbenannt.\nAllodifikation (Ablösung) 1841.\nWein- und Gastwirtschaft, Poststation, Metzgerei, Bäckerei und kl. Filiale der Hohenz. Landesbank.\nBesitzerwechsel an Schwiegersohn Anton Fröhlich.\n1961 Verkauf des Anwesens an das Kloster.\nJetzt St. Maurus mit Werkstätten der Heimschule.\nAbbruch der Zehntscheuer mit Ställen, jetzt Turnhalle der Heimschule.\n\nHaus auf der rechten Seite:\nVon-Weckenstein-Str. 3 (früher Hausnr. 126)\nHeute: Außenhaus der Heimschule\nKoch'sche Villa. Gebaut für/von Bürgermeister Koch (Bruder des Gastwirts Koch) und seine Mutter.\nVerkauft 1959 an die Klosterschwestern, die es zunächst vermieteten.\nFrüher auch Legewie-Haus genannt.\nLetzte Mieter: Herr und Frau Peteln.",
+        "type": "album",
+        "date": "2022-04-01 14:43:10",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508710586/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275930303",
+        "src": "/files/images/thumbnails/photo-54275930303-thumb.jpg",
+        "original": "/files/images/gasthaus-zur-post-und-villa-koch_54275930303_o.jpg",
+        "title": "Gasthaus zur Post und Villa Koch",
+        "description": "37_Wald I\nca. 1930?",
+        "type": "album",
+        "date": "2025-01-19 12:23:29",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275930303/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509137770",
+        "src": "/files/images/thumbnails/photo-53509137770-thumb.jpg",
+        "original": "/files/images/jahr-1902_53509137770_o.jpg",
+        "title": "Jahr 1902",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-03 20:23:38",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509137770/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53507819372",
+        "src": "/files/images/thumbnails/photo-53507819372-thumb.jpg",
+        "original": "/files/images/img20220415_11243758_53507819372_o.jpg",
+        "title": "img20220415_11243758",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:50:01",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53507819372/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508710711",
+        "src": "/files/images/thumbnails/photo-53508710711-thumb.jpg",
+        "original": "/files/images/gemalte-gesamtansicht-von-wald_53508710711_o.jpg",
+        "title": "Gemalte Gesamtansicht von Wald",
+        "description": "ca. 1930?",
+        "type": "album",
+        "date": "2022-04-03 20:21:32",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508710711/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656476664",
+        "src": "/files/images/thumbnails/photo-53656476664-thumb.jpg",
+        "original": "/files/images/gastflgel_53656476664_o.jpg",
+        "title": "Gastflügel",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656476664/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54277820683",
+        "src": "/files/images/thumbnails/photo-54277820683-thumb.jpg",
+        "original": "/files/images/41_wald-i_54277820683_o.jpg",
+        "title": "41_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 09:57:48",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54277820683/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509027504",
+        "src": "/files/images/thumbnails/photo-53509027504-thumb.jpg",
+        "original": "/files/images/img20220415_11004043_53509027504_o.jpg",
+        "title": "img20220415_11004043",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:50:28",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509027504/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656588620",
+        "src": "/files/images/thumbnails/photo-53656588620-thumb.jpg",
+        "original": "/files/images/bild-28_53656588620_o.jpg",
+        "title": "Bild 28",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:35",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656588620/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54272710282",
+        "src": "/files/images/thumbnails/photo-54272710282-thumb.jpg",
+        "original": "/files/images/wald-iii-vorderseite_54272710282_o.jpg",
+        "title": "Wald III Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-18 12:07:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54272710282/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656347118",
+        "src": "/files/images/thumbnails/photo-53656347118-thumb.jpg",
+        "original": "/files/images/bild-16_53656347118_o.jpg",
+        "title": "Bild 16",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:34",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656347118/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275876948",
+        "src": "/files/images/thumbnails/photo-54275876948-thumb.jpg",
+        "original": "/files/images/29_wald-i_54275876948_o.jpg",
+        "title": "29_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 11:55:52",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275876948/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54278772352",
+        "src": "/files/images/thumbnails/photo-54278772352-thumb.jpg",
+        "original": "/files/images/54_wald-i_54278772352_o.jpg",
+        "title": "54_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-21 10:40:20",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54278772352/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508709211",
+        "src": "/files/images/thumbnails/photo-53508709211-thumb.jpg",
+        "original": "/files/images/img20220415_11170657_53508709211_o.jpg",
+        "title": "img20220415_11170657",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:50:01",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508709211/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54278767942",
+        "src": "/files/images/thumbnails/photo-54278767942-thumb.jpg",
+        "original": "/files/images/58_wald-i_54278767942_o.jpg",
+        "title": "58_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-21 10:38:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54278767942/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54273850894",
+        "src": "/files/images/thumbnails/photo-54273850894-thumb.jpg",
+        "original": "/files/images/sdansicht-kloster_54273850894_o.jpg",
+        "title": "Südansicht Kloster",
+        "description": "Wald IV Vorderseite\nca. 1955?",
+        "type": "album",
+        "date": "2025-01-18 12:13:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54273850894/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54276086235",
+        "src": "/files/images/thumbnails/photo-54276086235-thumb.jpg",
+        "original": "/files/images/31_wald_54276086235_o.jpg",
+        "title": "31_Wald",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 12:11:14",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54276086235/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54277633441",
+        "src": "/files/images/thumbnails/photo-54277633441-thumb.jpg",
+        "original": "/files/images/47_wald-i_54277633441_o.jpg",
+        "title": "47_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 10:34:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54277633441/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53507820892",
+        "src": "/files/images/thumbnails/photo-53507820892-thumb.jpg",
+        "original": "/files/images/jahr-1930er_53507820892_o.jpg",
+        "title": "Jahr 1930er",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-03 20:39:26",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53507820892/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54278081310",
+        "src": "/files/images/thumbnails/photo-54278081310-thumb.jpg",
+        "original": "/files/images/51_wald-i_54278081310_o.jpg",
+        "title": "51_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 10:43:43",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54278081310/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508711161",
+        "src": "/files/images/thumbnails/photo-53508711161-thumb.jpg",
+        "original": "/files/images/jahr-1909_53508711161_o.jpg",
+        "title": "Jahr 1909",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-03 20:25:54",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508711161/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54279651176",
+        "src": "/files/images/thumbnails/photo-54279651176-thumb.jpg",
+        "original": "/files/images/53_wald-i_54279651176_o.jpg",
+        "title": "53_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-21 10:40:21",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54279651176/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656588555",
+        "src": "/files/images/thumbnails/photo-53656588555-thumb.jpg",
+        "original": "/files/images/bild-8_53656588555_o.jpg",
+        "title": "Bild 8",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656588555/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656588565",
+        "src": "/files/images/thumbnails/photo-53656588565-thumb.jpg",
+        "original": "/files/images/bild-6_53656588565_o.jpg",
+        "title": "Bild 6",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656588565/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656588550",
+        "src": "/files/images/thumbnails/photo-53656588550-thumb.jpg",
+        "original": "/files/images/bild-4_53656588550_o.jpg",
+        "title": "Bild 4",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656588550/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275511446",
+        "src": "/files/images/thumbnails/photo-54275511446-thumb.jpg",
+        "original": "/files/images/22_wald-i_54275511446_o.jpg",
+        "title": "22_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 10:54:05",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275511446/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508708651",
+        "src": "/files/images/thumbnails/photo-53508708651-thumb.jpg",
+        "original": "/files/images/jahr-1899_53508708651_o.jpg",
+        "title": "Jahr 1899",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:43",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508708651/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509137845",
+        "src": "/files/images/thumbnails/photo-53509137845-thumb.jpg",
+        "original": "/files/images/jahr-1895_53509137845_o.jpg",
+        "title": "Jahr 1895",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-03 20:13:52",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509137845/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54273563561",
+        "src": "/files/images/thumbnails/photo-54273563561-thumb.jpg",
+        "original": "/files/images/kloster-ii-vorderseite_54273563561_o.jpg",
+        "title": "Kloster II Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-18 11:45:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54273563561/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54276688277",
+        "src": "/files/images/thumbnails/photo-54276688277-thumb.jpg",
+        "original": "/files/images/44_wald-i_54276688277_o.jpg",
+        "title": "44_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 09:57:43",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54276688277/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508711226",
+        "src": "/files/images/thumbnails/photo-53508711226-thumb.jpg",
+        "original": "/files/images/jahr-1903_53508711226_o.jpg",
+        "title": "Jahr 1903",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-03 20:29:16",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508711226/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656124986",
+        "src": "/files/images/thumbnails/photo-53656124986-thumb.jpg",
+        "original": "/files/images/4-ansichten-von-wald_53656124986_o.jpg",
+        "title": "4 Ansichten von Wald",
+        "description": "Bild 33\nca. 1960?",
+        "type": "album",
+        "date": "2024-04-15 10:37:36",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656124986/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54273577441",
+        "src": "/files/images/thumbnails/photo-54273577441-thumb.jpg",
+        "original": "/files/images/kloster-iii-vorderseite_54273577441_o.jpg",
+        "title": "Kloster III Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-18 11:54:22",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54273577441/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509134955",
+        "src": "/files/images/thumbnails/photo-53509134955-thumb.jpg",
+        "original": "/files/images/jahr-1912_53509134955_o.jpg",
+        "title": "Jahr 1912",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509134955/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509028139",
+        "src": "/files/images/thumbnails/photo-53509028139-thumb.jpg",
+        "original": "/files/images/jahr-1917_53509028139_o.jpg",
+        "title": "Jahr 1917",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-01 14:46:56",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509028139/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656124956",
+        "src": "/files/images/thumbnails/photo-53656124956-thumb.jpg",
+        "original": "/files/images/bild-31_53656124956_o.jpg",
+        "title": "Bild 31",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:36",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656124956/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656347173",
+        "src": "/files/images/thumbnails/photo-53656347173-thumb.jpg",
+        "original": "/files/images/bild-20_53656347173_o.jpg",
+        "title": "Bild 20",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:35",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656347173/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656588670",
+        "src": "/files/images/thumbnails/photo-53656588670-thumb.jpg",
+        "original": "/files/images/rathaus-ehem-schulhaus_53656588670_o.jpg",
+        "title": "Rathaus ehem. Schulhaus",
+        "description": "Bild 36\nca. 1930?",
+        "type": "album",
+        "date": "2024-04-15 10:37:36",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656588670/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53507819307",
+        "src": "/files/images/thumbnails/photo-53507819307-thumb.jpg",
+        "original": "/files/images/img20220415_11202376_53507819307_o.jpg",
+        "title": "img20220415_11202376",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:59",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53507819307/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275017830",
+        "src": "/files/images/thumbnails/photo-54275017830-thumb.jpg",
+        "original": "/files/images/wald-v-vorderseite_54275017830_o.jpg",
+        "title": "Wald V Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 01:08:09",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275017830/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54278001040",
+        "src": "/files/images/thumbnails/photo-54278001040-thumb.jpg",
+        "original": "/files/images/villa-haug_54278001040_o.jpg",
+        "title": "Villa Haug",
+        "description": "43_Wald I\nca. 1930?",
+        "type": "album",
+        "date": "2025-01-20 09:57:46",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54278001040/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54280076325",
+        "src": "/files/images/thumbnails/photo-54280076325-thumb.jpg",
+        "original": "/files/images/59_wald-i_54280076325_o.jpg",
+        "title": "59_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-21 10:38:03",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54280076325/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508875223",
+        "src": "/files/images/thumbnails/photo-53508875223-thumb.jpg",
+        "original": "/files/images/img20220415_11152055_53508875223_o.jpg",
+        "title": "img20220415_11152055",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:50:03",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508875223/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54273685136",
+        "src": "/files/images/thumbnails/photo-54273685136-thumb.jpg",
+        "original": "/files/images/wald-x-vorderseite_54273685136_o.jpg",
+        "title": "Wald X Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-18 13:02:36",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54273685136/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54277633206",
+        "src": "/files/images/thumbnails/photo-54277633206-thumb.jpg",
+        "original": "/files/images/50_wald-i_54277633206_o.jpg",
+        "title": "50_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 10:34:00",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54277633206/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274851773",
+        "src": "/files/images/thumbnails/photo-54274851773-thumb.jpg",
+        "original": "/files/images/wald-xv-vorderseite_54274851773_o.jpg",
+        "title": "Wald XV Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 01:21:59",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274851773/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274582366",
+        "src": "/files/images/thumbnails/photo-54274582366-thumb.jpg",
+        "original": "/files/images/kirche-vi-vorderseite_54274582366_o.jpg",
+        "title": "Kirche VI Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 01:03:14",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274582366/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509134590",
+        "src": "/files/images/thumbnails/photo-53509134590-thumb.jpg",
+        "original": "/files/images/jahr-1938-ii_53509134590_o.jpg",
+        "title": "Jahr 1938 II",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:23",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509134590/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509134560",
+        "src": "/files/images/thumbnails/photo-53509134560-thumb.jpg",
+        "original": "/files/images/jahr-1938_53509134560_o.jpg",
+        "title": "Jahr 1938",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:22",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509134560/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508874013",
+        "src": "/files/images/thumbnails/photo-53508874013-thumb.jpg",
+        "original": "/files/images/jahr-1974_53508874013_o.jpg",
+        "title": "Jahr 1974",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:24",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508874013/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53656124841",
+        "src": "/files/images/thumbnails/photo-53656124841-thumb.jpg",
+        "original": "/files/images/bild-12_53656124841_o.jpg",
+        "title": "Bild 12",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53656124841/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274855853",
+        "src": "/files/images/thumbnails/photo-54274855853-thumb.jpg",
+        "original": "/files/images/wald-xvi-vorderseite_54274855853_o.jpg",
+        "title": "Wald XVI Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 01:25:26",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274855853/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54279891754",
+        "src": "/files/images/thumbnails/photo-54279891754-thumb.jpg",
+        "original": "/files/images/62_wald-i_54279891754_o.jpg",
+        "title": "62_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-21 10:37:55",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54279891754/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54277884628",
+        "src": "/files/images/thumbnails/photo-54277884628-thumb.jpg",
+        "original": "/files/images/48_wald_54277884628_o.jpg",
+        "title": "48_Wald",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 10:34:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54277884628/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275924068",
+        "src": "/files/images/thumbnails/photo-54275924068-thumb.jpg",
+        "original": "/files/images/34_wald_54275924068_o.jpg",
+        "title": "34_Wald",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 12:19:59",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275924068/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275726323",
+        "src": "/files/images/thumbnails/photo-54275726323-thumb.jpg",
+        "original": "/files/images/alt-wald-von-sden-gesehen_54275726323_o.jpg",
+        "title": "Alt Wald von Süden gesehen",
+        "description": "19_Wald I\nca. 1900?",
+        "type": "album",
+        "date": "2025-01-19 10:35:16",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275726323/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274619777",
+        "src": "/files/images/thumbnails/photo-54274619777-thumb.jpg",
+        "original": "/files/images/20_wald-i_54274619777_o.jpg",
+        "title": "20_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 10:47:55",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274619777/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275751049",
+        "src": "/files/images/thumbnails/photo-54275751049-thumb.jpg",
+        "original": "/files/images/21_wald-i_54275751049_o.jpg",
+        "title": "21_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 10:50:22",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275751049/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508876773",
+        "src": "/files/images/thumbnails/photo-53508876773-thumb.jpg",
+        "original": "/files/images/53508876773_f7abb23908_o-1-scaled.jpg",
+        "title": "Jahr 1911_2",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-03 20:36:26",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508876773/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275829223",
+        "src": "/files/images/thumbnails/photo-54275829223-thumb.jpg",
+        "original": "/files/images/25_wald-i_54275829223_o.jpg",
+        "title": "25_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 11:30:33",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275829223/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275826389",
+        "src": "/files/images/thumbnails/photo-54275826389-thumb.jpg",
+        "original": "/files/images/24_wald-i_54275826389_o.jpg",
+        "title": "24_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 11:30:32",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275826389/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275708079",
+        "src": "/files/images/thumbnails/photo-54275708079-thumb.jpg",
+        "original": "/files/images/wald-xviii-vorderseite_54275708079_o.jpg",
+        "title": "Wald XVIII Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 10:28:22",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275708079/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508876993",
+        "src": "/files/images/thumbnails/photo-53508876993-thumb.jpg",
+        "original": "/files/images/jahr-1906_53508876993_o.jpg",
+        "title": "Jahr 1906",
+        "description": "",
+        "type": "album",
+        "date": "2022-04-03 20:18:28",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508876993/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275906578",
+        "src": "/files/images/thumbnails/photo-54275906578-thumb.jpg",
+        "original": "/files/images/32_wald_54275906578_o.jpg",
+        "title": "32_Wald",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 12:11:15",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275906578/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53509025824",
+        "src": "/files/images/thumbnails/photo-53509025824-thumb.jpg",
+        "original": "/files/images/jahr-1909_ii_53509025824_o.jpg",
+        "title": "Jahr 1909_II",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53509025824/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275064030",
+        "src": "/files/images/thumbnails/photo-54275064030-thumb.jpg",
+        "original": "/files/images/wald-xvii-vorderseite_54275064030_o.jpg",
+        "title": "Wald XVII Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 01:46:46",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275064030/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54275627986",
+        "src": "/files/images/thumbnails/photo-54275627986-thumb.jpg",
+        "original": "/files/images/28_wald-i_54275627986_o.jpg",
+        "title": "28_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 11:55:53",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54275627986/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54277879579",
+        "src": "/files/images/thumbnails/photo-54277879579-thumb.jpg",
+        "original": "/files/images/46_wald-i_54277879579_o.jpg",
+        "title": "46_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 10:34:13",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54277879579/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54277650676",
+        "src": "/files/images/thumbnails/photo-54277650676-thumb.jpg",
+        "original": "/files/images/52_wald-i_54277650676_o.jpg",
+        "title": "52_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-20 10:43:43",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54277650676/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508708976",
+        "src": "/files/images/thumbnails/photo-53508708976-thumb.jpg",
+        "original": "/files/images/img20220415_11222417_53508708976_o.jpg",
+        "title": "img20220415_11222417",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:55",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508708976/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274047345",
+        "src": "/files/images/thumbnails/photo-54274047345-thumb.jpg",
+        "original": "/files/images/hohenzollernstrae-geschftshuser_54274047345_o.jpg",
+        "title": "Hohenzollernstraße Geschäftshäuser",
+        "description": "Wald VI Vorderseite\nca. 1955?",
+        "type": "album",
+        "date": "2025-01-18 12:27:16",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274047345/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53655248497",
+        "src": "/files/images/thumbnails/photo-53655248497-thumb.jpg",
+        "original": "/files/images/bild-18_53655248497_o.jpg",
+        "title": "Bild 18",
+        "description": "",
+        "type": "album",
+        "date": "2024-04-15 10:37:34",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53655248497/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54273924383",
+        "src": "/files/images/thumbnails/photo-54273924383-thumb.jpg",
+        "original": "/files/images/wald-xiv-vorderseite_54273924383_o.jpg",
+        "title": "Wald XIV Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-18 12:57:40",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54273924383/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274758027",
+        "src": "/files/images/thumbnails/photo-54274758027-thumb.jpg",
+        "original": "/files/images/30_wald-i_54274758027_o.jpg",
+        "title": "30_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 12:00:47",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274758027/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "53508708811",
+        "src": "/files/images/thumbnails/photo-53508708811-thumb.jpg",
+        "original": "/files/images/img20220415_12330651_53508708811_o.jpg",
+        "title": "img20220415_12330651",
+        "description": "",
+        "type": "album",
+        "date": "2024-02-04 10:49:49",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/53508708811/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274003760",
+        "src": "/files/images/thumbnails/photo-54274003760-thumb.jpg",
+        "original": "/files/images/wald-i-vorderseite_54274003760_o.jpg",
+        "title": "Wald I Vorderseite",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-18 11:56:44",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274003760/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54274701242",
+        "src": "/files/images/thumbnails/photo-54274701242-thumb.jpg",
+        "original": "/files/images/23_wald-i_54274701242_o.jpg",
+        "title": "23_Wald I",
+        "description": "",
+        "type": "album",
+        "date": "2025-01-19 11:30:34",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54274701242/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Unbekannt"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "53508710586",
+      "54275930303",
+      "53509137770",
+      "53507819372",
+      "53508710711",
+      "53656476664",
+      "54277820683",
+      "53509027504",
+      "53656588620",
+      "54272710282",
+      "53656347118",
+      "54275876948",
+      "54278772352",
+      "53508709211",
+      "54278767942",
+      "54273850894",
+      "54276086235",
+      "54277633441",
+      "53507820892",
+      "54278081310",
+      "53508711161",
+      "54279651176",
+      "53656588555",
+      "53656588565",
+      "53656588550",
+      "54275511446",
+      "53508708651",
+      "53509137845",
+      "54273563561",
+      "54276688277",
+      "53508711226",
+      "53656124986",
+      "54273577441",
+      "53509134955",
+      "53509028139",
+      "53656124956",
+      "53656347173",
+      "53656588670",
+      "53507819307",
+      "54275017830",
+      "54278001040",
+      "54280076325",
+      "53508875223",
+      "54273685136",
+      "54277633206",
+      "54274851773",
+      "54274582366",
+      "53509134590",
+      "53509134560",
+      "53508874013",
+      "53656124841",
+      "54274855853",
+      "54279891754",
+      "54277884628",
+      "54275924068",
+      "54275726323",
+      "54274619777",
+      "54275751049",
+      "53508876773",
+      "54275829223",
+      "54275826389",
+      "54275708079",
+      "53508876993",
+      "54275906578",
+      "53509025824",
+      "54275064030",
+      "54275627986",
+      "54277879579",
+      "54277650676",
+      "53508708976",
+      "54274047345",
+      "53655248497",
+      "54273924383",
+      "54274758027",
+      "53508708811",
+      "54274003760",
+      "54274701242"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Matthias Lehmann",
+      "reviewedAt": null,
+      "comments": [
+        {
+          "reviewer": "Matthias Lehmann",
+          "date": "2026-03-03T17:26:29.977Z",
+          "comment": "Ja ist gut so. Ein bisschen zuviel Bilder im Dokument"
+        }
+      ]
+    },
+    "showInTimeline": false,
     "sortOrder": 1,
+    "parent_id": "",
+    "coverPhotoId": "",
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    },
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "doc-1791017989188",
+    "sortOrder": 2,
     "title": "Historisches Rothenlachen",
     "year": 2024,
     "parent_id": "",
@@ -1808,1244 +3325,6 @@
     }
   },
   {
-    "id": "doc-1786906610584",
-    "sortOrder": 2,
-    "title": "Historisches Wald stellt Homepage vor ",
-    "year": 2025,
-    "parent_id": "",
-    "category": "Wald",
-    "subcategories": [
-      "Vorstellung"
-    ],
-    "location": "Wald",
-    "description": "<p>Franz-Sales Fröhlich übergibt Sammlung</p>",
-    "descriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Franz-Sales Fröhlich übergibt Sammlung"
-            }
-          ]
-        }
-      ]
-    },
-    "transcription": "<p>Nach&nbsp;intensiver&nbsp;Vorarbeit ging die&nbsp;Homepage&nbsp;der Gruppe „Historisches Wald“ am&nbsp;19. Juli 2025&nbsp;im Sitzungssaal des Rathauses in Wald online. Das Kernteam, bestehend aus Martin Kuhn, Elfriede Kempter, Matthias Lehmann und Stefanie Grüner, hat monatelang alte Fotos und historische Dokumente zusammengetragen und viel Zeit in Recherchen investiert. Das Ergebnis ist die Website&nbsp;<a rel=\"noopener noreferrer nofollow\" class=\"text-accent underline font-semibold\" href=\"http://www.historisches-wald.de\">www.historisches-wald.de</a>,&nbsp;die im Beisein von Bürgermeister Joachim Grüner und Unterstützern der Gruppe vorgestellt wurde. Neben Beiträgen aus dem Kernort Wald soll die Plattform&nbsp;zukünftig allen zehn Ortsteilen die Möglichkeit&nbsp;bieten, ihre eigene Geschichte vorzustellen. Das Team freut sich&nbsp;bereits jetzt auf Einsendungen aus&nbsp;allen Teilen der Zehn-Dörfer-Gemeinde.&nbsp;</p><p>In seiner Ansprache betonte Matthias Lehmann: „Mit dieser Plattform möchten wir nicht nur die lokale Geschichte bewahren, sondern auch ein lebendiges Netzwerk schaffen.&nbsp;Die Bürgerinnen und Bürger sind&nbsp;eingeladen, Beiträge zu verfassen, alte Dokumente bereitzustellen und Geschichten weiterzuerzählen. Nur gemeinsam können wir das reiche kulturelle Erbe unserer Heimat lebendig halten“.</p><p>Als besonderen Gast konnte die Gruppe „Historisches Wald“ Franz-Sales Fröhlich aus Bad Waldsee&nbsp;im Rathaus in Wald begrüßen. Zusammen mit seiner Frau ist er in seine ehemalige Heimatgemeinde gekommen,&nbsp;um der Gemeinde&nbsp;seine Sammlung an historischen Dokumenten, Bildern und Schriftstücken zur Verfügung&nbsp;zu&nbsp;stellen. Es ist ihm ein großes Anliegen, dass seine „Schätze“ in gute Hände kommen und dazu beitragen,&nbsp;die Geschichte der Gemeinde zu bewahren.&nbsp;Zu seiner Sammlung erzählte Franz-Sales Fröhlich die eine&nbsp;oder andere&nbsp;spannende Geschichte.&nbsp;Bürgermeister Joachim Grüner dankte Herrn Fröhlich für die Bereitstellung der Unterlagen für das Gemeindearchiv, das&nbsp;immer weiter&nbsp;anwächst.&nbsp;Zum Beispiel gibt es schon&nbsp;eine beachtliche Sammlung an Fotos von historischen Postkarten, auf die&nbsp;die&nbsp;Gemeinde und die&nbsp;Gruppe „Historisches Wald“&nbsp;vor allem&nbsp;dank der Unterstützung von Gudrun Schmidt und Clemens&nbsp;Veeser&nbsp;zurückgreifen&nbsp;kann.&nbsp;Viele weitere Fotos, Dokumente und Exponate wurden aus der Walder Bevölkerung zur Verfügung gestellt. All das soll nach und nach auf der Website veröffentlicht und Interessierten zugänglich gemacht werden.&nbsp;</p><p>„Wir hoffen, dass unser&nbsp;Vorhaben und die dazugehörende Homepage&nbsp;auf großes Interesse stoßen&nbsp;und freuen uns über viele Unterstützer, damit die&nbsp;Geschichte unserer Heimat&nbsp;festgehalten wird und in Erinnerung bleiben kann“. Mit diesen Worten von Martin Kuhn endete der kleine Empfang im Walder Rathaus, der einen spannenden Einblick in die umfangreiche Geschichte der Zehn-Dörfer-Gemeinde gab.</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_msw65yodtegdlb\"><img src=\"/files/images/thumbnails/album-1786906788067-303878210-thumb.jpg\" alt=\"Übergabe Sammlung Franz-Sales Fröhlich\"><figcaption>Übergabe Sammlung Franz-Sales Fröhlich</figcaption></figure><figure class=\"album-photo-node\" data-album-photo-id=\"local_msw665pcaxjnb2\"><img src=\"/files/images/thumbnails/album-1786906797551-458446375-thumb.jpg\" alt=\"Übergabe Sammlung Franz-Sales Fröhlich\"><figcaption>Übergabe Sammlung Franz-Sales Fröhlich</figcaption></figure><p></p>",
-    "transcriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Nach intensiver Vorarbeit ging die Homepage der Gruppe „Historisches Wald“ am 19. Juli 2025 im Sitzungssaal des Rathauses in Wald online. Das Kernteam, bestehend aus Martin Kuhn, Elfriede Kempter, Matthias Lehmann und Stefanie Grüner, hat monatelang alte Fotos und historische Dokumente zusammengetragen und viel Zeit in Recherchen investiert. Das Ergebnis ist die Website "
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "href": "http://www.historisches-wald.de",
-                    "target": "_blank",
-                    "rel": "noopener noreferrer nofollow",
-                    "class": "text-accent underline font-semibold"
-                  }
-                }
-              ],
-              "text": "www.historisches-wald.de"
-            },
-            {
-              "type": "text",
-              "text": ", die im Beisein von Bürgermeister Joachim Grüner und Unterstützern der Gruppe vorgestellt wurde. Neben Beiträgen aus dem Kernort Wald soll die Plattform zukünftig allen zehn Ortsteilen die Möglichkeit bieten, ihre eigene Geschichte vorzustellen. Das Team freut sich bereits jetzt auf Einsendungen aus allen Teilen der Zehn-Dörfer-Gemeinde. "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "In seiner Ansprache betonte Matthias Lehmann: „Mit dieser Plattform möchten wir nicht nur die lokale Geschichte bewahren, sondern auch ein lebendiges Netzwerk schaffen. Die Bürgerinnen und Bürger sind eingeladen, Beiträge zu verfassen, alte Dokumente bereitzustellen und Geschichten weiterzuerzählen. Nur gemeinsam können wir das reiche kulturelle Erbe unserer Heimat lebendig halten“."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "Als besonderen Gast konnte die Gruppe „Historisches Wald“ Franz-Sales Fröhlich aus Bad Waldsee im Rathaus in Wald begrüßen. Zusammen mit seiner Frau ist er in seine ehemalige Heimatgemeinde gekommen, um der Gemeinde seine Sammlung an historischen Dokumenten, Bildern und Schriftstücken zur Verfügung zu stellen. Es ist ihm ein großes Anliegen, dass seine „Schätze“ in gute Hände kommen und dazu beitragen, die Geschichte der Gemeinde zu bewahren. Zu seiner Sammlung erzählte Franz-Sales Fröhlich die eine oder andere spannende Geschichte. Bürgermeister Joachim Grüner dankte Herrn Fröhlich für die Bereitstellung der Unterlagen für das Gemeindearchiv, das immer weiter anwächst. Zum Beispiel gibt es schon eine beachtliche Sammlung an Fotos von historischen Postkarten, auf die die Gemeinde und die Gruppe „Historisches Wald“ vor allem dank der Unterstützung von Gudrun Schmidt und Clemens Veeser zurückgreifen kann. Viele weitere Fotos, Dokumente und Exponate wurden aus der Walder Bevölkerung zur Verfügung gestellt. All das soll nach und nach auf der Website veröffentlicht und Interessierten zugänglich gemacht werden. "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "„Wir hoffen, dass unser Vorhaben und die dazugehörende Homepage auf großes Interesse stoßen und freuen uns über viele Unterstützer, damit die Geschichte unserer Heimat festgehalten wird und in Erinnerung bleiben kann“. Mit diesen Worten von Martin Kuhn endete der kleine Empfang im Walder Rathaus, der einen spannenden Einblick in die umfangreiche Geschichte der Zehn-Dörfer-Gemeinde gab."
-            }
-          ]
-        },
-        {
-          "type": "albumPhoto",
-          "attrs": {
-            "photoId": "local_msw65yodtegdlb",
-            "src": "/files/images/thumbnails/album-1786906788067-303878210-thumb.jpg",
-            "alt": "Übergabe Sammlung Franz-Sales Fröhlich",
-            "caption": "Übergabe Sammlung Franz-Sales Fröhlich"
-          }
-        },
-        {
-          "type": "albumPhoto",
-          "attrs": {
-            "photoId": "local_msw665pcaxjnb2",
-            "src": "/files/images/thumbnails/album-1786906797551-458446375-thumb.jpg",
-            "alt": "Übergabe Sammlung Franz-Sales Fröhlich",
-            "caption": "Übergabe Sammlung Franz-Sales Fröhlich"
-          }
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          }
-        }
-      ]
-    },
-    "images": [
-      {
-        "id": "local_msw65yodtegdlb",
-        "src": "/files/images/thumbnails/album-1786906788067-303878210-thumb.jpg",
-        "original": "/files/images/album-1786906788067-303878210.jpg",
-        "title": "Übergabe Sammlung Franz-Sales Fröhlich",
-        "description": "",
-        "type": "album",
-        "date": "",
-        "author": "",
-        "source": "",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "local_msw665pcaxjnb2",
-        "src": "/files/images/thumbnails/album-1786906797551-458446375-thumb.jpg",
-        "original": "/files/images/album-1786906797551-458446375.jpg",
-        "title": "Übergabe Sammlung Franz-Sales Fröhlich",
-        "description": "",
-        "type": "album",
-        "date": "",
-        "author": "",
-        "source": "",
-        "license": "All Rights Reserved"
-      }
-    ],
-    "coverPhotoId": "",
-    "showInTimeline": true,
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "metadata": {
-      "author": "Unbekannt",
-      "source": "Unbekannt",
-      "editor": "Stefanie Grüner"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [
-      "local_msw65yodtegdlb",
-      "local_msw665pcaxjnb2"
-    ],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-08-16T19:02:25.597Z",
-      "comments": []
-    }
-  },
-  {
-    "id": "doc-1772558738917",
-    "title": "Postkarten aus Wald",
-    "year": 2026,
-    "category": "Wald",
-    "subcategories": [
-      "Postkarten"
-    ],
-    "location": "Wald",
-    "description": "<p></p>",
-    "transcription": "<p></p>",
-    "images": [
-      {
-        "id": "53508710586",
-        "src": "/files/images/thumbnails/photo-53508710586-thumb.jpg",
-        "original": "/files/images/jahr-1935_53508710586_o.jpg",
-        "title": "Jahr 1935",
-        "description": "Haus auf der linken Seite:\nHohenzollernstraße 18 (früher Hausnr. 1 und 4)\nHeute St. Maurus mit Turnhalle der Heimschule.\nUnter Äbtissin Edmunda von Kolb als Gästehaus des Klosters von 1793-1797 gebaut, mit Zehntscheuer und Ställen.\n1806 durch die Säkularisation von Napoleon enteignet, dem Fürst von Sigmaringen zugesprochen.\nBis 1809 als Lehensgut durch F.J. Linder bewirtschaftet.\nÜbernahme der Gastwirtschaft mit Landwirtschaft durch Schwiegersohn Franz-Sales Koch I.\n1822 von 'Gasthaus zur Post' in 'Gasthaus zum Adler' umbenannt.\nAllodifikation (Ablösung) 1841.\nWein- und Gastwirtschaft, Poststation, Metzgerei, Bäckerei und kl. Filiale der Hohenz. Landesbank.\nBesitzerwechsel an Schwiegersohn Anton Fröhlich.\n1961 Verkauf des Anwesens an das Kloster.\nJetzt St. Maurus mit Werkstätten der Heimschule.\nAbbruch der Zehntscheuer mit Ställen, jetzt Turnhalle der Heimschule.\n\nHaus auf der rechten Seite:\nVon-Weckenstein-Str. 3 (früher Hausnr. 126)\nHeute: Außenhaus der Heimschule\nKoch'sche Villa. Gebaut für/von Bürgermeister Koch (Bruder des Gastwirts Koch) und seine Mutter.\nVerkauft 1959 an die Klosterschwestern, die es zunächst vermieteten.\nFrüher auch Legewie-Haus genannt.\nLetzte Mieter: Herr und Frau Peteln.",
-        "type": "album",
-        "date": "2022-04-01 14:43:10",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508710586/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275930303",
-        "src": "/files/images/thumbnails/photo-54275930303-thumb.jpg",
-        "original": "/files/images/gasthaus-zur-post-und-villa-koch_54275930303_o.jpg",
-        "title": "Gasthaus zur Post und Villa Koch",
-        "description": "37_Wald I\nca. 1930?",
-        "type": "album",
-        "date": "2025-01-19 12:23:29",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275930303/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509137770",
-        "src": "/files/images/thumbnails/photo-53509137770-thumb.jpg",
-        "original": "/files/images/jahr-1902_53509137770_o.jpg",
-        "title": "Jahr 1902",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-03 20:23:38",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509137770/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53507819372",
-        "src": "/files/images/thumbnails/photo-53507819372-thumb.jpg",
-        "original": "/files/images/img20220415_11243758_53507819372_o.jpg",
-        "title": "img20220415_11243758",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:50:01",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53507819372/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508710711",
-        "src": "/files/images/thumbnails/photo-53508710711-thumb.jpg",
-        "original": "/files/images/gemalte-gesamtansicht-von-wald_53508710711_o.jpg",
-        "title": "Gemalte Gesamtansicht von Wald",
-        "description": "ca. 1930?",
-        "type": "album",
-        "date": "2022-04-03 20:21:32",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508710711/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656476664",
-        "src": "/files/images/thumbnails/photo-53656476664-thumb.jpg",
-        "original": "/files/images/gastflgel_53656476664_o.jpg",
-        "title": "Gastflügel",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656476664/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54277820683",
-        "src": "/files/images/thumbnails/photo-54277820683-thumb.jpg",
-        "original": "/files/images/41_wald-i_54277820683_o.jpg",
-        "title": "41_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 09:57:48",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54277820683/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509027504",
-        "src": "/files/images/thumbnails/photo-53509027504-thumb.jpg",
-        "original": "/files/images/img20220415_11004043_53509027504_o.jpg",
-        "title": "img20220415_11004043",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:50:28",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509027504/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656588620",
-        "src": "/files/images/thumbnails/photo-53656588620-thumb.jpg",
-        "original": "/files/images/bild-28_53656588620_o.jpg",
-        "title": "Bild 28",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:35",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656588620/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54272710282",
-        "src": "/files/images/thumbnails/photo-54272710282-thumb.jpg",
-        "original": "/files/images/wald-iii-vorderseite_54272710282_o.jpg",
-        "title": "Wald III Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-18 12:07:40",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54272710282/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656347118",
-        "src": "/files/images/thumbnails/photo-53656347118-thumb.jpg",
-        "original": "/files/images/bild-16_53656347118_o.jpg",
-        "title": "Bild 16",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:34",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656347118/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275876948",
-        "src": "/files/images/thumbnails/photo-54275876948-thumb.jpg",
-        "original": "/files/images/29_wald-i_54275876948_o.jpg",
-        "title": "29_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 11:55:52",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275876948/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54278772352",
-        "src": "/files/images/thumbnails/photo-54278772352-thumb.jpg",
-        "original": "/files/images/54_wald-i_54278772352_o.jpg",
-        "title": "54_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-21 10:40:20",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54278772352/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508709211",
-        "src": "/files/images/thumbnails/photo-53508709211-thumb.jpg",
-        "original": "/files/images/img20220415_11170657_53508709211_o.jpg",
-        "title": "img20220415_11170657",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:50:01",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508709211/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54278767942",
-        "src": "/files/images/thumbnails/photo-54278767942-thumb.jpg",
-        "original": "/files/images/58_wald-i_54278767942_o.jpg",
-        "title": "58_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-21 10:38:06",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54278767942/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54273850894",
-        "src": "/files/images/thumbnails/photo-54273850894-thumb.jpg",
-        "original": "/files/images/sdansicht-kloster_54273850894_o.jpg",
-        "title": "Südansicht Kloster",
-        "description": "Wald IV Vorderseite\nca. 1955?",
-        "type": "album",
-        "date": "2025-01-18 12:13:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54273850894/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54276086235",
-        "src": "/files/images/thumbnails/photo-54276086235-thumb.jpg",
-        "original": "/files/images/31_wald_54276086235_o.jpg",
-        "title": "31_Wald",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 12:11:14",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54276086235/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54277633441",
-        "src": "/files/images/thumbnails/photo-54277633441-thumb.jpg",
-        "original": "/files/images/47_wald-i_54277633441_o.jpg",
-        "title": "47_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 10:34:09",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54277633441/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53507820892",
-        "src": "/files/images/thumbnails/photo-53507820892-thumb.jpg",
-        "original": "/files/images/jahr-1930er_53507820892_o.jpg",
-        "title": "Jahr 1930er",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-03 20:39:26",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53507820892/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54278081310",
-        "src": "/files/images/thumbnails/photo-54278081310-thumb.jpg",
-        "original": "/files/images/51_wald-i_54278081310_o.jpg",
-        "title": "51_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 10:43:43",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54278081310/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508711161",
-        "src": "/files/images/thumbnails/photo-53508711161-thumb.jpg",
-        "original": "/files/images/jahr-1909_53508711161_o.jpg",
-        "title": "Jahr 1909",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-03 20:25:54",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508711161/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54279651176",
-        "src": "/files/images/thumbnails/photo-54279651176-thumb.jpg",
-        "original": "/files/images/53_wald-i_54279651176_o.jpg",
-        "title": "53_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-21 10:40:21",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54279651176/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656588555",
-        "src": "/files/images/thumbnails/photo-53656588555-thumb.jpg",
-        "original": "/files/images/bild-8_53656588555_o.jpg",
-        "title": "Bild 8",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656588555/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656588565",
-        "src": "/files/images/thumbnails/photo-53656588565-thumb.jpg",
-        "original": "/files/images/bild-6_53656588565_o.jpg",
-        "title": "Bild 6",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656588565/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656588550",
-        "src": "/files/images/thumbnails/photo-53656588550-thumb.jpg",
-        "original": "/files/images/bild-4_53656588550_o.jpg",
-        "title": "Bild 4",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656588550/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275511446",
-        "src": "/files/images/thumbnails/photo-54275511446-thumb.jpg",
-        "original": "/files/images/22_wald-i_54275511446_o.jpg",
-        "title": "22_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 10:54:05",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275511446/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508708651",
-        "src": "/files/images/thumbnails/photo-53508708651-thumb.jpg",
-        "original": "/files/images/jahr-1899_53508708651_o.jpg",
-        "title": "Jahr 1899",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:43",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508708651/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509137845",
-        "src": "/files/images/thumbnails/photo-53509137845-thumb.jpg",
-        "original": "/files/images/jahr-1895_53509137845_o.jpg",
-        "title": "Jahr 1895",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-03 20:13:52",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509137845/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54273563561",
-        "src": "/files/images/thumbnails/photo-54273563561-thumb.jpg",
-        "original": "/files/images/kloster-ii-vorderseite_54273563561_o.jpg",
-        "title": "Kloster II Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-18 11:45:00",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54273563561/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54276688277",
-        "src": "/files/images/thumbnails/photo-54276688277-thumb.jpg",
-        "original": "/files/images/44_wald-i_54276688277_o.jpg",
-        "title": "44_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 09:57:43",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54276688277/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508711226",
-        "src": "/files/images/thumbnails/photo-53508711226-thumb.jpg",
-        "original": "/files/images/jahr-1903_53508711226_o.jpg",
-        "title": "Jahr 1903",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-03 20:29:16",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508711226/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656124986",
-        "src": "/files/images/thumbnails/photo-53656124986-thumb.jpg",
-        "original": "/files/images/4-ansichten-von-wald_53656124986_o.jpg",
-        "title": "4 Ansichten von Wald",
-        "description": "Bild 33\nca. 1960?",
-        "type": "album",
-        "date": "2024-04-15 10:37:36",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656124986/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54273577441",
-        "src": "/files/images/thumbnails/photo-54273577441-thumb.jpg",
-        "original": "/files/images/kloster-iii-vorderseite_54273577441_o.jpg",
-        "title": "Kloster III Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-18 11:54:22",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54273577441/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509134955",
-        "src": "/files/images/thumbnails/photo-53509134955-thumb.jpg",
-        "original": "/files/images/jahr-1912_53509134955_o.jpg",
-        "title": "Jahr 1912",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509134955/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509028139",
-        "src": "/files/images/thumbnails/photo-53509028139-thumb.jpg",
-        "original": "/files/images/jahr-1917_53509028139_o.jpg",
-        "title": "Jahr 1917",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-01 14:46:56",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509028139/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656124956",
-        "src": "/files/images/thumbnails/photo-53656124956-thumb.jpg",
-        "original": "/files/images/bild-31_53656124956_o.jpg",
-        "title": "Bild 31",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:36",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656124956/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656347173",
-        "src": "/files/images/thumbnails/photo-53656347173-thumb.jpg",
-        "original": "/files/images/bild-20_53656347173_o.jpg",
-        "title": "Bild 20",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:35",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656347173/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656588670",
-        "src": "/files/images/thumbnails/photo-53656588670-thumb.jpg",
-        "original": "/files/images/rathaus-ehem-schulhaus_53656588670_o.jpg",
-        "title": "Rathaus ehem. Schulhaus",
-        "description": "Bild 36\nca. 1930?",
-        "type": "album",
-        "date": "2024-04-15 10:37:36",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656588670/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53507819307",
-        "src": "/files/images/thumbnails/photo-53507819307-thumb.jpg",
-        "original": "/files/images/img20220415_11202376_53507819307_o.jpg",
-        "title": "img20220415_11202376",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:59",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53507819307/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275017830",
-        "src": "/files/images/thumbnails/photo-54275017830-thumb.jpg",
-        "original": "/files/images/wald-v-vorderseite_54275017830_o.jpg",
-        "title": "Wald V Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 01:08:09",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275017830/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54278001040",
-        "src": "/files/images/thumbnails/photo-54278001040-thumb.jpg",
-        "original": "/files/images/villa-haug_54278001040_o.jpg",
-        "title": "Villa Haug",
-        "description": "43_Wald I\nca. 1930?",
-        "type": "album",
-        "date": "2025-01-20 09:57:46",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54278001040/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54280076325",
-        "src": "/files/images/thumbnails/photo-54280076325-thumb.jpg",
-        "original": "/files/images/59_wald-i_54280076325_o.jpg",
-        "title": "59_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-21 10:38:03",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54280076325/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508875223",
-        "src": "/files/images/thumbnails/photo-53508875223-thumb.jpg",
-        "original": "/files/images/img20220415_11152055_53508875223_o.jpg",
-        "title": "img20220415_11152055",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:50:03",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508875223/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54273685136",
-        "src": "/files/images/thumbnails/photo-54273685136-thumb.jpg",
-        "original": "/files/images/wald-x-vorderseite_54273685136_o.jpg",
-        "title": "Wald X Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-18 13:02:36",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54273685136/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54277633206",
-        "src": "/files/images/thumbnails/photo-54277633206-thumb.jpg",
-        "original": "/files/images/50_wald-i_54277633206_o.jpg",
-        "title": "50_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 10:34:00",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54277633206/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274851773",
-        "src": "/files/images/thumbnails/photo-54274851773-thumb.jpg",
-        "original": "/files/images/wald-xv-vorderseite_54274851773_o.jpg",
-        "title": "Wald XV Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 01:21:59",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274851773/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274582366",
-        "src": "/files/images/thumbnails/photo-54274582366-thumb.jpg",
-        "original": "/files/images/kirche-vi-vorderseite_54274582366_o.jpg",
-        "title": "Kirche VI Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 01:03:14",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274582366/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509134590",
-        "src": "/files/images/thumbnails/photo-53509134590-thumb.jpg",
-        "original": "/files/images/jahr-1938-ii_53509134590_o.jpg",
-        "title": "Jahr 1938 II",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:23",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509134590/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509134560",
-        "src": "/files/images/thumbnails/photo-53509134560-thumb.jpg",
-        "original": "/files/images/jahr-1938_53509134560_o.jpg",
-        "title": "Jahr 1938",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:22",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509134560/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508874013",
-        "src": "/files/images/thumbnails/photo-53508874013-thumb.jpg",
-        "original": "/files/images/jahr-1974_53508874013_o.jpg",
-        "title": "Jahr 1974",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:24",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508874013/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53656124841",
-        "src": "/files/images/thumbnails/photo-53656124841-thumb.jpg",
-        "original": "/files/images/bild-12_53656124841_o.jpg",
-        "title": "Bild 12",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53656124841/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274855853",
-        "src": "/files/images/thumbnails/photo-54274855853-thumb.jpg",
-        "original": "/files/images/wald-xvi-vorderseite_54274855853_o.jpg",
-        "title": "Wald XVI Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 01:25:26",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274855853/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54279891754",
-        "src": "/files/images/thumbnails/photo-54279891754-thumb.jpg",
-        "original": "/files/images/62_wald-i_54279891754_o.jpg",
-        "title": "62_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-21 10:37:55",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54279891754/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54277884628",
-        "src": "/files/images/thumbnails/photo-54277884628-thumb.jpg",
-        "original": "/files/images/48_wald_54277884628_o.jpg",
-        "title": "48_Wald",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 10:34:06",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54277884628/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275924068",
-        "src": "/files/images/thumbnails/photo-54275924068-thumb.jpg",
-        "original": "/files/images/34_wald_54275924068_o.jpg",
-        "title": "34_Wald",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 12:19:59",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275924068/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275726323",
-        "src": "/files/images/thumbnails/photo-54275726323-thumb.jpg",
-        "original": "/files/images/alt-wald-von-sden-gesehen_54275726323_o.jpg",
-        "title": "Alt Wald von Süden gesehen",
-        "description": "19_Wald I\nca. 1900?",
-        "type": "album",
-        "date": "2025-01-19 10:35:16",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275726323/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274619777",
-        "src": "/files/images/thumbnails/photo-54274619777-thumb.jpg",
-        "original": "/files/images/20_wald-i_54274619777_o.jpg",
-        "title": "20_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 10:47:55",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274619777/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275751049",
-        "src": "/files/images/thumbnails/photo-54275751049-thumb.jpg",
-        "original": "/files/images/21_wald-i_54275751049_o.jpg",
-        "title": "21_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 10:50:22",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275751049/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508876773",
-        "src": "/files/images/thumbnails/photo-53508876773-thumb.jpg",
-        "original": "/files/images/53508876773_f7abb23908_o-1-scaled.jpg",
-        "title": "Jahr 1911_2",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-03 20:36:26",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508876773/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275829223",
-        "src": "/files/images/thumbnails/photo-54275829223-thumb.jpg",
-        "original": "/files/images/25_wald-i_54275829223_o.jpg",
-        "title": "25_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 11:30:33",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275829223/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275826389",
-        "src": "/files/images/thumbnails/photo-54275826389-thumb.jpg",
-        "original": "/files/images/24_wald-i_54275826389_o.jpg",
-        "title": "24_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 11:30:32",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275826389/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275708079",
-        "src": "/files/images/thumbnails/photo-54275708079-thumb.jpg",
-        "original": "/files/images/wald-xviii-vorderseite_54275708079_o.jpg",
-        "title": "Wald XVIII Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 10:28:22",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275708079/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508876993",
-        "src": "/files/images/thumbnails/photo-53508876993-thumb.jpg",
-        "original": "/files/images/jahr-1906_53508876993_o.jpg",
-        "title": "Jahr 1906",
-        "description": "",
-        "type": "album",
-        "date": "2022-04-03 20:18:28",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508876993/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275906578",
-        "src": "/files/images/thumbnails/photo-54275906578-thumb.jpg",
-        "original": "/files/images/32_wald_54275906578_o.jpg",
-        "title": "32_Wald",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 12:11:15",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275906578/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53509025824",
-        "src": "/files/images/thumbnails/photo-53509025824-thumb.jpg",
-        "original": "/files/images/jahr-1909_ii_53509025824_o.jpg",
-        "title": "Jahr 1909_II",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:40",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53509025824/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275064030",
-        "src": "/files/images/thumbnails/photo-54275064030-thumb.jpg",
-        "original": "/files/images/wald-xvii-vorderseite_54275064030_o.jpg",
-        "title": "Wald XVII Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 01:46:46",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275064030/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54275627986",
-        "src": "/files/images/thumbnails/photo-54275627986-thumb.jpg",
-        "original": "/files/images/28_wald-i_54275627986_o.jpg",
-        "title": "28_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 11:55:53",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54275627986/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54277879579",
-        "src": "/files/images/thumbnails/photo-54277879579-thumb.jpg",
-        "original": "/files/images/46_wald-i_54277879579_o.jpg",
-        "title": "46_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 10:34:13",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54277879579/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54277650676",
-        "src": "/files/images/thumbnails/photo-54277650676-thumb.jpg",
-        "original": "/files/images/52_wald-i_54277650676_o.jpg",
-        "title": "52_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-20 10:43:43",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54277650676/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508708976",
-        "src": "/files/images/thumbnails/photo-53508708976-thumb.jpg",
-        "original": "/files/images/img20220415_11222417_53508708976_o.jpg",
-        "title": "img20220415_11222417",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:55",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508708976/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274047345",
-        "src": "/files/images/thumbnails/photo-54274047345-thumb.jpg",
-        "original": "/files/images/hohenzollernstrae-geschftshuser_54274047345_o.jpg",
-        "title": "Hohenzollernstraße Geschäftshäuser",
-        "description": "Wald VI Vorderseite\nca. 1955?",
-        "type": "album",
-        "date": "2025-01-18 12:27:16",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274047345/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53655248497",
-        "src": "/files/images/thumbnails/photo-53655248497-thumb.jpg",
-        "original": "/files/images/bild-18_53655248497_o.jpg",
-        "title": "Bild 18",
-        "description": "",
-        "type": "album",
-        "date": "2024-04-15 10:37:34",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53655248497/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54273924383",
-        "src": "/files/images/thumbnails/photo-54273924383-thumb.jpg",
-        "original": "/files/images/wald-xiv-vorderseite_54273924383_o.jpg",
-        "title": "Wald XIV Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-18 12:57:40",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54273924383/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274758027",
-        "src": "/files/images/thumbnails/photo-54274758027-thumb.jpg",
-        "original": "/files/images/30_wald-i_54274758027_o.jpg",
-        "title": "30_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 12:00:47",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274758027/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "53508708811",
-        "src": "/files/images/thumbnails/photo-53508708811-thumb.jpg",
-        "original": "/files/images/img20220415_12330651_53508708811_o.jpg",
-        "title": "img20220415_12330651",
-        "description": "",
-        "type": "album",
-        "date": "2024-02-04 10:49:49",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/53508708811/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274003760",
-        "src": "/files/images/thumbnails/photo-54274003760-thumb.jpg",
-        "original": "/files/images/wald-i-vorderseite_54274003760_o.jpg",
-        "title": "Wald I Vorderseite",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-18 11:56:44",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274003760/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54274701242",
-        "src": "/files/images/thumbnails/photo-54274701242-thumb.jpg",
-        "original": "/files/images/23_wald-i_54274701242_o.jpg",
-        "title": "23_Wald I",
-        "description": "",
-        "type": "album",
-        "date": "2025-01-19 11:30:34",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54274701242/",
-        "license": "All Rights Reserved"
-      }
-    ],
-    "metadata": {
-      "author": "Unbekannt",
-      "source": "Unbekannt",
-      "editor": "Unbekannt"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [
-      "53508710586",
-      "54275930303",
-      "53509137770",
-      "53507819372",
-      "53508710711",
-      "53656476664",
-      "54277820683",
-      "53509027504",
-      "53656588620",
-      "54272710282",
-      "53656347118",
-      "54275876948",
-      "54278772352",
-      "53508709211",
-      "54278767942",
-      "54273850894",
-      "54276086235",
-      "54277633441",
-      "53507820892",
-      "54278081310",
-      "53508711161",
-      "54279651176",
-      "53656588555",
-      "53656588565",
-      "53656588550",
-      "54275511446",
-      "53508708651",
-      "53509137845",
-      "54273563561",
-      "54276688277",
-      "53508711226",
-      "53656124986",
-      "54273577441",
-      "53509134955",
-      "53509028139",
-      "53656124956",
-      "53656347173",
-      "53656588670",
-      "53507819307",
-      "54275017830",
-      "54278001040",
-      "54280076325",
-      "53508875223",
-      "54273685136",
-      "54277633206",
-      "54274851773",
-      "54274582366",
-      "53509134590",
-      "53509134560",
-      "53508874013",
-      "53656124841",
-      "54274855853",
-      "54279891754",
-      "54277884628",
-      "54275924068",
-      "54275726323",
-      "54274619777",
-      "54275751049",
-      "53508876773",
-      "54275829223",
-      "54275826389",
-      "54275708079",
-      "53508876993",
-      "54275906578",
-      "53509025824",
-      "54275064030",
-      "54275627986",
-      "54277879579",
-      "54277650676",
-      "53508708976",
-      "54274047345",
-      "53655248497",
-      "54273924383",
-      "54274758027",
-      "53508708811",
-      "54274003760",
-      "54274701242"
-    ],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Matthias Lehmann",
-      "reviewedAt": null,
-      "comments": [
-        {
-          "reviewer": "Matthias Lehmann",
-          "date": "2026-03-03T17:26:29.977Z",
-          "comment": "Ja ist gut so. Ein bisschen zuviel Bilder im Dokument"
-        }
-      ]
-    },
-    "showInTimeline": false,
-    "sortOrder": 3,
-    "parent_id": "",
-    "coverPhotoId": "",
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "descriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          }
-        }
-      ]
-    },
-    "transcriptionJson": {
-      "type": "doc",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          }
-        }
-      ]
-    }
-  },
-  {
     "id": "doc-1774797137965",
     "title": "Flurnamen von Wald ",
     "year": 2023,
@@ -3084,7 +3363,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 4,
+    "sortOrder": 3,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3094,7 +3373,7 @@
   },
   {
     "id": "doc-1789499305864",
-    "sortOrder": 5,
+    "sortOrder": 4,
     "title": "Frühgeschichte von Rothenlachen von Dr. Ralf Keller",
     "year": 2024,
     "parent_id": "",
@@ -3299,7 +3578,7 @@
   },
   {
     "id": "doc-1788122459477",
-    "sortOrder": 7,
+    "sortOrder": 5,
     "title": "Karl Kuhn über sein Heimatdorf Wald",
     "year": 1982,
     "parent_id": "",
@@ -5432,7 +5711,7 @@
   },
   {
     "id": "doc-1786818951319",
-    "sortOrder": 8,
+    "sortOrder": 6,
     "title": "Malteser Hilfsdienst Wald ",
     "year": 1961,
     "parent_id": "",
@@ -6864,7 +7143,7 @@
   },
   {
     "id": "doc-1790019030359",
-    "sortOrder": 9,
+    "sortOrder": 7,
     "title": "Theatergesellschaft des TSV Wald",
     "year": 1960,
     "parent_id": "",
@@ -7161,7 +7440,7 @@
   },
   {
     "id": "doc-1788116720939",
-    "sortOrder": 10,
+    "sortOrder": 8,
     "title": "Das Hafnerhandwerk in Klosterwald",
     "year": 1960,
     "parent_id": "",
@@ -7574,7 +7853,7 @@
   },
   {
     "id": "doc-1786473902406",
-    "sortOrder": 11,
+    "sortOrder": 9,
     "title": "Artur Zeh ",
     "year": 1936,
     "parent_id": "",
@@ -7660,7 +7939,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 12,
+    "sortOrder": 10,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7703,7 +7982,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 13,
+    "sortOrder": 11,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -7984,7 +8263,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 14,
+    "sortOrder": 12,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8021,7 +8300,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 15,
+    "sortOrder": 13,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8058,7 +8337,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 16,
+    "sortOrder": 14,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8093,7 +8372,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 17,
+    "sortOrder": 15,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8130,7 +8409,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 18,
+    "sortOrder": 16,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8140,7 +8419,7 @@
   },
   {
     "id": "doc-1787254000098",
-    "sortOrder": 19,
+    "sortOrder": 17,
     "title": "Kleine Reischachgeschichte ",
     "year": 2025,
     "parent_id": "",
@@ -8354,7 +8633,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 20,
+    "sortOrder": 18,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8401,7 +8680,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 21,
+    "sortOrder": 19,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8448,7 +8727,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 22,
+    "sortOrder": 20,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8495,7 +8774,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 23,
+    "sortOrder": 21,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8542,7 +8821,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 24,
+    "sortOrder": 22,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8589,7 +8868,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 25,
+    "sortOrder": 23,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8636,7 +8915,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 26,
+    "sortOrder": 24,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8683,7 +8962,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 27,
+    "sortOrder": 25,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8730,7 +9009,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 28,
+    "sortOrder": 26,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8740,7 +9019,7 @@
   },
   {
     "id": "doc-1785531865123",
-    "sortOrder": 29,
+    "sortOrder": 27,
     "title": "Flurnamen",
     "year": 2023,
     "parent_id": "",
@@ -8773,7 +9052,7 @@
   },
   {
     "id": "doc-1786722552401",
-    "sortOrder": 30,
+    "sortOrder": 28,
     "title": "Artikel Südkurier \"Lobgesang auf die Heimschule\" ",
     "year": 2006,
     "parent_id": "",
@@ -8918,7 +9197,7 @@
   },
   {
     "id": "doc-1787253659074",
-    "sortOrder": 31,
+    "sortOrder": 29,
     "title": "200 Jahre Ortsgeschichte auf 6,5 Metern: Das Gemeindearchiv Walbertsweiler und seine Schätze",
     "year": 2006,
     "parent_id": "",
@@ -9520,7 +9799,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 32,
+    "sortOrder": 30,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9665,7 +9944,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 33,
+    "sortOrder": 31,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9675,7 +9954,7 @@
   },
   {
     "id": "doc-1786299436771",
-    "sortOrder": 34,
+    "sortOrder": 32,
     "title": "Abbruch ehemalige Brauerei Seitz ",
     "year": 1992,
     "parent_id": "",
@@ -9907,7 +10186,7 @@
   },
   {
     "id": "doc-1786298665648",
-    "sortOrder": 35,
+    "sortOrder": 33,
     "title": "Artikel Südkurier Abbruch ehemalige Brauerei Seitz",
     "year": 1992,
     "parent_id": "",
@@ -9957,7 +10236,7 @@
   },
   {
     "id": "doc-1787255222324",
-    "sortOrder": 36,
+    "sortOrder": 34,
     "title": "Bau Kläranlage Gemeinde Wald 1987 - 1989",
     "year": 1987,
     "parent_id": "",
@@ -10440,7 +10719,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 37,
+    "sortOrder": 35,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10559,7 +10838,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 38,
+    "sortOrder": 36,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10774,7 +11053,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 39,
+    "sortOrder": 37,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10833,7 +11112,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 38,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11036,7 +11315,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 39,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11046,7 +11325,7 @@
   },
   {
     "id": "doc-1787257054916",
-    "sortOrder": 42,
+    "sortOrder": 40,
     "title": "Besuch Landrat Diemtar Schlee in Wald ",
     "year": 1972,
     "parent_id": "",
@@ -11242,7 +11521,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
@@ -11632,7 +11911,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 44,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11642,7 +11921,7 @@
   },
   {
     "id": "doc-1787256698960",
-    "sortOrder": 45,
+    "sortOrder": 43,
     "title": "Prämierung von Zuchttieren in Wald ",
     "year": 1969,
     "parent_id": "",
@@ -11731,7 +12010,7 @@
   },
   {
     "id": "doc-1786300517640",
-    "sortOrder": 46,
+    "sortOrder": 44,
     "title": "Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\"",
     "year": 1969,
     "parent_id": "",
@@ -11807,7 +12086,7 @@
   },
   {
     "id": "doc-1786475696502",
-    "sortOrder": 47,
+    "sortOrder": 45,
     "title": "Artikel Südkurier \"Bürgermeister-Kandidat Zeh stellte sich vor\"",
     "year": 1969,
     "parent_id": "",
@@ -11844,7 +12123,7 @@
   },
   {
     "id": "doc-1786721635004",
-    "sortOrder": 48,
+    "sortOrder": 46,
     "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
     "year": 1969,
     "parent_id": "",
@@ -12043,7 +12322,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 49,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
@@ -12053,7 +12332,7 @@
   },
   {
     "id": "doc-1786385281676",
-    "sortOrder": 50,
+    "sortOrder": 48,
     "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
     "year": 1966,
     "parent_id": "",
@@ -12132,7 +12411,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 49,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12227,7 +12506,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 50,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12274,7 +12553,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12707,7 +12986,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12717,7 +12996,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 55,
+    "sortOrder": 53,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -12806,7 +13085,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13081,7 +13360,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13428,7 +13707,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13679,7 +13958,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13846,7 +14125,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 58,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14085,7 +14364,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14228,7 +14507,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14395,7 +14674,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14502,7 +14781,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14611,7 +14890,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14864,7 +15143,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14912,7 +15191,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15001,7 +15280,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15034,7 +15313,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15044,7 +15323,7 @@
   },
   {
     "id": "doc-1787249534405",
-    "sortOrder": 70,
+    "sortOrder": 68,
     "title": "Pfarrführer von Klosterwald 1950",
     "year": 1950,
     "parent_id": "",
@@ -15315,7 +15594,7 @@
   },
   {
     "id": "doc-1787255698270",
-    "sortOrder": 71,
+    "sortOrder": 69,
     "title": "Kirchenführer 1950",
     "year": 1950,
     "parent_id": "",
@@ -15513,7 +15792,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 72,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15632,7 +15911,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 73,
+    "sortOrder": 71,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15683,7 +15962,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15734,7 +16013,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 73,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15779,7 +16058,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 76,
+    "sortOrder": 74,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15834,7 +16113,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 77,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15844,7 +16123,7 @@
   },
   {
     "id": "doc-1787493799966",
-    "sortOrder": 78,
+    "sortOrder": 76,
     "title": "Fasnet in Wald",
     "year": 1933,
     "parent_id": "",
@@ -17126,7 +17405,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 79,
+    "sortOrder": 77,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17136,7 +17415,7 @@
   },
   {
     "id": "doc-1786905604677",
-    "sortOrder": 80,
+    "sortOrder": 78,
     "title": "Radfahrerverein \"Gemütlichkeit\" Riedetsweiler ",
     "year": 1930,
     "parent_id": "",
@@ -17505,7 +17784,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 81,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17542,7 +17821,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 82,
+    "sortOrder": 80,
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
@@ -17600,7 +17879,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 83,
+    "sortOrder": 81,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17663,7 +17942,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 84,
+    "sortOrder": 82,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17718,7 +17997,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 85,
+    "sortOrder": 83,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17782,7 +18061,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 86,
+    "sortOrder": 84,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17817,7 +18096,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 87,
+    "sortOrder": 85,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17827,7 +18106,7 @@
   },
   {
     "id": "doc-1787253273732",
-    "sortOrder": 88,
+    "sortOrder": 86,
     "title": "Elisabethen-Verein Satzung 1909",
     "year": 1909,
     "parent_id": "",
@@ -17994,7 +18273,7 @@
   },
   {
     "id": "doc-1787254622068",
-    "sortOrder": 89,
+    "sortOrder": 87,
     "title": "Lageplan von 1908",
     "year": 1908,
     "parent_id": "",
@@ -18101,7 +18380,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 90,
+    "sortOrder": 88,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18151,7 +18430,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 91,
+    "sortOrder": 89,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18161,7 +18440,7 @@
   },
   {
     "id": "doc-1787250638863",
-    "sortOrder": 92,
+    "sortOrder": 90,
     "title": "Mission in Wald 1904",
     "year": 1904,
     "parent_id": "",
@@ -18276,7 +18555,7 @@
   },
   {
     "id": "doc-1786472052797",
-    "sortOrder": 93,
+    "sortOrder": 91,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -18507,7 +18786,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 94,
+    "sortOrder": 92,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -18711,7 +18990,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 95,
+    "sortOrder": 93,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18930,7 +19209,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 96,
+    "sortOrder": 94,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20126,7 +20405,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 97,
+    "sortOrder": 95,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20162,7 +20441,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 98,
+    "sortOrder": 96,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20218,7 +20497,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 99,
+    "sortOrder": 97,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20228,7 +20507,7 @@
   },
   {
     "id": "doc-1787254340266",
-    "sortOrder": 100,
+    "sortOrder": 98,
     "title": "Lageplan von Wald 1888 ",
     "year": 1888,
     "parent_id": "",
@@ -20322,7 +20601,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 101,
+    "sortOrder": 99,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -20403,7 +20682,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 102,
+    "sortOrder": 100,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20448,7 +20727,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 103,
+    "sortOrder": 101,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20498,7 +20777,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 104,
+    "sortOrder": 102,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20508,7 +20787,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 105,
+    "sortOrder": 103,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -20582,7 +20861,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 106,
+    "sortOrder": 104,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20633,7 +20912,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 107,
+    "sortOrder": 105,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20643,7 +20922,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 108,
+    "sortOrder": 106,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
