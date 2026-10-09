@@ -16,6 +16,18 @@
     "transcriptionJson": null,
     "images": [
       {
+        "id": "54629981887",
+        "src": "/files/images/thumbnails/photo-54629981887-thumb.jpg",
+        "original": "/files/images/14_walbertsweiler_54629981887_o.jpg",
+        "title": "14_Walbertsweiler",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:06",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629981887/",
+        "license": "All Rights Reserved"
+      },
+      {
         "id": "54630851236",
         "src": "/files/images/thumbnails/photo-54630851236-thumb.jpg",
         "original": "/files/images/04_walbertsweiler-1906_54630851236_o.jpg",
@@ -40,18 +52,6 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "54631071048",
-        "src": "/files/images/thumbnails/photo-54631071048-thumb.jpg",
-        "original": "/files/images/05_walbertsweiler-1902_54631071048_o.jpg",
-        "title": "05_Walbertsweiler 1902",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 10:09:17",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631071048/",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "54629982347",
         "src": "/files/images/thumbnails/photo-54629982347-thumb.jpg",
         "original": "/files/images/1_walbertsweiler-i_54629982347_o.jpg",
@@ -61,6 +61,18 @@
         "date": "2025-07-03 10:09:20",
         "author": "",
         "source": "https://www.flickr.com/photos/199943033@N03/54629982347/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631071048",
+        "src": "/files/images/thumbnails/photo-54631071048-thumb.jpg",
+        "original": "/files/images/05_walbertsweiler-1902_54631071048_o.jpg",
+        "title": "05_Walbertsweiler 1902",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:09:17",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631071048/",
         "license": "All Rights Reserved"
       },
       {
@@ -88,18 +100,6 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "54631155500",
-        "src": "/files/images/thumbnails/photo-54631155500-thumb.jpg",
-        "original": "/files/images/08_walbertsweiler-i_54631155500_o.jpg",
-        "title": "08_Walbertsweiler I",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 10:09:14",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631155500/",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "54631070918",
         "src": "/files/images/thumbnails/photo-54631070918-thumb.jpg",
         "original": "/files/images/09_walbertsweiler-i-1927_54631070918_o.jpg",
@@ -109,18 +109,6 @@
         "date": "2025-07-03 10:09:13",
         "author": "",
         "source": "https://www.flickr.com/photos/199943033@N03/54631070918/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54629981887",
-        "src": "/files/images/thumbnails/photo-54629981887-thumb.jpg",
-        "original": "/files/images/14_walbertsweiler_54629981887_o.jpg",
-        "title": "14_Walbertsweiler",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 10:09:06",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54629981887/",
         "license": "All Rights Reserved"
       },
       {
@@ -244,18 +232,6 @@
         "license": "All Rights Reserved"
       },
       {
-        "id": "54631273013",
-        "src": "/files/images/thumbnails/photo-54631273013-thumb.jpg",
-        "original": "/files/images/walbertsweiler_54631273013_o.jpg",
-        "title": "Walbertsweiler",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 11:56:49",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631273013/",
-        "license": "All Rights Reserved"
-      },
-      {
         "id": "54631273258",
         "src": "/files/images/thumbnails/photo-54631273258-thumb.jpg",
         "original": "/files/images/walbertsweiler-vii_54631273258_o.jpg",
@@ -265,6 +241,18 @@
         "date": "2025-07-03 11:56:57",
         "author": "",
         "source": "https://www.flickr.com/photos/199943033@N03/54631273258/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631273013",
+        "src": "/files/images/thumbnails/photo-54631273013-thumb.jpg",
+        "original": "/files/images/walbertsweiler_54631273013_o.jpg",
+        "title": "Walbertsweiler",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:56:49",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631273013/",
         "license": "All Rights Reserved"
       },
       {
@@ -327,15 +315,14 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
+      "54629981887",
       "54630851236",
       "54629981857",
-      "54631071048",
       "54629982347",
+      "54631071048",
       "54631055239",
       "54631055194",
-      "54631155500",
       "54631070918",
-      "54629981887",
       "54631054979",
       "54629981912",
       "54631155280",
@@ -346,8 +333,8 @@
       "54631273493",
       "54631257979",
       "54631052291",
-      "54631273013",
       "54631273258",
+      "54631273013",
       "54631356500",
       "54631052086",
       "54631052116",
