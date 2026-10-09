@@ -56,9 +56,9 @@
     ],
     "pdfIds": [],
     "review": {
-      "status": "pending",
-      "reviewer": "",
-      "reviewedAt": null,
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-10-09T06:38:37.910Z",
       "comments": []
     }
   },
