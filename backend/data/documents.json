@@ -1,90 +1,42 @@
 [
   {
-    "id": "doc-1791527803346",
+    "id": "doc-1791527901293",
     "sortOrder": -1,
-    "title": "Postkarten aus Kappel ",
+    "title": "Postkarten aus Hippetsweiler ",
     "year": 2026,
     "parent_id": "",
-    "category": "Kappel",
+    "category": "Hippetsweiler",
     "subcategories": [
       "Postkarten"
     ],
-    "location": "Kappel",
+    "location": "Hippetsweiler",
     "description": "",
     "descriptionJson": null,
     "transcription": "",
     "transcriptionJson": null,
     "images": [
       {
-        "id": "54629975307",
-        "src": "/files/images/thumbnails/photo-54629975307-thumb.jpg",
-        "original": "/files/images/01_kappel-i_54629975307_o.jpg",
-        "title": "01_Kappel I",
+        "id": "54631147200",
+        "src": "/files/images/thumbnails/photo-54631147200-thumb.jpg",
+        "original": "/files/images/01_hippetsweiler-i_54631147200_o.jpg",
+        "title": "01_Hippetsweiler I",
         "description": "",
         "type": "album",
-        "date": "2025-07-03 10:05:44",
+        "date": "2025-07-03 10:04:55",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54629975307/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631147200/",
         "license": "All Rights Reserved"
       },
       {
-        "id": "54631064098",
-        "src": "/files/images/thumbnails/photo-54631064098-thumb.jpg",
-        "original": "/files/images/02_kappel_54631064098_o.jpg",
-        "title": "02_Kappel",
+        "id": "54629973812",
+        "src": "/files/images/thumbnails/photo-54629973812-thumb.jpg",
+        "original": "/files/images/02_hippetsweiler-i_54629973812_o.jpg",
+        "title": "02_Hippetsweiler I",
         "description": "",
         "type": "album",
-        "date": "2025-07-03 10:05:42",
+        "date": "2025-07-03 10:04:55",
         "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631064098/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54631064068",
-        "src": "/files/images/thumbnails/photo-54631064068-thumb.jpg",
-        "original": "/files/images/03_kappel_54631064068_o.jpg",
-        "title": "03_Kappel",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 10:05:41",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631064068/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54631064003",
-        "src": "/files/images/thumbnails/photo-54631064003-thumb.jpg",
-        "original": "/files/images/04_kappel_54631064003_o.jpg",
-        "title": "04_Kappel",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 10:05:39",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631064003/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54631030656",
-        "src": "/files/images/thumbnails/photo-54631030656-thumb.jpg",
-        "original": "/files/images/kappel-ii_54631030656_o.jpg",
-        "title": "Kappel II",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 11:45:21",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631030656/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54631334695",
-        "src": "/files/images/thumbnails/photo-54631334695-thumb.jpg",
-        "original": "/files/images/kappel_54631334695_o.jpg",
-        "title": "Kappel",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 11:45:21",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631334695/",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629973812/",
         "license": "All Rights Reserved"
       }
     ],
@@ -94,23 +46,19 @@
     "showInWordCloud": true,
     "metadata": {
       "author": "Unbekannt",
-      "source": "Unbekannt",
+      "source": "Diverse ",
       "editor": "Stefanie Grüner"
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "54629975307",
-      "54631064098",
-      "54631064068",
-      "54631064003",
-      "54631030656",
-      "54631334695"
+      "54631147200",
+      "54629973812"
     ],
     "pdfIds": [],
     "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-10-09T06:37:01.696Z",
+      "status": "pending",
+      "reviewer": "",
+      "reviewedAt": null,
       "comments": []
     }
   },
@@ -1052,8 +1000,123 @@
     }
   },
   {
-    "id": "doc-1791527462441",
+    "id": "doc-1791527803346",
     "sortOrder": 3,
+    "title": "Postkarten aus Kappel ",
+    "year": 2026,
+    "parent_id": "",
+    "category": "Kappel",
+    "subcategories": [
+      "Postkarten"
+    ],
+    "location": "Kappel",
+    "description": "",
+    "descriptionJson": null,
+    "transcription": "",
+    "transcriptionJson": null,
+    "images": [
+      {
+        "id": "54629975307",
+        "src": "/files/images/thumbnails/photo-54629975307-thumb.jpg",
+        "original": "/files/images/01_kappel-i_54629975307_o.jpg",
+        "title": "01_Kappel I",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:05:44",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629975307/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631064098",
+        "src": "/files/images/thumbnails/photo-54631064098-thumb.jpg",
+        "original": "/files/images/02_kappel_54631064098_o.jpg",
+        "title": "02_Kappel",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:05:42",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631064098/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631064068",
+        "src": "/files/images/thumbnails/photo-54631064068-thumb.jpg",
+        "original": "/files/images/03_kappel_54631064068_o.jpg",
+        "title": "03_Kappel",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:05:41",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631064068/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631064003",
+        "src": "/files/images/thumbnails/photo-54631064003-thumb.jpg",
+        "original": "/files/images/04_kappel_54631064003_o.jpg",
+        "title": "04_Kappel",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:05:39",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631064003/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631030656",
+        "src": "/files/images/thumbnails/photo-54631030656-thumb.jpg",
+        "original": "/files/images/kappel-ii_54631030656_o.jpg",
+        "title": "Kappel II",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:45:21",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631030656/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54631334695",
+        "src": "/files/images/thumbnails/photo-54631334695-thumb.jpg",
+        "original": "/files/images/kappel_54631334695_o.jpg",
+        "title": "Kappel",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 11:45:21",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631334695/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Unbekannt",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54629975307",
+      "54631064098",
+      "54631064068",
+      "54631064003",
+      "54631030656",
+      "54631334695"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-10-09T06:37:01.696Z",
+      "comments": []
+    }
+  },
+  {
+    "id": "doc-1791527462441",
+    "sortOrder": 4,
     "title": "Postkarten aus Glashütte ",
     "year": 2026,
     "parent_id": "",
@@ -2150,7 +2213,7 @@
       ]
     },
     "showInTimeline": false,
-    "sortOrder": 4,
+    "sortOrder": 5,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -2180,7 +2243,7 @@
   },
   {
     "id": "doc-1791017989188",
-    "sortOrder": 5,
+    "sortOrder": 6,
     "title": "Historisches Rothenlachen",
     "year": 2024,
     "parent_id": "",
@@ -3942,7 +4005,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 6,
+    "sortOrder": 7,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -3952,7 +4015,7 @@
   },
   {
     "id": "doc-1789499305864",
-    "sortOrder": 7,
+    "sortOrder": 8,
     "title": "Frühgeschichte von Rothenlachen von Dr. Ralf Keller",
     "year": 2024,
     "parent_id": "",
@@ -4157,7 +4220,7 @@
   },
   {
     "id": "doc-1788122459477",
-    "sortOrder": 8,
+    "sortOrder": 9,
     "title": "Karl Kuhn über sein Heimatdorf Wald",
     "year": 1982,
     "parent_id": "",
@@ -6290,7 +6353,7 @@
   },
   {
     "id": "doc-1786818951319",
-    "sortOrder": 9,
+    "sortOrder": 10,
     "title": "Malteser Hilfsdienst Wald ",
     "year": 1961,
     "parent_id": "",
@@ -7722,7 +7785,7 @@
   },
   {
     "id": "doc-1790019030359",
-    "sortOrder": 10,
+    "sortOrder": 11,
     "title": "Theatergesellschaft des TSV Wald",
     "year": 1960,
     "parent_id": "",
@@ -8019,7 +8082,7 @@
   },
   {
     "id": "doc-1788116720939",
-    "sortOrder": 11,
+    "sortOrder": 12,
     "title": "Das Hafnerhandwerk in Klosterwald",
     "year": 1960,
     "parent_id": "",
@@ -8432,7 +8495,7 @@
   },
   {
     "id": "doc-1786473902406",
-    "sortOrder": 12,
+    "sortOrder": 13,
     "title": "Artur Zeh ",
     "year": 1936,
     "parent_id": "",
@@ -8518,7 +8581,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 13,
+    "sortOrder": 14,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8561,7 +8624,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 14,
+    "sortOrder": 15,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8842,7 +8905,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 15,
+    "sortOrder": 16,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8879,7 +8942,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 16,
+    "sortOrder": 17,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8916,7 +8979,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 17,
+    "sortOrder": 18,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8951,7 +9014,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 18,
+    "sortOrder": 19,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8988,7 +9051,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 19,
+    "sortOrder": 20,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8998,7 +9061,7 @@
   },
   {
     "id": "doc-1787254000098",
-    "sortOrder": 20,
+    "sortOrder": 21,
     "title": "Kleine Reischachgeschichte ",
     "year": 2025,
     "parent_id": "",
@@ -9212,7 +9275,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 21,
+    "sortOrder": 22,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9259,7 +9322,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 22,
+    "sortOrder": 23,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9306,7 +9369,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 23,
+    "sortOrder": 24,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9353,7 +9416,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 24,
+    "sortOrder": 25,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9400,7 +9463,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 25,
+    "sortOrder": 26,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9447,7 +9510,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 26,
+    "sortOrder": 27,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9494,7 +9557,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 27,
+    "sortOrder": 28,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9541,7 +9604,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 28,
+    "sortOrder": 29,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9588,7 +9651,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 29,
+    "sortOrder": 30,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9598,7 +9661,7 @@
   },
   {
     "id": "doc-1785531865123",
-    "sortOrder": 30,
+    "sortOrder": 31,
     "title": "Flurnamen",
     "year": 2023,
     "parent_id": "",
@@ -9631,7 +9694,7 @@
   },
   {
     "id": "doc-1786722552401",
-    "sortOrder": 31,
+    "sortOrder": 32,
     "title": "Artikel Südkurier \"Lobgesang auf die Heimschule\" ",
     "year": 2006,
     "parent_id": "",
@@ -9776,7 +9839,7 @@
   },
   {
     "id": "doc-1787253659074",
-    "sortOrder": 32,
+    "sortOrder": 33,
     "title": "200 Jahre Ortsgeschichte auf 6,5 Metern: Das Gemeindearchiv Walbertsweiler und seine Schätze",
     "year": 2006,
     "parent_id": "",
@@ -10378,7 +10441,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 33,
+    "sortOrder": 34,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10523,7 +10586,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 34,
+    "sortOrder": 35,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10533,7 +10596,7 @@
   },
   {
     "id": "doc-1786299436771",
-    "sortOrder": 35,
+    "sortOrder": 36,
     "title": "Abbruch ehemalige Brauerei Seitz ",
     "year": 1992,
     "parent_id": "",
@@ -10765,7 +10828,7 @@
   },
   {
     "id": "doc-1786298665648",
-    "sortOrder": 36,
+    "sortOrder": 37,
     "title": "Artikel Südkurier Abbruch ehemalige Brauerei Seitz",
     "year": 1992,
     "parent_id": "",
@@ -10815,7 +10878,7 @@
   },
   {
     "id": "doc-1787255222324",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "title": "Bau Kläranlage Gemeinde Wald 1987 - 1989",
     "year": 1987,
     "parent_id": "",
@@ -11298,7 +11361,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 38,
+    "sortOrder": 39,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11417,7 +11480,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 39,
+    "sortOrder": 40,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11632,7 +11695,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11691,7 +11754,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11894,7 +11957,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11904,7 +11967,7 @@
   },
   {
     "id": "doc-1787257054916",
-    "sortOrder": 43,
+    "sortOrder": 44,
     "title": "Besuch Landrat Diemtar Schlee in Wald ",
     "year": 1972,
     "parent_id": "",
@@ -12100,7 +12163,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 44,
+    "sortOrder": 45,
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
@@ -12490,7 +12553,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12500,7 +12563,7 @@
   },
   {
     "id": "doc-1787256698960",
-    "sortOrder": 46,
+    "sortOrder": 47,
     "title": "Prämierung von Zuchttieren in Wald ",
     "year": 1969,
     "parent_id": "",
@@ -12589,7 +12652,7 @@
   },
   {
     "id": "doc-1786300517640",
-    "sortOrder": 47,
+    "sortOrder": 48,
     "title": "Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\"",
     "year": 1969,
     "parent_id": "",
@@ -12665,7 +12728,7 @@
   },
   {
     "id": "doc-1786475696502",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "title": "Artikel Südkurier \"Bürgermeister-Kandidat Zeh stellte sich vor\"",
     "year": 1969,
     "parent_id": "",
@@ -12702,7 +12765,7 @@
   },
   {
     "id": "doc-1786721635004",
-    "sortOrder": 49,
+    "sortOrder": 50,
     "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
     "year": 1969,
     "parent_id": "",
@@ -12901,7 +12964,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 50,
+    "sortOrder": 51,
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
@@ -12911,7 +12974,7 @@
   },
   {
     "id": "doc-1786385281676",
-    "sortOrder": 51,
+    "sortOrder": 52,
     "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
     "year": 1966,
     "parent_id": "",
@@ -12990,7 +13053,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 52,
+    "sortOrder": 53,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13085,7 +13148,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13132,7 +13195,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13565,7 +13628,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13575,7 +13638,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 56,
+    "sortOrder": 57,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -13664,7 +13727,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 57,
+    "sortOrder": 58,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13939,7 +14002,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14286,7 +14349,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14537,7 +14600,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14704,7 +14767,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14943,7 +15006,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15086,7 +15149,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15253,7 +15316,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15360,7 +15423,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15469,7 +15532,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15722,7 +15785,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 68,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15770,7 +15833,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 69,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15859,7 +15922,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15892,7 +15955,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 70,
+    "sortOrder": 71,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15902,7 +15965,7 @@
   },
   {
     "id": "doc-1787249534405",
-    "sortOrder": 71,
+    "sortOrder": 72,
     "title": "Pfarrführer von Klosterwald 1950",
     "year": 1950,
     "parent_id": "",
@@ -16173,7 +16236,7 @@
   },
   {
     "id": "doc-1787255698270",
-    "sortOrder": 72,
+    "sortOrder": 73,
     "title": "Kirchenführer 1950",
     "year": 1950,
     "parent_id": "",
@@ -16371,7 +16434,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 73,
+    "sortOrder": 74,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16490,7 +16553,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16541,7 +16604,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 76,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16592,7 +16655,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 76,
+    "sortOrder": 77,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16637,7 +16700,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 77,
+    "sortOrder": 78,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16692,7 +16755,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16702,7 +16765,7 @@
   },
   {
     "id": "doc-1787493799966",
-    "sortOrder": 79,
+    "sortOrder": 80,
     "title": "Fasnet in Wald",
     "year": 1933,
     "parent_id": "",
@@ -17984,7 +18047,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 80,
+    "sortOrder": 81,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -17994,7 +18057,7 @@
   },
   {
     "id": "doc-1786905604677",
-    "sortOrder": 81,
+    "sortOrder": 82,
     "title": "Radfahrerverein \"Gemütlichkeit\" Riedetsweiler ",
     "year": 1930,
     "parent_id": "",
@@ -18363,7 +18426,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 82,
+    "sortOrder": 83,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18400,7 +18463,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 83,
+    "sortOrder": 84,
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
@@ -18458,7 +18521,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 84,
+    "sortOrder": 85,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18521,7 +18584,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 85,
+    "sortOrder": 86,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18576,7 +18639,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 86,
+    "sortOrder": 87,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18640,7 +18703,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 87,
+    "sortOrder": 88,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18675,7 +18738,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 88,
+    "sortOrder": 89,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18685,7 +18748,7 @@
   },
   {
     "id": "doc-1787253273732",
-    "sortOrder": 89,
+    "sortOrder": 90,
     "title": "Elisabethen-Verein Satzung 1909",
     "year": 1909,
     "parent_id": "",
@@ -18852,7 +18915,7 @@
   },
   {
     "id": "doc-1787254622068",
-    "sortOrder": 90,
+    "sortOrder": 91,
     "title": "Lageplan von 1908",
     "year": 1908,
     "parent_id": "",
@@ -18959,7 +19022,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 91,
+    "sortOrder": 92,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -19009,7 +19072,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 92,
+    "sortOrder": 93,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -19019,7 +19082,7 @@
   },
   {
     "id": "doc-1787250638863",
-    "sortOrder": 93,
+    "sortOrder": 94,
     "title": "Mission in Wald 1904",
     "year": 1904,
     "parent_id": "",
@@ -19134,7 +19197,7 @@
   },
   {
     "id": "doc-1786472052797",
-    "sortOrder": 94,
+    "sortOrder": 95,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -19365,7 +19428,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 95,
+    "sortOrder": 96,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -19569,7 +19632,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 96,
+    "sortOrder": 97,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -19788,7 +19851,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 97,
+    "sortOrder": 98,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -20984,7 +21047,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 98,
+    "sortOrder": 99,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21020,7 +21083,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 99,
+    "sortOrder": 100,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21076,7 +21139,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 100,
+    "sortOrder": 101,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21086,7 +21149,7 @@
   },
   {
     "id": "doc-1787254340266",
-    "sortOrder": 101,
+    "sortOrder": 102,
     "title": "Lageplan von Wald 1888 ",
     "year": 1888,
     "parent_id": "",
@@ -21180,7 +21243,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 102,
+    "sortOrder": 103,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -21261,7 +21324,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 103,
+    "sortOrder": 104,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21306,7 +21369,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 104,
+    "sortOrder": 105,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21356,7 +21419,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 105,
+    "sortOrder": 106,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21366,7 +21429,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 106,
+    "sortOrder": 107,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -21440,7 +21503,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 107,
+    "sortOrder": 108,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21491,7 +21554,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 108,
+    "sortOrder": 109,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21501,7 +21564,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 109,
+    "sortOrder": 110,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
