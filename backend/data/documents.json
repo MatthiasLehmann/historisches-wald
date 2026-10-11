@@ -16600,6 +16600,30 @@
         "author": "",
         "source": "",
         "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mv4a2fh0s8b9zq",
+        "src": "/files/images/thumbnails/album-1791750636492-424111186-thumb.jpg",
+        "original": "/files/images/album-1791750636492-424111186.jpg",
+        "title": "Hippetsweiler Adressbuch a 1935.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "local_mv4a2rdzv0u05p",
+        "src": "/files/images/thumbnails/album-1791750651956-106522460-thumb.jpg",
+        "original": "/files/images/album-1791750651956-106522460.jpg",
+        "title": "Hippetsweiler Adressbuch b 1935.jpg",
+        "description": "",
+        "type": "album",
+        "date": "",
+        "author": "",
+        "source": "",
+        "license": "All Rights Reserved"
       }
     ],
     "metadata": {
@@ -16609,7 +16633,9 @@
     },
     "imageIds": [],
     "albumPhotoIds": [
-      "local_mmatbi6xiwqmdz"
+      "local_mmatbi6xiwqmdz",
+      "local_mv4a2fh0s8b9zq",
+      "local_mv4a2rdzv0u05p"
     ],
     "pdfIds": [
       "pdf-00016"
