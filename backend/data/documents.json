@@ -1,68 +1,5 @@
 [
   {
-    "id": "doc-1791527901293",
-    "sortOrder": -1,
-    "title": "Postkarten aus Hippetsweiler ",
-    "year": 2026,
-    "parent_id": "",
-    "category": "Hippetsweiler",
-    "subcategories": [
-      "Postkarten"
-    ],
-    "location": "Hippetsweiler",
-    "description": "",
-    "descriptionJson": null,
-    "transcription": "",
-    "transcriptionJson": null,
-    "images": [
-      {
-        "id": "54631147200",
-        "src": "/files/images/thumbnails/photo-54631147200-thumb.jpg",
-        "original": "/files/images/01_hippetsweiler-i_54631147200_o.jpg",
-        "title": "01_Hippetsweiler I",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 10:04:55",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54631147200/",
-        "license": "All Rights Reserved"
-      },
-      {
-        "id": "54629973812",
-        "src": "/files/images/thumbnails/photo-54629973812-thumb.jpg",
-        "original": "/files/images/02_hippetsweiler-i_54629973812_o.jpg",
-        "title": "02_Hippetsweiler I",
-        "description": "",
-        "type": "album",
-        "date": "2025-07-03 10:04:55",
-        "author": "",
-        "source": "https://www.flickr.com/photos/199943033@N03/54629973812/",
-        "license": "All Rights Reserved"
-      }
-    ],
-    "coverPhotoId": "",
-    "showInTimeline": true,
-    "showInArchive": true,
-    "showInWordCloud": true,
-    "metadata": {
-      "author": "Unbekannt",
-      "source": "Diverse ",
-      "editor": "Stefanie Grüner"
-    },
-    "imageIds": [],
-    "albumPhotoIds": [
-      "54631147200",
-      "54629973812"
-    ],
-    "pdfIds": [],
-    "review": {
-      "status": "approved",
-      "reviewer": "Stefanie Grüner",
-      "reviewedAt": "2026-10-09T06:38:37.910Z",
-      "comments": []
-    }
-  },
-  {
     "id": "doc-1786906610584",
     "sortOrder": 0,
     "title": "Historisches Wald stellt Homepage vor ",
@@ -1115,8 +1052,71 @@
     }
   },
   {
-    "id": "doc-1791527462441",
+    "id": "doc-1791527901293",
     "sortOrder": 4,
+    "title": "Postkarten aus Hippetsweiler ",
+    "year": 2026,
+    "parent_id": "",
+    "category": "Hippetsweiler",
+    "subcategories": [
+      "Postkarten"
+    ],
+    "location": "Hippetsweiler",
+    "description": "",
+    "descriptionJson": null,
+    "transcription": "",
+    "transcriptionJson": null,
+    "images": [
+      {
+        "id": "54631147200",
+        "src": "/files/images/thumbnails/photo-54631147200-thumb.jpg",
+        "original": "/files/images/01_hippetsweiler-i_54631147200_o.jpg",
+        "title": "01_Hippetsweiler I",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:04:55",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54631147200/",
+        "license": "All Rights Reserved"
+      },
+      {
+        "id": "54629973812",
+        "src": "/files/images/thumbnails/photo-54629973812-thumb.jpg",
+        "original": "/files/images/02_hippetsweiler-i_54629973812_o.jpg",
+        "title": "02_Hippetsweiler I",
+        "description": "",
+        "type": "album",
+        "date": "2025-07-03 10:04:55",
+        "author": "",
+        "source": "https://www.flickr.com/photos/199943033@N03/54629973812/",
+        "license": "All Rights Reserved"
+      }
+    ],
+    "coverPhotoId": "",
+    "showInTimeline": true,
+    "showInArchive": true,
+    "showInWordCloud": true,
+    "metadata": {
+      "author": "Unbekannt",
+      "source": "Diverse ",
+      "editor": "Stefanie Grüner"
+    },
+    "imageIds": [],
+    "albumPhotoIds": [
+      "54631147200",
+      "54629973812"
+    ],
+    "pdfIds": [],
+    "review": {
+      "status": "approved",
+      "reviewer": "Stefanie Grüner",
+      "reviewedAt": "2026-10-09T06:38:37.910Z",
+      "comments": []
+    }
+  },
+  {
+    "id": "doc-1791527462441",
+    "sortOrder": 5,
     "title": "Postkarten aus Glashütte ",
     "year": 2026,
     "parent_id": "",
@@ -2213,7 +2213,7 @@
       ]
     },
     "showInTimeline": false,
-    "sortOrder": 5,
+    "sortOrder": 6,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -2243,7 +2243,7 @@
   },
   {
     "id": "doc-1791017989188",
-    "sortOrder": 6,
+    "sortOrder": 7,
     "title": "Historisches Rothenlachen",
     "year": 2024,
     "parent_id": "",
@@ -2270,7 +2270,7 @@
         }
       ]
     },
-    "transcription": "<p><strong>Rothenlachen</strong></p><p>Seit 1971 gehört die kleine, bis dahin selbstständige Gemeinde zu Wald. Dass die Gegend um Rothenlachen schon sehr früh besiedelt war, wissen wir durch Werkzeugfunde aus der Jungsteinzeit und durch Grabungsfunde von Siedlungsresten im Ried Egelsee. Diese ähneln den Pfahlbauten von Bodensee und Federsee. In den Mooswiesen wurde beim Torfabbau eine Bronzenadel gefunden, die in der spätbronzezeitlichen Urnenfelderkultur hergestellt wurde und vielleicht als Opfergabe diente. Ebenso belegen Grabhügelfunde eine frühkeltische Besiedlung. Der größte und noch sichtbare Hügel im Leopoldswald wird allerdings vom Archäologen Dr. Ralf Keller nicht für einen Grabhügel gehalten, sondern als Überrest einer mittelalterlichen Turmhügelburg mit umgebendem Ringgraben eingeschätzt. (siehe auch „Archäologische Fundstätten und Funde aus der Umgebung von Rothenlachen“, Artikel von Dr. Ralf Keller).</p><p>Die Entstehungszeit des Ortes vermutet Dr. Werner Fischer aus Meßkirch aufgrund der topografischen Bezeichnung als Ortsname im 10. oder sogar erst 11. Jahrhundert. Für eine weitaus frühere Zeit spricht allerdings der Flurname „Gschiblot Wiese“. Interessant ist auch, dass die Flurnamen „Brühl“ und „Breite“ auf eine frühere Ortsherrschaft hindeuten über die uns aber – zumindest bisher – nichts bekannt ist.</p><p>Von 1224 stammt die Urkunde, die die Existenz des Ortes Rothenlachen erstmals schriftlich belegt. Sie beinhaltet, dass Judinta, Äbtissin von Kloster Wald, mit einer Spende ein Gut in Rothenlachen erworben hat. Besitz hatten im 13. Jahrhundert die Grafen von Tübingen und die Markgrafen von Baden, die Familien Scorpe und von Steinenfurt und die Pfullendorfer Bürger von Winterlingen. Die Herren von Ertingen waren Lehensträger.</p><p>Im Laufe der Jahrhunderte gelangen immer mehr Flächen und Güter in den Besitz des Klosters. Manche Beurkundungen sprechen dafür, dass sich möglicherweise ein Eigenbauhof des Klosters, eine sog. Grangie, dort befunden hat, die von Laienbrüdern, Pfründnern und weltlichen Dienstleuten bewirtschaftet wurde. 1458 besitzt das Kloster zwei Höfe und 1474 befinden sich Niedergericht und Dorfherrschaft im Besitz von Kloster Wald, nur die Hoch- und Blutsgerichtsbarkeit liegt bei den Grafen von Sigmaringen. Es kann von einem ausgedehnten, geschlossenen Territorium um Wald gesprochen werden, welches durch Käufe, Schenkungen, Tausch und eingebrachte Ländereien der Novizinnen entstanden ist. Aus dem Urbarium von 1501 erfahren wir, dass der Besitz des Klosters in Rothenlachen aus zwei Höfen und einem Haus, 148 Jauchert Äcker, 51 Mannsmahd Wiesen und zwei Drittel Zehnt besteht. In der ersten Hälfte des 16. Jahrhunderts bildet Rothenlachen zusammen mit Riedetsweiler und Ruhestetten einen Gerichts- und Verwaltungsbezirk und noch vor 1600 erlangt das Kloster die Lokalleibherrschaft. So beurkundet beispielsweise Hans Bregenzer (Pregatzer) von Rothenlachen 1588, „dass er von Frau Margarethe von Goeberg, Äbtissin des würdigen Gotteshauses Wald, der ehrwürdigen edlen und geistlichen Frau, seiner gnädigen und gebietenden Gerichtsfrau und Obrigkeit, deren leibeigener Mann er mit Weib und Kind ist, des Klosters Hof und Gut zu Rothenlachen mit allem Zubehör, wie dies alles Jörg Walckh, sein verstorbener Vorgänger, besessen hat, auf seinen Leib auf Lebenszeit empfangen“ hat. Die Menschen auf den Höfen gehörten also sozusagen zum „lebenden Inventar“ und bewirtschafteten üblicherweise Schupflehen, die im Todesfalle durch die Klosterherrschaft neu vergeben wurden. 1637<strong> </strong>musste sich Äbtissin Gertrud geborene Gielin von Gielsberg 2000 Gulden von Hans Walter Hallweg von Halwil zu Blideg leihen. Der Flecken Rothenlachen, seine Leibeigenen und sämtliche Erträge und Einnahmen dienten als Unterpfand. Hätte sie die geliehene Summe nicht zurückzahlen können, wäre der ganze Ort mitsamt aller Bewohner an den Darlehensgeber gefallen.</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtyv9863bbxofx\"><img src=\"/files/images/thumbnails/album-1789246646345-795310297-thumb.jpg\" alt=\"Geschossenes Bild\"><figcaption>Geschossenes Bild</figcaption></figure><p>Ausschnitt aus dem Gemälde vom Geschossenen Bild (1680/1690), Pfarrkirche St. Bernhard Wald. Laut Herrn Hahn sind die Häuser rechts oben hinter dem Kloster eine (stilisierte?) Darstellung von Rothenlachen. </p><p>(Foto Falko Hahn)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtytqrribmmgv5\"><img src=\"/files/images/thumbnails/album-1789244105591-909023822-thumb.jpg\" alt=\"Ortskern von Rothenlachen\"><figcaption>Ortskern von Rothenlachen</figcaption></figure><p>Ortskern Anfang 18. Jahrhundert, Ausschnitt aus Lehenkarte von Rothenlachen</p><p>(Landesarchiv BW, Abt. Staatsarchiv Stuttgart) K I W/8)</p><p>&nbsp;</p><p></p><p>Um 1785 befinden sich drei Höfe und zwei kleine Güter oder Söldnergüter, drei Fischweiher, 208 Jauchert Äcker, 123 Jauchert Wiesen, 542 Jauchert Holz und zwei Drittel Groß- und Kleinzehnt in waldischem Besitz und der Weiler ist 22.659 Gulden wert.</p><p>1806 erfolgt eine tiefgreifende Veränderung. Was vorher Grundbesitz des Klosters war, fällt im Zuge der Säkularisation an die Grafschaft Hohenzollern-Sigmaringen. In den 30er-Jahren des 19. Jahrhunderts wird die Leibeigenschaft in Hohenzollern abgeschafft. Die Zehntablösung erfolgt, später als in Baden und Württemberg, aufgrund des Gesetzes zur Auflösung der Reallasten von 1860. Vorher stand das Grundeigentum komplett im Besitz der Herrschaft; erst gehörte es dem Adel, dann dem Kloster, später den Fürsten und die Bauern mussten an ihre Herrschaft den Zehnten und andere Grundabgaben leisten. Ab 1840 haben sie nun die Möglichkeit ihre Lehengüter abzulösen und sie in ihr Eigentum umzuwandeln, das vererbt werden kann - vom Schupflehen auf Lebenszeit hin zum vererbbaren Eigentum (Allodifikation). Als Ablösesumme war der 16-fache Jahresrohertrag eines Hofes üblich. Die dazu benötigten Mittel konnten von der dafür gegründeten Spar- und Leihkasse in Sigmaringen aufgenommen werden.-</p><p>Schon aus dem 15. Jahrhundert sind uns Namen von Bewirtschaftern bekannt; es tauchen die Namen Reisch (oder Risch), Walck, Kuny, Kessler und Beichter auf. Im 16. Jahrhundert kommen Rentz, Pregatzer (Bregenzer) und Auberlin dazu.</p><p>Im Urbarium bzw. Grundbuch des Klosters Wald sind um 1790 u.a. Bauer Joseph Jäger, Bauer Franz Joseph Restle, Halbbauer Anton Schlachter, Söldner Xafer Schmied, Söldner Joseph Bezikofer und die „Gemaindt“ aufgeführt.</p><p>Im folgenden Text werden nun die Hofstellen beschrieben, die schon vor 1950 existiert haben und von denen alte Fotos vorhanden sind.</p><p></p><p><strong>Höhenstraße 5 und 7</strong></p><p>1623 wird Jakob Jäger geboren. Jakob war nachweislich Bauer in Rothenlachen und hatte auch verschiedene Ämter inne. Den Namen Jäger gibt es in Rothenlachen bis in das 19. Jahrhundert, dann wird daraus durch Einheirat Biller und später Halder. Die Bauern der Jäger-Hofstelle haben verschiedene Ämter ausgeübt und waren auch Schultheißen und Bürgermeister. Nachkommen der Familie Halder sind heute noch Eigentümer der alten Hofstelle.</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywimn18zj38w\"><img src=\"/files/images/thumbnails/album-1789248764640-666723796-thumb.jpg\" alt=\"Familie Halder ca. 1919\"><figcaption>Familie Halder ca. 1919</figcaption></figure><p>Familie Halder ca. 1919</p><p>Höhenstraße 5 (Foto Familie Halder)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywj7990gigmz\"><img src=\"/files/images/thumbnails/album-1789248791352-429294050-thumb.jpg\" alt=\"Hof Josef Halder\"><figcaption>Hof Josef Halder</figcaption></figure><p>Hof von Josef Halder, ca. 1930</p><p>Höhenstraße 5 (Foto Familie Halder)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywhymlwzh8fg\"><img src=\"/files/images/thumbnails/album-1789248733517-320483920-thumb.jpg\" alt=\"Back- und Waschhaus\"><figcaption>Back- und Waschhaus</figcaption></figure><p>Back- und Waschhaus und Altenteil, erbaut ca. 1834</p><p>Abgerissen, heute Wohnhaus Höhenstraße 7 (Foto Gebhard Halder)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Höhenstraße 3</strong></p><p>Eine weitere sehr alte Hofstelle ist die der Familie Restle. Um 1700 wird ein Mathäus Rästle und um 1790 ein Franz Joseph Restle genannt. Die heutigen Eigentümer sind Nachfahren und tragen immer noch den Namen Restle. Von ca. 1880 bis Anfang der 1920er Jahre werden die Schultheiß- und Bürgermeisterämter häufig von Restle-Bauern bekleidet. Letzter Bürgermeister der ehemals eigenständigen Gemeinde war Leopold Restle.</p><p>Beim alten Bauernhaus handelt es sich um ein besonders altes und geschichtlich interessantes Gebäude, vermutlich entstanden in der 2. Hälfte des 17. Jahrhundert (1651/1700).</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywjckg09rwr7\"><img src=\"/files/images/thumbnails/album-1789248798277-314149184-thumb.jpg\" alt=\"Hof Restle Südseite\"><figcaption>Hof Restle Südseite</figcaption></figure><p>Restle-Hof Längsseite 1964, Höhenstraße 3</p><p>(Bildarchiv Foto Marburg/ Helga Schmidt-Glassner)</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywjkijeb30vu\"><img src=\"/files/images/thumbnails/album-1789248808559-36568247-thumb.jpg\" alt=\"Hof Restle Westseite\"><figcaption>Hof Restle Westseite</figcaption></figure><p>Restle-Hof Giebelseite 1964, Höhenstraße 3</p><p>(Bildarchiv Foto Marburg/ Helga Schmidt-Glassner)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Hohenbrühl 1</strong></p><p>Neben den Großbauern der Hofstellen Jäger und Restle wird 1679 auch ein Halbbauer namens Michel Schlachter genannt.&nbsp; Er ist der erste uns bekannte Schlachter einer Reihe von zahlreichen Nachfahren, die mit Wendelin Schlachter bis 1867 als Bewirtschafter reichen. 1897 wird der Schlachterhof vom Fürst Leopold von Hohenzollern an Bernhard Jutz aus Wald verkauft und von dessen Sohn Eugen bewirtschaftet. Eugen Jutz war in den 30er- und 40er Jahren Bürgermeister. Der Hof ist immer noch im Besitz der Nachfahren und hat mittlerweile viele bauliche Veränderungen erfahren.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywhpwv2uxewa\"><img src=\"/files/images/thumbnails/album-1789248722239-449879421-thumb.jpg\" alt=\"Abgebrannte Scheune\"><figcaption>Abgebrannte Scheune</figcaption></figure><p>Fachwerkscheune aus dem 18. Jahrhundert</p><p>1973 abgebrannt (Foto Emmy Blomeyer)</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtyx9smkyy4mm5\"><img src=\"/files/images/thumbnails/album-1789250032141-173702602-thumb.jpg\" alt=\"Frühere Hofstelle.png\"><figcaption>Frühere Hofstelle.png</figcaption></figure><p>Früheres Wohnhaus mit Backhaus u. Schweinestall</p><p>(Foto Emmy Blomeyer)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtyxf8oc67fr5m\"><img src=\"/files/images/thumbnails/album-1789250286219-490124899-thumb.jpg\" alt=\"Neues Wohnhaus Hohenbrül 1\"><figcaption>Neues Wohnhaus Hohenbrül 1</figcaption></figure><p>Hohenbrühl 1, neues Wohnhaus erbaut 1935</p><p>von Eugen Jutz (Foto Emmy Blomeyer)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Höhenstraße 6</strong></p><p>Da sich 1785 drei Höfe und zwei kleine Güter bzw. Söldnergüter in klösterlichem Besitz befanden, können wir vermuten, dass es sich bei den Höfen um den Restle-Hof, den Jägerhof und den Schlachterhof gehandelt hat und die kleinen Güter von den Söldnern Xaver Schmid und Josef Bezigkofer bewirtschaftet wurden. 1710 gab es einen Joseph Kempf (Söldner und Tagwerker) und die Karte vom Anfang des 18. Jahrhunderts zeigt uns, dass in der heutigen Höhenstraße 6 ein Martin Kempff (Weber und Bauer) gewirkt hat, der 1746 zudem das Amt des Feuerschauers in Rothenlachen innehatte und 1786 verstorben ist. Später befand sich die Hofstelle im Besitz der Familie Jäger, ging auf die Familie Karl Restle über und war dann durch Einheirat lange Eigentum der Familie Schatz.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywkgwfm2kxvi\"><img src=\"/files/images/thumbnails/album-1789248850540-217008458-thumb.jpg\" alt=\"Höhenstraße 6 und 2\"><figcaption>Höhenstraße 6 und 2</figcaption></figure><p>Höhenstraße 6 (Mitte) und Höhenstraße 2 (rechts), abgerissen</p><p>ca. 1958 (Foto Gabriele Kraft)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Hohenbrühl 2</strong></p><p><strong>&nbsp;</strong></p><p>Aus dem Gebäudebuch von 1878 wissen wir, dass Josef Koch zu der Zeit Besitzer von Haus und Hof Nr. 10 also vom jetzigen Hohenbrühl 2 ist. Das ehemalige kleine Gut ist heute noch im Eigentum der Nachfahren Koch und Ehrat. Zuletzt wurde es von Hugo Volle und Familie im Nebenerwerb bewirtschaftet bis die Landwirtschaft aufgegeben wurde, blieb aber danach von den Nachkommen der Familie weiterhin bewohnt.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_muzgrittmao08l\"><img src=\"/files/images/thumbnails/album-1791459554217-401273054-thumb.jpg\" alt=\"Hohenbrühl 2 ursprünglich\"><figcaption>Hohenbrühl 2 ursprünglich</figcaption></figure><p>Hohenbrühl 2, ursprünglicher Hof (Foto Harald Keller)</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywjsojo4cvlq\"><img src=\"/files/images/thumbnails/album-1789248819145-901698432-thumb.jpg\" alt=\"Hohenbrühl 2\"><figcaption>Hohenbrühl 2</figcaption></figure><p>Hohenbrühl 2, nach Renovierung, wahrscheinlich 50er-Jahre (Foto Harald Keller)</p><p>&nbsp;</p><p><strong>Höhenstraße 8</strong></p><p>Als Eigentümer im alten Gebäudebuch sind die Erben des alten Johann Schmid eingetragen. 1928 wird nach unruhigen Zeiten und vielen Besitzerwechseln Karl Hoch Eigentümer und Bauer des Hofes in der Höhenstraße 8. Seine Tochter Christine heiratet Hermann Heim vom Hof der heutigen Höhenstraße 20. Im Wohnzimmer konnten Postgeschäfte erledigt werden und es gab dort das erste Telefon im Ort. Den Nachfahren gehört der Hof noch heute.</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywisxpxtqilh\"><img src=\"/files/images/thumbnails/album-1789248772823-505197105-thumb.jpg\" alt=\"Familie Karl Hoch\"><figcaption>Familie Karl Hoch</figcaption></figure><p>Höhenstraße 8, Familie Karl Hoch (Foto Hermann Heim)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywi83w8j92ji\"><img src=\"/files/images/thumbnails/album-1789248745798-517694982-thumb.jpg\" alt=\"Bei der Feldarbeit\"><figcaption>Bei der Feldarbeit</figcaption></figure><p>Bei der Feldarbeit 1955, Umspannstation im Hintergrund (Foto Hermann Heim)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Höhenstraße 20</strong></p><p>1889 kauft Anton Heim aus Heudorf im Hegau den Hof in der heutigen Höhenstraße 20 von Xaver Kuhn. Ursprünglich gehörte das Anwesen zum Hof Jäger / Biller / Halder, Höhenstraße 5. Die Scheune längs der Straße wurde im Jahr 1867 von Joseph Biller und Josepha Nesensohn errichtet.</p><p>Auch dieses Anwesen wird heute immer noch von der Familie bewohnt und bewirtschaftet.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywiebj04rkb5\"><img src=\"/files/images/thumbnails/album-1789248753859-237331792-thumb.jpg\" alt=\"Familie Anton Heim\"><figcaption>Familie Anton Heim</figcaption></figure><p>Höhenstraße 20, Familie Anton Heim, ca. 1915 (Foto Alfons Heim)</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywkn50uo6gou\"><img src=\"/files/images/thumbnails/album-1789248858602-417936556-thumb.jpg\" alt=\"Höhenstraße 20\"><figcaption>Höhenstraße 20</figcaption></figure><p>Höhenstraße 20, nach 1928 (Foto Alfons Heim)</p><p>&nbsp;</p><p></p><p>Die erste urkundliche Erwähnung 1224 hat unsere Dorfgemeinschaft 2024 zum Anlass genommen, gemeinsam „800 Jahre Rothenlachen“ zu feiern. Für die Erstellung einer Chronik sind die abgebildeten historischen Fotos von den Familien zur Verfügung gestellt worden. Sie vermitteln uns einen schönen Eindruck der vergangenen bäuerlichen Lebens- und Arbeitswelt.</p><p>Gabriele Kraft im März 2026</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Quellen:</p><p>Maren Kuhn-Rehfus: Das Zisterzienserinnenkloster Wald. In: Das Bistum Konstanz. Bd. 3 (Germania Sacra NF 30). 1992.</p><p>Andreas Zekorn: Verwaltung und Oberämter im Fürstentum Hohenzollern-Sigmaringen 1803 bis 1850. In: Zeitschrift für Hohenzollerische Geschichte 37 (2001) S. 47-82</p><p>800 Jahre Wald, Red. Wolfgang Wiese, Hrsg. Gemeinde Wald, 2008</p><p>Archivmaterial aus dem Landesarchiv Baden-Württemberg, Staatsarchiv Sigmaringen</p><p>Archivmaterial aus dem Landesarchiv Baden-Württemberg, Grundbuchzentralarchiv Kornwestheim</p><p>Dr. Werner Fischer: Die Flurnamen von Wald mit Teilorten, 2. (verbesserte) Fassung 2023, Selbstverlag</p><p>Die Urkunden des Zisterzienserinnenklosters Wald, Regesten, bearbeitet von Maren Kuhn-Rehfus, Herausgegeben von Volker Trugenberger, Edition Isele, Konstanz, 2014</p><p>Bau- und Kunst-Denkmäler in den Hohenzollern’schen Landen, Dr. Karl Theodor Zingeler und Wilhelm Friedrich Laur, Paul Neff Verlag, Stuttgart, 1896</p><p>Die Kunstdenkmäler Hohenzollerns, Friedrich Hossfeld, Friedrich Vogel, Walther Genzmer, Verlag Spemann, Stuttgart, 1948</p><p>Maren Rehfus: Gerichts- und Ämterlisten der Herrschaft Wald. Eine Dokumentation in Zeitschrift für Hohenzollerische Geschichte 6. Band 1970</p><p><a rel=\"noopener noreferrer nofollow\" class=\"text-accent underline font-semibold\" href=\"https://www.leo-bw.de/web/guest/detail-gis/-/Detail/details/ORT/labw_ortslexikon/21398/Rothenlachen+-+Altgemeinde~Teilort\">https://www.leo-bw.de/web/guest/detail-gis/-/Detail/details/ORT/labw_ortslexikon/21398/Rothenlachen+-+Altgemeinde~Teilort</a></p><p>Bildnachweis Restle-Hof: Deutsches Dokumentationszentrum für Kunstgeschichte, Bildarchiv Marburg</p><p>&nbsp;</p>",
+    "transcription": "<p><strong>Rothenlachen</strong></p><p>Seit 1971 gehört die kleine, bis dahin selbstständige Gemeinde zu Wald. Dass die Gegend um Rothenlachen schon sehr früh besiedelt war, wissen wir durch Werkzeugfunde aus der Jungsteinzeit und durch Grabungsfunde von Siedlungsresten im Ried Egelsee. Diese ähneln den Pfahlbauten von Bodensee und Federsee. In den Mooswiesen wurde beim Torfabbau eine Bronzenadel gefunden, die in der spätbronzezeitlichen Urnenfelderkultur hergestellt wurde und vielleicht als Opfergabe diente. Ebenso belegen Grabhügelfunde eine frühkeltische Besiedlung. Der größte und noch sichtbare Hügel im Leopoldswald wird allerdings vom Archäologen Dr. Ralf Keller nicht für einen Grabhügel gehalten, sondern als Überrest einer mittelalterlichen Turmhügelburg mit umgebendem Ringgraben eingeschätzt. (siehe auch „Archäologische Fundstätten und Funde aus der Umgebung von Rothenlachen“, Artikel von Dr. Ralf Keller).</p><p>Die Entstehungszeit des Ortes vermutet Dr. Werner Fischer aus Meßkirch aufgrund der topografischen Bezeichnung als Ortsname im 10. oder sogar erst 11. Jahrhundert. Für eine weitaus frühere Zeit spricht allerdings der Flurname „Gschiblot Wiese“. Interessant ist auch, dass die Flurnamen „Brühl“ und „Breite“ auf eine frühere Ortsherrschaft hindeuten über die uns aber – zumindest bisher – nichts bekannt ist.</p><p>Von 1224 stammt die Urkunde, die die Existenz des Ortes Rothenlachen erstmals schriftlich belegt. Sie beinhaltet, dass Judinta, Äbtissin von Kloster Wald, mit einer Spende ein Gut in Rothenlachen erworben hat. Besitz hatten im 13. Jahrhundert die Grafen von Tübingen und die Markgrafen von Baden, die Familien Scorpe und von Steinenfurt und die Pfullendorfer Bürger von Winterlingen. Die Herren von Ertingen waren Lehensträger.</p><p>Im Laufe der Jahrhunderte gelangen immer mehr Flächen und Güter in den Besitz des Klosters. Manche Beurkundungen sprechen dafür, dass sich möglicherweise ein Eigenbauhof des Klosters, eine sog. Grangie, dort befunden hat, die von Laienbrüdern, Pfründnern und weltlichen Dienstleuten bewirtschaftet wurde. 1458 besitzt das Kloster zwei Höfe und 1474 befinden sich Niedergericht und Dorfherrschaft im Besitz von Kloster Wald, nur die Hoch- und Blutsgerichtsbarkeit liegt bei den Grafen von Sigmaringen. Es kann von einem ausgedehnten, geschlossenen Territorium um Wald gesprochen werden, welches durch Käufe, Schenkungen, Tausch und eingebrachte Ländereien der Novizinnen entstanden ist. Aus dem Urbarium von 1501 erfahren wir, dass der Besitz des Klosters in Rothenlachen aus zwei Höfen und einem Haus, 148 Jauchert Äcker, 51 Mannsmahd Wiesen und zwei Drittel Zehnt besteht. In der ersten Hälfte des 16. Jahrhunderts bildet Rothenlachen zusammen mit Riedetsweiler und Ruhestetten einen Gerichts- und Verwaltungsbezirk und noch vor 1600 erlangt das Kloster die Lokalleibherrschaft. So beurkundet beispielsweise Hans Bregenzer (Pregatzer) von Rothenlachen 1588, „dass er von Frau Margarethe von Goeberg, Äbtissin des würdigen Gotteshauses Wald, der ehrwürdigen edlen und geistlichen Frau, seiner gnädigen und gebietenden Gerichtsfrau und Obrigkeit, deren leibeigener Mann er mit Weib und Kind ist, des Klosters Hof und Gut zu Rothenlachen mit allem Zubehör, wie dies alles Jörg Walckh, sein verstorbener Vorgänger, besessen hat, auf seinen Leib auf Lebenszeit empfangen“ hat. Die Menschen auf den Höfen gehörten also sozusagen zum „lebenden Inventar“ und bewirtschafteten üblicherweise Schupflehen, die im Todesfalle durch die Klosterherrschaft neu vergeben wurden. 1637<strong> </strong>musste sich Äbtissin Gertrud geborene Gielin von Gielsberg 2000 Gulden von Hans Walter Hallweg von Halwil zu Blideg leihen. Der Flecken Rothenlachen, seine Leibeigenen und sämtliche Erträge und Einnahmen dienten als Unterpfand. Hätte sie die geliehene Summe nicht zurückzahlen können, wäre der ganze Ort mitsamt aller Bewohner an den Darlehensgeber gefallen.</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtyv9863bbxofx\"><img src=\"/files/images/thumbnails/album-1789246646345-795310297-thumb.jpg\" alt=\"Geschossenes Bild\"><figcaption>Geschossenes Bild</figcaption></figure><p>Ausschnitt aus dem Gemälde vom Geschossenen Bild (1680/1690), Pfarrkirche St. Bernhard Wald. Laut Herrn Hahn sind die Häuser rechts oben hinter dem Kloster eine (stilisierte?) Darstellung von Rothenlachen. </p><p>(Foto Falko Hahn)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtytqrribmmgv5\"><img src=\"/files/images/thumbnails/album-1789244105591-909023822-thumb.jpg\" alt=\"Ortskern von Rothenlachen\"><figcaption>Ortskern von Rothenlachen</figcaption></figure><p>Ortskern Anfang 18. Jahrhundert, Ausschnitt aus Lehenkarte von Rothenlachen</p><p>(Landesarchiv BW, Abt. Staatsarchiv Stuttgart) K I W/8)</p><p>&nbsp;</p><p></p><p>Um 1785 befinden sich drei Höfe und zwei kleine Güter oder Söldnergüter, drei Fischweiher, 208 Jauchert Äcker, 123 Jauchert Wiesen, 542 Jauchert Holz und zwei Drittel Groß- und Kleinzehnt in waldischem Besitz und der Weiler ist 22.659 Gulden wert.</p><p>1806 erfolgt eine tiefgreifende Veränderung. Was vorher Grundbesitz des Klosters war, fällt im Zuge der Säkularisation an die Grafschaft Hohenzollern-Sigmaringen. In den 30er-Jahren des 19. Jahrhunderts wird die Leibeigenschaft in Hohenzollern abgeschafft. Die Zehntablösung erfolgt, später als in Baden und Württemberg, aufgrund des Gesetzes zur Auflösung der Reallasten von 1860. Vorher stand das Grundeigentum komplett im Besitz der Herrschaft; erst gehörte es dem Adel, dann dem Kloster, später den Fürsten und die Bauern mussten an ihre Herrschaft den Zehnten und andere Grundabgaben leisten. Ab 1840 haben sie nun die Möglichkeit ihre Lehengüter abzulösen und sie in ihr Eigentum umzuwandeln, das vererbt werden kann - vom Schupflehen auf Lebenszeit hin zum vererbbaren Eigentum (Allodifikation). Als Ablösesumme war der 16-fache Jahresrohertrag eines Hofes üblich. Die dazu benötigten Mittel konnten von der dafür gegründeten Spar- und Leihkasse in Sigmaringen aufgenommen werden.-</p><p>Schon aus dem 15. Jahrhundert sind uns Namen von Bewirtschaftern bekannt; es tauchen die Namen Reisch (oder Risch), Walck, Kuny, Kessler und Beichter auf. Im 16. Jahrhundert kommen Rentz, Pregatzer (Bregenzer) und Auberlin dazu.</p><p>Im Urbarium bzw. Grundbuch des Klosters Wald sind um 1790 u.a. Bauer Joseph Jäger, Bauer Franz Joseph Restle, Halbbauer Anton Schlachter, Söldner Xafer Schmied, Söldner Joseph Bezikofer und die „Gemaindt“ aufgeführt.</p><p>Im folgenden Text werden nun die Hofstellen beschrieben, die schon vor 1950 existiert haben und von denen alte Fotos vorhanden sind.</p><p></p><p><strong>Höhenstraße 5 und 7</strong></p><p>1623 wird Jakob Jäger geboren. Jakob war nachweislich Bauer in Rothenlachen und hatte auch verschiedene Ämter inne. Den Namen Jäger gibt es in Rothenlachen bis in das 19. Jahrhundert, dann wird daraus durch Einheirat Biller und später Halder. Die Bauern der Jäger-Hofstelle haben verschiedene Ämter ausgeübt und waren auch Schultheißen und Bürgermeister. Nachkommen der Familie Halder sind heute noch Eigentümer der alten Hofstelle.</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywimn18zj38w\"><img src=\"/files/images/thumbnails/album-1789248764640-666723796-thumb.jpg\" alt=\"Familie Halder ca. 1919\"><figcaption>Familie Halder ca. 1919</figcaption></figure><p>Familie Halder ca. 1919</p><p>Höhenstraße 5 (Foto Familie Halder)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywj7990gigmz\"><img src=\"/files/images/thumbnails/album-1789248791352-429294050-thumb.jpg\" alt=\"Hof Josef Halder\"><figcaption>Hof Josef Halder</figcaption></figure><p>Hof von Josef Halder, ca. 1930</p><p>Höhenstraße 5 (Foto Familie Halder)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywhymlwzh8fg\"><img src=\"/files/images/thumbnails/album-1789248733517-320483920-thumb.jpg\" alt=\"Back- und Waschhaus\"><figcaption>Back- und Waschhaus</figcaption></figure><p>Back- und Waschhaus und Altenteil, erbaut ca. 1834</p><p>Abgerissen, heute Wohnhaus Höhenstraße 7 (Foto Gebhard Halder)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Höhenstraße 3</strong></p><p>Eine weitere sehr alte Hofstelle ist die der Familie Restle. Um 1700 wird ein Mathäus Rästle und um 1790 ein Franz Joseph Restle genannt. Die heutigen Eigentümer sind Nachfahren und tragen immer noch den Namen Restle. Von ca. 1880 bis Anfang der 1920er Jahre werden die Schultheiß- und Bürgermeisterämter häufig von Restle-Bauern bekleidet. Letzter Bürgermeister der ehemals eigenständigen Gemeinde war Leopold Restle.</p><p>Beim alten Bauernhaus handelt es sich um ein besonders altes und geschichtlich interessantes Gebäude, vermutlich entstanden in der 2. Hälfte des 17. Jahrhundert (1651/1700).</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywjckg09rwr7\"><img src=\"/files/images/thumbnails/album-1789248798277-314149184-thumb.jpg\" alt=\"Hof Restle Südseite\"><figcaption>Hof Restle Südseite</figcaption></figure><p>Restle-Hof Längsseite 1964, Höhenstraße 3</p><p>(Bildarchiv Foto Marburg/ Helga Schmidt-Glassner)</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywjkijeb30vu\"><img src=\"/files/images/thumbnails/album-1789248808559-36568247-thumb.jpg\" alt=\"Hof Restle Westseite\"><figcaption>Hof Restle Westseite</figcaption></figure><p>Restle-Hof Giebelseite 1964, Höhenstraße 3</p><p>(Bildarchiv Foto Marburg/ Helga Schmidt-Glassner)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Hohenbrühl 1</strong></p><p>Neben den Großbauern der Hofstellen Jäger und Restle wird 1679 auch ein Halbbauer namens Michel Schlachter genannt.&nbsp; Er ist der erste uns bekannte Schlachter einer Reihe von zahlreichen Nachfahren, die mit Wendelin Schlachter bis 1867 als Bewirtschafter reichen. 1897 wird der Schlachterhof vom Fürst Leopold von Hohenzollern an Bernhard Jutz aus Wald verkauft und von dessen Sohn Eugen bewirtschaftet. Eugen Jutz war in den 30er- und 40er Jahren Bürgermeister. Der Hof ist immer noch im Besitz der Nachfahren und hat mittlerweile viele bauliche Veränderungen erfahren.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywhpwv2uxewa\"><img src=\"/files/images/thumbnails/album-1789248722239-449879421-thumb.jpg\" alt=\"Abgebrannte Scheune\"><figcaption>Abgebrannte Scheune</figcaption></figure><p>Fachwerkscheune aus dem 18. Jahrhundert</p><p>1973 abgebrannt (Foto Emmy Blomeyer)</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtyx9smkyy4mm5\"><img src=\"/files/images/thumbnails/album-1789250032141-173702602-thumb.jpg\" alt=\"Frühere Hofstelle.png\"><figcaption>Frühere Hofstelle.png</figcaption></figure><p>Früheres Wohnhaus mit Backhaus u. Schweinestall</p><p>(Foto Emmy Blomeyer)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtyxf8oc67fr5m\"><img src=\"/files/images/thumbnails/album-1789250286219-490124899-thumb.jpg\" alt=\"Neues Wohnhaus Hohenbrül 1\"><figcaption>Neues Wohnhaus Hohenbrül 1</figcaption></figure><p>Hohenbrühl 1, neues Wohnhaus erbaut 1935</p><p>von Eugen Jutz (Foto Emmy Blomeyer)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Höhenstraße 6</strong></p><p>Da sich 1785 drei Höfe und zwei kleine Güter bzw. Söldnergüter in klösterlichem Besitz befanden, können wir vermuten, dass es sich bei den Höfen um den Restle-Hof, den Jägerhof und den Schlachterhof gehandelt hat und die kleinen Güter von den Söldnern Xaver Schmid und Josef Bezigkofer bewirtschaftet wurden. 1710 gab es einen Joseph Kempf (Söldner und Tagwerker) und die Karte vom Anfang des 18. Jahrhunderts zeigt uns, dass in der heutigen Höhenstraße 6 ein Martin Kempff (Weber und Bauer) gewirkt hat, der 1746 zudem das Amt des Feuerschauers in Rothenlachen innehatte und 1786 verstorben ist. Später befand sich die Hofstelle im Besitz der Familie Jäger, ging auf die Familie Karl Restle über und war dann durch Einheirat lange Eigentum der Familie Schatz.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywkgwfm2kxvi\"><img src=\"/files/images/thumbnails/album-1789248850540-217008458-thumb.jpg\" alt=\"Höhenstraße 6 und 2\"><figcaption>Höhenstraße 6 und 2</figcaption></figure><p>Höhenstraße 6 (Mitte) und Höhenstraße 2 (rechts), abgerissen</p><p>ca. 1958 (Foto Gabriele Kraft)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Hohenbrühl 2</strong></p><p><strong>&nbsp;</strong>Aus dem Gebäudebuch von 1878 wissen wir, dass Josef Koch zu der Zeit Besitzer von Haus und Hof Nr. 10 also vom jetzigen Hohenbrühl 2 ist. Das ehemalige kleine Gut ist heute noch im Eigentum der Nachfahren Koch und Ehrat. Zuletzt wurde es von Hugo Volle und Familie im Nebenerwerb bewirtschaftet bis die Landwirtschaft aufgegeben wurde, blieb aber danach von den Nachkommen der Familie weiterhin bewohnt.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_muzgrittmao08l\"><img src=\"/files/images/thumbnails/album-1791459554217-401273054-thumb.jpg\" alt=\"Hohenbrühl 2 ursprünglich\"><figcaption>Hohenbrühl 2 ursprünglich</figcaption></figure><p>Hohenbrühl 2, ursprünglicher Hof (Foto Harald Keller)</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywjsojo4cvlq\"><img src=\"/files/images/thumbnails/album-1789248819145-901698432-thumb.jpg\" alt=\"Hohenbrühl 2\"><figcaption>Hohenbrühl 2</figcaption></figure><p>Hohenbrühl 2, nach Renovierung, wahrscheinlich 50er-Jahre (Foto Harald Keller)</p><p>&nbsp;</p><p><strong>Höhenstraße 8</strong></p><p>Als Eigentümer im alten Gebäudebuch sind die Erben des alten Johann Schmid eingetragen. 1928 wird nach unruhigen Zeiten und vielen Besitzerwechseln Karl Hoch Eigentümer und Bauer des Hofes in der Höhenstraße 8. Seine Tochter Christine heiratet Hermann Heim vom Hof der heutigen Höhenstraße 20. Im Wohnzimmer konnten Postgeschäfte erledigt werden und es gab dort das erste Telefon im Ort. Den Nachfahren gehört der Hof noch heute.</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywisxpxtqilh\"><img src=\"/files/images/thumbnails/album-1789248772823-505197105-thumb.jpg\" alt=\"Familie Karl Hoch\"><figcaption>Familie Karl Hoch</figcaption></figure><p>Höhenstraße 8, Familie Karl Hoch (Foto Hermann Heim)</p><p>&nbsp;</p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywi83w8j92ji\"><img src=\"/files/images/thumbnails/album-1789248745798-517694982-thumb.jpg\" alt=\"Bei der Feldarbeit\"><figcaption>Bei der Feldarbeit</figcaption></figure><p>Bei der Feldarbeit 1955, Umspannstation im Hintergrund (Foto Hermann Heim)</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Höhenstraße 20</strong></p><p>1889 kauft Anton Heim aus Heudorf im Hegau den Hof in der heutigen Höhenstraße 20 von Xaver Kuhn. Ursprünglich gehörte das Anwesen zum Hof Jäger / Biller / Halder, Höhenstraße 5. Die Scheune längs der Straße wurde im Jahr 1867 von Joseph Biller und Josepha Nesensohn errichtet.</p><p>Auch dieses Anwesen wird heute immer noch von der Familie bewohnt und bewirtschaftet.</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywiebj04rkb5\"><img src=\"/files/images/thumbnails/album-1789248753859-237331792-thumb.jpg\" alt=\"Familie Anton Heim\"><figcaption>Familie Anton Heim</figcaption></figure><p>Höhenstraße 20, Familie Anton Heim, ca. 1915 (Foto Alfons Heim)</p><p></p><figure class=\"album-photo-node\" data-album-photo-id=\"local_mtywkn50uo6gou\"><img src=\"/files/images/thumbnails/album-1789248858602-417936556-thumb.jpg\" alt=\"Höhenstraße 20\"><figcaption>Höhenstraße 20</figcaption></figure><p>Höhenstraße 20, nach 1928 (Foto Alfons Heim)</p><p>&nbsp;</p><p></p><p>Die erste urkundliche Erwähnung 1224 hat unsere Dorfgemeinschaft 2024 zum Anlass genommen, gemeinsam „800 Jahre Rothenlachen“ zu feiern. Für die Erstellung einer Chronik sind die abgebildeten historischen Fotos von den Familien zur Verfügung gestellt worden. Sie vermitteln uns einen schönen Eindruck der vergangenen bäuerlichen Lebens- und Arbeitswelt.</p><p>Gabriele Kraft im März 2026</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Quellen:</p><p>Maren Kuhn-Rehfus: Das Zisterzienserinnenkloster Wald. In: Das Bistum Konstanz. Bd. 3 (Germania Sacra NF 30). 1992.</p><p>Andreas Zekorn: Verwaltung und Oberämter im Fürstentum Hohenzollern-Sigmaringen 1803 bis 1850. In: Zeitschrift für Hohenzollerische Geschichte 37 (2001) S. 47-82</p><p>800 Jahre Wald, Red. Wolfgang Wiese, Hrsg. Gemeinde Wald, 2008</p><p>Archivmaterial aus dem Landesarchiv Baden-Württemberg, Staatsarchiv Sigmaringen</p><p>Archivmaterial aus dem Landesarchiv Baden-Württemberg, Grundbuchzentralarchiv Kornwestheim</p><p>Dr. Werner Fischer: Die Flurnamen von Wald mit Teilorten, 2. (verbesserte) Fassung 2023, Selbstverlag</p><p>Die Urkunden des Zisterzienserinnenklosters Wald, Regesten, bearbeitet von Maren Kuhn-Rehfus, Herausgegeben von Volker Trugenberger, Edition Isele, Konstanz, 2014</p><p>Bau- und Kunst-Denkmäler in den Hohenzollern’schen Landen, Dr. Karl Theodor Zingeler und Wilhelm Friedrich Laur, Paul Neff Verlag, Stuttgart, 1896</p><p>Die Kunstdenkmäler Hohenzollerns, Friedrich Hossfeld, Friedrich Vogel, Walther Genzmer, Verlag Spemann, Stuttgart, 1948</p><p>Maren Rehfus: Gerichts- und Ämterlisten der Herrschaft Wald. Eine Dokumentation in Zeitschrift für Hohenzollerische Geschichte 6. Band 1970</p><p><a rel=\"noopener noreferrer nofollow\" class=\"text-accent underline font-semibold\" href=\"https://www.leo-bw.de/web/guest/detail-gis/-/Detail/details/ORT/labw_ortslexikon/21398/Rothenlachen+-+Altgemeinde~Teilort\">https://www.leo-bw.de/web/guest/detail-gis/-/Detail/details/ORT/labw_ortslexikon/21398/Rothenlachen+-+Altgemeinde~Teilort</a></p><p>Bildnachweis Restle-Hof: Deutsches Dokumentationszentrum für Kunstgeschichte, Bildarchiv Marburg</p><p>&nbsp;</p>",
     "transcriptionJson": {
       "type": "doc",
       "content": [
@@ -3180,15 +3180,7 @@
                 }
               ],
               "text": " "
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
+            },
             {
               "type": "text",
               "text": "Aus dem Gebäudebuch von 1878 wissen wir, dass Josef Koch zu der Zeit Besitzer von Haus und Hof Nr. 10 also vom jetzigen Hohenbrühl 2 ist. Das ehemalige kleine Gut ist heute noch im Eigentum der Nachfahren Koch und Ehrat. Zuletzt wurde es von Hugo Volle und Familie im Nebenerwerb bewirtschaftet bis die Landwirtschaft aufgegeben wurde, blieb aber danach von den Nachkommen der Familie weiterhin bewohnt."
@@ -4005,7 +3997,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 7,
+    "sortOrder": 8,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -4015,7 +4007,7 @@
   },
   {
     "id": "doc-1789499305864",
-    "sortOrder": 8,
+    "sortOrder": 9,
     "title": "Frühgeschichte von Rothenlachen von Dr. Ralf Keller",
     "year": 2024,
     "parent_id": "",
@@ -4220,7 +4212,7 @@
   },
   {
     "id": "doc-1788122459477",
-    "sortOrder": 9,
+    "sortOrder": 10,
     "title": "Karl Kuhn über sein Heimatdorf Wald",
     "year": 1982,
     "parent_id": "",
@@ -6353,7 +6345,7 @@
   },
   {
     "id": "doc-1786818951319",
-    "sortOrder": 10,
+    "sortOrder": 11,
     "title": "Malteser Hilfsdienst Wald ",
     "year": 1961,
     "parent_id": "",
@@ -7785,7 +7777,7 @@
   },
   {
     "id": "doc-1790019030359",
-    "sortOrder": 11,
+    "sortOrder": 12,
     "title": "Theatergesellschaft des TSV Wald",
     "year": 1960,
     "parent_id": "",
@@ -8082,7 +8074,7 @@
   },
   {
     "id": "doc-1788116720939",
-    "sortOrder": 12,
+    "sortOrder": 13,
     "title": "Das Hafnerhandwerk in Klosterwald",
     "year": 1960,
     "parent_id": "",
@@ -8495,7 +8487,7 @@
   },
   {
     "id": "doc-1786473902406",
-    "sortOrder": 13,
+    "sortOrder": 14,
     "title": "Artur Zeh ",
     "year": 1936,
     "parent_id": "",
@@ -8581,7 +8573,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 14,
+    "sortOrder": 15,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8624,7 +8616,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 15,
+    "sortOrder": 16,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8905,7 +8897,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 16,
+    "sortOrder": 17,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8942,7 +8934,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 17,
+    "sortOrder": 18,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -8979,7 +8971,7 @@
       "comments": []
     },
     "showInTimeline": false,
-    "sortOrder": 18,
+    "sortOrder": 19,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9014,7 +9006,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 19,
+    "sortOrder": 20,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9051,7 +9043,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 20,
+    "sortOrder": 21,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9061,7 +9053,7 @@
   },
   {
     "id": "doc-1787254000098",
-    "sortOrder": 21,
+    "sortOrder": 22,
     "title": "Kleine Reischachgeschichte ",
     "year": 2025,
     "parent_id": "",
@@ -9275,7 +9267,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 22,
+    "sortOrder": 23,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9322,7 +9314,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 23,
+    "sortOrder": 24,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9369,7 +9361,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 24,
+    "sortOrder": 25,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9416,7 +9408,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 25,
+    "sortOrder": 26,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9463,7 +9455,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 26,
+    "sortOrder": 27,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9510,7 +9502,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 27,
+    "sortOrder": 28,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9557,7 +9549,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 28,
+    "sortOrder": 29,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9604,7 +9596,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 29,
+    "sortOrder": 30,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9651,7 +9643,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 30,
+    "sortOrder": 31,
     "parent_id": "doc-1785531865123",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -9661,7 +9653,7 @@
   },
   {
     "id": "doc-1785531865123",
-    "sortOrder": 31,
+    "sortOrder": 32,
     "title": "Flurnamen",
     "year": 2023,
     "parent_id": "",
@@ -9694,7 +9686,7 @@
   },
   {
     "id": "doc-1786722552401",
-    "sortOrder": 32,
+    "sortOrder": 33,
     "title": "Artikel Südkurier \"Lobgesang auf die Heimschule\" ",
     "year": 2006,
     "parent_id": "",
@@ -9839,7 +9831,7 @@
   },
   {
     "id": "doc-1787253659074",
-    "sortOrder": 33,
+    "sortOrder": 34,
     "title": "200 Jahre Ortsgeschichte auf 6,5 Metern: Das Gemeindearchiv Walbertsweiler und seine Schätze",
     "year": 2006,
     "parent_id": "",
@@ -10441,7 +10433,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 34,
+    "sortOrder": 35,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10586,7 +10578,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 35,
+    "sortOrder": 36,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -10596,7 +10588,7 @@
   },
   {
     "id": "doc-1786299436771",
-    "sortOrder": 36,
+    "sortOrder": 37,
     "title": "Abbruch ehemalige Brauerei Seitz ",
     "year": 1992,
     "parent_id": "",
@@ -10828,7 +10820,7 @@
   },
   {
     "id": "doc-1786298665648",
-    "sortOrder": 37,
+    "sortOrder": 38,
     "title": "Artikel Südkurier Abbruch ehemalige Brauerei Seitz",
     "year": 1992,
     "parent_id": "",
@@ -10878,7 +10870,7 @@
   },
   {
     "id": "doc-1787255222324",
-    "sortOrder": 38,
+    "sortOrder": 39,
     "title": "Bau Kläranlage Gemeinde Wald 1987 - 1989",
     "year": 1987,
     "parent_id": "",
@@ -11361,7 +11353,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 39,
+    "sortOrder": 40,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11480,7 +11472,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 40,
+    "sortOrder": 41,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11695,7 +11687,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 41,
+    "sortOrder": 42,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11754,7 +11746,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 42,
+    "sortOrder": 43,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11957,7 +11949,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 43,
+    "sortOrder": 44,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -11967,7 +11959,7 @@
   },
   {
     "id": "doc-1787257054916",
-    "sortOrder": 44,
+    "sortOrder": 45,
     "title": "Besuch Landrat Diemtar Schlee in Wald ",
     "year": 1972,
     "parent_id": "",
@@ -12163,7 +12155,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 45,
+    "sortOrder": 46,
     "parent_id": "",
     "coverPhotoId": "54983295602",
     "showInArchive": true,
@@ -12553,7 +12545,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 46,
+    "sortOrder": 47,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -12563,7 +12555,7 @@
   },
   {
     "id": "doc-1787256698960",
-    "sortOrder": 47,
+    "sortOrder": 48,
     "title": "Prämierung von Zuchttieren in Wald ",
     "year": 1969,
     "parent_id": "",
@@ -12652,7 +12644,7 @@
   },
   {
     "id": "doc-1786300517640",
-    "sortOrder": 48,
+    "sortOrder": 49,
     "title": "Artikel Schwäbische Zeitung \"Bedeutungsvoller Wechsel an der Spitze der Gemeinde Wald\"",
     "year": 1969,
     "parent_id": "",
@@ -12728,7 +12720,7 @@
   },
   {
     "id": "doc-1786475696502",
-    "sortOrder": 49,
+    "sortOrder": 50,
     "title": "Artikel Südkurier \"Bürgermeister-Kandidat Zeh stellte sich vor\"",
     "year": 1969,
     "parent_id": "",
@@ -12765,7 +12757,7 @@
   },
   {
     "id": "doc-1786721635004",
-    "sortOrder": 50,
+    "sortOrder": 51,
     "title": "Artikel Südkurier \"Bürgermeisterkandidat stellt sich in Wald vor\"",
     "year": 1969,
     "parent_id": "",
@@ -12964,7 +12956,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 51,
+    "sortOrder": 52,
     "parent_id": "",
     "coverPhotoId": "53536514392",
     "showInArchive": true,
@@ -12974,7 +12966,7 @@
   },
   {
     "id": "doc-1786385281676",
-    "sortOrder": 52,
+    "sortOrder": 53,
     "title": "Artikel Südkurier \"Vom Handelspionier in Afrika zum Bürgermeister in Wald\" ",
     "year": 1966,
     "parent_id": "",
@@ -13053,7 +13045,7 @@
       "local_mmkvq2lrf1sm4f"
     ],
     "showInTimeline": true,
-    "sortOrder": 53,
+    "sortOrder": 54,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13148,7 +13140,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 54,
+    "sortOrder": 55,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13195,7 +13187,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 55,
+    "sortOrder": 56,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13628,7 +13620,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 56,
+    "sortOrder": 57,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -13638,7 +13630,7 @@
   },
   {
     "id": "doc-1785745496977",
-    "sortOrder": 57,
+    "sortOrder": 58,
     "title": "Walder Chronik für 1955",
     "year": 1955,
     "parent_id": "",
@@ -13727,7 +13719,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 58,
+    "sortOrder": 59,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14002,7 +13994,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 59,
+    "sortOrder": 60,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14349,7 +14341,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 60,
+    "sortOrder": 61,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14600,7 +14592,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 61,
+    "sortOrder": 62,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -14767,7 +14759,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 62,
+    "sortOrder": 63,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15006,7 +14998,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 63,
+    "sortOrder": 64,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15149,7 +15141,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 64,
+    "sortOrder": 65,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15316,7 +15308,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 65,
+    "sortOrder": 66,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15423,7 +15415,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 66,
+    "sortOrder": 67,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15532,7 +15524,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 67,
+    "sortOrder": 68,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15785,7 +15777,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 68,
+    "sortOrder": 69,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15833,7 +15825,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 69,
+    "sortOrder": 70,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15922,7 +15914,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 70,
+    "sortOrder": 71,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15955,7 +15947,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 71,
+    "sortOrder": 72,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -15965,7 +15957,7 @@
   },
   {
     "id": "doc-1787249534405",
-    "sortOrder": 72,
+    "sortOrder": 73,
     "title": "Pfarrführer von Klosterwald 1950",
     "year": 1950,
     "parent_id": "",
@@ -16236,7 +16228,7 @@
   },
   {
     "id": "doc-1787255698270",
-    "sortOrder": 73,
+    "sortOrder": 74,
     "title": "Kirchenführer 1950",
     "year": 1950,
     "parent_id": "",
@@ -16434,7 +16426,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 74,
+    "sortOrder": 75,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16553,7 +16545,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 75,
+    "sortOrder": 76,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16604,7 +16596,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 76,
+    "sortOrder": 77,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16655,7 +16647,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 77,
+    "sortOrder": 78,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16700,7 +16692,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 78,
+    "sortOrder": 79,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16755,7 +16747,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 79,
+    "sortOrder": 80,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -16765,7 +16757,7 @@
   },
   {
     "id": "doc-1787493799966",
-    "sortOrder": 80,
+    "sortOrder": 81,
     "title": "Fasnet in Wald",
     "year": 1933,
     "parent_id": "",
@@ -18047,7 +18039,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 81,
+    "sortOrder": 82,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18057,7 +18049,7 @@
   },
   {
     "id": "doc-1786905604677",
-    "sortOrder": 82,
+    "sortOrder": 83,
     "title": "Radfahrerverein \"Gemütlichkeit\" Riedetsweiler ",
     "year": 1930,
     "parent_id": "",
@@ -18426,7 +18418,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 83,
+    "sortOrder": 84,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18463,7 +18455,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 84,
+    "sortOrder": 85,
     "parent_id": "",
     "coverPhotoId": "55019939733",
     "showInArchive": true,
@@ -18521,7 +18513,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 85,
+    "sortOrder": 86,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18584,7 +18576,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 86,
+    "sortOrder": 87,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18639,7 +18631,7 @@
       "54631349988"
     ],
     "showInTimeline": true,
-    "sortOrder": 87,
+    "sortOrder": 88,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18703,7 +18695,7 @@
     ],
     "transcription": "",
     "showInTimeline": true,
-    "sortOrder": 88,
+    "sortOrder": 89,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18738,7 +18730,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 89,
+    "sortOrder": 90,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -18748,7 +18740,7 @@
   },
   {
     "id": "doc-1787253273732",
-    "sortOrder": 90,
+    "sortOrder": 91,
     "title": "Elisabethen-Verein Satzung 1909",
     "year": 1909,
     "parent_id": "",
@@ -18915,7 +18907,7 @@
   },
   {
     "id": "doc-1787254622068",
-    "sortOrder": 91,
+    "sortOrder": 92,
     "title": "Lageplan von 1908",
     "year": 1908,
     "parent_id": "",
@@ -19022,7 +19014,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 92,
+    "sortOrder": 93,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -19072,7 +19064,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 93,
+    "sortOrder": 94,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -19082,7 +19074,7 @@
   },
   {
     "id": "doc-1787250638863",
-    "sortOrder": 94,
+    "sortOrder": 95,
     "title": "Mission in Wald 1904",
     "year": 1904,
     "parent_id": "",
@@ -19197,7 +19189,7 @@
   },
   {
     "id": "doc-1786472052797",
-    "sortOrder": 95,
+    "sortOrder": 96,
     "title": "Josef Kaiser ",
     "year": 1901,
     "parent_id": "",
@@ -19428,7 +19420,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 96,
+    "sortOrder": 97,
     "parent_id": "",
     "coverPhotoId": "local_moin19f417uku2",
     "showInArchive": true,
@@ -19632,7 +19624,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 97,
+    "sortOrder": 98,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -19851,7 +19843,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 98,
+    "sortOrder": 99,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21047,7 +21039,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 99,
+    "sortOrder": 100,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21083,7 +21075,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 100,
+    "sortOrder": 101,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21139,7 +21131,7 @@
       ]
     },
     "showInTimeline": true,
-    "sortOrder": 101,
+    "sortOrder": 102,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21149,7 +21141,7 @@
   },
   {
     "id": "doc-1787254340266",
-    "sortOrder": 102,
+    "sortOrder": 103,
     "title": "Lageplan von Wald 1888 ",
     "year": 1888,
     "parent_id": "",
@@ -21243,7 +21235,7 @@
   },
   {
     "id": "doc-1785743391892",
-    "sortOrder": 103,
+    "sortOrder": 104,
     "title": "Orts-Chronik Ruhestetten 1876",
     "year": 1876,
     "parent_id": "",
@@ -21324,7 +21316,7 @@
     "pdfIds": [],
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 104,
+    "sortOrder": 105,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21369,7 +21361,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 105,
+    "sortOrder": 106,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21419,7 +21411,7 @@
     },
     "albumPhotoIds": [],
     "showInTimeline": true,
-    "sortOrder": 106,
+    "sortOrder": 107,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21429,7 +21421,7 @@
   },
   {
     "id": "doc-1786353025774",
-    "sortOrder": 107,
+    "sortOrder": 108,
     "title": "Die Vermessung von Wald ",
     "year": 1775,
     "parent_id": "",
@@ -21503,7 +21495,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 108,
+    "sortOrder": 109,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21554,7 +21546,7 @@
       "comments": []
     },
     "showInTimeline": true,
-    "sortOrder": 109,
+    "sortOrder": 110,
     "parent_id": "",
     "coverPhotoId": "",
     "showInArchive": true,
@@ -21564,7 +21556,7 @@
   },
   {
     "id": "doc-1786351547532",
-    "sortOrder": 110,
+    "sortOrder": 111,
     "title": "Geschichte des Klosters Wald ",
     "year": 1212,
     "parent_id": "",
