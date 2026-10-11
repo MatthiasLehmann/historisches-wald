@@ -16586,12 +16586,13 @@
       "Adressbuch"
     ],
     "location": "Hippetsweiler",
-    "description": "<p>Hohenzollerische Heimatbücherei</p>",
-    "transcription": "<p></p>",
+    "description": "<p>Das Adressverzeichnis von 1935 kann hier unter \"PDF als Original öffnen\" eingesehen werden.</p><p>Das Original haben wir in der Spezialbibliothek „Hohenzollerische Heimatbücherei“ in Hechingen gefunden, einer öffentlichen Leihbücherei, dessen Träger die Stadt Hechingen und der Zollernalbkreis ist.</p><p>Adressbücher wurden früher nicht nur von Ämtern erstellt, sondern oft auch von Verlagen, so z. B. von M. Liehners Hofbuchdruckerei, Sigmaringen. Anfangs waren nur Adlige und besondere Berufsstände aufgeführt, nach und nach neben allgemeinen Informationen auch Gewerbetreibende, landwirtschaftliche Betriebe, Gasthäuser, usw. Das gewöhnliche Volk wurde später mit aufgenommen, allerdings meistens nur der jeweilige Haushaltsvorstand. Eine Vollständigkeit wurde nicht garantiert.</p>",
+    "transcription": "<p>Das Adressverzeichnis 1935:</p><p>Das Original des hier veröffentlichten Adressverzeichnisses von 1935 haben wir in der Spezialbibliothek „Hohenzollerische Heimatbücherei“ in Hechingen gefunden, einer öffentlichen Leihbücherei, dessen Träger die Stadt Hechingen und der Zollernalbkreis ist.</p><p>Adressbücher wurden früher nicht nur von Ämtern erstellt, sondern oft auch von Verlagen, so z. B. von M. Liehners Hofbuchdruckerei, Sigmaringen. Anfangs waren nur Adlige und besondere Berufsstände aufgeführt, nach und nach neben allgemeinen Informationen auch Gewerbetreibende, landwirtschaftliche Betriebe, Gasthäuser, usw. Das gewöhnliche Volk wurde später mit aufgenommen, allerdings meistens nur der jeweilige Haushaltsvorstand. Eine Vollständigkeit wurde nicht garantiert.</p>",
     "images": [
       {
         "id": "local_mmatbi6xiwqmdz",
         "src": "/files/images/thumbnails/album-1772554728723-820826433-thumb.jpg",
+        "original": "/files/images/album-1772554728723-820826433.png",
         "title": "Adressbuch 1935",
         "description": "Adressbücher aus dem Jahre 1935",
         "type": "album",
@@ -16625,8 +16626,88 @@
     "coverPhotoId": "",
     "showInArchive": true,
     "showInWordCloud": true,
-    "descriptionJson": null,
-    "transcriptionJson": null
+    "descriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Das Adressverzeichnis von 1935 kann hier unter \"PDF als Original öffnen\" eingesehen werden."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Das Original haben wir in der Spezialbibliothek „Hohenzollerische Heimatbücherei“ in Hechingen gefunden, einer öffentlichen Leihbücherei, dessen Träger die Stadt Hechingen und der Zollernalbkreis ist."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Adressbücher wurden früher nicht nur von Ämtern erstellt, sondern oft auch von Verlagen, so z. B. von M. Liehners Hofbuchdruckerei, Sigmaringen. Anfangs waren nur Adlige und besondere Berufsstände aufgeführt, nach und nach neben allgemeinen Informationen auch Gewerbetreibende, landwirtschaftliche Betriebe, Gasthäuser, usw. Das gewöhnliche Volk wurde später mit aufgenommen, allerdings meistens nur der jeweilige Haushaltsvorstand. Eine Vollständigkeit wurde nicht garantiert."
+            }
+          ]
+        }
+      ]
+    },
+    "transcriptionJson": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Das Adressverzeichnis 1935:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Das Original des hier veröffentlichten Adressverzeichnisses von 1935 haben wir in der Spezialbibliothek „Hohenzollerische Heimatbücherei“ in Hechingen gefunden, einer öffentlichen Leihbücherei, dessen Träger die Stadt Hechingen und der Zollernalbkreis ist."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Adressbücher wurden früher nicht nur von Ämtern erstellt, sondern oft auch von Verlagen, so z. B. von M. Liehners Hofbuchdruckerei, Sigmaringen. Anfangs waren nur Adlige und besondere Berufsstände aufgeführt, nach und nach neben allgemeinen Informationen auch Gewerbetreibende, landwirtschaftliche Betriebe, Gasthäuser, usw. Das gewöhnliche Volk wurde später mit aufgenommen, allerdings meistens nur der jeweilige Haushaltsvorstand. Eine Vollständigkeit wurde nicht garantiert."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "doc-1776025448371",
