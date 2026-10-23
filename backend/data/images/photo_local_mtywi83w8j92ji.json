@@ -1,8 +1,8 @@
 {
   "id": "local_mtywi83w8j92ji",
-  "name": "Bei der Feldarbeit.png",
-  "description": "",
-  "date_taken": "",
+  "name": "Bei der Feldarbeit",
+  "description": "Bei der Feldarbeit 1955, Umspannstation vor dem neuen Wohnhaus Heim im Hintergrund",
+  "date_taken": "1955",
   "photopage": "",
   "original": "/files/images/album-1789248745798-517694982.png",
   "preview": "/files/images/thumbnails/album-1789248745798-517694982-thumb.jpg",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:32:25.868Z",
-  "updatedAt": "2026-09-12T21:32:25.868Z"
+  "updatedAt": "2026-10-08T11:46:04.183Z",
+  "source": "Foto Hermann Heim"
 }

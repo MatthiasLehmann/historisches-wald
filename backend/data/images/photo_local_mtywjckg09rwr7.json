@@ -1,8 +1,8 @@
 {
   "id": "local_mtywjckg09rwr7",
-  "name": "Hof Restle Südseite.png",
-  "description": "",
-  "date_taken": "",
+  "name": "Hof Restle Südseite",
+  "description": "Restle-Hof Längsseite 1964, Höhenstraße 3",
+  "date_taken": "1964",
   "photopage": "",
   "original": "/files/images/album-1789248798277-314149184.png",
   "preview": "/files/images/thumbnails/album-1789248798277-314149184-thumb.jpg",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:33:18.304Z",
-  "updatedAt": "2026-09-12T21:33:18.304Z"
+  "updatedAt": "2026-10-08T11:15:08.251Z",
+  "source": "Bildarchiv Foto Marburg/ Helga Schmidt-Glassner"
 }

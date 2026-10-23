@@ -1,8 +1,8 @@
 {
   "id": "local_mtywj7990gigmz",
-  "name": "Hof Josef Halder.png",
-  "description": "",
-  "date_taken": "",
+  "name": "Hof Josef Halder",
+  "description": "Hof von Josef Halder, Höhenstraße 5",
+  "date_taken": "ca. 1930",
   "photopage": "",
   "original": "/files/images/album-1789248791352-429294050.png",
   "preview": "/files/images/thumbnails/album-1789248791352-429294050-thumb.jpg",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:33:11.421Z",
-  "updatedAt": "2026-09-12T21:33:11.421Z"
+  "updatedAt": "2026-10-08T11:05:57.653Z",
+  "source": "Familie Halder"
 }

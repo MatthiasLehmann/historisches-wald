@@ -1,8 +1,8 @@
 {
   "id": "local_mmv2hviofebe7z",
-  "name": "Höhenstraße 8.jpg",
-  "description": "",
-  "date_taken": "",
+  "name": "Höhenstraße 8",
+  "description": "1953",
+  "date_taken": "1953",
   "photopage": "",
   "original": "/files/images/album-1773779465212-941847954.jpg",
   "preview": "/files/images/thumbnails/album-1773779465212-941847954-thumb.jpg",
@@ -21,5 +21,5 @@
   },
   "missing": false,
   "createdAt": "2026-03-17T20:31:06.219Z",
-  "updatedAt": "2026-03-17T20:31:06.219Z"
+  "updatedAt": "2026-10-08T12:50:59.197Z"
 }

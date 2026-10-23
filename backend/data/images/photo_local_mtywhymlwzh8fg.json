@@ -1,7 +1,7 @@
 {
   "id": "local_mtywhymlwzh8fg",
-  "name": "Backhaus Waschhaus Altenteil.png",
-  "description": "",
+  "name": "Back- und Waschhaus",
+  "description": "Back- und Waschhaus und Altenteil, erbaut ca. 1834 \nAbgerissen, heute Wohnhaus Höhenstraße 7 (Foto Gebhard Halder)",
   "date_taken": "",
   "photopage": "",
   "original": "/files/images/album-1789248733517-320483920.png",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:32:13.582Z",
-  "updatedAt": "2026-09-12T21:32:13.582Z"
+  "updatedAt": "2026-10-08T11:10:35.585Z",
+  "source": "Gebhard Halder"
 }

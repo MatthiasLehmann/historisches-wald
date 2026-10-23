@@ -1,6 +1,21 @@
 {
   "albums": [
     {
+      "id": "local_mv4a1chpzd1q6p",
+      "title": "0031_Adressbuch_Hippetsweiler_1935",
+      "description": "",
+      "url": "",
+      "cover_photo": "/files/images/thumbnails/album-1791750651956-106522460-thumb.jpg",
+      "photo_count": 2,
+      "created": 1791750586,
+      "last_updated": 1791750652,
+      "parent_id": "",
+      "photos": [
+        "local_mv4a2rdzv0u05p",
+        "local_mv4a2fh0s8b9zq"
+      ]
+    },
+    {
       "id": "local_mus7t4hxleewc5",
       "title": "0454 Historisches Rothenlachen neu",
       "description": "",
@@ -38,11 +53,12 @@
       "description": "",
       "url": "",
       "cover_photo": "/files/images/thumbnails/album-1789250286219-490124899-thumb.jpg",
-      "photo_count": 19,
+      "photo_count": 20,
       "created": 1789244022,
-      "last_updated": 1789250286,
+      "last_updated": 1791459554,
       "parent_id": "",
       "photos": [
+        "local_muzgrittmao08l",
         "local_mtyxf8oc67fr5m",
         "local_mtyx9smkyy4mm5",
         "local_mtywktsupivln1",
@@ -121,13 +137,13 @@
     },
     {
       "id": "local_momq25zpq6oxcq",
-      "title": "0601_Ehrenbürger",
+      "title": "601_Ehrenbürger",
       "description": "Ehrenbürger der Gemeinde Wald",
       "url": "",
       "cover_photo": "",
       "photo_count": 2,
       "created": 1777628413,
-      "last_updated": 1791106579,
+      "last_updated": 1791445437,
       "parent_id": "",
       "photos": [
         "local_momq73ledvfz08",
@@ -373,13 +389,13 @@
     },
     {
       "id": "local_mmatazcvzlr255",
-      "title": "Adressbücher",
-      "description": "Adressbücher zu den verschiedenen Jahren rund um Wald",
+      "title": "0030_Adressbuch_ Wald_1935",
+      "description": "Adressbücher von 1935",
       "url": "",
       "cover_photo": "",
       "photo_count": 1,
       "created": 1772554704,
-      "last_updated": 1772554728,
+      "last_updated": 1791750517,
       "parent_id": "72177720329671887",
       "photos": [
         "local_mmatbi6xiwqmdz"
@@ -2140,25 +2156,25 @@
       "parent_id": "72177720329671897"
     },
     {
-      "photo_count": "25",
+      "photo_count": 25,
       "id": "72177720331625055",
       "url": "https://www.flickr.com/photos//albums/72177720331625055",
       "title": "0301_Walbertsweiler_Postkarten",
       "description": "Alle Postkarten ohne Text für Website",
       "view_count": "0",
       "created": "1769273615",
-      "last_updated": 1787252553,
+      "last_updated": 1791527227,
       "cover_photo": "",
       "photos": [
+        "54629981887",
         "54630851236",
         "54629981857",
         "54631071048",
         "54629982347",
         "54631055239",
-        "54631055194",
         "54631155500",
+        "54631055194",
         "54631070918",
-        "54629981887",
         "54631054979",
         "54629981912",
         "54631155280",
@@ -3199,7 +3215,7 @@
       "description": "",
       "view_count": "0",
       "created": "1762462865",
-      "last_updated": 1773174774,
+      "last_updated": 1791445470,
       "cover_photo": "https://www.flickr.com/photos//0",
       "photos": [
         "54905592387",

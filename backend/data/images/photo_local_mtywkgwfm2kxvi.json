@@ -1,8 +1,8 @@
 {
   "id": "local_mtywkgwfm2kxvi",
-  "name": "Höhenstraße 6 und 2.png",
-  "description": "",
-  "date_taken": "",
+  "name": "Höhenstraße 6 und 2",
+  "description": "Höhenstraße 6 (Mitte) und Höhenstraße 2 (rechts), abgerissen\nca. 1958",
+  "date_taken": "ca. 1958",
   "photopage": "",
   "original": "/files/images/album-1789248850540-217008458.png",
   "preview": "/files/images/thumbnails/album-1789248850540-217008458-thumb.jpg",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:34:10.575Z",
-  "updatedAt": "2026-09-12T22:06:53.137Z"
+  "updatedAt": "2026-10-08T11:29:43.561Z",
+  "source": "Foto Gabriele Kraft"
 }

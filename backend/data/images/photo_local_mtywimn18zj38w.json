@@ -1,8 +1,8 @@
 {
   "id": "local_mtywimn18zj38w",
-  "name": "Familie Halder ca. 1919.png",
-  "description": "",
-  "date_taken": "",
+  "name": "Familie Halder",
+  "description": "Familie Halder ca. 1919, Höhenstraße 5",
+  "date_taken": "ca. 1919",
   "photopage": "",
   "original": "/files/images/album-1789248764640-666723796.png",
   "preview": "/files/images/thumbnails/album-1789248764640-666723796-thumb.jpg",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:32:44.701Z",
-  "updatedAt": "2026-09-12T21:32:44.701Z"
+  "updatedAt": "2026-10-08T08:00:21.291Z",
+  "source": "Familie Halder"
 }

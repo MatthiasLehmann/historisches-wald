@@ -1,7 +1,7 @@
 {
   "id": "local_mtyxf8oc67fr5m",
-  "name": "Neues Wohnhaus Hohenbrül 1.png",
-  "description": "",
+  "name": "Neues Wohnhaus Hohenbrül 1",
+  "description": "Hohenbrühl 1, neues Wohnhaus erbaut 1935\nvon Eugen Jutz",
   "date_taken": "",
   "photopage": "",
   "original": "/files/images/album-1789250286219-490124899.png",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:58:06.252Z",
-  "updatedAt": "2026-09-12T21:58:06.252Z"
+  "updatedAt": "2026-10-08T11:26:15.826Z",
+  "source": "Foto Emmy Blomeyer"
 }

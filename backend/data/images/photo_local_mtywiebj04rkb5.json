@@ -1,8 +1,8 @@
 {
   "id": "local_mtywiebj04rkb5",
-  "name": "Familie Anton Heim.png",
-  "description": "",
-  "date_taken": "",
+  "name": "Familie Anton Heim",
+  "description": "Höhenstraße 20, Familie Anton Heim, ca. 1915",
+  "date_taken": "ca. 1915",
   "photopage": "",
   "original": "/files/images/album-1789248753859-237331792.png",
   "preview": "/files/images/thumbnails/album-1789248753859-237331792-thumb.jpg",
@@ -21,5 +21,6 @@
   },
   "missing": false,
   "createdAt": "2026-09-12T21:32:33.919Z",
-  "updatedAt": "2026-09-12T21:32:33.919Z"
+  "updatedAt": "2026-10-08T11:48:23.430Z",
+  "source": "Foto Alfons Heim"
 }

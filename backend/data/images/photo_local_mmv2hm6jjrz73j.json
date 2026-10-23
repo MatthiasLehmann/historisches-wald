@@ -1,8 +1,8 @@
 {
   "id": "local_mmv2hm6jjrz73j",
-  "name": "Höhenstraße 5.jpg",
-  "description": "",
-  "date_taken": "",
+  "name": "Höhenstraße 5",
+  "description": "1953",
+  "date_taken": "1953",
   "photopage": "",
   "original": "/files/images/album-1773779453101-486801553.jpg",
   "preview": "/files/images/thumbnails/album-1773779453101-486801553-thumb.jpg",
@@ -21,5 +21,5 @@
   },
   "missing": false,
   "createdAt": "2026-03-17T20:30:54.091Z",
-  "updatedAt": "2026-03-17T20:30:54.091Z"
+  "updatedAt": "2026-10-08T12:51:30.883Z"
 }

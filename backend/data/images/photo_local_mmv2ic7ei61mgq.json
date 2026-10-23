@@ -1,8 +1,8 @@
 {
   "id": "local_mmv2ic7ei61mgq",
-  "name": "Höhenstraße 14.jpg",
-  "description": "",
-  "date_taken": "",
+  "name": "Höhenstraße 14",
+  "description": "1953",
+  "date_taken": "1953",
   "photopage": "",
   "original": "/files/images/album-1773779484825-724540594.jpg",
   "preview": "/files/images/thumbnails/album-1773779484825-724540594-thumb.jpg",
@@ -21,5 +21,5 @@
   },
   "missing": false,
   "createdAt": "2026-03-17T20:31:27.819Z",
-  "updatedAt": "2026-03-17T20:31:27.819Z"
+  "updatedAt": "2026-10-08T12:50:35.709Z"
 }

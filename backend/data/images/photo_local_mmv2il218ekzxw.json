@@ -1,8 +1,8 @@
 {
   "id": "local_mmv2il218ekzxw",
-  "name": "Höhenstraße 16.jpg",
-  "description": "",
-  "date_taken": "",
+  "name": "Höhenstraße 16",
+  "description": "1953",
+  "date_taken": "1953",
   "photopage": "",
   "original": "/files/images/album-1773779498317-104534576.jpg",
   "preview": "/files/images/thumbnails/album-1773779498317-104534576-thumb.jpg",
@@ -21,5 +21,5 @@
   },
   "missing": false,
   "createdAt": "2026-03-17T20:31:39.308Z",
-  "updatedAt": "2026-03-17T20:31:39.308Z"
+  "updatedAt": "2026-10-08T12:49:14.049Z"
 }
