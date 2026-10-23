@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion as Motion, AnimatePresence } from 'framer-motion';
+import ArchiveSearch from './ArchiveSearch';
 import logo from '../assets/logo-historisches-wald.png';
 
 const Header = () => {
@@ -45,7 +46,7 @@ const Header = () => {
 
     return (
         <header className="bg-parchment/90 backdrop-blur-sm sticky top-0 z-50 border-b border-parchment-dark shadow-sm">
-            <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div className="container mx-auto px-4 py-4 flex flex-wrap justify-between items-center gap-4">
                 <Link to="/" className="flex items-center gap-3 group">
                     <div className="relative w-12 h-12 rounded-sm overflow-hidden border border-parchment-dark shadow-sm bg-parchment">
                         <img
@@ -61,7 +62,7 @@ const Header = () => {
                 </Link>
 
                 {/* Desktop Navigation */}
-                <nav className="hidden md:flex gap-8 font-sans items-center">
+                <nav className="hidden md:flex flex-wrap justify-end gap-x-5 gap-y-3 font-sans items-center">
                     {primaryNavItems.map((item) => (
                         <Link
                             key={item.path}
@@ -130,9 +131,15 @@ const Header = () => {
                     </Link>
                 </nav>
 
+                <div className="hidden md:block w-full lg:w-56 lg:ml-auto">
+                    <ArchiveSearch />
+                </div>
+
                 {/* Mobile Menu Button */}
                 <button
                     className="md:hidden text-ink p-2"
+                    aria-label={isOpen ? 'Menü schließen' : 'Menü öffnen'}
+                    aria-expanded={isOpen}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -149,6 +156,7 @@ const Header = () => {
                         className="md:hidden bg-parchment border-t border-parchment-dark overflow-hidden"
                     >
                         <nav className="flex flex-col p-4 gap-4">
+                            <ArchiveSearch onSubmit={() => setIsOpen(false)} />
                             {primaryNavItems.map((item) => (
                                 <Link
                                     key={item.path}

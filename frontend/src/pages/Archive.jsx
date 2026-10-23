@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import DocumentCard from '../components/DocumentCard';
 import CategoryFilter from '../components/CategoryFilter';
 import categoriesData from '../data/categories.json';
-import { fetchDocuments } from '../services/api';
+import { fetchPublicArchiveDocuments } from '../services/api';
 
 const flattenCategories = (categories) => {
     const map = {};
@@ -84,16 +85,28 @@ const matchesCategoryNode = (doc, node) => {
 
 const Archive = () => {
     const [selectedCategories, setSelectedCategories] = useState([]);
-    const [searchTerm, setSearchTerm] = useState('');
+    const [searchParams, setSearchParams] = useSearchParams();
+    const searchTerm = searchParams.get('q') || '';
+    const setSearchTerm = (value) => {
+        setSearchParams((previous) => {
+            const next = new URLSearchParams(previous);
+            if (value) next.set('q', value);
+            else next.delete('q');
+            return next;
+        }, { replace: true });
+    };
     const [documents, setDocuments] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [loadedSearchTerm, setLoadedSearchTerm] = useState(null);
 
     useEffect(() => {
         let ignore = false;
         const loadDocuments = async () => {
+            setIsLoading(true);
+            setError(null);
             try {
-                const data = await fetchDocuments();
+                const data = await fetchPublicArchiveDocuments(searchTerm.trim());
                 if (!ignore) {
                     setDocuments(data);
                 }
@@ -105,15 +118,17 @@ const Archive = () => {
             } finally {
                 if (!ignore) {
                     setIsLoading(false);
+                    setLoadedSearchTerm(searchTerm);
                 }
             }
         };
 
-        loadDocuments();
+        const timer = setTimeout(loadDocuments, 250);
         return () => {
             ignore = true;
+            clearTimeout(timer);
         };
-    }, []);
+    }, [searchTerm]);
 
     const toggleCategory = (categoryId) => {
         if (categoryId === 'RESET') {
@@ -136,18 +151,10 @@ const Archive = () => {
         return uniqueRequiredNodes.every((node) => matchesCategoryNode(doc, node));
     }, [selectedCategories]);
 
-    const filteredDocuments = useMemo(() => documents.filter(doc => {
-        const isApproved = doc?.review?.status === 'approved' && doc?.showInArchive !== false;
-        if (!isApproved) {
-            return false;
-        }
-        const matchesCategory = matchesCategorySelection(doc);
-
-        const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            doc.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            doc.year.toString().includes(searchTerm);
-        return matchesCategory && matchesSearch;
-    }), [documents, searchTerm, matchesCategorySelection]);
+    const filteredDocuments = useMemo(
+        () => documents.filter(matchesCategorySelection),
+        [documents, matchesCategorySelection]
+    );
 
     return (
         <div className="container mx-auto px-4 py-8">
@@ -160,7 +167,7 @@ const Archive = () => {
 
             <div className="flex flex-col lg:flex-row gap-8">
                 <aside className="lg:w-1/3">
-                    <div className="bg-parchment-dark/30 border border-parchment-dark rounded-sm p-4 max-h-[75vh] lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] flex flex-col min-h-0">
+                    <div className="bg-parchment-dark/30 border border-parchment-dark rounded-sm p-4 max-h-[75vh] lg:sticky lg:top-48 lg:max-h-[calc(100vh-13rem)] flex flex-col min-h-0">
                         <h2 className="text-sm font-semibold uppercase tracking-[0.3em] text-ink/50 mb-3">Kategorien</h2>
                         <CategoryFilter
                             categories={categoriesData}
@@ -176,7 +183,8 @@ const Archive = () => {
                             <Search size={20} />
                         </div>
                         <input
-                            type="text"
+                            type="search"
+                            aria-label="Archiv durchsuchen"
                             placeholder="Suchen nach Titel, Jahr oder Stichwort..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
@@ -185,7 +193,7 @@ const Archive = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-                        {isLoading ? (
+                        {isLoading || loadedSearchTerm !== searchTerm ? (
                             <p className="col-span-full text-center text-ink/60">Dokumente werden geladen...</p>
                         ) : error ? (
                             <p className="col-span-full text-center text-red-600">{error}</p>

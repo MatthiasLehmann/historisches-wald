@@ -321,3 +321,18 @@ export const fetchDashboardSummary = async () => {
     });
     return handleResponse(response);
 };
+
+// Fetch every result page so local category filtering never omits later matches.
+export const fetchPublicArchiveDocuments = async (q = '') => {
+    const fetchPage = async (page) => {
+        const response = await fetch(`${API_BASE}/public/documents${serializeParams({ q, page, pageSize: 60 })}`);
+        return handleResponse(response);
+    };
+    const first = await fetchPage(1);
+    const items = [...first.items];
+    for (let page = 2; page <= first.pagination.totalPages; page += 1) {
+        const result = await fetchPage(page);
+        items.push(...result.items);
+    }
+    return items;
+};
