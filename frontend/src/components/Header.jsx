@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion as Motion, AnimatePresence } from 'framer-motion';
 import ArchiveSearch from './ArchiveSearch';
-import logo from '../assets/logo-historisches-wald.png';
+import logo from '../assets/logo-historisches-wald-bereinigt.png';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);

@@ -240,7 +240,7 @@ const HomePage = () => {
   }
 
   const hero = data.featuredDocuments?.[0];
-  const heroImage = getImageSrc(hero?.coverImage) || '/files/images/logo-historisches-wald.png';
+  const heroImage = getImageSrc(hero?.coverImage) || '/app/images/logo-historisches-wald-bereinigt.png';
 
   return (
     <div className="page page--home">

@@ -4,7 +4,7 @@ import { ArrowRight, Clock, FileText, Map, Users, WholeWord } from 'lucide-react
 import { motion as Motion } from 'framer-motion';
 import DocumentCard from '../components/DocumentCard';
 import { fetchDocuments } from '../services/api';
-import logo from '../assets/logo-historisches-wald.png';
+import logo from '../assets/logo-historisches-wald-bereinigt.png';
 
 const discoveryLinks = [
     {

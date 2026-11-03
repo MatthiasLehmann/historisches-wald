@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
-import logo from '../assets/logo-historisches-wald.png';
+import logo from '../assets/logo-historisches-wald-bereinigt.png';
 
 const people = [
     'Matthias Lehmann',

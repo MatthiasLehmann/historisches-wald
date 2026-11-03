@@ -9,13 +9,13 @@
   "theme_color": "#8b5a2b",
   "icons": [
     {
-      "src": "/files/images/logo-historisches-wald.png",
+      "src": "/app/images/logo-historisches-wald-bereinigt.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/files/images/logo-historisches-wald.png",
+      "src": "/app/images/logo-historisches-wald-bereinigt.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
