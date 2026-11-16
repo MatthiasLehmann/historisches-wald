@@ -18,7 +18,7 @@ const Footer = () => {
                         <h4 className="font-serif font-bold mb-4 text-parchment/90">Kontakt</h4>
                         <div className="flex items-center gap-2 text-parchment/60 text-sm mb-2">
                             <Mail size={16} />
-                            <span>kontakt (at) historisches-wald.de</span>
+                            <span>info(at)historischeswald.de</span>
                         </div>
                     </div>
 
